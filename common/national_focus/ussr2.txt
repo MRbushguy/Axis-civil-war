@@ -226,13 +226,15 @@ focus_tree = {
 	    icon = GFX_focus_SOV_memories_of_rev
 
 	    prerequisite = { }
+ 
+        allow_branch = { NOT = { has_country_flag = unified_ssr } }
 
-		x = 27
+		x = 20
 		y = 2
  
 		cost = 1
 
-		completion_reward = {  add_war_support = 0.02	}
+		completion_reward = {  }
 
 	}
 
@@ -242,7 +244,7 @@ focus_tree = {
 
 	    prerequisite = { focus = SOV_motherland_question }
 
-		x = 27
+		x = 18
 		y = 3
  
 		cost = 1
@@ -255,10 +257,10 @@ focus_tree = {
 	    id = SOV_german_decline
 	    icon = GFX_focus_SOV_memories_of_rev
 
-	    prerequisite = { focus = SOV_worth_with_what_we_have }
+	    prerequisite = { focus = SOV_motherland_question }
 
-		x = 27
-		y = 4
+		x = 22
+		y = 3
  
 		cost = 1
 
@@ -267,43 +269,14 @@ focus_tree = {
 	}
 
 	focus = {
-	    id = SOV_our_neighbours_south
+	    id = SOV_ultimatum_ssrs
 	    icon = GFX_focus_SOV_memories_of_rev
 
 	    prerequisite = { focus = SOV_german_decline }
+		prerequisite = { focus = SOV_worth_with_what_we_have }
 
-		x = 27
-		y = 5
- 
-		cost = 1
-
-		completion_reward = {  add_war_support = 0.02	}
-
-	}
-
-	focus = {
-	    id = SOV_trip_to_afghanistan
-	    icon = GFX_focus_SOV_memories_of_rev
-
-	    prerequisite = { focus = SOV_our_neighbours_south }
-
-		x = 25
-		y = 6
- 
-		cost = 1
-
-		completion_reward = {  add_war_support = 0.02	}
-
-	}
-
-	focus = {
-	    id = SOV_demand_sinkiang
-	    icon = GFX_focus_SOV_memories_of_rev
-
-	    prerequisite = { focus = SOV_our_neighbours_south }
-
-		x = 29
-		y = 6
+		x = 20
+		y = 4
  
 		cost = 1
 
@@ -314,12 +287,11 @@ focus_tree = {
 	focus = {
 	    id = SOV_build_up_ssrs
 	    icon = GFX_focus_SOV_memories_of_rev
-
-	    prerequisite = { focus = SOV_trip_to_afghanistan}
-		prerequisite = { focus = SOV_demand_sinkiang  }
+ 
+        allow_branch = { has_country_flag = unified_ssr }
 
 		x = 27
-		y = 7
+		y = 1
  
 		cost = 1
 
@@ -331,10 +303,10 @@ focus_tree = {
 	    id = SOV_deal_with_the_west
 	    icon = GFX_focus_SOV_memories_of_rev
 
-	    prerequisite = { focus = SOV_build_up_ssrs}
+	    prerequisite = { focus = SOV_build_up_ssrs }
 
 		x = 32
-		y = 8
+		y = 2
  
 		cost = 1
 
@@ -349,7 +321,7 @@ focus_tree = {
 	    prerequisite = { focus = SOV_deal_with_the_west }
 
 		x = 30
-		y = 9
+		y = 3
  
 		cost = 1
 
@@ -364,7 +336,7 @@ focus_tree = {
 	    prerequisite = { focus = SOV_deal_with_the_west }
 
 		x = 34
-		y = 9
+		y = 3
  
 		cost = 1
 
@@ -380,7 +352,7 @@ focus_tree = {
 		prerequisite = { focus = SOV_anti_air}
 
 		x = 32
-		y = 10
+		y = 4
  
 		cost = 1
 
@@ -395,7 +367,7 @@ focus_tree = {
 	    prerequisite = { focus = SOV_infiltrate_west}
 
 		x = 32
-		y = 11
+		y = 5
  
 		cost = 1
 
@@ -411,7 +383,7 @@ focus_tree = {
 		prerequisite = { focus = SOV_arms_depot }
 
 		x = 27
-		y = 12
+		y = 6
  
 		cost = 1
 
@@ -426,7 +398,7 @@ focus_tree = {
 	    prerequisite = { focus = SOV_build_up_ssrs}
 
 		x = 22
-		y = 8
+		y = 2
  
 		cost = 1
 
@@ -441,7 +413,7 @@ focus_tree = {
 	    prerequisite = { focus = SOV_deal_with_the_east }
 
 		x = 20
-		y = 9
+		y = 3
  
 		cost = 1
 
@@ -456,7 +428,7 @@ focus_tree = {
 	    prerequisite = { focus = SOV_deal_with_the_east }
 
 		x = 24
-		y = 9
+		y = 3
  
 		cost = 1
 
@@ -472,7 +444,7 @@ focus_tree = {
 		prerequisite = { focus = SOV_raise_militia }
 
 		x = 22
-		y = 10
+		y = 4
  
 		cost = 1
 
@@ -487,7 +459,145 @@ focus_tree = {
 	    prerequisite = { focus = SOV_infiltrate_siberia }
 
 		x = 22
-		y = 11
+		y = 5
+ 
+		cost = 1
+
+		completion_reward = {  add_war_support = 0.02	}
+
+	}
+
+	focus = {
+	    id = SOV_army_sit
+	    icon = GFX_focus_SOV_memories_of_rev
+
+	    prerequisite = { }
+
+		x = 45
+		y = 1
+ 
+		cost = 1
+
+		completion_reward = {  add_war_support = 0.02	}
+
+	}
+
+	focus = {
+	    id = SOV_army_reorg
+	    icon = GFX_focus_SOV_memories_of_rev
+
+	    prerequisite = { focus = SOV_army_sit }
+
+		x = 44
+		y = 2
+ 
+		cost = 1
+
+		completion_reward = {  add_war_support = 0.02	}
+
+	}
+
+	focus = {
+	    id = SOV_army_re_requip
+	    icon = GFX_focus_SOV_memories_of_rev
+
+	    prerequisite = { focus = SOV_army_sit }
+
+		x = 46
+		y = 2
+ 
+		cost = 1
+
+		completion_reward = {  add_war_support = 0.02	}
+
+	}
+
+	focus = {
+	    id = SOV_into_the_age
+	    icon = GFX_focus_SOV_memories_of_rev
+
+	    prerequisite = { focus = SOV_army_reorg }
+		prerequisite = { focus = SOV_army_re_requip }
+
+		x = 45
+		y = 3
+ 
+		cost = 1
+
+		completion_reward = {  add_war_support = 0.02	}
+
+	}
+
+	focus = {
+	    id = SOV_infantry_boost
+	    icon = GFX_focus_SOV_memories_of_rev
+
+	    prerequisite = { focus = SOV_into_the_age }
+
+		x = 43
+		y = 4
+ 
+		cost = 1
+
+		completion_reward = {  add_war_support = 0.02	}
+
+	}
+
+	focus = {
+	    id = SOV_tank_boost
+	    icon = GFX_focus_SOV_memories_of_rev
+
+	    prerequisite = { focus = SOV_into_the_age }
+
+		x = 45
+		y = 4
+ 
+		cost = 1
+
+		completion_reward = {  add_war_support = 0.02	}
+
+	}
+
+	focus = {
+	    id = SOV_artilery_boost
+	    icon = GFX_focus_SOV_memories_of_rev
+
+	    prerequisite = { focus = SOV_into_the_age }
+
+		x = 47
+		y = 4
+ 
+		cost = 1
+
+		completion_reward = {  add_war_support = 0.02	}
+
+	}
+
+	focus = {
+	    id = SOV_begin_reforms
+	    icon = GFX_focus_SOV_memories_of_rev
+
+	    prerequisite = { focus = SOV_artilery_boost focus = SOV_infantry_boost  focus = SOV_tank_boost } 
+
+		x = 45
+		y = 5
+ 
+		cost = 1
+
+		completion_reward = {  add_war_support = 0.02	}
+
+	}
+
+	focus = {
+	    id = SOV_the_red_army
+	    icon = GFX_focus_SOV_memories_of_rev
+ 
+        available = { has_country_flag = sov_reformed_army }
+
+	    prerequisite = { focus = SOV_begin_reforms }
+
+		x = 45
+		y = 6
  
 		cost = 1
 
