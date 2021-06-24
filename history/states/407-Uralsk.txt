@@ -14,7 +14,11 @@ state={
 		victory_points = {
 			11537 1 
 		}
-
+	    1947.1.1 = {
+			owner = KAZ
+			controller = KAZ
+			add_core_of = KAZ
+		}
 	}
 
 	provinces={
