@@ -126,6 +126,10 @@
  RKC_fascism:0 "Reichskommissariat Kaukasien"
  RKC_fascism_DEF:0 "Reichskommissariat Kaukasien"
 
+
+ UPR_communism:0 "Ukranian Peasant Revolt"
+ UPR_democratic:0 "Republic of Ukraine"
+
  
  #Vanilla countries
  
