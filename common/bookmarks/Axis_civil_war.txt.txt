@@ -85,10 +85,8 @@ bookmarks = {
 				no_economy
 				collapsed_soc
 			}
-			focuses = {
-				SOV_trust_in_stalin				
+			focuses = {		
 				SOV_shattered_union
-				SOV_faith_comm
 			}
 		}
 		"CHI"={
