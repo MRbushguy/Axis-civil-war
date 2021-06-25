@@ -1,7 +1,9 @@
-﻿l_english:
+l_english:
 
  #ACW countries
  
+ OCC_ITA_subject:0 "Italian occupation zone of southern France"
+ OCC_ITA_subject_DEF:0 "The Italian occupation zone of southern France"
  OCC_fascism:0 "Imperialist Occitania"
  OCC_fascism_DEF:0 "Imperialist Occitania"
  OCC_democratic:0 "Occitania"
@@ -13,9 +15,6 @@
  OCC:0 "Occitania"
  OCC_DEF:0 "Occitania"
  OCC_ADJ:0 "Occitan"
- OCC_ITA_subject:0 "Occitanian State"
- OCC_ITA_subject_DEF:0 "the Occitanian State"
- OCC_ITA_subject_ADJ:1 "Occitanian"
  OCC_ENG_neutrality_subject:0 "Angevin Kingdom of Aquitaine"
  OCC_ENG_neutrality_subject_DEF:0 "the Angevin Kingdom of Aquitaine"
  OCC_ENG_neutrality_subject_ADJ:0 "Angevin"
@@ -125,10 +124,6 @@
  
  RKC_fascism:0 "Reichskommissariat Kaukasien"
  RKC_fascism_DEF:0 "Reichskommissariat Kaukasien"
-
-
- UPR_communism:0 "Ukranian Peasant Revolt"
- UPR_democratic:0 "Republic of Ukraine"
 
  
  #Vanilla countries
