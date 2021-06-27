@@ -1,15 +1,17 @@
-﻿l_english:
+l_english:
+
+#ACW
  national_socialism:0 "National Socialist"
  national_socialism_noun:0 "National Socialism"
  national_socialism_desc:0 "Corporatist Totalitarian Regime"
  
  final_nazism:0 "Esoteric National Socialism"
  final_nazism_noun:0 "Esoteric National Socialism"
- final_nazism_desc:0 "xddddadasfsdsd"
+ final_nazism_desc:0 "A mix of Italian fascism, rabid racism and anti semitism, and Extreme totalitarianism, §RNational socialism§! was built on the bitterness of the german people over the humiliation and chaos of the weltkrieg, and exploited by the far right figures such as Adolf hitler as an excuse to rise to power, and eventually to subjegate europe under their mighty boot. \n\nNational socialism differs from fascism in its extreme level of racism, every race has value, and "lower quality" races should either be enslaved for the benefits of the "superior races", or be entirely wiped out of existance. "
  
  esoteric_nazism:0 "Esoteric National Socialism"
  esoteric_nazism_noun:0 "Esoteric National Socialism"
- esoteric_nazism_desc:0 "Totalitarian Regime"
+ esoteric_nazism_desc:0 "§REsoteric National Socialism§! is the"
 
  fascism:0 "Fascist"
  fascism_noun:0 "Fascism"
@@ -17,12 +19,29 @@
  
  italian_fascism:0 "Italian Fascism"
  italian_fascism_noun:0 "Italian Fascism"
- italian_fascism_desc:0 "Born from the betrayal of italy after ww1, fascism is a hardline nationalist far right ideology that believes in the priority of the country and the leader first and formost, and that the best way for the citizens to live a comfortable life is to serve the country above all"
+ italian_fascism_desc:0 "Born from the betrayal of italy after the first guerra mondiale, §YItalian Fascism§! is a hardline nationalist far right ideology that believes in the priority of the country and the leader first and formost. Millitaristic in nature, Italian Fascism also belives in glories of the past, and is often very expansionist. For Italian Fascist, the best way for the citizens to live a comfortable and high quality life is to serve the country above all else and protect it at all cost"
  
- japanese_fascism:0 "Japanese Fascism"
+ pragmatic_fascism:0 "Pragmatic Fascism"
+ pragmatic_fascism_noun:0 "Pragmatic Fascism"
+ pragmatic_fascism_desc:0 "§YPragmatic Fascism§! has the skeleton of italian fascism, (nationalism, millitarism, etc). but believes that no ideology stays the same forever, and that in order for Italian Fascism to stay relevant in the future, it needs to constantly change and adapt to the time and surroundings. But not without limitations, and while pragmatic fascism vows to change things, it is only too keep italian fascism alive and functional, and not stray off too much of its roots"
+ 
+ order_fascism:0 "Order Fascism"
+ order_fascism_noun:0 "Order Fascism"
+ order_fascism_desc:0 "§ROrder Fascism§! takes the totalitarian elements of italian fascism and turn it up to eleven. Claiming to be in order to catch german and communist spies and too keep order and stability. With a secret intentinal empowerment of the MVSN, under Order Fascism, indevidual liberties are extremely reduced to basically nothing. Cosntant patrolling, house searches without warnings, spies, and a powerful secret police, not a single person is safe fron the wide eye of the blackshirt government"
+ 
+ fiumian_fascism:0 "Fiumian Fascism"
+ fiumian_fascism_noun:0 "Fiumian Fascism"
+ fiumian_fascism_desc:0 "§YFiumian Fascism§! Was officaly born in 1920 in the chaotic experiment that was the free city of fiume. For many fascists including the now duce "§GEttore muti§! this is the first and offical version of fascism, and when they say the word "fascism" this is what they mean. \n\nFiumian Fascism differs from italian fascism in its wide verieties of leftist ideas like syndicalism, women's rights, and holding a lot of democratic values. A lot of people have called this a "frankenstein ideolegy" that wont work in a country of over 45M people, but only time will tell whether this ideolegy holds on its own, or whether its doomed to fail, just like the place where it was born" 
+ 
+ reformist_fascism:0 "Reformist  Fascism"
+ reformist _fascism_noun:0 "reformist  Fascism"
+ reformist _fascism_desc:0 "\n\n§BReformist  Fascism§!, while does take inspiration from Italian fascism, completely overhauls the system. Reformist fascists belive that the best way to serve the homeland is to provide its citizens education, quality healthcare, and reasons to be proud of their country. Indevidualism and liberalization are greatly expanded, and any form of racism is discouraged. \n\nHowever this ideolegy is still fascism and has a lot of  fascist elements, most notably its heavy promotion of nationalism and glory, and some form of indoctrination is still present. This ideolegy is not democracy, these are only necessary steps to keep fascism a prominent ideolegy in this new era"   
+ 
+ japanese_fascism:0 "Japanese imperialism"
  japanese_fascism_noun:0 "Japanese Fascism"
- japanese_fascism_desc:0 "Corporatist Regime"
-
+ japanese_fascism_desc:0 "§RJapanese imperialism§! belives in the total racial superiority of the Japanese people over other east asians, and belives that Japan should be the undisputed rulers of asia. \n\nTaking heavy inspiration from the millitaristic vision of the book "Der totale Krieg" by Erich Ludendorff, Japanese imperialism is also very millitaristic and has a very obedient culture. while it claims to be anti western and to be the protector of asian identity, but is really just an excuse for exploitation an conquest by japanese ultra nationalists"
+ 
+ #vanilla
  communism:0 "Communist"
  communism_noun:0 "Communism"
  democratic:0 "Democratic"
