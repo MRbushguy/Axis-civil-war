@@ -1,4 +1,4 @@
-﻿capital = 572
+﻿capital = 653
 
 oob = "SOV_1936"
 if = {
@@ -1060,4 +1060,11 @@ if = {
 	remove_ideas = peoples_commissariat_focus
 	remove_ideas = nkvd_2
 	remove_ideas = officers_purged_6
+
+	#SSR
+	puppet = KAZ
+	puppet = UZB
+	puppet = KYR	
+	puppet = TAJ
+	puppet = TMS
 }

@@ -169,7 +169,7 @@ GER_the_state_of_germany = {
 
 	}
 
-	GER_exploit_the_west = {
+	GER_exploit_the_east_territories = {
 
 
 	icon = generic_political_rally
@@ -187,6 +187,412 @@ GER_the_state_of_germany = {
 			
 			NOT = {
 				has_idea = GER_plunder_economy_0
+				has_country_flag = GER_plundering
+			}
+				
+			
+
+
+			
+
+			custom_effect_tooltip = GER_goods_to_be_plundered_tt
+
+
+
+			hidden_trigger = {
+
+				OR = {
+					POL = {
+						is_subject_of = GER
+					}
+					UKR = {
+						is_subject_of = GER
+					}
+					BLR = {
+						is_subject_of = GER
+					}
+					RKM = {
+						is_subject_of = GER
+					}
+					RKC = {
+						is_subject_of = GER
+					}
+				}
+
+				NOT = {
+
+					AND = {
+
+						POL = {
+							has_idea = devastation_4
+						}
+
+						UKR = {
+							has_idea = devastation_4
+						}
+
+						BLR = {
+
+							has_idea = devastation_4
+
+						}
+						RKM = {
+
+							has_idea = devastation_4
+
+						}
+						RKC = {
+
+							has_idea = devastation_4
+
+						}
+
+					}
+				}
+
+			}
+			
+		}
+
+		cost = GER_plunder_east
+
+		days_remove = 20
+
+		complete_effect = {
+
+			set_country_flag = GER_plundering
+		}
+
+		remove_effect = {
+
+			GER_increase_plunder_economy = yes
+
+			if = {
+
+				limit = {
+					POL = {
+						has_idea = devastation_0
+					}
+
+				}
+
+				POL = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+			} 
+			else_if = {
+
+				limit = {
+					UKR = {
+						has_idea = devastation_0
+					}
+
+				}
+
+				UKR = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+
+			}
+			else_if = {
+
+				limit = {
+					BLR = {
+						has_idea = devastation_0
+					}
+
+				}
+
+				BLR = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+
+			}
+			else_if = {
+
+				limit = {
+					RKM = {
+						has_idea = devastation_0
+					}
+
+				}
+
+				RKM = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+
+			}
+			else_if = {
+
+				limit = {
+					RKC = {
+						has_idea = devastation_0
+					}
+
+				}
+
+				RKC = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+
+			}
+			else_if = {
+
+				limit = {
+					POL = {
+						has_idea = devastation_1
+					}
+
+				}
+
+				POL = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+			} 
+			else_if = {
+
+				limit = {
+					UKR = {
+						has_idea = devastation_1
+					}
+
+				}
+
+				UKR = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+
+			}
+			else_if = {
+
+				limit = {
+					BLR = {
+						has_idea = devastation_1
+					}
+
+				}
+
+				BLR = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+
+			}
+			else_if = {
+
+				limit = {
+					RKM = {
+						has_idea = devastation_1
+					}
+
+				}
+
+				RKM = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+
+			}
+			else_if = {
+
+				limit = {
+					RKC = {
+						has_idea = devastation_1
+					}
+
+				}
+
+				RKC = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+
+			}
+
+			else_if = {
+
+				limit = {
+					POL = {
+						has_idea = devastation_2
+					}
+
+				}
+
+				POL = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+			} 
+			else_if = {
+
+				limit = {
+					UKR = {
+						has_idea = devastation_2
+					}
+
+				}
+
+				UKR = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+
+			}
+			else_if = {
+
+				limit = {
+					BLR = {
+						has_idea = devastation_2
+					}
+
+				}
+
+				BLR = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+
+			}
+			else_if = {
+
+				limit = {
+					RKM = {
+						has_idea = devastation_2
+					}
+
+				}
+
+				RKM = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+
+			}
+			else_if = {
+
+				limit = {
+					RKC = {
+						has_idea = devastation_2
+					}
+
+				}
+
+				RKC = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+
+			}
+			else_if = {
+
+				limit = {
+					POL = {
+						has_idea = devastation_3
+					}
+
+				}
+
+				POL = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+			} 
+			else_if = {
+
+				limit = {
+					UKR = {
+						has_idea = devastation_3
+					}
+
+				}
+
+				UKR = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+
+			}
+			else_if = {
+
+				limit = {
+					BLR = {
+						has_idea = devastation_3
+					}
+
+				}
+
+				BLR = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+
+			}
+			else_if = {
+
+				limit = {
+					RKM = {
+						has_idea = devastation_3
+					}
+
+				}
+
+				RKM = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+
+			}
+			else_if = {
+
+				limit = {
+					RKC = {
+						has_idea = devastation_3
+					}
+
+				}
+
+				RKC = {
+					increase_devastation = yes
+					increase_resistance = yes
+				}
+
+			}
+
+
+			add_to_variable = {GER_plunder_east = 25}
+			clr_country_flag = GER_plundering
+			
+		}
+
+	}
+
+
+	GER_exploit_the_western_territories = {
+
+
+	icon = generic_political_rally
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+
+			has_political_power > 0
+
+			has_completed_focus = GER_exploit_the_east
+
+			
+			NOT = {
+				has_idea = GER_plunder_economy_0
+				has_country_flag = GER_plundering
 			}
 				
 			
@@ -239,9 +645,15 @@ GER_the_state_of_germany = {
 
 		days_remove = 20
 
+		cost = GER_plunder_west
+
+		complete_effect = {
+
+			set_country_flag = GER_plundering 
+		}
+
 		remove_effect = {
 
-			add_political_power = -50 #add times decision is taken
 			GER_increase_plunder_economy = yes
 
 			if = {
@@ -421,17 +833,13 @@ GER_the_state_of_germany = {
 				}
 
 			}
+
+			add_to_variable = {GER_plunder_west = 25}
+			clr_country_flag = GER_plundering
 			
 		}
 
 			
-
-
-
-
-
-
-
 	}
 
 

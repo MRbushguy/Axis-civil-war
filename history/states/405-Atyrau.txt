@@ -22,7 +22,11 @@ state={
 			}
 
 		}
-
+	    1947.1.1 = {
+			owner = UZB
+			controller = UZB
+			add_core_of = UZB
+		}
 	}
 
 	provinces={

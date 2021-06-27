@@ -43,4 +43,9 @@ spriteTypes = {
 		name = "GFX_decision_faction_ger_mil"
 		texturefile = "gfx/interface/decisions/decision_faction_ger_mil.dds"
 	}
+
+	spriteType = {
+		name = "GFX_decision_unite_ssr"
+		texturefile = "gfx/interface/decisions/SOV/sov_man.dds"
+	}	
 }

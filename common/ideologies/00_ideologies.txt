@@ -140,7 +140,14 @@ ideologies = {
 
 			italian_fascism = {
 			}
-
+			pragmatic_fascism = {
+			}
+			order_fascism = {
+			}
+			fiumian_fascism = {
+			}
+			reformist_fascism = {
+			}
 			japanese_fascism = {
 			}
 		}
