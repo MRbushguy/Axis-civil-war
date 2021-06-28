@@ -1,0 +1,6 @@
+sound = {
+	name = "super_ww2"
+	file = "menu/ww2.wav"
+	volume = 1
+	always_load = yes
+}
