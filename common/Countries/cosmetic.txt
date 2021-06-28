@@ -690,3 +690,8 @@ SSR_color = {
      color = rgb { 120 13 24 }
      color_ui = rgb { 153 17 31 }
 }
+
+ITA_puppet = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 67 127 63 }
+}

@@ -112,6 +112,8 @@ create_country_leader = {
 
 1947.1.1 = {
 
+set_cosmetic_tag = ITA_puppet
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
