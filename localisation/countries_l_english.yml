@@ -3,7 +3,7 @@ l_english:
  #ACW countries
  
  OCC_ITA_subject:0 "Italian occupation zone of southern France"
- OCC_ITA_subject_DEF:0 "the Italian occupation zone of southern France"
+ OCC_ITA_subject_DEF:0 "The Italian occupation zone of southern France"
  OCC_fascism:0 "Imperialist Occitania"
  OCC_fascism_DEF:0 "Imperialist Occitania"
  OCC_democratic:0 "Occitania"
@@ -15,6 +15,9 @@ l_english:
  OCC:0 "Occitania"
  OCC_DEF:0 "Occitania"
  OCC_ADJ:0 "Occitan"
+ OCC_ENG_neutrality_subject:0 "Angevin Kingdom of Aquitaine"
+ OCC_ENG_neutrality_subject_DEF:0 "the Angevin Kingdom of Aquitaine"
+ OCC_ENG_neutrality_subject_ADJ:0 "Angevin"
 
  IOC_fascism:0 "Italian Occupied Crimea"
  IOC_fascism_DEF:0 "The Italian Garrison of Crimea"
