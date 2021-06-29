@@ -6,8 +6,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_report_event_VF_prop"
-		texturefile = "gfx/event_pictures/VF_prop.dds"
+		name = "GFX_report_event_VF_tilted"
+		texturefile = "gfx/event_pictures/VF_tilted.dds"
 	}
 	
 	spriteType = {
