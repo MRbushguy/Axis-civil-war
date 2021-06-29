@@ -126,7 +126,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Stepan Bandera"
+	name = "Erich Koch"
 	desc = ""
 	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
 	expire = "1953.3.1"

@@ -1,5 +1,7 @@
 1947.1.1 = {
 	
+    set_cosmetic_tag = ITA_puppet
+
     capital = 554
     oob = IME_1947
 

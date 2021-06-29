@@ -128,16 +128,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Léon Degrelle"
-	desc = "POLITICS_LEON_DEGRELLE_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = final_nazism
-	traits = {
-		#
-	}
-}
 
 create_corps_commander = {
 	name = "M.C.L. Keyaerts"
@@ -171,6 +161,16 @@ create_navy_leader = {
 	election_frequency = 48
 	elections_allowed = no
                     }
+		    create_country_leader = {
+	name = "Arthur Seyss Inquart"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = final_nazism
+	traits = {
+		#
+	}
+}
     set_popularities = {
 	democratic = 10
 	fascism = 0
