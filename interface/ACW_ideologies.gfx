@@ -10,10 +10,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/japanese_fascism.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx/interface/ideologies/fascism_group.dds"
+	}
+
 	### Democratic
 	SpriteType = {
 		name = "GFX_ideology_socialism"
 		texturefile = "gfx/interface/ideologies/socialism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_conservatism"
+		texturefile = "gfx/interface/ideologies/conservatism.dds"
 	}
 
 	### National Socialism
@@ -27,10 +37,29 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/esoteric_nazism.dds"
 	}
 
-
 	### Communism
 	SpriteType = {
 		name = "GFX_ideology_marxism"
 		texturefile = "gfx/interface/ideologies/marxism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_leninism"
+		texturefile = "gfx/interface/ideologies/leninism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_stalinism"
+		texturefile = "gfx/interface/ideologies/stalinism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_anti_revisionism"
+		texturefile = "gfx/interface/ideologies/anti_revisionism.dds"
+	}
+
+	### Neutrality
+		name = "GFX_ideology_oligarchy"
+		texturefile = "gfx/interface/ideologies/oligarchy.dds"
 	}
 }

@@ -88,4 +88,28 @@ spriteTypes = {
 		name = "GFX_goal_GER_the_swiss_resistance"
 		texturefile = "gfx/interface/goals/GER_the_swiss_resistance.dds"
 	}
+		SpriteType = {
+		name = "GFX_goal_GER_the_allies"
+		texturefile = "gfx/interface/goals/GER_the_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_volkshalle"
+		texturefile = "gfx/interface/goals/GER_volkshalle.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_NSDAP_laurels"
+		texturefile = "gfx/interface/goals/GER_NSDAP_laurels.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_NSDAP_Industry"
+		texturefile = "gfx/interface/goals/GER_NSDAP_Industry.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_marina_italia"
+		texturefile = "gfx/interface/goals/GER_marina_italia.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_nationalize_oil"
+		texturefile = "gfx/interface/goals/GER_nationalize_oil.dds"
+	}
 }
