@@ -1,4 +1,5 @@
-﻿l_english:
+l_english:
+#nazi bois (based war cimes)
  national_socialism:0 "National Socialist"
  national_socialism_noun:0 "National Socialism"
  national_socialism_desc:0 "Corporatist Totalitarian Regime"
@@ -11,6 +12,7 @@
  esoteric_nazism_noun:0 "Esoteric National Socialism"
  esoteric_nazism_desc:0 "§REsoteric National Socialism§! is the"
 
+#fascist bois (less based war cimes)
  fascism:0 "Fascist"
  fascism_noun:0 "Fascism"
  fascism_desc:0 "Totalitarian Regime"
@@ -33,59 +35,80 @@
  
  reformist_fascism:0 "Reformist  Fascism"
  reformist_fascism_noun:0 "reformist  Fascism"
- reformist_fascism_desc:0 "\n\n§BReformist  Fascism§!, while does take inspiration from Italian fascism, completely overhauls the system. Reformist fascists belive that the best way to serve the homeland is to provide its citizens education, quality healthcare, and reasons to be proud of their country. Indevidualism and liberalization are greatly expanded, and any form of racism is discouraged. \n\nHowever this ideolegy is still fascism and has a lot of  fascist elements, most notably its heavy promotion of nationalism and glory, and some form of indoctrination is still present. This ideolegy is not democracy, these are only necessary steps to keep fascism a prominent ideolegy in this new era"   
+ reformist_fascism_desc:0 "§BReformist  Fascism§! is the so called "next evolution of italian fascism". Reformist fascists belive that the best way to serve the homeland is to provide its citizens education, quality healthcare, and reasons to be proud of their country. Indevidualism and liberalization are greatly expanded, and any form of racism is discouraged. \n\nHowever this ideolegy is still fascism and has a lot of  fascist elements, most notably its heavy promotion of nationalism and glory, and some form of indoctrination is still present. This ideolegy is not democracy, these are only necessary steps to keep fascism a prominent ideolegy in this new era"   
  
  japanese_fascism:0 "Japanese imperialism"
  japanese_fascism_noun:0 "Japanese Fascism"
  japanese_fascism_desc:0 "§RJapanese imperialism§! belives in the total racial superiority of the Japanese people over other east asians, and belives that Japan should be the undisputed rulers of asia. \n\nTaking heavy inspiration from the millitaristic vision of the book "Der totale Krieg" by Erich Ludendorff, Japanese imperialism is also very millitaristic and has a very obedient culture. while it claims to be anti western and to be the protector of asian identity, but is really just an excuse for exploitation an conquest by japanese ultra nationalists"
  
- #vanilla
- communism:0 "Communist"
- communism_noun:0 "Communism"
- democratic:0 "Democratic"
- democratic_noun:0 "Democracy"
- communism_desc:0 "Totalitarian Regime"
- democratic_desc:0 "Democratic Regime"
- conservatism:0 "Conservatism"
- conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
- liberalism:0 "Liberalism"
- liberalism_desc:0 "With a long philosophical tradition of valuing personal liberty, liberalism views safeguarding these rights as the primary function of the state."
- socialism:0 "Democratic Socialism"
- socialism_desc:0 "Striving for equality and a socialist state by reformist means, democratic socialism aims to abolish or mitigate the effects of capitalism with public mandate."
- marxism:0 "Marxism"
- marxism_desc:0 "Encompassing a broad spectrum of economic and historical views, Marxist politics seek to apply the theories of Karl Marx to political practice. Class struggle and the need for transition to a society based on common ownership of the means of production characterize these ideologies."
- leninism:0 "Leninism"
- leninism_desc:0 "A political ideology based in Marxist thought, Leninism seeks to establish a socialist state by a vanguard party leading a revolution overthrowing capitalist society. Once in power, the party rules through a system whereby policies are open for internal debate until a decision has been made."
- stalinism:0 "Stalinism"
- stalinism_desc:0 "Identifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong, authorative socialist state to purge any counter-revolutionary elements."
- anti_revisionism:0 "Anti-Revisionism"
- anti_revisionism_desc:0 "A reaction to the many ideologies claiming to be successors to Marxism, Anti-Revisionism advocates retaining key elements of original revolutionary theory. Mainly opposing incorporation of capitalist economic elements into socialist states, the ideology is defined as much by what it isn't as what it is."
- anarchist_communism:0 "Anarchist Communism"
- anarchist_communism_desc:0 "An ideology embracing the idea of communism as a stateless society, Anarchist Communism eschews the idea of a transitionary socialist state and favors a society based on voluntary associations and mutual aid."
- nazism:0 "Nazism"
- nazism_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
- gen_nazism:0 "Nazism"
- gen_nazism_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of racial supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power."
- fascism_ideology:0 "Fascism"
- fascism_ideology_desc:0 "Encompassing a variety of ultra-nationalist movements, fascism typically venerates devotion to the state and uniting the people under a strong leader."
  falangism:0 "Falangism"
  falangism_desc:0 "An authoritarian ideology with traits of fascism and conservatism, Falangism values national and Catholic identity."
+ 
  rexism:0 "Rexism"
  rexism_desc:0 "Strongly opposed to both liberal and communist ideals, Rexism is a staunchly conservative nationalist movement who advocate a corporatist economic policy. Employing increasingly populist and authoritarian rhetoric, their ideals are shifting closer to other fascist movements."
- neutrality:0 "Authoritarian"
- neutrality_noun:0 "Authoritarian"
- neutrality_desc:0 "Authoritarian Regime"
- despotism:0 "Despotic"
- despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
- oligarchism:0 "Oligarchic"
- oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power."
- moderatism:1 "Moderatism"
- moderatism_desc:1 "Moderatism is a form of government which avoids the extremes of left and right by taking a moderate position or course of action."
- centrism:1 "Centrism"
- centrism_desc:1 "Centrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
+ 
+ 
+ #socialist bois (average 14 year old)
+ socialism:0 "Socialism"
+ socialism_noun:0 "socialism"
+ socialism_desc:0 "Totalitarian Regime"
+ 
  anarchism:0 "Anarchism"
  anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
  
+ utopian socialism:0 "Utopian socialism"
+ utopian socialism_desc:0 ""
+ 
+ 
+#communist bois (Earrape anthem)
+ communism:0 "Communist"
+ communism_noun:0 "Communism"
+ communism_desc:0 "Totalitarian Regime"
+ 
+ marxism:0 "Marxism"
+ marxism_desc:0 "Encompassing a broad spectrum of economic and historical views, Marxist politics seek to apply the theories of Karl Marx to political practice. Class struggle and the need for transition to a society based on common ownership of the means of production characterize these ideologies."
+ 
+ leninism:0 "Leninism"
+ leninism_desc:0 "A political ideology based in Marxist thought, Leninism seeks to establish a socialist state by a vanguard party leading a revolution overthrowing capitalist society. Once in power, the party rules through a system whereby policies are open for internal debate until a decision has been made."
+ 
+ stalinism:0 "Stalinism"
+ stalinism_desc:0 "Identifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong, authorative socialist state to purge any counter-revolutionary elements."
+ 
+ 
+ #democratic leftists (snowflakes) 
+ democratic_left:0 "democratic left"
+ democratic_left_noun:0 "Democratic left"
+ democratic_left_desc:0 "Leftist Democratic regime"
+ 
+ 
+ #democratic center bois (Pick a side R*tards) 
+ democratic_center:0 "democratic center"
+ democratic_center_noun:0 "Democracic center"
+ democratic_center_desc:0 "Centrist democratic Regime"
+ 
+ #democratic rightists (Change bad !!!!!!) 
+ democratic_right_right:0 "Democratic right"
+ democratic_right_noun:0 "Democratic right"
+ democratic_right_desc:0 "Rightist democratic Regime"
+ 
+ conservatism:0 "Conservatism"
+ conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
+ 
+ 
+ #authoritarian bois (protest crushing go brrrr)
+ authoritarianism:0 "Authoritarian"
+ authoritarianism_noun:0 "Authoritarian"
+ authoritarianism_desc:0 "Authoritarian Regime"
+ 
+ despotism:0 "Despotic"
+ despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
+ 
+ oligarchism:0 "Oligarchicy"
+ oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power."
+ 
+ 
+ 
+ #parties
  GER_national_socialism_party:0 "NSDAP - Hardliners"
  GER_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Hardlinerin"
  GER_neutrality_party:0 "NSDAP - Reform"
