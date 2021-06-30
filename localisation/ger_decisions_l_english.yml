@@ -72,3 +72,7 @@
  ### Wunderwaffe
  GER_wunderwaffe_tech:0 "Wunderwaffe"
  GER_wunderwaffe_tech_desc:1 "The Reich's secret weapons programs."
+
+ GER_research_points:0 "[GetSSInfluenceStatus]"
+ #GER_ss_influence_amount_green:0 "[?GER.GER_ss_influence|G0]"
+
