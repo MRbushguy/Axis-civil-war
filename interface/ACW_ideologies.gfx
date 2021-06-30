@@ -59,6 +59,7 @@ spriteTypes = {
 	}
 
 	### Neutrality
+	SpriteType = {
 		name = "GFX_ideology_oligarchy"
 		texturefile = "gfx/interface/ideologies/oligarchy.dds"
 	}

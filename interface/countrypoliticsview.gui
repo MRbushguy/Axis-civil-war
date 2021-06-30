@@ -506,7 +506,7 @@ guiTypes = {
 			position = { x = -2 y = 485 }
 			Orientation = "UPPER_LEFT"
 			scale = 1.02
-		}`
+		}
 		
 		iconType = {
 			name = "rules"
