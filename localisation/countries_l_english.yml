@@ -1,9 +1,9 @@
-﻿l_english:
+l_english:
 
  #ACW countries
  
- OCC_ITA_subject:0 "Occitanian State"
- OCC_ITA_subject_DEF:0 "the Occitanian State"
+ OCC_ITA_subject:0 "Italian occupation zone of southern France"
+ OCC_ITA_subject_DEF:0 "The Italian occupation zone of southern France"
  OCC_fascism:0 "Imperialist Occitania"
  OCC_fascism_DEF:0 "Imperialist Occitania"
  OCC_democratic:0 "Occitania"
@@ -3287,3 +3287,4 @@
  vojvodina:0 "Vojvodina"
  vojvodina_DEF:0 "Vojvodina"
  vojvodina_ADJ:0 "Vojvodinian"
+ 

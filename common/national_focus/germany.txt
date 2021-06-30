@@ -206,9 +206,17 @@ focus_tree = {
 		relative_position_id =  GER_wehrmacht_alone
 
 		completion_reward = {
+
+			add_ideas = GER_command_purged
+
+			add_ideas = GER_wehrmacht_idea_6
+
+			
+
+			}
 			#wehrmacht retires or causes "accidents" for leaders loyal to the SS or NSDAP
 
-		}
+		
 
 
 
@@ -407,8 +415,8 @@ focus_tree = {
 		relative_position_id =  GER_wehrmacht_conquests
 
 		completion_reward = {
-			#gives the wehrmact new training facilities, equal to that of the waffen-ss
-			#adds a national spirit that splits the waffen-ss & wehrmacht	
+			
+			add_ideas = GER_wehrmacht_idea_5	
 
 		}
 
@@ -463,7 +471,30 @@ focus_tree = {
 		relative_position_id = GER_integrate_denmark
 
 		completion_reward = {
-			#recruits manpower into the wehrmact alone
+			
+			if = {
+				limit = {
+						has_idea = GER_wehrmacht_idea_6
+				}
+					swap_ideas = {
+						remove_idea = GER_wehrmacht_idea_6
+						add_idea = GER_wehrmacht_idea_2
+					}
+			}
+			else_if = {
+				limit = {
+						has_idea = GER_wehrmacht_idea_5
+				}
+					swap_ideas = {
+						remove_idea = GER_wehrmacht_idea_5
+						add_idea = GER_wehrmacht_idea_1
+					}
+			}
+		
+			else = {
+
+				add_ideas = GER_wehrmacht_idea_0
+			}
 
 		}
 
@@ -478,6 +509,9 @@ focus_tree = {
 
 		prerequisite = {
 			 focus = GER_wehrmacht_recruitment
+		}
+
+		prerequisite = {
 			 focus = GER_training_facilities
 		}
 
