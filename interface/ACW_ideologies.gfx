@@ -17,13 +17,17 @@ spriteTypes = {
 
 	### Democratic
 	SpriteType = {
-		name = "GFX_ideology_socialism"
-		texturefile = "gfx/interface/ideologies/socialism.dds"
+		name = "GFX_ideology_democratic_center_group"
+		texturefile = "gfx/interface/ideologies/democratic_center_group.dds"
+	}
+	SpriteType = {
+		name = "GFX_ideology_democratic_left_group"
+		texturefile = "gfx/interface/ideologies/democratic_left_group.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_ideology_conservatism"
-		texturefile = "gfx/interface/ideologies/conservatism.dds"
+		name = "GFX_ideology_democratic_right_group"
+		texturefile = "gfx/interface/ideologies/democratic_right_group.dds"
 	}
 
 	### National Socialism
@@ -59,6 +63,11 @@ spriteTypes = {
 	}
 
 	### Neutrality
+	SpriteType = {
+		name = "GFX_ideology_authoritarianism_group"
+		texturefile = "gfx/interface/ideologies/authoritarianism.dds"
+	}
+	SpriteType = {
 		name = "GFX_ideology_oligarchy"
 		texturefile = "gfx/interface/ideologies/oligarchy.dds"
 	}

@@ -414,6 +414,11 @@ create_country_leader = {
 	}
 }
 
+set_popularities = {
+	national_socialism = 70
+	authoritarianism = 20
+	fascism = 10
+}
 
 add_namespace = {
 	name = "ger_unit_leader"
