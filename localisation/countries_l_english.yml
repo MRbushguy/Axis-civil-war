@@ -1,6 +1,30 @@
-l_english:
+﻿l_english:
 
  #ACW countries
+
+ GER_fascism:0 "Großgermanisches Reich"
+ GER_fascism_DEF:0 "the Großgermanisches Reich"
+ GER_national_socialism:0 "Großgermanisches Reich"
+ GER_national_socialism_DEF:0 "the Großgermanisches Reich"
+ GER_democratic_left:0 "German Republic"
+ GER_democratic_left_DEF:0 "the German Republic"
+ GER_democratic_center:0 "German Republic"
+ GER_democratic_center_DEF:0 "the German Republic"
+ GER_democratic_right:0 "German Republic"
+ GER_democratic_right_DEF:0 "the German Republic"
+ GER_authoriarianism:1 "German Empire"
+ GER_authoriarianism_DEF:1 "the German Empire"
+ GER_communism:0 "Communist Republic of Germany"
+ GER_communism_DEF:0 "the Communist Republic of Germany"
+ GER_socialism:0 "Socialist Republic of Germany"
+ GER_socialism_DEF:0 "the Socialist Republic of Germany"
+ GER_fascism_ADJ:0 "German"
+ GER_democratic_ADJ:0 "German"
+ GER_neutrality_ADJ:0 "German"
+ GER_communism_ADJ:0 "German"
+ GER:0 "Germany"
+ GER_DEF:0 "Germany"
+ GER_ADJ:0 "German"
  
  OCC_ITA_subject:0 "Italian occupation zone of southern France"
  OCC_ITA_subject_DEF:0 "The Italian occupation zone of southern France"
@@ -128,23 +152,7 @@ l_english:
  
  #Vanilla countries
  
- GER_fascism:0 "Großgermanisches Reich"
- GER_fascism_DEF:0 "the Großgermanisches Reich"
- GER_national_socialism:0 "Großgermanisches Reich"
- GER_national_socialism_DEF:0 "the Großgermanisches Reich"
- GER_democratic:0 "German Republic"
- GER_democratic_DEF:0 "the German Republic"
- GER_neutrality:1 "German Empire"
- GER_neutrality_DEF:1 "the German Empire"
- GER_communism:0 "Socialist Republic of Germany"
- GER_communism_DEF:0 "the Socialist Republic of Germany"
- GER_fascism_ADJ:0 "German"
- GER_democratic_ADJ:0 "German"
- GER_neutrality_ADJ:0 "German"
- GER_communism_ADJ:0 "German"
- GER:0 "Germany"
- GER_DEF:0 "Germany"
- GER_ADJ:0 "German"
+
  ENG_fascism:0 "British Empire"
  ENG_fascism_DEF:0 "the British Empire"
  ENG_democratic:0 "United Kingdom"
