@@ -2382,5 +2382,8 @@
 		name = "GFX_focus_SOV_farmer_workers"
 		texturefile = "gfx/interface/goals/SOV/farmer_worker.dds"
 	}
-
+	SpriteType = { 
+		name = "GFX_focus_SOV_trust_stalin"
+		texturefile = "gfx/interface/goals/SOV/trust_stalin.dds"
+	}
 }

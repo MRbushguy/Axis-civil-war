@@ -31,7 +31,7 @@
 
 	focus = {
 	    id = SOV_trust_in_stalin
-	    icon = GFX_focus_fra_loyalty_stalin
+	    icon = GFX_focus_SOV_trust_stalin
 
 	    prerequisite = { focus = SOV_shattered_union }
 
