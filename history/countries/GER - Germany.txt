@@ -122,7 +122,11 @@ set_technology = {
 
 
 	###Wunderwaffe Var
-	set_variable = {GER_wunderwaffe = 0}
+	set_variable = {GER_wunderwaffe_arms = 0}
+	set_variable = {GER_wunderwaffe_tanks = 0}
+	set_variable = {GER_wunderwaffe_planes = 0}
+	set_variable = {GER_wunderwaffe_nukes = 0}
+	set_variable = {GER_wunderwaffe_misc = 0}
 
 
 if = {

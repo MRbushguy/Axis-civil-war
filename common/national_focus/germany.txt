@@ -1290,15 +1290,13 @@ focus_tree = {
 
 		prerequisite = {
 			focus = GER_our_own_path
+			focus = GER_break_with_refnaz
 		}
 
 		prerequisite = {
 			focus = GER_power_of_the_pen
 		}
 
-		prerequisite = {
-			focus = GER_break_with_refnaz
-		}
 
 		prerequisite = {
 			focus = GER_use_the_bueracracy

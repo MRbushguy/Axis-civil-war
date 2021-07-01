@@ -73,6 +73,14 @@
  GER_wunderwaffe_tech:0 "Wunderwaffe"
  GER_wunderwaffe_tech_desc:1 "The Reich's secret weapons programs."
 
- GER_research_points:0 "[GetSSInfluenceStatus]"
+ GER_arms_research_points:0 "§YArms and equipment research -§! [?GER.GER_wunderwaffe_arms|Y0]"
+
+ GER_tank_research_points:0 "§YTank research -§! [?GER.GER_wunderwaffe_tanks|Y0]"
+
+ GER_plane_research_points:0 "§YAirplane research -§! [?GER.GER_wunderwaffe_planes|Y0]"
+
+ GER_nuke_research_points:0 "§YNuclear research -§! [?GER.GER_wunderwaffe_nukes|Y0]"
+
+ GER_misc_research_points:0 "§YTrue wunderwaffe research -§! [?GER.GER_wunderwaffe_misc|Y0]"
  #GER_ss_influence_amount_green:0 "[?GER.GER_ss_influence|G0]"
 

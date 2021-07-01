@@ -2,17 +2,50 @@
 guiTypes = {
 
 	containerWindowType = {
-		name = "ger_wunderwaffe_decision_ui_window"
+		name = "ger_wunderwaffe_tech_ui_window"
 		position = { x = 0 y = 0 }
-		size = { width = 100% height= 150 }
+		size = { width = 100% height= 100 }
 
 
 		instantTextBoxType = {
-			name ="GER_research_points"
-			position = { x = 310 y = 100 }
+			name ="GER_arms_research_points"
+			position = { x = 120 y = -40 }
 			font = "hoi_18mbs"
-			text = "GER_research_points"
-			format = center
-			maxwidth = 110
+			text = "GER_arms_research_points"
+			format = left
+			maxwidth = 300
+		}
+
+		instantTextBoxType = {
+			name ="GER_tank_research_points"
+			position = { x = 120 y = -20 }
+			font = "hoi_18mbs"
+			text = "GER_tank_research_points"
+			format = left
+			maxwidth = 300
+		}
+		instantTextBoxType = {
+			name ="GER_plane_research_points"
+			position = { x = 120 y = 0 }
+			font = "hoi_18mbs"
+			text = "GER_plane_research_points"
+			format = left
+			maxwidth = 300
+		}
+		instantTextBoxType = {
+			name ="GER_nuke_research_points"
+			position = { x = 120 y = 20 }
+			font = "hoi_18mbs"
+			text = "GER_nuke_research_points"
+			format = left
+			maxwidth = 300
+		}
+		instantTextBoxType = {
+			name ="GER_misc_research_points"
+			position = { x = 120 y = 40 }
+			font = "hoi_18mbs"
+			text = "GER_misc_research_points"
+			format = left
+			maxwidth = 300
 		}
 }

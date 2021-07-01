@@ -1,8 +1,8 @@
 scripted_gui = {
 
-	ger_internal_factions_decision_ui = {
+	ger_wunderwaffe_tech_ui = {
 		context_type = decision_category
-		window_name = "ger_wunderwaffe_decision_ui_window"
+		window_name = "ger_wunderwaffe_tech_ui_window"
 	}
 	
 }
