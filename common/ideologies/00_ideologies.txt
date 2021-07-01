@@ -118,7 +118,7 @@ democratic_left = {
 	
 		types = {
 		
-			conservatism = {
+			social_conservatism = {
 			}
 		}
 		
@@ -182,8 +182,9 @@ democratic_left = {
 			stalinism = {
 			}
 			
-			anarchist_communism = {
+			collapsed_communism = {
 			}
+			
 		}
 		
 		dynamic_faction_names = {
@@ -228,7 +229,10 @@ democratic_left = {
 		
 		types = {
 		
-			utopian_socialism = {
+			utopian_socialism = { 
+			}
+			
+			anarchism = { 
 			}
 		}
 		
@@ -274,11 +278,6 @@ democratic_left = {
 	
 		types = {
 		
-			nazism = {
-			}
-
-			gen_nazism = {
-			}
 			
 			fascism_ideology = {
 			}
@@ -354,11 +353,10 @@ democratic_left = {
 			colonial_government = {
 			}
 			
-			moderatism = {
+			military_rule = {
 			}
+
 			
-			centrism = {
-			}
 		}
 
 		dynamic_faction_names = {
@@ -410,6 +408,15 @@ democratic_left = {
 			}
 
 			esoteric_nazism = {
+			}
+			
+			lebensraum_colonization = {
+			}
+			
+			exploitative  colonization = {
+			}
+			
+			russian_nazism = {
 			}
 			
 		}
