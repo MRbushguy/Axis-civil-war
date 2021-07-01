@@ -413,7 +413,7 @@ democratic_left = {
 			lebensraum_colonization = {
 			}
 			
-			exploitative  colonization = {
+			exploitative_colonization = {
 			}
 			
 			russian_nazism = {
