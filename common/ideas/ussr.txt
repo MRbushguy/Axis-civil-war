@@ -19,7 +19,7 @@ ideas = {
 				industrial_capacity_factory = -0.10
 				industrial_capacity_dockyard = -0.10
 				production_speed_buildings_factor = -0.15
-				stability_factor = -0.30
+				stability_factor = -0.1
 				war_support_factor = -0.30
 			}
 		 }
@@ -43,7 +43,7 @@ ideas = {
 				army_defence_factor = -0.80
 				army_speed_factor = -0.30
 				army_org_factor = -0.75
-				experience_gain_army = 0.05
+				experience_gain_army = 0.15
 			}
 		 }
 	     collapsed_soc = {
@@ -60,9 +60,10 @@ ideas = {
 			 picture = finnish_blocade
 
             modifier = {
-				industrial_capacity_dockyard = -0.15                   				
-				convoy_retreat_speed = -0.45
-				naval_accidents_chance = 0.70
+				trade_opinion_factor = -0.85
+				convoy_escort_efficiency = -0.6
+				convoy_retreat_speed = -0.25
+				
 			}
 		 }
 
