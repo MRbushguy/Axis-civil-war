@@ -3,12 +3,17 @@ l_english:
  national_socialism_drift:0 "National Socialism Drifts"
 
  ##Axis Civil War##
+<<<<<<< Updated upstream
  
+=======
+ shat_army:0 "Shattered Armed Forces"
+
+
+>>>>>>> Stashed changes
  GER_depleted_army_0:0 "Severely Depleted Army"
  GER_depleted_army_0_desc:0 "The brutal war against the Soviet Union took its toll on the Reich. Our troops are as effective as ever, but massive manpower shortages have led to problems in both the factories and in the field. We would be at a disadvantage in any future wars."
  GER_depleted_army_1:0 "Depleted Army"
  GER_depleted_army_desc:0 "The brutal war against the Soviet Union took its toll on the Reich. Our troops are as effective as ever, but massive manpower shortages have led to problems in both the factories and in the field. We would be at a disadvantage in any future wars."
- 
  GER_ongoing_holocaust:0 "Generalplan Ost"
  GER_ongoing_holocaust_desc:0 "The full force of Germany's plans for Europe are finally being executed in the east. Mass deportations, extra infrastructure, and fierce resistance are continuous drains on the German economy."
  GER_plunder_economy_0:0 "Successful Plunder Economy"
@@ -36,6 +41,24 @@ l_english:
  GER_german_depression_1:0 "German Hope"
  GER_german_depression_1_desc:0 "Despite all the trials our country has sustained, there is a growing hope that things will improve for us."
  GER_wehrmacht_aid:0 "Wehrmacht Aid"
+ GER_wehrmacht_idea_0:0 "Wehrmacht Coalition"
+ GER_wehrmacht_idea_0_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
+ GER_wehrmacht_idea_1:0 "Wehrmacht Coalition"
+ GER_wehrmacht_idea_1_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
+ GER_wehrmacht_idea_2:0 "Wehrmacht Coalition"
+ GER_wehrmacht_idea_2_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
+ GER_wehrmacht_idea_3:0 "Wehrmacht Coalition"
+ GER_wehrmacht_idea_3_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
+ GER_wehrmacht_idea_4:0 "Wehrmacht Coalition"
+ GER_wehrmacht_idea_4_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
+ GER_wehrmacht_idea_5:0 "Wehrmacht Coalition"
+ GER_wehrmacht_idea_5_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
+ GER_wehrmacht_idea_6:0 "Wehrmacht Coalition"
+ GER_wehrmacht_idea_6_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
+ GER_wehrmacht_idea_7:0 "Wehrmacht Coalition"
+ GER_wehrmacht_idea_7_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
+ GER_wehrmacht_idea_8:0 "Wehrmacht Coalition"
+ GER_wehrmacht_idea_8_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
 
 
  ### Britain
