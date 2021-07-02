@@ -1,11 +1,11 @@
-﻿l_english:
+l_english:
 
  national_socialism_drift:0 "National Socialism Drifts"
 
  ##Axis Civil War##
- shat_army:0 "Shattered Armed Forces"
+ 
  GER_depleted_army_0:0 "Severely Depleted Army"
- GER_depleted_army_desc:0 "The brutal war against the Soviet Union took its toll on the Reich. Our troops are as effective as ever, but massive manpower shortages have led to problems in both the factories and in the field. We would be at a disadvantage in any future wars."
+ GER_depleted_army_0_desc:0 "The brutal war against the Soviet Union took its toll on the Reich. Our troops are as effective as ever, but massive manpower shortages have led to problems in both the factories and in the field. We would be at a disadvantage in any future wars."
  GER_depleted_army_1:0 "Depleted Army"
  GER_depleted_army_desc:0 "The brutal war against the Soviet Union took its toll on the Reich. Our troops are as effective as ever, but massive manpower shortages have led to problems in both the factories and in the field. We would be at a disadvantage in any future wars."
  
@@ -50,6 +50,7 @@
  USA_ascendant_german_american_bund_desc:0 "With the Third Reich's conquests stretching from Paris to Moscow a previously small threat to democracy has only grown. Their outreach to German-Americans has extended across the United States, even managing to elect local and state officials. If we allow their influence to expand the evil of the German tyranny may find new roots in fertile American soil."
  USA_revived_klan:0 "Revived Klan"
  USA_revived_klan_desc:0 "What once were secretive gatherings around burning crosses have become acts of terror, lynchings, and violence to propagate segregation."
+ 
  #occupationLoc
  resistance_0:0 "Crushed Resistance"
  resistance_0_desc:0 ":Long years of occupation have worn our people down and sapped their will to fight."
@@ -72,6 +73,7 @@
  devastation_4:0 "Total Economic Ruin"
  devastation_4_desc:0 "The damage done by conquest and plunder has rendered our economy nearly nonexistent."
 
+#crimea
  garrison_of_the_black_sea:0 "The Garrison of the Black Sea"
  garrison_of_the_black_sea_desc:0 "The only thing standing between the German sphere and access to the Mediterranean is this tiny 27,000 Square Kilometer Peninsula. And our italian overlords are very much aware of this fact. \n\n\And so are the Germans. As such, the garrison has been supplied with high quality construction materials, staffed by talented laborers, and capable administrators. \n\n\Crimea must stand to rebuff German encroachment towards the Black Sea, no matter the cost. \n\n\However, we shouldn't rely too much on this high support, as time progresses and more problems start to appear along the italian sphere, we will start to see a sharp decline of these luxurious resources. And from this point, we will need to stand on our own"
 
@@ -81,11 +83,29 @@
  native_resistance_low:0 "Native Resistance: Low"
  native_resistance_low_desc:0 "Currently, the Crimean natives are wary of our presence and untrustful of us, but realise we are a better option then the germans. \n\nIt is of vital importance to increase compliance and collaboration amongs the natives and reduce the effectiveness of partisans. Helping reconstruction and providing basic health needs may serve as a way to gain good will with the natives as partisans may not strike out against us if we provide food and shelter for their families. We must also wage a propaganda war by reassuring civilians of the benevolence our administration compared to the german monsters but also repress dangerous independence movments."
 
+#USSR
+
+
+ shat_army:0 "Shattered Armed Forces"
+ shat_army_desc:0 "The scars from the great purge didnt have the time to heal. The Germans struck us at the worst time possible, and our mighty red army lacked the skillful generals it needed to defeat the nazi horde. Things got even worse when the Japanese invaded from the east, right before the planned winter offensive that would prevent the Germans from capturing Moskva \n\nThe red army (or what's left of it) is in dire need for repairs. Soldiers are deserting and machinery breaks down constantly. If we want to retake back our stolen territories from the germans and japanese bastards. We need to bring back the red army into proper shape, a red army that will be invincible and legendary"
+ 
  no_economy:0 "Destroyed economy"
+ no_economy_desc:0 "Most of our pre war industry was located in the western part of the USSR. In Kiev and Minsk and Moskva, but now all this hard earned industry is the filthy hands of the germans, far away from us. Not to mension the Japanese bastards who secured themselves the city of Irkutsk, and along with it a good portion of the trans siberian railway. \n\nBut there is hope at the end of the tunnel. During the war, we have managed to relocate a big amount of factories behind the urals, this means we arent left with no industry whatsoever, and we can use these factories to kickstart our economy again. And we will have to repair our economy if we want to defeat the Nazi horde and the japanese bastards and to take back control of our lost territories" 
+ 
+ 
  collapsed_soc:0 "Collapsed society"
- finish_blocade:0 "Finnish blocade"
+ collapsed_soc_desc:0 "Our people lack the most vital thing needed in a dictatorship of the proletariat, hope and trust in the system. How can our citizens trust the system who brought them humiliation ?, we need to rejuvenate our people's trust in the revolution, and to show them there is still a reason to carry on and fight. \n\nAlternatevly, we can admit in the failiure of the system. After all, it failed to protect us from invaders and is the reason we are stuck in siberia and are surrounded by enemies. Maybe stalin is a traitor to our nation and should be executed for failing to protect us"
+ 
+ finish_blocade:0 "blockaded by the Finns"
+ finish_blocade_desc:0 "Our defeats in the great patriotic war made us lose virtually all of our ports, making us landlocked. Our only access to the seas is through the freezing waters of the Barents sea. But as if that wasnt enough of a hindrance, our merchant ships are blockaded and destroyed by the fascist expansionist Finns, making any trade whatsoever impossible. \n\nThis is a big hindrance to our rebuilding effort, as siberia has a big amount of natural recouses which we could trade with, but the blockades are making this impossible. We have to find a way to re enter the global stage if we want to take back our stolen territories"
+ 
+ 
  patriotic_workers:0 "Patriotic workers"
+ patriotic_workers_desc:0 "Patriotic workers"
+ 
  improved_economy:0 "Functional economy"
+ improved_economy_desc:0 "Functional economy"
+
 
  #vanilla
  fascist_influence:0 "Fascist Influence"
