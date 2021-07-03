@@ -150,8 +150,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 98
-	communism = 2
+	communism = 5
+	socialism = 5
+	democratic_left = 55
+	democratic_right = 35
 }
 
 create_country_leader = {
@@ -159,7 +161,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHN_CURTIN_DESC"
 	picture = "Portrait_Australia_John_Curtin.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = social_democracy
 	traits = {
 		#
 	}

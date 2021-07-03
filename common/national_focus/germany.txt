@@ -1045,7 +1045,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_rebuild_NSDAP
-		#icon
+		icon = GFX_goal_GER_NSDAP_lozange
 
 		prerequisite = {
 			focus = GER_social_situation
@@ -1168,7 +1168,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_glorify_the_feuhrer
-		#icon
+		icon = GFX_goal_GER_hitler
 
 		prerequisite = {
 			focus = GER_rebuild_NSDAP
@@ -1417,7 +1417,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_SS_business_ventures
-		#icon
+		icon = GFX_goal_GER_SS_lozange
 
 		prerequisite = {
 			focus = GER_social_situation
@@ -1453,15 +1453,12 @@ focus_tree = {
 			#SS recruits more from the common people
 
 		}
-
-
-
 	}
 
 	focus = {
 
 		id = GER_hire_SS_informants
-		#icon
+		icon = GFX_goal_GER_ss_spy
 
 		prerequisite = {
 			focus = GER_SS_increase_recruitment
@@ -1798,7 +1795,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_SS_companies
-		#icon
+		icon = GFX_goal_GER_SS_factory
 
 		prerequisite = {
 			focus = GER_SS_burgundy_base_of_operations
@@ -2360,7 +2357,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_propaganda_warmongering
-		#icon
+		icon = GFX_goal_GER_militarists_lozange
 
 		prerequisite = {
 			focus = GER_address_the_military
@@ -2520,7 +2517,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_wunderwaffe
-		#icon
+		icon = GFX_goal_GER_wunderwaffe
 
 		prerequisite = {
 			focus = GER_the_technology
@@ -3360,7 +3357,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_contacts_in_yugoslavia
-		#icon tbd
+		icon = GFX_goal_GER_contacts_in_yugoslavia
 
 		prerequisite = {focus = GER_slovenian_claims}
 		mutually_exclusive = { focus = GER_use_swiss_banks}

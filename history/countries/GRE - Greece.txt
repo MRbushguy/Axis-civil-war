@@ -176,10 +176,10 @@ set_convoys = 10
 			days = 730
 		}
 		set_popularities = {
-			democratic = 10
-			fascism = 22
-			communism = 26
-			neutrality = 42
+			democratic_center = 10
+			democratic_right = 15
+			authoritarianism = 20
+			fascism = 55
 		}
 		
 		create_country_leader = {

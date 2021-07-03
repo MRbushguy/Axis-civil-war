@@ -60,19 +60,12 @@ if = {
 	}
 }
 
-set_popularities = {
-	democratic = 15
-	neutrality = 20
-	communism = 60
-	fascism = 5
-}
-
 create_country_leader = {
     name = "Charles de Gaulle"
     desc = ""
     picture = "gfx/leaders/FRA/Portrait_France_Charles_De_Gaulle.dds"
     expire = "1970.11.9"
-    ideology = liberalism
+    ideology = social_conservatism
     traits = {
         #
     }
@@ -80,16 +73,14 @@ create_country_leader = {
 
 1947.1.1 = {
     set_politics = {
-	ruling_party = democratic
+	ruling_party = democratic_right
 	last_election = "1936.5.3"
 	election_frequency = 48
 	elections_allowed = yes
                     }
-    set_popularities = {
-	democratic = 97
-	fascism = 2
-	communism = 1
-                       }	
-		}
-
-
+	set_popularities = {
+		democratic_center = 28
+		communism = 15
+		socialism = 11
+		democratic_right = 46
+}	

@@ -60,13 +60,6 @@ if = {
 	}
 }
 
-set_popularities = {
-	democratic = 15
-	neutrality = 20
-	communism = 60
-	fascism = 5
-}
-
 create_country_leader = {
     name = "Vasil Zacharka"
     desc = ""
@@ -119,12 +112,11 @@ create_country_leader = {
 	election_frequency = 48
 	elections_allowed = no
                     }
-    set_popularities = {
-	democratic = 5
-	fascism = 0
-	communism = 5
-	national_socialism = 90
-                       }
+set_popularities = {
+	communism = 40
+	authoritarianism = 10
+	national_socialism = 50
+}
 	 add_ideas = {
 		resistance_2
 		devastation_3

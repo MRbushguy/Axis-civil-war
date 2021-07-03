@@ -32,9 +32,8 @@ if = {
 	election_frequency = 48
 	elections_allowed = no
                     }
-    set_popularities = {
-	democratic = 10
-	fascism = 10
-	communism = 80
-                       }
+	set_popularities = {
+		communism = 80
+		authoritarianism = 20
+	}
 }

@@ -347,7 +347,7 @@ democratic_left = {
 			despotism  = {
 			}
 			
-			oligarcy  = {
+			oligarchy  = {
 			}
 
 			colonial_government = {
@@ -356,6 +356,8 @@ democratic_left = {
 			military_rule = {
 			}
 
+			monarchism = {
+			}
 			
 		}
 

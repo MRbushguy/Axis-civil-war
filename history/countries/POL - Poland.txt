@@ -146,12 +146,7 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = no
 }
-set_popularities = {
-	democratic = 18
-	fascism = 15
-	communism = 2
-	neutrality = 65
-}
+
 
 1939.1.1 = {
 	set_popularities = {
@@ -418,15 +413,17 @@ if = {
     oob = POL_1947 
 
     set_politics = {
-	ruling_party = fascism
+	ruling_party = national_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
                     }
-    set_popularities = {
-	democratic = 1
-	national_socialism = 99
-                       }
+set_popularities = {
+	communism = 10
+	democratic_right = 10
+	authoritarianism = 10
+	national_socialism = 70
+}
 	add_ideas = {
 		resistance_1
 		devastation_3

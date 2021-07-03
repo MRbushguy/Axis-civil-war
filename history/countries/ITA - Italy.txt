@@ -28,11 +28,13 @@ add_ideas = {
 }
 
 1947.1.1 = {
-     	puppet = OCC
+    puppet = OCC
 	puppet = EGY
 	puppet = GRE
 	puppet = IOC
 }
+
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -247,10 +249,11 @@ set_politics = {
 	election_frequency = 60
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 22
-	fascism = 76
-	communism = 2
+	democratic_right = 10 
+	authoritarianism = 20
+	fascism = 70
 }
 
 create_country_leader = {

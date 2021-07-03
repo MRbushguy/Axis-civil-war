@@ -209,7 +209,7 @@ set_politics = {
 }
 
 set_popularities = {
-	neutrality = 100
+	authoritarianism = 100
 }
 
 create_country_leader = {

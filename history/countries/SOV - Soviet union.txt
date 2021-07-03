@@ -89,10 +89,11 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 10
-	fascism = 2
-	communism = 88
+	communism = 80
+	socialism = 10
+	democratic_left = 10
 }
 
 create_faction = Comintern

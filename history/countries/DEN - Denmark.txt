@@ -133,15 +133,20 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 97
-	fascism = 1
-	communism = 2
+	communism = 12
+	socialism =
+	democratic_left = 15
+	democratic_center = 13
+	democratic_right = 8
+	authoritarianism = 
+	fascism = 
+	national_socialism = 52
 }
 
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = national_socialism
 		last_election = "1939.4.3"
 		election_frequency = 48
 		elections_allowed = yes

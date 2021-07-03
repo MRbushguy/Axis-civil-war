@@ -84,9 +84,14 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 83
-	fascism = 11
-	communism = 6
+	communism = 10
+	socialism =
+	democratic_left =
+	democratic_center =
+	democratic_right =
+	authoritarianism = 10
+	fascism = 20
+	national_socialism = 60
 }
 
 1939.1.1 = {

@@ -112,4 +112,36 @@ spriteTypes = {
 		name = "GFX_goal_GER_nationalize_oil"
 		texturefile = "gfx/interface/goals/GER_nationalize_oil.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_GER_NSDAP_lozange"
+		texturefile = "gfx/interface/goals/GER_NSDAP_lozange.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_hitler"
+		texturefile = "gfx/interface/goals/GER_hitler.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_SS_lozange"
+		texturefile = "gfx/interface/goals/GER_SS_lozange.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_SS_factory"
+		texturefile = "gfx/interface/goals/GER_SS_factory.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_militarists_lozange"
+		texturefile = "gfx/interface/goals/GER_militarists_lozange.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_ss_spy"
+		texturefile = "gfx/interface/goals/GER_ss_spy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_contacts_in_yugoslavia"
+		texturefile = "gfx/interface/goals/GER_contacts_in_yugoslavia.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_wunderwaffe"
+		texturefile = "gfx/interface/goals/GER_wunderwaffe.dds"
+	}
 }

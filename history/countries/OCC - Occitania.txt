@@ -176,10 +176,11 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 50
-	fascism = 15
-	communism = 15
-	neutrality = 20
+	communism = 5
+	democratic_right = 5
+	authoritarianism = 15
+	fascism = 70
+	national_socialism = 5
 }
 
 1947.1.1 = {

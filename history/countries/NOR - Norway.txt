@@ -131,10 +131,14 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = yes
 }
+
 set_popularities = {
-	democratic = 96
-	fascism = 2
-	communism = 2
+	communism = 11
+	democratic_left = 5 
+	democratic_right = 8
+	authoritarianism = 5
+	fascism = 20
+	national_socialism = 51
 }
 
 1939.1.1 = {

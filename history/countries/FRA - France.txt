@@ -211,11 +211,14 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
-	democratic = 64
-	fascism = 1
-	neutrality = 15
-	communism = 20
+	communism = 10
+	socialism = 10
+	democratic_left = 10
+	democratic_right = 10
+	authoritarianism = 30
+	national_socialism = 40
 }
 
 #Order matters here Daladier will start as leaders because added last

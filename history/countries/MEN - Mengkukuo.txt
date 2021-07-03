@@ -60,12 +60,11 @@ set_technology = {
 	election_frequency = 48
 	elections_allowed = no
                     }
-    set_popularities = {
-	democratic = 5
-	fascism = 90
-	communism = 5
-         
-              }
+	set_popularities = {
+		fascism = 60
+		authoritarianism = 20
+		communism = 20
+	}
 create_country_leader = {
 	name = "Prince Demchugdongrub"
 	desc = "POLITICS_DEMCHUGDONGRUB_DESC"

@@ -60,13 +60,6 @@ if = {
 	}
 }
 
-set_popularities = {
-	democratic = 15
-	neutrality = 20
-	communism = 60
-	fascism = 5
-}
-
 create_country_leader = {
     name = "Siegfried Kasche"
     desc = ""
@@ -88,10 +81,10 @@ create_country_leader = {
 	elections_allowed = no
                     }
     set_popularities = {
-	democratic = 5
-	national_socialism = 90
-	communism = 5
-                       }
+		communism = 30
+		authoritarianism = 10
+		national_socialism = 60
+	}
 		       
 	add_ideas = {
 		resistance_3
