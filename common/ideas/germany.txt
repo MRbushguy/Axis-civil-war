@@ -425,7 +425,7 @@ ideas = {
 			modifier = {
 
 				conscription = 0.005
-				training_time_factor =-0.1
+				training_time_factor = -0.1
 				minimum_training_level = -0.1 
 				experience_loss_factor = -0.1
 			}
@@ -463,10 +463,10 @@ ideas = {
 			modifier = {
 
 				conscription = 0.005
-				training_time_factor = 0.1
-				minimum_training_level = 0.1 
-				experience_loss_factor = 0.1
-				army_leader_cost_factor = 0.5
+				training_time_factor = -0.1
+				minimum_training_level = -0.1 
+				experience_loss_factor = -0.1
+				army_leader_cost_factor = -0.5
 				army_leader_start_logistics_level = 4
 				army_leader_start_planning_level = 4
 			}
@@ -475,7 +475,7 @@ ideas = {
 
 		}
 
-		GER_wehrmacht_idea_4 = { ### took wehrmacht_recruitment first
+		GER_wehrmacht_idea_4 = { ### took both training_facilities and purge_command
 			#picture = 
 
 			allowed = {
@@ -484,10 +484,13 @@ ideas = {
 
 			modifier = {
 
-				conscription = 0.005
-				training_time_factor = 0.1
-				minimum_training_level = 0.1 
-				experience_loss_factor = 0.1
+				
+				army_leader_cost_factor = -0.5
+				army_leader_start_logistics_level = 4
+				army_leader_start_planning_level = 4
+				training_time_factor = -0.1
+				minimum_training_level = -0.1 
+				experience_loss_factor = -0.1
 			}
 
 
@@ -555,7 +558,7 @@ ideas = {
 
 		}
 
-		GER_wehrmacht_idea_7 = { ### prepare_urban
+		GER_wehrmacht_idea_7 = { ### purge_comnmand first
 			#picture = 
 
 			allowed = {
@@ -563,17 +566,38 @@ ideas = {
 			}
 
 			modifier = {
+
 				conscription = 0.005
-				training_time_factor = 0.1
-				minimum_training_level = 0.1 
-				experience_loss_factor = 0.1
-				army_leader_cost_factor = 0.5
+				army_leader_cost_factor = -0.5
 				army_leader_start_logistics_level = 4
 				army_leader_start_planning_level = 4
+				
+			}
+
+
+
+		}
+
+
+
+		GER_wehrmacht_idea_8 = { ### prepare_urban
+			#picture = 
+
+			allowed = {
+				original_tag = GER
+			}
+
+			modifier = {
+
+				conscription = 0.005
+				army_leader_cost_factor = -0.5
+				army_leader_start_logistics_level = 4
+				army_leader_start_planning_level = 4
+				training_time_factor = -0.1
+				minimum_training_level = -0.1 
+				experience_loss_factor = -0.1
 				max_dig_in  = 10
-				pocket_penalty = 0.2
-				minimum_training_level = 0.1 
-				experience_loss_factor = 0.1
+				pocket_penalty = -0.2
 				breakthrough_factor = 0.1
 			}
 

@@ -209,7 +209,40 @@ focus_tree = {
 
 			add_ideas = GER_command_purged
 
-			add_ideas = GER_wehrmacht_idea_6
+			if = {
+				limit = {
+						has_idea = GER_wehrmacht_idea_0
+				}
+					swap_ideas = {
+						remove_idea = GER_wehrmacht_idea_0
+						add_idea = GER_wehrmacht_idea_2
+					}
+			}
+			else_if = {
+				limit = {
+						has_idea = GER_wehrmacht_idea_5
+				}
+					swap_ideas = {
+						remove_idea = GER_wehrmacht_idea_5
+						add_idea = GER_wehrmacht_idea_4
+					}
+			}
+			else_if = {
+				limit = {
+						has_idea = GER_wehrmacht_idea_1
+				}
+					swap_ideas = {
+						remove_idea = GER_wehrmacht_idea_1
+						add_idea = GER_wehrmacht_idea_3
+					}
+			}
+			else {
+
+				add_ideas = GER_wehrmacht_idea_6
+
+			}
+
+			
 
 			
 
@@ -246,7 +279,10 @@ focus_tree = {
 		relative_position_id =  GER_use_favors
 
 		completion_reward = {
-			#our mission will result in combat in cities, likely german. We will train and equip incessantly for the day when that time will come
+			swap_ideas = {
+				remove_idea = GER_wehrmacht_idea_3
+				add_idea = GER_wehrmacht_idea_8
+			}
 
 		}
 
@@ -415,8 +451,42 @@ focus_tree = {
 		relative_position_id =  GER_wehrmacht_conquests
 
 		completion_reward = {
+
+			if = {
+				limit = {
+						has_idea = GER_wehrmacht_idea_0
+				}
+					swap_ideas = {
+						remove_idea = GER_wehrmacht_idea_0
+						add_idea = GER_wehrmacht_idea_1
+					}
+			}
+			else_if = {
+				limit = {
+						has_idea = GER_wehrmacht_idea_6
+				}
+					swap_ideas = {
+						remove_idea = GER_wehrmacht_idea_6
+						add_idea = GER_wehrmacht_idea_4
+					}
+			}
+			else_if = {
+				limit = {
+						has_idea = GER_wehrmacht_idea_7
+				}
+					swap_ideas = {
+						remove_idea = GER_wehrmacht_idea_7
+						add_idea = GER_wehrmacht_idea_3
+					}
+			}
+
+			else = {
+
+				add_ideas = GER_wehrmacht_idea_5
+
+			}
 			
-			add_ideas = GER_wehrmacht_idea_5	
+				
 
 		}
 
@@ -490,6 +560,16 @@ focus_tree = {
 						add_idea = GER_wehrmacht_idea_1
 					}
 			}
+
+			else_if = {
+				limit = {
+						has_idea = GER_wehrmacht_idea_4
+				}
+					swap_ideas = {
+						remove_idea = GER_wehrmacht_idea_4
+						add_idea = GER_wehrmacht_idea_3
+					}
+			}
 		
 			else = {
 
@@ -520,7 +600,23 @@ focus_tree = {
 		relative_position_id = GER_wehrmacht_recruitment
 
 		completion_reward = {
-			#wehrmacht is getting hand-me-down equipment, cool stuff goes to SS, change that now
+
+			add_to_variable = {
+
+				var = GER_wunderwaffe_arms
+				value = 200
+			}
+
+			add_to_variable = {
+
+				var = GER_wunderwaffe_tanks
+				value = 50
+			}
+
+			custom_effect_tooltip  = GER_state_of_the_art_tt
+
+
+			
 
 		}
 

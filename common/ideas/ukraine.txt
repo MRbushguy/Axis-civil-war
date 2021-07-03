@@ -41,6 +41,25 @@ ideas = {
 
 		}
 
+		UKR_agrarian_discontent_2 = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = UKR
+			}
+
+			modifier = {
+				stability_factor = -0.2
+				local_resources_factor = -0.75
+				political_power_gain = -0.25
+				resistance_growth = 0.15
+				compliance_growth = -0.03
+			}
+
+
+		}
+
 		
 
     }
