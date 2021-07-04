@@ -1,4 +1,4 @@
-﻿capital = 653
+capital = 653
 
 oob = "SOV_1936"
 if = {
@@ -89,11 +89,10 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	communism = 80
-	socialism = 10
-	democratic_left = 10
+	democratic = 10
+	fascism = 2
+	communism = 88
 }
 
 create_faction = Comintern
@@ -1047,7 +1046,7 @@ if = {
 
 1947.1.1 = {
 	oob = SOV_1947
-
+	
 	add_ideas = shat_army
 	add_ideas = no_economy
 	add_ideas = civilian_economy
@@ -1061,6 +1060,34 @@ if = {
 	remove_ideas = peoples_commissariat_focus
 	remove_ideas = nkvd_2
 	remove_ideas = officers_purged_6
+	
+	set_politics = {
+	ruling_party = communism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic_left = 3
+	democratic_center = 5
+	democratic_right = 17
+	fascism = 12
+	national_socialism = 1
+	socialism = 13
+	communism = 37
+	authoritarianism = 12
+}
+
+create_country_leader = {
+	name = "Joseph Stalin"
+	desc = "joseph_stalin_desc"
+	picture = "Portrait_Soviet_Joseph_Stalin.dds"
+	expire = "1953.3.1"
+	ideology = collapsed_communism
+	traits = {
+		
+	}
+}
 
 	#SSR
 	puppet = KAZ
