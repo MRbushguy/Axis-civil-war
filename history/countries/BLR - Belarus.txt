@@ -113,9 +113,10 @@ create_country_leader = {
 	elections_allowed = no
                     }
 set_popularities = {
-	communism = 40
+	communism = 20
+	fascism = 10
 	authoritarianism = 10
-	national_socialism = 50
+	national_socialism = 60
 }
 	 add_ideas = {
 		resistance_2

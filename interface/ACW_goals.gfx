@@ -144,4 +144,32 @@ spriteTypes = {
 		name = "GFX_goal_GER_wunderwaffe"
 		texturefile = "gfx/interface/goals/GER_wunderwaffe.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_GER_tighten_race_laws"
+		texturefile = "gfx/interface/goals/GER_tighten_race_laws.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_SS_political_lobbying"
+		texturefile = "gfx/interface/goals/GER_SS_political_lobbying.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_reform_colony_code"
+		texturefile = "gfx/interface/goals/GER_reform_colony_code.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_weaken_SS"
+		texturefile = "gfx/interface/goals/GER_weaken_SS.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_deal_with_the_grain_harvest"
+		texturefile = "gfx/interface/goals/GER_deal_with_the_grain_harvest.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_militarist_propaganda"
+		texturefile = "gfx/interface/goals/GER_militarist_propaganda.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_dissolve_the_feudal_state"
+		texturefile = "gfx/interface/goals/GER_dissolve_the_feudal_state.dds"
+	}	
 }

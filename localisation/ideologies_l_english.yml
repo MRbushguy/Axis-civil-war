@@ -62,15 +62,15 @@
  rexism_desc:0 "Strongly opposed to both liberal and communist ideals, Rexism is a staunchly conservative nationalist movement who advocate a corporatist economic policy. Employing increasingly populist and authoritarian rhetoric, their ideals are shifting closer to other fascist movements."
  
  #Socialism
- socialism:0 "Socialism"
- socialism_noun:0 "socialism"
+ socialism:0 "Socialist"
+ socialism_noun:0 "Socialism"
  socialism_desc:0 "Totalitarian Regime"
  
  anarchism:0 "Anarchism"
  anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
  
- utopian socialism:0 "Utopian socialism"
- utopian socialism_desc:0 ""
+ utopian_socialism:0 "Utopian socialism"
+ utopian_socialism_desc:0 ""
 #Communism
  communism:0 "Communist"
  communism_noun:0 "Communism"
@@ -85,32 +85,34 @@
  stalinism:0 "Stalinism"
  stalinism_desc:0 "Identifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong, authorative socialist state to purge any counter-revolutionary elements."
  
- collapsed_communism:0 "Collapsed communism"
- collapsed_communism_desc:0 "F for cummunism"
+ collapsed_communism:0 "Collapsed Communist"
+ collapsed_communism_noun:0 "Collapsed Communism"
+ collapsed_communism_desc:0 ""
  
  #Democratic Leftists
- democratic_left:0 "democratic left"
- democratic_left_noun:0 "Democratic left"
- democratic_left_desc:0 "Leftist Democratic regime"
+ democratic_left:0 "Social Democract"
+ democratic_left_noun:0 "Social Democracy"
+ democratic_left_desc:0 "Social Democratic regime"
  
  liberalism:0 "Liberalism"
  liberalism_desc:0 "F for cummunism"
  
- social_democracy:0 "Social democracy"
- social_democracy_desc:0 "F for cummunism"
+ social_democracy:0 "Social Democract"
+ social_democracy_noun:0 "Social Democracy"
+ social_democracy_desc:0 ""
  
  #Democratic Centrists
- democratic_center:0 "democratic center"
- democratic_center_noun:0 "Democracic center"
- democratic_center_desc:0 "Centrist democratic Regime"
+ democratic_center:0 "Centrist"
+ democratic_center_noun:0 "Centrism"
+ democratic_center_desc:0 "Centrist Democratic Regime"
  
  market_liberalism:0 "Market liberalism"
- social_democracy_desc:0 "neoliberal bad"
+ social_democracy_desc:0 ""
  
  #Democratic Rightists
- democratic_right:0 "Democratic right"
- democratic_right_noun:0 "Democratic right"
- democratic_right_desc:0 "Rightist democratic Regime"
+ democratic_right:0 "Conservative"
+ democratic_right_noun:0 "Conservatism"
+ democratic_right_desc:0 "Rightist Democratic Regime"
  
  social_conservatism:0 "Social conservatism"
  social_conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
@@ -119,16 +121,16 @@
  authoritarianism:0 "Authoritarian"
  authoritarianism_noun:0 "Authoritarian"
  authoritarianism_desc:0 "Authoritarian Regime"
- 
+ authoritarianism_adj:0 "Authoritarian Regime"
  despotism:0 "Despotic"
  despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
  
- oligarchism:0 "Oligarchicy"
+ oligarchism:0 "Oligarchcy"
  oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power."
  oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power."
  
- military_rule:0 "Military rule"
+ military_rule:0 "Military Rule"
  military_rule_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power." 
  
- colonial_government:0 "Colonial government"
- colonial_government_desc:0 "colonial_government" 
+ colonial_government:0 "Colonial Government"
+ colonial_government_desc:0 "Colonial Governance" 
