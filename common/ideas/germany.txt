@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 
-		##goes to Ukraine for grain crisis
+		## Ukrainian things ##
 		GER_wehrmacht_aid = {
 
 			allowed = {
@@ -19,7 +19,24 @@ ideas = {
 			}
 		}
 
+		GER_extreme_famine = {
 
+			allowed = {
+				always = no
+			}
+
+
+			modifier = {
+				weekly_manpower = -1000
+				monthly_population = -400
+			}
+		}
+
+
+
+
+
+		##german depression##
 		GER_german_depression_5 = {
 			#picture = 
 
