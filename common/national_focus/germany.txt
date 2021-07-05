@@ -1283,7 +1283,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_use_the_bueracracy
-		#icon
+		icon = GFX_goal_GER_use_the_bueracracy
 
 		prerequisite = {
 			focus = GER_glorify_the_feuhrer
@@ -1303,7 +1303,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_power_of_the_pen
-		#icon
+		icon = GFX_goal_GER_power_of_the_pen
 
 		prerequisite = {
 			focus = GER_glorify_the_feuhrer
@@ -1859,7 +1859,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_for_control
-		#icon
+		icon = GFX_goal_GER_for_control
 
 		prerequisite = {
 			focus = GER_infiltrate_command
@@ -1971,7 +1971,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_official_waffen_SS_budget
-		#icon
+		icon = GFX_goal_GER_official_waffen_SS_budget
 
 		prerequisite = {
 			focus = GER_address_the_military
@@ -2108,7 +2108,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_key_bombing_targets
-		#icon
+		icon = GFX_goal_GER_key_bombing_targets
 
 		
 		prerequisite = {
@@ -2130,7 +2130,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_control_radiowaves
-		#icon
+		icon = GFX_goal_GER_control_radiowaves
 
 		
 		prerequisite = {
@@ -2222,7 +2222,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_waffen_ss_training
-		#icon
+		icon = GFX_goal_GER_waffen_ss_training
 
 		prerequisite = {
 			focus = GER_official_waffen_SS_budget

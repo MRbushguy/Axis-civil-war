@@ -171,5 +171,33 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_GER_dissolve_the_feudal_state"
 		texturefile = "gfx/interface/goals/GER_dissolve_the_feudal_state.dds"
-	}	
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_official_waffen_SS_budget"
+		texturefile = "gfx/interface/goals/GER_official_waffen_SS_budget.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_use_the_bueracracy"
+		texturefile = "gfx/interface/goals/GER_use_the_bueracracy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_power_of_the_pen"
+		texturefile = "gfx/interface/goals/GER_power_of_the_pen.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_control_radiowaves"
+		texturefile = "gfx/interface/goals/GER_control_radiowaves.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_waffen_ss_training"
+		texturefile = "gfx/interface/goals/GER_waffen_ss_training.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_key_bombing_targets"
+		texturefile = "gfx/interface/goals/GER_key_bombing_targets.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_for_control"
+		texturefile = "gfx/interface/goals/GER_for_control.dds"
+	}			
 }
