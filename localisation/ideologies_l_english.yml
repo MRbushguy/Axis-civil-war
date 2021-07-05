@@ -16,9 +16,9 @@
  lebensraum_colonization_noun:0 "Esoteric National Socialism"
  lebensraum_colonization_desc:0 "§REsoteric National Socialism§! is the"
  
- exploitative  colonization:0 "Exploitative  colonization"
- exploitative  colonization_noun:0 "exploitative  colonization"
- exploitative  colonization_desc:0 "§REsoteric National Socialism§! is the"
+ exploitative_colonization:0 "Exploitative  colonization"
+ exploitative_colonization_noun:0 "exploitative  colonization"
+ exploitative_colonization_desc:0 "§REsoteric National Socialism§! is the"
  
  russian_nazism:0 "Russian national socialism"
  russian_nazism_noun:0 "Russian national socialism"
