@@ -81,7 +81,7 @@ create_country_leader = {
 	desc = "Francesco_Zingales_desc"
 	picture = "Francesco Zingales.dds"
 	ideology = italian_fascism
-		garrison_commander
+		traits = { garrison_commander
 	}
 }
 
