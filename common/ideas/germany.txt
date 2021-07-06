@@ -28,7 +28,7 @@ ideas = {
 
 			modifier = {
 				weekly_manpower = -1000
-				monthly_population = -400
+				monthly_population = -4
 			}
 		}
 
