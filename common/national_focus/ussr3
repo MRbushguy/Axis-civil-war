@@ -1,1 +1,30 @@
+focus_tree = {
+	id = ussr3
 
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 12
+			tag = SOV
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1500 }
+
+	focus = {
+	    id = SOV_memories
+	    icon = GFX_focus_SOV_memories_of_rev
+
+	    prerequisite = { }
+
+		x = 8
+		y = 2
+ 
+		cost = 1
+
+		completion_reward = {  add_war_support = 0.02	}
+
+	}
