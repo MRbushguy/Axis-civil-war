@@ -382,13 +382,15 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = authoritarianism
 	last_election = "1935.2.8"
 	elections_allowed = yes
 }
+
 set_popularities = {
-	democratic = 6
-	neutrality = 94
+	democratic_right = 28
+	authoritarianism = 52
+	fascism = 20
 }
 
 set_convoys = 20
@@ -907,7 +909,4 @@ if = {
 			}
 		}
 	}
-}
-
-1947.1.1 = {
 }

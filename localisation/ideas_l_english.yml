@@ -7,7 +7,9 @@
  
  shat_army:0 "Shattered Armed Forces"
 
-
+ ###Congo
+ Leopold_III:0 "Leopold III"
+ COG_Diamond_Profits:0 "Diamond Profits"
 
  GER_depleted_army_0:0 "Severely Depleted Army"
  GER_depleted_army_0_desc:0 "The brutal war against the Soviet Union took its toll on the Reich. Our troops are as effective as ever, but massive manpower shortages have led to problems in both the factories and in the field. We would be at a disadvantage in any future wars."

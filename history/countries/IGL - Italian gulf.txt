@@ -67,22 +67,21 @@ create_country_leader = {
      set_cosmetic_tag = ITA_puppet
 
 	set_politics = {
-		ruling_party = fascism
+		ruling_party = authoritarianism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		democratic = 1
-		fascism = 95
-		communism = 1
-		neutrality = 3
+		fascism = 25
+		communism = 5
+		authoritarianism = 70
 	}
 	create_country_leader = {
-	name = "Francesco Zingales"
+	name = "IGL Leader"
 	desc = ""
-	picture = "Francesco Zingales.dds"
-	ideology = fascism_ideology
+	picture = ""
+	ideology = oligarchy
 	traits = {
 		#
 		}

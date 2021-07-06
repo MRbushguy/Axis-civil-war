@@ -30,4 +30,13 @@ spriteTypes = {
 		name = "GFX_idea_USA_revived_klan"
 		texturefile = "gfx/interface/ideas/USA/klan.dds"
 	}
+	### COG
+	SpriteType = {
+		name = "GFX_idea_COG_Leopold_III"
+		texturefile = "gfx/interface/ideas/COG/COG_Leopold_III.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_COG_Diamond_Profits"
+		texturefile = "gfx/interface/ideas/COG/Diamond_Profits.dds"
+	}	
 }

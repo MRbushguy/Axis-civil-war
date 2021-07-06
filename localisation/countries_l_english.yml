@@ -58,12 +58,16 @@
  
  IEA_fascism:0 "Africa Orientale Italiana"
  IEA_fascism_DEF:0 "Italian Colonial Governorate of East Africa"
- IEA_democratic:0 "East African Republic"
- IEA_democratic_DEF:0 "the East African Republic"
- IEA_authoritarianism:1 "East African Empire"
- IEA_authoritarianism_DEF:1 "the East African Empire"
+
+ IEA_democratic_right:0 "East African Republic"
+ IEA_democratic_right_DEF:0 "the East African Republic"
+
+ IEA_authoritarianism:1 "Africa Orientale Italiana"
+ IEA_authoritarianism_DEF:1 "Italian Colonial Governorate of East Africa"
+
  IEA_communism:0 "Socialist Republic of East Africa"
  IEA_communism_DEF:0 "the Socialist Republic of East Africa"
+
  IEA_fascism_ADJ:0 "Italian"
  IEA_democratic_ADJ:0 "East African"
  IEA_authoritarianism_ADJ:0 "East African"
@@ -74,12 +78,16 @@
  
  IME_fascism:0 "Medio Oriente Italiano"
  IME_fascism_DEF:0 "Italian Colonial Governorate of the Middle East"
- IME_democratic:0 "Levantine Republic"
- IME_democratic_DEF:0 "the Levantine Republic"
- IME_authoritarianism:1 "Levantine Empire"
- IME_authoritarianism_DEF:1 "the Levantine Empire"
+
+ IME_democratic_right:0 "Levantine Republic"
+ IME_democratic_right_DEF:0 "the Levantine Republic"
+
+ IME_authoritarianism:1 "Medio Oriente Italiano"
+ IME_authoritarianism_DEF:1 "Italian Colonial Governorate of the Middle East"
+
  IME_communism:0 "Socialist Republic of the Levantine"
  IME_communism_DEF:0 "the Socialist Republic of the Levantine"
+
  IME_fascism_ADJ:0 "Italian"
  IME_democratic_ADJ:0 "Levantine"
  IME_authoritarianism_ADJ:0 "Levantine"
@@ -90,12 +98,16 @@
  
  ICA_fascism:0 "Africa Centrale Italiana"
  ICA_fascism_DEF:0 "Italian Colonial Governorate of Central Africa"
- ICA_democratic:0 "Central African Republic"
- ICA_democratic_DEF:0 "the Central African Republic"
+
+ ICA_democratic_right:0 "Africa Centrale Italiana"
+ ICA_democratic_right_DEF:0 "Italian Colonial Governorate of Central Africa"
+
  ICA_authoritarianism:1 "Central African Empire"
  ICA_authoritarianism_DEF:1 "the Central African Empire"
+
  ICA_communism:0 "Socialist Republic of Central Africa"
  ICA_communism_DEF:0 "the Socialist Republic of Central Africa"
+
  ICA_fascism_ADJ:0 "Italian"
  ICA_democratic_ADJ:0 "Central African"
  ICA_authoritarianism_ADJ:0 "Central African"
@@ -155,19 +167,36 @@
 
  ENG_fascism:0 "British Empire"
  ENG_fascism_DEF:0 "the British Empire"
- ENG_democratic:0 "United Kingdom"
- ENG_democratic_DEF:0 "the United Kingdom"
+ ENG_fascism_ADJ:0 "British"
+
+ ENG_democratic_right:0 "United Kingdom"
+ ENG_democratic_right_DEF:0 "the United Kingdom"
+ ENG_democratic_right_ADJ:0 "British"
+
+ ENG_democratic_center:0 "United Kingdom"
+ ENG_democratic_center_DEF:0 "the United Kingdom"
+ ENG_democratic_center_ADJ:0 "British"
+
+ ENG_democratic_left:0 "United Kingdom"
+ ENG_democratic_left_DEF:0 "the United Kingdom"
+ ENG_democratic_left_ADJ:0 "British"
+
  ENG_authoritarianism:0 "Great Britain"
  ENG_authoritarianism_DEF:0 "Great Britain"
+ ENG_authoritarianism_ADJ:0 "British"
+
+ ENG_national_socialism:0 "Great Britain"
+ ENG_national_socialism_DEF:0 "Great Britain"
+ ENG_national_socialism_ADJ:0 "British"
+
  ENG_communism:0 "Union of Britain"
  ENG_communism_DEF:0 "the Union of Britain"
- ENG_fascism_ADJ:0 "British"
- ENG_democratic_ADJ:0 "British"
- ENG_authoritarianism_ADJ:0 "British"
  ENG_communism_ADJ:0 "British"
+
  ENG:0 "Britain"
  ENG_DEF:0 "Britain"
  ENG_ADJ:0 "British"
+
  SOV_fascism:0 "Russian State"
  SOV_fascism_DEF:0 "the Russian State"
  SOV_democratic:0 "Russian Federation"
@@ -183,21 +212,39 @@
  SOV:0 "Russia"
  SOV_DEF:0 "Russia"
  SOV_ADJ:0 "Russian"
+
  USA_fascism:0 "Free American Empire"
  USA_fascism_DEF:0 "the Free American Empire"
- USA_democratic:0 "United States"
- USA_democratic_DEF:0 "the United States"
- USA_authoritarianism:1 "Loyalists"
- USA_authoritarianism_DEF:1 "the Loyalists"
+ USA_fascism_ADJ:0 "American"
+
+ USA_democratic_right:0 "United States"
+ USA_democratic_right_DEF:0 "the United States"
+ USA_democratic_right_ADJ:0 "American"
+
+ USA_democratic_center:0 "United States"
+ USA_democratic_center_DEF:0 "the United States"
+ USA_democratic_center_ADJ:0 "American"
+
+ USA_democratic_left:0 "United States"
+ USA_democratic_left_DEF:0 "the United States"
+ USA_democratic_left_ADJ:0 "American"
+
+ USA_authoritarianism:1 "American State"
+ USA_authoritarianism_DEF:1 "the American State"
+ USA_authoritarianism_ADJ:0 "American"
+
+ USA_national_socialism:1 "American Reich"
+ USA_national_socialism_DEF:1 "the American Reich"
+ USA_national_socialism_ADJ:0 "American"
+
  USA_communism:0 "Communist States of America"
  USA_communism_DEF:0 "the Communist States of America"
- USA_fascism_ADJ:0 "American"
- USA_democratic_ADJ:0 "American"
- USA_authoritarianism_ADJ:0 "American"
  USA_communism_ADJ:0 "American"
+
  USA:0 "America"
  USA_DEF:0 "America"
  USA_ADJ:0 "American"
+
  SWE_fascism:0 "Svea Rike"
  SWE_fascism_DEF:0 "Svea Rike"
  SWE_democratic:0 "Sweden"
@@ -1760,14 +1807,22 @@
  ZIM:0 "Zimbabwe"
  ZIM_DEF:0 "Zimbabwe"
  ZIM_ADJ:0 "Zimbabwean"
+
  COG_fascism:2 "Central African Empire"
  COG_fascism_DEF:3 "the Central African Empire"
- COG_democratic:1 "Republic of the East Congo"
- COG_democratic_DEF:1 "the Republic of the East Congo"
- COG_authoritarianism:0 "Congo Neutral State"
- COG_authoritarianism_DEF:0 "Congo Neutral State"
+
+ COG_democratic_right:1 "Republic of the East Congo"
+ COG_democratic_right_DEF:1 "the Republic of the East Congo"
+
+ COG_authoritarianism:0 "Belgian Congo"
+ COG_authoritarianism_DEF:0 "the Belgian Congo"
+
+ COG_socialism:1 "Democratic Republic of the Congo"
+ COG_socialism_DEF:0 "Democratic Republic of the Congo"
+
  COG_communism:1 "Democratic Republic of the Congo"
  COG_communism_DEF:0 "Democratic Republic of the Congo"
+
  COG_fascism_ADJ:0 "Congolese"
  COG_democratic_ADJ:0 "Congolese"
  COG_authoritarianism_ADJ:0 "Zairian"
@@ -1775,6 +1830,7 @@
  COG:0 "Zaire"
  COG_DEF:0 "Zaire"
  COG_ADJ:0 "Zairian"
+
  KEN_fascism:2 "Greater Kenyan Empire"
  KEN_fascism_DEF:2 "the Greater Kenyan Empire"
  KEN_democratic:0 "Republic of Kenya"
