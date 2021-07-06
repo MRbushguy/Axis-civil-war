@@ -26,13 +26,9 @@ country_event = {
 	
 	is_triggered_only = yes
 
-        immediate = { 
-		              set_country_flag = unified_ssr
-					  mark_focus_tree_layout_dirty = yes
-				    }
-
 	option = {
 		name = soviet.2.a
+		load_focus_tree = ussr3
 	}
 }
 
