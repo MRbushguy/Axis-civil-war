@@ -47,11 +47,16 @@
 
  #RUSSIA
 
- soviet.1.t:0 "Military parade in Chelyabinsk"
+ soviet.1.t:0 "The military parade in Sverdlovsk"
  soviet.1.d:0 "Earlier today, A military parade has been announced by our leader Stalin himself and he is expected to join, This suprisingly large show of force has increased the morale of our capital to wartime levels. Seizing the moment, Stalin has announced he will do all that he can to reclaim the homeland and save Mother Russia from the Fascist menace."
  soviet.1.a:0 "For the Motherland!"
- ussr2:0 "The Stalin focus tree"
-
+ ussr2:0 "The Keeping Stalin focus tree"
+ 
+soviet.2.t:0 "Military parade in Chelyabinsk"
+soviet.2.d:0 "Earlier today, A military parade has been announced by our leader Stalin himself and he is expected to join, This suprisingly large show of force has increased the morale of our capital to wartime levels. Seizing the moment, Stalin has announced he will do all that he can to reclaim the homeland and save Mother Russia from the Fascist menace."
+soviet.2.a:0 "For the Motherland!"
+ 
+ 
 
  #italian crimea
 
