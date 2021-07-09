@@ -280,7 +280,7 @@ focus_tree = {
  
 		cost = 1
 
-		completion_reward = {  add_war_support = 0.02	}
+		completion_reward = {  SOV = { country_event = { id = soviet.3 } }	}
 
 	}
 
