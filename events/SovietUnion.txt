@@ -8,7 +8,7 @@ country_event = {
 	id = soviet.1
 	title = soviet.1.t
 	desc = soviet.1.d
-	picture = GFX_report_event_soviet_tanks
+	picture = GFX_report_event_sov_army_parade
 	
 	is_triggered_only = yes
 
@@ -22,7 +22,7 @@ country_event = {
 	id = soviet.2
 	title = soviet.2.t
 	desc = soviet.2.d
-	picture = GFX_report_event_soviet_tanks
+	picture = GFX_report_event_sov_trials
 	
 	is_triggered_only = yes
 
