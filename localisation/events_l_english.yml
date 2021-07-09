@@ -75,3 +75,14 @@ soviet.2.a:0 "An abrupt end to the Stalin era"
   germany.1.t:0 "Hitler's speech"
  germany.1.d:0 "The crowd waited expectantly as Adolf Hitler shuffled to the stand to give his speech. There were whispers and murmurs among the crowd as the Fuhrer moved slower, less purposefully than he had used to, but these whispers were soon quelled as he began to speak. As he spoke of a new, free Germany, his voice had all the hallmarks of his famous energy and vigor. But there were those in the crowd that saw different. Saw the occasional mistakes, the slip-ups, the physical toll that just a speech was taking on the man. These watchers knew, as the Fuhrer said, that a new Germany was arising. But as to who would lead this new empire - only time would tell."
  germany.1.a:0 "Twilight on the old world."
+
+#Ukraine
+ukraine.1.t:0 "The Farmer's choice"
+ukraine.1.d:0 "Aleksey shuffled towards his field, ignoring the spasms of hunger pain that wracked his body. He stopped at the border of the grain and stood, staring wistfully across the acres and acres of rich wheat that from his perspective, went on for miles. In a few weeks, it would be harvested and sent to the west, and not a single piece of it would remain in Ukraine. Aleksey reached for the bag he had brought, and with trembling hands pulled out a slew of matches. His fingers shook, but his arms were strong from decaades of work in these fields. One by one he lit the matches, and tossed them into different parts of the field. Across Ukraine he knew farmers were doing the exact same thing. In time the deed was finished. He lay down in the field, closing his eyes and taking a deep breath as the scent of grain was replaced by the stench of burning grass."
+ukraine.1.a:0 "It only takes one spark."
+
+ukraine.2.t:0 "The Ukranian Peasant Revolt"
+ukraine.2.d:0 "Even after the blistering onset of Operation Barbarossa, where the Ukrainian SSR was quickly consumed by the German Reich, resistance still remained. Over the years, German arms whittled away at it, sapping the will and strength of the Ukrainian people. Over time, the German plans for Ukraine became clear - they would forcibly evict the ukrainian people from the area and incorporate it as a core region of the German state. However, it still seems as though there is strength in them. Following the burning of fields last month, Ukrainian resistance fighters were spotted at various key points in the country, overwhelming unprepared german guards with advanced weapons likely pilfered from German stockpiles. Kiev and its surrounding territory remains in German hands, but the future of the area remains uncertain."
+ukraine.2.a:0 "The fields will be watered with this rebellion's blood!"
+#add an alternative to play as the revolt
+

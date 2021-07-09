@@ -25,6 +25,9 @@
  GER:0 "Germany"
  GER_DEF:0 "Germany"
  GER_ADJ:0 "German"
+
+ UPR_socialism:0 "Ukranian Peasant Revolt"
+ UPR_socialism_DEF:0 "The Ukranian Peasant Revolt"
  
  OCC_ITA_subject:0 "Occitanian State"
  OCC_ITA_subject_DEF:0 "Occitanian State"

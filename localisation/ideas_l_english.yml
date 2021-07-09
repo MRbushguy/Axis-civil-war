@@ -62,6 +62,19 @@
  GER_wehrmacht_idea_8_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
 
 
+
+###German Sphere
+
+    ##ukraine
+  UKR_agrarian_discontent_0:0 "Agrarian Discontent"
+  UKR_agrarian_discontent_0_desc:0 "The harsh quotas of grain extracted by the German occupiers have led to more than a few angry protests from the farmers of Ukrainian fields."
+  UKR_agrarian_discontent_1:0 "Agrarian Uproar"
+  UKR_agrarian_discontent_1_desc:0 "With their worries gone unheeded by the German occupiers, Ukrainian farmers and fellow supporters have begun to cause more than a little trouble."
+  UKR_agrarian_discontent_2:0 "Agrarian Rebellion"
+  UKR_agrarian_discontent_2_desc:0 "With fears that the German occupiers will bleed them dry, the Ukranian people have escalated their discontent into a full-blown resistance. Who knows how far this may go..."
+
+
+
  ### Britain
  ENG_broken_nation:0 "Broken Nation" 
  ENG_broken_nation_desc:0 "The world war has sapped the british spirit, perhaps beyond repair. A vast empire has been dismantled by necessity practically overnight, and now Great Britain is a shell of its former self." 

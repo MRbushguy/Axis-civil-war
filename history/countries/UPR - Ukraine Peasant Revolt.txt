@@ -124,7 +124,7 @@ create_country_leader = {
 1947.1.1 = {
     
 	set_politics = {
-	ruling_party = communism
+	ruling_party = socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -133,7 +133,8 @@ create_country_leader = {
 	democratic = 35
 	fascism = 10
 	national_socialism = 5
-	communism = 50
+	socialism = 35
+	communism = 15
                        }
 	add_ideas = {
 		

@@ -3,15 +3,15 @@
 IOC = {
 	color = rgb { 4 124 6 }
 	color_ui = rgb { 4 124 6 }
-	}
+}
 ICA = {
 	color = rgb { 0 78 0 }
 	color_ui = rgb { 0 78 0 }
-	}
+}
 IME = {
 	color = rgb { 61 107 0 }
 	color_ui = rgb { 61 107 0 }
-	}
+}
 IEA = {
 	color = rgb { 61 77 10 }
 	color_ui = rgb { 61 77 10 }
@@ -19,13 +19,16 @@ IEA = {
 IGL = {
 	color = rgb { 0 76 38 }
 	color_ui = rgb { 0 76 38 }
-	}
+}
 FFA = {
 	color = rgb { 69 160 198 }
 	color_ui = rgb { 69 160 198 }
-	
-#vanilla
 }
+UPR = {
+	color = rgb { 252 3 90 }
+	color_ui = rgb { 252 3 90 }
+}
+#vanilla
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
