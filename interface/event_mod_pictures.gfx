@@ -29,5 +29,16 @@ spriteTypes = {
 		name = "GFX_report_event_slovene.dds"
 		texturefile = "gfx/event_pictures/slovene.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_report_event_sov_army_parade.dds"
+		texturefile = "gfx/event_pictures/sov_army_parade.dds"
+	}
+	
+spriteType = {
+		name = "GFX_report_event_sov_trials.dds"
+		texturefile = "gfx/event_pictures/sov_trials.dds"
+	}
+
 
 }
