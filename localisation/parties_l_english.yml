@@ -19,6 +19,26 @@
  GER_democratic_center_party:0 "FDP"
  GER_democratic_center_party_long:0 "Free Democratic Party"
 
+ FRA_national_socialism_party:0 "PPF"
+ FRA_national_socialism_party_long:0 "Parti Populaire Français"
+ FRA_authoritarianism_party:0 "PRL"
+ FRA_authoritarianism_party_long:0 " Parti Républicain de la Liberté"
+ FRA_fascism_party:0 "PPF"
+ FRA_fascism_party_long:0 "Parti Populaire Français"
+ 
+ FRA_communism_party:0 "PCF"
+ FRA_communism_party_long:0 "Parti Communiste Français"
+ FRA_socialism_party:0 "SFIO"
+ FRA_socialism_party_long:0 "Section Française de l'Internationale Ouvrière"
+ FRA_democratic_left_party:0 "PR"
+ FRA_democratic_left_party_long:0 "Parti Radical" 
+
+ FRA_democratic_right_party:0 "RPF"
+ FRA_democratic_right_party_long:0 "Rassemblement du Peuple Français"
+ FRA_democratic_center_party:0 "MRP"
+ FRA_democratic_center_party_long:0 "Mouvement Républicain Populaire"
+
+
  COG_national_socialism_party:0 "DKF"
  COG_national_socialism_party_long:0 "Deutsch-Kongo-Freikorps"
  COG_authoritarianism_party:0 "ACB"

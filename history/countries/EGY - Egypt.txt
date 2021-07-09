@@ -87,7 +87,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Farouk Muhammad Ali"
 	desc = ""
-	picture = "GFX_portrait_egy_faud_i"
+	picture = "gfx/leaders/EGY/Portrait_Farouk_Muhammad_Ali.dds"
 	ideology = monarchism
 	traits = {
 		#
