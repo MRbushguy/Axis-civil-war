@@ -31,12 +31,12 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_report_event_sov_army_parade.dds"
+		name = "GFX_report_event_sov_army_parade"
 		texturefile = "gfx/event_pictures/sov_army_parade.dds"
 	}
 	
 spriteType = {
-		name = "GFX_report_event_sov_trials.dds"
+		name = "GFX_report_event_sov_trials"
 		texturefile = "gfx/event_pictures/sov_trials.dds"
 	}
 
