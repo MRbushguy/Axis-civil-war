@@ -1,4 +1,4 @@
-focus_tree = {
+﻿focus_tree = {
 	id = ussr
 
 	country = {
@@ -23,9 +23,9 @@ focus_tree = {
 		x = 8
 		y = 2
  
-		cost = 1.5
+		cost = 1
 
-		completion_reward = {  add_stability = 0.05 add_war_support = 0.1 add_political_power = 20	}
+		completion_reward = {  add_stability = 0.05	}
 
 	}
 
@@ -40,7 +40,7 @@ focus_tree = {
 		x = 6
 		y = 3
  
-		cost = 2
+		cost = 1
 
 		completion_reward = { SOV = { country_event = { id = soviet.1 days = 1 } }	}
 
@@ -57,9 +57,10 @@ focus_tree = {
 		x = 10
 		y = 3
  
-		cost = 2.9
+		cost = 1
 
-completion_reward = { SOV = { country_event = { id = soviet.2 days = 1 } }	}
+		completion_reward = { custom_effect_tooltip = not_finish}
+
 	}
 
 }

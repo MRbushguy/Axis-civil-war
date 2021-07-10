@@ -1,7 +1,5 @@
 focus_tree = {
 	id = ussr3
-	
-	custom_effect_tooltip = ussr3
 
 	country = {
 		factor = 0
