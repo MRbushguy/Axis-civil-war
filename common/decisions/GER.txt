@@ -133,7 +133,7 @@ GER_the_state_of_germany = {
 			hidden_trigger = { always = no }
 		}
 
-		days_mission_timeout = 50
+		days_mission_timeout = GER_economy_refresh_time
 
 		visible = {
 			tag = GER
@@ -161,8 +161,15 @@ GER_the_state_of_germany = {
 
 			}
 
-			
+			if = {
+				limit = {
 
+					check_variable = {GER_economy_refresh_time > 30}
+
+				}
+				add_to_variable = {GER_economy_refresh_time = -10}
+			}
+			
 
 			activate_mission = GER_ticking_plunder_economy
 		}

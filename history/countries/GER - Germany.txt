@@ -117,6 +117,8 @@ set_technology = {
 
 	###Plunder variables
 
+
+	set_variable = {GER_economy_refresh_time = 120}
 	set_variable = {GER_plunder_west = 25}
 	set_variable = {GER_plunder_east = 25}
 
