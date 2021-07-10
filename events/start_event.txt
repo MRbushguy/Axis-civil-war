@@ -12,7 +12,7 @@ country_event = { #opening
     title = start.1.t
     desc = start.1.d
     picture = 
-    #fire_only_once = yes
+    fire_only_once = yes
     is_triggered_only = yes
     
 
