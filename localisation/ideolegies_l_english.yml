@@ -1,18 +1,31 @@
-﻿l_english:
-#nazi bois (based war cimes)
+l_english:
+#national socialism
  national_socialism:0 "National Socialist"
  national_socialism_noun:0 "National Socialism"
  national_socialism_desc:0 "Corporatist Totalitarian Regime"
  
- final_nazism:0 "Esoteric National Socialism"
- final_nazism_noun:0 "Esoteric National Socialism"
+ final_nazism:0 "National Socialism"
+ final_nazism_noun:0 "National Socialism"
  final_nazism_desc:0 "A mix of Italian fascism, rabid racism and anti semitism, and Extreme totalitarianism, §RNational socialism§! was built on the bitterness of the german people over the humiliation and chaos of the weltkrieg, and exploited by the far right figures such as Adolf hitler as an excuse to rise to power, and eventually to subjegate europe under their mighty boot. \n\nNational socialism differs from fascism in its extreme level of racism, every race has value, and "lower quality" races should either be enslaved for the benefits of the "superior races", or be entirely wiped out of existance. "
  
  esoteric_nazism:0 "Esoteric National Socialism"
  esoteric_nazism_noun:0 "Esoteric National Socialism"
  esoteric_nazism_desc:0 "§REsoteric National Socialism§! is the"
+ 
+ lebensraum_colonization:0 "Lebensraum colonization"
+ lebensraum_colonization_noun:0 "Esoteric National Socialism"
+ lebensraum_colonization_desc:0 "§REsoteric National Socialism§! is the"
+ 
+ exploitative_colonization:0 "Exploitative  colonization"
+ exploitative_colonization_noun:0 "exploitative  colonization"
+ exploitative_colonization_desc:0 "§REsoteric National Socialism§! is the"
+ 
+ russian_nazism:0 "Russian national socialism"
+ russian_nazism_noun:0 "Russian national socialism"
+ russian_nazism_desc:0 "Corporatist Totalitarian Regime"
+ 
 
-#fascist bois (less based war cimes)
+#fascist
  fascism:0 "Fascist"
  fascism_noun:0 "Fascism"
  fascism_desc:0 "Totalitarian Regime"
@@ -35,7 +48,7 @@
  
  reformist_fascism:0 "Reformist  Fascism"
  reformist_fascism_noun:0 "reformist  Fascism"
- reformist_fascism_desc:0 "\n\n§BReformist  Fascism§!, while does take inspiration from Italian fascism, completely overhauls the system. Reformist fascists belive that the best way to serve the homeland is to provide its citizens education, quality healthcare, and reasons to be proud of their country. Indevidualism and liberalization are greatly expanded, and any form of racism is discouraged. \n\nHowever this ideolegy is still fascism and has a lot of  fascist elements, most notably its heavy promotion of nationalism and glory, and some form of indoctrination is still present. This ideolegy is not democracy, these are only necessary steps to keep fascism a prominent ideolegy in this new era"   
+ reformist_fascism_desc:0 "§BReformist  Fascism§!, while does take inspiration from Italian fascism, completely overhauls the system. Reformist fascists belive that the best way to serve the homeland is to provide its citizens education, quality healthcare, and reasons to be proud of their country. Indevidualism and liberalization are greatly expanded, and any form of racism is discouraged. \n\nHowever this ideolegy is still fascism and has a lot of  fascist elements, most notably its heavy promotion of nationalism and glory, and some form of indoctrination is still present. This ideolegy is not democracy, these are only necessary steps to keep fascism a prominent ideolegy in this new era"   
  
  japanese_fascism:0 "Japanese imperialism"
  japanese_fascism_noun:0 "Japanese Fascism"
@@ -47,20 +60,17 @@
  rexism:0 "Rexism"
  rexism_desc:0 "Strongly opposed to both liberal and communist ideals, Rexism is a staunchly conservative nationalist movement who advocate a corporatist economic policy. Employing increasingly populist and authoritarian rhetoric, their ideals are shifting closer to other fascist movements."
  
- 
- #socialist bois (average 14 year old)
+ #Socialism
  socialism:0 "Socialism"
- socialism_noun:0 "socialism"
+ socialism_noun:0 "Socialism"
  socialism_desc:0 "Totalitarian Regime"
  
  anarchism:0 "Anarchism"
  anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
- 
  utopian_socialism:0 "Utopian socialism"
  utopian_socialism_desc:0 ""
  
- 
-#communist bois (Earrape anthem)
+#communist
  communism:0 "Communist"
  communism_noun:0 "Communism"
  communism_desc:0 "Totalitarian Regime"
@@ -74,39 +84,56 @@
  stalinism:0 "Stalinism"
  stalinism_desc:0 "Identifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong, authorative socialist state to purge any counter-revolutionary elements."
  
+ #Democratic Leftists
+ democratic_left:0 "Social Democract"
+ democratic_left_noun:0 "Social Democracy"
+ democratic_left_desc:0 "Social Democratic regime"
+
+ collapsed_communism:0 "Collapsed Communism"
+ collapsed_communism_noun:0 "Collapsed Communism"
+ collapsed_communism_desc:0 "A country with §RCollapsed communism§! represents a country which had some variety of communism as the dominant or only ideolegy of the government, but after a major internal or external crisis, the belif of the citizens and politicians of that country in communism has been greatly reduced. \n\nWhile it is not a complete anarchy and breakdown of society, there is a great amount of chaos and lack of control. There is also a renewed Question of ideological identity amongs the common people and the government, and this culminates in renewed intrest in other ideolegies from all political spectrums. which also creates ideological clashes amongst the people and politicians"
  
- #democratic leftists (snowflakes) 
- democratic_left:0 "democratic left"
- democratic_left_noun:0 "Democratic left"
- democratic_left_desc:0 "Leftist Democratic regime"
+ liberalism:0 "Liberalism"
+ liberalism_desc:0 "F for cummunism"
+ 
+ social_democracy:0 "Social Democract"
+ social_democracy_noun:0 "Social Democracy"
+ social_democracy_desc:0 ""
+
+ #Democratic Centrists
+ democratic_center:0 "Centrist"
+ democratic_center_noun:0 "Centrism"
+ democratic_center_desc:0 "Centrist Democratic Regime"
+
+ market_liberalism:0 "Market liberalism"
+ social_democracy_desc:0 ""
+ 
+ #Democratic Rightists
+ democratic_right:0 "Conservative"
+ democratic_right_noun:0 "Conservatism"
+ democratic_right_desc:0 "Rightist Democratic Regime"
+ 
+ social_conservatism:0 "Social conservatism"
+ social_conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
  
  
- #democratic center bois (Pick a side R*tards) 
- democratic_center:0 "democratic center"
- democratic_center_noun:0 "Democracic center"
- democratic_center_desc:0 "Centrist democratic Regime"
- 
- #democratic rightists (Change bad !!!!!!) 
- democratic_right_right:0 "Democratic right"
- democratic_right_noun:0 "Democratic right"
- democratic_right_desc:0 "Rightist democratic Regime"
- 
- conservatism:0 "Conservatism"
- conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
- 
- 
- #authoritarian bois (protest crushing go brrrr)
+ #authoritarian
  authoritarianism:0 "Authoritarian"
  authoritarianism_noun:0 "Authoritarian"
  authoritarianism_desc:0 "Authoritarian Regime"
- 
+ authoritarianism_adj:0 "Authoritarian Regime"
  despotism:0 "Despotic"
  despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
  
- oligarchism:0 "Oligarchicy"
+ oligarchism:0 "Oligarchcy"
+ oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power."
  oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power."
  
- 
+ military_rule:0 "Military Rule"
+ military_rule_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power." 
+
+ colonial_government:0 "Colonial Government"
+ colonial_government_desc:0 "Colonial Governance" 
  
  #parties
  GER_national_socialism_party:0 "NSDAP - Hardliners"
