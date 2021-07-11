@@ -1,8 +1,10 @@
-﻿###########################
+###########################
 # Soviet Events
 ###########################
 
 add_namespace = soviet
+
+custom_effect_tooltip = ussr3
 
 country_event = {
 	id = soviet.1
@@ -16,9 +18,8 @@ country_event = {
 		name = soviet.1.a
 		load_focus_tree = ussr2 
 		add_popularity = {
-	        ideology = communism
-	        popularity = 0.25
-                        }
+	        ideology = communism popularity = 0.07
+            }
 	}
 }
 
