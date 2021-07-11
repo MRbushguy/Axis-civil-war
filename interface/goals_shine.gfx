@@ -11089,11 +11089,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_focus_spr_crush_the_revolution_shine"
-		texturefile = "gfx/interface/goals/focus_spr_crush_the_revolution.dds"
+		name = "GFX_focus_spr_stalin_tomato_shine"
+		texturefile = "gfx/interface/goals/stalin_tomato.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_spr_crush_the_revolution.dds"
+			animationmaskfile = "gfx/interface/goals/stalin_tomato.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -11106,7 +11106,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_spr_crush_the_revolution.dds"
+			animationmaskfile = "gfx/interface/goals/stalin_tomato.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
