@@ -48,7 +48,7 @@ focus_tree = {
 
 	focus = {
 	    id = SOV_new_gen
-		icon = GFX_focus_spr_crush_the_revolution
+		icon = GFX_focus_stalin_tomato
 	
 	    prerequisite = { focus = SOV_shattered_union }
         
