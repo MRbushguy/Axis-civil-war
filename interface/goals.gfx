@@ -1748,8 +1748,8 @@
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_spr_crush_the_revolution"
-		texturefile = "gfx/interface/goals/focus_spr_crush_the_revolution.dds"
+		name = "GFX_focus_stalin_tomato"
+		texturefile = "gfx/interface/goals/stalin_tomato.dds"
 	}
 
 	SpriteType = { 
