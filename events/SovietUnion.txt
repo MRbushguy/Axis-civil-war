@@ -4,6 +4,8 @@
 
 add_namespace = soviet
 
+custom_effect_tooltip = ussr3
+
 country_event = {
 	id = soviet.1
 	title = soviet.1.t
