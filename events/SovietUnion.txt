@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # Soviet Events
 ###########################
 
@@ -16,9 +16,8 @@ country_event = {
 		name = soviet.1.a
 		load_focus_tree = ussr2 
 		add_popularity = {
-	        ideology = communism
-	        popularity = 0.25
-                        }
+	        ideology = communism popularity = 0.07
+            }
 	}
 }
 
