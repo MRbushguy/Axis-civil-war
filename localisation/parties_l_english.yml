@@ -58,6 +58,26 @@
  COG_democratic_center_party:0 "ABAKO"
  COG_democratic_center_party_long:0 "Alliance des Bakongo"
 
+ USA_national_socialism_party:0 "NPA - AV"
+ USA_national_socialism_party_long:0 "National Preservation Alliance - Amerikadeutscher Volksbund"
+ USA_fascism_party:0 "NPA - AF"
+ USA_fascism_party_long:0 "National Preservation Alliance - America First Caucus"
+ 
+ USA_communism_party:0 "CPUSA"
+ USA_communism_party_long:0 "Communist Party of the United States of America"
+ USA_socialism_party:0 "CPUSA - WFC"
+ USA_socialism_party_long:0 "Communist Party of the United States of America - Worker's Front Caucus"
+
+ USA_authoritarianism_party:0 "Dixiecrat"
+ USA_authoritarianism_party_long:0 "Democratic Party"
+ USA_democratic_left_party:0 "Democrat"
+ USA_democratic_left_party_long:0 "Democratic Party"
+
+ USA_democratic_right_party:0 "Republican"
+ USA_democratic_right_party_long:0 "Republican Party"
+ USA_democratic_center_party:0 "Republican"
+ USA_democratic_center_party_long:0 "Republican Party"
+
  POL_fascism_party:0 "ONR-Falanga"
  POL_fascism_party_long:0 "Oboz Narodowo Radykalny-Falanga"
  POL_communism_party:1 "KPP"
@@ -81,10 +101,6 @@
  JAP_fascism_party:0 "Taisei Yokusankai"
  JAP_authoritarianism_party_kodoha_long:0 "Kodoha Faction"
  JAP_authoritarianism_party_kodoha:0 "Kodoha Faction"
- USA_communism_party:0 "Communist Party USA"
- USA_democratic_party:0 "Democratic Party"
- USA_republican_party:0 "Republican Party"
- USA_fascism_party:0 "Silver Legion of America"
  FRA_communism_party:0 "Parti Communiste Francais"
  FRA_democratic_party:0 "Parti Radical"
  FRA_fascism_party:0 "Mouvement Franciste"

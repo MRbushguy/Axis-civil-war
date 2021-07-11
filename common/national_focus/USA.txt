@@ -1,0 +1,467 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = US_Initial_tree
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1500 }
+
+
+	focus = {
+		id = USA_1948_Elections
+		#icon =
+		x = 12
+		y = 1
+		cost = 10
+
+		completion_reward = {
+		}
+}
+
+
+### REPUBLICANS ###
+	focus = {
+		id = USA_republicans_win
+		#icon =
+		x = -8
+		y = 2
+		cost = 10
+
+		relative_position_id = USA_1948_Elections
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_warren_continues
+		#icon =
+		x = 0
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_republicans_win
+		completion_reward = {
+		}
+}
+
+### DEMOCRATS ###
+	focus = {
+		id = USA_democrats_win
+		#icon =
+		x = 0
+		y = 2
+		cost = 10
+
+		relative_position_id = USA_1948_Elections
+		completion_reward = {
+		}
+}
+
+### WALLACE ###
+	focus = {
+		id = USA_henry_wallace
+		#icon =
+		x = -4
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_democrats_win
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_employment_act
+		#icon =
+		x = -1
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_henry_wallace
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_housing_act
+		#icon =
+		x = 0
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_employment_act
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_brannan_plan
+		#icon =
+		x = 0
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_housing_act
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_committee_eq
+		#icon =
+		x = 1
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_henry_wallace
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_oppose_segregation
+		#icon =
+		x = 0
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_committee_eq
+
+		completion_reward = {
+		}
+}
+
+### LBJ ###
+	focus = {
+		id = USA_lbj
+		#icon =
+		x = 0
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_democrats_win
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_great_society
+		#icon =
+		x = 0
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_lbj
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_civil_rights
+		#icon =
+		x = -1
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_great_society
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_edu_act
+		#icon =
+		x = 0
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_civil_rights
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_social_security
+		#icon =
+		x = 0
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_edu_act
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_immigration_act
+		#icon =
+		x = 0
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_social_security
+
+		completion_reward = {
+		}
+}
+	focus = {
+		id = USA_economic_opp_act
+		#icon =
+		x = 1
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_great_society
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_job_corp
+		#icon =
+		x = 0
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_economic_opp_act
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_food_stamps
+		#icon =
+		x = 0
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_job_corp
+
+		completion_reward = {
+		}
+}
+
+### DICK RUSSEL ###
+	focus = {
+		id = USA_dick_russel
+		#icon =
+		x = 4
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_democrats_win
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_segregation_now
+		#icon =
+		x = -1
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_dick_russel
+		completion_reward = {
+		}
+}
+
+### NATIONAL PRESERVATION ALLIANCE ###
+	focus = {
+		id = USA_NPA_win
+		#icon =
+		x = 10
+		y = 2
+		cost = 10
+
+		relative_position_id = USA_1948_Elections
+
+		completion_reward = {
+		}
+}
+
+### SAMUEL GREEN ###
+	focus = {
+		id = USA_samuel_green
+		#icon =
+		x = -3
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_NPA_win
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_immigration_restriction
+		#icon =
+		x = -1
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_samuel_green
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_states_rights
+		#icon =
+		x = 1
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_samuel_green
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_amnesty_for_klan
+		#icon =
+		x = 0
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_states_rights
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_burning_cross
+		#icon =
+		x = 0
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_amnesty_for_klan
+
+		completion_reward = {
+		}
+}
+
+### PATTON ###
+	focus = {
+		id = USA_patton
+		#icon =
+		x = 0
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_NPA_win
+
+		completion_reward = {
+		}
+}
+
+### FRITZ KUHN ###
+	focus = {
+		id = USA_fritz_kuhn
+		#icon =
+		x = 3
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_NPA_win
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_segregation
+		#icon =
+		x = -1
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_fritz_kuhn
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_race_laws
+		#icon =
+		x = 0
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_segregation
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_kristalnacht
+		#icon =
+		x = 0
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_race_laws
+
+		completion_reward = {
+		}
+}
+
+	focus = {
+		id = USA_look_across_atlantic
+		#icon =
+		x = 1
+		y = 1
+		cost = 10
+
+		relative_position_id = USA_fritz_kuhn
+
+		completion_reward = {
+		}
+}
+
+### COMMUNIST PARTY USA ###
+	focus = {
+		id = USA_cpusa_win
+		#icon =
+		x = 30
+		y = 3
+		cost = 10
+
+		completion_reward = {
+		}
+}

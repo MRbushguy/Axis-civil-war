@@ -244,10 +244,10 @@ set_politics = {
 
 set_popularities = {
 	democratic_left = 40
-	democratic_right = 28
+	democratic_right = 38
 	authoritarianism = 14
-	national_socialism = 12 
-	fascism = 16
+	national_socialism = 2 
+	fascism = 6
 }
 
 add_ideas = {
