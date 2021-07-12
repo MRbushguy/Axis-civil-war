@@ -11,6 +11,11 @@
  Leopold_III:0 "Leopold III"
  COG_Diamond_Profits:0 "Diamond Profits"
 
+
+
+ #Germany
+ GER_jewish_science:0 "Jewish Science"
+ GER_jewish_science_desc:0 "The racial policies of the Third Reich have pushed away or intentionally alienated prominent Jewish scientists, putting Germany at a disadvantage in research, especially in the field of theoretical nuclear physics."
  GER_depleted_army_0:0 "Severely Depleted Army"
  GER_depleted_army_0_desc:0 "The brutal war against the Soviet Union took its toll on the Reich. Our troops are as effective as ever, but massive manpower shortages have led to problems in both the factories and in the field. We would be at a disadvantage in any future wars."
  GER_depleted_army_1:0 "Depleted Army"

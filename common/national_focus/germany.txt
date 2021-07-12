@@ -807,9 +807,24 @@ focus_tree = {
 				focus = GER_wehrmacht_conquests
 				focus = GER_refnaz_reforms
 
-			
-			
 		}
+
+		available = {
+
+			custom_trigger_tooltip = {
+
+				tooltip = GER_famine_tt
+
+				has_idea = GER_moderate_famine
+				has_idea = GER_extreme_famine
+					
+					
+				
+				
+			}
+		}
+
+
 
 		x = 0
 		y = 2
@@ -1959,7 +1974,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_address_the_military
-		#icon
+		#icon = 
 
 		prerequisite = {
 			focus = GER_nazi_annual_congress
@@ -1967,9 +1982,13 @@ focus_tree = {
 
 		x = 17
 		y = 1
+		cost = 2
+
 		relative_position_id = GER_nazi_annual_congress
 
 		completion_reward = {
+			add_stability = -0.05
+			remove_ideas = GER_jewish_science
 			#attempts to address military problems
 
 		}

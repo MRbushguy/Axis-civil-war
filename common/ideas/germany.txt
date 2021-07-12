@@ -49,6 +49,25 @@ ideas = {
 
 
 
+		GER_jewish_science = {
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			research_bonus = {
+				nuclear = -0.40
+			}
+
+
+
+
+		}
+
+
+
 
 
 		##german depression##
