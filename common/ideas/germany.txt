@@ -19,6 +19,20 @@ ideas = {
 			}
 		}
 
+		GER_moderate_famine = {
+
+			allowed = {
+				always = no
+			}
+
+
+			modifier = {
+				monthly_population = -1
+			}
+		}
+
+
+
 		GER_extreme_famine = {
 
 			allowed = {
@@ -29,6 +43,7 @@ ideas = {
 			modifier = {
 				weekly_manpower = -1000
 				monthly_population = -4
+				industrial_capacity_factory = -0.1
 			}
 		}
 

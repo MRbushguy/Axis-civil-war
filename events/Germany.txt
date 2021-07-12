@@ -33,5 +33,9 @@ country_event = { #famine begins
 	option = {
 		name = germany.2.a
 
+		GER = {
+			add_ideas = GER_moderate_famine
+		}
+
 	}
 }

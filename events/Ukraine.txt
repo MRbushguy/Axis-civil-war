@@ -6,7 +6,7 @@ add_namespace = ukraine
 
 #ukrainian revolt
 
-country_event = {
+country_event = { ##farmer event
 	
 	id = ukraine.1
 	title = ukraine.1.t
@@ -17,6 +17,13 @@ country_event = {
 
 	option = {
 		name = ukraine.1.a
+
+		GER = {
+			country_event = { id = germany.2 hours = 48 }
+
+		}
+
+		
 
 		
 
@@ -30,7 +37,7 @@ country_event = {
 
 }
 
-country_event = {
+country_event = { ##revolt event
 	
 	id = ukraine.2
 	title = ukraine.2.t
