@@ -417,7 +417,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Adolf Hitler"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
+	desc = "Adolf_Hitler_desc"
 	picture = "Adolf Hitler.dds"
 	expire = "1965.1.1"
 	ideology = final_nazism
