@@ -170,8 +170,9 @@ GER_the_state_of_germany = {
 				add_to_variable = {GER_economy_refresh_time = -10}
 			}
 			
-
-			activate_mission = GER_ticking_plunder_economy
+			hidden_effect = {
+				activate_mission = GER_ticking_plunder_economy
+			}
 		}
 
 	}

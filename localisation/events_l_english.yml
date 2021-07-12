@@ -1,4 +1,7 @@
 ﻿l_english:
+ ita_sphere:0 "Accordo di Fiume"
+ ger_sphere:0 "Alldeutsches Bündnis"
+l_english:
  ##start## 
  start.1.t:0 "Welcome to the Axis Civil War mod !"
  start.1.d:0 "Welcome\n\nthe team has prepared a special event for you to catch up with the lore and the mechanics of the game"
@@ -53,28 +56,28 @@
  ussr2:0 "The Stalin focus tree"
  
 soviet.2.t:0 "Trial of the old Bolsheviks"
-soviet.2.d:0 “"It has been decided," said the judge, "that Ioseb Besarionis Jughashvili, former General Secretary of the Union of Soviet Socialist Republics, is found guilty under the acts of treason and betrayal of the revolution." The crowd present in the court started to make noises. Some cheered, some cried, and arguments erupted between spectators. And in the middle of the court sat Stalin, head facing forward, with steely eyes. \n\nEven in his wildest dreams, he never thought this day would come. 10 years ago, he was untouchable. No one dared challenge him for fear of retribution, and he ruled the people of the Soviet Union with an iron fist. Being tried for treason was a long way to fall. To his left and right sat people from the government. Vyacheslav Molotov, Anastas Mikoyan, Mikhail Kalinin, and many more. They were all from the days of Lenin and the revolution; The "Old Bolsheviks." Each of them was found guilty too for acts of treason and betrayal of the revolution. \n\nStalin wondered if they deserved their fate, although outwardly, he showed no sign of emotion. Regardless, it was time for him to face his fate. \n\n" \n\nTwo days after the end of the trial, all those judged were taken to a remote area to be executed by an execution squad, one by one. Some like Beria shouted and cursed. But Stalin stayed surprisingly silent during the whole affair. And when his turn came, he said nothing as he was tied up. And when the order to raise the rifles was said, Stalin simply said "Without me, the Motherland will crumble to pieces. Your precious revolution will go down in its own flames." \n\nThe bodies have been burned to ashes and spread in an unknown location."
+soviet.2.d:0 ""It has been decided," said the judge, "that Ioseb Besarionis Jughashvili, former General Secretary of the Union of Soviet Socialist Republics, is found guilty under the acts of treason and betrayal of the revolution." The crowd present in the court started to make noises. Some cheered, some cried, and arguments erupted between spectators. And in the middle of the court sat Stalin, head facing forward, with steely eyes. \n\nEven in his wildest dreams, he never thought this day would come. 10 years ago, he was untouchable. No one dared challenge him for fear of retribution, and he ruled the people of the Soviet Union with an iron fist. Being tried for treason was a long way to fall. To his left and right sat people from the government. Vyacheslav Molotov, Anastas Mikoyan, Mikhail Kalinin, and many more. They were all from the days of Lenin and the revolution; The "Old Bolsheviks." Each of them was found guilty too for acts of treason and betrayal of the revolution. \n\nStalin wondered if they deserved their fate, although outwardly, he showed no sign of emotion. Regardless, it was time for him to face his fate. \n\n" \n\nTwo days after the end of the trial, all those judged were taken to a remote area to be executed by an execution squad, one by one. Some like Beria shouted and cursed. But Stalin stayed surprisingly silent during the whole affair. And when his turn came, he said nothing as he was tied up. And when the order to raise the rifles was said, Stalin simply said "Without me, the Motherland will crumble to pieces. Your precious revolution will go down in its own flames." \n\nThe bodies have been burned to ashes and spread in an unknown location."
 soviet.2.a:0 "An abrupt end to the Stalin era"
  
  
 
  #italian crimea
 
- IOC.1.t:0 "In the Footsteps of Nero"
- IOC.1.d:0 "TBA"
+IOC.1.t:0 "In the Footsteps of Nero"
+IOC.1.d:0 "TBA"
 
- IOC.2.t:0 "Dealing with the Natives"
- IOC.2.d:0 "TBA"
+IOC.2.t:0 "Dealing with the Natives"
+IOC.2.d:0 "TBA"
 
- IOC.3.t:0 "Improvise, Adapt, Overcome"
- IOC.3.d:0 "TBA"
+IOC.3.t:0 "Improvise, Adapt, Overcome"
+IOC.3.d:0 "TBA"
 
 
 
 #Germany
-  germany.1.t:0 "Hitler's speech"
- germany.1.d:0 "The crowd waited expectantly as Adolf Hitler shuffled to the stand to give his speech. There were whispers and murmurs among the crowd as the Fuhrer moved slower, less purposefully than he had used to, but these whispers were soon quelled as he began to speak. As he spoke of a new, free Germany, his voice had all the hallmarks of his famous energy and vigor. But there were those in the crowd that saw different. Saw the occasional mistakes, the slip-ups, the physical toll that just a speech was taking on the man. These watchers knew, as the Fuhrer said, that a new Germany was arising. But as to who would lead this new empire - only time would tell."
- germany.1.a:0 "Twilight on the old world."
+germany.1.t:0 "Hitler's speech"
+germany.1.d:0 "The crowd waited expectantly as Adolf Hitler shuffled to the stand to give his speech. There were whispers and murmurs among the crowd as the Fuhrer moved slower, less purposefully than he had used to, but these whispers were soon quelled as he began to speak. As he spoke of a new, free Germany, his voice had all the hallmarks of his famous energy and vigor. But there were those in the crowd that saw different. Saw the occasional mistakes, the slip-ups, the physical toll that just a speech was taking on the man. These watchers knew, as the Fuhrer said, that a new Germany was arising. But as to who would lead this new empire - only time would tell."
+germany.1.a:0 "Twilight on the old world."
 
 #Ukraine
 ukraine.1.t:0 "The Farmer's choice"
