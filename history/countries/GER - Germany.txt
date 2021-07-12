@@ -1290,7 +1290,7 @@ create_equipment_variant = {
 add_ideas = {
 		GER_depleted_army_0
 		GER_ongoing_holocaust
-		GER_plunder_economy_0
+		GER_plunder_economy_1
 		GER_blitzkreig_dependence
 		GER_german_depression_2
 

@@ -1,4 +1,7 @@
 ﻿l_english:
+ ita_sphere:0 "Accordo di Fiume"
+ ger_sphere:0 "Alldeutsches Bündnis"
+l_english:
  ##start## 
  start.1.t:0 "Welcome to the Axis Civil War mod !"
  start.1.d:0 "Welcome\n\nthe team has prepared a special event for you to catch up with the lore and the mechanics of the game"
@@ -56,25 +59,23 @@ soviet.2.t:0 "Trial of the Old Bolsheviks"
 soviet.2.d:0 "T-34’s rolled through Sverdlovsk, cities throughout the Union saw either open combat or subversive maneuvering between those loyal to Stalin and those loyal to the remaining members of the Politburo. Days of maneuvers between loyal and traitorous elements of the Army, police, NKVD, and various small scale skirmishes left nearly 150 dead and several hundred wounded. Prisons were filled with political rivals through several serieses of arrests. The will of the Party, and thus the Revolution had ended the terror of one man. \n\nA show trial reminiscent of the Yezhovshchina was then arranged for the bourgeois, reactionary, disgraced members of the Politburo. This old guard including Vyacheslav Molotov, Anastas Mikoyan, Mikhail Kalinin and many others were presented with litanies of crimes including plotting against the Soviet Union with the goal of advancing the interests of foreign reactionary powers, bourgeois immorality, treason and anti-Soviet behavior. All of the defendants were found guilty and executed by firing squad. Joseph Stalin, former General Secretary of the Union of Soviet Socialist Republics, was charged and found guilty of treason and betrayal of the revolution. He was not with his co-conspirators against the wall as he was being held elsewhere in order to prevent enemies of the Soviet Union from aiding him in escaping justice. \n\nStalin’s loss of power was far from gradual, but precipitous. His totalitarian control evaporated almost overnight. The Politburo all but refused to assemble and met secretly without his knowledge. Lists of traitors given to the NKVD were lost or not followed through. Stalin knew the noose was tightening so before the ensuing chaos he began to move further east, giving up the city of Sverdlovsk and any semblance of control. Moving in unmarked trucks, narrowly avoiding detection by traitorous Red Army checkpoints Stalin could not evade capture. On a freezing night through winding paths his convoy was ambushed by heavily armed NKVD. Stalin returned fire with a sidearm to no avail and was captured. \n\nIoseb Besarionis Jughashvili would be transported from a secret prison far beneath Sverdlovsk, and after the trials, which he was forced to watch, to Vaygach island. \n\nLavrentiy Beria welcomed him to his new, short life."
 soviet.2.a:0 "An abrupt end to the Stalin era..."
  
- 
-
  #italian crimea
 
- IOC.1.t:0 "In the Footsteps of Nero"
- IOC.1.d:0 "TBA"
+IOC.1.t:0 "In the Footsteps of Nero"
+IOC.1.d:0 "TBA"
 
- IOC.2.t:0 "Dealing with the Natives"
- IOC.2.d:0 "TBA"
+IOC.2.t:0 "Dealing with the Natives"
+IOC.2.d:0 "TBA"
 
- IOC.3.t:0 "Improvise, Adapt, Overcome"
- IOC.3.d:0 "TBA"
+IOC.3.t:0 "Improvise, Adapt, Overcome"
+IOC.3.d:0 "TBA"
 
 
 
 #Germany
-  germany.1.t:0 "Hitler's speech"
- germany.1.d:0 "The crowd waited expectantly as Adolf Hitler shuffled to the stand to give his speech. There were whispers and murmurs among the crowd as the Fuhrer moved slower, less purposefully than he had used to, but these whispers were soon quelled as he began to speak. As he spoke of a new, free Germany, his voice had all the hallmarks of his famous energy and vigor. But there were those in the crowd that saw different. Saw the occasional mistakes, the slip-ups, the physical toll that just a speech was taking on the man. These watchers knew, as the Fuhrer said, that a new Germany was arising. But as to who would lead this new empire - only time would tell."
- germany.1.a:0 "Twilight on the old world."
+germany.1.t:0 "Hitler's speech"
+germany.1.d:0 "The crowd waited expectantly as Adolf Hitler shuffled to the stand to give his speech. There were whispers and murmurs among the crowd as the Fuhrer moved slower, less purposefully than he had used to, but these whispers were soon quelled as he began to speak. As he spoke of a new, free Germany, his voice had all the hallmarks of his famous energy and vigor. But there were those in the crowd that saw different. Saw the occasional mistakes, the slip-ups, the physical toll that just a speech was taking on the man. These watchers knew, as the Fuhrer said, that a new Germany was arising. But as to who would lead this new empire - only time would tell."
+germany.1.a:0 "Twilight on the old world."
 
 #Ukraine
 ukraine.1.t:0 "The Farmer's choice"

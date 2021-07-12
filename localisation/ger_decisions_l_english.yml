@@ -69,6 +69,21 @@
  medium_resistance:0 "High Resistance"
  high_resistance:0 "Open Revolt"
 
+
+
+ ### The state of Germany Decisions
+
+ GER_the_state_of_germany:0 "The State of Germany"
+ GER_the_state_of_germany_desc:1 "The German economy appears strong to the rest of the world, but in reality it is nearly constantly on the verge of collapse. As the war economy became more and more reliant on foreign plunder, the german civilian industry was stunted and became reliant on corporations that base much of their work outside Germany proper. If this system is not reformed and restructured, the German economy will be constantly at risk of collapse if not attended to." 
+ GER_ticking_plunder_economy:0 "Plunder Economy"
+ GER_ticking_plunder_economy_desc:0 "Every day, the German economy inches closer and closer to collapse. Over time, as resources in the colonies become few and far between, the rate of collapse will accelerate. \n§RTaking the focus Exploit the Colonies will allow decisions to stave off economic collapse. §! " 
+ GER_exploit_the_east_territories:0 "Exploit the East"
+ GER_exploit_the_east_territories_desc:0 "After our glorious yet brutal victory in the east, huge swathes of territory lie in our hands. Though there are plans to integrate the territories as German core land, as of yet we still need them to prop up the German economy."
+ GER_exploit_the_western_territories:0 "Exploit the West"
+ GER_exploit_the_western_territories_desc:0 "Western Europe has been in our hands for some time now, and has been rebuilt strong in the new National Socialist system. It is now time for them to repay our efforts, for the good of Germany."
+ GER_plundering_tt:0 "A territory is already being exploited"
+
+
  ### Wunderwaffe
  GER_wunderwaffe_tech:0 "Wunderwaffe"
  GER_wunderwaffe_tech_desc:1 "The Reich's secret weapons programs."

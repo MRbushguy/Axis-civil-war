@@ -170,8 +170,9 @@ GER_the_state_of_germany = {
 				add_to_variable = {GER_economy_refresh_time = -10}
 			}
 			
-
-			activate_mission = GER_ticking_plunder_economy
+			hidden_effect = {
+				activate_mission = GER_ticking_plunder_economy
+			}
 		}
 
 	}
@@ -187,14 +188,22 @@ GER_the_state_of_germany = {
 
 		available = {
 
-			has_political_power > 0
 
 			has_completed_focus = GER_exploit_the_east
 
 			
 			NOT = {
 				has_idea = GER_plunder_economy_0
-				has_country_flag = GER_plundering
+				
+			}
+
+			custom_trigger_tooltip = {
+
+				tooltip = GER_plundering_tt
+				NOT = {
+					has_country_flag = GER_plundering
+				}
+					
 			}
 				
 			
@@ -592,14 +601,22 @@ GER_the_state_of_germany = {
 
 		available = {
 
-			has_political_power > 0
 
 			has_completed_focus = GER_exploit_the_east
 
 			
 			NOT = {
 				has_idea = GER_plunder_economy_0
-				has_country_flag = GER_plundering
+				
+			}
+
+			custom_trigger_tooltip = {
+
+				tooltip = GER_plundering_tt
+				NOT = {
+					has_country_flag = GER_plundering
+				}
+					
 			}
 				
 			
@@ -1044,18 +1061,24 @@ GER_resistance_decisions_italy = {
 			has_equipment = { infantry_equipment > 4999 }
 			has_full_control_of_state = 151
 			has_full_control_of_state = 3
-			151 = {
-				OR = {
-					has_state_flag = GER_has_low_resistance
-					has_state_flag = GER_has_medium_resistance
-					has_state_flag = GER_has_high_resistance
+			custom_trigger_tooltip  = {
+
+				tooltip = swiss_resistance_movement_tt
+
+				151 = {
+					OR = {
+					
+						has_state_flag = GER_has_low_resistance
+						has_state_flag = GER_has_medium_resistance
+						has_state_flag = GER_has_high_resistance
+					}
 				}
-			}
-			3 = {
-				OR = {
-					has_state_flag = GER_has_low_resistance
-					has_state_flag = GER_has_medium_resistance
-					has_state_flag = GER_has_high_resistance
+				3 = {
+					OR = {
+						has_state_flag = GER_has_low_resistance
+						has_state_flag = GER_has_medium_resistance
+						has_state_flag = GER_has_high_resistance
+					}
 				}
 			}
 

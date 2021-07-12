@@ -89,6 +89,8 @@ focus_tree = {
 
 		x = -4
 		y = 1
+
+		cost = 2
 		relative_position_id = GER_exploit_the_east
 
 		completion_reward = {
@@ -203,6 +205,8 @@ focus_tree = {
 
 		x = -1
 		y = 1
+
+		cost = 3
 		relative_position_id =  GER_wehrmacht_alone
 
 		completion_reward = {
@@ -448,6 +452,8 @@ focus_tree = {
 
 		x = -2
 		y = 3
+
+		cost = 3
 		relative_position_id =  GER_wehrmacht_conquests
 
 		completion_reward = {
@@ -538,6 +544,8 @@ focus_tree = {
 
 		x = 0
 		y = 2
+
+		cost = 1.6
 		relative_position_id = GER_integrate_denmark
 
 		completion_reward = {
@@ -597,6 +605,8 @@ focus_tree = {
 
 		x = 1
 		y = 1
+
+		cost = 2
 		relative_position_id = GER_wehrmacht_recruitment
 
 		completion_reward = {

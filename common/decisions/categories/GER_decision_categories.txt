@@ -24,6 +24,8 @@ GER_internal_factions = {
 }
 
 GER_the_state_of_germany = {
+
+	picture = GFX_decision_category_Volkshalle
 	
 	priority = 9
 
