@@ -104,9 +104,26 @@
  FRA_communism_party:0 "Parti Communiste Francais"
  FRA_democratic_party:0 "Parti Radical"
  FRA_fascism_party:0 "Mouvement Franciste"
- SOV_communism_party:0 "All-Union Communist Party"
- SOV_democratic_party:0 "Trudoviks"
+
+ SOV_national_socialism_party:0 "RFP - NU"
+ SOV_national_socialism_party_long:0 "Vserossiyskaya fashistskaya partiya - Natsional'noye yedinstvo"
  SOV_fascism_party:0 "RFP"
+ SOV_fascism_party_long:0 "Vserossiyskaya fashistskaya partiya"
+ SOV_authoritarianism_party:0 "Cossacks"
+ SOV_authoritarianism_party_long:0 "Cossack White Movement Remnants"
+
+ SOV_communism_party:0 "All-Union Communist Party"
+ SOV_communism_party_long:0 "All-Union Communist Party"
+ SOV_socialism_party:0 "Mensheviks"
+ SOV_socialism_party_long:0 "Rossiyskaya sotsial-demokraticheskaya rabochaya partiya"
+ SOV_democratic_left_party:0 "Trudoviks"
+ SOV_democratic_left_party_long:0 "Trudovaya gruppa"
+
+ SOV_democratic_right_party:0 "LDPR"
+ SOV_democratic_right_party_long:0 "Liberal'no-demokraticheskaya partiya Rossii"
+ SOV_democratic_center_party:0 "Kadets"
+ SOV_democratic_center_party_long:0 "Konstitutsionno-demokraticheskaya partiya"
+
  AUS_communism_party:0 "KPÖ"
  AUS_communism_party_long:0 "Kommunistische Partei Österreichs"
  AUS_democratic_party:0 "SDAPÖ"
