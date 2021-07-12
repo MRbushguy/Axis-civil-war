@@ -20,7 +20,11 @@ GER_prepare_for_urban_combat:0 "Prepare for Urban Combat"
 GER_prepare_for_urban_combat_desc:0 "We don't know everything about the coming struggle, but we know it will be fought in the heart of Germany. We will use our knowledge of the terrain to, if we must fight, fight a battle for survival in the very streets."
 GER_state_of_the_art:0 "State of the Art"
 GER_state_of_the_art_desc:0 "For too long, the technology of Germany has been bled to the soul-sucking monsters which run the Waffen-SS. No more! German research will once again be directed to the true German army."
-GER_state_of_the_art_tt:0 "Adds §Y200 points§! to arms and equipment research. \nAdds §Y50 points§! to tank research. "
+GER_state_of_the_art_tt:0 "Adds §Y200 points§! to arms and equipment research. \nAdds §Y50 points§! to tank research."
+
+GER_deal_with_the_grain_harvest:0 "Deal with the Grain Harvest"
+GER_deal_with_the_grain_harvest_desc:0 "As we transitioned our food sources to come from the grain-rich lands of Ukraine, our supply systems were stretched thin. The unrest in Ukraine has pushed them to their limits, and threatens to collapse the German food economy entirely. We must take steps to ensure this does not happen."
+GER_famine_tt:0 "The famine has begun"
 
 
 
