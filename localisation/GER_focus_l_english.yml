@@ -23,7 +23,7 @@ GER_state_of_the_art_desc:0 "For too long, the technology of Germany has been bl
 GER_state_of_the_art_tt:0 "Adds §Y200 points§! to arms and equipment research. \nAdds §Y50 points§! to tank research. "
 
 
-
+GER_rebuild_NSDAP_desc:0 "£decision_icon_small big pp £decision_faction_ger_ndsap_small"
 
 
 GER_cancel_tripartite:0 "Cancel the Tripartite Pact"
