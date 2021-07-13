@@ -45,6 +45,36 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_decision_faction_ger_ndsap_small"
+		texturefile = "gfx/texticons/decision_faction_ger_ndsap_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_faction_ger_ss_small"
+		texturefile = "gfx/texticons/decision_faction_ger_ss_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_faction_ger_waffen_ss_small"
+		texturefile = "gfx/texticons/decision_faction_ger_waffen_ss_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_faction_ger_wehr_small"
+		texturefile = "gfx/texticons/decision_faction_ger_wehr_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_faction_ger_reform_small"
+		texturefile = "gfx/texticons/decision_faction_ger_reform_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_faction_ger_mil_small"
+		texturefile = "gfx/texticons/decision_faction_ger_mil_small.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_decision_unite_ssr"
 		texturefile = "gfx/interface/decisions/SOV/sov_man.dds"
 	}	
