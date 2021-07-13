@@ -134,12 +134,24 @@ focus_tree = {
 			focus = GER_wehrmacht_conquests
 		}
 
+		available = {
+
+			custom_trigger_tooltip = {
+
+				tooltip = GER_ukraine_war_tt
+
+				has_global_flag = ukrainian_revolt
+			}
+		}
+
 		x = 2
 		y = 2
 		relative_position_id = GER_wehrmacht_conquests
 
 		completion_reward = {
-			#wehrmacht gets more involved with the inner workings of colonies, improving grain problems
+			custom_effect_tooltip = GER_ukraine_situation_1
+			set_country_flag = GER_ukraine_situation_flag
+			
 
 		}
 
@@ -782,12 +794,24 @@ focus_tree = {
 			focus = GER_refnaz_reforms
 		}
 
+		available = {
+
+			custom_trigger_tooltip = {
+
+				tooltip = GER_ukraine_war_tt
+
+				has_global_flag = ukrainian_revolt
+			}
+
+		}
+
 		x = -2
 		y = 2
 		relative_position_id = GER_refnaz_reforms
 
 		completion_reward = {
-			#reformists get involved with the east, dealing with grain shortage
+			custom_effect_tooltip = GER_ukraine_situation_2
+			set_country_flag = GER_ukraine_situation_flag
 
 		}
 
@@ -831,7 +855,8 @@ focus_tree = {
 		relative_position_id =  GER_exploit_the_east
 
 		completion_reward = {
-			#aims to reform the colonies as sufficient nation-states rather than hell holes
+			custom_effect_tooltip = GER_ukraine_situation_0
+			set_country_flag = GER_ukraine_situation_flag
 
 		}
 

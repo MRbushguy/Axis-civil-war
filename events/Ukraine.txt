@@ -54,6 +54,11 @@ country_event = { ##revolt event
 			popularity = 0.1
 		}
 
+		GER = {
+			country_event = { id = germany.3 hours = 48 }
+
+		}
+
 		hidden_effect = {
 
 			UPR = {
@@ -68,10 +73,15 @@ country_event = { ##revolt event
 				transfer_state = 228
 			}
 
+			set_global_flag = ukrainian_revolt
+
 
 		}
 
 		
+		GER = {
+			remove_from_faction = UKR
+		}
 
 		declare_war_on = { type = annex_everything    target = UPR }
 	}

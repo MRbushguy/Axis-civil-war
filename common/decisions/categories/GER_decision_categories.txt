@@ -25,11 +25,11 @@ GER_internal_factions = {
 
 GER_the_state_of_germany = {
 
-	picture = GFX_decision_category_Volkshalle
+	picture = GFX_decision_category_Volkshalle #placeholder
 	
 	priority = 9
 
-	icon = power_struggle
+	icon = power_struggle  #placeholder
 
 	visible = {
 		original_tag = GER
@@ -41,9 +41,29 @@ GER_the_state_of_germany = {
 	}
 }
 
-GER_wunderwaffe_tech = {
+GER_the_ukranian_situation = {
+
+	picture = GFX_decision_category_Volkshalle #placeholder
 	
 	priority = 8
+
+	icon = power_struggle  #placeholder
+
+	visible = {
+		original_tag = GER
+		has_country_flag = GER_ukraine_situation_flag
+
+	}
+
+	allowed = {
+		original_tag = GER
+		
+	}
+}
+
+GER_wunderwaffe_tech = {
+	
+	priority = 7
 
 	icon = ger_military_buildup
 
@@ -72,7 +92,7 @@ GER_subjugate_pakt = {
 }
 
 GER_resistance_decisions_italy = {
-	priority = 8
+	priority = 1
 	icon = spr_civil_war_offensives
 
 	picture = GFX_decision_cat_picture_spr_civil_war_offensives

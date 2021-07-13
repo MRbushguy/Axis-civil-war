@@ -27,12 +27,22 @@ GER_prepare_for_urban_combat_desc:0 "We don't know everything about the coming s
 GER_state_of_the_art:0 "State of the Art"
 GER_state_of_the_art_desc:0 "For too long, the technology of Germany has been bled to the soul-sucking monsters which run the Waffen-SS. No more! German research will once again be directed to the true German army."
 GER_state_of_the_art_tt:0 "Adds §Y200 points§! to arms and equipment research. \nAdds §Y50 points§! to tank research."
+GER_wehrmacht_involvement:0 "Wehrmacht Involvement"
+GER_wehrmacht_involvement_desc:0 "The situation in Ukraine has escalated far beyond what was projected by our analysts, and could escalate enough to threaten German dominance in the east. We must intervene, and consider the possibility of cooperating with our rivals."
+GER_ukraine_situation_1:0 "Unlocks decisions: £decision_icon_small §YMilitary Involvement in Ukraine§!"
+GER_ukraine_war_tt:0 "The situation in Ukraine has escalated"
 
 GER_deal_with_the_grain_harvest:0 "Deal with the Grain Harvest"
 GER_deal_with_the_grain_harvest_desc:0 "As we transitioned our food sources to come from the grain-rich lands of Ukraine, our supply systems were stretched thin. The unrest in Ukraine has pushed them to their limits, and threatens to collapse the German food economy entirely. We must take steps to ensure this does not happen."
 GER_famine_tt:0 "The famine has begun"
+GER_ukraine_situation_0:0 "Unlocks decisions: £decision_icon_small §YRetool food supply lines§!"
 
-  #
+
+#refnaz branch
+
+GER_refnaz_involvement:0 "Reformist Involvement"
+GER_refnaz_involvement_desc:0 "The situation in Ukraine was what Reformists in the government had warned of for years - an overexertion of force resulting in unneccessary pushback. We must use the opportunity to begin reforming the eastern economies."
+GER_ukraine_situation_2:0 "Unlocks decisions: £decision_icon_small §YAddress the Ukranian Economy§!"
 
 
 

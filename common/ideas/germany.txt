@@ -42,6 +42,7 @@ ideas = {
 
 			modifier = {
 				weekly_manpower = -1000
+				attrition = 0.3
 				monthly_population = -4
 				industrial_capacity_factory = -0.1
 			}
