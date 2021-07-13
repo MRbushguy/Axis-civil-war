@@ -45,7 +45,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_decision_faction_ger_ndsap_small"
+		name = "GFX_decision_faction_ger_nsdap_small"
 		texturefile = "gfx/texticons/decision_faction_ger_ndsap_small.dds"
 		legacy_lazy_load = no
 	}
@@ -71,7 +71,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_decision_faction_ger_reform_small"
 		texturefile = "gfx/texticons/decision_faction_ger_reform_small.dds"
-		legacy_lazy_load = yes
+		legacy_lazy_load = no
 	}
 
 	spriteType = {

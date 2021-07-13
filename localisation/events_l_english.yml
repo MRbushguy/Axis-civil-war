@@ -76,7 +76,7 @@ IOC.3.d:0 "TBA"
 germany.1.t:0 "Hitler's speech"
 germany.1.d:0 "The crowd waited expectantly as Adolf Hitler shuffled to the stand to give his speech. There were whispers and murmurs among the crowd as the Fuhrer moved slower, less purposefully than he had used to, but these whispers were soon quelled as he began to speak. As he spoke of a new, free Germany, his voice had all the hallmarks of his famous energy and vigor. But there were those in the crowd that saw different. Saw the occasional mistakes, the slip-ups, the physical toll that just a speech was taking on the man. These watchers knew, as the Fuhrer said, that a new Germany was arising. But as to who would lead this new empire - only time would tell."
 germany.1.a:0 "Twilight on the old world."
-GER_hitlers_speech_tt:0 "§YNSDAP §!: \n§R-20§! faction influence"
+GER_hitlers_speech_tt:0 " £decision_faction_ger_nsdap_small §YNSDAP §!: \n§R-20§! faction influence"
 
 germany.2.t:0 "Problems in Ukraine"
 germany.2.d:0 "We have been receiving worrying reports from the garrisons in Ukraine. Evidently the local farmers have found out some of our plans for the region, and taken it upon themselves to disrupt them. Numerous reports have come in, detailing farmers burning their fields rather than sending it to Germany. Most were stopped, but the damage was already done, with nearly a fifth of Ukrainian grain production failing. This came at a particularly inopportune time, with our supply lines being rerouted to the Ukrainian fields away from the temporary lines established during the war. We will recover, but lives will be lost because of this."
