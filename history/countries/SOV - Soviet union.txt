@@ -1084,7 +1084,7 @@ create_country_leader = {
 	picture = "stalin_dep.dds"
 	expire = "1953.3.1"
 	ideology = collapsed_communism
-	traits = {
+	traits = { man_of_rust
 		
 	}
 }

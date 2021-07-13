@@ -417,7 +417,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Adolf Hitler"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
+	desc = "Adolf_Hitler_desc"
 	picture = "Adolf Hitler.dds"
 	expire = "1965.1.1"
 	ideology = final_nazism
@@ -1293,6 +1293,7 @@ add_ideas = {
 		GER_plunder_economy_1
 		GER_blitzkreig_dependence
 		GER_german_depression_2
+		GER_jewish_science
 
 		#laws
 		war_economy
