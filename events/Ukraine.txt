@@ -72,9 +72,53 @@ country_event = { ##revolt event
 		GER = {
 			remove_from_faction = UKR
 		}
-
+		remove_idea = UKR_agrarian_discontent_2
 		declare_war_on = { type = annex_everything    target = UPR }
 	}
+
+	option = {
+		name = ukraine.2.b
+
+		add_popularity = {
+			ideology = communism
+			popularity = 0.1
+		}
+
+		GER = {
+			country_event = { id = germany.3 hours = 48 }
+
+		}
+
+		hidden_effect = {
+
+			UPR = {
+				transfer_state = 203 
+				transfer_state = 259 
+				transfer_state = 197 
+				transfer_state = 226 
+				transfer_state = 221 
+				transfer_state = 227 
+				transfer_state = 200 
+				transfer_state = 196 
+				transfer_state = 228
+			}
+
+			set_global_flag = ukrainian_revolt
+
+
+		}
+
+		
+		GER = {
+			remove_from_faction = UKR
+		}
+		remove_idea = UKR_agrarian_discontent_2
+		declare_war_on = { type = annex_everything    target = UPR }
+
+		UPR = { change_tag_from = UKR}
+	}
+
+
 
 }
 

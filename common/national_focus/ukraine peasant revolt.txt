@@ -1,0 +1,49 @@
+﻿focus_tree = {
+	id = ukraine_peasant_revolt
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = UPR
+		}
+	}  
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+
+		id = UPR_request_armiansk_road
+		#icon
+
+		
+
+		x = 15
+		y = 1
+
+		cost = 1
+		
+
+		completion_reward = {
+
+			IOC = {
+
+				country_event = { id = ukraine_revolt.1}
+			}
+
+
+			
+
+		}
+
+			
+
+			
+
+	}
+
+
+}

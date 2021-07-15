@@ -1,0 +1,36 @@
+ideas = {
+
+	country = {
+
+
+		UPR_armiansk_road_idea = {
+
+
+			allowed = {
+				original_tag = UKR
+			}
+
+			modifier = {
+
+				research_speed_factor = 0.05
+
+				weekly_manpower = 500
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.5
+				consumer_goods_factor = -0.20
+				cas_damage_reduction = 0.3
+				license_purchase_cost_factor = 0.5
+				production_lack_of_resource_penalty_factor = -0.5
+				fascism_acceptance = 80
+				fascism_drift = 0.05
+			}
+
+		}
+
+
+		
+
+		
+
+    }
+}
