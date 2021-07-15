@@ -165,7 +165,7 @@ GER_UKR_decision_category = {
 
 		available = {
 			has_idea = GER_fixing_famine_0
-			has_equipment = { motorized > 14999 }
+			has_equipment = { motorized_equipment > 14999 }
 		}
 
 	
@@ -190,7 +190,7 @@ GER_UKR_decision_category = {
 				add_idea = GER_fixing_famine_1
 			}
 			add_equipment_to_stockpile = {
-					type = motorized
+					type = motorized_equipment
 					amount = -15000
 				}
 
@@ -281,13 +281,106 @@ GER_UKR_decision_category = {
 
 	#wehrmacht decisions
 
-	#GER_feed_army = {
+	GER_emergency_army = {
 
-	#}
+		#icon = 
 
-	#GER_send_ukraine_supplies = {
+		allowed = {
+			tag = GER
+		}
 
-	#}
+		available = {
+			
+		}
+
+
+		cost = 50
+
+		modifier = {
+
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.05
+
+
+		}
+
+		days_remove = 5
+
+		remove_effect = {
+
+			UKR = {
+				custom_effect_tooltip = GER_emergency_army_tt
+				country_event = { id = ukraine.3 hours = 48 }
+
+				hidden_effect = {
+					load_oob = UKR_civil_war_support
+				}
+			}
+		}
+
+	}
+
+	GER_send_ukraine_more_weapons = {
+
+		#icon = 
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+
+			has_equipment = { infantry_equipment > 10000 }
+			has_equipment = { artillery_equipment > 1000 }
+			has_equipment = { support_equipment > 500 }
+			has_equipment = { motorized_equipment > 500 }
+
+
+			
+		}
+
+
+		cost = 50
+
+		modifier = {
+
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.05
+
+
+		}
+
+		days_remove = 25
+
+		remove_effect = {
+
+			custom_effect_tooltip = GER_ukrainian_arms_tt
+
+			hidden_effect = {
+				GER = {
+
+					add_equipment_to_stockpile = { type = infantry_equipment amount = -10000 }
+					add_equipment_to_stockpile = { type = artillery_equipment amount = -1000 }
+					add_equipment_to_stockpile = { type = support_equipment amount = -500 }
+					add_equipment_to_stockpile = { type = motorized_equipment amount = -500 }
+
+
+				}
+
+				UKR = {
+
+					add_equipment_to_stockpile = { type = infantry_equipment amount = 10000 }
+					add_equipment_to_stockpile = { type = artillery_equipment amount = 1000 }
+					add_equipment_to_stockpile = { type = support_equipment amount = 500 }
+					add_equipment_to_stockpile = { type = motorized_equipment amount = 500 }
+
+				}
+
+			}
+
+		}
+
+	}
 
 	#GER_counter_foreign_influence = {
 

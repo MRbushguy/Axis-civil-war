@@ -97,3 +97,8 @@
  GER_misc_research_points:0 "§YTrue wunderwaffe research -§! [?GER.GER_wunderwaffe_misc|Y0]"
  #GER_ss_influence_amount_green:0 "[?GER.GER_ss_influence|G0]"
 
+ ### ukranian situation
+
+ GER_emergency_army_tt:0 "§YCreate 5 well-trained divisions in and around Kiev. §!\n"
+ GER_ukrainian_arms_tt:0 "§Y10,000 rifles and an appropriate number of supporting equipment is sent to Ukraine.§!"
+

@@ -22,17 +22,7 @@ country_event = { ##farmer event
 			country_event = { id = germany.2 hours = 48 }
 
 		}
-
-		
-
-		
-
-		
 	}
-
-
-
-
 
 
 }
@@ -86,9 +76,24 @@ country_event = { ##revolt event
 		declare_war_on = { type = annex_everything    target = UPR }
 	}
 
+}
 
+country_event = { ##german support
+	
+	id = ukraine.3
+	title = ukraine.3.t
+	desc = ukraine.3.d
+	#picture = GFX_report_event_german_speech
 
+	is_triggered_only = yes
 
+	option = {
+		name = ukraine.3.a
+
+		decrease_resistance = yes
+
+		
+	}
 
 
 }
