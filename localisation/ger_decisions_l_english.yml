@@ -100,5 +100,6 @@
  ### ukranian situation
 
  GER_emergency_army_tt:0 "§YCreate 5 well-trained divisions in and around Kiev. §!\n"
- GER_ukrainian_arms_tt:0 "§Y10,000 rifles and an appropriate number of supporting equipment is sent to Ukraine.§!"
-
+ GER_ukrainian_arms_tt:0 "§Y10,000 rifles and an appropriate number of supporting equipment is sent to Reichskommiserat Ukraine.§!\n"
+ GER_tank_gift_tt:0 "§YTanks and supporting equipment are given to Reichskommiserat Ukraine, along with a division of German tanks.§!\n"
+ GER_armiansk_strike_tt:0 "§YCompleting more decisions to prepare and external events can alter the success rates of this mission. §!\n"

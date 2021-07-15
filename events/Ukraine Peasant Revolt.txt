@@ -1,0 +1,81 @@
+﻿
+
+add_namespace = ukraine_revolt
+
+#ukrainian revolt
+
+country_event = { ##armiansk
+	
+	id = ukraine_revolt.1
+	title = ukraine_revolt.1.t
+	desc = ukraine_revolt.1.d
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine_revolt.1.a
+		ai_chance = {
+			base = 100
+		}
+
+
+		UPR = {
+			
+			country_event = { id = ukraine_revolt.2 hours = 0}
+
+		}
+	}
+
+	option = {
+		name = ukraine_revolt.1.b
+		ai_chance = {
+			base = 0
+		}
+
+		UPR = {
+			country_event = { id = ukraine_revolt.3 hours = 48 }
+
+		}
+	}
+
+
+}
+
+country_event = { ##armiansk accepted
+	
+	id = ukraine_revolt.2
+	title = ukraine_revolt.2.t
+	desc = ukraine_revolt.2.d
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine_revolt.2.a
+
+		add_ideas = UPR_armiansk_road_idea
+
+		
+	}
+
+}
+
+country_event = { ##armiansk denied
+	
+	id = ukraine_revolt.3
+	title = ukraine_revolt.3.t
+	desc = ukraine_revolt.3.d
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine_revolt.3.a
+
+		
+	}
+
+}
+
+

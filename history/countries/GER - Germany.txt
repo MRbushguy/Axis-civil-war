@@ -130,6 +130,12 @@ set_technology = {
 	set_variable = {GER_wunderwaffe_nukes = 0}
 	set_variable = {GER_wunderwaffe_misc = 0}
 
+	####Ukraine variables
+	set_variable = {GER_armiansk_strike_success = 10}
+	set_variable = {GER_armiansk_strike_moderate = 20}
+	set_variable = {GER_armiansk_strike_failure = 70}
+
+
 
 if = {
 	limit = {

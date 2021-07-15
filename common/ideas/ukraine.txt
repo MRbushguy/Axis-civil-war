@@ -60,6 +60,73 @@ ideas = {
 
 		}
 
+
+		UKR_improved_infrastructure = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = UKR
+			}
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05 
+				production_speed_infrastructure_factor = 0.1
+				army_speed_factor = 0.05
+			}
+		}
+
+		UKR_temp_purge = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = UKR
+			}
+
+			modifier = {
+
+				stability_factor = -0.15
+				political_power_cost = 0.25
+			}
+
+		}
+
+		UKR_purged_bureaucracy = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = UKR
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_cost = -0.05
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.1
+				
+			}
+		}
+
+		UKR_model_rk = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = UKR
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_cost = -0.10
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.15
+				war_support_weekly = -0.005
+				
+			}
+		}
+
 		
 
     }
