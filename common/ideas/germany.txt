@@ -48,6 +48,51 @@ ideas = {
 			}
 		}
 
+		GER_fixing_famine_0 = {
+
+			allowed = {
+				always = no
+			}
+
+
+			modifier = {
+				weekly_manpower = -500
+				attrition = 0.3
+				monthly_population = -3
+				industrial_capacity_factory = -0.1
+			}
+		}
+
+		GER_fixing_famine_1 = {
+
+			allowed = {
+				always = no
+			}
+
+
+			modifier = {
+				weekly_manpower = -500
+				attrition = 0.1
+				monthly_population = -3
+				industrial_capacity_factory = -0.1
+			}
+		}
+
+		GER_fixing_famine_2 = {
+
+			allowed = {
+				always = no
+			}
+
+
+			modifier = {
+				weekly_manpower = -500
+				attrition = 0.1
+				monthly_population = -2
+				industrial_capacity_factory = -0.05
+			}
+		}
+
 
 
 		GER_jewish_science = {

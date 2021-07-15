@@ -48,7 +48,7 @@ GER_ukraine_situation_2:0 "Unlocks decisions: £decision_icon_small §YAddress t
 GER_rebuild_NSDAP_desc:0 "£decision_icon_small big pp £decision_faction_ger_nsdap_small"
 
 
-GER_cancel_tripartite:0 "Cancel the Tripartite Pact"
+GER_cancel_tripartite:0 "A brand new enemy"
 GER_cancel_tripartite_desc:0 "The old alliances have been torn away by the fires of war. The dreaded USSR has been vanquished, and the capitalist imperials have been humbled. Meanwhile, Italy has stabbed us in the back and Japan was never more than a tool. We must destroy the last vestiges of the old world to step into the new."
 GER_the_true_enemy:0 "The True Enemy"
 GER_the_true_enemy_desc:0 "It seems we have underestimated our inferior fascist bretheren in the south. Italy has surpassed all expectations in world war two and is poised to rival our position in europe. We must do everything in our power to ensure this will never happen."
@@ -113,7 +113,7 @@ GER_ss_dominant_in_burgundy_desc:0 "With the strengthening of the SS state, it i
 GER_step_up_french_border_patrols:0 "Step up French Border Patrols"
 GER_step_up_french_border_patrols_desc:0 "It is time to move our armies to the french border. A mechanized attack across the smooth french countryside could be devastating."
 
-GER_enemy_of_my_enemy:0 "Enemy of my enemy"
+GER_enemy_of_my_enemy:0 "The Eagle of the americas"
 GER_enemy_of_my_enemy_desc:0 "An agreement with the allies would be unlikely, but these are changing times. Perhaps with some promises progress could be made?"
 GER_friends_in_the_east:0 "Friends in the east"
 GER_friends_in_the_east_desc:0 "Our relationship with Japan has been rocky at best, especially as they grew closer with italy over naval matters. However, perhaps Germany could take italy's place?"

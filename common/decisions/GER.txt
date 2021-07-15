@@ -4,7 +4,7 @@
 GER_internal_factions = {
 
 
-GER_stub_decision = {
+	GER_stub_decision = {
 		
 		icon = generic_oppression
 
@@ -30,7 +30,7 @@ GER_stub_decision = {
 		}
 	}
 
-GER_assassinate_ss_decision = {
+	GER_assassinate_ss_decision = {
 		
 		icon = spr_political_assassination
 
@@ -59,7 +59,7 @@ GER_assassinate_ss_decision = {
 		}
 	}
 
-GER_student_protests_decision = {
+	GER_student_protests_decision = {
 		
 		icon = generic_political_rally
 
@@ -117,6 +117,405 @@ GER_student_protests_decision = {
 			}	
 		}
 	}			
+}
+
+GER_UKR_decision_category = {
+	GER_prepare_farms = {
+
+		icon = generic_political_rally
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+
+		}
+
+		
+		cost = 25
+
+		modifier = {
+
+			consumer_goods_factor = 0.05
+
+
+		}
+
+		days_remove = 45
+
+		remove_effect = {
+
+			swap_ideas = {
+
+				remove_idea = GER_extreme_famine
+				add_idea = GER_fixing_famine_0
+			}
+		}
+
+	}
+
+	GER_mobilize_supply_lines = {
+
+		#icon = 
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+			has_idea = GER_fixing_famine_0
+			has_equipment = { motorized > 14999 }
+		}
+
+	
+
+		cost = 25
+
+		modifier = {
+
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.05
+
+
+		}
+
+		days_remove = 45
+
+		remove_effect = {
+
+			swap_ideas = {
+
+				remove_idea = GER_fixing_famine_0
+				add_idea = GER_fixing_famine_1
+			}
+			add_equipment_to_stockpile = {
+					type = motorized
+					amount = -15000
+				}
+
+		}
+
+	}
+
+	GER_preliminary_distribution = {
+
+		#icon = 
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+			has_idea = GER_fixing_famine_1
+			
+		}
+
+
+		cost = 25
+
+		modifier = {
+
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.05
+
+
+		}
+
+		days_remove = 45
+
+		remove_effect = {
+
+			swap_ideas = {
+
+				remove_idea = GER_fixing_famine_1
+				add_idea = GER_fixing_famine_2
+			}
+			
+
+
+
+
+		}
+
+	}
+
+	GER_feed_the_hungry = {
+
+		#icon = 
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+			has_idea = GER_fixing_famine_2
+			
+		}
+
+		cost = 50
+
+		modifier = {
+
+			consumer_goods_factor = 0.1
+			political_power_cost = 0.1
+
+
+		}
+
+		days_remove = 45
+
+		remove_effect = {
+
+			remove_ideas = GER_fixing_famine_2
+			
+
+
+
+
+		}
+
+
+
+	}
+
+	#wehrmacht decisions
+
+	#GER_feed_army = {
+
+	#}
+
+	#GER_send_ukraine_supplies = {
+
+	#}
+
+	#GER_counter_foreign_influence = {
+
+	#}
+
+	#GER_strike_armiansk_road = {
+
+	#}
+
+	#reformist decisions
+
+	#GER_ukraine_economic_support = {
+
+	#}
+
+	#GER_support_army_logistics = {
+
+	#}
+
+	#GER_purge_ukraine_beuracracy = {
+
+	#}
+
+	#GER_model_rk = {
+
+	#}
+
+}
+
+
+GER_the_ukrainian_decision_category = {
+	#famine decisions
+	GER_prepare_farms = {
+
+		icon = generic_political_rally
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+
+		}
+
+		
+		cost = 25
+
+		modifier = {
+
+			consumer_goods_factor = 0.05
+
+
+		}
+
+		days_remove = 45
+
+		remove_effect = {
+
+			swap_ideas = {
+
+				remove_idea = GER_extreme_famine
+				add_idea = GER_fixing_famine_0
+			}
+		}
+
+	}
+
+	GER_mobilize_supply_lines = {
+
+		#icon = 
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+			has_idea = GER_fixing_famine_0
+			has_equipment = { motorized > 14999 }
+		}
+
+	
+
+		cost = 25
+
+		modifier = {
+
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.05
+
+
+		}
+
+		days_remove = 45
+
+		remove_effect = {
+
+			swap_ideas = {
+
+				remove_idea = GER_fixing_famine_0
+				add_idea = GER_fixing_famine_1
+			}
+			add_equipment_to_stockpile = {
+					type = motorized
+					amount = -15000
+				}
+
+		}
+
+	}
+
+	GER_preliminary_distribution = {
+
+		#icon = 
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+			has_idea = GER_fixing_famine_1
+			
+		}
+
+
+		cost = 25
+
+		modifier = {
+
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.05
+
+
+		}
+
+		days_remove = 45
+
+		remove_effect = {
+
+			swap_ideas = {
+
+				remove_idea = GER_fixing_famine_1
+				add_idea = GER_fixing_famine_2
+			}
+			
+
+
+
+
+		}
+
+	}
+
+	GER_feed_the_hungry = {
+
+		#icon = 
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+			has_idea = GER_fixing_famine_2
+			
+		}
+
+		cost = 50
+
+		modifier = {
+
+			consumer_goods_factor = 0.1
+			political_power_cost = 0.1
+
+
+		}
+
+		days_remove = 45
+
+		remove_effect = {
+
+			remove_ideas = GER_fixing_famine_2
+			
+
+
+
+
+		}
+
+
+
+	}
+
+	#wehrmacht decisions
+
+	#GER_feed_army = {
+
+	#}
+
+	#GER_send_ukraine_supplies = {
+
+	#}
+
+	#GER_counter_foreign_influence = {
+
+	#}
+
+	#GER_strike_armiansk_road = {
+
+	#}
+
+	#reformist decisions
+
+	#GER_ukraine_economic_support = {
+
+	#}
+
+	#GER_support_army_logistics = {
+
+	#}
+
+	#GER_purge_ukraine_beuracracy = {
+
+	#}
+
+	#GER_model_rk = {
+
+	#}
+
+
 }
 
 
@@ -869,6 +1268,7 @@ GER_the_state_of_germany = {
 
 
 }
+
 
 
 
