@@ -839,17 +839,10 @@ focus_tree = {
 
 				tooltip = GER_famine_tt
 
-				OR = {
+				
 
-					has_idea = GER_moderate_famine
 					has_idea = GER_extreme_famine
 
-				}
-
-				
-					
-					
-				
 				
 			}
 		}

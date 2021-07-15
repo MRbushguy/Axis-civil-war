@@ -132,6 +132,10 @@ GER_UKR_decision_category = {
 
 		}
 
+		visible = {
+			has_completed_focus = GER_deal_with_the_grain_harvest
+		}
+
 		
 		cost = 25
 
@@ -161,6 +165,15 @@ GER_UKR_decision_category = {
 
 		allowed = {
 			tag = GER
+		}
+
+		available = {
+			has_idea = GER_fixing_famine_0
+		}
+
+		visible = {
+			has_completed_focus = GER_deal_with_the_grain_harvest
+			has_idea = GER_fixing_famine_0
 		}
 
 		available = {
@@ -211,6 +224,11 @@ GER_UKR_decision_category = {
 			
 		}
 
+		visible = {
+			has_completed_focus = GER_deal_with_the_grain_harvest
+			has_idea = GER_fixing_famine_1
+		}
+
 
 		cost = 25
 
@@ -251,6 +269,11 @@ GER_UKR_decision_category = {
 		available = {
 			has_idea = GER_fixing_famine_2
 			
+		}
+
+		visible = {
+			has_completed_focus = GER_deal_with_the_grain_harvest
+			has_idea = GER_fixing_famine_2
 		}
 
 		cost = 50
@@ -589,11 +612,14 @@ GER_UKR_decision_category = {
 
 		remove_effect = {
 
+			set_country_flag = GER_refnaz_ukr_part_1_complete
+
 			UKR = {
 
-				swap_ideas = {
-					remove_idea = devastation_3
-					add_idea = devastation_1
+				decrease_devastation = yes
+
+				hidden_effect = {
+					decrease_devastation = yes
 				}
 				
 			}
@@ -614,7 +640,12 @@ GER_UKR_decision_category = {
 		}
 
 		available = {
+			has_country_flag = GER_refnaz_ukr_part_1_complete
 
+		}
+
+		visible = {
+			has_country_flag = GER_refnaz_ukr_part_1_complete
 		}
 
 
@@ -647,7 +678,15 @@ GER_UKR_decision_category = {
 		}
 
 		available = {
+			UKR = {
+				has_idea = UKR_improved_infrastructure
+			}
+		}
 
+		visible = {
+			UKR = {
+				has_idea = UKR_improved_infrastructure
+			}
 		}
 
 
@@ -693,7 +732,15 @@ GER_UKR_decision_category = {
 		}
 
 		available = {
+			UKR = {
+				has_idea = UKR_purged_bureaucracy
+			}
+		}
 
+		visible = {
+			UKR = {
+				has_idea = UKR_purged_bureaucracy
+			}
 		}
 
 

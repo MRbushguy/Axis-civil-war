@@ -51,7 +51,7 @@ GER_UKR_decision_category = {
 
 	visible = {
 		original_tag = GER
-		#has_country_flag = GER_ukraine_situation_flag
+		has_country_flag = GER_ukraine_situation_flag
 
 	}
 
