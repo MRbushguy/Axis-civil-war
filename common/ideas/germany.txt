@@ -104,11 +104,17 @@ ideas = {
 			}
 
 			research_bonus = {
-				nuclear = -0.40
+				nuclear = -10
 			}
 
 
+			modifier = {
 
+			production_speed_nuclear_reactor_factor = -10
+			research_speed_factor = -0.2
+			political_power_gain = 0.2
+
+			}
 
 		}
 
