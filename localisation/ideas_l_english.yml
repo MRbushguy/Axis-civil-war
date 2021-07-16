@@ -1,11 +1,6 @@
 ﻿l_english:
 
- national_socialism_drift:0 "National Socialism Drifts"
-
  ##Axis Civil War##
-
- 
- shat_army:0 "Shattered Armed Forces"
 
  ###Congo
  Leopold_III:0 "Leopold III"
@@ -16,56 +11,80 @@
  #Germany
  GER_jewish_science:0 "Deutsche Physik"
  GER_jewish_science_desc:0 "The racial policies of the Third Reich have declared most of the currently discovered advance science as "Jewish science" and as false Judeo Bolshevik propaganda mean to corrupt the Aryan minds, and put a strict ban on the newly discovered Theory of Relativity and the quantum theory by the Jewish scientist Albert Einstein. Whilst it is a propaganda win and makes us able to exert more control over the general populace, this puts Germany at a major disadvantage in research, especially in the field of theoretical nuclear physics. \n\n§Note from dev: The 1 day research on atomic stuff is a visual bug and will actually never be researched so don’t bother§!"
+
  GER_depleted_army_0:0 "Severely Depleted Wehrmacht"
- GER_depleted_army_0_desc:0 "The 4 years of war in the hostile lands of eastern Europe, against an enemy that is willing to throw bodies at his enemies took their toll on the Wehrmacht. By the end of the war, most offensives were done by the now Extremely empowered Waffen-SS with the Wehrmacht just sitting and waiting for reinforcement. Things didn’t improve when Germany reached the A-A line and the undeclared truce was created, as Germany started to divert more and more equipment to garrison and suppression unit, and the Wehrmacht was once again left to rot. \n\nBut do not be fooled, is still considered the best army in the world. But if things stay as they are, the Wehrmacht might become only a shadow of it’s former self, and maybe even §Rfail to protect Germany against the red menace§!"
+ GER_depleted_army_0_desc:0 "The 4 years of war in the hostile lands of eastern Europe, against an enemy with an endless amount of manpower that is willing to throw bodies at his enemies took their toll on the Wehrmacht. By the end of the war, most offensives were done by the now Extremely empowered Waffen-SS, with the Wehrmacht just sitting and waiting for reinforcement. Things didn’t improve when Germany reached the A-A line and the undeclared truce was created, as Germany started to divert more and more equipment to garrison and suppression units, and the Wehrmacht was once again left on the sidelines to rot. \n\nBut do not be fooled. Currently, it is still considered the best army in the world. But if things stay as they are, the Wehrmacht might become only a shadow of it’s former self, and maybe even §Rfail to protect Germany against the red menace§!"
+ 
  GER_depleted_army_1:0 "Depleted Army"
- GER_depleted_army_desc:0 "The brutal war against the Soviet Union took its toll on the Reich. Our troops are as effective as ever, but massive manpower shortages have led to problems in both the factories and in the field. We would be at a disadvantage in any future wars."
+ GER_depleted_army_1_desc:0 "The brutal war against the Soviet Union took its toll on the Reich. Our troops are as effective as ever, but massive manpower shortages have led to problems in both the factories and in the field. We would be at a disadvantage in any future wars."
+
  GER_ongoing_holocaust:0 "Generalplan Ost"
  GER_ongoing_holocaust_desc:0 "The full force of Germany's plans for Europe are finally being executed in the east. Mass deportations, extra infrastructure, and fierce resistance are continuous drains on the German economy."
+ 
  GER_plunder_economy_0:0 "Successful Plunder Economy"
  GER_plunder_economy_0_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become neglected and underdeveloped, which could pose a serious problem in the future."
+ 
  GER_plunder_economy_1:0 "Stable Plunder Economy"
  GER_plunder_economy_1_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become neglected and underdeveloped, which could pose a serious problem in the future."
+ 
  GER_plunder_economy_2:0 "Shrinking Plunder Economy"
  GER_plunder_economy_2_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become neglected and underdeveloped, which could pose a serious problem in the future."
+ 
  GER_plunder_economy_3:0 "Failing Plunder Economy"
  GER_plunder_economy_3_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become neglected and underdeveloped, which could pose a serious problem in the future."
+ 
  GER_plunder_economy_4:0 "Collapsing Plunder Economy"
  GER_plunder_economy_4_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become neglected and underdeveloped, which could pose a serious problem in the future."
+ 
  GER_plunder_economy_5:0 "Ruined Plunder Economy"
  GER_plunder_economy_5_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become neglected and underdeveloped, which could pose a serious problem in the future."
+ 
  GER_blitzkreig_dependence:0 "Blitzkreig Dependence"
  GER_blitzkreig_dependence_desc:0 "With the successes of Blitzkreig tactics in the War, the German staff has neglected to update their strategies, most importantly those involving prolonged warfare and elastic defenses."
+ 
  GER_german_depression_5:0 "German Defeat"
  GER_german_depression_5_desc:0 "The disintegration of the German State burns heavy in the minds of the people."
+ 
  GER_german_depression_4:0 "German Despair"
  GER_german_depression_4_desc:0 "Germany is dying. It's people walk the streets with their heads bowed." 
+ 
  GER_german_depression_3:0 "Germany Failing"
  GER_german_depression_3_desc:0 "There is no mistake - germany is failing, and its people are very aware of that fact."
+ 
  GER_german_depression_2:0 "German sickness"
  GER_german_depression_2_desc:0 "There is a persistent feeling in our country that despite our great successes, something is not quite right."
+ 
  GER_german_depression_1:0 "German Hope"
  GER_german_depression_1_desc:0 "Despite all the trials our country has sustained, there is a growing hope that things will improve for us."
+ 
  GER_wehrmacht_aid:0 "Wehrmacht Aid"
+ 
  GER_wehrmacht_idea_0:0 "Wehrmacht Coalition"
  GER_wehrmacht_idea_0_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
+ 
  GER_wehrmacht_idea_1:0 "Wehrmacht Coalition"
  GER_wehrmacht_idea_1_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
+ 
  GER_wehrmacht_idea_2:0 "Wehrmacht Coalition"
  GER_wehrmacht_idea_2_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
+ 
  GER_wehrmacht_idea_3:0 "Wehrmacht Coalition"
  GER_wehrmacht_idea_3_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
+ 
  GER_wehrmacht_idea_4:0 "Wehrmacht Coalition"
  GER_wehrmacht_idea_4_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
+ 
  GER_wehrmacht_idea_5:0 "Wehrmacht Coalition"
  GER_wehrmacht_idea_5_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
+ 
  GER_wehrmacht_idea_6:0 "Wehrmacht Coalition"
  GER_wehrmacht_idea_6_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
+ 
  GER_wehrmacht_idea_7:0 "Wehrmacht Coalition"
  GER_wehrmacht_idea_7_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
+ 
  GER_wehrmacht_idea_8:0 "Wehrmacht Coalition"
  GER_wehrmacht_idea_8_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
-
 
 
 ###German Sphere
@@ -73,8 +92,10 @@
     ##ukraine
   UKR_agrarian_discontent_0:0 "Agrarian Discontent"
   UKR_agrarian_discontent_0_desc:0 "The harsh quotas of grain extracted by the German occupiers have led to more than a few angry protests from the farmers of Ukrainian fields."
+  
   UKR_agrarian_discontent_1:0 "Agrarian Uproar"
   UKR_agrarian_discontent_1_desc:0 "With their worries gone unheeded by the German occupiers, Ukrainian farmers and fellow supporters have begun to cause more than a little trouble."
+  
   UKR_agrarian_discontent_2:0 "Agrarian Rebellion"
   UKR_agrarian_discontent_2_desc:0 "With fears that the German occupiers will bleed them dry, the Ukranian people have escalated their discontent into a full-blown resistance. Who knows how far this may go..."
 
@@ -83,36 +104,49 @@
  ### Britain
  ENG_broken_nation:0 "Broken Nation" 
  ENG_broken_nation_desc:0 "The world war has sapped the british spirit, perhaps beyond repair. A vast empire has been dismantled by necessity practically overnight, and now Great Britain is a shell of its former self." 
- ENG_remember_the_blitz:0 "Remember the Blitz"
+
+ENG_remember_the_blitz:0 "Remember the Blitz"
  ENG_remember_the_blitz_desc:0 "The ferocity of the Italo-German blitz on London and other british major cities is still remembered today. Though the wounds have been sewn up, the scars remain, and the british people will not take the prospects of another war lightly."
- ENG_shattered_empire:0 "Shattered Empire"
+
+ENG_shattered_empire:0 "Shattered Empire"
  ENG_shattered_empire_desc:0 "Though much of Britain has been repaired, its dominions took the war as an opportunity to distance themselves from the crown. Vital necessities once supplied by the colonies now remain unreplaced."
- ### USA
+
+### USA
  USA_ascendant_german_american_bund:0 "Ascendant German American Bund"
  USA_ascendant_german_american_bund_desc:0 "With the Third Reich's conquests stretching from Paris to Moscow a previously small threat to democracy has only grown. Their outreach to German-Americans has extended across the United States, even managing to elect local and state officials. If we allow their influence to expand the evil of the German tyranny may find new roots in fertile American soil."
+
  USA_revived_klan:0 "Revived Klan"
  USA_revived_klan_desc:0 "What once were secretive gatherings around burning crosses have become acts of terror, lynchings, and violence to propagate segregation."
  
  #occupationLoc
  resistance_0:0 "Crushed Resistance"
  resistance_0_desc:0 ":Long years of occupation have worn our people down and sapped their will to fight."
- resistance_1:0 "Mininscule Resistance"
+
+resistance_1:0 "Mininscule Resistance"
  resistance_1_desc:0 "Only a few brave resistance fighters are left to fend off the occupiers."
- resistance_2:0 "Moderate Resistance"
+
+resistance_2:0 "Moderate Resistance"
  resistance_2_desc:0 "Several major resistance cells fight against our occupiers."
- resistance_3:0 "Heavy Resistance"
+
+resistance_3:0 "Heavy Resistance"
  resistance_3_desc:0 "Our people are beginning to rally in an attempt to throw out our oppressors."
- resistance_4:0 "Open Revolt"
+
+resistance_4:0 "Open Revolt"
  resistance_4_desc:0 "It is only a matter of time before we are ready to cast away our chains."
- devastation_0:0 "Recovering Economy"
+
+devastation_0:0 "Recovering Economy"
  devastation_0_desc:0 "Despite our occupation, our economy is recovering and close relationship to our overlord has led to economic benefits."
- devastation_1:0 "Stable Economy"
+
+devastation_1:0 "Stable Economy"
  devastation_1_desc:0 "Despite being occupied, our economy is at the moment fairly stable."
- devastation_2:0 "Declining Economy"
+
+devastation_2:0 "Declining Economy"
  devastation_2_desc:0 "Exploitation from our overlord has resulted in some minor problems in our economy."
- devastation_3:0 "Collapsing Economy"
+
+devastation_3:0 "Collapsing Economy"
  devastation_3_desc:0 "Because of military conquest and exploitation, our economy is on the verge of collapse."
- devastation_4:0 "Total Economic Ruin"
+
+devastation_4:0 "Total Economic Ruin"
  devastation_4_desc:0 "The damage done by conquest and plunder has rendered our economy nearly nonexistent."
 
 #crimea
