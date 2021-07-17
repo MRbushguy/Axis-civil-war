@@ -239,7 +239,7 @@ focus_tree = {
 	}
 
 	focus = {
-	    id = SOV_worth_with_what_we_have
+	    id = SOV_work_with_what_we_have
 	    icon = GFX_focus_SOV_memories_of_rev
 
 	    prerequisite = { focus = SOV_motherland_question }
@@ -273,14 +273,16 @@ focus_tree = {
 	    icon = GFX_focus_SOV_memories_of_rev
 
 	    prerequisite = { focus = SOV_german_decline }
-		prerequisite = { focus = SOV_worth_with_what_we_have }
+		prerequisite = { focus = SOV_work_with_what_we_have }
 
 		x = 20
 		y = 4
  
 		cost = 1
 
-		completion_reward = {  SOV = { country_event = { id = soviet.3 } }	}
+		completion_reward = {  
+			hidden_effect = { SOV = { country_event = { id = soviet.3 } } }	
+			}
 
 	}
 
