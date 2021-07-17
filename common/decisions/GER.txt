@@ -111,12 +111,42 @@ GER_internal_factions = {
 			desc = "Politics_Oberkommando_des_Heeres_desc"
 			picture = "OKH.dds"
 			expire = "1965.1.1"
+			ideology = military_rule
+			traits = {
+				}
+			}	
+		}
+	}
+
+	GER_nsdap_takeover = {
+		
+		icon = faction_ger_ndsap
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+			
+		}
+
+		cost = 1
+
+		days_remove = 1
+
+		complete_effect = {
+		custom_effect_tooltip = GER_nsdap_takeover_tt
+		create_country_leader = {
+			name = "NSDAP Notfallregierung"
+			desc = "Politics_NSDAP_Notfallregierung_desc"
+			picture = "NSDAP Notfallregierung.dds"
+			expire = "1965.1.1"
 			ideology = final_nazism
 			traits = {
 				}
 			}	
 		}
-	}			
+	}					
 }
 
 GER_UKR_decision_category = {
