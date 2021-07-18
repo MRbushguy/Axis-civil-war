@@ -1,4 +1,118 @@
-spriteTypes = {	
+spriteTypes = {
+	### GER
+	spriteType = {
+		name = "GFX_idea_dep_army"
+		texturefile = "gfx/interface/ideas/germany/Depleted.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_plund_eco"
+		texturefile = "gfx/interface/ideas/germany/Plunder.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_holocost"
+		texturefile = "gfx/interface/ideas/germany/Holo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_blitz_dep"
+		texturefile = "gfx/interface/ideas/germany/Blitz.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_devastation_0"
+		texturefile = "gfx/interface/ideas/germany/occupation/devastation_0.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_devastation_1"
+		texturefile = "gfx/interface/ideas/germany/occupation/devastation_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_devastation_2"
+		texturefile = "gfx/interface/ideas/germany/occupation/devastation_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_devastation_3"
+		texturefile = "gfx/interface/ideas/germany/occupation/devastation_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_devastation_4"
+		texturefile = "gfx/interface/ideas/germany/occupation/devastation_4.dds"
+	}
+
+		spriteType = {
+		name = "GFX_idea_resistance_0"
+		texturefile = "gfx/interface/ideas/germany/occupation/resistance_0.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_resistance_1"
+		texturefile = "gfx/interface/ideas/germany/occupation/resistance_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_resistance_2"
+		texturefile = "gfx/interface/ideas/germany/occupation/resistance_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_resistance_3"
+		texturefile = "gfx/interface/ideas/germany/occupation/resistance_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_resistance_4"
+		texturefile = "gfx/interface/ideas/germany/occupation/resistance_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jewish_science"
+		texturefile = "gfx/interface/ideas/germany/German Science.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_GermanSickness1"
+		texturefile = "gfx/interface/ideas/germany/depression/GermanSickness1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GermanSickness2"
+		texturefile = "gfx/interface/ideas/germany/depression/GermanSickness2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GermanSickness3"
+		texturefile = "gfx/interface/ideas/germany/depression/GermanSickness3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GermanSickness4"
+		texturefile = "gfx/interface/ideas/germany/depression/GermanSickness4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GermanSickness5"
+		texturefile = "gfx/interface/ideas/germany/depression/GermanSickness5.dds"
+	}
+	
+	### SOV 
+	spriteType = {
+		name = "GFX_idea_finnish_blocade"
+		texturefile = "gfx/interface/ideas/SOV/finnish_blocade.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_collapsed_soc"
+		texturefile = "gfx/interface/ideas/SOV/collapsed_soc.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nope_eco"
+		texturefile = "gfx/interface/ideas/SOV/no_eco.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_shatt_army"
+		texturefile = "gfx/interface/ideas/SOV/shat_army.dds"
+	}	
+
 	### IOC
 	SpriteType = {
 		name = "GFX_idea_IOC_garrison"
@@ -12,6 +126,7 @@ spriteTypes = {
 		name = "GFX_idea_IOC_native_resistance_low"
 		texturefile = "gfx/interface/ideas/IOC/native_resistance_low.dds"
 	}
+
 	### ENG
 	SpriteType = {
 		name = "GFX_idea_ENG_broken_nation"
@@ -21,6 +136,7 @@ spriteTypes = {
 		name = "GFX_idea_ENG_remember_the_blitz"
 		texturefile = "gfx/interface/ideas/ENG/remember_the_blitz.dds"
 	}
+
 	### USA
 	SpriteType = {
 		name = "GFX_idea_USA_ascendant_german_american_bund"
@@ -30,6 +146,7 @@ spriteTypes = {
 		name = "GFX_idea_USA_revived_klan"
 		texturefile = "gfx/interface/ideas/USA/klan.dds"
 	}
+
 	### COG
 	SpriteType = {
 		name = "GFX_idea_COG_Leopold_III"

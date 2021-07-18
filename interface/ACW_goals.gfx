@@ -1,4 +1,5 @@
 spriteTypes = {
+	### GER
 	SpriteType = {
 		name = "GFX_goal_GER_strengthen_ordenstaat"
 		texturefile = "gfx/interface/goals/GER_strengthen_ordenstaat.dds"
@@ -199,5 +200,39 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_GER_for_control"
 		texturefile = "gfx/interface/goals/GER_for_control.dds"
-	}			
+	}		
+
+	### SOV
+	SpriteType = { 
+		name = "GFX_focus_SOV_shattered_union"
+		texturefile = "gfx/interface/goals/SOV/shat_union.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_IOC_surrounded"
+		texturefile = "gfx/interface/goals/IOC_surrounded.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_SOV_shattered_union"
+		texturefile = "gfx/interface/goals/SOV/shat_union.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_SOV_memories_of_rev"
+		texturefile = "gfx/interface/goals/SOV/memories_rev.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_SOV_restore_faith"
+		texturefile = "gfx/interface/goals/SOV/restore_faith.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_SOV_hidden_fac"
+		texturefile = "gfx/interface/goals/SOV/hidden_fac.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_SOV_farmer_workers"
+		texturefile = "gfx/interface/goals/SOV/farmer_worker.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_SOV_trust_stalin"
+		texturefile = "gfx/interface/goals/SOV/trust_stalin.dds"
+	}
 }

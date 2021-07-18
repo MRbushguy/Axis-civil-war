@@ -54,9 +54,9 @@
  GER_student_protests_decision:0 "Ignite Student Protests"
  GER_student_protests_tt:0 "Causing unrest amongst the upcoming classes of intelligensia, future leaders of the Reich we threaten the NSDAP's stranglehold on acceptable ideological thought. §R This reduces the influence of the NSDAP, and increases the influence of the Reformists§!"
  GER_wehrmacht_takeover:0 "Operation Bismark"
- GER_wehrmacht_takeover_tt:0 "The §YWehrmacht §£decision_faction_ger_wehr_small has gained overwhelming influence in society. §R The time is now to seize power and reshape the fabric of society.§!"
+ GER_wehrmacht_takeover_tt:0 "The §YWehrmacht§! £decision_faction_ger_wehr_small  has gained overwhelming influence in society. §RThe time is now to seize power and reshape the fabric of society.§!"
  GER_nsdap_takeover:0 "Ein Reich"
- GER_nsdap_takeoverr_tt:0 "The§Y NSDAP§ £decision_faction_ger_wehr_small has gained overwhelming influence in society. §R The party's iron grip over society has been strengthened.§!"
+ GER_nsdap_takeover_tt:0 "The§Y NSDAP§! £decision_faction_ger_nsdap_small  has gained overwhelming influence in society. §RThe party's iron grip over society has been strengthened.§!"
 
  ### Italian Resistance
  GER_increase_swiss_resistance:0 "Increasing resistance"

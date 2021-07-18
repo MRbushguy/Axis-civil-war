@@ -97,7 +97,7 @@ ideas = {
 
 		GER_jewish_science = {
 
-			#picture = 
+			picture = jewish_science
 
 			allowed = {
 				always = no
@@ -124,7 +124,7 @@ ideas = {
 
 		##german depression##
 		GER_german_depression_5 = {
-			#picture = 
+			picture = GermanSickness5
 
 			allowed = {
 				always = no
@@ -141,7 +141,7 @@ ideas = {
 		}
 
 		GER_german_depression_4 = {
-			#picture = 
+			picture = GermanSickness4
 
 			allowed = {
 				always = no
@@ -157,7 +157,7 @@ ideas = {
 		}
 
 		GER_german_depression_3 = {
-			#picture = 
+			picture = GermanSickness3
 
 			allowed = {
 				always = no
@@ -173,7 +173,7 @@ ideas = {
 		}
 
 		GER_german_depression_2 = {
-			#picture = 
+			picture = GermanSickness2
 
 			allowed = {
 				always = no
@@ -189,7 +189,7 @@ ideas = {
 		}
 
 		GER_german_depression_1 = {
-			#picture = 
+			picture = GermanSickness1
 
 			allowed = {
 				always = no
