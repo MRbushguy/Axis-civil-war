@@ -708,6 +708,11 @@ focus_tree = {
 		completion_reward = {
 			#aims to reform the colonies as sufficient nation-states rather than hell holes
 
+			add_ideas = {
+
+				GER_refnaz_idea_0
+			}
+
 		}
 
 
@@ -729,6 +734,86 @@ focus_tree = {
 
 		completion_reward = {
 			#tries to reduce military corporation dominance in german economy
+
+
+			if = {	
+				limit = {
+					GER = {
+						has_idea = GER_refnaz_idea_0
+					}
+				}
+
+				swap_ideas = {
+					remove_idea = GER_refnaz_idea_0
+					add_idea = GER_refnaz_idea_1
+				}
+
+
+			}
+
+			add_timed_idea = {
+
+				idea = GER_dismantled_mil_factories
+				days = 70
+
+			}
+			custom_effect_tooltip = GER_dismantle_mils_tt
+
+
+			hidden_effect = {
+
+
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = GER
+					arms_factory > 2
+				}
+				remove_building = {
+					type = arms_factory
+					level = 2
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = GER
+					arms_factory > 2
+				}
+				remove_building = {
+					type = arms_factory
+					level = 2
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = GER
+					arms_factory > 2
+				}
+				remove_building = {
+					type = arms_factory
+					level = 2
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = GER
+					arms_factory > 2
+				}
+				remove_building = {
+					type = arms_factory
+					level = 2
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = GER
+					arms_factory > 2
+				}
+				remove_building = {
+					type = arms_factory
+					level = 2
+				}
+			}
+			}
 
 		}
 

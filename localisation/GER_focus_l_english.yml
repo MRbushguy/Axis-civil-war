@@ -45,6 +45,8 @@ GER_refnaz_involvement_desc:0 "The situation in Ukraine was what Reformists in t
 GER_ukraine_situation_2:0 "Unlocks decisions: £decision_icon_small §YAddress the Ukranian Economy§!"
 
 
+GER_dismantle_mils_tt:0 "§YRemoves ten military factories in German core territory.§!"
+
 GER_rebuild_NSDAP_desc:0 "£decision_icon_small big pp £decision_faction_ger_nsdap_small"
 
 
