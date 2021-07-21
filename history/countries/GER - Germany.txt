@@ -1298,7 +1298,7 @@ add_ideas = {
 		GER_ongoing_holocaust
 		GER_plunder_economy_1
 		GER_blitzkreig_dependence
-		GER_german_depression_2
+		GER_german_depression_1
 		GER_jewish_science
 
 		#laws
