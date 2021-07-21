@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
  ##Axis Civil War##
 
@@ -40,7 +40,7 @@
  GER_plunder_economy_5_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become neglected and underdeveloped, which could pose a serious problem in the future."
  
  GER_blitzkreig_dependence:0 "Blitzkreig Dependence"
- GER_blitzkreig_dependence_desc:0 "The Wehrmacht's strategies were once viewed as the top of the top when it comes to military tactics, the Blitzkrieg was considered the pinnacle of military theory, and the total humiliation of France solidified this thought even more. But the total stall of fall Barbarossa completely proved this thought wrong. But despite all the marks and signs that things need to change, change has yet to come, and the generals are starting to worry. \n\nOur complete failure to adapt in fall Barbarossa is still in the head of many generals, and a lot of them argue that without the Italian expedition and Japanese offensives, the soviets would have been in Berlin by now. We must stop relying solely on Lightning War and start to reform, or face the consequences of not adapting to a new era of warfare.."
+ GER_blitzkreig_dependence_desc:0 "The Wehrmacht's strategies were once viewed as the top of the top when it comes to military tactics, the Blitzkrieg was considered the pinnacle of military theory, and the total humiliation of France solidified this thought even more. But the total stall of fall Barbarossa completely proved this thought wrong. But despite all the marks and signs that things need to change, change has yet to come, and the generals are starting to worry. \n\nOur complete failure to adapt in fall Barbarossa is still in the head of many generals, and a lot of them argue that without the Italian expedition and Japanese offensives, the soviets would have been in berlin by now. We must stop relying solely on Lightning War and start to reform, or face the consequences of not adapting to a new era of warfare.."
  
  GER_german_depression_5:0 "German Defeat"
  GER_german_depression_5_desc:0 "The disintegration of the German State burns heavy in the minds of the people."
@@ -54,8 +54,8 @@
  GER_german_depression_2:0 "German sickness"
  GER_german_depression_2_desc:0 "There is a persistent feeling in our country that despite our great successes, something is not quite right."
  
- GER_german_depression_1:0 "German Hope"
- GER_german_depression_1_desc:0 "Despite all the trials our country has sustained, there is a growing hope that things will improve for us."
+ GER_german_depression_1:0 "German triumph"
+ GER_german_depression_1_desc:0 "Truly, the treaty of Versailles has been avenged, Germany has achieved triumph. We have gone from a nation bathed in shame and disgrace to the greatest power the world has ever seen, the Masters of Europa. After centuries of ill-treatment and subjugation from the jewish-loving Britons and French, the German people withstood the test of time and were unified once and for all in the shape of this magnificent Thousand-Year Reich, which shall go down in history as the greatest empire the world has ever seen. \n\nAnd although the Final War against the subhuman of the east has left misfortune and chaos in our territories, we prosper. No longer are the days of poverty like in Weimar, where a loaf of bread would cost an entire salary. The German people enjoy the highest standards of living in any nation, live the happiest lives, and fight for the greatest cause. §RSurely this prosperity will last forever§!."
  
  GER_wehrmacht_aid:0 "Wehrmacht Aid"
  
@@ -98,6 +98,7 @@
   
   UKR_agrarian_discontent_2:0 "Agrarian Rebellion"
   UKR_agrarian_discontent_2_desc:0 "With fears that the German occupiers will bleed them dry, the Ukranian people have escalated their discontent into a full-blown resistance. Who knows how far this may go..."
+
 
 
  ### Britain
