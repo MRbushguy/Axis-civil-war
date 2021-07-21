@@ -25,7 +25,7 @@
  GER_plunder_economy_0_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become neglected and underdeveloped, which could pose a serious problem in the future."
  
  GER_plunder_economy_1:0 "Stable Plunder of Territories"
- GER_plunder_economy_1_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become neglected and underdeveloped, which could pose a serious problem in the future."
+ GER_plunder_economy_1_desc:0 "our glorious crusades for the takings of rightful German lands was not cheap, and so economists and voices in the government suggested we will maintain the economy by plunders and takings of resources from the occupied territories. This economic model has proven itself worthy. \n\nBut now, economists and voices in the government urge Germany to change their economic model as fast as possible, arguing that this economic model is extremely unstable and very short term which will cause catastrophic damage to the economy if not changed. \n\nAnd after all, §RThese plunders will have to come from somewhere§!."
  
  GER_plunder_economy_2:0 "Shrinking Plunder of Territories"
  GER_plunder_economy_2_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become neglected and underdeveloped, which could pose a serious problem in the future."
@@ -40,7 +40,7 @@
  GER_plunder_economy_5_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become neglected and underdeveloped, which could pose a serious problem in the future."
  
  GER_blitzkreig_dependence:0 "Blitzkreig Dependence"
- GER_blitzkreig_dependence_desc:0 "With the successes of Blitzkreig tactics in the War, the German staff has neglected to update their strategies, most importantly those involving prolonged warfare and elastic defenses."
+ GER_blitzkreig_dependence_desc:0 "The Wehrmacht's strategies were once viewed as the top of the top when it comes to military tactics, the Blitzkrieg was considered the pinnacle of military theory, and the total humiliation of France solidified this thought even more. But the total stall of fall Barbarossa completely proved this thought wrong. But despite all the marks and signs that things need to change, change has yet to come, and the generals are starting to worry. \n\nOur complete failure to adapt in fall Barbarossa is still in the head of many generals, and a lot of them argue that without the Italian expedition and Japanese offensives, the soviets would have been in Berlin by now. We must stop relying solely on Lightning War and start to reform, or face the consequences of not adapting to a new era of warfare.."
  
  GER_german_depression_5:0 "German Defeat"
  GER_german_depression_5_desc:0 "The disintegration of the German State burns heavy in the minds of the people."
@@ -98,7 +98,6 @@
   
   UKR_agrarian_discontent_2:0 "Agrarian Rebellion"
   UKR_agrarian_discontent_2_desc:0 "With fears that the German occupiers will bleed them dry, the Ukranian people have escalated their discontent into a full-blown resistance. Who knows how far this may go..."
-
 
 
  ### Britain
