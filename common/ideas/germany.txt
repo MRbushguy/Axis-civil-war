@@ -111,7 +111,7 @@ ideas = {
 			modifier = {
 
 			production_speed_nuclear_reactor_factor = -10
-			research_speed_factor = -0.2
+			research_speed_factor = -0.25
 			political_power_gain = 0.2
 
 			}
@@ -258,7 +258,7 @@ ideas = {
 
 				consumer_goods_factor = 0.15
 				production_speed_buildings_factor = -0.25
-				monthly_population	= -0.3
+				monthly_population	= -0.12
 				weekly_manpower = -300
 
 
@@ -410,13 +410,12 @@ ideas = {
 			}
 
 			modifier = {
-				breakthrough_factor = 0.05
-				army_org_factor = -0.05
-				army_speed_factor = 0.03
-				army_fuel_consumption_factor = 0.15
-				attrition = 0.15
-				army_attack_factor = -0.05
-				army_defence_factor = -0.15
+				breakthrough_factor = 0.20
+				army_org_factor = 0.15
+				army_speed_factor = 0.25
+				army_fuel_consumption_factor = 0.8
+				attrition = 0.25
+				army_defence_factor = -0.22
 
 			}
 		}
