@@ -418,6 +418,7 @@ create_country_leader = {
 	ideology = nazism
 	traits = {
 		aging_dictator
+		germany_savior 
 	}
 }
 
