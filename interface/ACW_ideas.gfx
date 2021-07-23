@@ -70,9 +70,9 @@ spriteTypes = {
 		name = "GFX_idea_jewish_science"
 		texturefile = "gfx/interface/ideas/germany/German Science.dds"
 	}
-		spriteType = {
+	spriteType = {
 		name = "GFX_idea_GermanSickness1"
-		texturefile = "gfx/interface/ideas/germany/depression/GermanSickness1.dds"
+		texturefile = "gfx/interface/ideas/germany/triump.dds"
 	}
 
 	spriteType = {

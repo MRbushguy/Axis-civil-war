@@ -83,5 +83,17 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_decision_unite_ssr"
 		texturefile = "gfx/interface/decisions/SOV/sov_man.dds"
-	}	
+	}
+
+	spriteType = {
+		name = "GFX_decision_left_hand"
+		texturefile = "gfx/interface/decisions/left.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_right_hand"
+		texturefile = "gfx/interface/decisions/right.dds"
+	}
+
+
 }
