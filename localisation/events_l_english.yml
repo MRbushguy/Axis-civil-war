@@ -1,7 +1,5 @@
 ﻿l_english:
- ita_sphere:0 "Accordo di Fiume"
- ger_sphere:0 "Alldeutsches Bündnis"
-l_english:
+ 
  ##start## 
  start.1.t:0 "Welcome to the Axis Civil War mod !"
  start.1.d:0 "Welcome\n\nthe team has prepared a special event for you to catch up with the lore and the mechanics of the game"
@@ -85,6 +83,8 @@ germany.2.a:0 "Let us hope the situation does not deteriorate."
 germany.3.t:0 "The Ukranian Peasant Revolt"
 germany.3.d:0 "Even after the blistering onset of Operation Barbarossa, where the Ukrainian SSR was quickly consumed by the German Reich, resistance still remained. Over the years, German arms whittled away at it, sapping the will and strength of the Ukrainian people. Over time, the German plans for Ukraine became clear - they would forcibly evict the ukrainian people from the area and incorporate it as a core region of the German state. However, it still seems as though there is strength in them. Following the burning of fields last month, Ukrainian resistance fighters were spotted at various key points in the country, overwhelming unprepared german guards with advanced weapons likely pilfered from German stockpiles. Kiev and its surrounding territory remains in German hands, but the future of the area remains uncertain."
 germany.3.a:0 "The fields will be watered with this rebellion's blood!"
+
+
 #Ukraine
 ukraine.1.t:0 "The Farmer's choice"
 ukraine.1.d:0 "Aleksey shuffled towards his field, ignoring the spasms of hunger pain that wracked his body. He stopped at the border of the grain and stood, staring wistfully across the acres and acres of rich wheat that from his perspective, went on for miles. In a few weeks, it would be harvested and sent to the west, and not a single piece of it would remain in Ukraine. Aleksey reached for the bag he had brought, and with trembling hands pulled out a slew of matches. His fingers shook, but his arms were strong from decaades of work in these fields. One by one he lit the matches, and tossed them into different parts of the field. Across Ukraine he knew farmers were doing the exact same thing. In time the deed was finished. He lay down in the field, closing his eyes and taking a deep breath as the scent of grain was replaced by the stench of burning grass."
@@ -94,4 +94,11 @@ ukraine.2.t:0 "The revolt"
 ukraine.2.d:0 "The armored convoy trundled down a nondescript dirt road in the Ukrainian countryside, not on high alert. After all, the enemy combatants they had been tasked with subduing were miles from here. \n\n Which was exactly what their enemy wanted them to think. \n\n In a carefully planned maneuver, the first armored car of the convoy splashed across a puddle found it a bit deeper than expected. The engine whirred, but the car and the rest of the convoy came to a full stop. In an instant, the grain fields at the borders of the road exploded with movement, hundreds of men silently swarming towards the cars. There were a few shots of alarm, but for the most part, the Germans were taken completely by suprise. Within five minutes, the cars and everything in them were in the hands of Ukrainian combatants. \n\nThis and scenes just like it were the start of the Ukrainian Peasant Revolt."
 ukraine.2.a:0 "There is no turning back now."
 #add an alternative to play as the revolt
+
+
+#Italia 
+
+italystart.1.t:0 "Rebirth of an empire" 
+italystart.1.d:0 "It was almost like a bedtime dream. While Mussolini was very respected in the world stage, people laughed at his personal ambition to "Restore the roman empire and their glory". Really? Italy? The same Italy that was beaten and humiliated by the (supposedly) Weak and dumb Ethiopians. What a joke. \nWell as it turns ous, Mussolini is a man of his word. \n\nThe Italian people got their revenge; the backstabbing powers of Britain and France were completely humiliated by Italy's might. And due to some smart strategic decisions, even the new mighty power, and our most new and threatening enemy, Germany, has been denied their access to the Mediterranean and to the Caucasian oil. \n\nItaly has conquered itself an empire from Bordeaux to Dar es Salaam, from the Atlantic to the Indian ocean. \n\nItaly is once again, a mighty lion. In the eyes of the world, and in the hearts of the Italian people "
+italystart.1.a:0 "non più una vittoria mutilata"
 
