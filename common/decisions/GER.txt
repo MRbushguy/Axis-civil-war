@@ -4,31 +4,7 @@
 GER_internal_factions = {
 
 
-	GER_stub_decision = {
-		
-		icon = generic_oppression
-
-		allowed = {
-			tag = GER
-		}
-
-		available = {
-			
-		}
-
-		cost = 25
-
-		days_remove = 1
-		days_re_enable = 1
-
-		complete_effect = {
-		custom_effect_tooltip = GER_stub_tt
-		add_to_variable = { 
-		var = GER_ss_influence
-		value = 5
-			}
-		}
-	}
+	
 
 	GER_assassinate_ss_decision = {
 		
@@ -842,7 +818,7 @@ GER_the_state_of_germany = {
 
 		priority = 10
 
-		icon = generic_ignite_civil_war
+		icon = generic_scorched_earth
 
 		available = {
 			hidden_trigger = { always = no }
@@ -895,7 +871,7 @@ GER_the_state_of_germany = {
 	GER_exploit_the_east_territories = {
 
 
-	icon = generic_political_rally
+	icon = right_hand
 
 		allowed = {
 			tag = GER
@@ -1308,7 +1284,7 @@ GER_the_state_of_germany = {
 	GER_exploit_the_western_territories = {
 
 
-	icon = generic_political_rally
+	icon = left_hand
 
 		allowed = {
 			tag = GER

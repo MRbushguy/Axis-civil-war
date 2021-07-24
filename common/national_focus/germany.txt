@@ -750,6 +750,17 @@ focus_tree = {
 
 
 			}
+			else = {
+				effect_tooltip = {
+
+					swap_ideas = {
+						remove_idea = GER_refnaz_idea_0
+						add_idea = GER_refnaz_idea_1
+					}
+				}
+
+				
+			}
 
 			add_timed_idea = {
 

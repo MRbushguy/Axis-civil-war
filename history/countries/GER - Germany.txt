@@ -69,12 +69,12 @@ set_technology = {
 #SET FLAGS AND VARIABLES
 	#Internal Affairs
 	set_country_flag = GER_factions_unlocked_flag
-	set_variable = { GER_NSDAP_influence = 75 }
-	set_variable = { GER_wehrmacht_influence = 5 }
-	set_variable = { GER_militarists_influence = 5 }
-	set_variable = { GER_refnaz_influence = 5 }
-	set_variable = { GER_waffen_ss_influence = 5 }
-	set_variable = { GER_ss_influence = 5 }
+	set_variable = { GER_NSDAP_influence = 85 }
+	set_variable = { GER_wehrmacht_influence = 55 }
+	set_variable = { GER_militarists_influence = 35 }
+	set_variable = { GER_refnaz_influence = 0 }
+	set_variable = { GER_waffen_ss_influence = 45 }
+	set_variable = { GER_ss_influence = 40 }
 
 	clamp_variable = {
 	var = GER_NSDAP_influence
@@ -418,6 +418,7 @@ create_country_leader = {
 	ideology = nazism
 	traits = {
 		aging_dictator
+		germany_savior 
 	}
 }
 
@@ -429,6 +430,7 @@ create_country_leader = {
 	ideology = final_nazism
 	traits = {
 		aging_dictator
+		germany_savior
 	}
 }
 
@@ -1298,7 +1300,7 @@ add_ideas = {
 		GER_ongoing_holocaust
 		GER_plunder_economy_1
 		GER_blitzkreig_dependence
-		GER_german_depression_2
+		GER_german_depression_1
 		GER_jewish_science
 
 		#laws
