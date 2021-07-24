@@ -29,7 +29,7 @@
  GER_refnaz_influence_status:0 "[GetRefnazInfluenceStatus]"
  GER_refnaz_influence_amount_green:0 "[?GER.GER_refnaz_influence|G0]"
  GER_refnaz_influence_amount_red:0 "[?GER.GER_refnaz_influence|R0]"
- GER_REFNAZ_TOOLTIP:0 "The last decade has not been kind to Germany. Despite its growing empire, much of the plunder has flowed into the coffers of the rich, and the people have been forced to make more and more sacrifices by the year. The £decision_faction_ger_reform_small §YReformists§! are a small cadre of officers and politicians who believe Germany must change, or be consumed from the inside out."
+ GER_REFNAZ_TOOLTIP:0 "Despite all of the propaganda and war glory, some people are starting to see the forming cracks. While not completely loyal to the values of democracy and personal freedom, the £decision_faction_ger_reform_small §YReformists§! have a single uniting idea, that the zealous fever of Nazism must be contained and controlled, and that Germany must change, or it will be consumed from the inside out."
 
  GER_waffen_ss_name_text:0 "Waffen-SS"
  GER_waffen_ss_influence_status:0 "[GetWaffenSSInfluenceStatus]"
