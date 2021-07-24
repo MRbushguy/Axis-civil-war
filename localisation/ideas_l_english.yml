@@ -82,6 +82,14 @@
  GER_wehrmacht_idea_8:0 "Wehrmacht Coalition"
  GER_wehrmacht_idea_8_desc:0 "With Germany faced with a growing crisis of leadership, the German Wehrmacht has strengthened their position in the country, and there are increasing calls for them to shoulder more of the burden of gernment."
 
+ GER_refnaz_idea_0:0 "Reformist Faction"
+ GER_refnaz_idea_0_desc:0 "Reformist Desc"
+
+ GER_refnaz_idea_1:0 "Reformist Faction"
+ GER_refnaz_idea_1_desc:0 "Reformist Desc"
+
+ GER_dismantled_mil_factories:0 "Dismantled Military Factories"
+ GER_dismantled_mil_factories_desc:0 "Dismantled Military Factories DESC"
 
 ###German Sphere
 
