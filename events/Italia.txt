@@ -4,7 +4,6 @@
 
 add_namespace = italystart
 
-custom_effect_tooltip = ussr3
 
 country_event = {
 	id = italystart.1
@@ -16,9 +15,8 @@ country_event = {
 
 	option = {
 		name = italystart.1.a
-    remove_ideas =
-		add_ideas  = 
-    add_ideas 
+		
+    remove_ideas = vittoria mutilata
+   
             }
-	}
 }
