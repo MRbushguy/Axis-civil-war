@@ -81,7 +81,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_wehrmacht_conquests
-		#icon
+		icon = GFX_goal_GER_wehrmacht_conquests
 
 		prerequisite = {
 			focus = GER_exploit_the_east
@@ -274,7 +274,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_prepare_for_urban_combat
-		#icon
+		icon = GFX_goal_GER_prepare_for_urban_combat
 
 		prerequisite = {
 				focus = GER_purge_command_structure
@@ -456,7 +456,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_training_facilities
-		#icon
+		icon = GFX_goal_GER_training_facilities
 
 		prerequisite = {
 			 focus = GER_wehrmacht_conquests
@@ -548,7 +548,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_wehrmacht_recruitment
-		#icon
+		icon = GFX_goal_GER_wehrmacht_recruitment
 
 		prerequisite = {
 			 focus = GER_integrate_denmark
@@ -695,7 +695,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_refnaz_reforms
-		#icon
+		icon = GFX_goal_GER_refnaz_reforms
 
 		prerequisite = {
 			focus = GER_exploit_the_east
@@ -722,7 +722,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_weaken_military_sector
-		#icon
+		icon = GFX_goal_GER_weaken_military_sector
 
 		prerequisite = {
 			focus = GER_refnaz_reforms
@@ -1297,7 +1297,7 @@ focus_tree = {
 		relative_position_id = GER_social_situation
 
 		completion_reward = {
-			#hitler's fucking dead, get better leaders lmao
+			#hitlers fucking dead, get better leaders lmao
 
 		}
 
@@ -1624,7 +1624,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_for_stability
-		#icon
+		icon = GFX_goal_GER_for_stability
 
 		prerequisite = {
 			focus = GER_the_plot
@@ -4338,7 +4338,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_caucasus_oil
-
+		icon = GFX_goal_GER_caucasus_oil
 		prerequisite = {focus = GER_the_asian_front}
 
 		x = 0

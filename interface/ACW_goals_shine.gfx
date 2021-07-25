@@ -1,7 +1,7 @@
 spriteTypes = {	
 
 	SpriteType = {
-		name = "GFX__shine"
+		name = "GFX_goal_GER_NSDAP_laurels_shine"
 		texturefile = "gfx/interface/goals/GER_NSDAP_laurels.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {

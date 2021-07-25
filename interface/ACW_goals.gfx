@@ -201,7 +201,40 @@ spriteTypes = {
 		name = "GFX_goal_GER_for_control"
 		texturefile = "gfx/interface/goals/GER_for_control.dds"
 	}		
+	SpriteType = {
+		name = "GFX_goal_GER_caucasus_oil"
+		texturefile = "gfx/interface/goals/GER_caucasus_oil.dds"
+	}
+		SpriteType = {
+		name = "GFX_goal_GER_wehrmacht_recruitment"
+		texturefile = "gfx/interface/goals/GER_wehrmacht_recruitment.dds"
+	}
+		SpriteType = {
+		name = "GFX_goal_GER_wehrmacht_conquests"
+		texturefile = "gfx/interface/goals/GER_wehrmacht_conquests.dds"
+	}
+		SpriteType = {
+		name = "GFX_goal_GER_refnaz_reforms"
+		texturefile = "gfx/interface/goals/GER_refnaz_reforms.dds"
+	}
+		SpriteType = {
+		name = "GFX_goal_GER_weaken_military_sector"
+		texturefile = "gfx/interface/goals/GER_weaken_military_sector.dds"
+	}
+		SpriteType = {
+		name = "GFX_goal_GER_training_facilities"
+		texturefile = "gfx/interface/goals/GER_training_facilities.dds"
+	}		
+		SpriteType = {
+		name = "GFX_goal_GER_prepare_for_urban_combat"
+		texturefile = "gfx/interface/goals/GER_prepare_for_urban_combat.dds"
+	}
+		SpriteType = {
+		name = "GFX_goal_GER_for_stability"
+		texturefile = "gfx/interface/goals/GER_for_stability.dds"
+	}				
 
+		#icon
 	### SOV
 	SpriteType = { 
 		name = "GFX_focus_SOV_shattered_union"
