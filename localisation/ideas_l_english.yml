@@ -165,7 +165,6 @@ devastation_4:0 "Total Economic Ruin"
 
 #USSR
 
-
  shat_army:0 "Shattered Armed Forces"
  shat_army_desc:0 "The scars from the Great Purge never had the time to heal. The Germans struck us at the worst time possible, and our mighty Red Army lacked the skillful generals it needed to defeat the Nazi horde. Things got even worse when the Japanese invaded from the east, right before the planned winter offensive that would have prevented the Germans from capturing Moskva \n\nThe Red Army (or what's left of it) is in dire need of repairs. Soldiers are deserting and machinery breaks down constantly. If we want to retake our stolen territories from the German and Japanese bastards, we need to bring back the Red Army into proper shape, a red sword that will purge Mother Russia of the cancers afflicting it."
  
@@ -185,6 +184,56 @@ devastation_4:0 "Total Economic Ruin"
  
  improved_economy:0 "Functional Economy"
  improved_economy_desc:0 "Functional economy"
+ 
+ 
+ #Italia 
+ smol_victory:0 "vittoria mutilata" 
+ smol_victory_desc:0 "The "vittoria mutilate" or the "Mutilated victory" is the name of what can only be described as a disgusting betrayal by the entente powers of Britain and France. Who played the patriotic feelings of the innocent Italian people with the promises of territory and respect in order to drag them into a brutal war of trench warfare, only to betray them in the end with Italy begin sidelines in the treaty of Versailles. \n\nBut this betrayal wouldn't be forgotten by the poor Italian people. We will get our revenge! Italy will regain her glory once again! And it will be YOU who will suffer the consequences of your actions."
+added_glory: "§GItaly has regained her lost glory§!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  #vanilla
