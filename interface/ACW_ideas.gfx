@@ -157,3 +157,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/COG/Diamond_Profits.dds"
 	}	
 }
+
+###Italia 
+
+SpriteType = {
+		name = "GFX_idea_SPQR_Eagle"
+		texturefile = "gfx/interface/ideas/ITA/SPQR_Eagle.dds"
+	}	
+}
