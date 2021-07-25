@@ -1,0 +1,14 @@
+ideas = {
+
+	country = {
+
+		reborn_pride = {
+          picture = SPQR_Eagle
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			modifier = {
+			}
+		}
