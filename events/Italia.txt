@@ -16,7 +16,7 @@ country_event = {
 	option = {
 		name = italystart.1.a
 		
-    remove_ideas = vittoria_mutilata
+    remove_ideas = smol_victory
    
             }
 }
