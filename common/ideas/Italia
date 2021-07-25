@@ -1,6 +1,23 @@
 ideas = {
 
 	country = {
+	
+	smol_victory = {			
+			
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			
+			modifier = {
+				communism_acceptance = -25
+				democratic_acceptance = -40
+				fascism_acceptance = 90
+				war_support_factor = 0.1
+				offence = 0.15
+				ai_focus_aggressive_factor = 0.5
+			}
+		}
 
 		reborn_pride = {
           picture = SPQR_Eagle
