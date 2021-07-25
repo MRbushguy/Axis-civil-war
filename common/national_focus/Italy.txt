@@ -16,6 +16,8 @@
 
 	focus = {
 		id = avanti_italia
+		icon = GFX_focus_IOC_surrounded
+
 		
 		x = 23
 		y = 2
@@ -29,7 +31,10 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		completion_reward = {	
+		completion_reward = {
+		
+		country_event = italystart.1
+
 		}
 }
 	focus = {

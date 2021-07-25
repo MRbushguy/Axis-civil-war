@@ -258,7 +258,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Benito Mussolini"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	desc = "muslini_desc"
 	picture = "benito mussolini.dds"
 	expire = "1965.1.1"
 	ideology = italian_fascism

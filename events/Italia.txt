@@ -1,0 +1,22 @@
+###########################
+# Italy events
+###########################
+
+add_namespace = italystart
+
+
+country_event = {
+	id = italystart.1
+	title = italystart.1.t
+	desc = italystart.1.d
+	picture = GFX_report_event_sov_army_parade
+	
+	is_triggered_only = yes
+
+	option = {
+		name = italystart.1.a
+		
+    remove_ideas = smol_victory
+   
+            }
+}
