@@ -17,6 +17,7 @@ country_event = {
 		name = italystart.1.a
 		
     remove_ideas = smol_victory
-   
+   custom_effect_tooltip = added_glory
+hidden_effect = { swap_ideas = { remove_idea = smol_victory  add_idea = reborn_pride  }  
             }
 }
