@@ -15,7 +15,6 @@ ideas = {
 				fascism_acceptance = 90
 				war_support_factor = 0.1
 				offence = 0.5
-				ai_focus_aggressive_factor = 0.5
 			}
 		}
 
