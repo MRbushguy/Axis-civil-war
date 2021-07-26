@@ -268,4 +268,14 @@ spriteTypes = {
 		name = "GFX_focus_SOV_trust_stalin"
 		texturefile = "gfx/interface/goals/SOV/trust_stalin.dds"
 	}
-}
+
+
+
+
+###ITA 
+
+
+SpriteType = { 
+		name = "GFX_focus_ITA_Avanti_Italia"
+		texturefile = "gfx/interface/goals/ITA/Avanti_Italia.dds"
+	}
