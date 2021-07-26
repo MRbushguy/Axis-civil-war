@@ -12,9 +12,12 @@ ideas = {
 
 			
 			modifier = {
-				communism_acceptance = -25
-				democratic_acceptance = -40
-				fascism_acceptance = 90
+				communism_acceptance = -70
+				communism_acceptance = -55
+				democratic_left_acceptance = -90
+				democratic_center_acceptance = -65
+				democratic_right_acceptance = -30	
+  			        fascism_acceptance = 90
 				war_support_factor = 0.1
 				offence = 0.5
 			}
