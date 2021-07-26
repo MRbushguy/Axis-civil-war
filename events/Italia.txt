@@ -9,7 +9,7 @@ country_event = {
 	id = italystart.1
 	title = italystart.1.t
 	desc = italystart.1.d
-	picture = GFX_report_event_sov_army_parade
+	picture = GFX_report_event_ita_poster
 	
 	is_triggered_only = yes
 
