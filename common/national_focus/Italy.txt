@@ -16,7 +16,7 @@
 
 	focus = {
 		id = avanti_italia
-		icon = GFX_focus_IOC_surrounded
+		icon = GFX_focus_Avanti_Italia
 
 		
 		x = 23
