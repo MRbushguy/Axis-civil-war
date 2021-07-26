@@ -2,7 +2,9 @@ ideas = {
 
 	country = {
 	
-	smol_victory = {			
+	smol_victory = {
+       picture = vittoria_mutilata
+
 			
 			allowed = {
 				original_tag = "ITA"
