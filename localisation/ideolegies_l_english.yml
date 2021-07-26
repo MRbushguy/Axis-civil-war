@@ -80,16 +80,22 @@
  democratic_left_noun:0 "Democratic left"
  democratic_left_desc:0 "Leftist Democratic regime"
  
+ democratic_left_acceptance:0 "Acceptance of Left leaning Democracy"
+ 
  
  #democratic center bois (Pick a side R*tards) 
  democratic_center:0 "democratic center"
  democratic_center_noun:0 "Democracic center"
  democratic_center_desc:0 "Centrist democratic Regime"
  
+  democratic_center_acceptance:0 "Acceptance of Centrist Democracy"
+ 
  #democratic rightists (Change bad !!!!!!) 
  democratic_right_right:0 "Democratic right"
  democratic_right_noun:0 "Democratic right"
  democratic_right_desc:0 "Rightist democratic Regime"
+ 
+ democratic_right_acceptance:0 "Acceptance of Right leaning Democracy"
  
  conservatism:0 "Conservatism"
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
