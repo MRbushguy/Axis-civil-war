@@ -19,7 +19,7 @@ ideas = {
 				democratic_right_acceptance = -30	
   			        fascism_acceptance = 90
 				war_support_factor = 0.1
-				offence = 0.5
+				offence = 0.05
 			}
 		}
 
