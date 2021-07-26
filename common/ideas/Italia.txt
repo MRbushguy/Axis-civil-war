@@ -30,6 +30,13 @@ ideas = {
 				original_tag = ITA
 			}
 
-			modifier = {
+			modifier = {	
+  			        fascism_acceptance = 100
+				drift_defence_factor = 1.0
+				fascism_drift = 0.15
+				war_support_factor = 0.2
+                                army_core_attack_factor = 0.15
+			        army_core_defence_factor = 0.15
+
 			}
 		}
