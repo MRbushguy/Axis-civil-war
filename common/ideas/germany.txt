@@ -201,7 +201,7 @@ ideas = {
 				stability_weekly = 0.0025
 				war_support_factor = 0.4
 				political_power_gain = 0.5
-				drift_defence_factor = 0.98
+				drift_defence_factor = 0.80
 
 			}
 		}
