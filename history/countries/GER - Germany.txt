@@ -435,9 +435,9 @@ create_country_leader = {
 }
 
 set_popularities = {
-	national_socialism = 70
-	authoritarianism = 20
-	fascism = 10
+	national_socialism = 100
+	#authoritarianism = 0
+	#fascism = 0
 }
 
 add_namespace = {

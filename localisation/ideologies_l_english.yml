@@ -6,7 +6,7 @@
  
  final_nazism:0 "National Socialism"
  final_nazism_noun:0 "National Socialism"
- final_nazism_desc:0 "A mix of Italian fascism, rabid racism and anti semitism, and Extreme totalitarianism, §RNational socialism§! was built on the bitterness of the german people over the humiliation and chaos of the weltkrieg, and exploited by the far right figures such as Adolf hitler as an excuse to rise to power, and eventually to subjegate europe under their mighty boot. \n\nNational socialism differs from fascism in its extreme level of racism, every race has value, and "lower quality" races should either be enslaved for the benefits of the "superior races", or be entirely wiped out of existance. "
+ final_nazism_desc:0 "A mix of Italian fascism, rabid racism and anti semitism, and Extreme totalitarianism, §RNational socialism§! was built on the bitterness of the german people over the humiliation and chaos of the weltkrieg, and exploited by the far right figures such as Adolf hitler as an excuse to rise to power, and eventually to subjugate europe under their mighty boot. \n\nNational socialism differs from fascism in its extreme level of racism, every race has value, and "lower quality" races should either be enslaved for the benefits of the "superior races", or be entirely wiped out of existence. "
  
  esoteric_nazism:0 "Esoteric National Socialism"
  esoteric_nazism_noun:0 "Esoteric National Socialism"
@@ -136,12 +136,12 @@
  colonial_government_desc:0 "Colonial Governance" 
  
  #parties
- GER_national_socialism_party:0 "NSDAP - Hardliners"
- GER_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Hardlinerin"
- GER_neutrality_party:0 "NSDAP - Reform"
- GER_neutrality_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reform"
- GER_fascism_party:0 "NSDAP - Militarists"
- GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Militaristen"
+ GER_national_socialism_party:0 "NSDAP"
+ GER_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+ GER_neutrality_party:0 "Monarchist/Junta Coalition"
+ #GER_neutrality_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reform"
+ GER_fascism_party:0 "Italian Loyalists"
+ #GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Militaristen"
  GER_communism_party:0 "KPD"
  GER_democratic_party:1 "Zentrum"
  GER_neutrality_party_civil_war:0 "Militärregierung"
