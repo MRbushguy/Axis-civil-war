@@ -276,6 +276,8 @@ spriteTypes = {
 
 
 SpriteType = { 
-		name = "GFX_focus_ITA_Avanti_Italia"
-		texturefile = "gfx/interface/goals/ITA/Avanti_Italia.dds"
+		name = "GFX_focus_Avanti_Italia"
+		texturefile = "gfx/interface/goals/Avanti_Italia.dds"
 	}
+
+
