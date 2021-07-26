@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 
  ##Axis Civil War##
 
@@ -84,6 +84,12 @@ l_english:
 
  GER_refnaz_idea_0:0 "Reformist Faction"
  GER_refnaz_idea_0_desc:0 "Reformist Desc"
+
+ GER_refnaz_idea_1:0 "Reformist Faction"
+ GER_refnaz_idea_1_desc:0 "Reformist Desc"
+
+ GER_refnaz_idea_2:0 "Reformist Faction"
+ GER_refnaz_idea_2_desc:0 "Reformist Desc"
 
  GER_refnaz_idea_1:0 "Reformist Faction"
  GER_refnaz_idea_1_desc:0 "Reformist Desc"

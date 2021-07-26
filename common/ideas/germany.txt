@@ -1,6 +1,39 @@
 ideas = {
 
+	hidden_ideas = {
+
+			GER_faction_negative_influence_0 = {
+
+				modifier = {
+					
+				}
+			}
+
+			GER_faction_negative_influence_1 = {
+
+				modifier = {
+					political_power_factor = -0.25
+				}
+			}
+
+
+		}
+
+
+
 	country = {
+
+		GER_faction_negative_influence_2 = {
+
+				modifier = {
+					political_power_factor = -0.25
+				}
+			}
+
+
+		###factionism ideas
+
+		
 
 		## Ukrainian things ##
 		GER_wehrmacht_aid = {
@@ -1176,16 +1209,20 @@ ideas = {
 		GER_MAN = {
 
 			picture = GER_MAN
+
+
 			
 			allowed = {
 				original_tag = GER
 			}
+
+			removal_cost = -1
 			
 			research_bonus = {
-				armor = 0.15
+				armor = -0.15
 			}
 			
-			traits = { medium_tank_manufacturer }
+			traits = { MAN_trait }
 
 			ai_will_do = {
 				factor = 1
@@ -1364,8 +1401,8 @@ ideas = {
 			
 
 			research_bonus = {
-				industry = 0.05
-				synth_resources = 0.15
+				industry = -0.05
+				synth_resources = -0.15
 			}
 
 			traits = { uncontested_synthetics_monopoly }
@@ -1408,6 +1445,8 @@ ideas = {
 	materiel_manufacturer = {
 		
 		designer = yes
+
+
 		
 		rheinmetall = {
 			
@@ -1434,10 +1473,12 @@ ideas = {
 			}
 			
 			research_bonus = {
-				infantry_weapons = 0.15
+				infantry_weapons = -0.15
+				artillery = -0.05
+				motorized_equipment = -0.05
 			}
 			
-			traits = { infantry_equipment_manufacturer }
+			traits = { mauser_trait}
 			
 			ai_will_do = {
 				factor = 2

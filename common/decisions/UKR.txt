@@ -14,7 +14,7 @@ UKR_agrarian_revolt = {
 
 		fire_only_once = yes
 
-		days_mission_timeout = 5
+		days_mission_timeout = 70
 
 		visible = {
 			tag = UKR
@@ -79,7 +79,7 @@ UKR_agrarian_revolt = {
 
 		fire_only_once = yes
 
-		days_mission_timeout = 5
+		days_mission_timeout = 70
 
 		visible = {
 			has_country_flag = discontent_1
@@ -151,7 +151,7 @@ UKR_agrarian_revolt = {
 
 		fire_only_once = yes
 
-		days_mission_timeout = 5
+		days_mission_timeout = 35
 
 		visible = {
 			has_country_flag = discontent_2

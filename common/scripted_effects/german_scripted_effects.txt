@@ -83,4 +83,28 @@ GER_decrease_plunder_economy = {
 
 }
 
+GER_faction_cleanup = {
+	
+	if = {
+		limit = {
+			check_variable = {GER.GER_NSDAP_influence < 75}
+			NOT = {has_idea = GER_faction_negative_influence_0}
+		}
+		swap_ideas = {
+			remove_idea = GER_faction_negative_influence_1
+			add_idea = GER_faction_negative_influence_0
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {GER.GER_NSDAP_influence > 74}
+			NOT = {has_idea = GER_faction_negative_influence_1}
+		}
+		swap_ideas = {
+			remove_idea = GER_faction_negative_influence_0
+			add_idea = GER_faction_negative_influence_1
+		}
+	}
+}
+
 

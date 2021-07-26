@@ -220,19 +220,7 @@ create_import = {
 
 	add_political_power = 1197
 	
-	#adding ministers
-	add_ideas = {
-		henschel
-		ig_faben
-		heinrich_himmler
-		rudolf_hess
-		ludwig_beck
-		gerd_von_rundstedt
-
-		#laws
-		war_economy
-		extensive_conscription
-	}
+	
 	
 	oob = "GER_1939"
 	
@@ -1295,18 +1283,35 @@ create_equipment_variant = {
 	puppet = FRA
 	puppet = BUR
 
-add_ideas = {
+#adding ministers
+	add_ideas = {
+		henschel
+		ig_faben
+		heinrich_himmler
+		rudolf_hess
+		ludwig_beck
+		gerd_von_rundstedt
+
+	}
+	add_ideas = {
+		GER_MAN
+		ig_faben
+		mauser
+		
 		GER_depleted_army_0
 		GER_ongoing_holocaust
 		GER_plunder_economy_1
 		GER_blitzkreig_dependence
 		GER_german_depression_1
 		GER_jewish_science
+		GER_faction_negative_influence_1
 
 		#laws
 		war_economy
 		extensive_conscription
 	}
+
+	
 	
 	give_guarantee = JAP
 

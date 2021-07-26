@@ -25,6 +25,8 @@ country_event = { #nazi congress
 		add_to_variable = { GER_waffen_ss_influence = 5 }
 		add_to_variable = { GER_ss_influence = 5 }
 
+		GER_faction_cleanup = yes
+
 	}
 }
 

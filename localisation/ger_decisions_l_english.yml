@@ -5,7 +5,11 @@
  GER_ui_faction_header:0 "Faction"
  GER_ui_influence_header:0 "Influence"
 
- GER_INFLUENCE_TOOLTIP:0 "These numbers represent the percent of power each faction currently holds. §ROutsized influence by any faction will rersult in a negative spirit.§!"
+ GER_INFLUENCE_TOOLTIP:0 "These numbers represent the percent of power each faction currently holds. §ROutsized influence by any faction will rersult in a negative spirit.§! \n\n §YCurrent Factionalism Impact:§! \n [gerFactionInfluenceSpirit]"
+ GER_factionalism_NSDAP:0 "Daily Political Power Gain: §R -25% §!"
+ GER_factionalism_empty:0 ""
+
+
 
  GER_NSDAP_name_text:0 "NSDAP"
  GER_NSDAP_influence_status:0 "[GetNSDAPInfluenceStatus]"

@@ -4,7 +4,26 @@
 GER_internal_factions = {
 
 
-	
+	GER_test_decision = {
+		
+		icon = spr_political_assassination
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+			
+		}
+
+		cost = 0
+
+		days_remove = 1
+
+		complete_effect = {
+			add_ideas = GER_faction_negative_influence_1
+		}
+	}
 
 	GER_assassinate_ss_decision = {
 		

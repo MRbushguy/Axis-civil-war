@@ -196,7 +196,30 @@ focus_tree = {
 		relative_position_id =  GER_wehrmacht_involvement
 
 		completion_reward = {
-			#wehrmacht breaks with refnaz and continues alone
+
+			custom_effect_tooltip = GER_wehrmacht_alone_tt
+			add_to_variable = {GER_refnaz_influence = -10}
+			add_to_variable = {GER_wehrmacht_influence = 10}
+			
+			if = {
+					limit = {has_idea = GER_refnaz_idea_0}
+					remove_ideas = GER_refnaz_idea_0
+				}
+				else_if = {
+					limit = {has_idea = GER_refnaz_idea_1}
+					remove_ideas = GER_refnaz_idea_1
+				}
+				else_if = {
+					limit = {has_idea = GER_refnaz_idea_2}
+					remove_ideas = GER_refnaz_idea_2
+				}
+				else_if = {
+					limit = {has_idea = GER_refnaz_idea_3}
+					remove_ideas = GER_refnaz_idea_3
+				}
+				else = {
+					remove_ideas = GER_refnaz_idea_0
+				}
 
 		}
 
@@ -554,6 +577,10 @@ focus_tree = {
 			 focus = GER_integrate_denmark
 		}
 
+		bypass = {
+			has_completed_focus = GER_refnaz_and_wehrmacht
+		}
+
 		x = 0
 		y = 2
 
@@ -613,6 +640,10 @@ focus_tree = {
 
 		prerequisite = {
 			 focus = GER_training_facilities
+		}
+
+		bypass = {
+			has_completed_focus = GER_refnaz_and_wehrmacht
 		}
 
 		x = 1
@@ -701,6 +732,20 @@ focus_tree = {
 			focus = GER_exploit_the_east
 		}
 
+		available = {
+			
+			custom_trigger_tooltip = {
+				tooltip = GER_refnaz_reforms_support_requirement_tt
+				check_variable = { GER_refnaz_influence = 5 compare = greater_than }
+			}
+		}
+
+
+
+		bypass = {
+			has_completed_focus = GER_wehrmacht_alone
+		}
+
 		x = 4
 		y = 1
 		relative_position_id = GER_exploit_the_east
@@ -726,6 +771,10 @@ focus_tree = {
 
 		prerequisite = {
 			focus = GER_refnaz_reforms
+		}
+
+		bypass = {
+			has_completed_focus = GER_wehrmacht_alone
 		}
 
 		x = 1
@@ -976,9 +1025,52 @@ focus_tree = {
 		relative_position_id =  GER_refnaz_involvement
 
 		completion_reward = {
-			#wehrmacht joins refnaz as co partners in revolution
+				custom_effect_tooltip = GER_refnaz_and_wehrmacht_tt
+				add_to_variable = {GER_refnaz_influence = 10}
+				add_to_variable = {GER_wehrmacht_influence = -10}
+			
+				if = {
+					limit = {has_idea = GER_wehrmacht_idea_0}
+					remove_ideas = GER_wehrmacht_idea_0
+				}
+				else_if = {
+					limit = {has_idea = GER_wehrmacht_idea_1}
+					remove_ideas = GER_wehrmacht_idea_1
+				}
+				else_if = {
+					limit = {has_idea = GER_wehrmacht_idea_2}
+					remove_ideas = GER_wehrmacht_idea_2
+				}
+				else_if = {
+					limit = {has_idea = GER_wehrmacht_idea_3}
+					remove_ideas = GER_wehrmacht_idea_3
+				}
+				else_if = {
+					limit = {has_idea = GER_wehrmacht_idea_4}
+					remove_ideas = GER_wehrmacht_idea_4
+				}
+				else_if = {
+					limit = {has_idea = GER_wehrmacht_idea_5}
+					remove_ideas = GER_wehrmacht_idea_5
+				}
+				else_if = {
+					limit = {has_idea = GER_wehrmacht_idea_6}
+					remove_ideas = GER_wehrmacht_idea_6
+				}
+				else_if = {
+					limit = {has_idea = GER_wehrmacht_idea_7}
+					remove_ideas = GER_wehrmacht_idea_7
+				}
+				else = {
+					remove_ideas = GER_wehrmacht_idea_0
+				}
 
+			
 		}
+
+		
+
+		
 
 
 
@@ -1078,6 +1170,8 @@ focus_tree = {
 		relative_position_id = GER_refnaz_reforms
 
 		completion_reward = {
+
+
 			#might give buffs to the colonies, lower resistance growth
 
 		}
