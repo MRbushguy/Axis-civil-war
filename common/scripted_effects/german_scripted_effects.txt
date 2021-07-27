@@ -88,22 +88,29 @@ GER_faction_cleanup = {
 	if = {
 		limit = {
 			check_variable = {GER.GER_NSDAP_influence < 75}
-			NOT = {has_idea = GER_faction_negative_influence_0}
+			
 		}
-		swap_ideas = {
-			remove_idea = GER_faction_negative_influence_1
-			add_idea = GER_faction_negative_influence_0
-		}
+		set_variable = {GER_factionalism_NSDAP_debuff = 0}
 	}
 	else_if = {
 		limit = {
 			check_variable = {GER.GER_NSDAP_influence > 74}
-			NOT = {has_idea = GER_faction_negative_influence_1}
 		}
-		swap_ideas = {
-			remove_idea = GER_faction_negative_influence_0
-			add_idea = GER_faction_negative_influence_1
+		set_variable = {GER_factionalism_NSDAP_debuff = -0.25}
+	}
+
+	if = {
+		limit = {
+			check_variable = {GER.GER_refnaz_influence < 75}
+			
 		}
+		set_variable = {GER_factionalism_reform_debuff = 0}
+	}
+	else_if = {
+		limit = {
+			check_variable = {GER.GER_refnaz_influence > 74}
+		}
+		set_variable = {GER_factionalism_reform_debuff = -0.20}
 	}
 }
 

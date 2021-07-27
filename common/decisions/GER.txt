@@ -21,7 +21,12 @@ GER_internal_factions = {
 		days_remove = 1
 
 		complete_effect = {
-			add_ideas = GER_faction_negative_influence_1
+			add_to_variable = { 
+				var = GER_refnaz_influence
+				value = 80
+			}	
+
+			GER_faction_cleanup = yes	
 		}
 	}
 
@@ -42,15 +47,17 @@ GER_internal_factions = {
 		days_remove = 30
 
 		complete_effect = {
-		custom_effect_tooltip = GER_assassinate_ss_tt
-		add_to_variable = { 
-		var = GER_ss_influence
-		value = -5
+			custom_effect_tooltip = GER_assassinate_ss_tt
+			add_to_variable = { 
+				var = GER_ss_influence
+				value = -5
 			}
-		add_to_variable = { 
-		var = GER_NSDAP_influence
-		value = 5
-			}	
+			add_to_variable = { 
+				var = GER_NSDAP_influence
+				value = 5
+			}
+
+			GER_faction_cleanup = yes		
 		}
 	}
 
@@ -71,15 +78,17 @@ GER_internal_factions = {
 		days_remove = 30
 
 		complete_effect = {
-		custom_effect_tooltip = GER_student_protests_tt
-		add_to_variable = { 
-		var = GER_refnaz_influence
-		value = 5
+			custom_effect_tooltip = GER_student_protests_tt
+			add_to_variable = { 
+				var = GER_refnaz_influence
+				value = 5
 			}
-		add_to_variable = { 
-		var = GER_NSDAP_influence
-		value = -5
-			}	
+			add_to_variable = { 
+				var = GER_NSDAP_influence
+				value = -5
+			}
+
+			GER_faction_cleanup = yes		
 		}
 	}
 

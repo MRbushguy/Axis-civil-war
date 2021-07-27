@@ -1,37 +1,12 @@
 ideas = {
 
-	hidden_ideas = {
-
-			GER_faction_negative_influence_0 = {
-
-				modifier = {
-					
-				}
-			}
-
-			GER_faction_negative_influence_1 = {
-
-				modifier = {
-					political_power_factor = -0.25
-				}
-			}
-
-
-		}
+	
 
 
 
 	country = {
 
-		GER_faction_negative_influence_2 = {
-
-				modifier = {
-					political_power_factor = -0.25
-				}
-			}
-
-
-		###factionism ideas
+		
 
 		
 

@@ -5,13 +5,27 @@
 ### germany factions stuff ###
 
 defined_text = {
-	name = gerFactionInfluenceSpirit
+	name = gerNSDAPInfluenceSpirit
 	text = {
 		trigger = {
-			has_idea = GER_faction_negative_influence_1
+			check_variable = {GER.GER_NSDAP_influence > 74}
 
 		}
 		localization_key = GER_factionalism_NSDAP
+	}
+	text = {
+		localization_key = GER_factionalism_empty
+	}
+}
+
+defined_text = {
+	name = gerReformInfluenceSpirit
+	text = {
+		trigger = {
+			check_variable = {GER.GER_refnaz_influence > 74}
+
+		}
+		localization_key = GER_factionalism_refnaz
 	}
 	text = {
 		localization_key = GER_factionalism_empty

@@ -114,10 +114,12 @@ set_technology = {
 
 
 
+	##Factionalism Variables
+	set_variable = {GER_factionalism_NSDAP_debuff = -0.25} ##switches from -0.25 to 0
+	set_variable = {GER_factionalism_reform_debuff = 0} ##switches from -0.20 to 0
+
 
 	###Plunder variables
-
-
 	set_variable = {GER_economy_refresh_time = 120}
 	set_variable = {GER_plunder_west = 25}
 	set_variable = {GER_plunder_east = 25}
@@ -1284,15 +1286,7 @@ create_equipment_variant = {
 	puppet = BUR
 
 #adding ministers
-	add_ideas = {
-		henschel
-		ig_faben
-		heinrich_himmler
-		rudolf_hess
-		ludwig_beck
-		gerd_von_rundstedt
 
-	}
 	add_ideas = {
 		GER_MAN
 		ig_faben
@@ -1304,11 +1298,16 @@ create_equipment_variant = {
 		GER_blitzkreig_dependence
 		GER_german_depression_1
 		GER_jewish_science
-		GER_faction_negative_influence_1
+		GER_faction_negative_influence
 
 		#laws
 		war_economy
 		extensive_conscription
+	}
+
+	add_dynamic_modifier = {
+
+		modifier = GER_factionalism_dynamic_modifier
 	}
 
 	
