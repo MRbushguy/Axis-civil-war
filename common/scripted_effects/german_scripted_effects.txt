@@ -94,11 +94,36 @@ GER_faction_cleanup = {
 	}
 	else_if = {
 		limit = {
-			check_variable = {GER.GER_NSDAP_influence > 74}
+			check_variable = {GER.GER_wehrmacht_influence > 74}
 		}
-		set_variable = {GER_factionalism_NSDAP_debuff = -0.25}
+		set_variable = {GER_factionalism_wehrmacht_debuff = -0.25}
 	}
-
+	if = {
+		limit = {
+			check_variable = {GER.GER_wehrmacht_influence < 75}
+			
+		}
+		set_variable = {GER_factionalism_wehrmacht_debuff = 0}
+	}
+	else_if = {
+		limit = {
+			check_variable = {GER.GER_wehrmacht_influence > 74}
+		}
+		set_variable = {GER_factionalism_wehrmacht_debuff = -0.50}
+	}
+	if = {
+		limit = {
+			check_variable = {GER.GER_militarist_influence < 75}
+			
+		}
+		set_variable = {GER_factionalism_militarist_debuff = 0}
+	}
+	else_if = {
+		limit = {
+			check_variable = {GER.GER_militarist_influence > 74}
+		}
+		set_variable = {GER_factionalism_militarist_debuff = -0.15}
+	}
 	if = {
 		limit = {
 			check_variable = {GER.GER_refnaz_influence < 75}
@@ -112,6 +137,33 @@ GER_faction_cleanup = {
 		}
 		set_variable = {GER_factionalism_reform_debuff = -0.20}
 	}
+	if = {
+		limit = {
+			check_variable = {GER.GER_waffen_ss_influence < 75}
+			
+		}
+		set_variable = {GER_factionalism_waffenSS_debuff = 0}
+	}
+	else_if = {
+		limit = {
+			check_variable = {GER.GER_waffen_ss_influence > 74}
+		}
+		set_variable = {GER_factionalism_waffenSS_debuff = -500}
+	}
+	if = {
+		limit = {
+			check_variable = {GER.GER_ss_influence < 75}
+			
+		}
+		set_variable = {GER_factionalism_SS_debuff = 0}
+	}
+	else_if = {
+		limit = {
+			check_variable = {GER.GER_ss_influence > 74}
+		}
+		set_variable = {GER_factionalism_SS_debuff = -0.15}
+	}
+
 }
 
 

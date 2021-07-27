@@ -11,10 +11,38 @@ defined_text = {
 			check_variable = {GER.GER_NSDAP_influence > 74}
 
 		}
-		localization_key = GER_factionalism_NSDAP
+		localization_key = GER_factionalism_NSDAP_tt
 	}
 	text = {
-		localization_key = GER_factionalism_empty
+		localization_key = GER_factionalism_empty_tt
+	}
+}
+
+defined_text = {
+	name = gerWehrmachtInfluenceSpirit
+	text = {
+		trigger = {
+			check_variable = {GER.GER_wehrmacht_influence > 74}
+
+		}
+		localization_key = GER_factionalism_wehrmacht_tt
+	}
+	text = {
+		localization_key = GER_factionalism_empty_tt
+	}
+}
+
+defined_text = {
+	name = gerMilitaristInfluenceSpirit
+	text = {
+		trigger = {
+			check_variable = {GER.GER_militarist_influence > 74}
+
+		}
+		localization_key = GER_factionalism_militarist_tt
+	}
+	text = {
+		localization_key = GER_factionalism_empty_tt
 	}
 }
 
@@ -25,10 +53,38 @@ defined_text = {
 			check_variable = {GER.GER_refnaz_influence > 74}
 
 		}
-		localization_key = GER_factionalism_refnaz
+		localization_key = GER_factionalism_refnaz_tt
 	}
 	text = {
-		localization_key = GER_factionalism_empty
+		localization_key = GER_factionalism_empty_tt
+	}
+}
+
+defined_text = {
+	name = gerWaffenSSInfluenceSpirit
+	text = {
+		trigger = {
+			check_variable = {GER.GER_waffen_ss_influence > 74}
+
+		}
+		localization_key = GER_factionalism_waffenSS_tt
+	}
+	text = {
+		localization_key = GER_factionalism_empty_tt
+	}
+}
+
+defined_text = {
+	name = gerSSInfluenceSpirit
+	text = {
+		trigger = {
+			check_variable = {GER.GER_ss_influence > 74}
+
+		}
+		localization_key = GER_factionalism_SS_tt
+	}
+	text = {
+		localization_key = GER_factionalism_empty_tt
 	}
 }
 
@@ -66,7 +122,7 @@ defined_text = {
 	name = GetMilitaristsInfluenceStatus
 	text = {
 		trigger = {
-			check_variable = {GER.GER_militarists_influence > 74}
+			check_variable = {GER.GER_militarist_influence > 74}
 
 		}
 		localization_key = GER_militarists_influence_amount_red

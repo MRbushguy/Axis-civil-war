@@ -24,7 +24,23 @@ GER_internal_factions = {
 			add_to_variable = { 
 				var = GER_refnaz_influence
 				value = 80
+			}
+			add_to_variable = { 
+				var = GER_wehrmacht_influence
+				value = 80
 			}	
+			add_to_variable = { 
+				var = GER_militarist_influence
+				value = 80
+			}	
+			add_to_variable = { 
+				var = GER_waffen_ss_influence
+				value = 80
+			}	
+			add_to_variable = { 
+				var = GER_ss_influence
+				value = 80
+			}		
 
 			GER_faction_cleanup = yes	
 		}

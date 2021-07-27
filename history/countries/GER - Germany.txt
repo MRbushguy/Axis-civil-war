@@ -116,7 +116,11 @@ set_technology = {
 
 	##Factionalism Variables
 	set_variable = {GER_factionalism_NSDAP_debuff = -0.25} ##switches from -0.25 to 0
+	set_variable = {GER_factionalism_wehrmacht_debuff = 0} ##switches from -0.50 to 0
+	set_variable = {GER_factionalism_militarist_debuff = 0} ##switches from -0.15 to 0
 	set_variable = {GER_factionalism_reform_debuff = 0} ##switches from -0.20 to 0
+	set_variable = {GER_factionalism_waffenSS_debuff = 0} ##switches from -500 to 0
+	set_variable = {GER_factionalism_SS_debuff = 0} ##switches from -0.15 to 0
 
 
 	###Plunder variables
