@@ -90,59 +90,59 @@ GER_faction_cleanup = {
 			check_variable = {GER.GER_NSDAP_influence < 75}
 			
 		}
-		set_variable = {GER_factionalism_NSDAP_debuff = 0}
+		set_variable = {GER_factionalism_NSDAP_modifer = 0}
 	}
 	else_if = {
 		limit = {
 			check_variable = {GER.GER_wehrmacht_influence > 74}
 		}
-		set_variable = {GER_factionalism_wehrmacht_debuff = -0.25}
+		set_variable = {GER_factionalism_wehrmacht_modifer = -0.25}
 	}
 	if = {
 		limit = {
 			check_variable = {GER.GER_wehrmacht_influence < 75}
 			
 		}
-		set_variable = {GER_factionalism_wehrmacht_debuff = 0}
+		set_variable = {GER_factionalism_wehrmacht_modifer = 0}
 	}
 	else_if = {
 		limit = {
 			check_variable = {GER.GER_wehrmacht_influence > 74}
 		}
-		set_variable = {GER_factionalism_wehrmacht_debuff = -0.50}
+		set_variable = {GER_factionalism_wehrmacht_modifer = -0.50}
 	}
 	if = {
 		limit = {
 			check_variable = {GER.GER_militarist_influence < 75}
 			
 		}
-		set_variable = {GER_factionalism_militarist_debuff = 0}
+		set_variable = {GER_factionalism_militarist_modifer = 0}
 	}
 	else_if = {
 		limit = {
 			check_variable = {GER.GER_militarist_influence > 74}
 		}
-		set_variable = {GER_factionalism_militarist_debuff = -0.15}
+		set_variable = {GER_factionalism_militarist_modifer = -0.15}
 	}
 	if = {
 		limit = {
 			check_variable = {GER.GER_refnaz_influence < 75}
 			
 		}
-		set_variable = {GER_factionalism_reform_debuff = 0}
+		set_variable = {GER_factionalism_reform_modifer = 0}
 	}
 	else_if = {
 		limit = {
 			check_variable = {GER.GER_refnaz_influence > 74}
 		}
-		set_variable = {GER_factionalism_reform_debuff = -0.20}
+		set_variable = {GER_factionalism_reform_modifer = -0.20}
 	}
 	if = {
 		limit = {
 			check_variable = {GER.GER_waffen_ss_influence < 75}
 			
 		}
-		set_variable = {GER_factionalism_waffenSS_debuff = 0}
+		set_variable = {GER_factionalism_waffenSS_modifer = 0}
 	}
 	else_if = {
 		limit = {
@@ -155,13 +155,13 @@ GER_faction_cleanup = {
 			check_variable = {GER.GER_ss_influence < 75}
 			
 		}
-		set_variable = {GER_factionalism_SS_debuff = 0}
+		set_variable = {GER_factionalism_SS_modifer = 0}
 	}
 	else_if = {
 		limit = {
 			check_variable = {GER.GER_ss_influence > 74}
 		}
-		set_variable = {GER_factionalism_SS_debuff = -0.15}
+		set_variable = {GER_factionalism_SS_modifer = -0.15}
 	}
 
 }
