@@ -23,8 +23,8 @@ state={
 		add_core_of = GRE
 		add_claim_by = BUL
 	    1947.1.1 = {
-			owner = BUL
-			controller = BUL
+			owner = TUR
+			controller = TUR
 		}		
 	}
 
