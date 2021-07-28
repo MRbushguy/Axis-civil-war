@@ -181,7 +181,7 @@ ideas = {
 		}
 
 		GER_german_depression_2 = {
-			picture = GermanSickness2
+			picture = GermanSickness1
 
 			allowed = {
 				always = no
@@ -189,10 +189,10 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				stability_factor = -0.05
-				war_support_factor = -0.05
-				political_power_gain = -0.05
-				conscription_factor = -0.05
+				stability_factor = 0.3
+				war_support_factor = 0.4
+				political_power_gain = 0.4
+				drift_defence_factor = 0.80
 			}
 		}
 
