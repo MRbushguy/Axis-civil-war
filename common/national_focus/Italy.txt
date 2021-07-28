@@ -56,6 +56,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+		add_political_power = 50
 		}
 	} 	
 	
@@ -78,6 +79,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+		custom_effect_tooltip = empire_shit
 		}
 	} 	
 
@@ -190,6 +192,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+		custom_effect_tooltip = houm
 		}
 	} 	
 	
@@ -302,6 +305,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+		custom_effect_tooltip = neu_army_shit
 		}
 	} 	
 	
@@ -414,6 +418,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+		custom_effect_tooltip = neu_gov
 		}
 	} 	
 	
