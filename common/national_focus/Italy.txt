@@ -126,7 +126,7 @@ focus_tree = {
 	} 	
 	
 	focus = { #left tree
-		id = cover_colonies_cost
+		id = encourage_migration 
 
 		x = 12
 		y = 5
