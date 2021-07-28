@@ -81,8 +81,8 @@ GER_factionalism_dynamic_modifier = {
 
 	political_power_factor = GER_factionalism_NSDAP_modifer
 	experience_gain_army = GER_factionalism_wehrmacht_modifer
-	production_speed_industrial_complex_factor = GER_factionalism_militarist_modifer
-	production_speed_arms_factory_factor = GER_factionalism_reform_modifer
+	production_speed_arms_factory_factor = GER_factionalism_militarist_modifer
+	production_speed_industrial_complex_factor = GER_factionalism_reform_modifer
 	weekly_manpower = GER_factionalism_waffenSS_modifer
 	stability_factor = GER_factionalism_SS_modifer
 

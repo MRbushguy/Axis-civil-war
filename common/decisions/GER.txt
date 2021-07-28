@@ -22,6 +22,10 @@ GER_internal_factions = {
 
 		complete_effect = {
 			add_to_variable = { 
+				var = GER_NSDAP_influence
+				value = 80
+			}
+			add_to_variable = { 
 				var = GER_refnaz_influence
 				value = 80
 			}
@@ -40,6 +44,52 @@ GER_internal_factions = {
 			add_to_variable = { 
 				var = GER_ss_influence
 				value = 80
+			}		
+
+			GER_faction_cleanup = yes	
+		}
+	}
+
+	GER_test_decision_2 = {
+		
+		icon = spr_political_assassination
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+			
+		}
+
+		cost = 0
+
+		days_remove = 1
+
+		complete_effect = {
+			add_to_variable = { 
+				var = GER_NSDAP_influence
+				value = -80
+			}
+			add_to_variable = { 
+				var = GER_refnaz_influence
+				value = -80
+			}
+			add_to_variable = { 
+				var = GER_wehrmacht_influence
+				value = -80
+			}	
+			add_to_variable = { 
+				var = GER_militarist_influence
+				value = -80
+			}	 
+			add_to_variable = { 
+				var = GER_waffen_ss_influence
+				value = -80
+			}	
+			add_to_variable = { 
+				var = GER_ss_influence
+				value = -80
 			}		
 
 			GER_faction_cleanup = yes	

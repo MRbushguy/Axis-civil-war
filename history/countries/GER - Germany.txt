@@ -115,12 +115,12 @@ set_technology = {
 
 
 	##Factionalism Variables
-	set_variable = {GER_factionalism_NSDAP_modifer = -0.25} ##switches from -0.25 to 0 to 0.25
-	set_variable = {GER_factionalism_wehrmacht_modifer = 0} ##switches from -0.50 to 0
-	set_variable = {GER_factionalism_militarist_modifer = 0} ##switches from -0.15 to 0
-	set_variable = {GER_factionalism_reform_modifer = 0} ##switches from -0.20 to 0
-	set_variable = {GER_factionalism_waffenSS_modifer = 0} ##switches from -500 to 0
-	set_variable = {GER_factionalism_SS_modifer = 0} ##switches from -0.15 to 0
+	set_variable = {GER_factionalism_NSDAP_modifer = 0.15} ##switches from -0.15 to 0 to 0.15 #political power
+	set_variable = {GER_factionalism_wehrmacht_modifer = 0} ##switches from -0.50 to 0 to 0.25 #experience gain
+	set_variable = {GER_factionalism_militarist_modifer = 0} ##switches from -0.05 to 0 to 0.10 #military factory
+	set_variable = {GER_factionalism_reform_modifer = -0.1} ##switches from -0.1 to 0 to 0.1 #civilian factory
+	set_variable = {GER_factionalism_waffenSS_modifer = -500} ##switches from -500 to 0 to 500 #weekly manpower
+	set_variable = {GER_factionalism_SS_modifer = 0} ##switches from -0.10 to 0 to 0.10 #stability
 
 
 	###Plunder variables

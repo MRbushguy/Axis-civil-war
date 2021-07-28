@@ -4,6 +4,10 @@
 
 ### germany factions stuff ###
 
+
+
+#faction debuffs
+
 defined_text = {
 	name = gerNSDAPInfluenceSpirit
 	text = {
@@ -11,7 +15,14 @@ defined_text = {
 			check_variable = {GER.GER_NSDAP_influence > 74}
 
 		}
-		localization_key = GER_factionalism_NSDAP_tt
+		localization_key = GER_high_factionalism_NSDAP_tt
+	}
+	text = {
+		trigger = {
+			check_variable = {GER.GER_NSDAP_influence < 26}
+
+		}
+		localization_key = GER_low_factionalism_NSDAP_tt
 	}
 	text = {
 		localization_key = GER_factionalism_empty_tt
@@ -25,7 +36,14 @@ defined_text = {
 			check_variable = {GER.GER_wehrmacht_influence > 74}
 
 		}
-		localization_key = GER_factionalism_wehrmacht_tt
+		localization_key = GER_high_factionalism_wehrmacht_tt
+	}
+	text = {
+		trigger = {
+			check_variable = {GER.GER_wehrmacht_influence < 26}
+
+		}
+		localization_key = GER_low_factionalism_wehrmacht_tt
 	}
 	text = {
 		localization_key = GER_factionalism_empty_tt
@@ -39,7 +57,14 @@ defined_text = {
 			check_variable = {GER.GER_militarist_influence > 74}
 
 		}
-		localization_key = GER_factionalism_militarist_tt
+		localization_key = GER_high_factionalism_militarist_tt
+	}
+	text = {
+		trigger = {
+			check_variable = {GER.GER_militarist_influence < 26}
+
+		}
+		localization_key = GER_low_factionalism_militarist_tt
 	}
 	text = {
 		localization_key = GER_factionalism_empty_tt
@@ -53,7 +78,14 @@ defined_text = {
 			check_variable = {GER.GER_refnaz_influence > 74}
 
 		}
-		localization_key = GER_factionalism_refnaz_tt
+		localization_key = GER_high_factionalism_refnaz_tt
+	}
+	text = {
+		trigger = {
+			check_variable = {GER.GER_refnaz_influence < 26}
+
+		}
+		localization_key = GER_low_factionalism_refnaz_tt
 	}
 	text = {
 		localization_key = GER_factionalism_empty_tt
@@ -67,7 +99,14 @@ defined_text = {
 			check_variable = {GER.GER_waffen_ss_influence > 74}
 
 		}
-		localization_key = GER_factionalism_waffenSS_tt
+		localization_key = GER_high_factionalism_waffenSS_tt
+	}
+	text = {
+		trigger = {
+			check_variable = {GER.GER_waffen_ss_influence < 26}
+
+		}
+		localization_key = GER_low_factionalism_waffenSS_tt
 	}
 	text = {
 		localization_key = GER_factionalism_empty_tt
@@ -81,12 +120,22 @@ defined_text = {
 			check_variable = {GER.GER_ss_influence > 74}
 
 		}
-		localization_key = GER_factionalism_SS_tt
+		localization_key = GER_high_factionalism_SS_tt
+	}
+	text = {
+		trigger = {
+			check_variable = {GER.GER_ss_influence < 26}
+
+		}
+		localization_key = GER_low_factionalism_SS_tt
 	}
 	text = {
 		localization_key = GER_factionalism_empty_tt
 	}
 }
+
+
+#faction influence
 
 defined_text = {
 	name = GetNSDAPInfluenceStatus
