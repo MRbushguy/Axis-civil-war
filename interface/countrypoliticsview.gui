@@ -198,7 +198,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "autonomy_progress_view"
 			position = { x = 3 y = 375 }
-			size = { width = 200 height = 60 }
+			size = { width = 355 height = 60 }
 			clipping = yes
 
 			background = {
@@ -208,7 +208,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "current_autonomy_name"
-				position = { x = 95 y = 8 }
+				position = { x = 90 y = 8 }
 				font = "hoi_18mbs"
 				text = "autonomy"
 				maxWidth = 193
@@ -218,13 +218,13 @@ guiTypes = {
 			
 			buttonType = {
 				name = "prev_autonomy_level"
-				position = { x = 60 y = 9 }
+				position = { x = 65 y = 9 }
 				quadTextureSprite = "GFX_autonomy_level_button"
 			}
 			
 			iconType = {
 				name = "prev_level_glow"
-				position = { x = 48 y = 2 }
+				position = { x = 53 y = 2 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
 				alwaystransparent = yes				
 				scale = 0.5
@@ -232,7 +232,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "prev_autonomy_level_icon"
-				position = { x = 60 y = 9 }
+				position = { x = 65 y = 9 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 				alwaystransparent = yes
 			}
@@ -240,19 +240,21 @@ guiTypes = {
 			iconType = {
 				name = "autonomy_progress"
 				spriteType = "GFX_subject_progressbar_long"
-				position = { x = 101 y = 29 }
+				position = { x = 102 y = 29 }
 				frame = 100
+				scale = 0.5
+				
 			}
 			
 			buttonType = {
 				name = "next_autonomy_level"
-				position = { x = 284 y = 5 }
+				position = { x = 264 y = 5 }
 				quadTextureSprite = "GFX_occupation_policy_button_selected"
 			}
 			
 			iconType = {
 				name = "next_level_glow"
-				position = { x = 272 y = -2 }
+				position = { x = 252 y = -2 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
 				alwaystransparent = yes				
 				scale = 0.5
@@ -260,7 +262,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "next_autonomy_level_icon"
-				position = { x = 289 y = 9 }
+				position = { x = 269 y = 9 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 				alwaystransparent = yes
 			}
