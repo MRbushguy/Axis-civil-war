@@ -354,6 +354,9 @@ send_equipment = { equipment = infantry_equipment amount = 1000 target = IOC
 		available_if_capitulated = no
 
 		completion_reward = {
+		army_experience = 55
+		navy_experience = 40
+		air_experience = 35
 		}
 	} 	
 	
