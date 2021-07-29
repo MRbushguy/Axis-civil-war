@@ -39,6 +39,7 @@ country_event = {
     id = italystart.2
     hours = 5
 }
+}
 
 ountry_event = {
 	id = italystart.3
