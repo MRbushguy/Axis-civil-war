@@ -21,3 +21,33 @@ country_event = {
 hidden_effect = { swap_ideas = { remove_idea = smol_victory  add_idea = reborn_pride  }  
             }
 }
+
+
+
+country_event = {
+	id = italystart.2
+	title = italystart.2.t
+	desc = italystart.2.d
+	picture = GFX_report_event_ita_poster
+	
+	is_triggered_only = yes
+
+	option = {
+		name = italystart.2.a
+		
+		country_event = {
+    id = italystart.2
+    hours = 5
+}
+
+ountry_event = {
+	id = italystart.3
+	title = italystart.3.t
+	desc = italystart3.d
+	picture = GFX_report_event_ita_poster
+	
+	is_triggered_only = yes
+
+	option = {
+		name = italystart.3.a
+		
