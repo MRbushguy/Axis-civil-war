@@ -1366,7 +1366,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_nazi_annual_congress
 
-		completion_reward = {
+		completion_reward = {	
+
+			custom_effect_tooltip = GER_social_situation_tt
 			#attempts to address the rampant "despair" in germany
 
 		}
