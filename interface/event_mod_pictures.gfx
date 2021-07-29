@@ -42,11 +42,16 @@ spriteType = {
 	
 	spriteType = {
 		name = "GFX_report_event_ita_poster"
-		texturefile = "gfx/event_pictures/ita_poster.dds"
+		texturefile = "gfx/event_pictures/ita_poster.dds" 
+		
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_mussolini_rally_sepia"
+		texturefile = "gfx/event_pictures/mussolini_rally_sepia.dds" 
 		
 	}
 	
 	
-
 
 }
