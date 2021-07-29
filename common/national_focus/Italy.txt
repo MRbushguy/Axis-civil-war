@@ -102,6 +102,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+		add_manpower = -20000
+
+		IME = { add_manpower = 5000 }
+		IEA = { add_manpower = 5000 }
+		IGL = { add_manpower = 5000 }
+		IOC = { add_manpower = 5000 }
+		ICA = { add_manpower = 5000 }
 		}
 	}
 	
@@ -124,8 +131,26 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+		send_equipment = { equipment = infantry_equipment amount = 1000 target = IEA
+}
+		
+send_equipment = { equipment = infantry_equipment amount = 1000 target = IME
+}
+
+send_equipment = { equipment = infantry_equipment amount = 1000 target = ICA
+}
+
+send_equipment = { equipment = infantry_equipment amount = 1000 target = IEA
+}
+
+send_equipment = { equipment = infantry_equipment amount = 1000 target = IGL
+}
+send_equipment = { equipment = infantry_equipment amount = 1000 target = IOC
+
+
 		}
 	} 	
+	}
 	
 	focus = { #left tree
 		id = encourage_migration 
@@ -161,7 +186,7 @@ focus_tree = {
 		}
 		
 		cost = 5
-		prerequisite = { focus = cover_colonies_cost }
+		prerequisite = { focus = encourage_migration }
 		prerequisite = { focus = give_arms }
 		prerequisite = { focus = reinforce_colonies }
 		
@@ -283,6 +308,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_ideas = civilian_economy
 		}
 	} 	
 	
