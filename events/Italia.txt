@@ -21,7 +21,7 @@ country_event = {
 hidden_effect = { swap_ideas = { remove_idea = smol_victory  add_idea = reborn_pride  }  
             }
 }
-
+}
 
 
 country_event = {
@@ -34,12 +34,9 @@ country_event = {
 
 	option = {
 		name = italystart.2.a
-		
-		country_event = {
-    id = italystart.2
-    hours = 5
-}
-}
+		}
+		}
+
 
 ountry_event = {
 	id = italystart.3
@@ -51,4 +48,6 @@ ountry_event = {
 
 	option = {
 		name = italystart.3.a
+		}
+		}
 		
