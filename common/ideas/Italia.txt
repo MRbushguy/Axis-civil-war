@@ -40,3 +40,46 @@ ideas = {
 
 			}
 		}
+		
+		italy_migration = {
+       picture = 
+
+			
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			
+			modifier = {
+			monthly_population = -5
+			}
+		}
+		
+		civilian_construct = {
+       picture = vittoria_mutilata
+
+			
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			
+			modifier = {
+			production_speed_industrial_complex_factor = 0.3
+			}
+		}
+
+
+smol_victory = {
+       picture = vittoria_mutilata
+
+			
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			
+			modifier = {
+			}
+		}
+
