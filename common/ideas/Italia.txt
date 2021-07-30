@@ -41,6 +41,67 @@ ideas = {
 			}
 		}
 		
+		
+		
+		Modern_roman_army = {
+       picture = vittoria_mutilata
+
+			
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			
+			modifier = {
+			army_attack_factor = 0.1
+			army_defense_factor = 0.1
+			army_speed_factor = 0.05
+			army_morale = 15
+			army_org = 20
+			planning_speed = 0.05
+			max_planning = 20
+			experience_gain_army = -0.2
+			training_time_factor = 0.35
+			
+			}
+		}
+		
+		sea_domination = {
+       picture = vittoria_mutilata
+
+			
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			
+			modifier = {
+			naval_coordination = 0.3
+			naval_detection = 0.12
+			naval_hit_chance = 0.4
+			positioning = 0.3
+			repair_speed_factor = -0.2
+			
+			}
+		}
+		
+		
+		
+		strong_air_force = {
+       picture = vittoria_mutilata
+
+			
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			
+			modifier = {
+			}
+		}
+		
+		
+		
 		italy_migration = {
        picture = 
 
