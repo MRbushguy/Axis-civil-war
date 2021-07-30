@@ -34,16 +34,19 @@ country_event = {
 
 	option = {
 		name = italystart.2.a
-		event = italystart.3
+		country_event = {
+    id = italystart.3
+    hours = 5
+}
 		}
 		}
 
 
-ountry_event = {
+country_event = {
 	id = italystart.3
 	title = italystart.3.t
 	desc = italystart3.d
-	picture = GFX_report_event_ita_poster
+	picture = GFX_report_event_mussolini_rally_sepia
 	
 	is_triggered_only = yes
 
