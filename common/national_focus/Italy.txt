@@ -262,6 +262,10 @@ send_equipment = { equipment = infantry_equipment amount = 1000 target = IOC
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_timed_idea = {
+                      idea = civilian_construct
+                        days = 95
+                         }
 		}
 	} 	
 	
