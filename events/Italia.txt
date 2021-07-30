@@ -34,6 +34,7 @@ country_event = {
 
 	option = {
 		name = italystart.2.a
+		event = italystart.3
 		}
 		}
 
