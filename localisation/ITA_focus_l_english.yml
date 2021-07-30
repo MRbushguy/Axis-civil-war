@@ -24,7 +24,7 @@ l_english:
  homefront_desc:0 ""
  demobalize:0 "Starting to demobalize"
  demobalize_desc:0 "."
- keep_war_promise:0 "Keeping our war promises"
+ keep_war_promise:0 "Encouraging civilian construction"
  keep_war_promise_desc:0 "."
  use_colonies_resources:0 "Use resources from the colonies"
  use_colonies_resources_desc:0 "."
