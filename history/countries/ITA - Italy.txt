@@ -8,9 +8,12 @@ set_war_support = 0.7
 add_ideas = {
 	victor_emmanuel
 	smol_victory  
+	Modern_roman_army 
+	sea_domination 
+	strong_air_force 
 	limited_exports
 	limited_conscription
-	partial_economic_mobilisation
+	war_economy
 }
 
 550 = {
