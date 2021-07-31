@@ -84,3 +84,19 @@ create_country_leader = {
 		socialism = 11
 		democratic_right = 46
 }	
+
+create_corps_commander = {
+	name = "Jean de Lattre de Tassigny"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
+	desc = "FFA_JEAN_DETASSIGNY_ARMY_DESC"
+	traits = {
+		infantry_officer
+		infantry_leader
+		organizer
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
