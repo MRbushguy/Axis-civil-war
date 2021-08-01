@@ -142,13 +142,21 @@ set_technology = {
 	set_variable = {GER_armiansk_strike_failure = 70}
 
 	#Depleted_wehrmacht variables
-	
-
 	set_variable = {GER_depleted_wehrmacht_conscription = -0.025}
 	set_variable = {GER_depleted_wehrmacht_conscription_factor = -0.3}
 	set_variable = {GER_depleted_wehrmacht_army_org = -0.1}
+	set_variable = {GER_depleted_wehrmacht_training_time = -0.2}
 	set_variable = {GER_depleted_wehrmacht_production = -0.1}
 	set_variable = {GER_depleted_wehrmacht_dockyard = -0.1}
+
+
+	#Blitzkreig Dependence variables
+	set_variable = {GER_blitzkreig_dependence_breakthrough = 0.2}
+	set_variable = {GER_blitzkreig_dependence_org = 0.15}
+	set_variable = {GER_blitzkreig_dependence_speed = 0.25}
+	set_variable = {GER_blitzkreig_dependence_fuel = 0.8}
+	set_variable = {GER_blitzkreig_dependence_attrition = 0.25}
+	set_variable = {GER_blitzkreig_dependence_defense = -0.22}
 
 if = {
 	limit = {

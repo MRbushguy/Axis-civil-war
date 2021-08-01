@@ -553,16 +553,9 @@ focus_tree = {
 		relative_position_id =  GER_wehrmacht_conquests
 
 		completion_reward = {
-			GER = {
-
-				add_state_core = 37
-				add_state_core = 99
-			}
-
-			swap_ideas = {
-				remove_idea = GER_depleted_army_0
-				add_idea = GER_depleted_army_1
-			}
+			
+			custom_effect_tooltip = GER_integrate_denmark_tt
+			add_to_variable = {GER_depleted_wehrmacht_conscription_factor = 0.05}
 
 		}
 

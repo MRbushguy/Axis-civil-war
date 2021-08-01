@@ -92,12 +92,23 @@ GER_factionalism_dynamic_modifier = {
 
 GER_depleted_wehrmacht_dynamic_modifier = {
 	
-	enamble = {always = yes}
+	enable = {always = yes}
 
 	conscription = GER_depleted_wehrmacht_conscription
 	conscription_factor = GER_depleted_wehrmacht_conscription_factor
-	army_org_Factor = GER_depleted_wehrmacht_army_org 
+	army_org_Factor = GER_depleted_wehrmacht_army_org
+	training_time_factor = GER_depleted_wehrmacht_training_time
 	industrial_capacity_factory = GER_depleted_wehrmacht_production
 	industrial_capacity_dockyard = GER_depleted_wehrmacht_dockyard
+
+}
+
+GER_blitzkreig_dependence_dynamic_modifier = {
 	
+	breakthrough_factor = GER_blitzkreig_dependence_breakthrough
+	army_org_factor = GER_blitzkreig_dependence_org
+	army_speed_factor = GER_blitzkreig_dependence_speed
+	army_fuel_consumption_factor = GER_blitzkreig_dependence_fuel
+	attrition = GER_blitzkreig_dependence_attrition
+	army_defence_factor = GER_blitzkreig_dependence_defense
 }

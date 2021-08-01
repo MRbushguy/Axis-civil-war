@@ -50,6 +50,21 @@ defined_text = {
 	}
 }
 
+defined_text = {
+	
+	name = gerDepletedWehrmachtTrainingTime
+	text = {
+		trigger = {
+			check_variable = {GER_depleted_wehrmacht_training_time = 0}
+		}
+
+		localization_key = ger_depleted_wehrmacht_empty_tt
+	}
+	text = {
+		localization_key = ger_depleted_wehrmacht_training_time_tt
+	}
+}
+
 
 defined_text = {
 	
@@ -81,6 +96,25 @@ defined_text = {
 			localization_key = ger_depleted_wehrmacht_dockyard_tt
 		}
 }
+
+### blitzkreig dependence
+
+defined_text = {
+	
+	name = gerBlitzkreigDependenceBreakthrough
+	text = {
+		trigger = {
+			check_variable = {GER_blitzkreig_dependence_breakthrough = 0}
+		}
+
+		localization_key = ger_depleted_wehrmacht_empty_tt
+		}
+		text = { 
+			localization_key = gg_blitzkreig_dependence_breakthrough_tt
+		}
+}
+
+
 
 
 ### germany factions stuff ###
