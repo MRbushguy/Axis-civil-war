@@ -141,7 +141,14 @@ set_technology = {
 	set_variable = {GER_armiansk_strike_moderate = 20}
 	set_variable = {GER_armiansk_strike_failure = 70}
 
+	#Depleted_wehrmacht variables
+	
 
+	set_variable = {GER_depleted_wehrmacht_conscription = -0.025}
+	set_variable = {GER_depleted_wehrmacht_conscription_factor = -0.3}
+	set_variable = {GER_depleted_wehrmacht_army_org = -0.1}
+	set_variable = {GER_depleted_wehrmacht_production = -0.1}
+	set_variable = {GER_depleted_wehrmacht_dockyard = -0.1}
 
 if = {
 	limit = {
@@ -1312,6 +1319,10 @@ create_equipment_variant = {
 	add_dynamic_modifier = {
 
 		modifier = GER_factionalism_dynamic_modifier
+	}
+	add_dynamic_modifier = {
+
+		modifier = GER_depleted_wehrmacht_dynamic_modifier
 	}
 
 	

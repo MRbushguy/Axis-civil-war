@@ -5,6 +5,9 @@
  GER_ui_faction_header:0 "Faction"
  GER_ui_influence_header:0 "Influence"
 
+
+ 
+
  GER_INFLUENCE_TOOLTIP:0 "These numbers represent the amount of power each faction currently holds in their respective fields - multiple factions can have complete or nonexistent influence in the governnment. §YExtensive influence by any faction will rersult in a positive effect, while low influence will result in a negative effect.§! \n\n§RWarning: Any faction with more than 75 influence will be a contender in the German succession crisis! §! \n\n §CCurrent Factionalism Impact:§! \n\n[gerNSDAPInfluenceSpirit][gerWehrmachtInfluenceSpirit][gerMilitaristInfluenceSpirit][gerReformInfluenceSpirit][gerWaffenSSInfluenceSpirit][gerSSInfluenceSpirit]"
  GER_low_factionalism_NSDAP_tt:0 "£decision_faction_ger_nsdap_small  Daily Political Power Gain: §R-15% §! \n"
  GER_high_factionalism_NSDAP_tt:0 "£decision_faction_ger_nsdap_small  Daily Political Power Gain: §G+15% §! \n"

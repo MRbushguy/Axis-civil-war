@@ -2,11 +2,88 @@
 
 
 
+
+
+### germany depleted wehrmacht ###
+
+defined_text = {
+	
+	name = gerDepletedWehrmachtConscription
+	text = {
+		trigger = {
+			check_variable = {GER_depleted_wehrmacht_conscription = 0}
+		}
+
+		localization_key = ger_depleted_wehrmacht_empty_tt
+	}
+	text = {
+		localization_key = ger_depleted_wehrmacht_conscription_tt
+	}
+}
+
+defined_text = {
+	
+	name = gerDepletedWehrmachtConscriptionFactor
+	text = {
+		trigger = {
+			check_variable = {GER_depleted_wehrmacht_conscription_factor = 0}
+		}
+
+		localization_key = ger_depleted_wehrmacht_empty_tt
+	}
+	text = {
+		localization_key = ger_depleted_wehrmacht_conscription_factor_tt
+	}
+}
+
+defined_text = {
+	
+	name = gerDepletedWehrmachtArmyOrg
+	text = {
+		trigger = {
+			check_variable = {GER_depleted_wehrmacht_army_org = 0}
+		}
+		localization_key = ger_depleted_wehrmacht_empty_tt
+	}
+	text  = {
+		localization_key = ger_depleted_wehrmacht_army_org_tt
+	}
+}
+
+
+defined_text = {
+	
+	name = gerDepletedWehrmachtProduction
+	text = {
+		trigger = {
+			check_variable = {GER_depleted_wehrmacht_production = 0}
+		}
+
+		localization_key = ger_depleted_wehrmacht_empty_tt
+	}
+
+	text = { 
+		localization_key = ger_depleted_wehrmacht_production_tt
+	}
+}
+
+defined_text = {
+	
+	name = gerDepletedWehrmachtDockyard
+	text = {
+		trigger = {
+			check_variable = {GER_depleted_wehrmacht_dockyard = 0}
+		}
+
+		localization_key = ger_depleted_wehrmacht_empty_tt
+		}
+		text = { 
+			localization_key = ger_depleted_wehrmacht_dockyard_tt
+		}
+}
+
+
 ### germany factions stuff ###
-
-
-
-#faction debuffs
 
 defined_text = {
 	name = gerNSDAPInfluenceSpirit

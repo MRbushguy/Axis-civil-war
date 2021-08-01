@@ -12,8 +12,14 @@
  GER_jewish_science:0 "Deutsche Physik"
  GER_jewish_science_desc:0 "Despite a usual affinity for Germany and new military technology, the racial policies of the Third Reich have forced the academia to declare much advanced science as “Jewish Science.” Atomic research, the Theory of Relativity, the Quantum theory - all have been branded as Judeo-Bolshevik propaganda meant to corrupt the pure aryan mind. Whilst it is a propaganda win and makes us able to exert more control over the general populace, this puts Germany at a major disadvantage in research, especially in the field of theoretical nuclear physics. \n\n§YOnly by removing this spirit will it be possible to invest in nuclear research.§!"
  
- GER_depleted_army_0:0 "Severely Depleted Wehrmacht"
- GER_depleted_army_0_desc:0 "The endless years of war in the hostile lands of eastern Europe, against an enemy with unlimited men and unlimited will, took its toll on the Wehrmacht. Near the end of the war, offensives were undertaken by the increasingly empowered Waffen-SS, and the battered Wehrmacht was left behind. The situation didn’t improve when Germany reached the A-A line and the undeclared truce was created. Fierce power struggles within Nazi leadership resulted in government support for the army being limited, while the private resources of the SS furnished the Waffen-SS with the best. The Wehrmacht was once again left on the sidelines to rot. \n\nDespite years of neglect, the Wehrmacht retains its reputation as the best army in the world, and its commanders and soldiers do their best to live up to that name. But without proper conscription and support, the Wehrmacht will §Rfail to protect Germany against the red menace.§!"
+ GER_depleted_army_0:0 "Severely Depleted Army"
+ GER_depleted_army_0_desc:0 "[gerDepletedWehrmachtConscription][gerDepletedWehrmachtConscriptionFactor][gerDepletedWehrmachtArmyOrg][gerDepletedWehrmachtProduction][gerDepletedWehrmachtDockyard]\n§W--------------§!\n\nThe endless years of war in the hostile lands of eastern Europe, against an enemy with unlimited men and unlimited will, took its toll on the Wehrmacht. Near the end of the war, offensives were undertaken by the increasingly empowered Waffen-SS, and the battered Wehrmacht was left behind. The situation didn’t improve when Germany reached the A-A line and the undeclared truce was created. Fierce power struggles within Nazi leadership resulted in government support for the army being limited, while the private resources of the SS furnished the Waffen-SS with the best. The Wehrmacht was once again left on the sidelines to rot. \n\nDespite years of neglect, the Wehrmacht retains its reputation as the best army in the world, and its commanders and soldiers do their best to live up to that name. But without proper conscription and support, the Wehrmacht will §Rfail to protect Germany against the red menace.§!"
+ ger_depleted_wehrmacht_conscription_tt:0 "§WRecruitable Population: §![?GER_depleted_wehrmacht_conscription|%Y]\n"
+ ger_depleted_wehrmacht_conscription_factor_tt:0 "§WRecruitable Population Factor: §![?GER_depleted_wehrmacht_conscription_factor|%+0]\n"
+ ger_depleted_wehrmacht_army_org_tt:0 "§WDivision Organization: §![?GER_depleted_wehrmacht_army_org|%+1]\n"
+ ger_depleted_wehrmacht_production_tt:0 "§WFactory Output: §![?GER_depleted_wehrmacht_production|%+]\n"
+ ger_depleted_wehrmacht_dockyard_tt:0 "§WDockyard Output: §![?GER_depleted_wehrmacht_dockyard|%+]\n"
+ ger_depleted_wehrmacht_empty_tt:0 ""
 
  GER_depleted_army_1:0 "Depleted Army"
  GER_depleted_army_1_desc:0 "The brutal war against the Soviet Union took its toll on the Reich. Our troops are as effective as ever, but massive manpower shortages have led to problems in both the factories and in the field. We would be at a disadvantage in any future wars."
@@ -55,6 +61,7 @@
  GER_german_depression_1_desc:0 "Truly, the treaty of Versailles has been avenged; Germany has won. We have risen from a nation bathed in shame and disgrace to the greatest power the world has ever seen - the Masters of Europa. After centuries of ill-treatment and subjugation from the jewish-loving Britons and French, the German people withstood the test of time and were unified once and for all in the shape of this magnificent Thousand-Year Reich, which shall go down in history as the greatest empire the world has ever seen. \n\nAnd although the Final War against the subhumans of the east has left misfortune and chaos in our territories, we prosper. No longer are the days of poverty in Weimar, where a loaf of bread would cost an entire salary. The German people enjoy the highest standards of living in any nation, live the happiest lives, and fight for the greatest cause. §RSurely this prosperity will last forever§!."
  
  GER_factionalism_dynamic_modifier:0 "§CGerman Factionalism§!"
+ GER_depleted_wehrmacht_dynamic_modifier:0 "£pol_idea Severely Depleted Army"
 
  GER_wehrmacht_aid:0 "Wehrmacht Aid"
  
