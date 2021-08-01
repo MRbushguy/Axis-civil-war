@@ -201,6 +201,8 @@ focus_tree = {
 			add_to_variable = {GER_refnaz_influence = -10}
 			add_to_variable = {GER_wehrmacht_influence = 10}
 			
+			GER_faction_cleanup = yes
+			
 			if = {
 					limit = {has_idea = GER_refnaz_idea_0}
 					remove_ideas = GER_refnaz_idea_0
@@ -1028,6 +1030,8 @@ focus_tree = {
 				custom_effect_tooltip = GER_refnaz_and_wehrmacht_tt
 				add_to_variable = {GER_refnaz_influence = 10}
 				add_to_variable = {GER_wehrmacht_influence = -10}
+
+				GER_faction_cleanup = yes
 			
 				if = {
 					limit = {has_idea = GER_wehrmacht_idea_0}

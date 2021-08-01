@@ -93,6 +93,19 @@ GER_subjugate_pakt = {
 	}
 }
 
+GER_administrative_decisions = {
+	priority = 2
+	
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+		original_tag = GER
+	}
+}
+	
+
 GER_resistance_decisions_italy = {
 	priority = 1
 	icon = spr_civil_war_offensives
