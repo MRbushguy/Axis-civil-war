@@ -201,6 +201,8 @@ focus_tree = {
 			add_to_variable = {GER_refnaz_influence = -10}
 			add_to_variable = {GER_wehrmacht_influence = 10}
 			
+			GER_faction_cleanup = yes
+			
 			if = {
 					limit = {has_idea = GER_refnaz_idea_0}
 					remove_ideas = GER_refnaz_idea_0
@@ -551,16 +553,9 @@ focus_tree = {
 		relative_position_id =  GER_wehrmacht_conquests
 
 		completion_reward = {
-			GER = {
-
-				add_state_core = 37
-				add_state_core = 99
-			}
-
-			swap_ideas = {
-				remove_idea = GER_depleted_army_0
-				add_idea = GER_depleted_army_1
-			}
+			
+			custom_effect_tooltip = GER_integrate_denmark_tt
+			add_to_variable = {GER_depleted_wehrmacht_conscription_factor = 0.05}
 
 		}
 
@@ -588,42 +583,16 @@ focus_tree = {
 		relative_position_id = GER_integrate_denmark
 
 		completion_reward = {
-			
-			if = {
-				limit = {
-						has_idea = GER_wehrmacht_idea_6
-				}
-					swap_ideas = {
-						remove_idea = GER_wehrmacht_idea_6
-						add_idea = GER_wehrmacht_idea_2
-					}
-			}
-			else_if = {
-				limit = {
-						has_idea = GER_wehrmacht_idea_5
-				}
-					swap_ideas = {
-						remove_idea = GER_wehrmacht_idea_5
-						add_idea = GER_wehrmacht_idea_1
-					}
-			}
+			add_to_variable = {GER_wehrmacht_influence = 5}
 
-			else_if = {
-				limit = {
-						has_idea = GER_wehrmacht_idea_4
-				}
-					swap_ideas = {
-						remove_idea = GER_wehrmacht_idea_4
-						add_idea = GER_wehrmacht_idea_3
-					}
-			}
-		
-			else = {
-
-				add_ideas = GER_wehrmacht_idea_0
-			}
+			add_to_variable = {GER_depleted_wehrmacht_conscription = 0.005}
+			add_to_variable = {GER_depleted_wehrmacht_production = 0.02}
+			add_to_variable = {GER_depleted_wehrmacht_dockyard = 0.02}
+			custom_effect_tooltip = GER_wehrmacht_recruitment_tt
 
 		}
+			
+			
 
 
 
@@ -1028,6 +997,8 @@ focus_tree = {
 				custom_effect_tooltip = GER_refnaz_and_wehrmacht_tt
 				add_to_variable = {GER_refnaz_influence = 10}
 				add_to_variable = {GER_wehrmacht_influence = -10}
+
+				GER_faction_cleanup = yes
 			
 				if = {
 					limit = {has_idea = GER_wehrmacht_idea_0}
