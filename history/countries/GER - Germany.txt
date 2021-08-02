@@ -1332,6 +1332,10 @@ create_equipment_variant = {
 
 		modifier = GER_depleted_wehrmacht_dynamic_modifier
 	}
+	add_dynamic_modifier = {
+
+		modifier = GER_blitzkreig_dependence_dynamic_modifier
+	}
 
 	
 	

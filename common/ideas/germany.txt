@@ -396,12 +396,7 @@ ideas = {
 			}
 
 			modifier = {
-				breakthrough_factor = 0.20
-				army_org_factor = 0.15
-				army_speed_factor = 0.25
-				army_fuel_consumption_factor = 0.8
-				attrition = 0.25
-				army_defence_factor = -0.22
+				#dummy
 
 			}
 		}
