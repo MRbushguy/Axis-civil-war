@@ -388,7 +388,7 @@ ideas = {
 			}
 		}
 		
-		GER_blitzkreig_dependence = {
+		GER_blitzkrieg_dependence = {
             picture = blitz_dep
 
 			allowed = {

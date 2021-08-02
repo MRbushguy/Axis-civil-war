@@ -103,12 +103,12 @@ GER_depleted_wehrmacht_dynamic_modifier = {
 
 }
 
-GER_blitzkreig_dependence_dynamic_modifier = {
+GER_blitzkrieg_dependence_dynamic_modifier = {
 	
-	breakthrough_factor = GER_blitzkreig_dependence_breakthrough
-	army_org_factor = GER_blitzkreig_dependence_org
-	army_speed_factor = GER_blitzkreig_dependence_speed
-	army_fuel_consumption_factor = GER_blitzkreig_dependence_fuel
-	attrition = GER_blitzkreig_dependence_attrition
-	army_defence_factor = GER_blitzkreig_dependence_defense
+	breakthrough_factor = GER_blitzkrieg_dependence_breakthrough
+	army_org_factor = GER_blitzkrieg_dependence_org
+	army_speed_factor = GER_blitzkrieg_dependence_speed
+	army_fuel_consumption_factor = GER_blitzkrieg_dependence_fuel
+	attrition = GER_blitzkrieg_dependence_attrition
+	army_defence_factor = GER_blitzkrieg_dependence_defense
 }

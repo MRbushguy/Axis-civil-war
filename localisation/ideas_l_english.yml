@@ -44,14 +44,14 @@
  GER_plunder_economy_5:0 "Ruined Plunder Economy"
  GER_plunder_economy_5_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become neglected and underdeveloped, which could pose a serious problem in the future."
  
- GER_blitzkreig_dependence:0 "Blitzkreig Dependence"
- GER_blitzkreig_dependence_desc:0 "[gerBlitzkreigDependenceBreakthrough][gerBlitzkreigDependenceOrg][gerBlitzkreigDependenceSpeed][gerBlitzkreigDependenceFuel][gerBlitzkreigDependenceAttrition][gerBlitzkreigDependenceDefense]\n§W--------------§!\n\nThe Wehrmacht’s strategies were once viewed as the pinnacle of military tactics and excellence, with the Blitzkrieg’s complete annihilation of western defenses in a matter of months. But though the tactic seemed effective in the opening stages of Operation Barbarossa, as the soviet defenders held firm, the weaknesses of the German army became apparent. It was sheer blood and determination that carved through the Soviet War Machine, not tactical brilliance, and German generals and planners are very aware of that. In fact, a number of top generals argue that without Italian and Japanese intervention, Berlin would be in enemy hands. \n\nDespite their warnings, bureaucratic inefficiency and a hardening high command have forestalled any change in tactics or strategy, and new German generals are trained with the same textbooks as before the war. We must stop relying solely on the Lightning War and start to reform, or face the consequences of not adapting to a new era of warfare..."
- ger_blitzkreig_dependence_breakthrough_tt:0 "§WBreakthrough: §![?GER_blitzkreig_dependence_breakthrough|%+=]\n"
- ger_blitzkreig_dependence_org_tt:0 "§WDivision Organization: §![?GER_blitzkreig_dependence_org|%+1=]\n"
- ger_blitzkreig_dependence_speed_tt:0 "§WDvision Speed: §![?GER_blitzkreig_dependence_speed|%+=]\n"
- ger_blitzkreig_dependence_fuel_tt:0 "§WArmy Fuel Consumption: §![?GER_blitzkreig_dependence_fuel|%-=]\n"
- ger_blitzkreig_dependence_attrition_tt:0 "§WDivision Attrition: §![?GER_blitzkreig_dependence_attrition|%-1=]\n"
- ger_blitzkreig_dependence_defense_tt:0 "§WDivision Defense: §![?GER_blitzkreig_dependence_defense|%+1=]\n"  
+ GER_blitzkrieg_dependence:0 "Blitzkrieg Dependence"
+ GER_blitzkrieg_dependence_desc:0 "[gerBlitzkriegDependenceBreakthrough][gerBlitzkriegDependenceOrg][gerBlitzkriegDependenceSpeed][gerBlitzkriegDependenceFuel][gerBlitzkriegDependenceAttrition][gerBlitzkriegDependenceDefense]\n§W--------------§!\n\nThe Wehrmacht’s strategies were once viewed as the pinnacle of military tactics and excellence, with the Blitzkrieg’s complete annihilation of western defenses in a matter of months. But though the tactic seemed effective in the opening stages of Operation Barbarossa, as the soviet defenders held firm, the weaknesses of the German army became apparent. It was sheer blood and determination that carved through the Soviet War Machine, not tactical brilliance, and German generals and planners are very aware of that. In fact, a number of top generals argue that without Italian and Japanese intervention, Berlin would be in enemy hands. \n\nDespite their warnings, bureaucratic inefficiency and a hardening high command have forestalled any change in tactics or strategy, and new German generals are trained with the same textbooks as before the war. We must stop relying solely on the Lightning War and start to reform, or face the consequences of not adapting to a new era of warfare..."
+ ger_blitzkrieg_dependence_breakthrough_tt:0 "§WBreakthrough: §![?GER_blitzkrieg_dependence_breakthrough|%+=]\n"
+ ger_blitzkrieg_dependence_org_tt:0 "§WDivision Organization: §![?GER_blitzkrieg_dependence_org|%+1=]\n"
+ ger_blitzkrieg_dependence_speed_tt:0 "§WDvision Speed: §![?GER_blitzkrieg_dependence_speed|%+=]\n"
+ ger_blitzkrieg_dependence_fuel_tt:0 "§WArmy Fuel Consumption: §![?GER_blitzkrieg_dependence_fuel|%-=]\n"
+ ger_blitzkrieg_dependence_attrition_tt:0 "§WDivision Attrition: §![?GER_blitzkrieg_dependence_attrition|%-1=]\n"
+ ger_blitzkrieg_dependence_defense_tt:0 "§WDivision Defense: §![?GER_blitzkrieg_dependence_defense|%+1=]\n"  
 
 
  GER_german_depression_5:0 "German Defeat"
@@ -70,7 +70,7 @@
  GER_german_depression_1_desc:0 "Truly, the treaty of Versailles has been avenged; Germany has won. We have risen from a nation bathed in shame and disgrace to the greatest power the world has ever seen - the Masters of Europa. After centuries of ill-treatment and subjugation from the jewish-loving Britons and French, the German people withstood the test of time and were unified once and for all in the shape of this magnificent Thousand-Year Reich, which shall go down in history as the greatest empire the world has ever seen. \n\nAnd although the Final War against the subhumans of the east has left misfortune and chaos in our territories, we prosper. No longer are the days of poverty in Weimar, where a loaf of bread would cost an entire salary. The German people enjoy the highest standards of living in any nation, live the happiest lives, and fight for the greatest cause. §RSurely this prosperity will last forever§!."
  
  GER_factionalism_dynamic_modifier:0 "§CGerman Factionalism§!"
- GER_blitzkreig_dependence_dynamic_modifier:0 "£pol_idea Blitzkreig Dependence"
+ GER_blitzkrieg_dependence_dynamic_modifier:0 "£pol_idea blitzkrieg Dependence"
  GER_depleted_wehrmacht_dynamic_modifier:0 "£pol_idea Severely Depleted Army"
 
  GER_wehrmacht_aid:0 "Wehrmacht Aid"
