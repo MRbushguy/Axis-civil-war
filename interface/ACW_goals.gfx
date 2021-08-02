@@ -231,7 +231,7 @@ spriteTypes = {
 	}
 		SpriteType = {
 		name = "GFX_goal_GER_for_stability"
-		texturefile = "gfx/interface/goals/GER_for_stability.dds"
+		texturefile = "gfx/interface/goals/GER_for_the_future.dds"
 	}				
 
 		#icon

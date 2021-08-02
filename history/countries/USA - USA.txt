@@ -264,21 +264,20 @@ set_autonomy = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
-		last_election = "1936.11.3"
+		ruling_party = democratic_right
+		last_election = "1944.11.3"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 }
 
 create_country_leader = {
-	name = "Franklin Delano Roosevelt"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	name = "Earl Warren"
+	desc = "POLITICS_EARL_WARREN_DESC"
+	picture = "Portrait_USA_Earl_Warren.dds"
 	expire = "1947.1.1"
-	ideology = liberalism
+	ideology = social_conservatism
 	traits = {
-		dislikes_germany
 	}
 }
 
@@ -296,9 +295,31 @@ create_country_leader = {
 create_country_leader = {
 	name = "Earl Browder"
 	desc = "POLITICS_EARL_BROWDER_DESC"
-	picture = "portrait_USA_earl_browder.dds"
+	picture = "Portrait_USA_Earl_Browder.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = stalinism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Henry Wallace"
+	desc = "POLITICS_HENRY_WALLACE_DESC"
+	picture = "Portrait_USA_Henry_Wallace.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Dick B. Russell Jr."
+	desc = "POLITICS_DICK_RUSSELL_DESC"
+	picture = "Portrait_USA_Dick_Russell.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democracy
 	traits = {
 		
 	}

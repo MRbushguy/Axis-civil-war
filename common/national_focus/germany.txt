@@ -427,7 +427,7 @@ focus_tree = {
 
 		completion_reward = {
 			#complete before a certain date to ensure military tree
-			#is wehrmacht's rallying cry
+			#is wehrmachts rallying cry
 
 		}
 
@@ -438,7 +438,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_for_the_future
-		#icon
+		icon = GFX_goal_GER_for_stability
 
 		prerequisite = {
 			focus = GER_people_on_our_side
@@ -1718,7 +1718,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_for_stability
-		icon = GFX_goal_GER_for_stability
+		#icon = 
 
 		prerequisite = {
 			focus = GER_the_plot

@@ -84,15 +84,14 @@
  stalinism:0 "Stalinism"
  stalinism_desc:0 "Identifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong, authorative socialist state to purge any counter-revolutionary elements."
  
+ collapsed_communism:0 "Collapsed Communism"
+ collapsed_communism_noun:0 "Collapsed Communism"
+ collapsed_communism_desc:0 "A country with §RCollapsed communism§! represents a country which had some variety of communism as the dominant or only ideolegy of the government, but after a major internal or external crisis, the belif of the citizens and politicians of that country in communism has been greatly reduced. \n\nWhile it is not a complete anarchy and breakdown of society, there is a great amount of chaos and lack of control. There is also a renewed Question of ideological identity amongs the common people and the government, and this culminates in renewed intrest in other ideolegies from all political spectrums. which also creates ideological clashes amongst the people and politicians"
  #Democratic Leftists
  democratic_left:0 "Social Democract"
  democratic_left_noun:0 "Social Democracy"
  democratic_left_desc:0 "Social Democratic regime"
 
- collapsed_communism:0 "Collapsed Communism"
- collapsed_communism_noun:0 "Collapsed Communism"
- collapsed_communism_desc:0 "A country with §RCollapsed communism§! represents a country which had some variety of communism as the dominant or only ideolegy of the government, but after a major internal or external crisis, the belif of the citizens and politicians of that country in communism has been greatly reduced. \n\nWhile it is not a complete anarchy and breakdown of society, there is a great amount of chaos and lack of control. There is also a renewed Question of ideological identity amongs the common people and the government, and this culminates in renewed intrest in other ideolegies from all political spectrums. which also creates ideological clashes amongst the people and politicians"
- 
  liberalism:0 "Liberalism"
  liberalism_desc:0 "F for cummunism"
  
@@ -116,7 +115,6 @@
  social_conservatism:0 "Social conservatism"
  social_conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
  
- 
  #authoritarian
  authoritarianism:0 "Authoritarian"
  authoritarianism_noun:0 "Authoritarian"
@@ -124,7 +122,9 @@
  authoritarianism_adj:0 "Authoritarian Regime"
  despotism:0 "Despotic"
  despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
- 
+ authoritarian_democracy:0 "Authoritarian Democracy"
+ authoritarian_democracy_desc:0 ""
+
  oligarchism:0 "Oligarchcy"
  oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power."
  oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power."
