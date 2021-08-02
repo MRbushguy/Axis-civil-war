@@ -17,7 +17,7 @@
  ger_depleted_wehrmacht_conscription_tt:0 "§WRecruitable Population: §![?GER_depleted_wehrmacht_conscription|%Y=]\n"
  ger_depleted_wehrmacht_conscription_factor_tt:0 "§WRecruitable Population Factor: §![?GER_depleted_wehrmacht_conscription_factor|%+0=]\n"
  ger_depleted_wehrmacht_army_org_tt:0 "§WDivision Organization: §![?GER_depleted_wehrmacht_army_org|%+1=]\n"
- ger_depleted_wehrmacht_training_time_tt:0 "§WTraining Time: §![?GER_depleted_wehrmacht_training_time|%+=]\n"
+ ger_depleted_wehrmacht_training_time_tt:0 "§WTraining Time: §![?GER_depleted_wehrmacht_training_time|%-=]\n"
  ger_depleted_wehrmacht_production_tt:0 "§WFactory Output: §![?GER_depleted_wehrmacht_production|%+=]\n"
  ger_depleted_wehrmacht_dockyard_tt:0 "§WDockyard Output: §![?GER_depleted_wehrmacht_dockyard|%+=]\n"
  ger_depleted_wehrmacht_empty_tt:0 ""
@@ -45,13 +45,14 @@
  GER_plunder_economy_5_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become neglected and underdeveloped, which could pose a serious problem in the future."
  
  GER_blitzkrieg_dependence:0 "Blitzkrieg Dependence"
- GER_blitzkrieg_dependence_desc:0 "[gerBlitzkriegDependenceBreakthrough][gerBlitzkriegDependenceOrg][gerBlitzkriegDependenceSpeed][gerBlitzkriegDependenceFuel][gerBlitzkriegDependenceAttrition][gerBlitzkriegDependenceDefense]\n§W--------------§!\n\nThe Wehrmacht’s strategies were once viewed as the pinnacle of military tactics and excellence, with the Blitzkrieg’s complete annihilation of western defenses in a matter of months. But though the tactic seemed effective in the opening stages of Operation Barbarossa, as the soviet defenders held firm, the weaknesses of the German army became apparent. It was sheer blood and determination that carved through the Soviet War Machine, not tactical brilliance, and German generals and planners are very aware of that. In fact, a number of top generals argue that without Italian and Japanese intervention, Berlin would be in enemy hands. \n\nDespite their warnings, bureaucratic inefficiency and a hardening high command have forestalled any change in tactics or strategy, and new German generals are trained with the same textbooks as before the war. We must stop relying solely on the Lightning War and start to reform, or face the consequences of not adapting to a new era of warfare..."
+ GER_blitzkrieg_dependence_desc:0 "[gerBlitzkriegDependenceBreakthrough][gerBlitzkriegDependenceOrg][gerBlitzkriegDependenceSpeed][gerBlitzkriegDependenceFuel][gerBlitzkriegDependenceAttrition][gerBlitzkriegDependenceDefense][gerBlitzkriegDependenceExperience]\n§W--------------§!\n\nThe Wehrmacht’s strategies were once viewed as the pinnacle of military tactics and excellence, with the Blitzkrieg’s complete annihilation of western defenses in a matter of months. But though the tactic seemed effective in the opening stages of Operation Barbarossa, as the soviet defenders held firm, the weaknesses of the German army became apparent. It was sheer blood and determination that carved through the Soviet War Machine, not tactical brilliance, and German generals and planners are very aware of that. In fact, a number of top generals argue that without Italian and Japanese intervention, Berlin would be in enemy hands. \n\nDespite their warnings, bureaucratic inefficiency and a hardening high command have forestalled any change in tactics or strategy, and new German generals are trained with the same textbooks as before the war. We must stop relying solely on the Lightning War and start to reform, or face the consequences of not adapting to a new era of warfare..."
  ger_blitzkrieg_dependence_breakthrough_tt:0 "§WBreakthrough: §![?GER_blitzkrieg_dependence_breakthrough|%+=]\n"
  ger_blitzkrieg_dependence_org_tt:0 "§WDivision Organization: §![?GER_blitzkrieg_dependence_org|%+1=]\n"
  ger_blitzkrieg_dependence_speed_tt:0 "§WDvision Speed: §![?GER_blitzkrieg_dependence_speed|%+=]\n"
  ger_blitzkrieg_dependence_fuel_tt:0 "§WArmy Fuel Consumption: §![?GER_blitzkrieg_dependence_fuel|%-=]\n"
  ger_blitzkrieg_dependence_attrition_tt:0 "§WDivision Attrition: §![?GER_blitzkrieg_dependence_attrition|%-1=]\n"
- ger_blitzkrieg_dependence_defense_tt:0 "§WDivision Defense: §![?GER_blitzkrieg_dependence_defense|%+1=]\n"  
+ ger_blitzkrieg_dependence_defense_tt:0 "§WDivision Defense: §![?GER_blitzkrieg_dependence_defense|%+1=]\n"
+ ger_blitzkrieg_dependence_experience_tt:0 "§WExperienced Soldier Losses: §![?GER_blitzkrieg_dependence_experience|%-1=]\n"    
 
 
  GER_german_depression_5:0 "German Defeat"

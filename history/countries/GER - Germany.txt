@@ -145,7 +145,7 @@ set_technology = {
 	set_variable = {GER_depleted_wehrmacht_conscription = -0.025}
 	set_variable = {GER_depleted_wehrmacht_conscription_factor = -0.3}
 	set_variable = {GER_depleted_wehrmacht_army_org = -0.1}
-	set_variable = {GER_depleted_wehrmacht_training_time = -0.2}
+	set_variable = {GER_depleted_wehrmacht_training_time = 0.2}
 	set_variable = {GER_depleted_wehrmacht_production = -0.1}
 	set_variable = {GER_depleted_wehrmacht_dockyard = -0.1}
 
@@ -157,6 +157,7 @@ set_technology = {
 	set_variable = {GER_blitzkrieg_dependence_fuel = 0.8}
 	set_variable = {GER_blitzkrieg_dependence_attrition = 0.25}
 	set_variable = {GER_blitzkrieg_dependence_defense = -0.22}
+	set_variable = {GER_blitzkrieg_dependence_experience = 0.35}
 
 if = {
 	limit = {

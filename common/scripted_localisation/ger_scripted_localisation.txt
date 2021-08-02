@@ -189,6 +189,21 @@ defined_text = {
 		}
 }
 
+defined_text = {
+	
+	name = gerBlitzkriegDependenceExperience
+	text = {
+		trigger = {
+			check_variable = {GER_blitzkrieg_dependence_experience = 0}
+		}
+
+		localization_key = ger_depleted_wehrmacht_empty_tt
+		}
+		text = { 
+			localization_key = ger_blitzkrieg_dependence_experience_tt
+		}
+}
+
 
 ### germany factions stuff ###
 

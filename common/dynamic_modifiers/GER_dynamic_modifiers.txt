@@ -111,4 +111,5 @@ GER_blitzkrieg_dependence_dynamic_modifier = {
 	army_fuel_consumption_factor = GER_blitzkrieg_dependence_fuel
 	attrition = GER_blitzkrieg_dependence_attrition
 	army_defence_factor = GER_blitzkrieg_dependence_defense
+	experience_loss_factor = GER_blitzkrieg_dependence_experience
 }
