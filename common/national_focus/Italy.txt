@@ -39,6 +39,7 @@ focus_tree = {
 }
 	focus = {
 		id = adapt_new_era
+		icon = GFX_focus_new_age
 
 		x = 23
 		y = 3
