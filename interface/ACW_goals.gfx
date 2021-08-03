@@ -279,5 +279,10 @@ SpriteType = {
 		name = "GFX_focus_Avanti_Italia"
 		texturefile = "gfx/interface/goals/Avanti_Italia.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_new_age"
+		texturefile = "gfx/interface/goals/new_age.dds"
+	}
 
 
