@@ -117,7 +117,21 @@ ideas = {
 
 			
 			modifier = {
-			monthly_population = -5
+			monthly_population = -0.08
+			}
+		}
+		
+		italy_colonies_migration = {
+       picture = 
+
+			
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			
+			modifier = {
+			monthly_population = 0.03
 			}
 		}
 		
