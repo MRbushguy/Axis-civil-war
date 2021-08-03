@@ -489,126 +489,7 @@ ideas = {
 
 		##will be overlaps, preparing for different order of focuses
 
-		GER_wehrmacht_idea_0 = { ### took wehrmacht_recruitment first
-			#picture = 
-
-			allowed = {
-				original_tag = GER
-			}
-
-			modifier = {
-
-				conscription = 0.005
-			}
-
-
-
-		}
-
-		GER_wehrmacht_idea_1 = { ### took wehrmacht_recruitment after training
-			#picture = 
-
-			allowed = {
-				original_tag = GER
-			}
-
-			modifier = {
-
-				conscription = 0.005
-				training_time_factor = -0.1
-				minimum_training_level = -0.1 
-				experience_loss_factor = -0.1
-			}
-
-
-
-		}
-
-		GER_wehrmacht_idea_2 = { ### took wehrmacht_recruitment after purging
-			#picture = 
-
-			allowed = {
-				original_tag = GER
-			}
-
-			modifier = {
-
-				conscription = 0.005
-				army_leader_cost_factor = -0.5
-				army_leader_start_logistics_level = 4
-				army_leader_start_planning_level = 4
-			}
-
-
-
-		}
-
-		GER_wehrmacht_idea_3 = { ### took wehrmacht_recruitment last
-			#picture = 
-
-			allowed = {
-				original_tag = GER
-			}
-
-			modifier = {
-
-				conscription = 0.005
-				training_time_factor = -0.1
-				minimum_training_level = -0.1 
-				experience_loss_factor = -0.1
-				army_leader_cost_factor = -0.5
-				army_leader_start_logistics_level = 4
-				army_leader_start_planning_level = 4
-			}
-
-
-
-		}
-
-		GER_wehrmacht_idea_4 = { ### took both training_facilities and purge_command
-			#picture = 
-
-			allowed = {
-				original_tag = GER
-			}
-
-			modifier = {
-
-				
-				army_leader_cost_factor = -0.5
-				army_leader_start_logistics_level = 4
-				army_leader_start_planning_level = 4
-				training_time_factor = -0.1
-				minimum_training_level = -0.1 
-				experience_loss_factor = -0.1
-			}
-
-
-
-		}
-
-		
-
-		GER_wehrmacht_idea_5 = { ### took training_facilities first
-			#picture = 
-
-			allowed = {
-				original_tag = GER
-			}
-
-			modifier = {
-				training_time_factor = -0.1
-				minimum_training_level = -0.1 
-				experience_loss_factor = -0.1
-			}
-
-
-
-		}
-
-
-
-		
+	
 
 		GER_command_purged = {
 			#picture
@@ -629,7 +510,12 @@ ideas = {
 
 		}
 
-		GER_wehrmacht_idea_6 = { ### purge_comnmand first
+	
+
+
+
+
+		GER_wehrmacht_idea_0 = { ### prepare_urban
 			#picture = 
 
 			allowed = {
@@ -638,57 +524,67 @@ ideas = {
 
 			modifier = {
 
-				army_leader_cost_factor = -0.5
-				army_leader_start_logistics_level = 4
-				army_leader_start_planning_level = 4
-				
-			}
-
-
-
-		}
-
-		GER_wehrmacht_idea_7 = { ### purge_comnmand first
-			#picture = 
-
-			allowed = {
-				original_tag = GER
-			}
-
-			modifier = {
-
-				conscription = 0.005
-				army_leader_cost_factor = -0.5
-				army_leader_start_logistics_level = 4
-				army_leader_start_planning_level = 4
-				
-			}
-
-
-
-		}
-
-
-
-		GER_wehrmacht_idea_8 = { ### prepare_urban
-			#picture = 
-
-			allowed = {
-				original_tag = GER
-			}
-
-			modifier = {
-
-				conscription = 0.005
-				army_leader_cost_factor = -0.5
-				army_leader_start_logistics_level = 4
-				army_leader_start_planning_level = 4
-				training_time_factor = -0.1
-				minimum_training_level = -0.1 
-				experience_loss_factor = -0.1
 				max_dig_in  = 10
 				pocket_penalty = -0.2
-				breakthrough_factor = 0.1
+				army_attack_factor = -0.05
+			}
+
+
+
+		}
+
+		GER_wehrmacht_idea_1 = { ### prepare_urban
+			#picture = 
+
+			allowed = {
+				original_tag = GER
+			}
+
+			modifier = {
+
+				max_dig_in  = 10
+				pocket_penalty = -0.2
+				army_attack_factor = -0.05
+				disable_strategic_redeployment = 1
+			}
+
+
+
+		}
+
+		GER_wehrmacht_idea_2 = { ### prepare_urban
+			#picture = 
+
+			allowed = {
+				original_tag = GER
+			}
+
+			modifier = {
+
+				max_dig_in  = 10
+				pocket_penalty = -0.2
+				army_attack_factor = -0.05
+				air_accidents_factor = 1
+			}
+
+
+
+		}
+
+		GER_wehrmacht_idea_3 = { ### prepare_urban
+			#picture = 
+
+			allowed = {
+				original_tag = GER
+			}
+
+			modifier = {
+
+				max_dig_in  = 10
+				pocket_penalty = -0.2
+				army_attack_factor = -0.05
+				disable_strategic_redeployment = 1
+				air_accidents_factor = 1
 			}
 
 

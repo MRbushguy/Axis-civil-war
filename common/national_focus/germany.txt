@@ -241,7 +241,7 @@ focus_tree = {
 
 		completion_reward = {
 
-			add_ideas = GER_command_purged
+			add_timed_idea = {idea = GER_command_purged days = 140}
 
 			add_to_variable = {GER_ss_influence = -5}
 			add_to_variable = {GER_waffen_ss_influence = -5}
@@ -289,10 +289,8 @@ focus_tree = {
 		relative_position_id =  GER_use_favors
 
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = GER_wehrmacht_idea_3
-				add_idea = GER_wehrmacht_idea_8
-			}
+			
+			add_ideas = GER_wehrmacht_idea_0
 
 		}
 
@@ -321,6 +319,15 @@ focus_tree = {
 			#bring troops to the home front, will cause revolts in conquered territories
 			#however without completing this the revolution will not be successful
 
+			UKR = {
+				increase_resistance = yes
+			}
+			BLR = {
+				increase_resistance = yes
+			}
+
+
+
 		}
 
 
@@ -344,8 +351,21 @@ focus_tree = {
 		relative_position_id =  GER_prepare_for_urban_combat
 
 		completion_reward = {
-			#will cause rail delays, hurting construction speed and whatnot + ups chance of discovery? work on this
-			#but is good for success
+			if = {
+				limit = {has_idea = GER_wehrmacht_idea_2}
+				swap_ideas = {
+					remove_idea = GER_wehrmacht_idea_2
+					add_idea = GER_wehrmacht_idea_3
+				}
+
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = GER_wehrmacht_idea_0
+					add_idea = GER_wehrmacht_idea_1
+				}
+			}
+			
 
 		}
 
@@ -370,7 +390,21 @@ focus_tree = {
 		relative_position_id =  GER_prepare_for_urban_combat
 
 		completion_reward = {
-			#airforce loyalty is questionable, ground the airplanes with fuel shsortages
+			if = {
+				limit = {has_idea = GER_wehrmacht_idea_1}
+				swap_ideas = {
+					remove_idea = GER_wehrmacht_idea_1
+					add_idea = GER_wehrmacht_idea_3
+				}
+
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = GER_wehrmacht_idea_0
+					add_idea = GER_wehrmacht_idea_2
+				}
+			}
+			
 
 		}
 
