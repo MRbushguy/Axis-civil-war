@@ -2083,7 +2083,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_address_the_military
-		#icon = 
+		icon = GFX_goal_GER_adress_army
 
 		prerequisite = {
 			focus = GER_nazi_annual_congress

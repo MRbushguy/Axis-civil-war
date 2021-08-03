@@ -4,6 +4,10 @@ spriteTypes = {
 		name = "GFX_goal_GER_strengthen_ordenstaat"
 		texturefile = "gfx/interface/goals/GER_strengthen_ordenstaat.dds"
 	}
+    SpriteType = {
+		name = "GFX_goal_GER_adress_army"
+		texturefile = "gfx/interface/goals/GER_adress_army.dds"
+	}
 	SpriteType = {
 		name = "GFX_goal_GER_strengthen_france"
 		texturefile = "gfx/interface/goals/GER_strengthen_france.dds"
