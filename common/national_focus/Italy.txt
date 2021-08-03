@@ -506,6 +506,8 @@ send_equipment = { equipment = infantry_equipment amount = 1000 target = IOC
 		available_if_capitulated = no
 
 		completion_reward = {
+		add_stability = -0.05
+		add_political_power = 25
 		}
 	} 	
 	
