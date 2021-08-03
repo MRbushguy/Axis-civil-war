@@ -150,7 +150,7 @@ ideas = {
 		}
 
 
-smol_victory = {
+peace_beauro = {
        picture = vittoria_mutilata
 
 			
