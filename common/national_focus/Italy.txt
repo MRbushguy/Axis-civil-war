@@ -171,8 +171,13 @@ send_equipment = { equipment = infantry_equipment amount = 1000 target = IOC
 		available_if_capitulated = no
 
 		completion_reward = {
-		italy_migration
-		IEA = { italy_migration }
+		add_ideas = italy_migration
+		IEA = { add_ideas = italy_colonies_migration }
+		ICA = { add_ideas = italy_colonies_migration }
+		IME = { add_ideas = italy_colonies_migration }
+		IGL = { add_ideas = italy_colonies_migration }
+		IOC = { add_ideas = italy_colonies_migration }
+		
 		}
 	} 	
 	
