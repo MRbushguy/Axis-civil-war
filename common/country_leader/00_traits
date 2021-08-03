@@ -33,6 +33,16 @@ leader_traits = {
 		}
 	}
 
+duce_ceaser = {
+		random = no
+		 fascism_acceptance = 100
+		drift_defence_factor = 1.0
+		fascism_drift = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 	uncontested_synthetics_monopoly = {
 
