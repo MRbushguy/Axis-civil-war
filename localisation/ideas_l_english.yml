@@ -54,6 +54,8 @@
  ger_blitzkrieg_dependence_defense_tt:0 "§WDivision Defense: §![?GER_blitzkrieg_dependence_defense|%+1=]\n"
  ger_blitzkrieg_dependence_experience_tt:0 "§WExperienced Soldier Losses: §![?GER_blitzkrieg_dependence_experience|%-1=]\n"    
 
+ GER_command_purged:0 "Purged High Command"
+ GER_command_purged_desc:0 "A distrust of high ranking officers in the German high command has resulted in the sacking and forced resignations of an unprecedented number of skilled officers. The sudden lack of their planning and military expertise will be keenly felt for some time."
 
  GER_german_depression_5:0 "German Defeat"
  GER_german_depression_5_desc:0 "The disintegration of the German State burns heavy in the minds of the people."

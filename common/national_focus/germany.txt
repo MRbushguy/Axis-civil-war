@@ -172,7 +172,18 @@ focus_tree = {
 		relative_position_id = GER_wehrmacht_involvement
 
 		completion_reward = {
-			
+
+			add_to_variable = {GER_wehrmacht_influence = -5}
+			add_to_variable = {GER_NSDAP_influence = 5}
+			add_to_variable = {GER_militarist_influence = 5}
+
+			add_to_variable = {GER_depleted_wehrmacht_conscription_factor = 0.10}
+			add_to_variable = {GER_depleted_wehrmacht_army_org = 0.05}
+			add_to_variable = {GER_depleted_wehrmacht_production = 0.02}
+			add_to_variable = {GER_depleted_wehrmacht_dockyard = 0.02}
+
+
+
 			custom_effect_tooltip = GER_use_favors_completion_tt
 
 		}
@@ -232,39 +243,15 @@ focus_tree = {
 
 			add_ideas = GER_command_purged
 
-			if = {
-				limit = {
-						has_idea = GER_wehrmacht_idea_0
-				}
-					swap_ideas = {
-						remove_idea = GER_wehrmacht_idea_0
-						add_idea = GER_wehrmacht_idea_2
-					}
-			}
-			else_if = {
-				limit = {
-						has_idea = GER_wehrmacht_idea_5
-				}
-					swap_ideas = {
-						remove_idea = GER_wehrmacht_idea_5
-						add_idea = GER_wehrmacht_idea_4
-					}
-			}
-			else_if = {
-				limit = {
-						has_idea = GER_wehrmacht_idea_1
-				}
-					swap_ideas = {
-						remove_idea = GER_wehrmacht_idea_1
-						add_idea = GER_wehrmacht_idea_3
-					}
-			}
-			else {
+			add_to_variable = {GER_ss_influence = -5}
+			add_to_variable = {GER_waffen_ss_influence = -5}
 
-				add_ideas = GER_wehrmacht_idea_6
+			add_to_variable = {GER_blitzkrieg_dependence_speed = -0.05}
+			add_to_variable = {GER_blitzkrieg_dependence_attrition = -0.1}
+			add_to_variable = {GER_blitzkrieg_dependence_fuel = -0.2}
+			add_to_variable = {GER_blitzkrieg_dependence_defense = 0.05}
 
-			}
-
+			custom_effect_tooltip = GER_purge_command_structure_completion_tt
 			
 
 			
@@ -480,9 +467,9 @@ focus_tree = {
 			add_to_variable = {GER_wehrmacht_influence = 5}
 			GER_faction_cleanup = yes
 
-			add_to_variable = {GER_depleted_wehrmacht_training_time = -10}
-			add_to_variable = {GER_blitzkrieg_dependence_breakthrough = -5}
-			add_to_variable = {GER_blitzkrieg_dependence_experience = -10}
+			add_to_variable = {GER_depleted_wehrmacht_training_time = -0.10}
+			add_to_variable = {GER_blitzkrieg_dependence_breakthrough = -0.05}
+			add_to_variable = {GER_blitzkrieg_dependence_experience = -0.10}
 
 			random_owned_controlled_state = {
 				limit = {
@@ -2695,6 +2682,10 @@ focus_tree = {
 			focus = GER_wehrmacht_connections
 		}
 
+		prerequisite = {
+			focus = GER_a_common_cause
+		}
+
 		mutually_exclusive = { focus = GER_steal_from_militarist_stockpiles}
 
 		x = -1
@@ -2718,6 +2709,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_temporarily_bridge_waffen_SS
 		}
+
+
 
 
 		x = 1
