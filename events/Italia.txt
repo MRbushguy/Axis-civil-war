@@ -43,15 +43,15 @@ country_event = {
 
 
 country_event = {
-	id = italystart.3
-	title = italystart.3.t
-	desc = italystart3.d
+	id = italystart.4
+	title = italystart.4.t
+	desc = italystart.4.d
 	picture = GFX_report_event_mussolini_rally_sepia
 	
 	is_triggered_only = yes
 
 	option = {
-		name = italystart.3.a
+		name = italystart.4.a
 		}
 		}
 		
