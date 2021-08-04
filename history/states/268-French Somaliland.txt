@@ -19,7 +19,7 @@ state={
 				naval_base = 2
 			}
 		}
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = IEA
 			controller = IEA
 			add_core_of = IEA
@@ -28,5 +28,5 @@ state={
 	}
 	provinces={
 		4985 8124
- 	}
+	}
 }

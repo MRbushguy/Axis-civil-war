@@ -1,7 +1,7 @@
 state={
 	id=515
 	name="STATE_515"
-	
+
 	state_category = pastoral
 	impassable = yes
 
@@ -12,7 +12,7 @@ state={
 			infrastructure = 1
 
 		}
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = FFA
 			controller = FFA
 		}

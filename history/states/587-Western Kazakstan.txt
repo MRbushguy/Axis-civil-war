@@ -9,15 +9,15 @@ state={
 			infrastructure = 1
 		}
 		victory_points = {
-			1517 1 
+			1517 1
 		}
 		add_core_of = SOV
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = KAZ
 			controller = KAZ
 			add_core_of = KAZ
 		}
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = KAZ
 			controller = KAZ
 			add_core_of = KAZ
@@ -25,7 +25,7 @@ state={
 	}
 
 	provinces={
-		475 642 1517 3593 4523 4620 7641 10262 11701 12163 12383 13008 
+		475 642 1517 3593 4523 4620 7641 10262 11701 12163 12383 13008
 	}
 	manpower=245133
 	buildings_max_level_factor=1.000

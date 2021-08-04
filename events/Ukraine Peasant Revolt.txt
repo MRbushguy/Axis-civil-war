@@ -5,7 +5,7 @@ add_namespace = ukraine_revolt
 #ukrainian revolt
 
 country_event = { ##armiansk
-	
+
 	id = ukraine_revolt.1
 	title = ukraine_revolt.1.t
 	desc = ukraine_revolt.1.d
@@ -21,7 +21,7 @@ country_event = { ##armiansk
 
 
 		UPR = {
-			
+
 			country_event = { id = ukraine_revolt.2 hours = 0}
 
 		}
@@ -43,7 +43,7 @@ country_event = { ##armiansk
 }
 
 country_event = { ##armiansk accepted
-	
+
 	id = ukraine_revolt.2
 	title = ukraine_revolt.2.t
 	desc = ukraine_revolt.2.d
@@ -56,13 +56,13 @@ country_event = { ##armiansk accepted
 
 		add_ideas = UPR_armiansk_road_idea
 
-		
+
 	}
 
 }
 
 country_event = { ##armiansk denied
-	
+
 	id = ukraine_revolt.3
 	title = ukraine_revolt.3.t
 	desc = ukraine_revolt.3.d
@@ -73,7 +73,7 @@ country_event = { ##armiansk denied
 	option = {
 		name = ukraine_revolt.3.a
 
-		
+
 	}
 
 }

@@ -7,7 +7,7 @@ add_namespace = ukraine
 #ukrainian revolt
 
 country_event = { ##farmer event
-	
+
 	id = ukraine.1
 	title = ukraine.1.t
 	desc = ukraine.1.d
@@ -28,7 +28,7 @@ country_event = { ##farmer event
 }
 
 country_event = { ##revolt event
-	
+
 	id = ukraine.2
 	title = ukraine.2.t
 	desc = ukraine.2.d
@@ -52,14 +52,14 @@ country_event = { ##revolt event
 		hidden_effect = {
 
 			UPR = {
-				transfer_state = 203 
-				transfer_state = 259 
-				transfer_state = 197 
-				transfer_state = 226 
-				transfer_state = 221 
-				transfer_state = 227 
-				transfer_state = 200 
-				transfer_state = 196 
+				transfer_state = 203
+				transfer_state = 259
+				transfer_state = 197
+				transfer_state = 226
+				transfer_state = 221
+				transfer_state = 227
+				transfer_state = 200
+				transfer_state = 196
 				transfer_state = 228
 			}
 
@@ -68,7 +68,7 @@ country_event = { ##revolt event
 
 		}
 
-		
+
 		GER = {
 			remove_from_faction = UKR
 		}
@@ -92,14 +92,14 @@ country_event = { ##revolt event
 		hidden_effect = {
 
 			UPR = {
-				transfer_state = 203 
-				transfer_state = 259 
-				transfer_state = 197 
-				transfer_state = 226 
-				transfer_state = 221 
-				transfer_state = 227 
-				transfer_state = 200 
-				transfer_state = 196 
+				transfer_state = 203
+				transfer_state = 259
+				transfer_state = 197
+				transfer_state = 226
+				transfer_state = 221
+				transfer_state = 227
+				transfer_state = 200
+				transfer_state = 196
 				transfer_state = 228
 			}
 
@@ -108,7 +108,7 @@ country_event = { ##revolt event
 
 		}
 
-		
+
 		GER = {
 			remove_from_faction = UKR
 		}
@@ -123,7 +123,7 @@ country_event = { ##revolt event
 }
 
 country_event = { ##german support
-	
+
 	id = ukraine.3
 	title = ukraine.3.t
 	desc = ukraine.3.d
@@ -136,7 +136,7 @@ country_event = { ##german support
 
 		decrease_resistance = yes
 
-		
+
 	}
 
 

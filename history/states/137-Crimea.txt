@@ -3,11 +3,11 @@ state={
 	id=137
 	name="STATE_137"
 	manpower = 530804
-	
+
 	state_category = city
 
 	history={
-		
+
 		victory_points = {
 			3686 20
 		}
@@ -26,7 +26,7 @@ state={
 				coastal_bunker = 3
 				bunker = 3
 			}
-			
+
 		}
 		add_core_of = IOC
 		1939.1.1 = {
@@ -41,6 +41,6 @@ state={
 	}
 
 	provinces={
-		3686 6704 
+		3686 6704
 	}
 }

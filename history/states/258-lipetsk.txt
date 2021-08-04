@@ -3,7 +3,7 @@ state={
 	id=258
 	name="STATE_258"
 	manpower = 1282096
-	
+
 	state_category = town
 
 	history={
@@ -15,7 +15,7 @@ state={
 		victory_points = {
 			6398 1
 		}
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = RKM
 			controller = RKM
 			add_core_of = RKM
@@ -23,6 +23,6 @@ state={
 	}
 
 	provinces={
-		356 3199 3291 3318 3346 6230 6317 6341 6369 6398 9339 9394 
+		356 3199 3291 3318 3346 6230 6317 6341 6369 6398 9339 9394
 	}
 }

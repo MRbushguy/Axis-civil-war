@@ -1,321 +1,319 @@
 focus_tree = {
 	id = ita_start
-	
+
 	country = {
 		factor = 0
-		
+
 		modifier = {
 			add = 10
 			tag = ITA
 		}
-	}  
-	
+	}
+
 	default = no
-	
+
 	continuous_focus_position = { x = 50 y = 1000 }
 
 	focus = {
 		id = avanti_italia
 		icon = GFX_focus_Avanti_Italia
-
-		
 		x = 23
 		y = 2
-		
-		available = {	
+
+		available = {
 		}
 
-		cost = 7	
-		
+		cost = 7
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		completion_reward = {
-		
-		country_event = italystart.1
+
+			country_event = italystart.1
 
 		}
-}
+	}
 	focus = {
 		id = adapt_new_era
 		icon = GFX_focus_new_age
 
 		x = 23
 		y = 3
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = avanti_italia }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-		add_political_power = 50
+			add_political_power = 50
 		}
-	} 	
-	
-	focus = { #left tree
-		id = consolidate_empire
+	}
 
+	focus = { #left tree
+		id = ITA_consolidate_empire
+		icon = GFX_ITA_cons
 		x = 13
 		y = 4
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = adapt_new_era }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-		custom_effect_tooltip = empire_shit
+			custom_effect_tooltip = empire_shit
 		}
-	} 	
+	}
 
-    focus = { #left tree
+	focus = { #left tree
 		id = reinforce_colonies
 
 		x = 16
-		y = 5 
-		
-		available = { 
+		y = 5
+
+		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = consolidate_empire }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-		add_manpower = -20000
+			add_manpower = -20000
 
-		IME = { add_manpower = 5000 }
-		IEA = { add_manpower = 5000 }
-		IGL = { add_manpower = 5000 }
-		IOC = { add_manpower = 5000 }
-		ICA = { add_manpower = 5000 }
+			IME = { add_manpower = 5000 }
+			IEA = { add_manpower = 5000 }
+			IGL = { add_manpower = 5000 }
+			IOC = { add_manpower = 5000 }
+			ICA = { add_manpower = 5000 }
 		}
 	}
-	
+
 	focus = { #left tree
 		id = give_arms
 
 		x = 14
-		y = 5 
-		
-		available = { 
-		}
-		bypass = {
-		}
-		
-		cost = 5
-		prerequisite = { focus = consolidate_empire }
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		send_equipment = { equipment = infantry_equipment amount = 1000 target = IEA
-}
-		
-send_equipment = { equipment = infantry_equipment amount = 1000 target = IME
-}
-
-send_equipment = { equipment = infantry_equipment amount = 1000 target = ICA
-}
-
-send_equipment = { equipment = infantry_equipment amount = 1000 target = IEA
-}
-
-send_equipment = { equipment = infantry_equipment amount = 1000 target = IGL
-}
-send_equipment = { equipment = infantry_equipment amount = 1000 target = IOC
-
-
-		}
-	} 	
-	}
-	
-	focus = { #left tree
-		id = encourage_migration 
-
-		x = 12
 		y = 5
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = consolidate_empire }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-		add_ideas = italy_migration
-		IEA = { add_ideas = italy_colonies_migration }
-		ICA = { add_ideas = italy_colonies_migration }
-		IME = { add_ideas = italy_colonies_migration }
-		IGL = { add_ideas = italy_colonies_migration }
-		IOC = { add_ideas = italy_colonies_migration }
-		
+			send_equipment = { equipment = infantry_equipment amount = 1000 target = IEA
+			}
+
+			send_equipment = { equipment = infantry_equipment amount = 1000 target = IME
+			}
+
+			send_equipment = { equipment = infantry_equipment amount = 1000 target = ICA
+			}
+
+			send_equipment = { equipment = infantry_equipment amount = 1000 target = IEA
+			}
+
+			send_equipment = { equipment = infantry_equipment amount = 1000 target = IGL
+			}
+			send_equipment = { equipment = infantry_equipment amount = 1000 target = IOC
+
+
+			}
 		}
-	} 	
-	
+	}
+
+	focus = { #left tree
+		id = encourage_migration
+
+		x = 12
+		y = 5
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = consolidate_empire }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = italy_migration
+			IEA = { add_ideas = italy_colonies_migration }
+			ICA = { add_ideas = italy_colonies_migration }
+			IME = { add_ideas = italy_colonies_migration }
+			IGL = { add_ideas = italy_colonies_migration }
+			IOC = { add_ideas = italy_colonies_migration }
+
+		}
+	}
+
 	focus = { #left tree
 		id = learning_how_to_empire
 
 		x = 14
 		y = 7
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = encourage_migration }
 		prerequisite = { focus = give_arms }
 		prerequisite = { focus = reinforce_colonies }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-		custom_effect_tooltip = empire_decisions
+			custom_effect_tooltip = empire_decisions
 		}
-	} 	
-	
+	}
+
 	focus = { #left-middle tree
 		id = homefront
 
 		x = 20
 		y = 4
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = adapt_new_era }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-		custom_effect_tooltip = houm
+			custom_effect_tooltip = houm
 		}
-	} 	
-	
+	}
+
 	focus = { #left-middle tree
 		id = demobalize
 
 		x = 18
 		y = 5
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = homefront }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
 		}
-	} 	
-	
+	}
+
 	focus = { #left-middle tree
 		id = keep_war_promise
 
 		x = 20
 		y = 5
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = homefront }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
 			add_timed_idea = {
-                      idea = civilian_construct
-                        days = 95
-                         }
+				idea = civilian_construct
+				days = 95
+			}
 		}
-	} 	
-	
+	}
+
 	focus = { #left-middle tree
 		id = use_colonies_resources
 
 		x = 22
 		y = 5
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = homefront }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
 		}
-	} 	
-	
+	}
+
 	focus = { #left-middle tree
 		id = return_civilian_life
 
 		x = 20
 		y = 7
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = demobalize }
 		prerequisite = { focus = keep_war_promise }
 		prerequisite = { focus = use_colonies_resources }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -323,269 +321,269 @@ send_equipment = { equipment = infantry_equipment amount = 1000 target = IOC
 		completion_reward = {
 			add_ideas = civilian_economy
 		}
-	} 	
-	
+	}
+
 	focus = { #right-middle tree
 		id = reorg_army
 
 		x = 27
 		y = 4
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = adapt_new_era }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-		custom_effect_tooltip = neu_army_shit
+			custom_effect_tooltip = neu_army_shit
 		}
-	} 	
-	
+	}
+
 	focus = { #right-middle tree
 		id = lessons_ww2
 
 		x = 25
 		y = 5
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = reorg_army }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-		army_experience = 55
-		navy_experience = 40
-		air_experience = 35
+			army_experience = 55
+			navy_experience = 40
+			air_experience = 35
 		}
-	} 	
-	
+	}
+
 	focus = { #right-middle tree
 		id = more_branches_coop
 
 		x = 27
 		y = 5
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = reorg_army }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
 		}
-	} 	
-	
+	}
+
 	focus = { #right-middle tree
 		id = new_army_tech
 
 		x = 29
 		y = 5
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = reorg_army }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
 		}
-	} 	
-	
+	}
+
 	focus = { #right-middle tree
 		id = become_god_of_death
 
 		x = 27
 		y = 7
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
-		 prerequisite = { focus = new_army_tech }
+		prerequisite = { focus = new_army_tech }
 		prerequisite = { focus = more_branches_coop }
 		prerequisite = { focus = lessons_ww2 }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
 		}
-	} 	
-	
+	}
+
 	focus = { #right tree
 		id = reform_gov
 
 		x = 34
 		y = 4
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = adapt_new_era }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-		custom_effect_tooltip = neu_gov
+			custom_effect_tooltip = neu_gov
 		}
-	} 	
-	
+	}
+
 	focus = { #right tree
 		id = peacetime_beauro
 
 		x = 31
 		y = 5
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = reform_gov }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-		add_ideas = peace_beauro
+			add_ideas = peace_beauro
 		}
-	} 	
-	
+	}
+
 	focus = { #right tree
 		id = crackdown_factions
 
 		x = 33
 		y = 5
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = reform_gov }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-		add_stability = 0.05
-		add_political_power = -25
+			add_stability = 0.05
+			add_political_power = -25
 		}
-	} 	
-	
+	}
+
 	focus = { #right tree
 		id = listen_factions
 
 		x = 35
 		y = 5
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = reform_gov }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-		country_event = {
-   country_event = italystart.2
-}
-		
+			country_event = {
+				country_event = italystart.2
+			}
+
 		}
-	} 	
-	
+	}
+
 	focus = { #right tree
 		id = government_overhul
 
 		x = 33
-		y = 7 
+		y = 7
 
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = crackdown_factions }
 		prerequisite = { focus = listen_factions }
 		prerequisite = { focus = peacetime_beauro }
-		
-		
+
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-		add_political_power = 75
+			add_political_power = 75
 
 		}
-	} 	
-	
-	focus = { 
+	}
+
+	focus = {
 		id = fascism_27_birthday
 
 		x = 23
 		y = 9
-		
+
 		available = {
 		}
 		bypass = {
 		}
-		
+
 		cost = 5
 		prerequisite = { focus = government_overhul }
 		prerequisite = { focus = return_civilian_life }
 		prerequisite = { focus = become_god_of_death }
 		prerequisite = { focus = learning_how_to_empire }
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-		country_event = italystart.3
+			country_event = italystart.3
 		}
-	} 	
+	}

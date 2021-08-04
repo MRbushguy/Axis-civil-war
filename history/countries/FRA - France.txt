@@ -3,8 +3,8 @@
 oob = "FRA_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "FRA_1936_naval_mtg"
-		set_war_support = 0.1
+	set_naval_oob = "FRA_1936_naval_mtg"
+	set_war_support = 0.1
 	else = {
 		set_naval_oob = "FRA_1936_naval_legacy"
 		set_war_support = 0.15
@@ -51,7 +51,7 @@ if = {
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
+	set_technology = {
 		early_submarine = 1
 		basic_submarine = 1
 		early_destroyer = 1
@@ -119,7 +119,7 @@ if = {
 	oob = "FRA_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "FRA_1939_naval_mtg"
+		set_naval_oob = "FRA_1939_naval_mtg"
 		else = {
 			set_naval_oob = "FRA_1939_naval_legacy"
 		}
@@ -148,8 +148,8 @@ if = {
 		fighter_baiting = 1
 		low_echelon_support = 1
 		dispersed_fighting = 1
-		
-			grand_battle_plan = 1
+
+		grand_battle_plan = 1
 
 		trench_warfare = 1
 		prepared_defense = 1
@@ -251,7 +251,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = 	stalinism
 	traits = {
-		
+
 	}
 }
 
@@ -262,7 +262,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = final_nazism
 	traits = {
-		
+
 	}
 }
 
@@ -633,7 +633,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Minerve Class"					
+		name = "Minerve Class"
 		type = ship_hull_submarine_1
 		name_group = FRA_SS_HISTORICAL
 		parent_version = 0
@@ -679,7 +679,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Le Fantasque Class"				
+		name = "Le Fantasque Class"
 		type = ship_hull_light_1
 		name_group = FRA_DD_HISTORICAL
 		parent_version = 0
@@ -695,7 +695,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Mogador Class"				
+		name = "Mogador Class"
 		type = ship_hull_light_2
 		name_group = FRA_DD_HISTORICAL
 		parent_version = 0
@@ -746,7 +746,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "La Galissonnière Class"			
+		name = "La Galissonnière Class"
 		type = ship_hull_cruiser_1
 		name_group = FRA_CL_HISTORICAL
 		parent_version = 0
@@ -782,7 +782,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Algérie Class"				
+		name = "Algérie Class"
 		type = ship_hull_cruiser_1
 		name_group = FRA_CA_HISTORICAL
 		parent_version = 0
@@ -800,7 +800,7 @@ if = {
 	}
 	# Battleships #
 	create_equipment_variant = {
-		name = "Courbet Class"		
+		name = "Courbet Class"
 		type = ship_hull_heavy_1
 		name_group = FRA_BB_HISTORICAL
 		parent_version = 0
@@ -820,7 +820,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Bretagne Class"				
+		name = "Bretagne Class"
 		type = ship_hull_heavy_1
 		name_group = FRA_BB_HISTORICAL
 		parent_version = 0
@@ -840,7 +840,7 @@ if = {
 	}
 	# Battlecruisers #
 	create_equipment_variant = {
-		name = "Dunkerque Class"		
+		name = "Dunkerque Class"
 		type = ship_hull_heavy_2
 		name_group = FRA_BC_HISTORICAL
 		parent_version = 0
@@ -859,25 +859,25 @@ if = {
 		}
 	}
 	# Battleships #
-		create_equipment_variant = {
-			name = "Richelieu Class"
-			type = ship_hull_heavy_2
-			name_group = FRA_BB_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_heavy_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = heavy_ship_engine_2
-				fixed_ship_secondaries_slot = ship_secondaries_2
-				fixed_ship_armor_slot = ship_armor_bb_2
-				front_1_custom_slot = ship_heavy_battery_2
-				mid_1_custom_slot = ship_secondaries_2
-				mid_2_custom_slot = ship_anti_air_1
-				rear_1_custom_slot = ship_airplane_launcher_1
-			}
+	create_equipment_variant = {
+		name = "Richelieu Class"
+		type = ship_hull_heavy_2
+		name_group = FRA_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bb_2
+			front_1_custom_slot = ship_heavy_battery_2
+			mid_1_custom_slot = ship_secondaries_2
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_airplane_launcher_1
 		}
+	}
 	# Carriers #
 	create_equipment_variant = {
 		name = "Béarn Class"
@@ -938,7 +938,7 @@ if = {
 		limit = { has_dlc = "Man the Guns" }
 		# Submarines #
 		create_equipment_variant = {
-			name = "Aurore Class"				
+			name = "Aurore Class"
 			type = ship_hull_submarine_2
 			name_group = FRA_SS_HISTORICAL
 			parent_version = 0
@@ -985,17 +985,17 @@ if = {
 
 1947.1.1 = {
 	set_cosmetic_tag = FRA_VICHY
-    oob = FRA_1947
+	oob = FRA_1947
 
 	set_politics = {
-	ruling_party = national_socialism
-	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = no
-                    }
-    set_popularities = {
-	democratic = 10
-	national_socialism = 85
-	communism = 5
-                       }	
+		ruling_party = national_socialism
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 10
+		national_socialism = 85
+		communism = 5
+	}
 }

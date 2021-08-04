@@ -3,7 +3,7 @@
 oob = "POL_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "POL_1936_naval_mtg"
+	set_naval_oob = "POL_1936_naval_mtg"
 	else = {
 		set_naval_oob = "POL_1936_naval_legacy"
 	}
@@ -16,7 +16,7 @@ set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_mountaineers = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
 	gw_artillery = 1
@@ -31,7 +31,7 @@ if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
 		early_destroyer = 1
-		early_submarine = 1	
+		early_submarine = 1
 	}
 }
 if = {
@@ -48,7 +48,7 @@ if = {
 	}
 }
 1939.1.1 = {
-	
+
 	if = {
 		limit = {
 			has_dlc = "Poland: United and Ready"
@@ -56,7 +56,7 @@ if = {
 	}
 
 	add_political_power = 1198
-	
+
 	add_ideas = {
 		#laws
 		limited_conscription
@@ -66,7 +66,7 @@ if = {
 	oob = "POL_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "POL_1939_naval_mtg"
+		set_naval_oob = "POL_1939_naval_mtg"
 		else = {
 			set_naval_oob = "POL_1939_naval_legacy"
 		}
@@ -129,10 +129,10 @@ if = {
 		name = "PZL P.43"
 		type = CAS_equipment_1
 		upgrades = {
-				plane_cas_upgrade = 0
-				plane_range_upgrade = 1
-				plane_engine_upgrade = 2
-				plane_reliability_upgrade = 1
+			plane_cas_upgrade = 0
+			plane_range_upgrade = 1
+			plane_engine_upgrade = 2
+			plane_reliability_upgrade = 1
 		}
 	}
 }
@@ -307,7 +307,7 @@ create_equipment_variant = {
 	type = fighter_equipment_0
 	upgrades = {
 		plane_gun_upgrade = 3
-		plane_range_upgrade = 0  
+		plane_range_upgrade = 0
 		plane_engine_upgrade = 1
 		plane_reliability_upgrade = 3
 	}
@@ -323,7 +323,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	# Submarines #
 	create_equipment_variant = {
-		name = "Wilk Class"				
+		name = "Wilk Class"
 		type = ship_hull_submarine_2
 		name_group = POL_SS_HISTORICAL
 		parent_version = 0
@@ -335,7 +335,7 @@ if = {
 	}
 	# Destroyers #
 	create_equipment_variant = {
-		name = "Wicher Class"				
+		name = "Wicher Class"
 		type = ship_hull_light_1
 		name_group = POL_DD_HISTORICAL
 		parent_version = 0
@@ -363,7 +363,7 @@ if = {
 		limit = { has_dlc = "Man the Guns" }
 		# Submarines #
 		create_equipment_variant = {
-			name = "Orzel Class"				
+			name = "Orzel Class"
 			type = ship_hull_submarine_2
 			name_group = POL_SS_HISTORICAL
 			parent_version = 0
@@ -375,7 +375,7 @@ if = {
 		}
 		# Destroyers #
 		create_equipment_variant = {
-			name = "Grom Class"					
+			name = "Grom Class"
 			type = ship_hull_light_2
 			name_group = POL_DD_HISTORICAL
 			parent_version = 0
@@ -409,23 +409,23 @@ if = {
 }
 
 1947.1.1 = {
-    set_cosmetic_tag = POL_reichskommissariat
-    oob = POL_1947 
+	set_cosmetic_tag = POL_reichskommissariat
+	oob = POL_1947
 
-    set_politics = {
-	ruling_party = national_socialism
-	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = no
-                    }
-set_popularities = {
-	communism = 10
-	democratic_right = 10
-	authoritarianism = 10
-	national_socialism = 70
-}
+	set_politics = {
+		ruling_party = national_socialism
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 10
+		democratic_right = 10
+		authoritarianism = 10
+		national_socialism = 70
+	}
 	add_ideas = {
 		resistance_1
 		devastation_3
 	}
-		}
+}

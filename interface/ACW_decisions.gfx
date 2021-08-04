@@ -1,7 +1,7 @@
-spriteTypes = {	
+spriteTypes = {
 
 	### categories
-	
+
 	spriteType = {
 		name = "GFX_decision_category_Volkshalle"
 		texturefile = "gfx/interface/decisions/decision_category_Volkshalle.dds"
@@ -10,7 +10,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_decision_category_Nuremburg_Rally"
 		texturefile = "gfx/interface/decisions/decision_category_Nuremburg_Rally.dds"
-	}	
+	}
 
 	spriteType = {
 		name = "GFX_decision_category_Wunderwaffe"
@@ -84,7 +84,7 @@ spriteTypes = {
 		texturefile = "gfx/texticons/decision_faction_ger_mil_small.dds"
 		legacy_lazy_load = no
 	}
-	
+
 	spriteType = {
 		name = "GFX_decision_unite_ssr"
 		texturefile = "gfx/interface/decisions/SOV/sov_man.dds"

@@ -36,7 +36,7 @@ GER_increase_plunder_economy = {
 			add_idea = GER_plunder_economy_0
 		}
 	}
-	
+
 
 
 
@@ -79,24 +79,24 @@ GER_decrease_plunder_economy = {
 			add_idea = GER_plunder_economy_1
 		}
 	}
-	
+
 
 }
 
 GER_faction_cleanup = {
-	
+
 
 	if = {
 		limit = {
 			check_variable = {GER.GER_NSDAP_influence > 100}
-			
+
 		}
 		set_variable = {GER_NSDAP_influence = 100}
 	}
 	else_if  ={
 		limit = {
 			check_variable = {GER.GER_NSDAP_influence < 0}
-			
+
 		}
 		set_variable = {GER_NSDAP_influence = 0}
 	}
@@ -104,14 +104,14 @@ GER_faction_cleanup = {
 	if = {
 		limit = {
 			check_variable = {GER.GER_wehrmacht_influence > 100}
-			
+
 		}
 		set_variable = {GER_wehrmacht_influence = 100}
 	}
 	else_if  ={
 		limit = {
 			check_variable = {GER.GER_wehrmacht_influence < 0}
-			
+
 		}
 		set_variable = {GER_wehrmacht_influence = 0}
 
@@ -120,14 +120,14 @@ GER_faction_cleanup = {
 	if = {
 		limit = {
 			check_variable = {GER.GER_militarist_influence > 100}
-			
+
 		}
 		set_variable = {GER_militarist_influence = 100}
 	}
 	else_if  ={
 		limit = {
 			check_variable = {GER.GER_militarist_influence < 0}
-			
+
 		}
 		set_variable = {GER_militarist_influence = 0}
 
@@ -136,14 +136,14 @@ GER_faction_cleanup = {
 	if = {
 		limit = {
 			check_variable = {GER.GER_refnaz_influence > 100}
-			
+
 		}
 		set_variable = {GER_refnaz_influence = 100}
 	}
 	else_if  ={
 		limit = {
 			check_variable = {GER.GER_refnaz_influence < 0}
-			
+
 		}
 		set_variable = {GER_refnaz_influence = 0}
 
@@ -152,14 +152,14 @@ GER_faction_cleanup = {
 	if = {
 		limit = {
 			check_variable = {GER.GER_waffen_ss_influence > 100}
-			
+
 		}
 		set_variable = {GER_waffen_ss_influence = 100}
 	}
 	else_if  ={
 		limit = {
 			check_variable = {GER.GER_waffen_ss_influence < 0}
-			
+
 		}
 		set_variable = {GER_waffen_ss_influence = 0}
 
@@ -168,24 +168,24 @@ GER_faction_cleanup = {
 	if = {
 		limit = {
 			check_variable = {GER.GER_ss_influence > 100}
-			
+
 		}
 		set_variable = {GER_ss_influence = 100}
 	}
 	else_if  ={
 		limit = {
 			check_variable = {GER.GER_ss_influence < 0}
-			
+
 		}
 		set_variable = {GER_ss_influence = 0}
 
 	}
 
-	
+
 	if = {
 		limit = {
 			check_variable = {GER.GER_NSDAP_influence < 26}
-			
+
 		}
 		set_variable = {GER_factionalism_NSDAP_modifer = -0.15}
 	}
@@ -202,7 +202,7 @@ GER_faction_cleanup = {
 	if = {
 		limit = {
 			check_variable = {GER.GER_wehrmacht_influence < 26}
-			
+
 		}
 		set_variable = {GER_factionalism_wehrmacht_modifer = -0.5}
 	}
@@ -219,7 +219,7 @@ GER_faction_cleanup = {
 	if = {
 		limit = {
 			check_variable = {GER.GER_militarist_influence < 26}
-			
+
 		}
 		set_variable = {GER_factionalism_militarist_modifer = -0.05}
 	}
@@ -236,7 +236,7 @@ GER_faction_cleanup = {
 	if = {
 		limit = {
 			check_variable = {GER.GER_refnaz_influence < 26}
-			
+
 		}
 		set_variable = {GER_factionalism_reform_modifer = -0.1}
 	}
@@ -253,7 +253,7 @@ GER_faction_cleanup = {
 	if = {
 		limit = {
 			check_variable = {GER.GER_waffen_ss_influence < 26}
-			
+
 		}
 		set_variable = {GER_factionalism_waffenSS_modifer = -500}
 	}
@@ -270,7 +270,7 @@ GER_faction_cleanup = {
 	if = {
 		limit = {
 			check_variable = {GER.GER_ss_influence < 26}
-			
+
 		}
 		set_variable = {GER_factionalism_SS_modifer = -0.1}
 	}

@@ -3,7 +3,7 @@ state={
 	id=557
 	name="STATE_557" # Mauritania
 	manpower = 225000
-	
+
 	state_category = pastoral
 
 	history={
@@ -15,7 +15,7 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = SPR
 			controller = SPR
 		}

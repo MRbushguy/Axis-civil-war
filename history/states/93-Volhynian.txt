@@ -19,7 +19,7 @@ state={
 		}
 		add_core_of = POL
 		add_core_of = UKR
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = UKR
 			controller = UKR
 			add_core_of = UPR
@@ -27,7 +27,7 @@ state={
 	}
 
 	provinces={
-		422 474 513 572 3412 6435 6520 6557 11441 11543 
+		422 474 513 572 3412 6435 6520 6557 11441 11543
 	}
 	manpower=1985600
 	buildings_max_level_factor=1.000

@@ -7,7 +7,7 @@ state={
 		chromium=11 # was: 16
 		steel = 28
 	}
-	
+
 	state_category = town
 
 	history={
@@ -16,7 +16,7 @@ state={
 			11747 15
 		}
 		victory_points = {
-			804 5 
+			804 5
 		}
 		victory_points = {
 			3951 1
@@ -31,6 +31,6 @@ state={
 	}
 
 	provinces={
-		804 909 3907 3951 6808 6908 6925 9806 9901 11747 11784 
+		804 909 3907 3951 6808 6908 6925 9806 9901 11747 11784
 	}
 }

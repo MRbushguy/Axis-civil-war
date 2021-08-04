@@ -2,15 +2,15 @@ state={
 	id=807
 	name="STATE_807"
 	provinces={
-		6521 
+		6521
 	}
 	history = {
-		
+
 		add_core_of = GER
 
-	    1947.1.1 = {
-		owner = GER
-		controller = GER	
+		1947.1.1 = {
+			owner = GER
+			controller = GER
 		}
 
 		buildings = {
@@ -28,4 +28,4 @@ state={
 	state_category=megalopolis
 	buildings_max_level_factor=1.000
 
-    }  
+}

@@ -20,14 +20,14 @@ state={
 		add_core_of = YUG
 		add_core_of = MAC
 		add_claim_by = BUL
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = BUL
 			controller = BUL
 		}
 	}
 
 	provinces={
-		907 974 3833 3865 3882 6886 11856 
+		907 974 3833 3865 3882 6886 11856
 	}
 	manpower=1374200
 	buildings_max_level_factor=1.000

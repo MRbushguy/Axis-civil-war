@@ -3,7 +3,7 @@ ideas = {
 	country = {
 
 		USA_ascendant_german_american_bund = {
-          picture = ascendant_german_american_bund
+			picture = ascendant_german_american_bund
 
 			allowed = {
 				original_tag = USA
@@ -16,7 +16,7 @@ ideas = {
 			}
 		}
 		USA_revived_klan = {
-          picture = klan
+			picture = klan
 
 			allowed = {
 				original_tag = USA

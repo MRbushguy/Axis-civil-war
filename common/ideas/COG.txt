@@ -2,14 +2,14 @@ ideas = {
 
 	country = {
 
-	    Leopold_III = {
+		Leopold_III = {
 
-	     	allowed = {
+			allowed = {
 				original_tag = COG
 			}
 
-            picture = COG_Leopold_III
-            modifier = {
+			picture = COG_Leopold_III
+			modifier = {
 				stability_factor = 0.05
 			}
 
@@ -18,18 +18,18 @@ ideas = {
 
 		COG_Diamond_Profits = {
 
-	     	allowed = {
+			allowed = {
 				original_tag = COG
 			}
 
-            picture = Diamond_Profits
-            
-            modifier = {
+			picture = Diamond_Profits
+
+			modifier = {
 				consumer_goods_factor = -0.05
 				local_resources_factor = 0.25
 			}
 
-		 }
+		}
 	}
 
 }

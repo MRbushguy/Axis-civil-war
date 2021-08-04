@@ -42,7 +42,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/germany/occupation/devastation_4.dds"
 	}
 
-		spriteType = {
+	spriteType = {
 		name = "GFX_idea_resistance_0"
 		texturefile = "gfx/interface/ideas/germany/occupation/resistance_0.dds"
 	}
@@ -94,7 +94,7 @@ spriteTypes = {
 		name = "GFX_idea_GermanSickness5"
 		texturefile = "gfx/interface/ideas/germany/depression/GermanSickness5.dds"
 	}
-	
+
 	### SOV 
 	spriteType = {
 		name = "GFX_idea_finnish_blocade"
@@ -111,7 +111,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_shatt_army"
 		texturefile = "gfx/interface/ideas/SOV/shat_army.dds"
-	}	
+	}
 
 	### IOC
 	SpriteType = {
@@ -155,11 +155,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_COG_Diamond_Profits"
 		texturefile = "gfx/interface/ideas/COG/Diamond_Profits.dds"
-	}	
+	}
 
 ###Italia 
 
-SpriteType = {
+	SpriteType = {
 		name = "GFX_idea_SPQR_Eagle"
 		texturefile = "gfx/interface/ideas/ITA/SPQR_Eagle.dds"
 	}

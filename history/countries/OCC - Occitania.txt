@@ -31,7 +31,7 @@ set_technology = {
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
+	set_technology = {
 		early_submarine = 1
 		basic_submarine = 1
 		early_destroyer = 1
@@ -92,7 +92,7 @@ set_convoys = 20
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-	
+
 	set_technology = {
 		fighter1 = 1
 		fighter2 = 1
@@ -116,8 +116,8 @@ set_convoys = 20
 		fighter_baiting = 1
 		low_echelon_support = 1
 		dispersed_fighting = 1
-		
-			grand_battle_plan = 1
+
+		grand_battle_plan = 1
 
 		trench_warfare = 1
 		prepared_defense = 1
@@ -184,5 +184,5 @@ set_popularities = {
 }
 
 1947.1.1 = {
-    set_cosmetic_tag = ITA_puppet
+	set_cosmetic_tag = ITA_puppet
 }

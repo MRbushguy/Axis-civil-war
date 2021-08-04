@@ -3,7 +3,7 @@ state={
 	id=655
 	name="STATE_655"
 	manpower = 94759
-	
+
 	state_category = pastoral
 	history={
 		owner = SOV
@@ -13,13 +13,13 @@ state={
 			infrastructure = 3
 			air_base = 1
 		}
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = JAP
 			controller = JAP
 		}
 	}
 
 	provinces={
-		855 1742 1755 
+		855 1742 1755
 	}
 }

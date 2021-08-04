@@ -1,169 +1,169 @@
 ideas = {
 
 	country = {
-	
-	smol_victory = {
-       picture = vittoria_mutilata
 
-			
+		smol_victory = {
+			picture = vittoria_mutilata
+
+
 			allowed = {
 				original_tag = "ITA"
 			}
 
-			
+
 			modifier = {
 				communism_acceptance = -70
 				communism_acceptance = -55
 				democratic_left_acceptance = -90
 				democratic_center_acceptance = -65
-				democratic_right_acceptance = -30	
-  			        fascism_acceptance = 90
+				democratic_right_acceptance = -30
+				fascism_acceptance = 90
 				war_support_factor = 0.1
 				offence = 0.05
 			}
 		}
 
 		reborn_pride = {
-          picture = SPQR_Eagle
+			picture = SPQR_Eagle
 
 			allowed = {
 				original_tag = ITA
 			}
 
-			modifier = {	
+			modifier = {
 				war_support_factor = 0.2
-                             army_core_attack_factor = 0.15
-			        army_core_defence_factor = 0.15
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15
 				surrender_limit = 0.25
 				offensive_war_stability_factor = 0.5
-				
-				
+
+
 
 			}
 		}
-		
-		
-		
+
+
+
 		Modern_roman_army = {
-       picture = vittoria_mutilata
+			picture = vittoria_mutilata
 
-			
+
 			allowed = {
 				original_tag = "ITA"
 			}
 
-			
+
 			modifier = {
-			army_attack_factor = 0.1
-			army_defense_factor = 0.1
-			army_speed_factor = 0.05
-			army_morale_factor = 0.15
-			army_org = 5
-			planning_speed = 0.05
-			max_planning = 0.2
-			experience_gain_army_factor = -0.2 
-			training_time_factor = 0.35
-			
+				army_attack_factor = 0.1
+				army_defense_factor = 0.1
+				army_speed_factor = 0.05
+				army_morale_factor = 0.15
+				army_org = 5
+				planning_speed = 0.05
+				max_planning = 0.2
+				experience_gain_army_factor = -0.2
+				training_time_factor = 0.35
+
 			}
 		}
-		
+
 		sea_domination = {
-       picture = vittoria_mutilata
+			picture = vittoria_mutilata
 
-			
+
 			allowed = {
 				original_tag = "ITA"
 			}
 
-			
+
 			modifier = {
-			naval_coordination = 0.3
-			naval_detection = 0.12
-			naval_hit_chance = 0.4
-			positioning = 0.3
-			repair_speed_factor = -0.2
-			
+				naval_coordination = 0.3
+				naval_detection = 0.12
+				naval_hit_chance = 0.4
+				positioning = 0.3
+				repair_speed_factor = -0.2
+
 			}
 		}
-		
-		
-		
+
+
+
 		strong_air_force = {
-       picture = vittoria_mutilata
+			picture = vittoria_mutilata
 
-			
+
 			allowed = {
 				original_tag = "ITA"
 			}
 
-			
+
 			modifier = {
-			air_accidents_factor = 0.5
-			air_agility_factor = 0.2
-			air_attack_factor = 0.2
-			air_defence_factor = 0.15
-			air_ace_generation_chance_factor = -0.1
+				air_accidents_factor = 0.5
+				air_agility_factor = 0.2
+				air_attack_factor = 0.2
+				air_defence_factor = 0.15
+				air_ace_generation_chance_factor = -0.1
 			}
 		}
-		
-		
-		
+
+
+
 		italy_migration = {
-       picture = 
+			picture =
 
-			
+
 			allowed = {
 				original_tag = "ITA"
 			}
 
-			
+
 			modifier = {
-			monthly_population = -0.08
+				monthly_population = -0.08
 			}
 		}
-		
+
 		italy_colonies_migration = {
-       picture = 
+			picture =
 
-			
+
 			allowed = {
 				original_tag = "ITA"
 			}
 
-			
+
 			modifier = {
-			monthly_population = 0.03
+				monthly_population = 0.03
 			}
 		}
-		
+
 		civilian_construct = {
-       picture = vittoria_mutilata
+			picture = vittoria_mutilata
 
-			
+
 			allowed = {
 				original_tag = "ITA"
 			}
 
-			
+
 			modifier = {
-			production_speed_industrial_complex_factor = 0.3
+				production_speed_industrial_complex_factor = 0.3
 			}
 		}
 
 
-peace_beauro = {
-       picture = vittoria_mutilata
+		peace_beauro = {
+			picture = vittoria_mutilata
 
-			
+
 			allowed = {
 				original_tag = "ITA"
 			}
 
-			
+
 			modifier = {
-			stability_factor = 0.05
-			war_support_factor = -0.05
-			political_power_factor = 0.1
+				stability_factor = 0.05
+				war_support_factor = -0.05
+				political_power_factor = 0.1
 			}
 		}
 

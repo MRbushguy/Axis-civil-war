@@ -23,18 +23,18 @@ if = {
 
 1947.1.1 = {
 
-    set_cosmetic_tag = SSR_color
+	set_cosmetic_tag = SSR_color
 
 
 	set_politics = {
-	ruling_party = communism
-	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = no
-                    }
-    set_popularities = {
-	democratic = 6
-	fascism = 10
-	communism = 84
-                       }
+		ruling_party = communism
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 6
+		fascism = 10
+		communism = 84
+	}
 }

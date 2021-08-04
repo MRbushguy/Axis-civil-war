@@ -16,14 +16,14 @@ state={
 			}
 
 		}
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = FFA
 			controller = FFA
 		}
 	}
 
 	provinces={
-		1951 12843 13212 
+		1951 12843 13212
 	}
 	manpower=1101346
 	buildings_max_level_factor=1.000

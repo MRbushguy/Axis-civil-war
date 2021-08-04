@@ -102,7 +102,7 @@ division_template = {
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-	}	
+	}
 }
 division_template = {
 	name = "Rikusentai"				# Groupings of various SNLF marine forces (can be 1000-3000 men per 'regiment')
@@ -118,7 +118,7 @@ division_template = {
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-	}	
+	}
 	priority = 2
 }
 division_template = {
@@ -178,7 +178,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
-	
+
 	### Chuo Homengun (East Japan Army) (CO: ) ###
 	division = { # "Konoe Shidan"
 		division_name = {
@@ -251,7 +251,7 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
-	
+
 	### Taiwan Homengun (Taiwan Army) (CO: ) ###
 	division = {
 		name = "Taiwan Kichi Shubitai"
@@ -261,7 +261,7 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
-	
+
 	### Chosen Gun (Korea Army) (CO: Nakamura) ###
 	division = { # "19 'Tora' Hohei Shidan"
 		division_name = {
@@ -387,7 +387,7 @@ units = {
 
 	}
 
-	
+
 	##### Kwantung Area Army (CO: Umezu) #####
 	division = { # "10 'Tetsu' Hohei Shidan"
 		division_name = {
@@ -417,7 +417,7 @@ units = {
 	}
 	### Kwantung Defense Force (groups of independent garrisons) (CO: ) ###
 	division = {
-		name = "Manshu Tetsudo Shubitai" # Manchuria Railway Guard"	
+		name = "Manshu Tetsudo Shubitai" # Manchuria Railway Guard"
 		location = 4986 #Mukden
 		division_template = "Chuton-chi Shidan"			# Japanese garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
@@ -717,7 +717,7 @@ units = {
 		location = 7167
 		division_template = "Chugata Hohei Shidan"
 		start_experience_factor = 0.3
-	} 
+	}
 	division = { # "40 'Kujira' Hohei Shidan"
 		division_name = {
 			is_name_ordered = yes
@@ -1241,7 +1241,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "JAP" 
+			creator = "JAP"
 		}
 		requested_factories = 1
 		progress = 0.3
@@ -1250,7 +1250,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = motorized_equipment_1
-			creator = "JAP" 
+			creator = "JAP"
 		}
 		requested_factories = 2
 		progress = 0.4
@@ -1259,7 +1259,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = light_tank_equipment_1
-			creator = "JAP" 
+			creator = "JAP"
 		}
 		requested_factories = 1
 		progress = 0.4
@@ -1268,7 +1268,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = cv_fighter_equipment_1
-			creator = "JAP" 
+			creator = "JAP"
 		}
 		requested_factories = 1
 		progress = 0.15
@@ -1278,7 +1278,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = cv_nav_bomber_equipment_1
-			creator = "JAP" 
+			creator = "JAP"
 		}
 		requested_factories = 2
 		progress = 0.2

@@ -2,21 +2,21 @@ state={
 	id=808
 	name="STATE_808"
 	manpower = 265402
-	
+
 	state_category = city
 
 	history={
-		
+
 		victory_points = {
-			3722 5	
+			3722 5
 		}
-		
-		
+
+
 		buildings = {
 			infrastructure = 6
 			dockyard = 2
 			air_base = 5
-			
+
 			3722 ={
 				bunker = 6
 			}
@@ -37,4 +37,4 @@ state={
 		705 11649 3722 6724
 	}
 
-    }  
+}

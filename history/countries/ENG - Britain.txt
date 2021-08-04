@@ -39,10 +39,10 @@ set_technology = {
 	naval_bomber1 = 1
 	early_bomber = 1
 	CAS1 = 1
-	
+
 	trench_warfare = 1
 
-	
+
 	fleet_in_being = 1
 	electronic_mechanical_engineering = 1
 	radio = 1
@@ -124,7 +124,7 @@ add_ideas = {
 	ENG_the_war_to_end_all_wars
 	george_v
 }
-	
+
 
 set_convoys = 800
 
@@ -181,7 +181,7 @@ if = {
 1939.1.1 = {
 
 	add_political_power = 1198
-	
+
 	#adding ministers
 	add_ideas = {
 		ENG_ernest_bevin
@@ -189,7 +189,7 @@ if = {
 		rsaf_enfield
 		archibald_wavell
 		charles_portal
-		english_electric		
+		english_electric
 
 		#laws
 		partial_economic_mobilisation
@@ -198,17 +198,17 @@ if = {
 		ENG_george_vi
 	}
 
-	
-create_country_leader = {
-	name = "Neville Chamberlain"
-	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-	picture = "Portrait_Britain_Neville_Chamberlain.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		chamberlain_appeaser rearmer
+
+	create_country_leader = {
+		name = "Neville Chamberlain"
+		desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+		picture = "Portrait_Britain_Neville_Chamberlain.dds"
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {
+			chamberlain_appeaser rearmer
+		}
 	}
-}
 	remove_ideas = george_v #Dead
 
 	complete_national_focus = limited_rearmament_focus
@@ -223,7 +223,7 @@ create_country_leader = {
 	complete_national_focus = uk_commonwealth_focus
 
 	give_guarantee = POL
-	
+
 	set_oob = "ENG_1939"
 	if = {
 		limit = {
@@ -255,7 +255,7 @@ create_country_leader = {
 		infantry_weapons2 = 1
 		support_weapons = 1
 		support_weapons2 = 1
-		
+
 
 		#doctrines
 		#Air
@@ -263,7 +263,7 @@ create_country_leader = {
 		home_defence = 1
 		naval_strike_tactics = 1
 
-			grand_battle_plan = 1
+		grand_battle_plan = 1
 
 		prepared_defense = 1
 		battlefleet_concentration = 1
@@ -322,7 +322,7 @@ create_country_leader = {
 			improved_ship_hull_light = 1
 			improved_ship_hull_cruiser = 1
 			basic_ship_hull_heavy = 1
-			
+
 			improved_ship_hull_carrier = 1
 			dp_secondary_battery = 1
 			improved_sonar = 1
@@ -431,7 +431,7 @@ create_field_marshal = {
 	id = 996
 	picture = "Portrait_Britain_Bernard_Montgomery.dds"
 	traits = { logistics_wizard offensive_doctrine media_personality trait_cautious inflexible_strategist organizer }
-	skill = 4 
+	skill = 4
 	attack_skill = 2
 	defense_skill = 4
 	planning_skill = 3
@@ -541,7 +541,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Thomas Jacomb Hutton"
-		picture = "Portrait_Britain_Thomas_Jacomb_Hutton.dds"
+	picture = "Portrait_Britain_Thomas_Jacomb_Hutton.dds"
 	traits = { old_guard }
 	skill = 2
 	attack_skill = 2
@@ -552,7 +552,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Arthur Percival"
-		picture = "Portrait_Britain_Arthur_Percival.dds"
+	picture = "Portrait_Britain_Arthur_Percival.dds"
 	traits = {  trait_cautious }
 	skill = 2
 	attack_skill = 2
@@ -563,7 +563,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Merton Beckwith-Smith"
-		picture = "Portrait_Britain_Merton_Beckwith_Smith.dds"
+	picture = "Portrait_Britain_Merton_Beckwith_Smith.dds"
 	traits = { commando }
 	skill = 1
 	attack_skill = 1
@@ -597,7 +597,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Henry Wilson"
-		picture = "Portrait_Britain_Henry_Maitland_Wilson.dds"
+	picture = "Portrait_Britain_Henry_Maitland_Wilson.dds"
 	traits = { old_guard politically_connected }
 	skill = 4
 	attack_skill = 2
@@ -608,7 +608,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "William Gott"
-		picture = "Portrait_Britain_William_Gott.dds"
+	picture = "Portrait_Britain_William_Gott.dds"
 	traits = { armor_officer war_hero inflexible_strategist }
 	skill = 3
 	attack_skill = 2
@@ -619,7 +619,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Jock Campbell"
-		picture = "Portrait_Britain_Jock_Campbell.dds"
+	picture = "Portrait_Britain_Jock_Campbell.dds"
 	traits = { armor_officer  }
 	skill = 4
 	attack_skill = 4
@@ -656,7 +656,7 @@ create_corps_commander = {
 	picture = "Portrait_Britain_Brian_Horrocks.dds"
 	traits = {  armor_officer career_officer war_hero }
 	skill = 3
-	
+
 	attack_skill = 1
 	defense_skill = 3
 	planning_skill = 3
@@ -676,7 +676,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Tom Moore" 
+	name = "Tom Moore"
 	picture = "Portrait_Britain_Tom_Moore.dds"
 	traits = { jungle_rat }
 	skill = 1
@@ -689,7 +689,7 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "James Fownes Somerville" # Aristocrat
 	id = 983
-		picture = "Portrait_Britain_James_Fownes_Somerville.dds"
+	picture = "Portrait_Britain_James_Fownes_Somerville.dds"
 	traits = { superior_tactician aviation_enthusiast navy_career_officer }
 	skill = 5
 	attack_skill = 4
@@ -701,7 +701,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Henry Harwood" # Aristocrat
 	id = 984
-		picture = "Portrait_Britain_Henry_Harwood.dds"
+	picture = "Portrait_Britain_Henry_Harwood.dds"
 	traits = { old_guard_navy bold }
 	skill = 3
 	attack_skill = 3
@@ -713,7 +713,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Andrew Cunningham"
 	id = 985
-		picture = "Portrait_Britain_Andrew_Cunningham.dds"
+	picture = "Portrait_Britain_Andrew_Cunningham.dds"
 	traits = { blockade_runner superior_tactician navy_career_officer bold gunnery_expert}
 	skill = 5
 	attack_skill = 5
@@ -725,7 +725,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Bruce Fraser"
 	id = 986
-		picture = "Portrait_Britain_Bruce_Fraser.dds"
+	picture = "Portrait_Britain_Bruce_Fraser.dds"
 	traits = { aviation_enthusiast naval_lineage blockade_runner }
 	skill = 4
 	attack_skill = 3
@@ -737,7 +737,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "John Tovey" # Aristocrat
 	id = 987
-		picture = "Portrait_Britain_John_Tovey.dds"
+	picture = "Portrait_Britain_John_Tovey.dds"
 	traits = { gentlemanly naval_lineage superior_tactician }
 	skill = 4
 	attack_skill = 3
@@ -749,7 +749,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Bernard Rawlings" # Aristocrat
 	id = 988
-		picture = "Portrait_Britain_Bernard_Rawlings.dds"
+	picture = "Portrait_Britain_Bernard_Rawlings.dds"
 	traits = { gentlemanly }
 	skill = 3
 	attack_skill = 3
@@ -761,7 +761,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "John Cunningham"
 	id = 989
-		picture = "Portrait_Britain_John_Cunningham.dds"
+	picture = "Portrait_Britain_John_Cunningham.dds"
 	traits = { navy_career_officer green_water_expert }
 	skill = 4
 	attack_skill = 2
@@ -773,7 +773,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Charles Forbes"
 	id = 990
-		picture = "Portrait_Britain_Charles_Forbes.dds"
+	picture = "Portrait_Britain_Charles_Forbes.dds"
 	traits = { gunnery_expert fly_swatter }
 	skill = 3
 	attack_skill = 3
@@ -785,7 +785,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Algernon Willis"
 	id = 991
-		picture = "Portrait_Britain_Algernon_Willis.dds"
+	picture = "Portrait_Britain_Algernon_Willis.dds"
 	traits = { battleship_adherent spotter }
 	skill = 3
 	attack_skill = 3
@@ -797,7 +797,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Arthur Power"
 	id = 992
-		picture = "Portrait_Britain_Arthur_Power.dds"
+	picture = "Portrait_Britain_Arthur_Power.dds"
 	traits = { gunnery_expert }
 	skill = 2
 	attack_skill = 3
@@ -1147,23 +1147,23 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-			name = "Town Class"
-			type = ship_hull_cruiser_2
-			name_group = ENG_CL_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_light_medium_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_2
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = cruiser_ship_engine_2
-				fixed_ship_armor_slot = ship_armor_cruiser_2
-				front_1_custom_slot = ship_anti_air_2
-				mid_1_custom_slot = ship_torpedo_1
-				mid_2_custom_slot = ship_secondaries_2
-				rear_1_custom_slot = ship_light_medium_battery_2
-			}
+		name = "Town Class"
+		type = ship_hull_cruiser_2
+		name_group = ENG_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_anti_air_2
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_light_medium_battery_2
 		}
+	}
 	# Heavy Cruisers #
 	create_equipment_variant = {
 		name = "County Class"
@@ -1355,7 +1355,7 @@ if = {
 		}
 		obsolete = yes
 	}
-	
+
 	create_equipment_variant = {
 		name = "Hermes Class"
 		type = ship_hull_carrier_conversion_ca
@@ -1388,21 +1388,21 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-			name = "Ark Royal Class"
-			type = ship_hull_carrier_1
-			name_group = ENG_CV_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = carrier_ship_engine_2
-				fixed_ship_secondaries_slot = ship_secondaries_2
-				front_1_custom_slot = ship_deck_space
-			}
+		name = "Ark Royal Class"
+		type = ship_hull_carrier_1
+		name_group = ENG_CV_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			front_1_custom_slot = ship_deck_space
 		}
-	
+	}
+
 }
 1939.1.1 = {
 	if = {
@@ -1434,7 +1434,7 @@ if = {
 		limit = {
 			has_dlc = "Man the Guns"
 		}
-		
+
 		create_equipment_variant = {
 			name = "Illustrious Class"
 			type = ship_hull_carrier_2

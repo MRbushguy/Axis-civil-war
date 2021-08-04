@@ -25,7 +25,7 @@ set_convoys = 5
 1939.1.1 = {
 
 	add_political_power = 1198
-	
+
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
@@ -36,7 +36,7 @@ set_convoys = 5
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-	
+
 	oob = "IRQ_1939"
 	set_technology = {
 		early_fighter = 1
@@ -134,11 +134,11 @@ create_country_leader = {
 
 1947.1.1 = {
 	set_politics = {
-	ruling_party = fascism
-	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = no
-                    }
+		ruling_party = fascism
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
 	set_popularities = {
 		democratic_right = 20
 		authoritarianism = 20

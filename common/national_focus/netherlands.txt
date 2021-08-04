@@ -8,17 +8,17 @@
 
 focus_tree = {
 	id = netherlands_focus
-	
+
 	country = {
 		factor = 0
-		
+
 		modifier = {
 			add = 10
 			tag = HOL
 			has_dlc = "Man the Guns"
 		}
 	}
-	
+
 	default = no
 
 	continuous_focus_position = { x = 50 y = 1500 }
@@ -128,8 +128,8 @@ focus_tree = {
 
 		prerequisite = { focus = HOL_dismantle_atlantikwall }
 		prerequisite = { focus = HOL_strengthen_civilian_sector
-						focus = HOL_strengthen_military_sector
-						}
+			focus = HOL_strengthen_military_sector
+		}
 
 		x = 5
 		y = 4
@@ -353,7 +353,7 @@ focus_tree = {
 			#the idea is to make it so germany won't annex
 		}
 
-		
+
 
 	}
 

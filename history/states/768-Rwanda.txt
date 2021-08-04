@@ -1,7 +1,7 @@
 state={
 	id=768
 	name="STATE_768" # Rwanda
-	
+
 	state_category = pastoral
 
 	history={
@@ -15,7 +15,7 @@ state={
 			infrastructure = 2
 
 		}
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = IEA
 			controller = IEA
 		}

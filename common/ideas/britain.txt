@@ -3,7 +3,7 @@ ideas = {
 	country = {
 
 		ENG_broken_nation = {
-          picture = broken_nation
+			picture = broken_nation
 
 			allowed = {
 				original_tag = ENG
@@ -17,7 +17,7 @@ ideas = {
 		}
 
 		ENG_remember_the_blitz = {
-          picture = remember_the_blitz
+			picture = remember_the_blitz
 
 			allowed = {
 				original_tag = ENG

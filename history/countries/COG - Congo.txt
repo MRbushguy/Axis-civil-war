@@ -21,7 +21,7 @@ set_convoys = 5
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-	
+
 	set_technology = {
 
 		#doctrines
@@ -73,7 +73,7 @@ set_popularities = {
 #}
 
 create_country_leader = {
-	
+
 	name = "Pierre Ryckmans"
 	picture = "Pierre Ryckmans.dds"
 	expire = "1965.1.1"
@@ -82,7 +82,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	
+
 	name = "Lumumba Lomendja"
 	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_1.dds"
 	expire = "1965.1.1"
@@ -93,17 +93,17 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	
+
 	name = "David Manera"
 	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_Land_3.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		
+
 	}
 }
 
 add_ideas = {
-		Leopold_III
-		COG_Diamond_Profits
-	}
+	Leopold_III
+	COG_Diamond_Profits
+}

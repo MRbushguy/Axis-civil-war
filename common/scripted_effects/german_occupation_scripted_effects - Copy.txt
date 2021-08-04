@@ -1,9 +1,9 @@
 
 increase_resistance = {
 	if = {
-		limit = { has_idea = resistance_4 
-		          has_war_support > 0.4
-		        }
+		limit = { has_idea = resistance_4
+			has_war_support > 0.4
+		}
 	}
 	else_if = {
 		limit = { has_idea = resistance_3 }
@@ -24,7 +24,7 @@ increase_resistance = {
 		swap_ideas = {
 			remove_idea = resistance_1
 			add_idea = resistance_2
-		}		
+		}
 	}
 	else_if = {
 		limit = { has_idea = resistance_0 }
@@ -37,8 +37,8 @@ increase_resistance = {
 
 decrease_resistance = {
 	if = {
-		limit = { has_idea = resistance_0 
-		has_war_support < 0.5
+		limit = { has_idea = resistance_0
+			has_war_support < 0.5
 		}
 	}
 	else_if = {
@@ -60,7 +60,7 @@ decrease_resistance = {
 		swap_ideas = {
 			remove_idea = resistance_3
 			add_idea = resistance_2
-		}		
+		}
 	}
 	else_if = {
 		limit = { has_idea = resistance_4 }
@@ -73,8 +73,8 @@ decrease_resistance = {
 
 increase_devastation = {
 	if = {
-		limit = { has_idea = devastation_4 
-		has_stability < 0.5
+		limit = { has_idea = devastation_4
+			has_stability < 0.5
 		}
 	}
 	else_if = {
@@ -96,7 +96,7 @@ increase_devastation = {
 		swap_ideas = {
 			remove_idea = devastation_1
 			add_idea = devastation_2
-		}		
+		}
 	}
 	else_if = {
 		limit = { has_idea = devastation_0 }
@@ -109,8 +109,8 @@ increase_devastation = {
 
 decrease_devastation = {
 	if = {
-		limit = { has_idea = devastation_0 
-		has_stability > 0.4
+		limit = { has_idea = devastation_0
+			has_stability > 0.4
 		}
 	}
 	else_if = {
@@ -132,7 +132,7 @@ decrease_devastation = {
 		swap_ideas = {
 			remove_idea = devastation_3
 			add_idea = devastation_2
-		}		
+		}
 	}
 	else_if = {
 		limit = { has_idea = devastation_4 }

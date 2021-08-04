@@ -3,7 +3,7 @@ state={
 	id=197
 	name="STATE_197"
 	manpower = 896311
-	
+
 	state_category = rural
 
 	history={
@@ -16,13 +16,13 @@ state={
 			dockyard = 1
 		}
 		add_core_of = SOV
-		
+
 		1939.1.1 = {
 			buildings = {
 				dockyard = 2
 			}
 		}
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = UKR
 			controller = UKR
 			add_core_of = UPR
@@ -30,6 +30,6 @@ state={
 	}
 
 	provinces={
-		409 574 3403 3755 6597 9573 11546 11683 
+		409 574 3403 3755 6597 9573 11546 11683
 	}
 }

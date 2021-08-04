@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 1939.1.1 = {
-	
+
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
@@ -19,7 +19,7 @@ set_convoys = 20
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-	
+
 	set_technology = {
 		tech_support = 1
 		tech_recon = 1
@@ -68,24 +68,24 @@ set_popularities = {
 }
 
 1947.1.1 = {
-    set_cosmetic_tag = ITA_puppet
+	set_cosmetic_tag = ITA_puppet
 	set_politics = {
 		ruling_party = authoritarianism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
-set_popularities = {
-	authoritarianism = 60
-	fascism = 40
-}
-
-create_country_leader = {
-	name = "ICA Leader"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = colonial_government
-	traits = {
+	set_popularities = {
+		authoritarianism = 60
+		fascism = 40
 	}
-}
+
+	create_country_leader = {
+		name = "ICA Leader"
+		desc = ""
+		picture = ""
+		expire = "1965.1.1"
+		ideology = colonial_government
+		traits = {
+		}
+	}

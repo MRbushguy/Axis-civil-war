@@ -18,7 +18,7 @@ set_war_support = 0.1
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
 	gw_artillery = 1
@@ -53,7 +53,7 @@ if = {
 	}
 }
 
-if = { 
+if = {
 	limit = { NOT = { has_dlc = "Together for Victory" } }
 	set_cosmetic_tag = CAN_ALY
 }
@@ -68,8 +68,8 @@ if = {
 
 1939.1.1 = {
 	add_political_power = 1198
-	
-	
+
+
 	if = {
 		limit = { has_dlc = "Together for Victory" }
 		complete_national_focus = CAN_army_modernization
@@ -81,7 +81,7 @@ if = {
 		complete_national_focus = CAN_rowell_sirois_commission
 		complete_national_focus = CAN_crown_corporations
 		complete_national_focus = CAN_national_housing_act
-		
+
 		else = {
 			#generic focuses
 			complete_national_focus = army_effort
@@ -102,11 +102,11 @@ if = {
 		low_economic_mobilisation
 	}
 
-	
+
 	oob = "CAN_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "CAN_1939_naval_mtg"
+		set_naval_oob = "CAN_1939_naval_mtg"
 		else = {
 			set_naval_oob = "CAN_1939_naval_legacy"
 		}
@@ -208,14 +208,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
-    name = "Tim Buck"
-    desc = "POLITICS_TIM_BUCK_DESC"
-    picture = "Portrait_Canada_Tim_Buck.dds"
-    expire = "1965.1.1"
-    ideology = marxism
-    traits = {
+	name = "Tim Buck"
+	desc = "POLITICS_TIM_BUCK_DESC"
+	picture = "Portrait_Canada_Tim_Buck.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
         #
-    }
+	}
 }
 
 create_country_leader = {
@@ -237,10 +237,10 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = {  }
 	skill = 4
-    attack_skill = 2
-    defense_skill = 3
-    planning_skill = 3
-    logistics_skill = 5
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 5
 }
 
 create_field_marshal = {
@@ -248,10 +248,10 @@ create_field_marshal = {
 	gfx = "GFX_CAN_charles_foulkes"
 	traits = { }
 	skill = 4
-    attack_skill = 4
-    defense_skill = 2
-    planning_skill = 4
-    logistics_skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -259,20 +259,20 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { }
 	skill = 3
-    attack_skill = 1
-    defense_skill = 1
-    planning_skill = 3
-    logistics_skill = 5
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 5
 }
 create_corps_commander = {
 	name = "Bert Hoffmeister"
 	gfx = "GFX_CAN_bert_hoffmeister"
 	traits = { hill_fighter }
 	skill = 4
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 3
-    logistics_skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_navy_leader = {
@@ -335,7 +335,7 @@ if = {
 }
 
 if = {
-	limit = { has_dlc = "Man the Guns" } 
+	limit = { has_dlc = "Man the Guns" }
 	### Ship Variants ###
 	# Destroyers #
 	create_equipment_variant = {

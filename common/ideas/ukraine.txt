@@ -70,7 +70,7 @@ ideas = {
 			}
 
 			modifier = {
-				production_speed_industrial_complex_factor = 0.05 
+				production_speed_industrial_complex_factor = 0.05
 				production_speed_infrastructure_factor = 0.1
 				army_speed_factor = 0.05
 			}
@@ -105,7 +105,7 @@ ideas = {
 				political_power_cost = -0.05
 				production_speed_buildings_factor = 0.1
 				industrial_capacity_factory = 0.1
-				
+
 			}
 		}
 
@@ -123,11 +123,11 @@ ideas = {
 				production_speed_buildings_factor = 0.15
 				industrial_capacity_factory = 0.15
 				war_support_weekly = -0.005
-				
+
 			}
 		}
 
-		
 
-    }
+
+	}
 }

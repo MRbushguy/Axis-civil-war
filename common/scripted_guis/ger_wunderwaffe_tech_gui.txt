@@ -4,6 +4,6 @@ scripted_gui = {
 		context_type = decision_category
 		window_name = "ger_wunderwaffe_tech_ui_window"
 	}
-	
+
 }
 

@@ -1,6 +1,6 @@
 
 UKR_agrarian_revolt = {
-	
+
 
 	UKR_increasing_discontent = {
 
@@ -18,8 +18,8 @@ UKR_agrarian_revolt = {
 
 		visible = {
 			tag = UKR
-			
-			
+
+
 		}
 
 		timeout_effect = {
@@ -83,7 +83,7 @@ UKR_agrarian_revolt = {
 
 		visible = {
 			has_country_flag = discontent_1
-			
+
 		}
 
 		timeout_effect = {
@@ -129,8 +129,8 @@ UKR_agrarian_revolt = {
 			add_country_flag = discontent_2
 
 
- 
-			
+
+
 		}
 	}
 
@@ -155,7 +155,7 @@ UKR_agrarian_revolt = {
 
 		visible = {
 			has_country_flag = discontent_2
-			
+
 		}
 
 		timeout_effect = {
@@ -163,7 +163,7 @@ UKR_agrarian_revolt = {
 
 			country_event = { id = ukraine.2 }
 
-			
+
 		}
 	}
 }

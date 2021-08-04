@@ -4,7 +4,7 @@ spriteTypes = {
 		name = "GFX_goal_GER_strengthen_ordenstaat"
 		texturefile = "gfx/interface/goals/GER_strengthen_ordenstaat.dds"
 	}
-    SpriteType = {
+	SpriteType = {
 		name = "GFX_goal_GER_adress_army"
 		texturefile = "gfx/interface/goals/GER_adress_army.dds"
 	}
@@ -93,7 +93,7 @@ spriteTypes = {
 		name = "GFX_goal_GER_the_swiss_resistance"
 		texturefile = "gfx/interface/goals/GER_the_swiss_resistance.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_goal_GER_the_allies"
 		texturefile = "gfx/interface/goals/GER_the_allies.dds"
 	}
@@ -204,71 +204,71 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_GER_for_control"
 		texturefile = "gfx/interface/goals/GER_for_control.dds"
-	}		
+	}
 	SpriteType = {
 		name = "GFX_goal_GER_caucasus_oil"
 		texturefile = "gfx/interface/goals/GER_caucasus_oil.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_goal_GER_wehrmacht_recruitment"
 		texturefile = "gfx/interface/goals/GER_wehrmacht_recruitment.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_goal_GER_wehrmacht_conquests"
 		texturefile = "gfx/interface/goals/GER_wehrmacht_conquests.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_goal_GER_refnaz_reforms"
 		texturefile = "gfx/interface/goals/GER_refnaz_reforms.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_goal_GER_weaken_military_sector"
 		texturefile = "gfx/interface/goals/GER_weaken_military_sector.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_goal_GER_training_facilities"
 		texturefile = "gfx/interface/goals/GER_training_facilities.dds"
-	}		
-		SpriteType = {
+	}
+	SpriteType = {
 		name = "GFX_goal_GER_prepare_for_urban_combat"
 		texturefile = "gfx/interface/goals/GER_prepare_for_urban_combat.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_goal_GER_for_stability"
 		texturefile = "gfx/interface/goals/GER_for_the_future.dds"
-	}				
+	}
 
 		#icon
 	### SOV
-	SpriteType = { 
+	SpriteType = {
 		name = "GFX_focus_SOV_shattered_union"
 		texturefile = "gfx/interface/goals/SOV/shat_union.dds"
 	}
-	SpriteType = { 
+	SpriteType = {
 		name = "GFX_focus_IOC_surrounded"
 		texturefile = "gfx/interface/goals/IOC_surrounded.dds"
 	}
-	SpriteType = { 
+	SpriteType = {
 		name = "GFX_focus_SOV_shattered_union"
 		texturefile = "gfx/interface/goals/SOV/shat_union.dds"
 	}
-	SpriteType = { 
+	SpriteType = {
 		name = "GFX_focus_SOV_memories_of_rev"
 		texturefile = "gfx/interface/goals/SOV/memories_rev.dds"
 	}
-	SpriteType = { 
+	SpriteType = {
 		name = "GFX_focus_SOV_restore_faith"
 		texturefile = "gfx/interface/goals/SOV/restore_faith.dds"
 	}
-	SpriteType = { 
+	SpriteType = {
 		name = "GFX_focus_SOV_hidden_fac"
 		texturefile = "gfx/interface/goals/SOV/hidden_fac.dds"
 	}
-	SpriteType = { 
+	SpriteType = {
 		name = "GFX_focus_SOV_farmer_workers"
 		texturefile = "gfx/interface/goals/SOV/farmer_worker.dds"
 	}
-	SpriteType = { 
+	SpriteType = {
 		name = "GFX_focus_SOV_trust_stalin"
 		texturefile = "gfx/interface/goals/SOV/trust_stalin.dds"
 	}
@@ -279,12 +279,12 @@ spriteTypes = {
 ###ITA 
 
 
-SpriteType = { 
+	SpriteType = {
 		name = "GFX_focus_Avanti_Italia"
 		texturefile = "gfx/interface/goals/Avanti_Italia.dds"
 	}
-	
-	SpriteType = { 
+
+	SpriteType = {
 		name = "GFX_focus_new_age"
 		texturefile = "gfx/interface/goals/new_age.dds"
 	}

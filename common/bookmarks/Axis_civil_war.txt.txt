@@ -5,7 +5,7 @@ bookmarks = {
 		date = 1947.1.1.12
 		picture = "GFX_axis_civil_war_bookmark"
 		default_country = "ITA"
-	
+
 
 		USA = {
 			history = USA_BLITZKRIEG_DESC
@@ -43,25 +43,25 @@ bookmarks = {
 				state_shintoism
 				JAP_guide_the_zaibatsus
 				JAP_militarism
-			}	
+			}
 			focuses = {
 				JAP_the_zero
 				JAP_warrior_spirit
 				JAP_strike_on_the_southern_resource_area
-			}		
+			}
 		}
 		GER = {
 			history = GER_BLITZKRIEG_DESC
 			ideology = national_socialism
 			ideas = {
-              			GER_german_depression_1
-              			GER_plunder_economy_1
-              			GER_jewish_science
+				GER_german_depression_1
+				GER_plunder_economy_1
+				GER_jewish_science
 			}
 			focuses = {
-              			GER_cancel_tripartite
-             			GER_the_final_showdown
-              			GER_the_unspoken_war
+				GER_cancel_tripartite
+				GER_the_final_showdown
+				GER_the_unspoken_war
 			}
 		}
 		ITA = {
@@ -75,7 +75,7 @@ bookmarks = {
 				ITA_pact_of_steel
 				ITA_spanish_italian_faction
 				ITA_italy_first
-			}			
+			}
 		}
 		SOV = {
 			history = SOV_BLITZKRIEG_DESC
@@ -85,7 +85,7 @@ bookmarks = {
 				no_economy
 				collapsed_soc
 			}
-			focuses = {		
+			focuses = {
 				SOV_shattered_union
 			}
 		}
@@ -107,14 +107,14 @@ bookmarks = {
 			history = "IOC_BLITZKRIEG_DESC"
 			ideology = fascism
 			ideas = {
-              garrison_of_the_black_sea
-              Only_the_best
-              native_resistance_low
+				garrison_of_the_black_sea
+				Only_the_best
+				native_resistance_low
 			}
 			focuses = {
-              surrounded_by_the_swastikas
-              all_alone
-              an_ocean_away
+				surrounded_by_the_swastikas
+				all_alone
+				an_ocean_away
 			}
 		}
 

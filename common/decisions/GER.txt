@@ -5,7 +5,7 @@ GER_internal_factions = {
 
 
 	GER_test_decision = {
-		
+
 		icon = spr_political_assassination
 
 		allowed = {
@@ -13,7 +13,7 @@ GER_internal_factions = {
 		}
 
 		available = {
-			
+
 		}
 
 		cost = 0
@@ -21,37 +21,37 @@ GER_internal_factions = {
 		days_remove = 1
 
 		complete_effect = {
-			add_to_variable = { 
+			add_to_variable = {
 				var = GER_NSDAP_influence
 				value = 80
 			}
-			add_to_variable = { 
+			add_to_variable = {
 				var = GER_refnaz_influence
 				value = 80
 			}
-			add_to_variable = { 
+			add_to_variable = {
 				var = GER_wehrmacht_influence
 				value = 80
-			}	
-			add_to_variable = { 
+			}
+			add_to_variable = {
 				var = GER_militarist_influence
 				value = 80
-			}	
-			add_to_variable = { 
+			}
+			add_to_variable = {
 				var = GER_waffen_ss_influence
 				value = 80
-			}	
-			add_to_variable = { 
+			}
+			add_to_variable = {
 				var = GER_ss_influence
 				value = 80
-			}		
+			}
 
-			GER_faction_cleanup = yes	
+			GER_faction_cleanup = yes
 		}
 	}
 
 	GER_test_decision_2 = {
-		
+
 		icon = spr_political_assassination
 
 		allowed = {
@@ -59,7 +59,7 @@ GER_internal_factions = {
 		}
 
 		available = {
-			
+
 		}
 
 		cost = 0
@@ -67,37 +67,37 @@ GER_internal_factions = {
 		days_remove = 1
 
 		complete_effect = {
-			add_to_variable = { 
+			add_to_variable = {
 				var = GER_NSDAP_influence
 				value = -80
 			}
-			add_to_variable = { 
+			add_to_variable = {
 				var = GER_refnaz_influence
 				value = -80
 			}
-			add_to_variable = { 
+			add_to_variable = {
 				var = GER_wehrmacht_influence
 				value = -80
-			}	
-			add_to_variable = { 
+			}
+			add_to_variable = {
 				var = GER_militarist_influence
 				value = -80
-			}	 
-			add_to_variable = { 
+			}
+			add_to_variable = {
 				var = GER_waffen_ss_influence
 				value = -80
-			}	
-			add_to_variable = { 
+			}
+			add_to_variable = {
 				var = GER_ss_influence
 				value = -80
-			}		
+			}
 
-			GER_faction_cleanup = yes	
+			GER_faction_cleanup = yes
 		}
 	}
 
 	GER_assassinate_ss_decision = {
-		
+
 		icon = spr_political_assassination
 
 		allowed = {
@@ -105,7 +105,7 @@ GER_internal_factions = {
 		}
 
 		available = {
-			
+
 		}
 
 		cost = 25
@@ -114,21 +114,21 @@ GER_internal_factions = {
 
 		complete_effect = {
 			custom_effect_tooltip = GER_assassinate_ss_tt
-			add_to_variable = { 
+			add_to_variable = {
 				var = GER_ss_influence
 				value = -5
 			}
-			add_to_variable = { 
+			add_to_variable = {
 				var = GER_NSDAP_influence
 				value = 5
 			}
 
-			GER_faction_cleanup = yes		
+			GER_faction_cleanup = yes
 		}
 	}
 
 	GER_student_protests_decision = {
-		
+
 		icon = generic_political_rally
 
 		allowed = {
@@ -136,7 +136,7 @@ GER_internal_factions = {
 		}
 
 		available = {
-			
+
 		}
 
 		cost = 25
@@ -145,21 +145,21 @@ GER_internal_factions = {
 
 		complete_effect = {
 			custom_effect_tooltip = GER_student_protests_tt
-			add_to_variable = { 
+			add_to_variable = {
 				var = GER_refnaz_influence
 				value = 5
 			}
-			add_to_variable = { 
+			add_to_variable = {
 				var = GER_NSDAP_influence
 				value = -5
 			}
 
-			GER_faction_cleanup = yes		
+			GER_faction_cleanup = yes
 		}
 	}
 
 	GER_wehrmacht_takeover = {
-		
+
 		icon = faction_ger_wehr
 
 		allowed = {
@@ -167,7 +167,7 @@ GER_internal_factions = {
 		}
 
 		available = {
-			
+
 		}
 
 		cost = 1
@@ -175,21 +175,21 @@ GER_internal_factions = {
 		days_remove = 1
 
 		complete_effect = {
-		custom_effect_tooltip = GER_wehrmacht_takeover_tt
-		create_country_leader = {
-			name = "Oberkommando des Heeres"
-			desc = "Politics_Oberkommando_des_Heeres_desc"
-			picture = "OKH.dds"
-			expire = "1965.1.1"
-			ideology = final_nazism
-			traits = {
+			custom_effect_tooltip = GER_wehrmacht_takeover_tt
+			create_country_leader = {
+				name = "Oberkommando des Heeres"
+				desc = "Politics_Oberkommando_des_Heeres_desc"
+				picture = "OKH.dds"
+				expire = "1965.1.1"
+				ideology = final_nazism
+				traits = {
 				}
-			}	
+			}
 		}
 	}
 
 	GER_nsdap_takeover = {
-		
+
 		icon = faction_ger_ndsap
 
 		allowed = {
@@ -197,7 +197,7 @@ GER_internal_factions = {
 		}
 
 		available = {
-			
+
 		}
 
 		cost = 1
@@ -205,18 +205,18 @@ GER_internal_factions = {
 		days_remove = 1
 
 		complete_effect = {
-		custom_effect_tooltip = GER_nsdap_takeover_tt
-		create_country_leader = {
-			name = "NSDAP Notfallregierung"
-			desc = "Politics_NSDAP_Notfallregierung_desc"
-			picture = "NSDAP Notfallregierung.dds"
-			expire = "1965.1.1"
-			ideology = final_nazism
-			traits = {
+			custom_effect_tooltip = GER_nsdap_takeover_tt
+			create_country_leader = {
+				name = "NSDAP Notfallregierung"
+				desc = "Politics_NSDAP_Notfallregierung_desc"
+				picture = "NSDAP Notfallregierung.dds"
+				expire = "1965.1.1"
+				ideology = final_nazism
+				traits = {
 				}
-			}	
+			}
 		}
-	}					
+	}
 }
 
 GER_UKR_decision_category = {
@@ -238,7 +238,7 @@ GER_UKR_decision_category = {
 
 		fire_only_once = yes
 
-		
+
 		cost = 25
 
 		modifier = {
@@ -282,7 +282,7 @@ GER_UKR_decision_category = {
 
 		fire_only_once = yes
 
-	
+
 
 		cost = 25
 
@@ -304,9 +304,9 @@ GER_UKR_decision_category = {
 				add_idea = GER_fixing_famine_1
 			}
 			add_equipment_to_stockpile = {
-					type = motorized_equipment
-					amount = -15000
-				}
+				type = motorized_equipment
+				amount = -15000
+			}
 
 		}
 
@@ -322,7 +322,7 @@ GER_UKR_decision_category = {
 
 		available = {
 			has_idea = GER_fixing_famine_1
-			
+
 		}
 
 		visible = {
@@ -352,7 +352,7 @@ GER_UKR_decision_category = {
 				remove_idea = GER_fixing_famine_1
 				add_idea = GER_fixing_famine_2
 			}
-			
+
 
 
 
@@ -371,7 +371,7 @@ GER_UKR_decision_category = {
 
 		available = {
 			has_idea = GER_fixing_famine_2
-			
+
 		}
 
 		visible = {
@@ -396,7 +396,7 @@ GER_UKR_decision_category = {
 		remove_effect = {
 
 			remove_ideas = GER_fixing_famine_2
-			
+
 
 
 
@@ -418,7 +418,7 @@ GER_UKR_decision_category = {
 		}
 
 		available = {
-			
+
 		}
 
 		fire_only_once = yes
@@ -468,7 +468,7 @@ GER_UKR_decision_category = {
 			has_equipment = { motorized_equipment > 500 }
 
 
-			
+
 		}
 
 
@@ -526,7 +526,7 @@ GER_UKR_decision_category = {
 
 			has_equipment = { medium_tank_equipment > 500 }
 			has_equipment = { motorized_equipment > 1000 }
-			
+
 		}
 
 		fire_only_once = yes
@@ -548,7 +548,7 @@ GER_UKR_decision_category = {
 
 			custom_effect_tooltip = GER_tank_gift_tt
 
-			
+
 
 			hidden_effect = {
 
@@ -568,16 +568,16 @@ GER_UKR_decision_category = {
 				}
 
 				196 = {
-				add_building_construction = {
-				type = bunker
-				level = 1
-				province = 568
-				instant_build = yes
+					add_building_construction = {
+						type = bunker
+						level = 1
+						province = 568
+						instant_build = yes
+					}
 				}
-			}
 
 			}
-			
+
 		}
 
 	}
@@ -618,10 +618,10 @@ GER_UKR_decision_category = {
 			set_country_flag = GER_rostov_built_up
 
 
-			
+
 			218 = {
-				
-			
+
+
 				add_building_construction = {
 					type = naval_base
 					level = 8
@@ -643,10 +643,10 @@ GER_UKR_decision_category = {
 					level = 3
 					instant_build = yes
 				}
-			
+
 
 			}
-			
+
 		}
 
 
@@ -656,7 +656,7 @@ GER_UKR_decision_category = {
 
 		icon = generic_research
 		available = {
-			
+
 		}
 
 		fire_only_once = yes
@@ -696,9 +696,9 @@ GER_UKR_decision_category = {
 
 			}
 
-			
+
 		}
-		
+
 
 	}
 
@@ -742,9 +742,9 @@ GER_UKR_decision_category = {
 				hidden_effect = {
 					decrease_devastation = yes
 				}
-				
+
 			}
-			
+
 
 
 		}
@@ -838,14 +838,14 @@ GER_UKR_decision_category = {
 				add_ideas = UKR_purged_bureaucracy
 
 
-			}	
+			}
 
 		}
 
-			
 
 
-		
+
+
 
 	}
 
@@ -886,15 +886,15 @@ GER_UKR_decision_category = {
 		remove_effect = {
 
 			UKR = {
-				
+
 				swap_ideas = {
 					remove_idea = UKR_purged_bureaucracy
 					add_idea = UKR_model_rk
 				}
-				
 
 
-			}	
+
+			}
 
 		}
 
@@ -906,7 +906,7 @@ GER_UKR_decision_category = {
 
 
 GER_the_state_of_germany = {
-	
+
 
 	GER_ticking_plunder_economy = {
 
@@ -922,8 +922,8 @@ GER_the_state_of_germany = {
 
 		visible = {
 			tag = GER
-			
-			
+
+
 		}
 
 		timeout_effect = {
@@ -939,7 +939,7 @@ GER_the_state_of_germany = {
 				}
 
 				###cause social unrest
-			} else = {
+				} else = {
 
 				GER_decrease_plunder_economy = yes
 
@@ -954,7 +954,7 @@ GER_the_state_of_germany = {
 				}
 				add_to_variable = {GER_economy_refresh_time = -10}
 			}
-			
+
 			hidden_effect = {
 				activate_mission = GER_ticking_plunder_economy
 			}
@@ -965,7 +965,7 @@ GER_the_state_of_germany = {
 	GER_exploit_the_east_territories = {
 
 
-	icon = right_hand
+		icon = right_hand
 
 		allowed = {
 			tag = GER
@@ -976,10 +976,10 @@ GER_the_state_of_germany = {
 
 			has_completed_focus = GER_exploit_the_east
 
-			
+
 			NOT = {
 				has_idea = GER_plunder_economy_0
-				
+
 			}
 
 			custom_trigger_tooltip = {
@@ -988,13 +988,13 @@ GER_the_state_of_germany = {
 				NOT = {
 					has_country_flag = GER_plundering
 				}
-					
+
 			}
-				
-			
 
 
-			
+
+
+
 
 			custom_effect_tooltip = GER_goods_to_be_plundered_tt
 
@@ -1052,7 +1052,7 @@ GER_the_state_of_germany = {
 				}
 
 			}
-			
+
 		}
 
 		cost = GER_plunder_east
@@ -1081,7 +1081,7 @@ GER_the_state_of_germany = {
 					increase_devastation = yes
 					increase_resistance = yes
 				}
-			} 
+			}
 			else_if = {
 
 				limit = {
@@ -1155,7 +1155,7 @@ GER_the_state_of_germany = {
 					increase_devastation = yes
 					increase_resistance = yes
 				}
-			} 
+			}
 			else_if = {
 
 				limit = {
@@ -1230,7 +1230,7 @@ GER_the_state_of_germany = {
 					increase_devastation = yes
 					increase_resistance = yes
 				}
-			} 
+			}
 			else_if = {
 
 				limit = {
@@ -1304,7 +1304,7 @@ GER_the_state_of_germany = {
 					increase_devastation = yes
 					increase_resistance = yes
 				}
-			} 
+			}
 			else_if = {
 
 				limit = {
@@ -1369,7 +1369,7 @@ GER_the_state_of_germany = {
 
 			add_to_variable = {GER_plunder_east = 25}
 			clr_country_flag = GER_plundering
-			
+
 		}
 
 	}
@@ -1378,7 +1378,7 @@ GER_the_state_of_germany = {
 	GER_exploit_the_western_territories = {
 
 
-	icon = left_hand
+		icon = left_hand
 
 		allowed = {
 			tag = GER
@@ -1389,10 +1389,10 @@ GER_the_state_of_germany = {
 
 			has_completed_focus = GER_exploit_the_east
 
-			
+
 			NOT = {
 				has_idea = GER_plunder_economy_0
-				
+
 			}
 
 			custom_trigger_tooltip = {
@@ -1401,13 +1401,13 @@ GER_the_state_of_germany = {
 				NOT = {
 					has_country_flag = GER_plundering
 				}
-					
+
 			}
-				
-			
 
 
-			
+
+
+
 
 			custom_effect_tooltip = GER_goods_to_be_plundered_tt
 
@@ -1449,7 +1449,7 @@ GER_the_state_of_germany = {
 				}
 
 			}
-			
+
 		}
 
 		days_remove = 20
@@ -1458,7 +1458,7 @@ GER_the_state_of_germany = {
 
 		complete_effect = {
 
-			set_country_flag = GER_plundering 
+			set_country_flag = GER_plundering
 		}
 
 		remove_effect = {
@@ -1478,7 +1478,7 @@ GER_the_state_of_germany = {
 					increase_devastation = yes
 					increase_resistance = yes
 				}
-			} 
+			}
 			else_if = {
 
 				limit = {
@@ -1522,7 +1522,7 @@ GER_the_state_of_germany = {
 					increase_devastation = yes
 					increase_resistance = yes
 				}
-			} 
+			}
 			else_if = {
 
 				limit = {
@@ -1567,7 +1567,7 @@ GER_the_state_of_germany = {
 					increase_devastation = yes
 					increase_resistance = yes
 				}
-			} 
+			}
 			else_if = {
 
 				limit = {
@@ -1611,7 +1611,7 @@ GER_the_state_of_germany = {
 					increase_devastation = yes
 					increase_resistance = yes
 				}
-			} 
+			}
 			else_if = {
 
 				limit = {
@@ -1645,10 +1645,10 @@ GER_the_state_of_germany = {
 
 			add_to_variable = {GER_plunder_west = 25}
 			clr_country_flag = GER_plundering
-			
+
 		}
 
-			
+
 	}
 
 
@@ -1661,15 +1661,15 @@ GER_the_state_of_germany = {
 
 GER_wunderwaffe_tech = {
 
-GER_wunderwaffe_1 = {
-		
+	GER_wunderwaffe_1 = {
+
 		icon = generic_air
 		allowed = {
 			tag = GER
 		}
 
 		available = {
-			
+
 		}
 
 		cost = 25
@@ -1678,11 +1678,11 @@ GER_wunderwaffe_1 = {
 		days_re_enable = 1
 
 		complete_effect = {
-		custom_effect_tooltip = GER_wunderwaffe_jet_1_tt
-		add_tech_bonus = {
-		    bonus = 0.5
-		    uses = 1
-		    category = jet_technology
+			custom_effect_tooltip = GER_wunderwaffe_jet_1_tt
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = jet_technology
 			}
 		}
 	}
@@ -1711,13 +1711,13 @@ GER_resistance_decisions_italy = {
 		fire_only_once = no
 
 		activation = {
-			
+
 		}
 
 		visible = {
 			tag = GER
 			#has_completed_focus = GER_the_swiss_resistance
-			
+
 		}
 
 		#cancel_if_not_visible = yes
@@ -1732,10 +1732,10 @@ GER_resistance_decisions_italy = {
 
 					151 = {has_state_flag = GER_has_no_resistance}
 					3 = {has_state_flag = GER_has_no_resistance}
-					 
+
 				}
 
-				
+
 				every_owned_state = {
 					limit = {
 						OR = {
@@ -1743,10 +1743,10 @@ GER_resistance_decisions_italy = {
 							state = 3
 						}
 					}
-					
+
 					add_dynamic_modifier = { modifier = low_resistance }
 					clr_state_flag = GER_has_no_resistance
-				    set_state_flag = GER_has_low_resistance
+					set_state_flag = GER_has_low_resistance
 				}
 
 			}
@@ -1756,10 +1756,10 @@ GER_resistance_decisions_italy = {
 
 					151 = {has_state_flag = GER_has_low_resistance}
 					3 = {has_state_flag = GER_has_low_resistance}
-					 
+
 				}
 
-				
+
 				every_owned_state = {
 					limit = {
 						OR = {
@@ -1770,7 +1770,7 @@ GER_resistance_decisions_italy = {
 					remove_dynamic_modifier = { modifier = low_resistance }
 					add_dynamic_modifier = { modifier = medium_resistance }
 					clr_state_flag = GER_has_low_resistance
-				    set_state_flag = GER_has_medium_resistance
+					set_state_flag = GER_has_medium_resistance
 				}
 
 			}
@@ -1780,20 +1780,20 @@ GER_resistance_decisions_italy = {
 
 					151 = {has_state_flag = GER_has_medium_resistance}
 					3 = {has_state_flag = GER_has_medium_resistance}
-					 
+
 				}
 
-				
+
 				every_owned_state = {
 					limit = {
-						OR = { 
+						OR = {
 							state = 151
 							state = 3
 						}
 					}
 					remove_dynamic_modifier = { modifier = medium_resistance }
 					add_dynamic_modifier = { modifier = high_resistance }
-					clr_state_flag = GER_has_medium_resistance 
+					clr_state_flag = GER_has_medium_resistance
 					set_state_flag = GER_has_high_resistance
 				}
 
@@ -1805,10 +1805,10 @@ GER_resistance_decisions_italy = {
 					151 = {has_state_flag = GER_has_high_resistance}
 					3 = {has_state_flag = GER_has_high_resistance}
 
-					 
+
 				}
 
-				
+
 				every_owned_state = {
 					limit = {
 						OR = {
@@ -1822,7 +1822,7 @@ GER_resistance_decisions_italy = {
 
 
 
-					
+
 				}
 
 			}
@@ -1853,7 +1853,7 @@ GER_resistance_decisions_italy = {
 
 				151 = {
 					OR = {
-					
+
 						has_state_flag = GER_has_low_resistance
 						has_state_flag = GER_has_medium_resistance
 						has_state_flag = GER_has_high_resistance
@@ -1881,9 +1881,9 @@ GER_resistance_decisions_italy = {
 		days_remove = 35
 
 		visible = {
-			original_tag = GER  
+			original_tag = GER
 			has_completed_focus = GER_the_swiss_resistance
-			
+
 		}
 
 
@@ -1891,9 +1891,9 @@ GER_resistance_decisions_italy = {
 
 
 			add_equipment_to_stockpile = {
-					type = infantry_equipment
-					amount = -5000
-				}
+				type = infantry_equipment
+				amount = -5000
+			}
 
 
 			if = {
@@ -1901,10 +1901,10 @@ GER_resistance_decisions_italy = {
 
 					151 = {has_state_flag = GER_has_low_resistance}
 					3 = {has_state_flag = GER_has_low_resistance}
-					 
+
 				}
 
-				
+
 				every_owned_state = {
 					limit = {
 						OR = {
@@ -1914,7 +1914,7 @@ GER_resistance_decisions_italy = {
 					}
 					remove_dynamic_modifier = { modifier = low_resistance }
 					clr_state_flag = GER_has_low_resistance
-				    set_state_flag = GER_has_no_resistance
+					set_state_flag = GER_has_no_resistance
 				}
 
 			}
@@ -1924,10 +1924,10 @@ GER_resistance_decisions_italy = {
 
 					151 = {has_state_flag = GER_has_medium_resistance}
 					3 = {has_state_flag = GER_has_medium_resistance}
-					 
+
 				}
 
-				
+
 				every_owned_state = {
 					limit = {
 						OR = {
@@ -1937,8 +1937,8 @@ GER_resistance_decisions_italy = {
 					}
 					remove_dynamic_modifier = { modifier = medium_resistance }
 					add_dynamic_modifier = { modifier = low_resistance }
-					clr_state_flag = GER_has_medium_resistance 
-					set_state_flag = GER_has_low_resistance 
+					clr_state_flag = GER_has_medium_resistance
+					set_state_flag = GER_has_low_resistance
 				}
 
 			}
@@ -1949,10 +1949,10 @@ GER_resistance_decisions_italy = {
 					151 = {has_state_flag = GER_has_high_resistance}
 					3 = {has_state_flag = GER_has_high_resistance}
 
-					 
+
 				}
 
-				
+
 				every_owned_state = {
 					limit = {
 						OR = {
@@ -1963,7 +1963,7 @@ GER_resistance_decisions_italy = {
 					remove_dynamic_modifier = { modifier = high_resistance }
 					add_dynamic_modifier = { modifier = medium_resistance }
 					clr_state_flag = GER_has_high_resistance
-					set_state_flag = GER_has_medium_resistance 
+					set_state_flag = GER_has_medium_resistance
 				}
 
 			}
@@ -1973,12 +1973,12 @@ GER_resistance_decisions_italy = {
 }
 
 
-	GER_subjugate_pakt = {
-	
+GER_subjugate_pakt = {
+
 
 
 	GER_sub_holland = {
-		
+
 		icon = generic_oppression
 
 		allowed = {
@@ -2005,10 +2005,10 @@ GER_resistance_decisions_italy = {
 
 
 
-		}
-	
 	}
+
+}
 
 
 }
-	
+

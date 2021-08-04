@@ -7,10 +7,10 @@ set_stability = 0.6
 set_war_support = 0.7
 add_ideas = {
 	victor_emmanuel
-	smol_victory  
-	Modern_roman_army 
-	sea_domination 
-	strong_air_force 
+	smol_victory
+	Modern_roman_army
+	sea_domination
+	strong_air_force
 	limited_exports
 	limited_conscription
 	war_economy
@@ -31,7 +31,7 @@ add_ideas = {
 }
 
 1947.1.1 = {
-    puppet = OCC
+	puppet = OCC
 	puppet = EGY
 	puppet = GRE
 	puppet = IOC
@@ -42,7 +42,7 @@ add_ideas = {
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	tech_mountaineers = 1
 	motorised_infantry = 1
@@ -70,7 +70,7 @@ if = {
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
+	set_technology = {
 		early_submarine = 1
 		early_destroyer = 1
 		early_light_cruiser = 1
@@ -134,7 +134,7 @@ if = {
 1939.1.1 = {
 
 	add_political_power = 1198
-	
+
 	#white_peace = ETH
 	if = {
 		limit = {
@@ -186,7 +186,7 @@ if = {
 		prepared_defense = 1
 		battlefleet_concentration = 1
 		submarine_operations = 1
-		
+
 		#Air
 		force_rotation = 1
 		fighter_baiting = 1
@@ -234,11 +234,11 @@ if = {
 		}
 		set_technology = {
 			improved_airplane_launcher = 1
-			
+
 		}
 		set_naval_oob = "ITA_1939_naval_mtg"
 	}
-	
+
 	set_stability = 0.8
 	GER = { add_to_faction = ITA }
 }
@@ -254,7 +254,7 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic_right = 10 
+	democratic_right = 10
 	authoritarianism = 20
 	fascism = 70
 }
@@ -266,7 +266,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = italian_fascism
 	traits = {
-	duce_ceaser
+		duce_ceaser
 	}
 }
 
@@ -277,7 +277,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
-		
+
 	}
 }
 
@@ -299,7 +299,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-		
+
 	}
 }
 
@@ -395,7 +395,7 @@ create_field_marshal = {
 
 create_navy_leader = {
 	name = "Inigo Campioni"
-		picture = "Portrait_Italy_Inigo_Campioni.dds"
+	picture = "Portrait_Italy_Inigo_Campioni.dds"
 	traits = { battleship_adherent superior_tactician spotter }
 	skill = 3
 	attack_skill = 2
@@ -406,7 +406,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Alberto Da Zara"
-		picture = "Portrait_Italy_Alberto_Da_Zara.dds"
+	picture = "Portrait_Italy_Alberto_Da_Zara.dds"
 	traits = { gentlemanly superior_tactician }
 	skill = 3
 	attack_skill = 3
@@ -417,7 +417,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Giuseppe Fioravanzo"
-		picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
+	picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
 	traits = { aviation_enthusiast blockade_runner }
 	skill = 3
 	attack_skill = 2
@@ -428,7 +428,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Carlo Bergamini"
-		picture = "Portrait_Italy_Carlo_Bergamini.dds"
+	picture = "Portrait_Italy_Carlo_Bergamini.dds"
 	traits = { battleship_adherent gunnery_expert ironside }
 	skill = 2
 	attack_skill = 3
@@ -439,7 +439,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Angelo Iachino"
-		picture = "Portrait_Italy_Angelo_Iachino.dds"
+	picture = "Portrait_Italy_Angelo_Iachino.dds"
 	traits = { bold navy_career_officer superior_tactician spotter }
 	skill = 2
 	attack_skill = 2
@@ -467,14 +467,14 @@ if = {
 # 1936 Start #
 #plane variants
 create_equipment_variant = {
-		name = "CR.42"
-		type = fighter_equipment_0
-		upgrades = {
-			plane_gun_upgrade = 1
-			plane_range_upgrade = 0  
-			plane_engine_upgrade = 2
-			plane_reliability_upgrade = 1
-		}
+	name = "CR.42"
+	type = fighter_equipment_0
+	upgrades = {
+		plane_gun_upgrade = 1
+		plane_range_upgrade = 0
+		plane_engine_upgrade = 2
+		plane_reliability_upgrade = 1
+	}
 }
 if = {
 	limit = {
@@ -789,7 +789,7 @@ if = {
 			rear_1_custom_slot = ship_depth_charge_1
 		}
 		obsolete = yes
-	}	
+	}
 	create_equipment_variant = {
 		name = "Maestrale Class" 			#Represents the following WWI/1920s DDs: Freccia, Foglore, Mastrale, Oriani, Spica (and subclasses)
 		type = ship_hull_light_1
@@ -807,24 +807,24 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-			name = "Littorio Class"
-			type = ship_hull_heavy_2
-			name_group = ITA_BB_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_heavy_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = heavy_ship_engine_2
-				fixed_ship_secondaries_slot = ship_secondaries_2
-				fixed_ship_armor_slot = ship_armor_bb_2
-				front_1_custom_slot = ship_anti_air_1
-				mid_1_custom_slot = ship_secondaries_2
-				mid_2_custom_slot = ship_airplane_launcher_2
-				rear_1_custom_slot = ship_heavy_battery_2
-			}
+		name = "Littorio Class"
+		type = ship_hull_heavy_2
+		name_group = ITA_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bb_2
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_secondaries_2
+			mid_2_custom_slot = ship_airplane_launcher_2
+			rear_1_custom_slot = ship_heavy_battery_2
 		}
+	}
 	### Submarine Variants	
 	create_equipment_variant = {
 		name = "Mameli Class"
@@ -837,7 +837,7 @@ if = {
 			rear_1_custom_slot = empty
 		}
 		obsolete = yes
-	}	
+	}
 	create_equipment_variant = {
 		name = "Bandiera Class"
 		type = ship_hull_submarine_1
@@ -911,7 +911,7 @@ if = {
 				mid_2_custom_slot = ship_anti_air_1
 				rear_1_custom_slot = ship_heavy_battery_1
 			}
-		obsolete = yes
+			obsolete = yes
 		}
 
 		### Light Cruiser Variants	

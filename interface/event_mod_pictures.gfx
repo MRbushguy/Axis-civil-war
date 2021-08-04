@@ -1,57 +1,57 @@
 spriteTypes = {
-	
+
 	spriteType = {
 		name = "GFX_report_event_krim_steal"
 		texturefile = "gfx/event_pictures/krim_steal.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_report_event_VF_tilted"
 		texturefile = "gfx/event_pictures/VF_tilted.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_report_event_fallblau"
 		texturefile = "gfx/event_pictures/fallblau.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_report_event_france_1"
 		texturefile = "gfx/event_pictures/france_1.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_report_event_Brittany2"
 		texturefile = "gfx/event_pictures/Brittany2.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_report_event_slovene"
 		texturefile = "gfx/event_pictures/slovene.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_report_event_sov_army_parade"
 		texturefile = "gfx/event_pictures/sov_army_parade.dds"
 	}
-	
-spriteType = {
+
+	spriteType = {
 		name = "GFX_report_event_sov_trials"
-		texturefile = "gfx/event_pictures/sov_trials.dds"   
+		texturefile = "gfx/event_pictures/sov_trials.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_report_event_ita_poster"
-		texturefile = "gfx/event_pictures/ita_poster.dds" 
-		
+		texturefile = "gfx/event_pictures/ita_poster.dds"
+
 	}
-	
+
 	spriteType = {
 		name = "GFX_report_event_mussolini_rally_sepia"
-		texturefile = "gfx/event_pictures/mussolini_rally_sepia.dds" 
-		
+		texturefile = "gfx/event_pictures/mussolini_rally_sepia.dds"
+
 	}
-	
-	
+
+
 
 }

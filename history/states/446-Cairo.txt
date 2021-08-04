@@ -3,7 +3,7 @@ state=
 	id=446
 	name="STATE_446"
 	manpower = 6586596
-	
+
 	state_category = town
 
 	history=
@@ -17,7 +17,7 @@ state=
 				naval_base = 2
 			}
 		}
-		
+
 		victory_points = {
 			7011 20
 		}
@@ -35,7 +35,7 @@ state=
 		}
 
 		add_core_of = EGY
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = EGY
 			controller = EGY
 		}

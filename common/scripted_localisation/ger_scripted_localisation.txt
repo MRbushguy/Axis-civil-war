@@ -7,7 +7,7 @@
 ### germany depleted wehrmacht ###
 
 defined_text = {
-	
+
 	name = gerDepletedWehrmachtConscription
 	text = {
 		trigger = {
@@ -22,7 +22,7 @@ defined_text = {
 }
 
 defined_text = {
-	
+
 	name = gerDepletedWehrmachtConscriptionFactor
 	text = {
 		trigger = {
@@ -37,7 +37,7 @@ defined_text = {
 }
 
 defined_text = {
-	
+
 	name = gerDepletedWehrmachtArmyOrg
 	text = {
 		trigger = {
@@ -51,7 +51,7 @@ defined_text = {
 }
 
 defined_text = {
-	
+
 	name = gerDepletedWehrmachtTrainingTime
 	text = {
 		trigger = {
@@ -67,7 +67,7 @@ defined_text = {
 
 
 defined_text = {
-	
+
 	name = gerDepletedWehrmachtProduction
 	text = {
 		trigger = {
@@ -77,13 +77,13 @@ defined_text = {
 		localization_key = ger_depleted_wehrmacht_empty_tt
 	}
 
-	text = { 
+	text = {
 		localization_key = ger_depleted_wehrmacht_production_tt
 	}
 }
 
 defined_text = {
-	
+
 	name = gerDepletedWehrmachtDockyard
 	text = {
 		trigger = {
@@ -91,16 +91,16 @@ defined_text = {
 		}
 
 		localization_key = ger_depleted_wehrmacht_empty_tt
-		}
-		text = { 
-			localization_key = ger_depleted_wehrmacht_dockyard_tt
-		}
+	}
+	text = {
+		localization_key = ger_depleted_wehrmacht_dockyard_tt
+	}
 }
 
 ### blitzkrieg dependence
 
 defined_text = {
-	
+
 	name = gerBlitzkriegDependenceBreakthrough
 	text = {
 		trigger = {
@@ -108,14 +108,14 @@ defined_text = {
 		}
 
 		localization_key = ger_depleted_wehrmacht_empty_tt
-		}
-		text = { 
-			localization_key = ger_blitzkrieg_dependence_breakthrough_tt
-		}
+	}
+	text = {
+		localization_key = ger_blitzkrieg_dependence_breakthrough_tt
+	}
 }
 
 defined_text = {
-	
+
 	name = gerBlitzkriegDependenceOrg
 	text = {
 		trigger = {
@@ -123,14 +123,14 @@ defined_text = {
 		}
 
 		localization_key = ger_depleted_wehrmacht_empty_tt
-		}
-		text = { 
-			localization_key = ger_blitzkrieg_dependence_org_tt
-		}
+	}
+	text = {
+		localization_key = ger_blitzkrieg_dependence_org_tt
+	}
 }
 
 defined_text = {
-	
+
 	name = gerBlitzkriegDependenceSpeed
 	text = {
 		trigger = {
@@ -138,14 +138,14 @@ defined_text = {
 		}
 
 		localization_key = ger_depleted_wehrmacht_empty_tt
-		}
-		text = { 
-			localization_key = ger_blitzkrieg_dependence_speed_tt
-		}
+	}
+	text = {
+		localization_key = ger_blitzkrieg_dependence_speed_tt
+	}
 }
 
 defined_text = {
-	
+
 	name = gerBlitzkriegDependenceFuel
 	text = {
 		trigger = {
@@ -153,14 +153,14 @@ defined_text = {
 		}
 
 		localization_key = ger_depleted_wehrmacht_empty_tt
-		}
-		text = { 
-			localization_key = ger_blitzkrieg_dependence_fuel_tt
-		}
+	}
+	text = {
+		localization_key = ger_blitzkrieg_dependence_fuel_tt
+	}
 }
 
 defined_text = {
-	
+
 	name = gerBlitzkriegDependenceAttrition
 	text = {
 		trigger = {
@@ -168,14 +168,14 @@ defined_text = {
 		}
 
 		localization_key = ger_depleted_wehrmacht_empty_tt
-		}
-		text = { 
-			localization_key = ger_blitzkrieg_dependence_attrition_tt
-		}
+	}
+	text = {
+		localization_key = ger_blitzkrieg_dependence_attrition_tt
+	}
 }
 
 defined_text = {
-	
+
 	name = gerBlitzkriegDependenceDefense
 	text = {
 		trigger = {
@@ -183,14 +183,14 @@ defined_text = {
 		}
 
 		localization_key = ger_depleted_wehrmacht_empty_tt
-		}
-		text = { 
-			localization_key = ger_blitzkrieg_dependence_defense_tt
-		}
+	}
+	text = {
+		localization_key = ger_blitzkrieg_dependence_defense_tt
+	}
 }
 
 defined_text = {
-	
+
 	name = gerBlitzkriegDependenceExperience
 	text = {
 		trigger = {
@@ -198,10 +198,10 @@ defined_text = {
 		}
 
 		localization_key = ger_depleted_wehrmacht_empty_tt
-		}
-		text = { 
-			localization_key = ger_blitzkrieg_dependence_experience_tt
-		}
+	}
+	text = {
+		localization_key = ger_blitzkrieg_dependence_experience_tt
+	}
 }
 
 
@@ -363,7 +363,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {GER.GER_wehrmacht_influence > 74}
-			
+
 
 		}
 		localization_key = GER_wehrmacht_influence_amount_green
@@ -371,7 +371,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {GER.GER_wehrmacht_influence < 26}
-			
+
 
 		}
 		localization_key = GER_wehrmacht_influence_amount_red

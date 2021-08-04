@@ -3,9 +3,9 @@ state=
 	id=163
 	name="STATE_163"
 	manpower = 18000
-	
+
 	state_category = enclave
-	
+
 	history={
 		owner = ITA
 		add_core_of = ITA
@@ -18,8 +18,8 @@ state=
 		add_core_of = YUG
 		add_core_of = CRO
 		start_resistance = CRO #Yugoslavia shouldn't resist occupation
-	} 
-	provinces={	
+	}
+	provinces={
 		3943 3868 3924  984 3974 6611 11564 11901
 	}
 }

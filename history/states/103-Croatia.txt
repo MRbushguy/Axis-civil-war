@@ -10,13 +10,13 @@ state={
 	history={
 		owner = YUG
 		victory_points = {
-			3868 3 
+			3868 3
 		}
 		victory_points = {
 			3924 3
 		}
 		victory_points = {
-			11564 1 
+			11564 1
 		}
 		buildings = {
 			infrastructure = 5
@@ -32,13 +32,13 @@ state={
 		add_core_of = YUG
 		#add_claim_by = ITA #added by focus
 		add_core_of = CRO
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = CRO
 			controller = CRO
 		}
 	}
 
 	provinces={
-		591  3601  6889 11816  
+		591  3601  6889 11816
 	}
 }

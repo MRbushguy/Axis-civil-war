@@ -3,15 +3,15 @@ ideas = {
 	country = {
 
 		garrison_of_the_black_sea = {
-          picture = IOC_garrison
+			picture = IOC_garrison
 
 			allowed = {
 				original_tag = IOC
 			}
 
 			modifier = {
-			industrial_capacity_factory	= 0.05
-			industrial_capacity_dockyard = 0.1
+				industrial_capacity_factory	= 0.05
+				industrial_capacity_dockyard = 0.1
 				stability_factor = 0.1
 				production_speed_buildings_factor = 0.2
 				industry_repair_factor = 0.5
@@ -22,7 +22,7 @@ ideas = {
 		}
 
 		Only_the_best = {
-          picture = IOC_only_the_best
+			picture = IOC_only_the_best
 
 			allowed = {
 				original_tag = IOC
@@ -36,18 +36,18 @@ ideas = {
 		}
 
 		native_resistance_low = {
-          picture = IOC_native_resistance_low
+			picture = IOC_native_resistance_low
 
 			allowed = {
 				original_tag = IOC
 			}
 
 			modifier = {
-			stability_factor = -0.05
-			resistance_growth = 0.05
-			compliance_growth = 0.1
+				stability_factor = -0.05
+				resistance_growth = 0.05
+				compliance_growth = 0.1
 
 			}
 		}
-    }
+	}
 }

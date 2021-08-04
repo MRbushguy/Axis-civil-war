@@ -3,7 +3,7 @@
 oob = "HOL_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "HOL_1936_naval_mtg"
+	set_naval_oob = "HOL_1936_naval_mtg"
 	else = {
 		set_naval_oob = "HOL_1936_naval_legacy"
 	}
@@ -16,7 +16,7 @@ set_war_support = 0
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_recon = 1
 	gw_artillery = 1
 	interwar_antiair = 1
@@ -92,13 +92,13 @@ set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
 	}
 
 	add_political_power = 1198
-	
+
 	#generic focuses
-	
+
 	oob = "HOL_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "HOL_1939_naval_mtg"
+		set_naval_oob = "HOL_1939_naval_mtg"
 		else = {
 			set_naval_oob = "HOL_1939_naval_legacy"
 		}
@@ -148,8 +148,8 @@ set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		set_technology = {
-		basic_submarine = 1
-		improved_light_cruiser = 1
+			basic_submarine = 1
+			improved_light_cruiser = 1
 		}
 	}
 	if = {
@@ -371,7 +371,7 @@ if = {
 	}
 	# Destroyers #
 	create_equipment_variant = {
-		name = "Van Ghent Class"			
+		name = "Van Ghent Class"
 		type = ship_hull_light_1
 		name_group = HOL_DD_HISTORICAL
 		parent_version = 0
@@ -388,7 +388,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Van Galen Class"				
+		name = "Van Galen Class"
 		type = ship_hull_light_1
 		name_group = HOL_DD_HISTORICAL
 		parent_version = 0
@@ -439,7 +439,7 @@ if = {
 	}
 	# Heavy Cruisers #
 	create_equipment_variant = {
-		name = "Hertog Hendrik Class"			
+		name = "Hertog Hendrik Class"
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = HOL_CA_HISTORICAL
 		parent_version = 0
@@ -457,7 +457,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Soerabaja Class"				# represents Soerabaja (De Zeven Provinciën) and Jacob van Heemskerck 
+		name = "Soerabaja Class"				# represents Soerabaja (De Zeven Provinciën) and Jacob van Heemskerck
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = HOL_CA_HISTORICAL
 		parent_version = 0
@@ -500,7 +500,7 @@ if = {
 		}
 		# Destroyers #
 		create_equipment_variant = {
-			name = "Gerard Callenburgh Class"					
+			name = "Gerard Callenburgh Class"
 			type = ship_hull_light_2
 			name_group = HOL_DD_HISTORICAL
 			parent_version = 0
@@ -516,7 +516,7 @@ if = {
 			}
 		}
 		create_equipment_variant = {
-			name = "van der Zaan Class"				# DD-sized minelayer			
+			name = "van der Zaan Class"				# DD-sized minelayer
 			type = ship_hull_light_2
 			parent_version = 0
 			modules = {
@@ -550,29 +550,29 @@ if = {
 	}
 }
 1947.1.1 = {
-    set_cosmetic_tag = HOL_reichskommissariat
-    oob = HOL_1947
+	set_cosmetic_tag = HOL_reichskommissariat
+	oob = HOL_1947
 
-    set_politics = {
-	ruling_party = national_socialism
-	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = no
-                    }
-		    
+	set_politics = {
+		ruling_party = national_socialism
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
 	add_ideas = {
 		resistance_0
 		devastation_2
-	}	
-	
-	create_country_leader = {
-	name = "Josef Grohé"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = final_nazism
-	traits = {
-		#
 	}
-}
+
+	create_country_leader = {
+		name = "Josef Grohé"
+		desc = ""
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+		expire = "1965.1.1"
+		ideology = final_nazism
+		traits = {
+		#
+		}
+	}
 }

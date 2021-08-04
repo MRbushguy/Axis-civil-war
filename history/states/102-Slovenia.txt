@@ -3,9 +3,9 @@ state=
 	id=102
 	name="STATE_102"
 	manpower = 1144300
-	
+
 	state_category = large_town
-	
+
 	history =
 	{
 		owner = YUG
@@ -13,15 +13,15 @@ state=
 			infrastructure = 6
 		}
 		victory_points = {
-			9627 3 
+			9627 3
 		}
 		add_core_of = SLV
 		add_core_of = SLV
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = ITA
 			controller = ITA
-		}		
+		}
 	}
 	provinces={
 		596 665 3631 3654 6650 6672 9596 9627 }
-	}
+}

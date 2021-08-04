@@ -8,16 +8,16 @@
 
 focus_tree = {
 	id = US_Initial_tree
-	
+
 	country = {
 		factor = 0
-		
+
 		modifier = {
 			add = 10
 			tag = USA
 		}
 	}
-	
+
 	default = no
 
 	continuous_focus_position = { x = 50 y = 1500 }
@@ -32,7 +32,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 
 ### REPUBLICANS ###
@@ -46,7 +46,7 @@ focus_tree = {
 		relative_position_id = USA_1948_Elections
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_warren_continues
@@ -58,7 +58,7 @@ focus_tree = {
 		relative_position_id = USA_republicans_win
 		completion_reward = {
 		}
-}
+	}
 
 ### DEMOCRATS ###
 	focus = {
@@ -71,7 +71,7 @@ focus_tree = {
 		relative_position_id = USA_1948_Elections
 		completion_reward = {
 		}
-}
+	}
 
 ### WALLACE ###
 	focus = {
@@ -85,7 +85,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_employment_act
@@ -98,7 +98,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_housing_act
@@ -111,7 +111,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_brannan_plan
@@ -124,7 +124,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_committee_eq
@@ -137,7 +137,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_oppose_segregation
@@ -150,7 +150,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 ### LBJ ###
 	focus = {
@@ -164,7 +164,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_great_society
@@ -177,7 +177,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_civil_rights
@@ -190,7 +190,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_edu_act
@@ -203,7 +203,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_social_security
@@ -216,7 +216,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_immigration_act
@@ -229,7 +229,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 	focus = {
 		id = USA_economic_opp_act
 		#icon =
@@ -241,7 +241,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_job_corp
@@ -254,7 +254,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_food_stamps
@@ -267,7 +267,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 ### DICK RUSSEL ###
 	focus = {
@@ -280,7 +280,7 @@ focus_tree = {
 		relative_position_id = USA_democrats_win
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_segregation_now
@@ -292,7 +292,7 @@ focus_tree = {
 		relative_position_id = USA_dick_russel
 		completion_reward = {
 		}
-}
+	}
 
 ### NATIONAL PRESERVATION ALLIANCE ###
 	focus = {
@@ -306,7 +306,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 ### SAMUEL GREEN ###
 	focus = {
@@ -320,7 +320,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_immigration_restriction
@@ -333,7 +333,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_states_rights
@@ -346,7 +346,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_amnesty_for_klan
@@ -359,7 +359,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_burning_cross
@@ -372,7 +372,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 ### PATTON ###
 	focus = {
@@ -386,7 +386,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 ### FRITZ KUHN ###
 	focus = {
@@ -400,7 +400,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_segregation
@@ -413,7 +413,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_race_laws
@@ -426,7 +426,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_kristalnacht
@@ -439,7 +439,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 	focus = {
 		id = USA_look_across_atlantic
@@ -452,7 +452,7 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}
 
 ### COMMUNIST PARTY USA ###
 	focus = {
@@ -464,4 +464,4 @@ focus_tree = {
 
 		completion_reward = {
 		}
-}
+	}

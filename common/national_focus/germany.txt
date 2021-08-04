@@ -8,16 +8,16 @@
 
 focus_tree = {
 	id = german1
-	
+
 	country = {
 		factor = 0
-		
+
 		modifier = {
 			add = 11
 			tag = GER
 		}
 	}
-	
+
 	default = no
 
 	continuous_focus_position = { x = 50 y = 1500 }
@@ -35,18 +35,18 @@ focus_tree = {
 
 		prerequisite = {}
 
-		
+
 
 		x = 30
 		y = 0
 
 		cost = 2
-		
+
 
 		completion_reward = {
 
 			add_political_power = 150
-            country_event = { id = germany.1 hours = 24 }
+			country_event = { id = germany.1 hours = 24 }
 		}
 
 	}
@@ -69,7 +69,7 @@ focus_tree = {
 		completion_reward = {
 
 			custom_effect_tooltip = GER_plunder_tt
-			
+
 
 		}
 
@@ -96,7 +96,7 @@ focus_tree = {
 		completion_reward = {
 			#attempts to use wehrmacht to return productivity to the colonies
 
-			
+
 
 			hidden_effect = {
 				add_equipment_to_stockpile = {
@@ -105,9 +105,9 @@ focus_tree = {
 				}
 			}
 			send_equipment = {
-			    equipment = infantry_equipment
-			    amount = 20000
-			    target = UKR
+				equipment = infantry_equipment
+				amount = 20000
+				target = UKR
 			}
 
 
@@ -115,9 +115,9 @@ focus_tree = {
 				add_ideas =  GER_wehrmacht_aid
 			}
 
-			
 
-			
+
+
 
 		}
 
@@ -151,7 +151,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = GER_ukraine_wehrmacht_completion_tt
 			set_country_flag = GER_ukraine_situation_flag
-			
+
 
 		}
 
@@ -197,8 +197,8 @@ focus_tree = {
 		#icon
 
 		prerequisite = {
-				focus = GER_deal_with_the_grain_harvest
-				focus = GER_wehrmacht_involvement
+			focus = GER_deal_with_the_grain_harvest
+			focus = GER_wehrmacht_involvement
 		}
 
 		mutually_exclusive = {focus = GER_refnaz_and_wehrmacht}
@@ -212,9 +212,9 @@ focus_tree = {
 			custom_effect_tooltip = GER_wehrmacht_alone_completion_tt
 			add_to_variable = {GER_refnaz_influence = -10}
 			add_to_variable = {GER_wehrmacht_influence = 10}
-			
+
 			GER_faction_cleanup = yes
-			
+
 
 		}
 
@@ -227,10 +227,10 @@ focus_tree = {
 		icon = GFX_GER_purge_command_structure
 
 		prerequisite = {
-				focus = GER_wehrmacht_alone
+			focus = GER_wehrmacht_alone
 		}
 
-		
+
 
 		x = -1
 		y = 1
@@ -251,14 +251,14 @@ focus_tree = {
 			add_to_variable = {GER_blitzkrieg_dependence_defense = 0.05}
 
 			custom_effect_tooltip = GER_purge_command_structure_completion_tt
-			
 
-			
 
-			}
+
+
+		}
 			#wehrmacht retires or causes "accidents" for leaders loyal to the SS or NSDAP
 
-		
+
 
 
 
@@ -270,25 +270,25 @@ focus_tree = {
 		icon = GFX_goal_GER_prepare_for_urban_combat
 
 		prerequisite = {
-				focus = GER_purge_command_structure
+			focus = GER_purge_command_structure
 		}
 
 		prerequisite = {
-				focus = GER_use_favors
+			focus = GER_use_favors
 		}
 
 		prerequisite = {
-				focus = GER_state_of_the_art
+			focus = GER_state_of_the_art
 		}
 
-		
+
 
 		x = -1
 		y = 2
 		relative_position_id =  GER_use_favors
 
 		completion_reward = {
-			
+
 			add_ideas = GER_wehrmacht_idea_0
 
 		}
@@ -304,11 +304,11 @@ focus_tree = {
 		#icon
 
 		prerequisite = {
-				focus = GER_prepare_for_urban_combat
+			focus = GER_prepare_for_urban_combat
 		}
 
 
-		
+
 
 		x = -2
 		y = 1
@@ -339,11 +339,11 @@ focus_tree = {
 		#icon
 
 		prerequisite = {
-				focus = GER_prepare_for_urban_combat
+			focus = GER_prepare_for_urban_combat
 		}
 
 
-		
+
 
 		x = 0
 		y = 1
@@ -364,7 +364,7 @@ focus_tree = {
 					add_idea = GER_wehrmacht_idea_1
 				}
 			}
-			
+
 
 		}
 
@@ -378,11 +378,11 @@ focus_tree = {
 		#icon
 
 		prerequisite = {
-				focus = GER_prepare_for_urban_combat
+			focus = GER_prepare_for_urban_combat
 		}
 
 
-		
+
 
 		x = 2
 		y = 1
@@ -403,7 +403,7 @@ focus_tree = {
 					add_idea = GER_wehrmacht_idea_2
 				}
 			}
-			
+
 
 		}
 
@@ -417,13 +417,13 @@ focus_tree = {
 		#icon
 
 		prerequisite = {
-				focus = GER_recall_the_troops
-				focus = GER_secure_the_railroads
-				focus = GER_ground_the_planes
+			focus = GER_recall_the_troops
+			focus = GER_secure_the_railroads
+			focus = GER_ground_the_planes
 		}
 
 
-		
+
 
 		x = 0
 		y = 2
@@ -455,7 +455,7 @@ focus_tree = {
 		}
 
 
-		
+
 
 		x = 0
 		y = 1
@@ -486,7 +486,7 @@ focus_tree = {
 		icon = GFX_goal_GER_training_facilities
 
 		prerequisite = {
-			 focus = GER_wehrmacht_conquests
+			focus = GER_wehrmacht_conquests
 		}
 
 		x = -2
@@ -515,8 +515,8 @@ focus_tree = {
 				}
 			}
 			custom_effect_tooltip = GER_training_facilities_completion_tt
-			
-				
+
+
 
 		}
 
@@ -530,7 +530,7 @@ focus_tree = {
 		#icon
 
 		prerequisite = {
-			 focus = GER_wehrmacht_conquests
+			focus = GER_wehrmacht_conquests
 		}
 
 		x = -5
@@ -562,7 +562,7 @@ focus_tree = {
 		icon = GFX_goal_GER_wehrmacht_recruitment
 
 		prerequisite = {
-			 focus = GER_integrate_denmark
+			focus = GER_integrate_denmark
 		}
 
 		bypass = {
@@ -584,8 +584,8 @@ focus_tree = {
 			custom_effect_tooltip = GER_wehrmacht_recruitment_completion_tt
 
 		}
-			
-			
+
+
 
 
 
@@ -597,11 +597,11 @@ focus_tree = {
 		#icon
 
 		prerequisite = {
-			 focus = GER_wehrmacht_recruitment
+			focus = GER_wehrmacht_recruitment
 		}
 
 		prerequisite = {
-			 focus = GER_training_facilities
+			focus = GER_training_facilities
 		}
 
 		bypass = {
@@ -631,7 +631,7 @@ focus_tree = {
 			custom_effect_tooltip  = GER_state_of_the_art_completion_tt
 
 
-			
+
 
 		}
 
@@ -647,7 +647,7 @@ focus_tree = {
 		#icon
 
 		prerequisite = {
-			 focus = GER_integrate_denmark
+			focus = GER_integrate_denmark
 		}
 
 		x = -2
@@ -669,7 +669,7 @@ focus_tree = {
 		#icon
 
 		prerequisite = {
-			 focus = GER_integrate_denmark
+			focus = GER_integrate_denmark
 		}
 
 		x = 2
@@ -695,7 +695,7 @@ focus_tree = {
 		}
 
 		available = {
-			
+
 			custom_trigger_tooltip = {
 				tooltip = GER_refnaz_reforms_support_requirement_tt
 				check_variable = { GER_refnaz_influence = 5 compare = greater_than }
@@ -747,7 +747,7 @@ focus_tree = {
 			#tries to reduce military corporation dominance in german economy
 
 
-			if = {	
+			if = {
 				limit = {
 					GER = {
 						has_idea = GER_refnaz_idea_0
@@ -770,7 +770,7 @@ focus_tree = {
 					}
 				}
 
-				
+
 			}
 
 			add_timed_idea = {
@@ -785,56 +785,56 @@ focus_tree = {
 			hidden_effect = {
 
 
-			random_owned_controlled_state = {
-				limit = {
-					is_core_of = GER
-					arms_factory > 2
+				random_owned_controlled_state = {
+					limit = {
+						is_core_of = GER
+						arms_factory > 2
+					}
+					remove_building = {
+						type = arms_factory
+						level = 2
+					}
 				}
-				remove_building = {
-					type = arms_factory
-					level = 2
+				random_owned_controlled_state = {
+					limit = {
+						is_core_of = GER
+						arms_factory > 2
+					}
+					remove_building = {
+						type = arms_factory
+						level = 2
+					}
 				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					is_core_of = GER
-					arms_factory > 2
+				random_owned_controlled_state = {
+					limit = {
+						is_core_of = GER
+						arms_factory > 2
+					}
+					remove_building = {
+						type = arms_factory
+						level = 2
+					}
 				}
-				remove_building = {
-					type = arms_factory
-					level = 2
+				random_owned_controlled_state = {
+					limit = {
+						is_core_of = GER
+						arms_factory > 2
+					}
+					remove_building = {
+						type = arms_factory
+						level = 2
+					}
 				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					is_core_of = GER
-					arms_factory > 2
+				random_owned_controlled_state = {
+					limit = {
+						is_core_of = GER
+						arms_factory > 2
+					}
+					remove_building = {
+						type = arms_factory
+						level = 2
+					}
 				}
-				remove_building = {
-					type = arms_factory
-					level = 2
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					is_core_of = GER
-					arms_factory > 2
-				}
-				remove_building = {
-					type = arms_factory
-					level = 2
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					is_core_of = GER
-					arms_factory > 2
-				}
-				remove_building = {
-					type = arms_factory
-					level = 2
-				}
-			}
 			}
 
 		}
@@ -887,7 +887,7 @@ focus_tree = {
 
 
 
-	
+
 
 
 
@@ -926,7 +926,7 @@ focus_tree = {
 
 	}
 
-	
+
 
 	focus = {
 
@@ -934,9 +934,9 @@ focus_tree = {
 		icon = GFX_goal_GER_deal_with_the_grain_harvest
 
 		prerequisite = {
-			
-				focus = GER_wehrmacht_conquests
-				focus = GER_refnaz_reforms
+
+			focus = GER_wehrmacht_conquests
+			focus = GER_refnaz_reforms
 
 		}
 
@@ -946,11 +946,11 @@ focus_tree = {
 
 				tooltip = GER_famine_tt
 
-				
 
-					has_idea = GER_extreme_famine
 
-				
+				has_idea = GER_extreme_famine
+
+
 			}
 		}
 
@@ -976,8 +976,8 @@ focus_tree = {
 		#icon
 
 		prerequisite = {
-				focus = GER_deal_with_the_grain_harvest
-				focus = GER_refnaz_involvement
+			focus = GER_deal_with_the_grain_harvest
+			focus = GER_refnaz_involvement
 		}
 
 		mutually_exclusive = {focus = GER_wehrmacht_alone}
@@ -987,18 +987,18 @@ focus_tree = {
 		relative_position_id =  GER_refnaz_involvement
 
 		completion_reward = {
-				custom_effect_tooltip = GER_refnaz_and_wehrmacht_completion_tt
-				add_to_variable = {GER_refnaz_influence = 10}
-				add_to_variable = {GER_wehrmacht_influence = -10}
+			custom_effect_tooltip = GER_refnaz_and_wehrmacht_completion_tt
+			add_to_variable = {GER_refnaz_influence = 10}
+			add_to_variable = {GER_wehrmacht_influence = -10}
 
-				GER_faction_cleanup = yes
+			GER_faction_cleanup = yes
 
-			
+
 		}
 
-		
 
-		
+
+
 
 
 
@@ -1010,10 +1010,10 @@ focus_tree = {
 		#icon
 
 		prerequisite = {
-				focus = GER_refnaz_and_wehrmacht
+			focus = GER_refnaz_and_wehrmacht
 		}
 
-		
+
 
 		x = 0
 		y = 1
@@ -1034,10 +1034,10 @@ focus_tree = {
 		#icon
 
 		prerequisite = {
-				focus = GER_refnaz_and_wehrmacht_commanders
+			focus = GER_refnaz_and_wehrmacht_commanders
 		}
 
-		
+
 
 		x = 1
 		y = 1
@@ -1058,10 +1058,10 @@ focus_tree = {
 		#icon
 
 		prerequisite = {
-				focus = GER_prepare_military_action
+			focus = GER_prepare_military_action
 		}
 
-		
+
 
 		x = 1
 		y = 1
@@ -1076,11 +1076,11 @@ focus_tree = {
 
 	}
 
-	
 
-	
 
-	
+
+
+
 
 
 
@@ -1147,7 +1147,7 @@ focus_tree = {
 
 		mutually_exclusive = {focus = GER_break_with_refnaz}
 
-		
+
 
 		x = -1
 		y = 1
@@ -1171,9 +1171,9 @@ focus_tree = {
 			focus = GER_cooperate_with_nsdap
 		}
 
-		
 
-		
+
+
 
 		x = -1
 		y = 1
@@ -1200,9 +1200,9 @@ focus_tree = {
 			focus = GER_weaken_military_sector
 		}
 
-		
 
-		
+
+
 
 		x = -1
 		y = 1
@@ -1225,11 +1225,11 @@ focus_tree = {
 		prerequisite = {
 			focus =  GER_revitalize_civilian_sector
 		}
-		
 
-		
 
-		
+
+
+
 
 		x = 0
 		y = 1
@@ -1252,11 +1252,11 @@ focus_tree = {
 		prerequisite = {
 			focus =  GER_cooperate_with_nsdap
 		}
-		
 
-		
 
-		
+
+
+
 
 		x = 0
 		y = 3
@@ -1360,7 +1360,7 @@ focus_tree = {
 
 		mutually_exclusive = {focus = GER_cooperate_with_nsdap}
 
-		
+
 
 		x = 1
 		y = 1
@@ -1388,9 +1388,9 @@ focus_tree = {
 			focus = GER_use_the_bueracracy
 		}
 
-		
 
-		
+
+
 
 		x = 1
 		y = 1
@@ -1527,7 +1527,7 @@ focus_tree = {
 		}
 
 
-		
+
 
 
 		x = -1
@@ -1563,7 +1563,7 @@ focus_tree = {
 		}
 
 
-		
+
 
 
 		x = 0
@@ -1881,7 +1881,7 @@ focus_tree = {
 			focus = GER_the_surveillance_act
 		}
 
-		
+
 
 
 
@@ -1984,7 +1984,7 @@ focus_tree = {
 			focus = GER_SS_burgundy_base_of_operations
 		}
 
-		
+
 
 		x = -1
 		y = 1
@@ -2008,7 +2008,7 @@ focus_tree = {
 			focus = GER_unite_disparate_factions
 		}
 
-		
+
 
 		x = 1
 		y = 1
@@ -2036,7 +2036,7 @@ focus_tree = {
 			focus = GER_himmlers_eye
 		}
 
-		
+
 
 		x = -2
 		y = 1
@@ -2061,7 +2061,7 @@ focus_tree = {
 			focus = GER_SS_burgundy_base_of_operations
 		}
 
-		
+
 
 		x = 1
 		y = 1
@@ -2076,7 +2076,7 @@ focus_tree = {
 
 	}
 
-	
+
 
 
 
@@ -2259,7 +2259,7 @@ focus_tree = {
 		id = GER_friends_in_airforce
 		#icon
 
-		
+
 
 
 		prerequisite = {
@@ -2281,7 +2281,7 @@ focus_tree = {
 		id = GER_key_bombing_targets
 		icon = GFX_goal_GER_key_bombing_targets
 
-		
+
 		prerequisite = {
 			focus = GER_friends_in_airforce
 		}
@@ -2303,7 +2303,7 @@ focus_tree = {
 		id = GER_control_radiowaves
 		icon = GFX_goal_GER_control_radiowaves
 
-		
+
 		prerequisite = {
 			focus = GER_friends_in_airforce
 		}
@@ -2320,7 +2320,7 @@ focus_tree = {
 
 	}
 
-	
+
 
 	focus = {
 
@@ -2334,11 +2334,11 @@ focus_tree = {
 		prerequisite = {
 
 			focus = GER_seek_official_support
-		
+
 		}
 
 
-		
+
 
 		x = 1
 		y = 1
@@ -2359,7 +2359,7 @@ focus_tree = {
 
 		prerequisite = {
 			focus = GER_a_common_cause
-			
+
 		}
 
 		prerequisite = {
@@ -2370,7 +2370,7 @@ focus_tree = {
 		mutually_exclusive = {focus = GER_temporarily_bridge_waffen_SS}
 
 
-		
+
 
 		x = -1
 		y = 1
@@ -2386,9 +2386,9 @@ focus_tree = {
 
 
 
-	
- 
-	
+
+
+
 
 	focus = {
 
@@ -2468,7 +2468,7 @@ focus_tree = {
 
 		mutually_exclusive = {focus = GER_subordinate_to_SS}
 
-		
+
 
 
 
@@ -2493,7 +2493,7 @@ focus_tree = {
 		prerequisite = {focus = GER_SS_split}
 
 
-		
+
 
 		x = 0
 		y = 1
@@ -2592,7 +2592,7 @@ focus_tree = {
 
 		prerequisite = {focus = GER_control_radiowaves}
 
-		
+
 
 		x = 0
 		y = 2
@@ -2849,7 +2849,7 @@ focus_tree = {
 
 	}
 
-	
+
 
 
 
@@ -2975,7 +2975,7 @@ focus_tree = {
 			focus = GER_united_militarist_coalition
 		}
 
-		
+
 		x = -1
 		y = 1
 		relative_position_id = GER_united_militarist_coalition
@@ -2998,7 +2998,7 @@ focus_tree = {
 			focus = GER_united_militarist_coalition
 		}
 
-		
+
 		x = 1
 		y = 1
 		relative_position_id = GER_united_militarist_coalition
@@ -3031,7 +3031,7 @@ focus_tree = {
 
 
 
-		
+
 		x = 0
 		y = 1
 		relative_position_id = GER_political_support
@@ -3063,59 +3063,59 @@ focus_tree = {
 
 			hidden_effect = { news_event = { id = news.1 hours = 24 } }
 
-			
+
 			add_political_power = 120
- 
-            diplomatic_relation = { country = JAP relation = guarantee active = no }
-	
+
+			diplomatic_relation = { country = JAP relation = guarantee active = no }
+
 			#code so that germany guarantees japan + italy, this is like the final severing of those old relations
 			#I couldnt do this cuz theyre in different factions, but if you figure it out thatd be great
-  			}
 		}
+	}
 
 
-		focus = {
-			id = GER_enemy_of_my_enemy
-			icon = GFX_goal_GER_enemy_of_my_enemy
-			prerequisite = {focus = GER_cancel_tripartite}
+	focus = {
+		id = GER_enemy_of_my_enemy
+		icon = GFX_goal_GER_enemy_of_my_enemy
+		prerequisite = {focus = GER_cancel_tripartite}
 
-			x = -3
-			y = 1
-			cost = 2
+		x = -3
+		y = 1
+		cost = 2
 
-			relative_position_id = GER_cancel_tripartite
+		relative_position_id = GER_cancel_tripartite
 
-			completion_reward = {
+		completion_reward = {
 
 				#unlocks alliance decisions, attempts to make alliance forays into the allies/commonwealth countries/US, 
 				#most likely unsuccessful but available
 				#for instance if later we decide to have an option for US to go natsoc or whatev
-			}
-
-
 		}
 
-		focus = {
-			id = GER_friends_in_the_east
-			icon = GFX_goal_GER_friends_in_the_east
-			prerequisite = {focus = GER_cancel_tripartite}
 
-			x = 3
-			y = 1
-			cost = 2
+	}
 
-			relative_position_id = GER_cancel_tripartite
+	focus = {
+		id = GER_friends_in_the_east
+		icon = GFX_goal_GER_friends_in_the_east
+		prerequisite = {focus = GER_cancel_tripartite}
 
-			completion_reward = {
+		x = 3
+		y = 1
+		cost = 2
+
+		relative_position_id = GER_cancel_tripartite
+
+		completion_reward = {
 
 				#germany tries to reconcile with japan (decisions)
 				#also highly unsuccessful but thought we should have an option for it
-			}
-
-
 		}
-		
-	
+
+
+	}
+
+
 
 
 	####italian border section##########
@@ -3149,7 +3149,7 @@ focus_tree = {
 
 				has_idea = GER_construction_project
 			}
-			
+
 		}
 
 
@@ -3158,8 +3158,8 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_the_true_enemy
 		cost = 5
-		
-		
+
+
 		completion_reward = {
 
 
@@ -3172,100 +3172,100 @@ focus_tree = {
 
 			custom_effect_tooltip = GER_begin_italian_forts_tt
 			hidden_effect = {
-			153 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 11618
-				instant_build = yes
+				153 = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 11618
+						instant_build = yes
+					}
 				}
-			}
-			153 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 9633
-				instant_build = yes
+				153 = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 9633
+						instant_build = yes
+					}
 				}
-			}
 
-			153 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 6673
-				instant_build = yes
+				153 = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 6673
+						instant_build = yes
+					}
 				}
-			}
 
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 3622
-				instant_build = yes
+				151 = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 3622
+						instant_build = yes
+					}
 				}
-			}
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 658
-				instant_build = yes
+				151 = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 658
+						instant_build = yes
+					}
 				}
-			}
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 9600
-				instant_build = yes
+				151 = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 9600
+						instant_build = yes
+					}
 				}
-			}
 
-			3 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 636
-				instant_build = yes
+				3 = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 636
+						instant_build = yes
+					}
 				}
-			}
 
-			3 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 3612
-				instant_build = yes
+				3 = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 3612
+						instant_build = yes
+					}
 				}
-			}
-			3 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 9587
-				instant_build = yes
+				3 = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 9587
+						instant_build = yes
+					}
 				}
-			}
 
-			152 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 11612
-				instant_build = yes
+				152 = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 11612
+						instant_build = yes
+					}
 				}
-			}
 
-			4 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 9646
-				instant_build = yes
+				4 = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 9646
+						instant_build = yes
+					}
 				}
-			}
 
 
 			}
@@ -3273,7 +3273,7 @@ focus_tree = {
 
 
 		}
-		
+
 	}
 
 	focus = {
@@ -3302,46 +3302,46 @@ focus_tree = {
 
 			151 = {
 				add_building_construction = {
-				type = radar_station
-				level = 1
-				instant_build = yes
+					type = radar_station
+					level = 1
+					instant_build = yes
 				}
 			}
 			151 = {
 				add_building_construction = {
-				type = anti_air_building
-				level = 2
-				instant_build = yes
+					type = anti_air_building
+					level = 2
+					instant_build = yes
 				}
 			}
 			153 = {
 				add_building_construction = {
-				type = radar_station
-				level = 1
-				instant_build = yes
+					type = radar_station
+					level = 1
+					instant_build = yes
 				}
 			}
 			153 = {
 				add_building_construction = {
-				type = anti_air_building
-				level = 2
-				instant_build = yes
+					type = anti_air_building
+					level = 2
+					instant_build = yes
 				}
 			}
 
 			4 = {
 				add_building_construction = {
-				type = radar_station
-				level = 1
-				instant_build = yes
+					type = radar_station
+					level = 1
+					instant_build = yes
 				}
 			}
 
 			4 = {
 				add_building_construction = {
-				type = anti_air_building
-				level = 2
-				instant_build = yes
+					type = anti_air_building
+					level = 2
+					instant_build = yes
 				}
 			}
 
@@ -3366,7 +3366,7 @@ focus_tree = {
 
 				has_idea = GER_construction_project
 			}
-			
+
 		}
 
 		completion_reward = {
@@ -3381,164 +3381,164 @@ focus_tree = {
 
 			custom_effect_tooltip = GER_complete_italian_fortline_tt
 			hidden_effect = {
-			153 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 11618
-				instant_build = yes
+				153 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 11618
+						instant_build = yes
+					}
 				}
-			}
-			153 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 9633
-				instant_build = yes
+				153 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 9633
+						instant_build = yes
+					}
 				}
-			}
 
-			153 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 6673
-				instant_build = yes
+				153 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 6673
+						instant_build = yes
+					}
 				}
-			}
 
-			153 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 671
-				instant_build = yes
+				153 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 671
+						instant_build = yes
+					}
 				}
-			}
 
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 3622
-				instant_build = yes
+				151 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 3622
+						instant_build = yes
+					}
 				}
-			}
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 658
-				instant_build = yes
+				151 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 658
+						instant_build = yes
+					}
 				}
-			}
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 9600
-				instant_build = yes
+				151 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 9600
+						instant_build = yes
+					}
 				}
-			}
 
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 3641
-				instant_build = yes
+				151 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 3641
+						instant_build = yes
+					}
 				}
-			}
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 3662
-				instant_build = yes
+				151 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 3662
+						instant_build = yes
+					}
 				}
-			}
 
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 3660
-				instant_build = yes
+				151 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 3660
+						instant_build = yes
+					}
 				}
-			}
 
-			3 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 636
-				instant_build = yes
+				3 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 636
+						instant_build = yes
+					}
 				}
-			}
 
-			3 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 3612
-				instant_build = yes
+				3 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 3612
+						instant_build = yes
+					}
 				}
-			}
-			3 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 9587
-				instant_build = yes
+				3 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 9587
+						instant_build = yes
+					}
 				}
-			}
 
-			3 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 6666
-				instant_build = yes
+				3 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 6666
+						instant_build = yes
+					}
 				}
-			}
 
-			152 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 11612
-				instant_build = yes
+				152 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 11612
+						instant_build = yes
+					}
 				}
-			}
 
-			4 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 9646
-				instant_build = yes
+				4 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 9646
+						instant_build = yes
+					}
 				}
-			}
 
-			4 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 6673
-				instant_build = yes
+				4 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 6673
+						instant_build = yes
+					}
 				}
-			}
 
-			4 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 11630
-				instant_build = yes
+				4 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 11630
+						instant_build = yes
+					}
 				}
 			}
 		}
-	}
 
 
 	}
@@ -3562,9 +3562,9 @@ focus_tree = {
 
 			}
 
-			
 
-			
+
+
 
 			every_owned_state = {
 				limit = {
@@ -3593,7 +3593,7 @@ focus_tree = {
 		icon = GFX_goal_GER_the_swiss_resistance
 
 		prerequisite = {focus = GER_alpine_border_extend_fortline}
-		
+
 		x = -3
 		y = 1
 		relative_position_id = GER_alpine_border_extend_fortline
@@ -3620,7 +3620,7 @@ focus_tree = {
 			#once swiss is cored, Germany could get a spirit to more utilize swiss banks/gold that was hidden in them
 		}
 	}
-	
+
 
 
 
@@ -3629,7 +3629,7 @@ focus_tree = {
 		id = GER_slovenian_claims
 
 		prerequisite = {focus = GER_alpine_border_extend_fortline}
-		
+
 		x = 3
 		y = 1
 		relative_position_id = GER_alpine_border_extend_fortline
@@ -3694,21 +3694,21 @@ focus_tree = {
 		relative_position_id = GER_cancel_tripartite
 
 		completion_reward = {
-            27 = {
+			27 = {
 				add_building_construction = {
-				type = radar_station
-				level = 1
-				instant_build = yes
+					type = radar_station
+					level = 1
+					instant_build = yes
 				}
 			}
 			33 = {
-			    add_building_construction = {
-				type = radar_station
-				level = 1
-				instant_build = yes
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = yes
 				}
 			}
-		add_manpower = 15000
+			add_manpower = 15000
 			#either add forts, or give manpower, or whatever else basically stating this as a major front
 		}
 
@@ -3723,18 +3723,18 @@ focus_tree = {
 		relative_position_id = GER_the_french_border
 
 		completion_reward = {
-            16 = {
+			16 = {
 				add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
+					type = industrial_complex
+					level = 1
+					instant_build = yes
 				}
 			}
-            15 = {
+			15 = {
 				add_building_construction = {
-				type = arms_factory
-				level = 1
-				instant_build = yes
+					type = arms_factory
+					level = 1
+					instant_build = yes
 				}
 			}
 			#im thinking some civvies/mils for france, also a spirit for conscription
@@ -3785,16 +3785,16 @@ focus_tree = {
 		relative_position_id = GER_the_french_border
 
 		completion_reward = {
-            18 = {
+			18 = {
 				add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
+					type = industrial_complex
+					level = 1
+					instant_build = yes
 				}
 				add_building_construction = {
-				type = arms_factory
-				level = 1
-				instant_build = yes
+					type = arms_factory
+					level = 1
+					instant_build = yes
 				}
 			}
 			#give civs/mils, also give burgundy a military bonus (Im thinking of burgundy as a state for an elite military force)
@@ -3839,31 +3839,31 @@ focus_tree = {
 		id = GER_buildup_french_infrastructure
 		prerequisite = {focus = GER_the_french_border}
 		prerequisite = {focus = GER_strengthen_ordenstaat
-						focus = GER_strengthen_france}
+			focus = GER_strengthen_france}
 		x = 0
 		y = 2
 		relative_position_id = GER_the_french_border
 
 		completion_reward = {
-            34 = {
+			34 = {
 				add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
+					type = infrastructure
+					level = 1
+					instant_build = yes
 				}
 			}
-            33 = {
+			33 = {
 				add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
+					type = infrastructure
+					level = 1
+					instant_build = yes
 				}
 			}
-            23 = {
+			23 = {
 				add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
+					type = infrastructure
+					level = 1
+					instant_build = yes
 				}
 			}
 			#improve infrastructure, allow france + burgundy to fight over rail preferences, which could lead to a battle between them
@@ -3879,7 +3879,7 @@ focus_tree = {
 
 		prerequisite = {focus = GER_buildup_french_infrastructure}
 		prerequisite = {focus = GER_prioritize_ordenstaat
-						focus = GER_prioritize_france }
+			focus = GER_prioritize_france }
 
 		x = 0
 		y = 3
@@ -3897,7 +3897,7 @@ focus_tree = {
 
 
 
-	
+
 
 
 
@@ -3971,7 +3971,7 @@ focus_tree = {
 		id = GER_breton_port
 		icon = GFX_goal_GER_breton_port
 		prerequisite = {focus = GER_the_allies
-						focus = GER_marina_italia }
+			focus = GER_marina_italia }
 		x = -1
 		y = 2
 		relative_position_id = GER_the_unspoken_war
@@ -3987,7 +3987,7 @@ focus_tree = {
 		id = GER_portugese_port
 		icon = GFX_goal_GER_portugese_port
 		prerequisite = {focus = GER_the_allies
-						focus = GER_marina_italia }
+			focus = GER_marina_italia }
 
 		x = 1
 		y = 2
@@ -4037,9 +4037,9 @@ focus_tree = {
 		id = GER_formalize_raiding_strategy
 
 		prerequisite = {focus = GER_breton_port
-						focus = GER_venezuelan_port
-						focus = GER_portugese_port
-						focus = GER_oman_port}
+			focus = GER_venezuelan_port
+			focus = GER_portugese_port
+			focus = GER_oman_port}
 
 		x = 0
 		y = 3
@@ -4085,33 +4085,33 @@ focus_tree = {
 		cost = 2
 
 		completion_reward = {
-        	4 = {
+			4 = {
 				add_building_construction = {
-				type = bunker
-				level = 2
-				province = 11666
-				instant_build = yes
+					type = bunker
+					level = 2
+					province = 11666
+					instant_build = yes
 				}
 
 				add_building_construction = {
-				type = bunker
-				level = 1
-				province = 3700
-				instant_build = yes
+					type = bunker
+					level = 1
+					province = 3700
+					instant_build = yes
 				}
 
 				add_building_construction = {
-				type = bunker
-				level = 1
-				province = 9661
-				instant_build = yes
+					type = bunker
+					level = 1
+					province = 9661
+					instant_build = yes
 				}
 
 				add_building_construction = {
-				type = bunker
-				level = 1
-				province = 11630
-				instant_build = yes
+					type = bunker
+					level = 1
+					province = 11630
+					instant_build = yes
 				}
 			}
 			#build some forts on the balkan borders, give slovakia core on southern slovakia
@@ -4197,7 +4197,7 @@ focus_tree = {
 		id = GER_renegotiate_transylvania
 		icon = GFX_goal_GER_renegotiate_transylvania
 		prerequisite = {focus = GER_bargain_with_ukraine
-						focus = GER_bargain_with_slovakia}
+			focus = GER_bargain_with_slovakia}
 		x = 0
 		y = 3
 		relative_position_id = GER_control_of_the_balkans
@@ -4210,7 +4210,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_plan_new_balkan_partition
-				icon = GFX_goal_GER_plan_new_balkan_partition
+		icon = GFX_goal_GER_plan_new_balkan_partition
 		prerequisite = {focus = GER_renegotiate_transylvania}
 
 		x = 0
@@ -4249,7 +4249,7 @@ focus_tree = {
 
 
 
-	
+
 
 
 
@@ -4258,9 +4258,9 @@ focus_tree = {
 	focus = {
 
 		id = GER_the_asian_front
-	
 
-	prerequisite = {focus = GER_cancel_tripartite}
+
+		prerequisite = {focus = GER_cancel_tripartite}
 		x = 12
 		y = 2
 
@@ -4271,28 +4271,28 @@ focus_tree = {
 		completion_reward = {
 			234 = {
 				add_building_construction = {
-				type = bunker
-				level = 2
-				province = 6741
-				instant_build = yes
+					type = bunker
+					level = 2
+					province = 6741
+					instant_build = yes
 				}
 			}
 			196 = {
 				add_building_construction = {
-				type = bunker
-				level = 1
-				province = 9712
-				instant_build = yes
+					type = bunker
+					level = 1
+					province = 9712
+					instant_build = yes
 				}
-			} 
+			}
 			196 = {
 				add_building_construction = {
-				type = bunker
-				level = 1
-				province = 568
-				instant_build = yes
+					type = bunker
+					level = 1
+					province = 568
+					instant_build = yes
 				}
-			}            
+			}
 			#put some forts on the caucasus border
 		}
 
@@ -4311,38 +4311,38 @@ focus_tree = {
 
 		completion_reward = {
 
-        	236 = {
+			236 = {
 				add_building_construction = {
-				type = bunker
-				level = 2
-				province = 9753
-				instant_build = yes
+					type = bunker
+					level = 2
+					province = 9753
+					instant_build = yes
 				}
 			}
-        	217 = {
+			217 = {
 				add_building_construction = {
-				type = bunker
-				level = 2
-				province = 3529
-				instant_build = yes
+					type = bunker
+					level = 2
+					province = 3529
+					instant_build = yes
 				}
 			}
-        	239 = {
+			239 = {
 				add_building_construction = {
-				type = bunker
-				level = 2
-				province = 3578
-				instant_build = yes
+					type = bunker
+					level = 2
+					province = 3578
+					instant_build = yes
 				}
 			}
-        	252 = {
+			252 = {
 				add_building_construction = {
-				type = bunker
-				level = 2
-				province = 11375
-				instant_build = yes
+					type = bunker
+					level = 2
+					province = 11375
+					instant_build = yes
 				}
-			}			
+			}
 		}
 	}
 
@@ -4385,7 +4385,7 @@ focus_tree = {
 		prerequisite = {focus = GER_the_asian_front}
 
 		x = -2
-		y = 1 
+		y = 1
 		relative_position_id = GER_the_asian_front
 
 		completion_reward = {
@@ -4431,7 +4431,7 @@ focus_tree = {
 
 		id = GER_nationalize_oil
 		icon = GFX_goal_GER_nationalize_oil
-		
+
 		prerequisite = {focus = GER_caucasus_oil}
 
 		mutually_exclusive = {focus = GER_buffer_state_solution}
@@ -4450,7 +4450,7 @@ focus_tree = {
 		id = GER_the_oil_incident
 
 		prerequisite = {focus = GER_nationalize_oil
-						focus = GER_buffer_state_solution}
+			focus = GER_buffer_state_solution}
 
 		x = 0
 		y = 2
@@ -4472,10 +4472,10 @@ focus_tree = {
 		icon = GFX_focus_ger_assassinate_mussolini
 
 		prerequisite = {focus = GER_the_oil_incident
-						focus = GER_balkan_assassination
-						focus = GER_step_up_italian_border_controls
-						focus = GER_step_up_french_border_patrols
-						focus = GER_step_up_attacks}
+			focus = GER_balkan_assassination
+			focus = GER_step_up_italian_border_controls
+			focus = GER_step_up_french_border_patrols
+			focus = GER_step_up_attacks}
 
 		bypass = { has_war_with = ITA }
 
@@ -4484,7 +4484,7 @@ focus_tree = {
 		relative_position_id = GER_step_up_italian_border_controls
 
 		completion_reward = {
-            create_wargoal = { type = annex_everything target = ITA }
+			create_wargoal = { type = annex_everything target = ITA }
 			#GER could be at war with italy already, in which case this focus would bypass, but otherwise completing this would give wargoal on italy
 		}
 
@@ -4497,7 +4497,7 @@ focus_tree = {
 
 
 
-	
+
 
 
 

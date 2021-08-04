@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 1939.1.1 = {
-	
+
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
@@ -19,7 +19,7 @@ set_convoys = 20
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-	
+
 	set_technology = {
 		tech_support = 1
 		tech_recon = 1
@@ -77,16 +77,16 @@ create_country_leader = {
 	}
 
 	create_country_leader = {
-	name = "Francesco Zingales"
-	desc = "Francesco_Zingales_desc"
-	picture = "Francesco Zingales.dds"
-	ideology = italian_fascism
+		name = "Francesco Zingales"
+		desc = "Francesco_Zingales_desc"
+		picture = "Francesco Zingales.dds"
+		ideology = italian_fascism
 		traits = { garrison_commander
+		}
 	}
-}
 
-   add_ideas  = {
+	add_ideas  = {
 		garrison_of_the_black_sea
 		Only_the_best
 		native_resistance_low
-   }
+	}

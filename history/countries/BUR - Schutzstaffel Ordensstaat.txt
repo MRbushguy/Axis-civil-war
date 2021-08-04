@@ -14,9 +14,9 @@ set_convoys = 20
 		election_frequency = 48
 		elections_allowed = no
 	}
-set_popularities = {
-	national_socialism = 90 
-	authoritarianism = 5
-	fascism = 5
-}
+	set_popularities = {
+		national_socialism = 90
+		authoritarianism = 5
+		fascism = 5
+	}
 }

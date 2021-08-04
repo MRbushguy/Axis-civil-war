@@ -3,7 +3,7 @@ capital = 49
 oob = "TUR_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "TUR_1936_naval_mtg"
+	set_naval_oob = "TUR_1936_naval_mtg"
 	else = {
 		set_naval_oob = "TUR_1936_naval_legacy"
 	}
@@ -68,8 +68,8 @@ if = {
 }
 
 1936.1.1 = {
-	if = { 
-		limit = { has_dlc = "Battle for the Bosporus" }	
+	if = {
+		limit = { has_dlc = "Battle for the Bosporus" }
 		set_variable = { var = TUR_kemalist_power_variable value = 5 }
 		797 = {
 			add_dynamic_modifier = { modifier = kemalist_loyalties }
@@ -128,28 +128,28 @@ if = {
 			TUR_disorganised_armed_forces
 			TUR_debt_council
 		}
-		
+
 		353 = {
 			start_resistance = yes
 			set_compliance = 20
 			set_resistance = 10
 			set_garrison_strength = 1.0
 		}
-		
+
 		350 = {
 			start_resistance = yes
 			set_compliance = 25
 			set_resistance = 15
 			set_garrison_strength = 1.0
 		}
-		
+
 		352 = {
 			start_resistance = yes
 			set_compliance = 10
 			set_resistance = 15
 			set_garrison_strength = 0.75
 		}
-		
+
 		800 = {
 			start_resistance = yes
 			set_compliance = 10
@@ -169,30 +169,30 @@ if = {
 			}
 			set_state_flag = TUR_ideological_battleground_state
 		}
-	
-		add_opinion_modifier = { 
+
+		add_opinion_modifier = {
 			target = GRE
 			modifier = BFTB_balkan_pact_ally
 		}
-		add_opinion_modifier = { 
+		add_opinion_modifier = {
 			target = ROM
 			modifier = BFTB_balkan_pact_ally
 		}
-		add_opinion_modifier = { 
+		add_opinion_modifier = {
 			target = YUG
 			modifier = BFTB_balkan_pact_ally
 		}
-		add_opinion_modifier = { 
+		add_opinion_modifier = {
 			target = BUL
 			modifier = BFTB_balkan_pact_enemy
 		}
-		add_opinion_modifier = { 
+		add_opinion_modifier = {
 			target = HUN
 			modifier = BFTB_balkan_pact_enemy
 		}
 	}
 
-	if = { 
+	if = {
 		limit = { NOT = { has_dlc = "Battle for the Bosporus" }	}
 		add_ideas = {
 			limited_conscription
@@ -263,11 +263,11 @@ if = {
 		}
 		347 = {
 			add_dynamic_modifier = { modifier = kemalist_loyalties }
-		}	
+		}
 		342 = {
 			add_dynamic_modifier = { modifier = kemalist_loyalties }
 		}
-		set_variable = { var = TUR_kemalist_officers_loyalty value = 0 }	
+		set_variable = { var = TUR_kemalist_officers_loyalty value = 0 }
 
 		set_variable = { var = TUR_kemalist_power_variable value = 7 }
 
@@ -309,23 +309,23 @@ if = {
 			expire = "1965.1.1"
 			ideology = despotism
 			traits = {
-				
+
 			}
 		}
 	}
 
 	if = {
-		limit = { 
+		limit = {
 			has_unit_leader = 59
 		}
 		remove_unit_leader = 59
 	}
-	
+
 	oob = "TUR_1939"
 
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "TUR_1939_naval_mtg"
+		set_naval_oob = "TUR_1939_naval_mtg"
 		else = {
 			set_naval_oob = "TUR_1939_naval_legacy"
 		}
@@ -345,7 +345,7 @@ if = {
 		mass_assault = 1
 		pocket_defence = 1
 		defence_in_depth = 1
-		
+
 		fleet_in_being = 1
 		convoy_sailing = 1
 		submarine_operations = 1
@@ -410,7 +410,7 @@ if = {
 			father_of_the_turks
 		}
 	}
-	
+
 	create_country_leader = {
 		name = "Sefik Hüsnü"
 		desc = "POLITICS_SEFIK_HUSNU_DESC"
@@ -421,7 +421,7 @@ if = {
 			reluctant_stalinist
 		}
 	}
-	
+
 	create_country_leader = {
 		name = "Celâl Bayar"
 		desc = "POLITICS_CELAL_BAYAR_DESC"
@@ -457,7 +457,7 @@ if = {
 			#
 		}
 	}
-	
+
 	create_country_leader = {
 		name = "Mustafa Kemal Atatürk"
 		desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
@@ -468,7 +468,7 @@ if = {
 			#
 		}
 	}
-	
+
 	create_country_leader = {
 		name = "Sefik Hüsnü"
 		desc = "POLITICS_SEFIK_HUSNU_DESC"
@@ -479,7 +479,7 @@ if = {
 			#
 		}
 	}
-	
+
 	create_country_leader = {
 		name = "Celâl Bayar"
 		desc = "POLITICS_CELAL_BAYAR_DESC"
@@ -515,7 +515,7 @@ if = {
 		planning_skill = 3
 		logistics_skill = 3
 	}
-	
+
 	create_corps_commander = {
 		name = "Fahrettin Altay"
 		gfx = "GFX_portrait_tur_fahrettin_altay"
@@ -527,7 +527,7 @@ if = {
 		planning_skill = 4
 		logistics_skill = 2
 	}
-	
+
 	create_corps_commander = {
 		name = "Kazim Orbay"
 		gfx = "GFX_portrait_tur_kazim_orbay"
@@ -539,7 +539,7 @@ if = {
 		planning_skill = 5
 		logistics_skill = 3
 	}
-	
+
 	create_corps_commander = {
 		name = "Cemil Cahit Toydemir"
 		gfx = "GFX_portrait_tur_cemil_cahit_toydemir"
@@ -551,7 +551,7 @@ if = {
 		planning_skill = 3
 		logistics_skill = 2
 	}
-	
+
 	create_corps_commander = {
 		name = "İzzettin Çalışlar"
 		gfx = "GFX_portrait_tur_izzettin_calislar"
@@ -563,43 +563,43 @@ if = {
 		planning_skill = 2
 		logistics_skill = 1
 	}
-	
+
 	create_corps_commander = {
 		name = "Abdurrahman Nafiz Gürman"
 		gfx = "GFX_portrait_tur_abdurrahman_nafiz_gurman"
 		traits = { infantry_officer infantry_leader }
 		skill = 3 #10
-	
+
 		attack_skill = 3
 		defense_skill = 3
 		planning_skill = 2
-		logistics_skill = 2 
+		logistics_skill = 2
 	}
-	
-	create_corps_commander = { 
+
+	create_corps_commander = {
 		name = "Kâzım Karabekir"
 		gfx = "GFX_portrait_tur_kazim_karabekir"
 		traits = { trait_cautious politically_connected desert_fox }
 		skill = 2 #7
-	
+
 		attack_skill = 1
 		defense_skill = 1
 		planning_skill = 2
 		logistics_skill = 3
 	}
-	
+
 	create_corps_commander = {
 		name = "Mustafa Muğlalı"
 		gfx = "GFX_portrait_tur_mustafa_mugali"
 		traits = { harsh_leader }
 		skill = 2 #7
-	
+
 		attack_skill = 3
 		defense_skill = 2
 		planning_skill = 1
 		logistics_skill = 1
 	}
-	
+
 	create_corps_commander = {
 		name = "Mehmet Salih Omurtak"
 		gfx = "GFX_portrait_tur_salih_omurtak"
@@ -611,31 +611,31 @@ if = {
 		planning_skill = 2
 		logistics_skill = 2
 	}
-	
+
 	create_corps_commander = {
 		name = "Hayrullah Fisek"
 		gfx = "GFX_portrait_tur_hayrullah_fisek"
 		traits = { career_officer trickster }
 		skill = 2
-	
+
 		attack_skill = 2
 		defense_skill = 2
 		planning_skill = 2
 		logistics_skill = 1
 	}
-	
+
 	create_corps_commander = {
 		name = "Mehmet Nuri Yamut"
 		gfx = "GFX_portrait_tur_mehmet_nuri_yamut"
 		traits = { career_officer trait_reckless }
 		skill = 2 #7
-	
+
 		attack_skill = 3
 		defense_skill = 1
 		planning_skill = 1
 		logistics_skill = 2
 	}
-	
+
 	create_navy_leader = {
 		name = "Sadik Altincan"
 		gfx = "GFX_portrait_tur_sadik_altincan"
@@ -646,7 +646,7 @@ if = {
 		maneuvering_skill = 1
 		coordination_skill = 2
 	}
-	
+
 	create_navy_leader = {
 		name = "Sukru Okan"
 		gfx = "GFX_portrait_tur_sukru_okan"
@@ -658,7 +658,7 @@ if = {
 		maneuvering_skill = 2
 		coordination_skill = 2
 	}
-	
+
 	create_navy_leader = {
 		name = "Mehmet Ali Ulgen"
 		gfx = "GFX_portrait_tur_mehmet_ali_ulgen"
@@ -678,37 +678,37 @@ if = {
 		portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
 		traits = { desert_fox }
 		skill = 3
-	
+
 		attack_skill = 3
 		defense_skill = 2
 		planning_skill = 3
 		logistics_skill = 2
 	}
-	
+
 	create_corps_commander = {
 		name = "Nazmi Solok"
 		portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 		traits = { trickster }
 		skill = 2
-	
+
 		attack_skill = 2
 		defense_skill = 2
 		planning_skill = 2
 		logistics_skill = 1
 	}
-	
+
 	create_corps_commander = {
 		name = "Salih Omurtak"
 		portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
 		traits = {  hill_fighter }
 		skill = 2
-	
+
 		attack_skill = 2
 		defense_skill = 1
 		planning_skill = 2
 		logistics_skill = 2
 	}
-	
+
 	create_navy_leader = {
 		name = "Rauf Orbay"
 		portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
@@ -780,7 +780,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	# Submarines #
 	create_equipment_variant = {
-		name = "Birinci Inönü Class"				
+		name = "Birinci Inönü Class"
 		type = ship_hull_submarine_1
 		name_group = TUR_SS_HISTORICAL
 		parent_version = 0
@@ -792,7 +792,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Dumlupinar Class"				
+		name = "Dumlupinar Class"
 		type = ship_hull_submarine_2
 		name_group = TUR_SS_HISTORICAL
 		parent_version = 0
@@ -815,7 +815,7 @@ if = {
 	}
 	# Destroyers #
 	create_equipment_variant = {
-		name = "Peyk Class"									# large torpedo boats		
+		name = "Peyk Class"									# large torpedo boats
 		type = ship_hull_light_1
 		name_group = TUR_DD_HISTORICAL
 		parent_version = 0
@@ -849,7 +849,7 @@ if = {
 	}
 	# Cruisers #
 	create_equipment_variant = {
-		name = "Mecidiye Class"								# represents Mecidiye and Hamidiye protected cruisers		
+		name = "Mecidiye Class"								# represents Mecidiye and Hamidiye protected cruisers
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = TUR_CL_HISTORICAL
 		parent_version = 0
@@ -868,7 +868,7 @@ if = {
 	}
 	# Battlecruiser #
 	create_equipment_variant = {
-		name = "Yavuz Class"	
+		name = "Yavuz Class"
 		type = ship_hull_heavy_1
 		name_group = TUR_BC_HISTORICAL
 		parent_version = 0
@@ -898,7 +898,7 @@ if = {
 		limit = { has_dlc = "Man the Guns" }
 		# Submarines #
 		create_equipment_variant = {
-			name = "Saldiray Class"				
+			name = "Saldiray Class"
 			type = ship_hull_submarine_2
 			name_group = TUR_SS_HISTORICAL
 			parent_version = 0

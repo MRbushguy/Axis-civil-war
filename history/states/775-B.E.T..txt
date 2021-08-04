@@ -1,7 +1,7 @@
 state={
 	id=775
 	name="STATE_775" # BET - Borkou-Ennedi-Tibesti region
-	
+
 	state_category = wasteland
 	impassable = yes
 
@@ -11,8 +11,8 @@ state={
 		buildings = {
 			infrastructure = 0
 		}
-	    1947.1.1 = {
-			owner = FFA	
+		1947.1.1 = {
+			owner = FFA
 			controller = FFA
 		}
 	}

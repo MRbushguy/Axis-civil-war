@@ -7,7 +7,7 @@ add_namespace = germany
 
 
 country_event = { #nazi congress
-	
+
 	id = germany.1
 	title = germany.1.t
 	desc = germany.1.d
@@ -19,7 +19,7 @@ country_event = { #nazi congress
 		name = germany.1.a
 		custom_effect_tooltip = GER_hitlers_speech_tt
 		add_to_variable = {GER_NSDAP_influence = -25}
-		
+
 
 		GER_faction_cleanup = yes
 
@@ -32,7 +32,7 @@ country_event = { #nazi congress
 }
 
 country_event = { #famine begins
-	
+
 	id = germany.2
 	title = germany.2.t
 	desc = germany.2.d
@@ -51,7 +51,7 @@ country_event = { #famine begins
 }
 
 country_event = { #famine begins
-	
+
 	id = germany.2
 	title = germany.2.t
 	desc = germany.2.d
@@ -70,7 +70,7 @@ country_event = { #famine begins
 }
 
 country_event = { #revolt
-	
+
 	id = germany.3
 	title = germany.3.t
 	desc = germany.3.d
@@ -86,7 +86,7 @@ country_event = { #revolt
 				add_idea = GER_extreme_famine
 				remove_idea = GER_moderate_famine
 			}
-			
+
 		}
 
 	}

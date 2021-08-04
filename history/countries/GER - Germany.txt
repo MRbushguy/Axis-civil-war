@@ -9,7 +9,7 @@ set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_recon = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	tech_mountaineers = 1
 	motorised_infantry = 1
@@ -26,7 +26,7 @@ set_technology = {
 	strategic_bomber1 = 1
 	CAS1 = 1
 	naval_bomber1 = 1
-	
+
 	mobile_warfare = 1
 	trade_interdiction = 1
 	formation_flying = 1
@@ -44,10 +44,10 @@ set_technology = {
 }
 
 151 = {
-		add_dynamic_modifier = { modifier = low_resistance }
+	add_dynamic_modifier = { modifier = low_resistance }
 
-		set_state_flag = GER_has_low_resistance
-	}
+	set_state_flag = GER_has_low_resistance
+}
 
 
 
@@ -59,105 +59,105 @@ set_technology = {
 }
 
 3 = {
-		add_dynamic_modifier = { modifier = low_resistance }
+	add_dynamic_modifier = { modifier = low_resistance }
 
-		set_state_flag = GER_has_low_resistance
-	}
+	set_state_flag = GER_has_low_resistance
+}
 
 
 
 #SET FLAGS AND VARIABLES
 	#Internal Affairs
-	set_country_flag = GER_factions_unlocked_flag
-	set_variable = { GER_NSDAP_influence = 85 }
-	set_variable = { GER_wehrmacht_influence = 55 }
-	set_variable = { GER_militarist_influence = 26 }
-	set_variable = { GER_refnaz_influence = 0 }
-	set_variable = { GER_waffen_ss_influence = 25 }
-	set_variable = { GER_ss_influence = 40 }
+set_country_flag = GER_factions_unlocked_flag
+set_variable = { GER_NSDAP_influence = 85 }
+set_variable = { GER_wehrmacht_influence = 55 }
+set_variable = { GER_militarist_influence = 26 }
+set_variable = { GER_refnaz_influence = 0 }
+set_variable = { GER_waffen_ss_influence = 25 }
+set_variable = { GER_ss_influence = 40 }
 
-	clamp_variable = {
+clamp_variable = {
 	var = GER_NSDAP_influence
 	min = 0
 	max = 100
-	}
+}
 
-	clamp_variable = {
+clamp_variable = {
 	var = GER_wehrmacht_influence
 	min = 0
 	max = 100
-	}
+}
 
-	clamp_variable = {
+clamp_variable = {
 	var = GER_militarists_influence
 	min = 0
 	max = 100
-	}
+}
 
-	clamp_variable = {
+clamp_variable = {
 	var = GER_refnaz_influence
 	min = 0
 	max = 100
-	}
+}
 
-	clamp_variable = {
+clamp_variable = {
 	var = GER_waffen_ss_influence
 	min = 0
 	max = 100
-	}
+}
 
-	clamp_variable = {
+clamp_variable = {
 	var = GER_ss_influence
 	min = 0
 	max = 100
-	}
+}
 
 
 
 	##Factionalism Variables
-	set_variable = {GER_factionalism_NSDAP_modifer = 0.15} ##switches from -0.15 to 0 to 0.15 #political power
-	set_variable = {GER_factionalism_wehrmacht_modifer = 0} ##switches from -0.50 to 0 to 0.25 #experience gain
-	set_variable = {GER_factionalism_militarist_modifer = 0} ##switches from -0.05 to 0 to 0.10 #military factory
-	set_variable = {GER_factionalism_reform_modifer = -0.1} ##switches from -0.1 to 0 to 0.1 #civilian factory
-	set_variable = {GER_factionalism_waffenSS_modifer = -500} ##switches from -500 to 0 to 500 #weekly manpower
-	set_variable = {GER_factionalism_SS_modifer = 0} ##switches from -0.10 to 0 to 0.10 #stability
+set_variable = {GER_factionalism_NSDAP_modifer = 0.15} ##switches from -0.15 to 0 to 0.15 #political power
+set_variable = {GER_factionalism_wehrmacht_modifer = 0} ##switches from -0.50 to 0 to 0.25 #experience gain
+set_variable = {GER_factionalism_militarist_modifer = 0} ##switches from -0.05 to 0 to 0.10 #military factory
+set_variable = {GER_factionalism_reform_modifer = -0.1} ##switches from -0.1 to 0 to 0.1 #civilian factory
+set_variable = {GER_factionalism_waffenSS_modifer = -500} ##switches from -500 to 0 to 500 #weekly manpower
+set_variable = {GER_factionalism_SS_modifer = 0} ##switches from -0.10 to 0 to 0.10 #stability
 
 
 	###Plunder variables
-	set_variable = {GER_economy_refresh_time = 120}
-	set_variable = {GER_plunder_west = 25}
-	set_variable = {GER_plunder_east = 25}
+set_variable = {GER_economy_refresh_time = 120}
+set_variable = {GER_plunder_west = 25}
+set_variable = {GER_plunder_east = 25}
 
 
 	###Wunderwaffe Var
-	set_variable = {GER_wunderwaffe_arms = 0}
-	set_variable = {GER_wunderwaffe_tanks = 0}
-	set_variable = {GER_wunderwaffe_planes = 0}
-	set_variable = {GER_wunderwaffe_nukes = 0}
-	set_variable = {GER_wunderwaffe_misc = 0}
+set_variable = {GER_wunderwaffe_arms = 0}
+set_variable = {GER_wunderwaffe_tanks = 0}
+set_variable = {GER_wunderwaffe_planes = 0}
+set_variable = {GER_wunderwaffe_nukes = 0}
+set_variable = {GER_wunderwaffe_misc = 0}
 
 	####Ukraine variables
-	set_variable = {GER_armiansk_strike_success = 10}
-	set_variable = {GER_armiansk_strike_moderate = 20}
-	set_variable = {GER_armiansk_strike_failure = 70}
+set_variable = {GER_armiansk_strike_success = 10}
+set_variable = {GER_armiansk_strike_moderate = 20}
+set_variable = {GER_armiansk_strike_failure = 70}
 
 	#Depleted_wehrmacht variables
-	set_variable = {GER_depleted_wehrmacht_conscription = -0.025}
-	set_variable = {GER_depleted_wehrmacht_conscription_factor = -0.3}
-	set_variable = {GER_depleted_wehrmacht_army_org = -0.1}
-	set_variable = {GER_depleted_wehrmacht_training_time = 0.2}
-	set_variable = {GER_depleted_wehrmacht_production = -0.1}
-	set_variable = {GER_depleted_wehrmacht_dockyard = -0.1}
+set_variable = {GER_depleted_wehrmacht_conscription = -0.025}
+set_variable = {GER_depleted_wehrmacht_conscription_factor = -0.3}
+set_variable = {GER_depleted_wehrmacht_army_org = -0.1}
+set_variable = {GER_depleted_wehrmacht_training_time = 0.2}
+set_variable = {GER_depleted_wehrmacht_production = -0.1}
+set_variable = {GER_depleted_wehrmacht_dockyard = -0.1}
 
 
 	#blitzkrieg Dependence variables
-	set_variable = {GER_blitzkrieg_dependence_breakthrough = 0.2}
-	set_variable = {GER_blitzkrieg_dependence_org = 0.15}
-	set_variable = {GER_blitzkrieg_dependence_speed = 0.25}
-	set_variable = {GER_blitzkrieg_dependence_fuel = 0.8}
-	set_variable = {GER_blitzkrieg_dependence_attrition = 0.25}
-	set_variable = {GER_blitzkrieg_dependence_defense = -0.22}
-	set_variable = {GER_blitzkrieg_dependence_experience = 0.35}
+set_variable = {GER_blitzkrieg_dependence_breakthrough = 0.2}
+set_variable = {GER_blitzkrieg_dependence_org = 0.15}
+set_variable = {GER_blitzkrieg_dependence_speed = 0.25}
+set_variable = {GER_blitzkrieg_dependence_fuel = 0.8}
+set_variable = {GER_blitzkrieg_dependence_attrition = 0.25}
+set_variable = {GER_blitzkrieg_dependence_defense = -0.22}
+set_variable = {GER_blitzkrieg_dependence_experience = 0.35}
 
 if = {
 	limit = {
@@ -226,14 +226,14 @@ set_variable = { var = wehrmacht_anger value = 0 }
 set_variable = { var = ss_anger value = 0 }
 set_research_slots = 4
 set_convoys = 200
-set_stability = 0.75 
+set_stability = 0.75
 set_war_support = 0.3
 
 #Trade
 create_import = {
-		resource = tungsten
-		factories = 1
-		exporter = SWE
+	resource = tungsten
+	factories = 1
+	exporter = SWE
 }
 
 1939.1.1 = {
@@ -241,31 +241,31 @@ create_import = {
 	set_war_support = 0.7
 
 	add_political_power = 1197
-	
-	
-	
+
+
+
 	oob = "GER_1939"
-	
+
 	set_autonomy = {
 		target = SLO
 		autonomous_state = autonomy_puppet
 	}
-	
+
 	give_military_access = SLO
 
 
 #Trade
 	create_import = {
-			resource = oil
-			factories = 2
-			exporter = SOV
+		resource = oil
+		factories = 2
+		exporter = SOV
 	}
 
 	#MR pact effect, Also has a part scripted in soviet history file
 	unlock_national_focus = GER_mol_rib_pact
 	every_other_country = {
 		limit = {
-			has_government = fascism 
+			has_government = fascism
 		}
 		add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
 	}
@@ -285,7 +285,7 @@ create_import = {
 		add_opinion_modifier = { target = GER modifier = sov_ger_treaty_trade }
 	}
 	#Soviet treaty end
-	
+
 	unlock_national_focus = GER_rhineland
 	unlock_national_focus = GER_anschluss
 	unlock_national_focus = GER_demand_sudetenland
@@ -308,11 +308,11 @@ create_import = {
 	complete_national_focus = GER_extra_tech_slot
 
 	#BUILDINGS
-	
+
 
 	set_technology = {
-		improved_light_tank = 1 
-		basic_medium_tank = 1 
+		improved_light_tank = 1
+		basic_medium_tank = 1
 		CAS2 = 1
 		heavy_fighter1 = 1
 		interwar_artillery = 1
@@ -322,7 +322,7 @@ create_import = {
 		support_weapons = 1
 		support_weapons2 = 1
 		paratroopers = 1
-		
+
 
 		#doctrines
 		delay = 1
@@ -334,7 +334,7 @@ create_import = {
 		unrestricted_submarine_warfare = 1
 		raider_patrols = 1
 		#air
-		formation_flying = 1		
+		formation_flying = 1
 		dive_bombing = 1
 		direct_ground_support = 1
 
@@ -428,7 +428,7 @@ create_country_leader = {
 	ideology = nazism
 	traits = {
 		aging_dictator
-		germany_savior 
+		germany_savior
 	}
 }
 
@@ -734,7 +734,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Hasso von Manteuffel"
-		picture = "Portrait_Germany_Hasso_von_Manteuffel.dds"
+	picture = "Portrait_Germany_Hasso_von_Manteuffel.dds"
 	traits = { armor_officer career_officer trait_cautious }
 	skill = 4
 	id = 25
@@ -807,7 +807,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Erich Raeder"
-		picture = "Portrait_Germany_Erich_Raeder.dds"
+	picture = "Portrait_Germany_Erich_Raeder.dds"
 	traits = { naval_lineage battleship_adherent }
 	skill = 4
 	id = 27
@@ -819,7 +819,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Alfred Saalwächter"
-		picture = "Portrait_Germany_Alfred_Saalwachter.dds"
+	picture = "Portrait_Germany_Alfred_Saalwachter.dds"
 	traits = { old_guard_navy bold}
 	skill = 4
 	id = 28
@@ -831,7 +831,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Hermann Boehm"
-		picture = "Portrait_Germany_Hermann_Boehm.dds"
+	picture = "Portrait_Germany_Hermann_Boehm.dds"
 	traits = { craven superior_tactician }
 	skill = 4
 	id = 29
@@ -843,7 +843,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Wilhelm Marschall"
-		picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = { old_guard_navy bold}
 	skill = 4
 	id = 30
@@ -855,7 +855,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Günther Lütjens"
-		picture = "Portrait_Germany_Gunter_Lutjens.dds"
+	picture = "Portrait_Germany_Gunter_Lutjens.dds"
 	traits = { gentlemanly navy_career_officer superior_tactician }
 	skill = 3
 	id = 31
@@ -936,7 +936,7 @@ if = {
 		name_group = GER_CA_HISTORICAL
 		parent_version = 0
 		modules = {
-        	fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_battery_slot = ship_heavy_battery_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
@@ -944,7 +944,7 @@ if = {
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			rear_1_custom_slot = ship_torpedo_1
 			mid_1_custom_slot = ship_airplane_launcher_1
-    	}
+		}
 	}
 	create_equipment_variant = {
 		name = "Type 24 Class"
@@ -1262,7 +1262,7 @@ create_equipment_variant = {
 		type = fighter_equipment_1
 		upgrades = {
 			plane_gun_upgrade = 1
-			plane_range_upgrade = 1  
+			plane_range_upgrade = 1
 			plane_engine_upgrade = 0
 			plane_reliability_upgrade = 2
 		}
@@ -1272,7 +1272,7 @@ create_equipment_variant = {
 		type = fighter_equipment_1
 		upgrades = {
 			plane_gun_upgrade = 2
-			plane_range_upgrade = 1  
+			plane_range_upgrade = 1
 			plane_engine_upgrade = 2
 			plane_reliability_upgrade = 4
 		}
@@ -1293,7 +1293,7 @@ create_equipment_variant = {
 }
 
 1947.1.1 = {
-	 create_faction = ger_sphere
+	create_faction = ger_sphere
 	puppet = HOL
 	puppet = BEL
 	puppet = BLR
@@ -1311,7 +1311,7 @@ create_equipment_variant = {
 		GER_MAN
 		ig_faben
 		mauser
-		
+
 		GER_depleted_army_0
 		GER_ongoing_holocaust
 		GER_plunder_economy_1
@@ -1338,8 +1338,8 @@ create_equipment_variant = {
 		modifier = GER_blitzkrieg_dependence_dynamic_modifier
 	}
 
-	
-	
+
+
 	give_guarantee = JAP
 
 }

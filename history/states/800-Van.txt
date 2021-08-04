@@ -5,7 +5,7 @@ state={
 	history={
 		owner = TUR
 		victory_points = {
-			6935 5 
+			6935 5
 		}
 		victory_points = {
 			12376 1
@@ -29,7 +29,7 @@ state={
 	}
 
 	provinces={
-		652 4583 6935 7470 11880 12376 13121 
+		652 4583 6935 7470 11880 12376 13121
 	}
 	manpower = 365490
 	state_category = rural

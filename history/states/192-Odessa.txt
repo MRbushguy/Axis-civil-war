@@ -3,13 +3,13 @@ state={
 	id=192
 	name="STATE_192"
 	manpower = 1469986
-	
+
 	state_category = city
 
 	history={
 		owner = SOV
 		victory_points = {
-			11670 10 
+			11670 10
 		}
 		buildings = {
 			infrastructure = 5
@@ -27,13 +27,13 @@ state={
 				industrial_complex = 2
 			}
 		}
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = ROM
 			controller = ROM
 		}
 	}
 
 	provinces={
-		741 754 3575 3738 3757 9698 9714 11670 11703 
+		741 754 3575 3738 3757 9698 9714 11670 11703
 	}
 }

@@ -2,7 +2,7 @@ state=
 {
 	id=631
 	name="STATE_631"
-	manpower=2159	
+	manpower=2159
 	state_category = tiny_island
 
 	history={
@@ -16,10 +16,10 @@ state=
 		}
 		victory_points = {
 			13052 1
-		 }
+		}
 	}
-	
+
 	provinces={
-		13052 	
+		13052
 	}
 }

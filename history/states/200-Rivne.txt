@@ -21,7 +21,7 @@ state={
 				industrial_complex = 1
 			}
 		}
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = UKR
 			controller = UKR
 			add_core_of = UPR
@@ -29,6 +29,6 @@ state={
 	}
 
 	provinces={
-		429 588 3399 3767 6596 9571 9729 11405 11700 
+		429 588 3399 3767 6596 9571 9729 11405 11700
 	}
 }

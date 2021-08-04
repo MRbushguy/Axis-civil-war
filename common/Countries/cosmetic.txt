@@ -1,6 +1,6 @@
 MAL_UK = {
-    color = rgb { 201 56 93 }
-    color_ui = rgb { 255 73 121 }
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
 }
 
 RAJ_UK = {
@@ -14,8 +14,8 @@ RAJ_FREE = {
 }
 
 INS_HOL = {
-    color = rgb { 203 138 74 }
-    color_ui = rgb { 255 179 96 }
+	color = rgb { 203 138 74 }
+	color_ui = rgb { 255 179 96 }
 }
 
 HUN_EMPIRE = {
@@ -23,7 +23,7 @@ HUN_EMPIRE = {
 	color_ui = rgb { 255 255 255 }
 }
 
-AUS_NOT_WHITE = {	
+AUS_NOT_WHITE = {
 	color = rgb { 249 126 98 }
 	color_ui = rgb { 255 164 127 }
 }
@@ -287,8 +287,8 @@ USA_CSA = {
 }
 
 SOV_russia = {
-    color = rgb { 72 143 68 }
-    color_ui = rgb { 72 143 68 }
+	color = rgb { 72 143 68 }
+	color_ui = rgb { 72 143 68 }
 }
 
 HOL_benelux_unified = {
@@ -491,7 +491,7 @@ MAE_neutrality = {
 	color_ui = rgb { 35 65 153 }
 }
 
-ARM_UK = { 
+ARM_UK = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 201 56 93 }
 }
@@ -687,13 +687,13 @@ JAP_sibiera = {
 }
 
 SSR_color = {
-     color = rgb { 120 13 24 }
-     color_ui = rgb { 153 17 31 }
+	color = rgb { 120 13 24 }
+	color_ui = rgb { 153 17 31 }
 }
 
 USSR_uni = {
-     color = rgb { 120 13 24 }
-     color_ui = rgb { 153 17 31 }
+	color = rgb { 120 13 24 }
+	color_ui = rgb { 153 17 31 }
 }
 
 ITA_puppet = {

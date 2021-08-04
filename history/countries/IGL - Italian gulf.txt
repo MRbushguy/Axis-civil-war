@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
 1939.1.1 = {
-	
+
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
@@ -19,7 +19,7 @@ set_convoys = 20
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-	
+
 	set_technology = {
 		tech_support = 1
 		tech_recon = 1
@@ -64,7 +64,7 @@ create_country_leader = {
 
 1947.1.1 = {
 
-     set_cosmetic_tag = ITA_puppet
+	set_cosmetic_tag = ITA_puppet
 
 	set_politics = {
 		ruling_party = authoritarianism
@@ -78,11 +78,11 @@ create_country_leader = {
 		authoritarianism = 70
 	}
 	create_country_leader = {
-	name = "IGL Leader"
-	desc = ""
-	picture = ""
-	ideology = oligarchy
-	traits = {
+		name = "IGL Leader"
+		desc = ""
+		picture = ""
+		ideology = oligarchy
+		traits = {
 		#
 		}
 	}

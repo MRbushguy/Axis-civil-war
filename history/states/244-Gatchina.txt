@@ -3,7 +3,7 @@ state={
 	id=244
 	name="STATE_244" # Volkhov
 	manpower = 195325
-	
+
 	state_category = rural
 
 	history={
@@ -15,14 +15,14 @@ state={
 		victory_points = {
 			9197 1
 		}
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = RKM
-			controller = RKM 
+			controller = RKM
 			add_core_of = RKM
 		}
 	}
 
 	provinces={
-		70 3072 3110 6035 6095 9164 9197 11174 
+		70 3072 3110 6035 6095 9164 9197 11174
 	}
 }

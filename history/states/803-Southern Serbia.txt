@@ -5,7 +5,7 @@ state={
 
 	history={
 		victory_points = {
-			11857 1 
+			11857 1
 		}
 		owner = YUG
 		buildings = {
@@ -15,14 +15,14 @@ state={
 		add_core_of = YUG
 		add_core_of = SER
 		add_claim_by = BUL
-	    1947.1.1 = {
+		1947.1.1 = {
 			owner = BUL
 			controller = BUL
 		}
 	}
 
 	provinces={
-		11832 11857 11868 
+		11832 11857 11868
 	}
 	manpower=210000
 	buildings_max_level_factor=1.000
