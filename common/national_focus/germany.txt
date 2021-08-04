@@ -223,9 +223,8 @@ focus_tree = {
 	}
 
 	focus = {
-
 		id = GER_purge_command_structure
-		#icon
+		icon = GFX_GER_purge_command_structure
 
 		prerequisite = {
 				focus = GER_wehrmacht_alone
