@@ -674,7 +674,7 @@ ideas = {
 			traits = { fortification_engineer }
 
 			ai_will_do = {
-				factor = 0.5
+				factor = 1
 			}
 		}
 
