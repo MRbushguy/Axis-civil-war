@@ -52,16 +52,16 @@ bookmarks = {
 		}
 		GER = {
 			history = GER_BLITZKRIEG_DESC
-			ideology = fascism
+			ideology = national_socialism
 			ideas = {
-              GER_blitzkreig_dependence
-              GER_plunder_economy
-              GER_depleted_army
+              			GER_german_depression_1
+              			GER_plunder_economy_1
+              			GER_jewish_science
 			}
 			focuses = {
-              GER_cancel_tripartite
-              GER_the_final_showdown
-              GER_the_unspoken_war
+              			GER_cancel_tripartite
+             			GER_the_final_showdown
+              			GER_the_unspoken_war
 			}
 		}
 		ITA = {
