@@ -87,6 +87,16 @@ focus_tree = {
 			focus = GER_exploit_the_east
 		}
 
+		available = {
+
+			custom_trigger_tooltip = {
+
+				tooltip = GER_wehrmacht_conquests_support_requirement_tt
+
+				check_variable = { var = GER_wehrmacht_influence value = 5 compare = greater_than }
+			}
+		}
+
 		x = -4
 		y = 1
 
@@ -128,6 +138,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_wehrmacht_involvement
+		cost = 5
 		#icon
 
 		prerequisite = {
@@ -161,10 +172,20 @@ focus_tree = {
 	focus = {
 
 		id = GER_use_favors
+		cost = 3
 		#icon
 
 		prerequisite = {
 			focus = GER_wehrmacht_involvement
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+
+				tooltip = GER_wehrmacht_recruitment_support_requirement_tt
+	
+				check_variable = { var = GER_wehrmacht_influence value = 25 compare = greater_than }
+			}
 		}
 
 		x = -2
@@ -194,11 +215,21 @@ focus_tree = {
 	focus = {
 
 		id = GER_wehrmacht_alone
+		cost = 3
 		#icon
 
 		prerequisite = {
 			focus = GER_deal_with_the_grain_harvest
 			focus = GER_wehrmacht_involvement
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+
+				tooltip = GER_wehrmacht_alone_support_requirement_tt
+	
+				check_variable = { var = GER_wehrmacht_influence value = 50 compare = greater_than }
+			}
 		}
 
 		mutually_exclusive = {focus = GER_refnaz_and_wehrmacht}
@@ -225,9 +256,19 @@ focus_tree = {
 	focus = {
 		id = GER_purge_command_structure
 		icon = GFX_GER_purge_command_structure
+		cost = 6.2
 
 		prerequisite = {
 			focus = GER_wehrmacht_alone
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+
+				tooltip = GER_wehrmacht_alone_support_requirement_tt
+	
+				check_variable = { var = GER_wehrmacht_influence value = 50 compare = greater_than }
+			}
 		}
 
 
@@ -268,6 +309,7 @@ focus_tree = {
 
 		id = GER_prepare_for_urban_combat
 		icon = GFX_goal_GER_prepare_for_urban_combat
+		cost = 5
 
 		prerequisite = {
 			focus = GER_purge_command_structure
@@ -279,6 +321,15 @@ focus_tree = {
 
 		prerequisite = {
 			focus = GER_state_of_the_art
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+
+				tooltip = GER_urban_combat_support_requirement_tt
+	
+				check_variable = { var = GER_wehrmacht_influence value = 75 compare = greater_than }
+			}
 		}
 
 
@@ -301,10 +352,20 @@ focus_tree = {
 	focus = {
 
 		id = GER_recall_the_troops
+		cost = 5
 		#icon
 
 		prerequisite = {
 			focus = GER_prepare_for_urban_combat
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+
+				tooltip = GER_wehrmacht_troops_requirement_tt
+	
+				check_variable = { var = GER_wehrmacht_influence value = 80 compare = greater_than }
+			}
 		}
 
 
@@ -336,10 +397,20 @@ focus_tree = {
 	focus = {
 
 		id = GER_secure_the_railroads
+		cost = 5
 		#icon
 
 		prerequisite = {
 			focus = GER_prepare_for_urban_combat
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+
+				tooltip = GER_wehrmacht_troops_requirement_tt
+	
+				check_variable = { var = GER_wehrmacht_influence value = 80 compare = greater_than }
+			}
 		}
 
 
@@ -375,10 +446,20 @@ focus_tree = {
 	focus = {
 
 		id = GER_ground_the_planes
+		cost = 5
 		#icon
 
 		prerequisite = {
 			focus = GER_prepare_for_urban_combat
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+
+				tooltip = GER_wehrmacht_troops_requirement_tt
+	
+				check_variable = { var = GER_wehrmacht_influence value = 80 compare = greater_than }
+			}
 		}
 
 
@@ -414,12 +495,22 @@ focus_tree = {
 	focus = {
 
 		id = GER_for_glory
+		cost = 7
 		#icon
 
 		prerequisite = {
 			focus = GER_recall_the_troops
 			focus = GER_secure_the_railroads
 			focus = GER_ground_the_planes
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+
+				tooltip = GER_wehrmacht_final_requirement_tt
+	
+				check_variable = { var = GER_wehrmacht_influence value = 90 compare = greater_than }
+			}
 		}
 
 
@@ -487,6 +578,15 @@ focus_tree = {
 
 		prerequisite = {
 			focus = GER_wehrmacht_conquests
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+
+				tooltip = GER_wehrmacht_recruitment_support_requirement_tt
+	
+				check_variable = { var = GER_wehrmacht_influence value = 25 compare = greater_than }
+			}
 		}
 
 		x = -2
@@ -565,9 +665,22 @@ focus_tree = {
 			focus = GER_integrate_denmark
 		}
 
+		available = {
+			custom_trigger_tooltip = {
+
+				tooltip = GER_wehrmacht_recruitment_support_requirement_tt
+	
+				check_variable = { var = GER_wehrmacht_influence value = 25 compare = greater_than }
+			}
+		}
+
+		
+
 		bypass = {
 			has_completed_focus = GER_refnaz_and_wehrmacht
 		}
+
+		
 
 		x = 0
 		y = 2
@@ -698,7 +811,7 @@ focus_tree = {
 
 			custom_trigger_tooltip = {
 				tooltip = GER_refnaz_reforms_support_requirement_tt
-				check_variable = { GER_refnaz_influence = 5 compare = greater_than }
+				check_variable = { var = GER_refnaz_influence value = 5 compare = greater_than }
 			}
 		}
 
@@ -895,6 +1008,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_refnaz_involvement
+		cost = 5
 		#icon
 
 		prerequisite = {
@@ -931,6 +1045,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_deal_with_the_grain_harvest
+		cost = 5
 		icon = GFX_goal_GER_deal_with_the_grain_harvest
 
 		prerequisite = {
