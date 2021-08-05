@@ -48,6 +48,7 @@ country_event = {
 
 	option = {
 		name = italystart.3.a
+		add_stability = -0.3
 		country_event = {
 			id = italystart.4
 			hours = 5
