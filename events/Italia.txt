@@ -23,6 +23,20 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = italystart.2
+	title = italystart.2.t
+	desc = italystart.2.d
+	picture = GFX_report_event_ita_poster
+
+	is_triggered_only = yes
+
+	option = {
+		name = italystart.2.a
+
+	}
+}
+
 
 country_event = {
 	id = italystart.3
