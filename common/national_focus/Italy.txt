@@ -553,7 +553,9 @@ add_tech_bonus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			country_event = italystart.2	
+
+			country_event = italystart.2
+
 		}
 	}
 
