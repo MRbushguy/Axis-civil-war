@@ -67,17 +67,6 @@ country_event = {
 
 	option = {
 		name = italystart.4.a
-		retire_country_leader = yes
-		create_country_leader = {
-	name = "Dino Grandi"
-	desc = "muslini_desc"
-	picture = "grandi_leader.dds"
-	expire = "1965.1.1"
-	ideology = reformist_fascism
-	traits = {
-		long_term_thinker
-	}
-}
 	}
 }
 
