@@ -259,6 +259,9 @@ set_popularities = {
 	fascism = 70
 }
 
+
+ #leaders 
+
 create_country_leader = {
 	name = "Benito Mussolini"
 	desc = "muslini_desc"
@@ -269,6 +272,86 @@ create_country_leader = {
 		duce_ceaser
 	}
 }
+
+create_country_leader = {
+	name = "Dino Grandi"
+	desc = "muslini_desc"
+	picture = "benito mussolini.dds"
+	expire = "1965.1.1"
+	ideology = reformist_fascism
+	traits = {
+		duce_ceaser
+	}
+}
+
+create_country_leader = {
+	name = "Alessandro Pavolini"
+	desc = "muslini_desc"
+	picture = "benito mussolini.dds"
+	expire = "1965.1.1"
+	ideology = order_fascism
+	traits = {
+		duce_ceaser
+	}
+}
+
+create_country_leader = {
+	name = "Enzo Galbiati"
+	desc = "muslini_desc"
+	picture = "benito mussolini.dds"
+	expire = "1965.1.1"
+	ideology = order_fascism
+	traits = {
+		duce_ceaser
+	}
+}
+
+
+create_country_leader = {
+	name = "Francesco Barracu"
+	desc = "muslini_desc"
+	picture = "benito mussolini.dds"
+	expire = "1965.1.1"
+	ideology = order_fascism
+	traits = {
+		duce_ceaser
+	}
+}
+
+create_country_leader = {
+	name = "Galeazzo Ciano"
+	desc = "muslini_desc"
+	picture = "benito mussolini.dds"
+	expire = "1965.1.1"
+	ideology = italian_fascism
+	traits = {
+		duce_ceaser
+	}
+}
+
+create_country_leader = {
+	name = "Ettore Muti"
+	desc = "muslini_desc"
+	picture = "benito mussolini.dds"
+	expire = "1965.1.1"
+	ideology = fiumian_fascism
+	traits = {
+		duce_ceaser
+	}
+}
+
+create_country_leader = {
+	name = "Italo Balbo"
+	desc = "muslini_desc"
+	picture = "benito mussolini.dds"
+	expire = "1965.1.1"
+	ideology = pragmatic_fascism
+	traits = {
+		duce_ceaser
+	}
+}
+
+#no more duces
 
 create_country_leader = {
 	name = "Ferruccio Parri"
