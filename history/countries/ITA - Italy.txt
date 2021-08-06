@@ -270,7 +270,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = reformist_fascism
 	traits = {
-		duce_ceaser
+		long_term_thinker
 	}
 }
 
@@ -281,7 +281,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = order_fascism
 	traits = {
-		duce_ceaser
+		blackshirt_trium
 	}
 }
 
@@ -292,7 +292,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = order_fascism
 	traits = {
-		duce_ceaser
+		blackshirt_trium
+		shaodw_duce
 	}
 }
 
@@ -304,7 +305,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = order_fascism
 	traits = {
-		duce_ceaser
+		blackshirt_trium
+		shaodw_duce
 	}
 }
 
@@ -315,7 +317,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = italian_fascism
 	traits = {
-		duce_ceaser
+		son_in_law
 	}
 }
 
@@ -326,7 +328,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fiumian_fascism
 	traits = {
-		duce_ceaser
+		green_eye_jim
 	}
 }
 
@@ -337,7 +339,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = pragmatic_fascism
 	traits = {
-		duce_ceaser
+		prophet_general
 	}
 }
 
