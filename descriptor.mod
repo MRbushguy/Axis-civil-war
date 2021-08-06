@@ -4,3 +4,5 @@ tags={
 }
 name="Axis civil war"
 supported_version="1.10.7"
+
+replace_path = "history/states" 
