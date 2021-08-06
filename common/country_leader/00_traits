@@ -44,6 +44,74 @@ duce_ceaser = {
 		}
 	}
 
+	 green_eye_jim= {
+		random = no
+		army_morale_factor = 0.1
+		air_agility_factor = 0.07
+		stability_factor = -0.05
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	 long_term_thinker= {
+		random = no
+		 stability_factor = 0.1
+		 production_speed_industrial_complex_factor = 0.12
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	 prophet_general= {
+		random = no
+		 required_garrison_factor = 0.5
+		 war_support_factor = 0.1
+		 defense_bonus_against_GER = 0.2
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	 son_in_law= {
+		random = no
+		 stability_factor = 0.2
+		 political_power_factor = 0.1
+		 drift_defence_factor = 0.75
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	 blackshirt_trium= {
+		random = no
+		civilian_intel_to_others = 10
+		army_intel_to_others = 10
+		 navy_intel_to_others = 10
+		 airforce_intel_to_others = 10
+		 decryption = 2
+		 encryption = 5
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	 shaodw_duce= {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	uncontested_synthetics_monopoly = {
 
 		random = no
