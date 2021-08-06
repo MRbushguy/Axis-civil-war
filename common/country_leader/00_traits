@@ -68,7 +68,7 @@ duce_ceaser = {
 
 	 prophet_general= {
 		random = no
-		 required_garrison_factor = 0.5
+		 required_garrison_factor = -0.2
 		 war_support_factor = 0.1
 		 defense_bonus_against_GER = 0.2
 
@@ -92,10 +92,9 @@ duce_ceaser = {
 
 	 blackshirt_trium= {
 		random = no
-		civilian_intel_to_others = 10
-		army_intel_to_others = 10
-		 navy_intel_to_others = 10
-		 airforce_intel_to_others = 10
+		civilian_intel_to_others = -50
+		 navy_intel_to_others = -40
+		 airforce_intel_to_others = -40
 		 decryption = 2
 		 encryption = 5
 
