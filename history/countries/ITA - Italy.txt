@@ -262,16 +262,6 @@ set_popularities = {
 
  #leaders 
 
-create_country_leader = {
-	name = "Benito Mussolini"
-	desc = "muslini_desc"
-	picture = "benito mussolini.dds"
-	expire = "1965.1.1"
-	ideology = italian_fascism
-	traits = {
-		duce_ceaser
-	}
-}
 
 create_country_leader = {
 	name = "Dino Grandi"
@@ -1049,6 +1039,18 @@ if = {
 }
 
 1947.1.1 = {
+
+	create_country_leader = {
+	name = "Benito Mussolini"
+	desc = "muslini_desc"
+	picture = "benito mussolini.dds"
+	expire = "1965.1.1"
+	ideology = italian_fascism
+	traits = {
+		duce_ceaser
+	}
+}
+
 	create_faction = ita_sphere
 	puppet = OCC
 	puppet = CRO
