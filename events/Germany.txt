@@ -2,6 +2,26 @@
 # German Events
 ###########################
 
+
+add_namespace = germany_flavor _flavor _flavor 
+
+country_event = { #LSSAH 
+
+	id = germany_flavor.1
+	title = germany_flavor.1.t
+	desc = germany_flavor.1.d
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = germany_flavor.1.a
+	}
+}
+
+
+
+
 add_namespace = germany
 
 
