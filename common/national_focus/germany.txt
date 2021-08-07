@@ -1226,7 +1226,9 @@ focus_tree = {
 	focus = {
 
 		id = GER_limit_general_plan_ost
-		#icon
+		icon = x
+
+		cost = 4
 
 		prerequisite = {
 			focus = GER_evaluate_plunder_economy
@@ -1243,7 +1245,21 @@ focus_tree = {
 		relative_position_id = GER_evaluate_plunder_economy
 
 		completion_reward = {
-			#portray general_plan_ost as expensive, remove it
+			custom_effect_tooltip = GER_limit_generalplan_completion_tt
+			add_to_variable = {GER_NSDAP_influence = 5}
+			add_to_variable = {GER_refnaz_influence = 5}
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = GER_ticking_plunder_economy
+					days = 40
+				}
+			}
+				
+			
+			swap_ideas = {
+				remove_idea = GER_ongoing_holocaust
+				add_idea = GER_limited_holocaust
+			}
 
 		}
 
@@ -1879,7 +1895,8 @@ focus_tree = {
 	focus = {
 
 		id = GER_increase_general_plan_ost
-		#icon
+		icon = x
+		cost = 4
 
 		prerequisite = {
 			focus = GER_SS_political_lobbying
@@ -1897,7 +1914,22 @@ focus_tree = {
 		relative_position_id =  GER_SS_political_lobbying
 
 		completion_reward = {
-			#increases general_plan_ost spirit
+
+			custom_effect_tooltip = GER_increase_generalplan_completion_tt
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = GER_ticking_plunder_economy
+					days = -40
+				}
+			}
+			
+
+			add_to_variable = {GER_NSDAP_influence = 5}
+			add_to_variable = {GER_SS_influence = 5}
+			swap_ideas = {
+				remove_idea = GER_ongoing_holocaust
+				add_idea = GER_increased_holocaust
+			}
 
 		}
 

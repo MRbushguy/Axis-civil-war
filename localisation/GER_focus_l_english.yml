@@ -81,6 +81,15 @@ GER_dismantle_mils_tt:0 "§YRemoves ten military factories in German core territ
 GER_rebuild_NSDAP_desc:0 "£decision_icon_small big pp £decision_faction_ger_nsdap_small"
 
 
+
+GER_limit_general_plan_ost:0 "Limit Generalplan Ost"
+GER_limit_general_plan_ost_desc:0 "For many years, the sole goal of German aggression and conquest has been to tame the East and incorporate it into the Aryan Realm, but the reality of that dream has been one of toil and failure. The final stages of Generalplan Ost have proved costly in both money and lives, and it is in Germany's best interest to halt integration of the eastern territories until a better solution has presented itself."
+GER_limit_generalplan_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §G+5§! Influence \n£decision_faction_ger_reform_small §YReformists §!: §G+5§! Influence\n\n§GDelays the decline of the plunder economy by 40 days.§!\n\n"
+GER_increase_general_plan_ost:0 "Increase Generalplan Ost"
+GER_increase_general_plan_ost_desc:0 "Despite the failures of Generalplan Ost, Germany's final solution is within reach. A soft-hearted bureaucrat would claim the entire endeavor as too costly, but there is only one response to failure in this field - more pressure. The repopulation of the East will be accelerated as much as our means will allow."
+GER_increase_generalplan_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §G+5§! Influence \n£decision_faction_ger_ss_small §YS.S.§!: §G+5§! Influence\n\n§RHastens the decline of the plunder economy by 40 days.§!\n\n"
+
+
 GER_cancel_tripartite:0 "A brand new enemy"
 GER_cancel_tripartite_desc:0 "The old alliances have been torn away by the fires of war. The dreaded USSR has been vanquished, and the capitalist imperials have been humbled. Meanwhile, Italy has stabbed us in the back and Japan was never more than a tool. We must destroy the last vestiges of the old world to step into the new."
 GER_the_true_enemy:0 "The True Enemy"

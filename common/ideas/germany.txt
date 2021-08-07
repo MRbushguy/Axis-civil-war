@@ -233,6 +233,24 @@ ideas = {
 
 
 
+		
+		GER_increased_holocaust = {
+			picture = holocost
+
+			allowed = {
+				original_tag = GER
+			}
+
+			modifier =  {
+
+				consumer_goods_factor = 0.20
+				production_speed_buildings_factor = -0.30
+				monthly_population	= -0.24
+				weekly_manpower = -600
+
+			}
+		}
+
 		GER_ongoing_holocaust = {
 			picture = holocost
 
@@ -247,13 +265,24 @@ ideas = {
 				monthly_population	= -0.12
 				weekly_manpower = -300
 
+			}
+		}
 
+		GER_limited_holocaust = {
+			picture = holocost
 
-
-
+			allowed = {
+				original_tag = GER
 			}
 
+			modifier =  {
 
+				consumer_goods_factor = 0.5
+				production_speed_buildings_factor = -0.15
+				monthly_population	= -0.06
+				weekly_manpower = -100
+
+			}
 		}
 
 		GER_plunder_economy_0 = {
@@ -668,7 +697,7 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_west_wall
+				#has_completed_focus = GER_west_wall
 			}
 
 			traits = { fortification_engineer }
@@ -696,8 +725,8 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_four_year_plan
-				NOT = { has_completed_focus = GER_demand_sudetenland }
+				#has_completed_focus = GER_four_year_plan
+				#NOT = { has_completed_focus = GER_demand_sudetenland }
 			}
 
 			traits = { captain_of_industry }
@@ -761,7 +790,7 @@ ideas = {
 				}
 				if = {
 					limit = { has_dlc = "Waking the Tiger" }
-					has_completed_focus = GER_reestablish_free_elections
+					#has_completed_focus = GER_reestablish_free_elections
 				}
 			}
 
@@ -769,7 +798,7 @@ ideas = {
 
 			do_effect = {
 				NOT = {
-					has_government = democratic
+					#has_government = democratic
 				}
 			}
 
@@ -1066,7 +1095,7 @@ ideas = {
 				armor = -0.15
 			}
 
-			traits = { MAN_trait }
+			#traits = { MAN_trait }
 
 			ai_will_do = {
 				factor = 1
