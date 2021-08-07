@@ -554,7 +554,7 @@ focus_tree = {
 
 		completion_reward = {
 			#complete before a certain date to ensure refnaz tree
-			#is refnaz's rallying cry
+			#is refnazs rallying cry
 
 		}
 

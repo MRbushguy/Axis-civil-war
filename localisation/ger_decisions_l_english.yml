@@ -74,10 +74,26 @@
 
 
  ### Internal Faction Decisions
+ ## Pro-NSDAP
  GER_assassinate_ss_decision:0 "Assassinate SS Officers"
- GER_assassinate_ss_tt:0 "By assassinating SS Officers we weaken their influence throughout the Reich. §R This reduces the influence of the SS, and increases the influence of the NSDAP§!."
+ GER_assassinate_ss_tt:0 "By assassinating SS Officers we weaken their influence throughout the Reich.  \n £decision_faction_ger_ss_small  §YSS §!§R-5§! \n £decision_faction_ger_nsdap_small  §YNSDAP§! §G+5§! ."
+ 
+ ## Pro-Reform
  GER_student_protests_decision:0 "Ignite Student Protests"
- GER_student_protests_tt:0 "Causing unrest amongst the upcoming classes of intelligensia, future leaders of the Reich we threaten the NSDAP's stranglehold on acceptable ideological thought. §RThis reduces the influence of the§Y NSDAP§! £decision_faction_ger_nsdap_small, and increases the influence of the §Y Reformists§! £decision_faction_ger_reform_small ."
+ GER_student_protests_tt:0 "Causing unrest amongst the upcoming classes of intelligensia, future leaders of the Reich we threaten the NSDAP's stranglehold on acceptable ideological thought. \n £decision_faction_ger_nsdap_small  §YNSDAP §!§R-10§! \n £decision_faction_ger_reform_small  §YReformists§! §G+10§! ."
+ GER_contact_NKFD_decision:0 "Contact NKFD"
+ GER_contact_NKFD_tt:0 "The National Committee for a Free Germany despite being in part a Bolshevik invention could act as a key organizer for resistance amongst Germans in the East against the NSDAP. \n £decision_faction_ger_nsdap_small  §YNSDAP §!§R-5§! \n £decision_faction_ger_reform_small  §YReformists§! §G+5§! ."
+
+ ## Pro-Wehrmacht
+ GER_weaken_waffen_str_wehr_decision:0 "Supplant Waffen-SS Commanders"
+ GER_weaken_waffen_str_wehr_tt:0 "The Wehrmacht will maneuver against the Waffen-SS by ensuring they are redeployed to garrison parts of the Reich to the Wehrmacht's advantage. \n £decision_faction_ger_waffen_ss_small  §YWaffen-SS §!§R-5§! \n £decision_faction_ger_wehr_small  §YWehrmacht§! §G+5§! ."
+ GER_weaken_nsdap_str_wehr_decision:0 "Arrest NSDAP Officials"
+ GER_weaken_nsdap_str_wehr_tt:0 "NSDAP officials of varying ranks will be framed for crimes ranging from arson to treason against the Reich. A swift set of arrests will bring the party apparatus into disarray.  \n £decision_faction_ger_nsdap_small  §YNSDAP §!§R-10§! \n £decision_faction_ger_wehr_small  §YWehrmacht§! §G+10§! ."
+ GER_weaken_mil_str_wehr_decision:0 "Sabotage Militarist Arms Factories"
+ GER_weaken_mil_str_wehr_tt:0 "Weakening the ability of the Militarists to produce arms as well as weaken their financial backing will strengthen the Wehrmacht.  \n £decision_faction_ger_mil_small  §YMilitarists §!§R-5§! \n £decision_faction_ger_wehr_small  §YWehrmacht§! §G+5§! ."
+ GER_ss_against_each_other_str_wehr_decision:0 "Cain and Abel"
+ GER_ss_against_each_other_str_wehr_tt:0 "The Black Beast of Burgundy and his illegitimate sons thrown to the wind in the east must be made to battle one another. A terrorist incident during a joint meeting of both branches of the SS will be staged in such a way that each side will inextricably blame the other.  \n £decision_faction_ger_ss_small  §YSS §!§R-5§! \n £decision_faction_ger_waffen_ss_small  §YWaffen-SS §!§R-5§!  \n £decision_faction_ger_wehr_small  §YWehrmacht§! §G+5§! "
+
  GER_wehrmacht_takeover:0 "Operation Bismark"
  GER_wehrmacht_takeover_tt:0 "The §YWehrmacht§! £decision_faction_ger_wehr_small  has gained overwhelming influence in society. §RThe time is now to seize power and reshape the fabric of society.§!"
  GER_nsdap_takeover:0 "Ein Reich"
