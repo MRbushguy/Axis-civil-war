@@ -70,7 +70,10 @@ duce_ceaser = {
 		random = no
 		 required_garrison_factor = -0.2
 		 war_support_factor = 0.1
-		 defense_bonus_against_GER = 0.2
+		 targeted_modifier = {
+				tag = GER
+				defense_bonus_against = 0.2
+			}
 
 
 		ai_will_do = {
@@ -80,8 +83,8 @@ duce_ceaser = {
 
 	 son_in_law= {
 		random = no
-		 stability_factor = 0.2
-		 political_power_factor = 0.1
+		 stability_factor = 0.05
+		 political_power_factor = 0.15
 		 drift_defence_factor = 0.75
 
 
