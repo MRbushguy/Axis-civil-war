@@ -1,0 +1,233 @@
+﻿focus_tree = {
+	id = vichy_france
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 11
+			tag = FRA
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	
+	focus = {
+
+		id = FRA_state_of_vichy
+		#icon
+
+		prerequisite = {}
+
+		allowed = {}
+
+
+
+		x = 20
+		y = 1
+
+		cost = 4
+
+
+		completion_reward = {
+			#adds political power and stability to FRA_national_regeneration
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_the_marshal
+		#icon
+
+		prerequisite = {focus = FRA_state_of_vichy}
+
+		allowed = {}
+
+
+
+		x = 0
+		y = 1
+
+		relative_position_id = FRA_state_of_vichy
+
+		cost = 4
+
+
+		completion_reward = {
+			#adds trait to Petain "council guidance" political advisor cost -15%
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_the_parliament
+		#icon
+
+		prerequisite = {focus = FRA_state_of_vichy}
+
+		allowed = {}
+
+
+
+		x = -3
+		y = 2
+
+		relative_position_id = FRA_state_of_vichy
+
+		cost = 4
+
+
+		completion_reward = {
+			#adds idea Vichy Parliament (-0.01 national socialism)
+			
+
+		}
+
+	}
+
+
+
+	focus = {
+
+		id = FRA_the_dissidents
+		#icon
+
+		prerequisite = {focus = FRA_state_of_vichy}
+
+		allowed = {}
+
+
+
+		x = 3
+		y = 2
+
+		relative_position_id = FRA_state_of_vichy
+
+		cost = 4
+
+
+		completion_reward = {
+			#adds idea Vichy Parliament (empty idea at start)
+			
+
+		}
+
+	}
+
+
+
+	focus = {
+
+		id = FRA_reconstruction_plan
+		#icon
+
+		prerequisite = {}
+
+		allowed = {}
+
+
+
+		x = 40
+		y = 1
+
+		cost = 4
+
+
+		completion_reward = {
+			#symbolize fixing the destruction germany caused them after leeching from their resources throughout ww2
+			#add an idea called "reconstruction program", has 15% consumer goods, +10% construction
+			#taking focus allows decisions to temporarily reduce civ cost + increase construction bonuses
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_humanitarian_aid
+		#icon
+
+		prerequisite = {focus = FRA_reconstruction_plan}
+
+		allowed = {}
+
+
+
+		x = -4
+		y = 1
+		relative_position_id = FRA_reconstruction_plan
+		cost = 4
+
+
+		completion_reward = {
+			#alleviates some of the famine effects
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_business_aid
+		#icon
+
+		prerequisite = {focus = FRA_reconstruction_plan}
+
+		allowed = {}
+
+
+
+		x = 4
+		y = 1
+		relative_position_id = FRA_reconstruction_plan
+		cost = 4
+
+
+		completion_reward = {
+			#alleviates some famine effects, adds 1% support to authoritarian
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_geopolitics
+		#icon
+
+		prerequisite = {focus = FRA_reconstruction_plan}
+
+		allowed = {}
+
+
+
+		x = -4
+		y = 1
+		relative_position_id = FRA_reconstruction_plan
+		cost = 4
+
+
+		completion_reward = {
+			#France gains claims on french core land (currently they are already cores, fix this first)
+			#add 5% war support
+			
+
+		}
+
+	}
+
+
+
+}
