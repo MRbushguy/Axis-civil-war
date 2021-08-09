@@ -1,5 +1,5 @@
-﻿nglish:
-#nazi bois (war cimes)
+﻿l_english:
+#nazism
  national_socialism:0 "National Socialist"
  national_socialism_noun:0 "National Socialism"
  national_socialism_desc:0 "Corporatist Totalitarian Regime"
@@ -12,7 +12,7 @@
  esoteric_nazism_noun:0 "Esoteric National Socialism"
  esoteric_nazism_desc:0 "§REsoteric National Socialism§! is the"
 
-#fascist bois (less war cimes)
+#fascist bois
  fascism:0 "Fascist"
  fascism_noun:0 "Fascism"
  fascism_desc:0 "Totalitarian Regime"
@@ -48,7 +48,7 @@
  rexism_desc:0 "Strongly opposed to both liberal and communist ideals, Rexism is a staunchly conservative nationalist movement who advocate a corporatist economic policy. Employing increasingly populist and authoritarian rhetoric, their ideals are shifting closer to other fascist movements."
  
  
- #socialist bois (average 14 year old)
+ #socialist
  socialism:0 "Socialism"
  socialism_noun:0 "socialism"
  socialism_desc:0 "Totalitarian Regime"
@@ -60,7 +60,7 @@
  utopian_socialism_desc:0 ""
  
  
-#communist bois (Earrape anthem)
+#communist bois
  communism:0 "Communist"
  communism_noun:0 "Communism"
  communism_desc:0 "Totalitarian Regime"
@@ -75,25 +75,24 @@
  stalinism_desc:0 "Identifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong, authorative socialist state to purge any counter-revolutionary elements."
  
  
- #democratic leftists (snowflakes) 
- democratic_left:0 "democratic left"
- democratic_left_noun:0 "Democratic left"
- democratic_left_desc:0 "Leftist Democratic regime"
+ #democratic leftists
+ democratic_left:0 "Social Democracy"
+ democratic_left_noun:0 "Social Democrat"
+ democratic_left_desc:0 "Social Democracy"
  
- democratic_left_acceptance:0 "Acceptance of Left leaning Democracy"
+ democratic_left_acceptance:0 "Acceptance of Social Democracy"
  
  
- #democratic center bois (Pick a side R*tards) 
- democratic_center:0 "democratic center"
- democratic_center_noun:0 "Democracic center"
- democratic_center_desc:0 "Centrist democratic Regime"
+ #democratic center
+ democratic_center:0 "Liberalism"
+ democratic_center_noun:0 "Liberal"
+ democratic_center_desc:0 "Liberal Democracy"
  
-  democratic_center_acceptance:0 "Acceptance of Centrist Democracy"
+ democratic_center_acceptance:0 "Acceptance of Liberal Democracy"
  
- #democratic rightists (Change bad !!!!!!) 
- democratic_right_right:0 "Democratic right"
- democratic_right_noun:0 "Democratic right"
- democratic_right_desc:0 "Rightist democratic Regime"
+ democratic_right:0 "Conservatism"
+ democratic_right_noun:0 "Conservative"
+ democratic_right_desc:0 "Conservative Democracy"
  
  democratic_right_acceptance:0 "Acceptance of Right leaning Democracy"
  
@@ -101,7 +100,7 @@
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
  
  
- #authoritarian bois (protest crushing go brrrr)
+ #authoritarian
  authoritarianism:0 "Authoritarian"
  authoritarianism_noun:0 "Authoritarian"
  authoritarianism_desc:0 "Authoritarian Regime"
@@ -109,12 +108,12 @@
  despotism:0 "Despotic"
  despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
  
- oligarchism:0 "Oligarchicy"
+ oligarchism:0 "Oligarchy"
  oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power."
  
- 
- 
+
  #parties
+ FRA_authoritarianism_party:0 "Synarchist Influence"
  GER_national_socialism_party:0 "NSDAP - Hardliners"
  GER_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Hardlinerin"
  GER_neutrality_party:0 "NSDAP - Reform"

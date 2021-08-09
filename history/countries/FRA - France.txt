@@ -994,8 +994,18 @@ if = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		democratic = 10
-		national_socialism = 85
-		communism = 5
+		national_socialism = 55
+		authoritarianism = 5
+		fascism = 20
+		socialism = 5
+		democratic_center = 5
+		democratic_right = 10
+	}
+
+	add_ideas = {
+		FRA_foreign_worker_program
+		FRA_national_regeneration
+		FRA_recovering_from_famine
+		FRA_french_irridentism
 	}
 }

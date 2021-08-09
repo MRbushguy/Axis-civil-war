@@ -237,8 +237,31 @@ spriteTypes = {
 		name = "GFX_goal_GER_for_stability"
 		texturefile = "gfx/interface/goals/GER_for_the_future.dds"
 	}
-
-		#icon
+	SpriteType = {
+		name = "GFX_goal_GER_manage_the_west"
+		texturefile = "gfx/interface/goals/GER_manage_the_west.dds"
+	}
+		SpriteType = {
+		name = "GFX_goal_GER_manage_the_east"
+		texturefile = "gfx/interface/goals/GER_manage_the_east.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_use_favors"
+		texturefile = "gfx/interface/goals/GER_use_favors.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_secure_the_railroads"
+		texturefile = "gfx/interface/goals/GER_secure_the_railroads.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_ground_the_planes"
+		texturefile = "gfx/interface/goals/GER_ground_the_planes.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_wehrmacht_alone"
+		texturefile = "gfx/interface/goals/GER_wehrmacht_alone.dds"
+	}
+			
 	### SOV
 	SpriteType = {
 		name = "GFX_focus_SOV_shattered_union"

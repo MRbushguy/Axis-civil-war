@@ -244,6 +244,9 @@ ideologies = {
 
 			market_liberalism = {
 			}
+
+			liberalism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -297,9 +300,6 @@ ideologies = {
 		types = {
 
 			social_democracy = {
-			}
-
-			liberalism = {
 			}
 		}
 
