@@ -173,7 +173,7 @@ focus_tree = {
 
 		id = GER_use_favors
 		cost = 3
-		#icon
+		icon = GFX_goal_GER_use_favors
 
 		prerequisite = {
 			focus = GER_wehrmacht_involvement
@@ -216,7 +216,7 @@ focus_tree = {
 
 		id = GER_wehrmacht_alone
 		cost = 3
-		#icon
+		icon = GFX_goal_GER_wehrmacht_alone
 
 		prerequisite = {
 			focus = GER_deal_with_the_grain_harvest
@@ -398,7 +398,7 @@ focus_tree = {
 
 		id = GER_secure_the_railroads
 		cost = 5
-		#icon
+		icon = GFX_goal_GER_secure_the_railroads
 
 		prerequisite = {
 			focus = GER_prepare_for_urban_combat
@@ -447,7 +447,7 @@ focus_tree = {
 
 		id = GER_ground_the_planes
 		cost = 5
-		#icon
+		icon = GFX_goal_GER_ground_the_planes
 
 		prerequisite = {
 			focus = GER_prepare_for_urban_combat
@@ -757,7 +757,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_manage_the_west
-		#icon
+		icon = GFX_goal_GER_manage_the_west
 
 		prerequisite = {
 			focus = GER_integrate_denmark
