@@ -265,7 +265,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Dino Grandi"
-	desc = "muslini_desc"
+	desc = "grandi_desc"
 	picture = "grandi_leader.dds"
 	expire = "1965.1.1"
 	ideology = reformist_fascism
@@ -276,7 +276,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Alessandro Pavolini"
-	desc = "muslini_desc"
+	desc = "Pavolini_desc"
 	picture = "pavolini_leader.dds"
 	expire = "1965.1.1"
 	ideology = order_fascism
@@ -287,7 +287,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Enzo Galbiati"
-	desc = "muslini_desc"
+	desc = "Galbiati_desc"
 	picture = "Galbiati_leader.dds"
 	expire = "1965.1.1"
 	ideology = order_fascism
@@ -300,7 +300,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Francesco Barracu"
-	desc = "muslini_desc"
+	desc = "Barracu_desc"
 	picture = "Barracu_leader.dds"
 	expire = "1965.1.1"
 	ideology = order_fascism
@@ -312,7 +312,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Galeazzo Ciano"
-	desc = "muslini_desc"
+	desc = "Ciano_desc"
 	picture = "ciano_leader.dds"
 	expire = "1965.1.1"
 	ideology = italian_fascism
@@ -323,7 +323,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Ettore Muti"
-	desc = "muslini_desc"
+	desc = "Muti_desc"
 	picture = "muti_leader.dds"
 	expire = "1965.1.1"
 	ideology = fiumian_fascism
@@ -334,7 +334,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Italo Balbo"
-	desc = "muslini_desc"
+	desc = "Balbo_desc"
 	picture = "balbo_leader.dds"
 	expire = "1965.1.1"
 	ideology = pragmatic_fascism

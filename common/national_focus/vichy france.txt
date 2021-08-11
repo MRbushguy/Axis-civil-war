@@ -207,15 +207,14 @@
 		id = FRA_geopolitics
 		#icon
 
-		prerequisite = {focus = FRA_reconstruction_plan}
+		prerequisite = {}
 
 		allowed = {}
 
 
 
-		x = -4
+		x = 10
 		y = 1
-		relative_position_id = FRA_reconstruction_plan
 		cost = 4
 
 

@@ -52,6 +52,12 @@ spriteTypes = {
 
 	}
 
+	spriteType = {
+		name = "GFX_report_event_lbssah_event"
+		texturefile = "gfx/event_pictures/lbssah_event.dds"
+
+	}
+
 
 
 }
