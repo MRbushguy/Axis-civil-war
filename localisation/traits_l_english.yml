@@ -8,14 +8,12 @@
  man_of_rust:0 "Man of Rust"
  duce_ceaser:0 "Caesar Duce"
  green_eye_jim:0 "Green-Eyed Jim"
- long_term_thinker:0 "Long term thinker"
+ long_term_thinker:0 "Long Term Thinker"
  prophet_general:0 "Prophet General"
-son_in_law:0 "The Son in law"
-blackshirt_trium:0 "Blackshirt Triumvir"
-shaodw_duce:0 "Shadow Duce"
+ son_in_law:0 "The Son-in-law"
+ blackshirt_trium:0 "Blackshirt Triumvir"
+ shaodw_duce:0 "Shadow Duce"
 
- 
- 
  #vanilla
  cc_leader:0 "General"
  fm_leader:0 "Field Marshal"

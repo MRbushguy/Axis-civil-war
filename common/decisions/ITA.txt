@@ -1,0 +1,211 @@
+#category for ITA
+
+ITA_debug = {
+
+
+	ITA_Balbo = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+
+		available = {
+
+		}
+
+		cost = 1
+
+		days_remove = 1
+
+		complete_effect = {
+			custom_effect_tooltip = 
+			create_country_leader = {
+				name = "Italo Balbo"
+				desc = ""
+				picture = "balbo_leader.dds"
+				expire = "1965.1.1"
+				ideology = italian_fascism
+				traits = {
+				}
+			}
+		}
+	}
+
+	ITA_Barracu = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+
+		available = {
+
+		}
+
+		cost = 1
+
+		days_remove = 1
+
+		complete_effect = {
+			custom_effect_tooltip = 
+			create_country_leader = {
+				name = "Francesco Barracu"
+				desc = ""
+				picture = "Barracu_leader.dds"
+				expire = "1965.1.1"
+				ideology = italian_fascism
+				traits = {
+				}
+			}
+		}
+	}
+
+	ITA_Ciano = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+
+		available = {
+
+		}
+
+		cost = 1
+
+		days_remove = 1
+
+		complete_effect = {
+			custom_effect_tooltip = 
+			create_country_leader = {
+				name = "Galeazzo Ciano"
+				desc = ""
+				picture = "ciano_leader.dds"
+				expire = "1965.1.1"
+				ideology = italian_fascism
+				traits = {
+				}
+			}
+		}
+	}
+	ITA_Galbiati = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+
+		available = {
+
+		}
+
+		cost = 1
+
+		days_remove = 1
+
+		complete_effect = {
+			custom_effect_tooltip = 
+			create_country_leader = {
+				name = "Enzo Galbiati"
+				desc = ""
+				picture = "Galbiati_leader.dds"
+				expire = "1965.1.1"
+				ideology = italian_fascism
+				traits = {
+				}
+			}
+		}
+	}		
+	ITA_Grandi = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+
+		available = {
+
+		}
+
+		cost = 1
+
+		days_remove = 1
+
+		complete_effect = {
+			custom_effect_tooltip = 
+			create_country_leader = {
+				name = "Dino Grandi"
+				desc = ""
+				picture = "grandi_leader.dds"
+				expire = "1965.1.1"
+				ideology = italian_fascism
+				traits = {
+				}
+			}
+		}
+	}
+	ITA_Muti = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+
+		available = {
+
+		}
+
+		cost = 1
+
+		days_remove = 1
+
+		complete_effect = {
+			custom_effect_tooltip = 
+			create_country_leader = {
+				name = "Ettore Muti"
+				desc = ""
+				picture = "muti_leader.dds"
+				expire = "1965.1.1"
+				ideology = italian_fascism
+				traits = {
+				}
+			}
+		}
+	}
+	ITA_Pavolini = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+
+		available = {
+
+		}
+
+		cost = 1
+
+		days_remove = 1
+
+		complete_effect = {
+			custom_effect_tooltip = 
+			create_country_leader = {
+				name = "Alessandro Pavolini"
+				desc = ""
+				picture = "pavolini_leader.dds"
+				expire = "1965.1.1"
+				ideology = italian_fascism
+				traits = {
+				}
+			}
+		}
+	}								
+}

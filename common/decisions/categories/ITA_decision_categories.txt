@@ -1,0 +1,20 @@
+#################
+##### ITALY #####
+#################
+
+
+ITA_debug = {
+
+	priority = 10
+
+	icon = generic_fascism
+
+	visible = {
+		original_tag = ITA
+	}
+
+	allowed = {
+		original_tag = ITA
+
+	}
+}
