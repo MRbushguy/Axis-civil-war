@@ -32,7 +32,6 @@ ITA_debug = {
 			}
 		}
 	}
-
 	ITA_Barracu = {
 
 		icon = generic_civil_support
@@ -62,7 +61,6 @@ ITA_debug = {
 			}
 		}
 	}
-
 	ITA_Ciano = {
 
 		icon = generic_civil_support
