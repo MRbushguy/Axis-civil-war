@@ -213,7 +213,7 @@
 
 
 
-		x = 10
+		x = 8
 		y = 1
 		cost = 4
 
@@ -226,6 +226,279 @@
 		}
 
 	}
+
+	
+
+	focus = {
+
+		id = FRA_the_breton_situation
+		#icon
+
+		prerequisite = {focus = FRA_geopolitics}
+
+		allowed = {}
+
+	
+
+		relative_position_id = FRA_geopolitics
+		x = -5
+		y = 1
+		cost = 4
+
+
+		completion_reward = {
+			#France focuses on bringing brittney back into spears
+			# -100 political power, add spirit that gives some industry to France
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_integrate_brittany
+		#icon
+
+		prerequisite = {focus = FRA_the_breton_situation}
+
+		allowed = {}
+
+		relative_position_id = FRA_the_breton_situation
+		x = -1
+		y = 1
+		cost = 4
+
+
+		completion_reward = {
+			#unlocks set of decisions that integrate more and more
+			# when decisions reach 60% completion becomes a puppet, when 100% annex
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_colonial_dreams
+		#icon
+
+		prerequisite = {focus = FRA_geopolitics}
+
+		allowed = {}
+
+		
+
+		relative_position_id = FRA_geopolitics
+		x = 5
+		y = 1
+		cost = 4
+
+
+		completion_reward = {
+			#France talks about reclaiming colonies
+			#gets national spirit: 35% political power gain, -0.50% weekly stability
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_talks_with_allies
+		#icon
+
+		prerequisite = {focus = FRA_colonial_dreams}
+
+		allowed = {}
+
+		
+
+		relative_position_id = FRA_colonial_dreams
+		x = 1
+		y = 1
+		cost = 4
+
+
+		completion_reward = {
+			#France talks about reclaiming colonies
+			#gets national spirit: 35% political power gain, -0.50% weekly stability
+			
+
+		}
+
+	}
+
+
+
+	focus = {
+
+		id = FRA_the_narrow_path
+		#icon
+
+		prerequisite = {focus = FRA_geopolitics}
+
+		allowed = {}
+
+		mutually_exclusive = {focus = FRA_german_occupation}
+		mutually_exclusive = {focus = FRA_italian_occupation}
+
+		relative_position_id = FRA_geopolitics
+		x = 0
+		y = 2
+		cost = 4
+
+
+		completion_reward = {
+			#France focuses on reclaiming both german and italian land
+			#gets national spirit: 35% political power gain, -0.50% weekly stability
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_italian_occupation
+		#icon
+
+		prerequisite = {focus = FRA_geopolitics}
+
+		allowed = {}
+
+		mutually_exclusive = {focus = FRA_german_occupation}
+		mutually_exclusive = {focus = FRA_the_narrow_path}
+
+		relative_position_id = FRA_geopolitics
+		x = -3
+		y = 2
+		cost = 4
+
+
+		completion_reward = {
+			#France focuses on reclaiming italian land
+			#gets national spirit: 15% political power gain, -0.10% weekly stability
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_german_occupation
+		#icon
+
+		prerequisite = {focus = FRA_geopolitics}
+
+		allowed = {}
+
+		mutually_exclusive = {focus = FRA_italian_occupation}
+		mutually_exclusive = {focus = FRA_the_narrow_path}
+
+
+		relative_position_id = FRA_geopolitics
+		x = 3
+		y = 2
+		cost = 4
+
+
+		completion_reward = {
+			#France focuses on reclaiming german land
+			#gets national spirit: 15% political power gain, -0.10% weekly stability
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_the_narrow_path
+		#icon
+
+		prerequisite = {focus = FRA_geopolitics}
+
+		allowed = {}
+
+		mutually_exclusive = {focus = FRA_german_occupation}
+		mutually_exclusive = {focus = FRA_italian_occupation}
+
+		relative_position_id = FRA_geopolitics
+		x = 0
+		y = 2
+		cost = 4
+
+
+		completion_reward = {
+			#France focuses on reclaiming both german and italian land
+			#gets national spirit: 35% political power gain, -0.50% weekly stability
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_rebuild_france_army
+		#icon
+
+		prerequisite = {focus = FRA_italian_occupation
+						focus = FRA_the_narrow_path
+						focus = FRA_german_occupation}
+
+		allowed = {}
+
+		
+
+		relative_position_id = FRA_geopolitics
+		x = 0
+		y = 3
+		cost = 4
+
+
+		completion_reward = {
+			#France focuses on rebuilding the army that was destroyed
+			#gets national spirit: 2.50% recruitable pop, mobilization speed 100% (if this is a thing)
+			#unlocks decision that will pay germany reparations to return French POWs who are still working in Germany 
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_paris_frontline_city
+		#icon
+
+		prerequisite = {focus = FRA_german_occupation
+						focus = FRA_the_narrow_path}
+
+		allowed = {}
+
+		
+
+		relative_position_id = FRA_german_occupation
+		x = -1
+		y = 1
+		cost = 4
+
+
+		completion_reward = {
+			#France focuses on reclaiming both german and italian land
+			#adds 5 forts to paris, east and west, adds defensive dynamic modifier to the province
+			
+
+		}
+
+	}
+
+
 
 
 
