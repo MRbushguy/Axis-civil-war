@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = SOV
+		owner = LOA
 		buildings = {
 			infrastructure = 5
 		}
@@ -16,9 +16,11 @@ state={
 			9197 1
 		}
 		1947.1.1 = {
-			owner = RKM
-			controller = RKM
-			add_core_of = RKM
+			owner = LOA
+			controller = LOA
+			add_core_of = LOA
+			add_core_of = SOV
+
 		}
 	}
 
