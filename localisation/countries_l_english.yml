@@ -134,6 +134,8 @@
  IGL:0 "Persian Gulf"
  IGL_DEF:0 "Persian Gulf"
  IGL_ADJ:0 "Arabian"
+
+ FRA_national_socialism:0 "L'État Français"
  
  FFA_fascism:0 "French State"
  FFA_fascism_DEF:0 "the French State"
