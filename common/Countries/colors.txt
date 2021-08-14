@@ -1,5 +1,13 @@
 #ACW countries
 
+LOA = {
+	color = rgb { 0 0 225 }
+	color_ui = rgb { 0 0 225 }
+}
+RKD = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
 IOC = {
 	color = rgb { 4 124 6 }
 	color_ui = rgb { 4 124 6 }
