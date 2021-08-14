@@ -16,6 +16,8 @@ state={
 			air_base = 2
 		}
 		add_core_of = LOA
+		add_core_of = SOV
+
 		1947.1.1 = {
 			owner = LOA
 			controller = LOA
