@@ -1304,6 +1304,8 @@ create_equipment_variant = {
 	puppet = NOR
 	puppet = FRA
 	puppet = BUR
+	puppet = LOA
+
 
 #adding ministers
 
