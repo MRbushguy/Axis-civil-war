@@ -218,3 +218,6 @@ RKM = "countries/RKM - Moscow.txt"
 RKC = "countries/RKC - Caucsus.txt"
 JAS = "countries/JAS - Jap Siberia.txt"
 UPR = "countries/UPR - Ukranian Peasant Revolt.txt"
+RKD = "countries/Reichskommisariat Don-Wolga.txt"
+LOA = "countries/Lokot Autonomy.txt"
+

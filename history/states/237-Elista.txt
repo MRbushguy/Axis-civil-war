@@ -16,9 +16,9 @@ state={
 			11724 1
 		}
 		1947.1.1 = {
-			owner = RKC
-			controller = RKC
-			add_core_of = RKC
+			owner = RKD
+			controller = RKD
+			add_core_of = RKD
 		}
 	}
 

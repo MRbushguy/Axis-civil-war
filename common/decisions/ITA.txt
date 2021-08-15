@@ -3,35 +3,6 @@
 ITA_debug = {
 
 
-	ITA_Balbo = {
-
-		icon = generic_civil_support
-
-		allowed = {
-			tag = ITA
-		}
-
-		available = {
-
-		}
-
-		cost = 1
-
-		days_remove = 1
-
-		complete_effect = {
-			custom_effect_tooltip = 
-			create_country_leader = {
-				name = "Italo Balbo"
-				desc = ""
-				picture = "balbo_leader.dds"
-				expire = "1965.1.1"
-				ideology = italian_fascism
-				traits = {
-				}
-			}
-		}
-	}
 	ITA_Barracu = {
 
 		icon = generic_civil_support
@@ -46,17 +17,20 @@ ITA_debug = {
 
 		cost = 1
 
-		days_remove = 1
+		days_remove = 0
 
 		complete_effect = {
 			custom_effect_tooltip = 
+			retire_country_leader = yes
 			create_country_leader = {
 				name = "Francesco Barracu"
-				desc = ""
+				desc = "Barracu_desc"
 				picture = "Barracu_leader.dds"
 				expire = "1965.1.1"
 				ideology = italian_fascism
 				traits = {
+					blackshirt_trium
+		shaodw_duce
 				}
 			}
 		}
@@ -75,17 +49,19 @@ ITA_debug = {
 
 		cost = 1
 
-		days_remove = 1
+		days_remove = 0
 
 		complete_effect = {
 			custom_effect_tooltip = 
+			retire_country_leader = yes
 			create_country_leader = {
 				name = "Galeazzo Ciano"
-				desc = ""
+				desc = "Ciano_desc"
 				picture = "ciano_leader.dds"
 				expire = "1965.1.1"
 				ideology = italian_fascism
 				traits = {
+					son_in_law
 				}
 			}
 		}
@@ -104,17 +80,20 @@ ITA_debug = {
 
 		cost = 1
 
-		days_remove = 1
+		days_remove = 0
 
 		complete_effect = {
 			custom_effect_tooltip = 
+			retire_country_leader = yes
 			create_country_leader = {
 				name = "Enzo Galbiati"
-				desc = ""
+				desc = "Galbiati_desc"
 				picture = "Galbiati_leader.dds"
 				expire = "1965.1.1"
 				ideology = italian_fascism
 				traits = {
+					blackshirt_trium
+		shaodw_duce
 				}
 			}
 		}
@@ -133,17 +112,18 @@ ITA_debug = {
 
 		cost = 1
 
-		days_remove = 1
+		days_remove = 0
 
 		complete_effect = {
 			custom_effect_tooltip = 
+			retire_country_leader = yes
 			create_country_leader = {
 				name = "Dino Grandi"
-				desc = ""
+				desc = "grandi_desc"
 				picture = "grandi_leader.dds"
 				expire = "1965.1.1"
 				ideology = italian_fascism
-				traits = {
+				traits = { long_term_thinker
 				}
 			}
 		}
@@ -162,17 +142,19 @@ ITA_debug = {
 
 		cost = 1
 
-		days_remove = 1
+		days_remove = 0
 
 		complete_effect = {
 			custom_effect_tooltip = 
+			retire_country_leader = yes
 			create_country_leader = {
 				name = "Ettore Muti"
-				desc = ""
+				desc = "Muti_desc"
 				picture = "muti_leader.dds"
 				expire = "1965.1.1"
 				ideology = italian_fascism
 				traits = {
+					green_eye_jim
 				}
 			}
 		}
@@ -191,19 +173,51 @@ ITA_debug = {
 
 		cost = 1
 
-		days_remove = 1
+		days_remove = 0
 
 		complete_effect = {
 			custom_effect_tooltip = 
+			retire_country_leader = yes
 			create_country_leader = {
-				name = "Alessandro Pavolini"
-				desc = ""
-				picture = "pavolini_leader.dds"
-				expire = "1965.1.1"
-				ideology = italian_fascism
-				traits = {
-				}
-			}
-		}
+	name = "Alessandro Pavolini"
+	desc = "Pavolini_desc"
+	picture = "pavolini_leader.dds"
+	expire = "1965.1.1"
+	ideology = order_fascism
+	traits = {
+		blackshirt_trium
+	}
+}
 	}								
 }
+
+ITA_Balbo = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+
+		available = {
+
+		}
+
+		cost = 1
+
+		days_remove = 0
+
+		complete_effect = {
+			retire_country_leader = yes
+			create_country_leader = {
+	name = "Italo Balbo"
+	desc = "Balbo_desc"
+	picture = "balbo_leader.dds"
+	expire = "1965.1.1"
+	ideology = pragmatic_fascism
+	traits = {
+		prophet_general
+	}
+}
+		}
+	}
