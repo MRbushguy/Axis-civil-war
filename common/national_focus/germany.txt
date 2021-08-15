@@ -779,7 +779,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_manage_the_east
-		#icon
+		icon = GFX_goal_GER_manage_the_east
 
 		prerequisite = {
 			focus = GER_integrate_denmark

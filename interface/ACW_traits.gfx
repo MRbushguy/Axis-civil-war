@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_trait_GER_ss_general"
+		texturefile = "gfx/interface/traits/personal/trait_ss_general.dds"
+	}	
+}

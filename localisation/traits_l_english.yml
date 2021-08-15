@@ -14,6 +14,10 @@
  blackshirt_trium:0 "Blackshirt Triumvir"
  shaodw_duce:0 "Shadow Duce"
 
+ # Commander Traits
+ GER_ss_general:0 "SS General"
+ GER_ss_general_desc:0 "This general is a part of the Waffen-SS."
+
  #vanilla
  cc_leader:0 "General"
  fm_leader:0 "Field Marshal"
