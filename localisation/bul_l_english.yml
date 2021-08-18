@@ -1,3 +1,15 @@
 ﻿
 l_english: 
 bul_lukov_desc:0 "Hristo Lukov other wise known as the hero of the Bulgarian People. He has successfully lead the country through the Seccond World War and fullfilled the country's territorial ambitions while manging to keep total independence from Germany and Italy."
+
+BUL_neutrality_party:0 "Tsar Boris Loyalists"
+bul_communism1:0 "TWR (C)"
+bul_communism_long1:0 "The Worker's Revolution (Communist)"
+bul_socialism_party:0 "TWR (S)"
+ bul_socialism_party_long:0 "The Worker's Revolution (Socialist)"
+ BUL_democratic_party:1 "BZNS"
+ BUL_democratic_party_long:1 "Bulgarski Zemedelski Naroden Sayuz"
+ BUL_democratic_party_bftb:1 "DP"
+ BUL_democratic_party_bftb_long:1 "Democratic Party"
+ BUL_fascism_party:0 "UBNL"
+ BUL_fascism_party_long:0 "The Union of Bulgarian National Legions"
