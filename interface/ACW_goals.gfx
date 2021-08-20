@@ -317,4 +317,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/new_age.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_focus_returning_to_civilian_life"
+		texturefile = "gfx/interface/goals/returning_to_civilian_life.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_the_homefront"
+		texturefile = "gfx/interface/goals/the_homefront.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_use_resources_from_the_colonies"
+		texturefile = "gfx/interface/goals/use_resources_from_the_colonies.dds"
+	}
+
 
