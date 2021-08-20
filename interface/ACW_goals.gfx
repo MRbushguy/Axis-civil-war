@@ -261,7 +261,15 @@ spriteTypes = {
 		name = "GFX_goal_GER_wehrmacht_alone"
 		texturefile = "gfx/interface/goals/GER_wehrmacht_alone.dds"
 	}
-			
+	SpriteType = {
+		name = "GFX_goal_GER_integrate_denmark"
+		texturefile = "gfx/interface/goals/GER_integrate_denmark.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_wehrmacht_involvement"
+		texturefile = "gfx/interface/goals/GER_wehrmacht_involvement.dds"
+	}
+
 	### SOV
 	SpriteType = {
 		name = "GFX_focus_SOV_shattered_union"
@@ -295,9 +303,6 @@ spriteTypes = {
 		name = "GFX_focus_SOV_trust_stalin"
 		texturefile = "gfx/interface/goals/SOV/trust_stalin.dds"
 	}
-
-
-
 
 ###ITA 
 
