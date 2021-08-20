@@ -207,6 +207,9 @@ focus_tree = {
 
 	focus = { #left-middle tree
 		id = homefront
+		icon = GFX_focus_the_homefront
+		
+
 
 		x = 20
 		y = 4
@@ -284,6 +287,7 @@ focus_tree = {
 
 	focus = { #left-middle tree
 		id = use_colonies_resources
+		icon = GFX_focus_use_resources_from_the_colonies
 
 		x = 22
 		y = 5
@@ -306,6 +310,7 @@ focus_tree = {
 
 	focus = { #left-middle tree
 		id = return_civilian_life
+		icon = GFX_focus_returning_to_civilian_life
 
 		x = 20
 		y = 7
