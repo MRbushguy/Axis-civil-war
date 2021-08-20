@@ -31,8 +31,10 @@ state={
 
 		}
 		1947.1.1 = {
-			owner = TUR
-			controller = TUR
+			owner = GEO
+			controller = GEO
+		add_core_of = GEO
+
 		}
 	}
 
