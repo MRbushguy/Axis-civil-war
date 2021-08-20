@@ -15,6 +15,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/fascism_group.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_ideology_fiumian_fascism"
+		texturefile = "gfx/interface/ideologies/fiumian_fascism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_pragmatic_fascism"
+		texturefile = "gfx/interface/ideologies/pragmatic_fascism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_reformist_fascism"
+		texturefile = "gfx/interface/ideologies/reformist_fascism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_order_fascism"
+		texturefile = "gfx/interface/ideologies/order_fascism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_falangism"
+		texturefile = "gfx/interface/ideologies/falangism.dds"
+	}
+
 	### Democratic
 	SpriteType = {
 		name = "GFX_ideology_democratic_center_group"
@@ -41,6 +66,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/esoteric_nazism.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_ideology_lebensraum_colonization"
+		texturefile = "gfx/interface/ideologies/lebensraum_colonization.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_russian_nazism"
+		texturefile = "gfx/interface/ideologies/russian_nazism.dds"
+	}
+	
 	### Communism
 	SpriteType = {
 		name = "GFX_ideology_marxism"

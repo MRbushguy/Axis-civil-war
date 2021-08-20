@@ -139,7 +139,7 @@ focus_tree = {
 
 		id = GER_wehrmacht_involvement
 		cost = 5
-		#icon
+		icon = GFX_goal_GER_wehrmacht_involvement
 
 		prerequisite = {
 			focus = GER_wehrmacht_conquests
@@ -627,7 +627,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_integrate_denmark
-		#icon
+		icon = GFX_goal_GER_integrate_denmark
 
 		prerequisite = {
 			focus = GER_wehrmacht_conquests
