@@ -26,8 +26,10 @@ state={
 
 		}
 		1947.1.1 = {
-			owner = TUR
-			controller = TUR
+			owner = ARM
+			controller = ARM
+			add_core_of = ARM
+
 		}
 	}
 
