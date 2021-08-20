@@ -1,4 +1,4 @@
-capital = 109
+capital = 48
 
 set_research_slots = 3
 
@@ -85,7 +85,11 @@ set_popularities = {
 	fascism = 59
 	national_socialism = 28
 }
-
+set_party_name = { 
+    ideology = communism
+    long_name = bul_communism_long1
+    name = bul_communism1
+}
 create_country_leader = {
 	name = "Hristo Lukov"
 	desc = bul_lukov_desc  
@@ -99,22 +103,22 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vladko Maček"
-	picture = "portrait_CRO_vladko_macek.dds"
+	name = "Georgi Dimitrov"
+	picture = "Portrait_Bulgaria_Georgi_Dimitrov.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = utopian_socialism
 	traits = {
-		#
+		Militant_Socialist
 	}
 }
 
 create_country_leader = {
-	name = "Vladko Maček"
-	picture = "portrait_CRO_vladko_macek.dds"
+	name = "Georgi Dimitrov"
+	picture = "Portrait_Bulgaria_Georgi_Dimitrov.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = stalinism
 	traits = {
-		#
+		Staunch_Stalinist
 	}
 
 
