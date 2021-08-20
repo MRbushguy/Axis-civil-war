@@ -22,8 +22,9 @@ state={
 		add_core_of = SOV
 		add_core_of = AZR
 		1947.1.1 = {
-			owner = TUR
-			controller = TUR
+			owner = AZR
+			controller = AZR
+			add_core_of = AZR
 		}
 	}
 
