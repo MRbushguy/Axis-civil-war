@@ -122,7 +122,7 @@ ITA_debug = {
 				desc = "grandi_desc"
 				picture = "grandi_leader.dds"
 				expire = "1965.1.1"
-				ideology = italian_fascism
+				ideology = reformist_fascism
 				traits = { long_term_thinker
 				}
 			}
@@ -152,7 +152,7 @@ ITA_debug = {
 				desc = "Muti_desc"
 				picture = "muti_leader.dds"
 				expire = "1965.1.1"
-				ideology = italian_fascism
+				ideology = fiumian_fascism
 				traits = {
 					green_eye_jim
 				}
