@@ -27,7 +27,7 @@ ITA_debug = {
 				desc = "Barracu_desc"
 				picture = "Barracu_leader.dds"
 				expire = "1965.1.1"
-				ideology = italian_fascism
+				ideology = order_fascism
 				traits = {
 					blackshirt_trium
 		shaodw_duce
@@ -90,7 +90,7 @@ ITA_debug = {
 				desc = "Galbiati_desc"
 				picture = "Galbiati_leader.dds"
 				expire = "1965.1.1"
-				ideology = italian_fascism
+				ideology = order_fascism
 				traits = {
 					blackshirt_trium
 		shaodw_duce
