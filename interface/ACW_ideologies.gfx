@@ -101,6 +101,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/collapsed_communism.dds"
 	}
 
+	### Socialism
+	SpriteType = {
+		name = "GFX_ideology_anarchism"
+		texturefile = "gfx/interface/ideologies/anarchism.dds"
+	}
+		name = "GFX_ideology_utopian_socialism"
+		texturefile = "gfx/interface/ideologies/utopian_socialism.dds"
+	}	
+
 	### Neutrality
 	SpriteType = {
 		name = "GFX_ideology_authoritarianism_group"
@@ -118,4 +127,9 @@ spriteTypes = {
 		name = "GFX_ideology_monarchism"
 		texturefile = "gfx/interface/ideologies/monarchism.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_ideology_resource_exploitation"
+		texturefile = "gfx/interface/ideologies/resource_exploitation.dds"
+	}	
 }

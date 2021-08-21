@@ -110,8 +110,9 @@
  
  oligarchism:0 "Oligarchy"
  oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power."
- 
-
+ resource_exploitation:0 "Exploitative Colonialism"
+ resource_exploitation_noun:0 "Exploitative Colonial Regime"
+  resource_exploitation_desc:0 ""
  #parties
  FRA_authoritarianism_party:0 "Synarchist Influence"
  GER_national_socialism_party:0 "NSDAP - Hardliners"

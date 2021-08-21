@@ -16,7 +16,7 @@
 		desc = ""
 		picture = ""
 		expire = "1965.1.1"
-		ideology = oligarchy
+		ideology = resource_exploitation
 		traits = {
 		}
 	}

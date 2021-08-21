@@ -81,7 +81,7 @@ create_country_leader = {
 		name = "IGL Leader"
 		desc = ""
 		picture = ""
-		ideology = oligarchy
+		ideology = resource_exploitation
 		traits = {
 		#
 		}

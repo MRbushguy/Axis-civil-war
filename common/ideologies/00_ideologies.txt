@@ -136,6 +136,9 @@ ideologies = {
 			colonial_government = {
 			}
 
+			resource_exploitation = {
+			}
+
 			military_rule = {
 			}
 
