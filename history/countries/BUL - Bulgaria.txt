@@ -1,8 +1,19 @@
-capital = 48
+capital = 109
 
 set_research_slots = 3
 
 oob = "BUL_1936"
+
+add_ideas = {
+		BUL_german_influence
+		BUL_fatherland_front_negative	
+		BUL_over_militrized_industry
+		BUL_macidonian_opposition
+		
+		#laws
+		war_economy
+		extensive_conscription
+}
 
 set_technology = {
 	infantry_weapons = 1
