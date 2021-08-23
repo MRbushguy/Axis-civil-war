@@ -1,0 +1,77 @@
+#######################################################
+#Serbia events
+#######################################################
+
+
+add_namespace = serbiaprewar
+
+country_event = {
+	id = serbiaprewar.1
+	title = serbiaprewar.1.t
+	desc = serbiaprewar.1.d
+	picture = GFX_news_event_king_speech
+	
+	is_triggered_only = yes 
+	
+	option = {
+		name = serbiaprewar.1.a
+		ai_chance = { factor = 90 }
+		add_political_power = 100
+		set_politics = {
+		ruling_party = authoritarianism
+        elections_allowed = no
+		}
+		set_popularities = {
+		authoritarianism = 50
+		national_socialism = 15
+		fascism = 4
+		democratic_right = 5
+		democratic_center = 1
+		democratic_left = 5
+		socialism = 15
+		communism = 5
+		}
+		load_focus_tree = serbia2
+	
+		
+		
+	}
+	
+	option = {
+		name = serbiaprewar.1.b
+		ai_chance = {factor = 10}
+		add_political_power = 100
+		set_politics = {
+		ruling_party = socialism
+        elections_allowed = no
+	}
+		set_popularities = {
+		authoritarianism = 15
+		national_socialism = 15
+		fascism = 4
+		democratic_right = 5
+		democratic_center = 1
+		democratic_left = 5
+		socialism = 50
+		communism = 5
+		}
+	}
+}
+
+country_event = {
+	id = serbiaprewar.2
+	title = serbiaprewar.2.t
+	desc = serbiaprewar.2.d
+	
+	is_triggered_only = yes 
+	
+	
+	option = {
+		name = serbiaprewar.2.a
+		ai_chance = {
+		factor = 100}
+		add_war_support = 0.5
+		add_stability = 0.5
+		}
+		}
+		
