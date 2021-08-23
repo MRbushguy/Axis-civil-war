@@ -1,0 +1,51 @@
+@HEADERS_Y = 0
+guiTypes = {
+
+	containerWindowType = {
+		name = "fra_foreign_claims_decision_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 200 }
+
+
+		instantTextBoxType = {
+			name ="GER_arms_research_points"
+			position = { x = 120 y = -40 }
+			font = "hoi_18mbs"
+			text = "GER_arms_research_points"
+			format = left
+			maxwidth = 300
+		}
+
+		instantTextBoxType = {
+			name ="GER_tank_research_points"
+			position = { x = 120 y = -20 }
+			font = "hoi_18mbs"
+			text = "GER_tank_research_points"
+			format = left
+			maxwidth = 300
+		}
+		instantTextBoxType = {
+			name ="GER_plane_research_points"
+			position = { x = 120 y = 0 }
+			font = "hoi_18mbs"
+			text = "GER_plane_research_points"
+			format = left
+			maxwidth = 300
+		}
+		instantTextBoxType = {
+			name ="GER_nuke_research_points"
+			position = { x = 120 y = 20 }
+			font = "hoi_18mbs"
+			text = "GER_nuke_research_points"
+			format = left
+			maxwidth = 300
+		}
+		instantTextBoxType = {
+			name ="GER_misc_research_points"
+			position = { x = 120 y = 40 }
+			font = "hoi_18mbs"
+			text = "GER_misc_research_points"
+			format = left
+			maxwidth = 300
+		}
+}

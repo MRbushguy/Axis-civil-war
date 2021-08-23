@@ -1,0 +1,35 @@
+
+
+
+FRA_geopolitics_decisions = {
+		
+
+	FRA_flood_industrial_market = {
+
+		#icon = 
+
+		allowed = {
+
+			tag = FRA
+		}
+
+		available = {
+
+
+		}
+
+		cost = 50
+
+		days_remove = 30
+
+		complete_effect = {
+
+			
+		}
+
+
+
+
+
+	}
+}
