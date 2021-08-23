@@ -184,5 +184,5 @@ set_popularities = {
 }
 
 1947.1.1 = {
-	set_cosmetic_tag = ITA_puppet
+	set_cosmetic_tag = OCC_ITA
 }
