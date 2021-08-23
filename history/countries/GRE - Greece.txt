@@ -666,5 +666,4 @@ if = {
 }
 
 1947.1.1 = {
-	set_cosmetic_tag = ITA_puppet
 }

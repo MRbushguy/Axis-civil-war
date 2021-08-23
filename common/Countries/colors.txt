@@ -1,8 +1,8 @@
 #ACW countries
 
 LOA = {
-	color = rgb { 0 0 225 }
-	color_ui = rgb { 0 0 225 }
+	color = rgb { 0 0 110 }
+	color_ui = rgb { 0 0 110 }
 }
 RKD = {
 	color = rgb { 115 115 115 }
@@ -396,8 +396,8 @@ SYR = {
 }
 
 SER = {
-	color = rgb { 160 110 110 }
-	color_ui = rgb { 160 110 110 }
+	color = rgb { 4 45 93 }
+	color_ui = rgb { 4 45 93 }
 }
 
 ICE = {

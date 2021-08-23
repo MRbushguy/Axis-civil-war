@@ -6,13 +6,13 @@
  LOA_Ger_subject_DEF:0 "the Lokotskaya avtonomiya"
  LOA_democratic:0 "Lokotskaya avtonomiya"
  LOA_democratic_DEF:0 "the Lokotskaya avtonomiya"
- LOA_neutrality:1 "Lokotskaya avtonomiya"
- LOA_neutrality_DEF:1 "the Lokotskaya avtonomiya"
+ LOA_authoritarianism:1 "Lokotskaya avtonomiya"
+ LOA_authoritarianism_DEF:1 "the Lokotskaya avtonomiya"
  LOA_communism:0 "Socialist Lokotian Soviet Republic"
  LOA_communism_DEF:0 "the Socialist Lokotian Soviet Republic"
  LOA_fascism_ADJ:0 "Lokotian"
  LOA_democratic_ADJ:0 "Lokotian"
- LOA_neutrality_ADJ:0 "Lokotian"
+ LOA_authoritarianism_ADJ:0 "Lokotian"
  LOA_communism_ADJ:0 "Lokotian"
  LOA:0 "Lokotskaya avtonomiya"
  LOA_DEF:0 "Lokotskaya avtonomiya"
@@ -22,13 +22,13 @@
  RKD_fascism_DEF:0 "the Reichskommisariat Don-Wolga"
  RKD_democratic:0 "Don-Volga republic"
  RKD_democratic_DEF:0 "the Don-Volga republic"
- RKD_neutrality:1 "Don-Volga republic"
- RKD_neutrality_DEF:1 "the Don-Volga republic"
+ RKD_authoritarianism:1 "Don-Volga republic"
+ RKD_authoritarianism_DEF:1 "the Don-Volga republic"
  RKD_communism:0 "Communist Republic of Don-Volga"
  RKD_communism_DEF:0 "the Communist Republic of Don-Volga"
  RKD_fascism_ADJ:0 "Reichskommisariat Don-Wolga"
  RKD_democratic_ADJ:0 "Volgan"
- RKD_neutrality_ADJ:0 "Volgan"
+ RKD_authoritarianism_ADJ:0 "Volgan"
  RKD_communism_ADJ:0 "Volgan"
  RKD:0 "Reichskommisariat Don-Wolga"
  RKD_DEF:0 "Reichskommisariat Don-Wolga"
@@ -88,18 +88,16 @@
  IOC_authoritarianism_ADJ:0 "Crimean"
  IOC_communism_ADJ:0 "Crimean"
  
+ IEA_ITA_subject:0 "Africa Orientale Italiana"
+ IEA_ITA_subject_DEF:0 "Italian Colonial Governorate of East Africa"
  IEA_fascism:0 "Africa Orientale Italiana"
  IEA_fascism_DEF:0 "Italian Colonial Governorate of East Africa"
-
  IEA_democratic_right:0 "East African Republic"
  IEA_democratic_right_DEF:0 "the East African Republic"
-
  IEA_authoritarianism:1 "Africa Orientale Italiana"
  IEA_authoritarianism_DEF:1 "Italian Colonial Governorate of East Africa"
-
  IEA_communism:0 "Socialist Republic of East Africa"
  IEA_communism_DEF:0 "the Socialist Republic of East Africa"
-
  IEA_fascism_ADJ:0 "Italian"
  IEA_democratic_ADJ:0 "East African"
  IEA_authoritarianism_ADJ:0 "East African"
@@ -110,16 +108,12 @@
  
  IME_fascism:0 "Medio Oriente Italiano"
  IME_fascism_DEF:0 "Italian Colonial Governorate of the Middle East"
-
  IME_democratic_right:0 "Levantine Republic"
  IME_democratic_right_DEF:0 "the Levantine Republic"
-
  IME_authoritarianism:1 "Medio Oriente Italiano"
  IME_authoritarianism_DEF:1 "Italian Colonial Governorate of the Middle East"
-
  IME_communism:0 "Socialist Republic of the Levantine"
  IME_communism_DEF:0 "the Socialist Republic of the Levantine"
-
  IME_fascism_ADJ:0 "Italian"
  IME_democratic_ADJ:0 "Levantine"
  IME_authoritarianism_ADJ:0 "Levantine"
@@ -130,16 +124,12 @@
  
  ICA_fascism:0 "Africa Centrale Italiana"
  ICA_fascism_DEF:0 "Italian Colonial Governorate of Central Africa"
-
  ICA_democratic_right:0 "Africa Centrale Italiana"
  ICA_democratic_right_DEF:0 "Italian Colonial Governorate of Central Africa"
-
  ICA_authoritarianism:1 "Central African Empire"
  ICA_authoritarianism_DEF:1 "the Central African Empire"
-
  ICA_communism:0 "Socialist Republic of Central Africa"
  ICA_communism_DEF:0 "the Socialist Republic of Central Africa"
-
  ICA_fascism_ADJ:0 "Italian"
  ICA_democratic_ADJ:0 "Central African"
  ICA_authoritarianism_ADJ:0 "Central African"
@@ -148,6 +138,8 @@
  ICA_DEF:0 "Central Africa"
  ICA_ADJ:0 "Central African"
  
+ IGL_ITA_subject:0 "Territori Italiani del Golfo"
+ IGL_ITA_subject_DEF:0 "The Italian Gulf Territories"
  IGL_fascism:0 "Territori Italiani del Golfo"
  IGL_fascism_DEF:0 "the Italian Gulf Territories"
  IGL_democratic:0 "Arab Gulf Republic"
@@ -164,7 +156,6 @@
  IGL_DEF:0 "Persian Gulf"
  IGL_ADJ:0 "Arabian"
 
- FRA_national_socialism:0 "L'État Français"
  
  FFA_fascism:0 "French State"
  FFA_fascism_DEF:0 "the French State"
@@ -294,6 +285,7 @@
  SWE:0 "Sweden"
  SWE_DEF:0 "Sweden"
  SWE_ADJ:0 "Swedish"
+
  FRA_fascism:2 "Nation Française"
  FRA_fascism_DEF:2 "Nation Française"
  FRA_democratic:0 "France"
@@ -309,6 +301,7 @@
  FRA:0 "France"
  FRA_DEF:0 "France"
  FRA_ADJ:0 "French"
+
  LUX_fascism:0 "Luxembourg"
  LUX_fascism_DEF:0 "Luxembourg"
  LUX_democratic:0 "Luxembourg"
@@ -324,6 +317,7 @@
  LUX:0 "Luxembourg"
  LUX_DEF:0 "Luxembourg"
  LUX_ADJ:0 "Luxembourg"
+
  BEL_fascism:0 "Rexist Belgium"
  BEL_fascism_DEF:0 "Rexist Belgium"
  BEL_democratic:0 "Belgium"
@@ -339,6 +333,7 @@
  BEL:0 "Belgium"
  BEL_DEF:0 "Belgium"
  BEL_ADJ:0 "Belgian"
+
  HOL_fascism:0 "Dutch Rijk"
  HOL_fascism_DEF:0 "Dutch Rijk"
  HOL_democratic:0 "Netherlands"
@@ -354,6 +349,7 @@
  HOL:0 "Netherlands"
  HOL_DEF:0 "the Netherlands"
  HOL_ADJ:0 "Dutch"
+
  CZE_fascism:0 "Bohemian Empire"
  CZE_fascism_DEF:0 "the Bohemian Empire"
  CZE_democratic:0 "Czechoslovakia"
@@ -369,6 +365,7 @@
  CZE:0 "Czechoslovakia"
  CZE_DEF:0 "Czechoslovakia"
  CZE_ADJ:0 "Czechoslovakian"
+
  POL_fascism:0 "Falangist Poland"
  POL_fascism_DEF:0 "Falangist Poland"
  POL_democratic:0 "Polish Republic"
@@ -384,6 +381,7 @@
  POL:0 "Poland"
  POL_DEF:0 "Poland"
  POL_ADJ:0 "Polish"
+
  AUS_fascism:0 "Deutschsozialen Austria"
  AUS_fascism_DEF:0 "Deutschsozialen Austria"
  AUS_democratic:0 "Republic of Austria"
@@ -551,8 +549,8 @@
  GRE_ADJ:0 "Greek"
  ALB_fascism:0 "Greater Albania"
  ALB_fascism_DEF:0 "Greater Albania"
- ALB_ITA_subject:0 "Albania and Montenegro"
- ALB_ITA_subject_DEF:0 "Albania and Montenegro"
+ ALB_ITA_subject:0 "Regno d'Albania"
+ ALB_ITA_subject_DEF:0 "Il Regno d'Albania"
  ALB_democratic:0 "Republic of Albania"
  ALB_democratic_DEF:0 "the Republic of Albania"
  ALB_authoritarianism:0 "Albania"
@@ -1361,6 +1359,7 @@
  RAJ:0 "India"
  RAJ_DEF:0 "India"
  RAJ_ADJ:0 "Indian"
+
  CRO_fascism:0 "Independent State of Croatia"
  CRO_fascism_DEF:0 "the Independent State of Croatia"
  CRO_democratic:0 "Republic of Croatia"
@@ -1376,6 +1375,7 @@
  CRO:0 "Croatia"
  CRO_DEF:0 "Croatia"
  CRO_ADJ:0 "Croatian"
+
  GXC_fascism:0 "Third Guangxi Clique"
  GXC_fascism_DEF:0 "the Third Guangxi Clique"
  GXC_democratic:0 "Guangxi Independent Republic"
@@ -1451,8 +1451,11 @@
  KOR:0 "Korea"
  KOR_DEF:0 "Korea"
  KOR_ADJ:0 "Korean"
+
  SER_fascism:0 "Serbian Empire"
  SER_fascism_DEF:0 "the Serbian Empire"
+ SER_authoritarianism:0 "National Salvation Government of Serbia"
+ SER_authoritarianism_DEF:0 "The National Salvation Government of Serbia"
  SER_democratic:0 "Serbia"
  SER_democratic_DEF:0 "Serbia"
  SER_authoritarianism:0 "Serbia"
@@ -1466,6 +1469,7 @@
  SER:0 "Serbia"
  SER_DEF:0 "Serbia"
  SER_ADJ:0 "Serbian"
+
  ICE_fascism:0 "Islandsveldi"
  ICE_fascism_DEF:0 "the Islandsveldi"
  ICE_democratic:0 "Iceland"
@@ -1691,6 +1695,9 @@
  LAO:0 "Laos"
  LAO_DEF:0 "Laos"
  LAO_ADJ:0 "Laotian"
+
+ MNT_ITA_subject:0 "Italian governorate of Montenegro"
+ MNT_ITA_subject_DEF:0 "Italian governorate of Montenegro"
  MNT_fascism:0 "Independent Montenegro"
  MNT_fascism_DEF:0 "the Independent Montenegro"
  MNT_democratic:0 "Republic of Montenegro"
@@ -3306,15 +3313,19 @@
  SHL:0 "Schleswig"
  SHL_DEF:0 "Schleswig"
  SHL_ADJ:0 "Schleswig"
+
  BRI_fascism:0 "National Republic of Brittany"
  BRI_fascism_DEF:0 "the National Republic of Brittany"
  BRI_democratic:0 "Breton Free Republic"
  BRI_democratic_DEF:0 "the Breton Free Republic"
  BRI_communism:0 "Socialist State of Brittany"
  BRI_communism_DEF:0 "the Socialist State of Brittany"
+ BRI_democratic_right:0 "Free Breton state"
+  BRI_democratic_right_DEF:0 "The Free Breton state"
  BRI:0 "Brittany"
  BRI_DEF:0 "Brittany"
  BRI_ADJ:0 "Breton"
+
  COR_fascism:0 "Fraternal Corsica"
  COR_fascism_DEF:0 "Fraternal Corsica"
  COR_democratic:0 "Corsican Republic"
