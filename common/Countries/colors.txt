@@ -1,8 +1,8 @@
 #ACW countries
 
 LOA = {
-	color = rgb { 0 0 225 }
-	color_ui = rgb { 0 0 225 }
+	color = rgb { 0 0 110 }
+	color_ui = rgb { 0 0 110 }
 }
 RKD = {
 	color = rgb { 115 115 115 }
