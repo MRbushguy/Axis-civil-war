@@ -23,7 +23,7 @@ leader_traits = {
 		}
 	}
 	
-		germany_savior = {
+	germany_savior = {
 		random = no
 		national_socialism_drift = 0.1 
 		stability_factor = 0.1
@@ -33,7 +33,19 @@ leader_traits = {
 		}
 	}
 
-duce_ceaser = {
+	council_guidance = {
+		random = no
+		political_power_factor = -0.05
+		political_advisor_cost_factor = -0.15
+
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	duce_ceaser = {
 		random = no
 		 fascism_acceptance = 100
 		drift_defence_factor = 1.0
@@ -44,7 +56,7 @@ duce_ceaser = {
 		}
 	}
 
-	 green_eye_jim= {
+	green_eye_jim= {
 		random = no
 		army_morale_factor = 0.1
 		air_agility_factor = 0.07
@@ -56,7 +68,7 @@ duce_ceaser = {
 		}
 	}
 
-	 long_term_thinker= {
+	long_term_thinker= {
 		random = no
 		 stability_factor = 0.1
 		 production_speed_industrial_complex_factor = 0.12
@@ -66,7 +78,7 @@ duce_ceaser = {
 		}
 	}
 
-	 prophet_general= {
+	prophet_general= {
 		random = no
 		 required_garrison_factor = -0.2
 		 war_support_factor = 0.1
@@ -81,11 +93,11 @@ duce_ceaser = {
 		}
 	}
 
-	 son_in_law= {
+	son_in_law= {
 		random = no
-		 stability_factor = 0.05
-		 political_power_factor = 0.15
-		 drift_defence_factor = 0.75
+		stability_factor = 0.05
+		political_power_factor = 0.15
+		drift_defence_factor = 0.75
 
 
 		ai_will_do = {
@@ -93,13 +105,13 @@ duce_ceaser = {
 		}
 	}
 
-	 blackshirt_trium= {
+	blackshirt_trium= {
 		random = no
 		civilian_intel_to_others = -50
-		 navy_intel_to_others = -40
-		 airforce_intel_to_others = -40
-		 decryption = 2
-		 encryption = 5
+		navy_intel_to_others = -40
+		airforce_intel_to_others = -40
+		decryption = 2
+		encryption = 5
 
 
 		ai_will_do = {
@@ -107,12 +119,13 @@ duce_ceaser = {
 		}
 	}
 
-	 shaodw_duce= {
+	 shadow_duce= {
 		random = no
 		ai_will_do = {
 			factor = 1
 		}
 	}
+
 
 	uncontested_synthetics_monopoly = {
 

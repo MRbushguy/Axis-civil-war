@@ -1,5 +1,15 @@
 ﻿capital = 16
 
+
+
+
+#SET FLAGS AND VARIABLES
+set_variable = { FRA_brittany_influence = 0 }
+set_variable = { FRA_southern_france_influence = 0 }
+set_variable = { FRA_northern_france_influence = 0 }
+set_variable = { FRA_colonial_influence = 0 }
+
+
 oob = "FRA_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }

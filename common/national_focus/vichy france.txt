@@ -34,7 +34,8 @@
 
 		completion_reward = {
 			#adds political power and stability to FRA_national_regeneration
-			
+			add_political_power = 150
+			add_stability = 0.05
 
 		}
 
@@ -61,6 +62,8 @@
 
 		completion_reward = {
 			#adds trait to Petain "council guidance" political advisor cost -15%
+
+			add_country_leader_trait = council_guidance
 			
 
 		}

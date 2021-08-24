@@ -13,7 +13,11 @@ ideas = {
 
 			modifier = {
 				#represents workers that are still in germany working in factories
-				#-15% recruitable pop recuction, -15% production efficiency, -0.05 political power gain, -10% construction speed
+				political_power_gain = -0.05
+				conscription_factor = -0.15
+				production_factory_max_efficiency_factor  = -0.15
+				production_speed_buildings_factor = -0.1
+
 			}
 
 
@@ -29,6 +33,11 @@ ideas = {
 
 			modifier = {
 				#represents the restructuring of French society around conservative ideals and practices
+
+				national_socialism_drift = 0.03
+				political_power_factor = 0.15
+				stability_factor = -0.1
+				research_speed_factor = -0.05
 				#+0.01  national socialism support, 15%positive political power, -10% stability and -5% research speed
 				
 			}
@@ -46,7 +55,13 @@ ideas = {
 
 			modifier = {
 				#represents how Germany took lots of food from the area, causing shortages
-				#-10.0% monthly population loss,  -10% factory + dockyard output, 10% consumer goods, attrition +5.0%, 
+
+
+					monthly_population = -0.1
+					industrial_capacity_dockyard = -0.1
+					industrial_capacity_factory = -0.1
+					consumer_goods_factor = 0.1 
+					attrition = 0.05
 			}
 
 
@@ -62,6 +77,12 @@ ideas = {
 
 			modifier = {
 				#represents desire to reclaim french territories
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				war_support_factor = 0.2
+				war_support_weekly = 0.001
+
+
 				# +10% attack+defense on core territories, +20% war score, +0.10% war support weekly
 			}
 
