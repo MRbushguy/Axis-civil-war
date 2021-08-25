@@ -71,11 +71,23 @@ set_technology = {
 	set_garrison_strength = 1.0
 }
 
+810 = {
+	add_dynamic_modifier = { modifier = low_resistance }
+
+	set_state_flag = GER_has_low_resistance
+}
+
 811 = {
 	start_resistance = yes
 	set_compliance = 5
 	set_resistance = 20
 	set_garrison_strength = 1.0
+}
+
+811 = {
+	add_dynamic_modifier = { modifier = low_resistance }
+
+	set_state_flag = GER_has_low_resistance
 }
 
 812 = {
@@ -85,11 +97,22 @@ set_technology = {
 	set_garrison_strength = 1.0
 }
 
+812 = {
+	add_dynamic_modifier = { modifier = low_resistance }
+
+	set_state_flag = GER_has_low_resistance
+}
 813 = {
 	start_resistance = yes
 	set_compliance = 5
 	set_resistance = 20
 	set_garrison_strength = 1.0
+}
+
+813 = {
+	add_dynamic_modifier = { modifier = low_resistance }
+
+	set_state_flag = GER_has_low_resistance
 }
 
 

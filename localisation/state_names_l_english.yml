@@ -212,7 +212,7 @@
  STATE_211:0 "Burgas"
  STATE_212:0 "Plovdiv"
  STATE_213:0 "Murmansk"
- STATE_214:0 "Arkhangelsk"
+ STATE_214:0 "Arkhangelsk Zone"
  STATE_215:0 "Onega"
  STATE_216:0 "Olonets"
  STATE_217:0 "Adolfsburg"
@@ -234,7 +234,7 @@
  STATE_233:0 "Caucasus Mountains"
  STATE_234:0 "Krasnodar"
  STATE_235:0 "Stavropol"
- STATE_236:0 "Astrakhan"
+ STATE_236:0 "Astrakhan Zone"
  STATE_237:0 "Elista"
  STATE_238:0 "Volgodonsk"
  STATE_239:0 "Saratov"
@@ -812,6 +812,6 @@
  STATE_811:0 "Romandy"
  STATE_812:0 "Ticino"
  STATE_813:0 "Davos"
-
-
-
+ STATE_814:0 "Arkhangelsk"
+ STATE_815:0 "Astrakhan"
+ 

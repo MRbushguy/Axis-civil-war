@@ -1,0 +1,44 @@
+
+state={
+	id=814
+	name="STATE_814"
+
+	history={
+		owner = SOV
+		victory_points = {
+			3338 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+			3338 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = SOV
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+
+			}
+
+		}
+		1947.1.1 = {
+			owner = RKM
+			controller = RKM
+			add_core_of = RKM
+
+		}
+
+	}
+
+	provinces={
+		3338
+	}
+	manpower=550883
+	buildings_max_level_factor=1.000
+	state_category=town
+}
