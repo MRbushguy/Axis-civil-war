@@ -1,24 +1,24 @@
 
 state={
-	id=151
-	name="STATE_151"
-	manpower = 1854711
+	id=812
+	name="STATE_812"
+	manpower = 143711
 
 
-	state_category = city
+	state_category = pastoral
 
 	resources={
-		aluminium=15 # was: 24
+		
 	}
 
 	history={
 		owner = SWI
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 3
+			infrastructure = 3
+			industrial_complex = 1
 		}
 		victory_points = {
-			663 10
+			
 		}
 		add_core_of = SWI
 		1947.1.1 = {
@@ -28,6 +28,6 @@ state={
 	}
 
 	provinces={
-		663 11601 661 11623
+		658 3641 9600
 	}
 }

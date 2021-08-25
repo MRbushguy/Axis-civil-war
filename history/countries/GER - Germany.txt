@@ -64,6 +64,33 @@ set_technology = {
 	set_state_flag = GER_has_low_resistance
 }
 
+810 = {
+	start_resistance = yes
+	set_compliance = 5
+	set_resistance = 20
+	set_garrison_strength = 1.0
+}
+
+811 = {
+	start_resistance = yes
+	set_compliance = 5
+	set_resistance = 20
+	set_garrison_strength = 1.0
+}
+
+812 = {
+	start_resistance = yes
+	set_compliance = 5
+	set_resistance = 20
+	set_garrison_strength = 1.0
+}
+
+813 = {
+	start_resistance = yes
+	set_compliance = 5
+	set_resistance = 20
+	set_garrison_strength = 1.0
+}
 
 
 #SET FLAGS AND VARIABLES

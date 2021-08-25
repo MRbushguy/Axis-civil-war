@@ -8,7 +8,7 @@ guiTypes = {
 
 
 		instantTextBoxType = {
-			name ="GER_arms_research_points"
+			name ="FRA_brittany_claim"
 			position = { x = 120 y = -40 }
 			font = "hoi_18mbs"
 			text = "GER_arms_research_points"
@@ -17,7 +17,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType = {
-			name ="GER_tank_research_points"
+			name ="FRA_southern_france_claim"
 			position = { x = 120 y = -20 }
 			font = "hoi_18mbs"
 			text = "GER_tank_research_points"
@@ -25,7 +25,7 @@ guiTypes = {
 			maxwidth = 300
 		}
 		instantTextBoxType = {
-			name ="GER_plane_research_points"
+			name ="FRA_northern_france_claim"
 			position = { x = 120 y = 0 }
 			font = "hoi_18mbs"
 			text = "GER_plane_research_points"
@@ -33,7 +33,7 @@ guiTypes = {
 			maxwidth = 300
 		}
 		instantTextBoxType = {
-			name ="GER_nuke_research_points"
+			name ="FRA_colonies_claim"
 			position = { x = 120 y = 20 }
 			font = "hoi_18mbs"
 			text = "GER_nuke_research_points"
