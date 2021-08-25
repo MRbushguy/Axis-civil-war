@@ -1,0 +1,1211 @@
+focus_tree = {
+	id = bul
+	continuous_focus_position = { x = 0 y = 2000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BUL
+		}
+	}
+	#Expand Sofia University
+	focus = {
+		id = BUL_expand_sofia_university
+		icon = GFX_focus_research
+		cost = 10
+
+		x = 20
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = BUL_expand_the_road_system  } prerequisite = { focus = BUL_expand_the_tabaco_industry  }
+		completion_reward = {
+			add_research_slot = 1
+
+			
+		}
+	}
+
+	#Expand The Road System
+	focus = {
+		id = BUL_expand_the_road_system
+		icon = GFX_goal_generic_production
+		x = 18
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = BUL_industry_modernization  }
+		completion_reward = {
+			random_owned_controlled_state = {
+
+			add_building_construction = {						type = infrastructure						level = 10
+
+			instant_build = yes					}
+
+			}
+		}
+	}
+
+	#Develop Oil Farms
+	focus = {
+		id = BUL_develop_oil_farms
+		icon = GFX_goal_generic_oil_refinery
+		x = 17
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = BUL_expand_the_road_system  }
+		completion_reward = {
+			add_resource = { 
+
+			type = oil 
+
+			amount = 8 
+
+			state = 48 
+
+			}
+
+			
+		}
+	}
+
+	#Expand Wartime Industry
+	focus = {
+		id = BUL_expand_wartime_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 19
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = BUL_expand_the_road_system  }
+		completion_reward = {
+			random_owned_controlled_state ={
+
+			 limit = {
+
+			 free_building_slots = {
+
+			 building = arms_factory
+
+			 size > 0
+
+			 include_locked = yes
+
+			 }
+
+			 }
+
+			 add_extra_state_shared_building_slots = 1
+
+			 add_building_construction = {
+
+			 type = arms_factory
+
+			 level = 2
+
+			 instant_build = yes
+
+			 }
+
+			}
+
+			
+		}
+	}
+
+	#Expand Sofia's Coal Mines
+	focus = {
+		id = BUL_expandsofiascoalmines
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 21
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = BUL_expand_the_tabaco_industry  }
+		completion_reward = {
+			random_owned_controlled_state ={
+
+			 limit = {
+
+			 free_building_slots = {
+
+			 building = industrial_complex
+
+			 size > 0
+
+			 include_locked = yes
+
+			 }
+
+			 }
+
+			 add_extra_state_shared_building_slots = 1
+
+			 add_building_construction = {
+
+			 type = industrial_complex
+
+			 level = 3
+
+			 instant_build = yes
+
+			 }
+
+			}
+
+			
+		}
+	}
+
+	#Industry Modernization
+	focus = {
+		id = BUL_industry_modernization
+		icon = GFX_goal_generic_production2
+		x = 20
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			add_tech_bonus = {
+
+			 bonus = 0.5 
+
+			uses = 2 
+
+			category = Industry
+
+			}
+
+			
+		}
+	}
+
+	#Industrial Utopia
+	focus = {
+		id = BUL_industrial_utopia
+		icon = GFX_BUL_industrial_utopia-166
+		x = 20
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = BUL_ask_for_foreign_investments  } prerequisite = { focus = BUL_develop_oil_farms  } prerequisite = { focus = BUL_expandsofiascoalmines  } prerequisite = { focus = BUL_expand_wartime_industry  }
+
+		completion_reward = {
+			add_ideas = BUL_industrial_utopia
+
+			
+		}
+	}
+
+	#De-Mobilize The Military Industry
+	focus = {
+		id = BUL_demobilize_the_military_industry
+		icon = GFX_focus_generic_combined_arms
+		x = 20
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = BUL_industry_modernization  }
+		completion_reward = {
+			remove_ideas = BUL_over_militrized_industry
+
+			
+		}
+	}
+
+	#Expand The Worker's Movement
+	focus = {
+		id = BUL_expandtheworkersmovement
+		icon = GFX_BUL_expandtheworkersmovement-426
+		x = 13
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_reaprochment_with_germany  }
+		mutually_exclusive = { focus = BUL_expand_the_national_socialist_movement  }
+
+	completion_reward = {
+			
+			add_popularity = {
+    ideology = communism
+    popularity = 0.25
+}
+
+add_popularity = {
+    ideology = socialism
+    popularity = 0.15
+}
+			
+		}	
+
+
+	}
+
+
+
+	#Intervene In The Spanish Civil War
+	focus = {
+		id = BUL_intervene_in_the_spanish_civil_war
+		icon = GFX_focus_spr_war_of_independence
+		x = 8
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_reaprochment_with_germany  focus = BUL_power_to_lukov  }
+		completion_reward = {
+			add_ideas = foreign_expeditions_focus
+
+			
+		}
+	}
+
+	#Power To Lukov
+	focus = {
+		id = BUL_power_to_lukov
+		icon = focus_BUL_promote_bulgarian_nationalism
+		x = 2
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = BUL_reaprochment_with_germany  }
+	}
+
+	#Ban Germans From Office
+	focus = {
+		id = BUL_ban_germans_from_office
+		icon = GFX_BUL_ban_germans_from_office-428
+		x = 1
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_power_to_lukov  }
+		completion_reward = {
+			remove_ideas = BUL_german_influence
+
+			
+		}
+	}
+
+	#Reaprochment With Germany
+	focus = {
+		id = BUL_reaprochment_with_germany
+		icon = GFX_focus_chi_mission_to_germany
+		x = 12
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = BUL_power_to_lukov  }
+		completion_reward = {
+			ITA = { remove_from_faction = BUL}
+
+			
+		}
+	}
+
+	#Bulgarian Militarism
+	focus = {
+		id = BUL_bulgarian_militarism
+		icon = GFX_focus_generic_manpower
+		x = 6
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_power_to_lukov  focus = BUL_reaprochment_with_germany  }
+
+			completion_reward = {
+			add_ideas = {militarism_focus}
+
+			
+		}
+	}
+
+	#Bulgarian-Italian Military Cooperation
+	focus = {
+		id = BUL_bulgarianitalian_military_cooperation
+		icon = GFX_focus_befriend_italy
+		x = 3
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_power_to_lukov  }
+completion_reward = {
+			
+
+			
+		
+		add_ideas = {BUL_italian_military_cooperations}	
+	}}
+
+	#Expand The National Socialist Movement
+	focus = {
+		id = BUL_expand_the_national_socialist_movement
+		icon = GFX_BUL_expand_the_national_socialist_movement-428
+		x = 11
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_reaprochment_with_germany  }
+		mutually_exclusive = { focus = BUL_expandtheworkersmovement  }
+completion_reward = {
+		add_popularity = {
+    ideology = national_socialism
+    popularity = 0.35
+}
+	}}
+
+
+	#Kill Lukov
+	focus = {
+		id = BUL_kill_lukov
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		x = 12
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_expand_the_national_socialist_movement focus = BUL_expandtheworkersmovement   } 
+	
+
+
+		completion_reward = {
+		country_event = {
+    id = bul.1
+    days = 10
+    random = 0
+    random_days = 0
+}
+
+}
+}
+
+
+	#Purge The Macedonian Menance
+	focus = {
+		id = BUL_purge_the_macedonian_menance
+		icon = GFX_focus_BUL_consolidate_the_third_bulgarian_state
+		x = 1
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_ban_germans_from_office  } prerequisite = { focus = BUL_bulgarianitalian_military_cooperation  }
+		mutually_exclusive = { focus = BUL_semiautonomy_for_macedonia  }
+
+
+	completion_reward = {
+		country_event = {
+    id = bul.2	
+    days = 10
+    random = 0
+    random_days = 0
+}
+
+}
+   will_lead_to_war	 = wae
+	}
+
+	#Semi-Autonomy For Macedonia
+	focus = {
+		id = BUL_semiautonomy_for_macedonia
+		icon = GFX_focus_generic_treaty
+		x = 3
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_ban_germans_from_office  } prerequisite = { focus = BUL_bulgarianitalian_military_cooperation  }
+		mutually_exclusive = { focus = BUL_purge_the_macedonian_menance  }
+
+		completion_reward = { release = mac
+		puppet = mac
+		}
+	}
+
+	#Pressure Romania
+	focus = {
+		id = BUL_pressure_romania
+		icon = GFX_BUL_pressure_romania-358
+		x = 4
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_purge_the_macedonian_menance  focus = BUL_semiautonomy_for_macedonia  }
+		mutually_exclusive = { focus = BUL_attack_the_romania_menance  }
+
+		completion_reward = {   ROM = {add_ideas = fascist_influence}
+
+
+		} }
+	
+
+	#Thrace or War
+	focus = {
+		id = BUL_thrace_or_war
+		icon = GFX_focus_generic_attack_turkey
+		x = 2
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_semiautonomy_for_macedonia  focus = BUL_purge_the_macedonian_menance  }
+		completion_reward = {
+			
+
+			
+			add_state_core = 184
+				country_event = {
+id = bul.3 }	
+
+			
+
+		
+
+			
+		}
+	}
+
+	#Attack The Romania Menance
+	focus = {
+		id = BUL_attack_the_romania_menance
+		icon = GFX_goal_generic_attack_allies
+		x = 0
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_purge_the_macedonian_menance  } prerequisite = { focus = BUL_semiautonomy_for_macedonia  }
+		mutually_exclusive = { focus = BUL_pressure_romania  }
+		completion_reward = {
+			create_wargoal = { 
+
+			type = annex_everything 
+
+			target = ROM
+
+			}
+
+			
+		}
+	}
+
+	#Integrate our new lands!
+	focus = {
+		id = BUL_integrateournewlands
+		icon = GFX_focus_BUL_prussia_of_the_balkans
+		x = 7
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_intervene_in_the_spanish_civil_war  } prerequisite = { focus = BUL_bulgarian_militarism  }
+		completion_reward = {
+			add_political_power = 50
+
+			
+
+			add_stability = 0.05
+
+			
+		}
+	}
+
+	#Integrate Macedonia
+	focus = {
+		id = BUL_integrate_macedonia
+		icon = GFX_goal_demand_sudetenland
+		x = 6
+		y = 4
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = BUL_integrateournewlands  }
+		completion_reward = {
+			add_state_core = 106
+
+			
+		}
+	}
+
+	#Integrate  Greek Lands
+	focus = {
+		id = BUL_integrategreeklands
+		icon = GFX_goal_demand_sudetenland
+		x = 7
+		y = 5
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = BUL_integrateournewlands  }
+		completion_reward = {
+			add_state_core = 731
+
+			
+		}
+	}
+
+	#Integrate Serbian Lands
+	focus = {
+		id = BUL_integrate_serbian_lands
+		icon = GFX_goal_demand_sudetenland
+		x = 8
+		y = 4
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = BUL_integrateournewlands  }
+		completion_reward = {
+			add_state_core = 803
+
+			
+		}
+	}
+
+	#The Worker's Revolution
+	focus = {
+		id = BUL_theworkersrevolution
+		icon = GFX_focus_por_workers_of_iberia
+		x = 15
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = { }
+		prerequisite = { focus = BUL_kill_lukov  }
+		mutually_exclusive = { focus = BUL_the_race_revoluton  }
+
+			completion_reward = {
+			
+	set_politics = {
+	ruling_party = communism
+        elections_allowed = no
+        last_election = "1935.12.17"
+        election_frequency = 48
+}
+
+			add_popularity = {
+    ideology = communism
+    popularity = 0.25
+}
+
+add_popularity = {
+    ideology = socialism
+    popularity = 0.15
+}
+			
+		}
+	}
+
+	#The Race Revoluton
+	focus = {
+		id = BUL_the_race_revoluton
+		icon = GFX_focus_ger_reichskommisariats
+		x = 10
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = { }
+		prerequisite = { focus = BUL_kill_lukov  }
+		mutually_exclusive = { focus = BUL_theworkersrevolution  }
+
+		completion_reward = {
+			
+	set_politics = {
+	ruling_party = national_socialism
+        elections_allowed = no
+        last_election = "1935.12.17"
+        election_frequency = 48
+}
+			
+	
+			
+		}
+
+	}
+
+	#Socialism
+	focus = {
+		id = BUL_socialism
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 16
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_theworkersrevolution  }
+		mutually_exclusive = { focus = BUL_stalinism  }
+		completion_reward = {
+			add_popularity = { 
+
+			ideology = socialism 
+
+			popularity = 0.25
+
+			}
+
+			set_politics = {
+
+				ruling_party = socialism        elections_allowed = no
+
+			        last_election = "1935.12.17"
+
+			        election_frequency = 48
+
+			}
+
+			
+		}
+	}
+
+	#Stalinism
+	focus = {
+		id = BUL_stalinism
+		icon = GFX_BUL_stalinism-94
+		x = 14
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_theworkersrevolution  }
+		mutually_exclusive = { focus = BUL_socialism  }
+		completion_reward = {
+			add_popularity = { 
+
+			ideology = communism
+
+			popularity = 0.15 
+
+			}
+
+			
+		}
+	}
+
+	#Join Germany!
+	focus = {
+		id = BUL_joingermany
+		icon = GFX_focus_chi_mission_to_germany
+		x = 8
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_the_race_revoluton  }
+		mutually_exclusive = { focus = BUL_our_own_way  }
+		completion_reward = {
+			GER = { add_to_faction = BUL }
+
+			
+		}
+	}
+
+	#Our Own Way
+	focus = {
+		id = BUL_our_own_way
+		icon = GFX_focus_generic_support_the_left_right
+		x = 10
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_the_race_revoluton  }
+		mutually_exclusive = { focus = BUL_joingermany  }
+		completion_reward = {
+			set_rule = { 
+
+			can_create_factions = yes 
+
+			}
+
+			
+		}
+	}
+
+	#Reclaim Thrace
+	focus = {
+		id = BUL_reclaim_thrace
+		icon = GFX_focus_generic_attack_turkey
+		x = 11
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = BUL_our_own_way  focus = BUL_joingermany  }
+		completion_reward = {
+			add_state_core = 184
+
+			create_wargoal = { 
+
+			type = annex_everything 
+
+			target = TUR
+
+			}
+		}
+	}
+
+	#Purge The Old Government
+	focus = {
+		id = BUL_purge_the_old_government
+		icon = GFX_focus_BUL_destroy_the_zveno
+		x = 7
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_our_own_way  focus = BUL_joingermany  }
+completion_reward = {
+	
+
+	add_popularity = {
+    ideology = fascism
+    popularity = -0.99
+}
+add_popularity = {
+    ideology = communism
+    popularity = -0.99
+}
+add_popularity = {
+    ideology = socialism
+    popularity = -0.99
+}
+	 }
+
+	
+	}
+
+	#Invite German Military Advisors
+	focus = {
+		id = BUL_invite_german_military_advisors
+		icon = GFX_BUL_invite_german_military_advisors-149
+		x = 9
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_racial_cleansing  }
+
+		completion_reward = {
+		add_ideas = {
+   
+   german_advisors
+	} }
+	}
+
+	#Racial Cleansing
+	focus = {
+		id = BUL_racial_cleansing
+		icon = GFX_BUL_racial_cleansing-254
+		x = 9
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_our_own_way  focus = BUL_joingermany  }
+completion_reward = {
+		remove_ideas = {
+    BUL_macidonian_opposition
+	} }
+
+
+	}
+
+	#Strike The Italian Menace
+	focus = {
+		id = BUL_the_italian_menace
+		icon = GFX_focus_generic_italy_first
+		x = 8
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_reclaim_thrace  } prerequisite = { focus = BUL_purge_the_old_government  }
+
+				completion_reward = {
+			create_wargoal = { 
+
+			type = annex_everything 
+
+			target = ITA
+
+			}
+
+			
+		}
+	}
+
+	#Attack Romania
+	focus = {
+		id = BUL_attack_romania
+		icon = GFX_BUL_attack_romania-275
+		x = 10
+		y = 13
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_reclaim_thrace  } prerequisite = { focus = BUL_purge_the_old_government  }
+		completion_reward = {
+			create_wargoal = { 
+
+			type = annex_everything 
+
+			target = ROM
+
+			}
+
+			
+		}
+	}
+
+	#Join The Comintern
+	focus = {
+		id = BUL_join_the_comintern
+		icon = GFX_BUL_join_the_comintern-144
+		x = 12
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_stalinism  }
+		completion_reward = {
+			SOV = { add_to_faction = BUL }
+
+			
+		}
+	}
+
+	#The Socialist Alliance
+	focus = {
+		id = BUL_the_socialist_alliance
+		icon = GFX_focus_generic_soviet_politics
+		x = 16
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_socialism  }
+		completion_reward = {
+			create_faction = 'Socialist_Alliance'
+
+			
+		}
+	}
+
+	#The Anti Fascist Revolution
+	focus = {
+		id = BUL_the_anti_fascist_revolution
+		icon = GFX_BUL_the_anti_fascist_revolution-303
+		x = 14
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+
+		
+		}
+		prerequisite = { focus = BUL_stalinism  focus = BUL_socialism  }
+			completion_reward = {
+		remove_ideas = {
+    BUL_macidonian_opposition
+
+	}
+
+
+	add_ideas = {BUL_anti_fascist_revolution} }
+	}
+
+	#Strike Italy
+	focus = {
+		id = BUL_strike_italy
+		icon = GFX_BUL_strike_italy-322
+		x = 14
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_the_anti_fascist_revolution  }
+		completion_reward = {
+			create_wargoal = { 
+
+			type = annex_everything 
+
+			target = ITA
+
+			}
+
+			
+		}
+	}
+
+	#Strike Germany
+	focus = {
+		id = BUL_strike_germany
+		icon = GFX_focus_attack_germany
+		x = 15
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_the_anti_fascist_revolution  }
+		completion_reward = {
+			create_wargoal = { 
+
+			type = annex_everything 
+
+			target = GER
+
+			}
+
+			
+		}
+	}
+
+	#Execute The Tsar
+	focus = {
+		id = BUL_execute_the_tsar
+		icon = GFX_focus_BUL_plot_against_boris
+		x = 3
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_semiautonomy_for_macedonia  focus = BUL_purge_the_macedonian_menance  }
+		mutually_exclusive = { focus = BUL_puppet_the_tsar  }
+		completion_reward = {
+			add_ideas = {BUL_tsar_executed }
+
+			
+
+			
+		}
+	}
+
+	#Puppet The Tsar
+	focus = {
+		id = BUL_puppet_the_tsar
+		icon = GFX_focus_BUL_power_to_the_tsar
+		x = 1
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_semiautonomy_for_macedonia  focus = BUL_purge_the_macedonian_menance  }
+		mutually_exclusive = { focus = BUL_execute_the_tsar  }
+
+		completion_reward = {
+
+	add_ideas = {BUL_tsar_puppeted }
+
+			
+
+			
+		}
+
+
+	}
+
+	#Women Belong In Factories
+	focus = {
+		id = BUL_women_belong_in_factories
+		icon = GFX_goal_generic_dangerous_deal
+		x = 1
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = BUL_attack_the_romania_menance  focus = BUL_pressure_romania  }
+
+		completion_reward = {
+			add_ideas = BUL_women_in_factories
+
+			
+		}
+	}
+
+	#Ban The Fatherland Front
+	focus = {
+		id = BUL_ban_the_fatherland_front
+		icon = GFX_focus_BUL_the_fatherland_front
+		x = 2
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_women_belong_in_factories  } prerequisite = { focus = BUL_corporatism  }
+		completion_reward = {
+			remove_ideas = {BUL_fatherland_front_negative}
+
+			
+		}
+
+
+	}
+
+	#Cooperate With The Fatherland Front
+	focus = {
+		id = BUL_cooperate_with_the_fatherland_front
+		icon = GFX_focus_BUL_the_fatherland_front
+		x = 13
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_the_anti_fascist_revolution  }
+completion_reward = {
+		add_ideas = {BUL_fatherland_front_positive}
+		remove_ideas = {BUL_fatherland_front_negative}
+	}}
+
+	#Corporatism
+	focus = {
+		id = BUL_corporatism
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 3
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = BUL_attack_the_romania_menance  focus = BUL_pressure_romania  }
+
+		completion_reward = {
+		add_ideas = {
+   
+   BUL_corporatism
+	} }
+	}
+	
+
+	#Ask For Foreign Investments
+	focus = {
+		id = BUL_ask_for_foreign_investments
+		icon = GFX_goal_generic_consumer_goods
+		x = 23
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BUL_expand_the_tabaco_industry  }
+
+		completion_reward = {
+		add_ideas = {
+   
+   bul_foregin_investments
+	} }
+	}
+	
+
+	#Expand The Tabaco Industry
+	focus = {
+		id = BUL_expand_the_tabaco_industry
+		icon = GFX_focus_generic_industry_3
+		x = 22
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = BUL_industry_modernization  }
+		completion_reward = {
+			random_owned_controlled_state ={
+
+			 limit = {
+
+			 free_building_slots = {
+
+			 building = industrial_complex
+
+			 size > 0
+
+			 include_locked = yes
+
+			 }
+
+			 }
+
+			 add_extra_state_shared_building_slots = 1
+
+			 add_building_construction = {
+
+			 type = industrial_complex
+
+			 level = 1
+
+			 instant_build = yes
+
+			 }}
+
+			
+
+			 
+
+			
+		}
+	}
+
+}
