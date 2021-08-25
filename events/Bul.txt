@@ -1,0 +1,236 @@
+﻿###########################
+# BUlGARIAN
+###########################
+
+add_namespace = bul
+
+#ukrainian revolt
+
+country_event = { ## Lukov's Death
+
+	id = bul.1
+	title = "Lukov Assasinated"
+	desc = "Today in the morning a man dressed as a butler enterd Lukov's mansion and proceeded to shoot him 14 times. The nation of Bulgaria has been left without a leader due to Lukov not haveing a clear successor. This is a true crisis!"
+	picture = GFX_report_event_bulgarian_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+	kill_ideology_leader = fascism
+		name = "I wonder who will sieze power"
+	create_country_leader = {
+	name = "Power Vacuume"
+	desc = "Lukov is Dead! He does not have a succsessor and now we need some one to step up and take charge!"
+	picture = "noone.dds"
+	expire = "1965.1.1"
+	ideology = italian_fascism
+	traits = {
+		
+	}
+}
+		
+
+		}
+
+	}	
+country_event = {
+id = bul.2
+	title = "Macidonian Revolt"
+	desc = "Word about are plans to arest Macedonian rebels spread throughout our nation cause the rebels to sieze guns and take up arms. They declared independence and now have occupied a large portion of our nation."
+		picture = GFX_report_event_tur_the_saadabad_pact
+
+	is_triggered_only = yes
+
+	option = {
+	
+		name = "We Must End The Rebels!"
+		
+			
+106 = { add_resistance = 30  }
+			
+
+			declare_war_on = {
+    target = MAC
+    type = annex_everything
+}
+
+
+remove_ideas = {
+    BUL_macidonian_opposition
+	}
+	
+} 
+
+		
+
+		}
+
+	country_event = {
+id = bul.3
+	title = "Bulgaria Demands Thrace!"
+	desc = "The Bulgarian Government has sent us a letter demanding us to transfer them ownership of Thrace. Even though we are allied they said they will respond with military force. We are unsure if this is an empty threat."
+		picture = GFX_report_event_tur_the_saadabad_pact
+
+	is_triggered_only = yes
+
+	option = {
+	
+		name = "We must give up Thrace to keep our alliance"
+		
+			BUL = {set_state_owner = 184}
+
+	
+} 
+option = {
+	
+		name = "We must Ask Italy To mediate."
+
+
+   ITA = { 
+
+   country_event = {
+   id = bul.4
+    days = 5
+   
+}
+		}
+
+		 BUL = { 
+
+   country_event = {id = bul.5
+    days = 0
+    random = 0
+    random_days = 0
+}
+		}
+			
+
+	
+} 
+		
+
+		}
+
+
+	country_event = {
+id = bul.4
+	title = "Bulgaria V Turkey"
+	desc = "The Bulgarian Government has demanded that Turkey hand over Thrace to Bulgaria. Turkey has asked us to mediate and they are fearing war and the breakdown of the Accordo di Fiume in the east." 
+		picture = GFX_report_event_tur_the_saadabad_pact
+
+	is_triggered_only = yes
+
+	option = {
+
+	
+		name = "Thrace Belongs To Bulgaria!"
+		ai_will_do = {
+    base = 89.5 }
+		BUL = {set_state_owner = 184}
+		BUL = {country_event = {id = bul.6
+    days = 0
+    random = 0
+    random_days = 0
+}
+}
+TUR = {	country_event = {id = bul.6
+    days = 0
+    random = 0
+    random_days = 0
+}
+		}
+		}
+	
+
+
+option = {
+	
+		name = "Thrace Will Remain Turkish"
+		ai_will_do = {
+    base = 10.5 }
+
+    Bul = {	create_wargoal = { 
+
+			type = annex_everything 
+
+			target = TUR
+
+			}}
+
+
+	BUL = {country_event = {id = bul.7
+    days = 0
+    random = 0
+    random_days = 0 	
+}}
+	TUR = {	country_event = {id = bul.7
+    days = 0
+    random = 0
+    random_days = 0
+}
+		}
+} 
+
+		
+
+		}
+
+			country_event = {
+id = bul.5
+	title = "Italy Intervenes"
+	desc = "Turkey has requested for Italy to mediate this dispute. Evidence shows that thrace is Bulgarian"
+		picture = GFX_report_event_tur_the_saadabad_pact
+
+	is_triggered_only = yes
+
+	option = {
+	
+		name = "They will pick the right side"
+		
+
+	
+} 
+
+		
+
+		}
+
+					country_event = {
+id = bul.6
+	title = "Italy Sides With Bulgaria"
+	desc = "Italy believes that Thrace is indeed Bulgarian and if the turkish do not agree they will be met with force." 
+		picture = GFX_report_event_tur_the_saadabad_pact
+
+	is_triggered_only = yes
+
+	option = {
+	
+		name = "At least there was no war."
+		
+
+	
+} 
+
+		
+
+		}
+
+					country_event = {
+id = bul.7
+	title = "Italy Sides With Turkey"
+	desc = "Turkey has requested for Italy to mediate this dispute. Evidence shows that thrace is Bulgarian"
+		picture = GFX_report_event_tur_the_saadabad_pact
+
+	is_triggered_only = yes
+
+	option = {
+	
+		name = "Peace might be ended."
+		
+
+	
+} 
+
+		
+
+		}

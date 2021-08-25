@@ -91,3 +91,23 @@ create_country_leader = {
 		#
 	}
 }
+
+1947.1.1 = {
+
+	set_politics = {
+		ruling_party = national_socialism
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 20
+		authoritarianism = 10
+		national_socialism = 70
+	}
+
+	add_ideas = {
+		resistance_3
+		devastation_3
+	}
+}
