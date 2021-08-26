@@ -1,0 +1,20 @@
+state={
+	id=823
+	name="STATE_823"
+	provinces={
+		4458 4545 6763 11645 
+	}
+	history = {
+	add_core_of = SOV
+		add_core_of = GEO
+		1947.1.1 = {
+			owner = GEO
+			controller = GEO
+			add_core_of = GEO
+
+		}
+	}
+	state_category=town
+	manpower= 50000
+	buildings_max_level_factor=1.000
+}

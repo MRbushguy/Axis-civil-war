@@ -1,0 +1,19 @@
+state={
+	id=820
+	name="STATE_820"
+	provinces={
+		3564 12441 
+	}
+	history = {
+	add_core_of = TUR
+		
+	1947.1.1 = {
+		owner = TUR
+		controller = TUR
+
+	}
+	}
+	state_category=town
+	manpower= 50000
+	buildings_max_level_factor=1.000
+}

@@ -817,4 +817,12 @@
  STATE_816:0 "Lokot"
  STATE_817:0 "Balkuduk"
  STATE_818:0 "West Paris"
+ STATE_819:0 "Batumi"
+ STATE_820:0 "Gyumri"
+ STATE_821:0 "Sukhumi"
+ STATE_822:0 "Kakheti"
+ STATE_823:0 "Quba"
+ STATE_824:0 "Ganja"
+ STATE_825:0 "Raqqa"
+ STATE_826:0 "Homs"
  
