@@ -1,0 +1,27 @@
+state={
+	id=817
+	name="STATE_817"
+
+	
+	history = {
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			
+		}
+		add_core_of = KAZ
+		add_core_of = SOV
+		1947.1.1 = {
+			owner = KAZ
+			controller = KAZ
+
+		}
+	}
+	provinces={
+		545 618 3435 3622 6525 9592 11457 11538 11736 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+}
