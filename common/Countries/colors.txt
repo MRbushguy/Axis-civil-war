@@ -5,7 +5,7 @@ LOA = {
 	color_ui = rgb { 0 0 110 }
 }
 RKD = {
-	color = rgb { 115 115 115 }
+	color = rgb { 115 115 115 } 
 	color_ui = rgb { 115 115 115 }
 }
 IOC = {
@@ -36,6 +36,16 @@ UPR = {
 	color = rgb { 252 3 90 }
 	color_ui = rgb { 252 3 90 }
 }
+OKM = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+RKT = {
+	color = rgb { 115 115 115 } 
+	color_ui = rgb { 115 115 115 }
+}
+
+
 #vanilla
 GER = {
 	color = HSV { 0.1 0.15 0.4 }

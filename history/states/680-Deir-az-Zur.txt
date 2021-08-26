@@ -21,8 +21,8 @@ state={
 		add_core_of = SYR
 		add_core_of = KUR
 		1947.1.1 = {
-			owner = TUR
-			controller = TUR
+			owner = SYR
+			controller = SYR
 
 		}
 

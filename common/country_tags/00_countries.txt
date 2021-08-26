@@ -216,8 +216,18 @@ FFA = "countries/Free france.txt"
 BUR = "countries/Schutzstaffel Ordensstaat.txt"
 RKM = "countries/RKM - Moscow.txt"
 RKC = "countries/RKC - Caucsus.txt"
+RKT = "countries/RKT - Turkestan.txt"
 JAS = "countries/JAS - Jap Siberia.txt"
 UPR = "countries/UPR - Ukranian Peasant Revolt.txt"
 RKD = "countries/Reichskommisariat Don-Wolga.txt"
 LOA = "countries/Lokot Autonomy.txt"
+ABL = "countries/Azerbaijani Legion.txt"
+GOL = "countries/Georgian Legion.txt"
+OKM = "countries/Oberkommando Moskowien.txt"
+
+
+
+
+
+
 
