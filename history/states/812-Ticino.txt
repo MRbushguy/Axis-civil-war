@@ -22,8 +22,8 @@ state={
 		}
 		add_core_of = SWI
 		1947.1.1 = {
-			owner = GER
-			controller = GER
+			owner = ITA
+			controller = ITA
 		}
 	}
 
