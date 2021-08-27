@@ -1042,6 +1042,11 @@ create_equipment_variant = {
 	puppet = BUR
 	puppet = LOA
 	puppet = RKD
+	puppet = ABL
+	puppet = GOL
+	puppet = RKT
+	puppet = OKM
+
 
 
 #adding ministers

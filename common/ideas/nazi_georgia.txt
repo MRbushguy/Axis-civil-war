@@ -1,5 +1,4 @@
 
-
 	ideas = {
 	country = {
 		no_reason_to_fight_georgia = {

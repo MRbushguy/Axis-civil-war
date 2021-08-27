@@ -136,7 +136,11 @@ GER_limited_holocaust:0 "Reduction of Generalplan Ost"
   UKR_agrarian_discontent_2:0 "Agrarian Rebellion"
   UKR_agrarian_discontent_2_desc:0 "With fears that the German occupiers will bleed them dry, the Ukranian people have escalated their discontent into a full-blown resistance. Who knows how far this may go..."
 
-
+#ABL And GOL
+no_reason_to_fight_azerbijan:0 "No reason to continue fighting"
+no_reason_to_fight_georgia:0 "No reason to continue fighting"
+no_reason_to_fight_georgia_desc:0 "During the war, we were promised a liberated homeland, free of the Bolshevik plague. But while not under our authority, an independent Georgian state exists. And while the Germans try to convince the soldiers that "They are just under the Italian boot and not truly independent, and that fighting should continue" but for many soldiers within the legion, a Georgia free of Bolshevism is good enough. So ever since the undeclared truce, mass desertions have started to occur. And morale Is overall very low. We must show our soldiers a reason to continue fighting, of we will soon be a legion without soldiers"
+no_reason_to_fight_azerbijan_desc:0 "During the war, we were promised a liberated homeland, free of the Bolshevik plague. But while not under our authority, an independent Azerbaijani state exists. And while the Germans try to convince the soldiers that "They are just under the Italian boot and not truly independent, and that fighting should continue" but for many soldiers within the legion, an Azerbaijan free of Bolshevism is good enough. So ever since the undeclared truce, mass desertions have started to occur. And morale Is overall very low. We must show our soldiers a reason to continue fighting, of we will soon be a legion without soldiers"
 
  ### Britain
  ENG_broken_nation:0 "Broken Nation" 

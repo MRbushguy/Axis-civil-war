@@ -1,7 +1,6 @@
-ideas = {
 
+	ideas = {
 	country = {
-
 		no_reason_to_fight_azerbijan = {
 
 			#picture here
@@ -11,8 +10,9 @@ ideas = {
 				weekly_manpower = -50
 				army_attack_factor = -0.1
 				army_defence_factor =-0.1
-
+			}
 
 			}
 		}
+
 	}
