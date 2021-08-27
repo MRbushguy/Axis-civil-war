@@ -27,6 +27,7 @@ state={
 			owner = AZR
 			controller = AZR
 			add_core_of = AZR
+			add_claim_by = RKC
 
 		}
 

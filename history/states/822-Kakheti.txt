@@ -8,9 +8,10 @@ state={
 	add_core_of = SOV
 		add_core_of = GEO
 		1947.1.1 = {
-			owner = GEO
-			controller = GEO
-			add_core_of = GEO
+			owner = GOL
+			controller = GOL
+			add_core_of = GOL
+			add_claim_by = RKC
 
 		}
 	}

@@ -93,7 +93,6 @@ create_country_leader = {
 }
 
 1947.1.1 = {
-set_cosmetic_tag = RPM_reichskommissariat
 
 	set_politics = {
 		ruling_party = national_socialism

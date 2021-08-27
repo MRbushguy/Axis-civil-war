@@ -6,13 +6,15 @@ state={
 	}
 	history = {
 	add_core_of = SOV
-		add_core_of = GEO
+		add_core_of = AZR
 		1947.1.1 = {
-			owner = GEO
-			controller = GEO
-			add_core_of = GEO
+			owner = ALB
+			controller = ABL
+			add_core_of = ABL
+				add_claim_by = RKC
 
 		}
+		
 	}
 	state_category=town
 	manpower= 50000

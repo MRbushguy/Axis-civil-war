@@ -122,8 +122,8 @@
  IME_DEF:0 "Levant"
  IME_ADJ:0 "Levantine"
  
- ICA_fascism:0 "Africa Centrale Italiana"
- ICA_fascism_DEF:0 "Italian Colonial Governorate of Central Africa"
+ ICA_ITA_subject:0 "Africa Centrale Italiana"
+ ICA_ITA_subject_DEF:0 "Italian Colonial Governorate of Central Africa"
  ICA_democratic_right:0 "Africa Centrale Italiana"
  ICA_democratic_right_DEF:0 "Italian Colonial Governorate of Central Africa"
  ICA_authoritarianism:1 "Central African Empire"
@@ -183,6 +183,18 @@
  RKM_fascism:0 "Reichskommissariat Moskau"
  RKM_fascism_DEF:0 "Reichskommissariat Moskau"
  
+ RKT_national_socialism:0 "Reichskommissariat Turkestan"
+ RKT_national_socialism_DEF:0 "Reichskommissariat Turkestan"
+
+ ABL_national_socialism:0 "Aserbaidschanische Legion"
+ ABL_national_socialism_DEF:0 "The Aserbaidschanische Legion"
+
+ GOL_national_socialism:0 "Georgische Legion"
+ GOL_national_socialism_DEF:0 "The Georgische Legion"
+
+OKM_national_socialism:0 "Oberkommando Moskowien"
+OKM_national_socialism_DEF:0 "The Oberkommando Moskowien"
+
  RKC_fascism:0 "Reichskommissariat Kaukasien"
  RKC_fascism_DEF:0 "Reichskommissariat Kaukasien"
 

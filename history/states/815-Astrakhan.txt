@@ -15,9 +15,9 @@ state={
 		}
 		add_core_of = SOV
 		1947.1.1 = {
-			owner = RKD
-			controller = RKD
-			add_core_of = RKD
+			owner = OKM
+			controller = OKM
+			add_core_of = OKM
 
 		}
 

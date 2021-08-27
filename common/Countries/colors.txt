@@ -45,6 +45,17 @@ RKT = {
 	color_ui = rgb { 115 115 115 }
 }
 
+ABL = {
+	color = rgb { 110 129 106 } 
+	color_ui = rgb { 110 129 106 }
+}	
+
+GOL = {
+	color = rgb { 89 0 0 } 
+	color_ui = rgb { 89 0 0 }
+}
+
+
 
 #vanilla
 GER = {

@@ -30,6 +30,7 @@ state={
 			owner = ARM
 			controller = ARM
 			add_core_of = ARM
+			add_claim_by = RKC
 
 		}
 
