@@ -269,6 +269,14 @@ spriteTypes = {
 		name = "GFX_goal_GER_wehrmacht_involvement"
 		texturefile = "gfx/interface/goals/GER_wehrmacht_involvement.dds"
 	}
+	SpriteType = {
+		name = "GFX_GER_purge_command_structure"
+		texturefile = "gfx/interface/goals/GER_purge_command_structure.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_state_of_the_art"
+		texturefile = "gfx/interface/goals/GER_state_of_the_art.dds"
+	}
 
 	### SOV
 	SpriteType = {
