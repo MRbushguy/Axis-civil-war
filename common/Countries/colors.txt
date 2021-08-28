@@ -1,5 +1,17 @@
 #ACW countries
 
+
+JPC = {
+	color = rgb { 252 132 3 }
+	color_ui = rgb { 252 132 3 }	
+
+}
+
+CHI = {
+	color = rgb { 0 26 255}
+	color_ui = rgb { 0 26 255 }
+}
+
 LOA = {
 	color = rgb { 0 0 110 }
 	color_ui = rgb { 0 0 110 }
@@ -199,10 +211,7 @@ CAN = {
 	color = rgb { 233  59  59 }
 	color_ui = rgb { 155 62 51 }
 }
-CHI = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
-	color_ui = hsv { 0.18 0.3 0.9 }
-}
+
 CHL = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 202 131 139 }

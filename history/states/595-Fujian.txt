@@ -29,21 +29,12 @@ state= {
 			7071 1
 		}
 
-		1938.10.25 = {
-			JAP = {
-				set_province_controller = 4196
-				set_province_controller = 7071
-			}
-		}
+		
 		1947.1.1 = {
-			owner = JAP
-			controller = JAP
-			CHI = {
-				set_province_controller = 10012
-				set_province_controller = 4113
-				set_province_controller = 1138
-				set_province_controller = 10084
-			}
+			owner = JPC
+			controller = JPC
+			add_core_of = JPC
+			
 		}
 	}
 	provinces={

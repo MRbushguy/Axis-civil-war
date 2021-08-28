@@ -25,8 +25,11 @@ state={
 			10068 1
 		}
 
-		1938.10.25 = {
-			controller = JAP
+		1947.1.1 = {
+			owner = JPC
+			controller = JPC
+			add_core_of = JPC
+			
 		}
 	}
 

@@ -23,15 +23,11 @@ state={
 
 		}
 
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = { has_dlc = "Waking the Tiger" }
-				}
-				remove_core_of = GXC
-				CHI = { transfer_state = PREV }
-			}
-			controller = JAP
+		1947.1.1 = {
+			owner = JPC
+			controller = JPC
+			add_core_of = JPC
+			
 		}
 	}
 

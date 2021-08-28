@@ -33,5 +33,10 @@ state={
 				}
 			}
 		}
+
+		1947.1.1 = {
+			owner = CHI
+			controller = CHI
+		}
 	}
 }

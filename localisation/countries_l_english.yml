@@ -215,6 +215,12 @@ OKM_national_socialism_DEF:0 "The Oberkommando Moskowien"
  FRA_DEF:0 "France"
  FRA_ADJ:0 "French"
 
+
+ CHI_authoritarianism:0 "Republic of China"
+
+
+ JPC_fascism:0 "Provisional Government of the Republic of China"
+
  
  #Vanilla countries
  
@@ -757,21 +763,6 @@ OKM_national_socialism_DEF:0 "The Oberkommando Moskowien"
  CAN:0 "Canada"
  CAN_DEF:0 "Canada"
  CAN_ADJ:0 "Canadian"
- CHI_fascism:0 "Reorganized Nationalist China"
- CHI_fascism_DEF:0 "Reorganized Nationalist China"
- CHI_democratic:0 "Republic of China"
- CHI_democratic_DEF:0 "the Republic of China"
- CHI_authoritarianism:0 "China"
- CHI_authoritarianism_DEF:0 "China"
- CHI_communism:0 "Chinese People's Republic"
- CHI_communism_DEF:0 "the Chinese People's Republic"
- CHI_fascism_ADJ:0 "Chinese"
- CHI_democratic_ADJ:0 "Chinese"
- CHI_authoritarianism_ADJ:0 "Chinese"
- CHI_communism_ADJ:0 "Chinese"
- CHI:0 "China"
- CHI_DEF:0 "China"
- CHI_ADJ:0 "Chinese"
  PRC_fascism:0 "Chinese Empire"
  PRC_fascism_DEF:0 "the Chinese Empire"
  PRC_democratic:0 "Chinese Republic"

@@ -16,6 +16,13 @@ state={
 			infrastructure = 3
 		}
 
+		1947.1.1 = {
+			owner = JPC
+			controller = JPC
+			add_core_of = JPC
+			
+		}
+
 	}
 	manpower=9000000
 	buildings_max_level_factor=1.000

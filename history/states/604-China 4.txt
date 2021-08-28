@@ -15,21 +15,9 @@ state={
 			industrial_complex = 2
 
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger"
-					}
-
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-
-			}
-
+		1947.1.1 = {
+			owner = CHI
+			controller = CHI
 		}
 
 	}

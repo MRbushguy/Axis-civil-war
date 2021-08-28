@@ -21,10 +21,11 @@ state=
 			industrial_complex = 2
 		}
 
-		1938.10.25 = {
-			#remove_core_of = SHX
-			owner = PRC
-			controller = JAP
+		1947.1.1 = {
+			owner = JPC
+			controller = JPC
+			add_core_of = JPC
+			
 		}
 	}
 	provinces={

@@ -21,6 +21,13 @@ state={
 				air_base = 1
 			}
 		}
+
+		1947.1.1 = {
+			owner = JPC
+			controller = JPC
+			add_core_of = JPC
+			
+		}
 	}
 	manpower=1500000
 	state_category=pastoral

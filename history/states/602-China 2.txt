@@ -27,6 +27,13 @@ state={
 			7097 5
 		}
 
+		1947.1.1 = {
+			owner = JPC
+			controller = JPC
+			add_core_of = JPC
+			
+		}
+
 	}
 
 	provinces={

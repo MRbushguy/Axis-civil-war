@@ -224,6 +224,7 @@ LOA = "countries/Lokot Autonomy.txt"
 ABL = "countries/Azerbaijani Legion.txt"
 GOL = "countries/Georgian Legion.txt"
 OKM = "countries/Oberkommando Moskowien.txt"
+JPC = "countries/Japanese China.txt"
 
 
 
