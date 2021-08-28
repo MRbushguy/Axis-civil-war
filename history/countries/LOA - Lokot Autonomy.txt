@@ -79,4 +79,15 @@ set_popularities = {
 		communism = 25
 		national_socialism = 5
 	}
+
+	create_country_leader = {
+	name = "Konstantin Voskoboynik"
+	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = order_fascism
+	traits = {
+		#
+	}
+}
 }

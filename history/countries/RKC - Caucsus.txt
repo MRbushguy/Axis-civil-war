@@ -61,7 +61,7 @@ if = {
 }
 
 create_country_leader = {
-	name = "Josias Erbprinz zu Waldeck und Pyrmont"
+	name = "Hermann Neubacher"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"

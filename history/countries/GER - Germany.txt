@@ -1046,6 +1046,8 @@ create_equipment_variant = {
 	puppet = GOL
 	puppet = RKT
 	puppet = OKM
+	puppet = CZE
+
 
 
 

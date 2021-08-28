@@ -206,7 +206,7 @@ create_country_leader = {
 	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
 	picture = "GFX_POL_boleslaw_piasecki"
 	expire = "1965.1.1"
-	ideology = lebensraum_colonization
+	ideology = order_fascism
 	traits = {
 		#
 	}
@@ -423,7 +423,20 @@ if = {
 		democratic_right = 10
 		authoritarianism = 10
 		national_socialism = 70
+
 	}
+
+create_country_leader = {
+	name = "Hans Frank"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = lebensraum_colonization
+	traits = {
+        #
+	}
+}
+
 	add_ideas = {
 		resistance_1
 		devastation_3

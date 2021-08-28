@@ -1,4 +1,26 @@
 ﻿l_english:
+
+#ACW
+
+ POL_GER_subject:0 "Generalgouvernement"
+ POL_GER_subject_DEF:0 "The Generalgouvernement"
+ CZE_GER_subject:0 "Reichsprotektorat Böhmen und Mähren"
+ CZE_GER_subject_DEF:0 "The Reichsprotektorat of Böhmen und Mähren"
+ RPM_reichskommissariat:0 "Reichskommissariat Moskowien"
+ RPM_reichskommissariat_DEF:0 "The Reichskommissariat of Moskowien"
+ RPC_reichskommissariat:0 "Reichskommissariat Kaukasus"
+ RPC_reichskommissariat_DEF:0 "The Reichskommissariat of Kaukasus"
+ 
+ JAP_sibiera:0 "Japanese Siberia"
+ 
+ USSR_uni:0 "Union Of Soviet Socialist Republics"
+
+
+
+
+
+
+  #vanilla 
  INS_HOL_democratic:0 "Dutch East Indies"
  INS_HOL_democratic_DEF:0 "the Dutch East Indies"
  INS_subject:0 "$OVERLORDADJ$ East Indies"
@@ -1006,13 +1028,3 @@
  TUR_PROVISIONARY_neutrality:0 "Provisionary State of Anatolia"
  TRN_neutrality_DEF:0 "Turan"
  
- POL_GER_subject:0 "Generalgouvernement"
- POL_GER_subject:0 "The Generalgouvernement"
- RPM_reichskommissariat:0 "Reichskommissariat Moskowien"
- RPM_reichskommissariat_DEF:0 "The Reichskommissariat Moskowien"
- RPC_reichskommissariat:0 "Reichskommissariat Kaukasus"
- RPC_reichskommissariat_DEF:0 "The Reichskommissariat Kaukasus"
- 
- JAP_sibiera:0 "Japanese Siberia"
- 
- USSR_uni:0 "Union Of Soviet Socialist Republics"
