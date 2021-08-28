@@ -1065,8 +1065,13 @@ if = {
 	add_to_faction = IRQ
 	add_to_faction = BUL
 	add_to_faction = SPR
+	add_to_faction = SYR
+	add_to_faction = GEO
+	add_to_faction = AZR
 	puppet = IME
 	puppet = IEA
 	puppet = ICA
 	puppet = IGL
+	puppet = MNT
+
 }
