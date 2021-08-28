@@ -109,5 +109,6 @@ create_country_leader = {
 	add_ideas = {
 		resistance_3
 		devastation_3
+		indepenant_only_in_name
 	}
 }
