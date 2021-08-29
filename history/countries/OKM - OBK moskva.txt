@@ -44,4 +44,8 @@ if = {
 		#
 	}
 }
+
+add_ideas = {
+		best_of_wermacht
+	}
 }

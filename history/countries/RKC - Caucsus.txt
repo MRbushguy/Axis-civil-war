@@ -88,6 +88,7 @@ create_country_leader = {
 	add_ideas = {
 		resistance_3
 		devastation_3
+		desperate_to_make_profit
 	}
 }
 

@@ -155,6 +155,99 @@ ideas = {
 		}
 
 
+kazakstan_expeditions = {
+
+
+			modifier = {
+				weekly_manpower = -250 
+				stability_factor = -0.05
+
+
+			}
+
+
+		}
+
+		best_of_wermacht = {
+
+
+			modifier = {
+			offence = 0.2
+			defence = 0.25
+			acclimatization_cold_climate_gain_factor = 0.8
+			army_org_factor = 0.5
+			army_org_regain = 0.25
+			attrition = 0.1
+				
+				
+
+			}
+
+
+		}
+
+		stuck_in_1944 = {
+
+
+			modifier = {
+				weekly_manpower = -150 
+				stability_factor = -0.5
+				stability_weekly = -0.005
+				production_speed_buildings_factor = -0.3
+
+
+
+			}
+
+
+		}
+
+		unable_to_garrison = {
+
+			modifier = {
+        occupation_cost = 0.2
+		required_garrison_factor = 0.5
+		resistance_decay = -0.3
+		resistance_growth = 0.5
+		resistance_garrison_penetration_chance = 0.1
+		compliance_growth = -0.5
+				
+
+
+
+			}
+
+
+		}
+
+		indepenant_only_in_name = {
+
+			modifier = {
+			political_power_gain = -0.2
+			stability_factor = -0.1
+			war_support_factor = -0.1
+			drift_defence_factor = -0.5
+
+			}
+
+
+		}
+
+		desperate_to_make_profit = {
+
+			modifier = {
+			stability_factor = -0.5
+			local_resources_factor = 0.14
+			min_export = 0.8
+
+
+
+
+
+			}
+
+
+		}
 
 
 

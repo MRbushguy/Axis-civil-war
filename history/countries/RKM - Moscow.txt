@@ -89,6 +89,8 @@ create_country_leader = {
 	add_ideas = {
 		resistance_3
 		devastation_3
+		stuck_in_1944
+		unable_to_garrison
 	}
 }
 
