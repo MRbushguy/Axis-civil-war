@@ -491,10 +491,14 @@ completion_reward = {
 
 			
 			add_state_core = 184
+				
+				
+				
+				TUR = {
 				country_event = {
 id = bul.3 }	
 
-			
+			}
 
 		
 
@@ -784,13 +788,13 @@ add_popularity = {
 		completion_reward = {
 			add_state_core = 184
 
-			create_wargoal = { 
-
-			type = annex_everything 
-
-			target = TUR
+	TUR = {
+				country_event = {
+id = bul.3 }	
 
 			}
+
+			
 		}
 	}
 
