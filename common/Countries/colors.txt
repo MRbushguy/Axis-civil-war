@@ -49,8 +49,8 @@ UPR = {
 	color_ui = rgb { 252 3 90 }
 }
 OKM = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
+	color = rgb { 40 40 40 }
+	color_ui = rgb { 40 40 40 }
 }
 RKT = {
 	color = rgb { 115 115 115 } 

@@ -1,3 +1,48 @@
+#ACW
+
+
+RPM_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+RPC_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+JAP_sibiera = {
+	color = rgb { 237 237 237 }
+	color_ui = rgb { 237 237 237 }
+}
+
+SSR_color = {
+	color = rgb { 120 13 24 }
+	color_ui = rgb { 153 17 31 }
+}
+
+USSR_uni = {
+	color = rgb { 120 13 24 }
+	color_ui = rgb { 153 17 31 }
+}
+
+ITA_puppet = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 67 127 63 }
+}
+
+OCC_ITA = {
+	color = rgb { 0 107 103 }
+	color_ui = rgb { 0 107 103 }
+
+WAFFEN_SS = {
+color = rgb { 0 0 0 }
+color_ui = rgb { 0 0 0 }
+
+
+
+
+#VANILLA 
 MAL_UK = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
@@ -676,36 +721,3 @@ TBE_third_bulgarian_empire_neutrality = {
 	color_ui = rgb { 138 249 195 }
 }
 
-RPM_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-
-RPC_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-
-JAP_sibiera = {
-	color = rgb { 237 237 237 }
-	color_ui = rgb { 237 237 237 }
-}
-
-SSR_color = {
-	color = rgb { 120 13 24 }
-	color_ui = rgb { 153 17 31 }
-}
-
-USSR_uni = {
-	color = rgb { 120 13 24 }
-	color_ui = rgb { 153 17 31 }
-}
-
-ITA_puppet = {
-	color = rgb { 67 127 63 }
-	color_ui = rgb { 67 127 63 }
-}
-
-OCC_ITA = {
-	color = rgb { 0 107 103 }
-	color_ui = rgb { 0 107 103 }

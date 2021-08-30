@@ -129,7 +129,7 @@ GER_internal_factions = {
 
 move_waffenss_east = {
 
-		icon = spr_political_assassination
+		icon = decision_faction_ger_ss
 
 		allowed = {
 			tag = GER
@@ -161,7 +161,7 @@ move_waffenss_east = {
 
 move_leibstandarte_east = {
 
-		icon = spr_political_assassination
+		icon = leibstandarte_ger_ss
 
 		allowed = {
 			tag = GER
@@ -177,16 +177,10 @@ move_leibstandarte_east = {
 
 		complete_effect = {
 			custom_effect_tooltip = GER_assassinate_ss_tt
-			add_to_variable = {
-				var = GER_ss_influence
-				value = -5
-			}
-			add_to_variable = {
-				var = GER_NSDAP_influence
-				value = 5
-			}
 
-			GER_faction_cleanup = yes
+			
+
+	
 		}
 	}
 
