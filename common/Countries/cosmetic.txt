@@ -34,6 +34,7 @@ ITA_puppet = {
 OCC_ITA = {
 	color = rgb { 0 107 103 }
 	color_ui = rgb { 0 107 103 }
+}
 
 WAFFEN_SS = {
 color = rgb { 0 0 0 }
