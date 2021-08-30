@@ -141,11 +141,11 @@ move_waffenss_east = {
 
 		cost = 25
 
-		days_remove = 30
+		days_remove = 1
 
 		complete_effect = {
 			custom_effect_tooltip = GER_assassinate_ss_tt
-			   1ss = {
+			   LSS = {
 				transfer_state = 203
 				transfer_state = 259
 				transfer_state = 197
