@@ -44,6 +44,7 @@ GER_ukraine_war_tt:0 "The situation in Ukraine has escalated"
 GER_wehrmacht_alone:0 "The Wehrmacht Alone"
 GER_wehrmacht_alone_desc:0 "We have played along with the Reformist's ideas long enough. Their system is far too lenient and would turn Germany into a pitiful socialist state just like the failed Soviet Union. In time, we will develop our own economic plan, but now is the time to rid our ranks of what Reformists we can and concentrate on the battle ahead."
 GER_wehrmacht_alone_support_requirement_tt:0 "More than §O50§! influence from the £decision_faction_ger_wehr_small §YWehemacht§!"
+GER_wehrmacht_alone_completion_tt:0 "£decision_faction_ger_wehr_small §YWehrmacht §!: §G+10§! Influence \n£decision_faction_ger_reform_small §YReformists §!: §R-10§! Influence \n\n Unlocks decisions to £decision_icon_small §Ysupport the Wehrmacht§!"
 GER_recall_the_troops:0 "Recall the Troops"
 GER_recall_the_troops_desc:0 "Divisions loyal to the Wehrmacht are currently scattered across the empire, while our opponents forces muster in Berlin. We must return key divisions in preparation for the power struggle that may be coming."
 GER_wehrmacht_troops_requirement_tt:0 "More than §O80§! influence from the £decision_faction_ger_wehr_small §YWehemacht§!"
@@ -60,7 +61,7 @@ GER_deal_with_the_grain_harvest_desc:0 "As we transitioned our food sources to c
 GER_famine_tt:0 "The famine has begun"
 GER_ukraine_general_completion_tt:0 "Unlocks decisions: £decision_icon_small §YRetool food supply lines§!"
 
-GER_wehrmacht_alone_completion_tt:0 "£decision_faction_ger_wehr_small §YWehrmacht §!: §G+10§! Influence \n£decision_faction_ger_reform_small §YReformists §!: §R-10§! Influence"
+
 GER_refnaz_and_wehrmacht_completion_tt:0 "£decision_faction_ger_reform_small §YNSDAP §!: §G+10§! Influence \n£decision_faction_ger_wehr_small §YWehrmacht §!: §R-10§! Influence"
 
 #refnaz branch

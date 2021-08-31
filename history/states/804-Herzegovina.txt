@@ -23,8 +23,8 @@ state={
 		add_core_of = BOS
 		add_core_of = HRZ
 		1947.1.1 = {
-			owner = CRO
-			controller = CRO
+			owner = SER
+			controller = SER
 		}
 	}
 

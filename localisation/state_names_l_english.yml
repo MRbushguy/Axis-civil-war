@@ -12,7 +12,7 @@
  STATE_11:0 "Kaunas"
  STATE_12:0 "Vidzeme"
  STATE_13:0 "Harju"
- STATE_14:0 "Brittany"
+ STATE_14:0 "Lower Brittany"
  STATE_15:0 "Normandy"
  STATE_16:0 "Ile de France"
  STATE_17:1 "Franche-Comte"
@@ -826,4 +826,4 @@
  STATE_825:0 "Raqqa"
  STATE_826:0 "Homs"
  STATE_827:0 "Nukus"
- 
+ STATE_828:0 "Upper Brittany"
