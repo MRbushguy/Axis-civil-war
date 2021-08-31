@@ -18,8 +18,8 @@ state={
 		add_core_of = YUG
 		add_core_of = CRO
 		1947.1.1 = {
-			owner = CRO
-			controller = CRO
+			owner = SER
+			controller = SER
 		}
 	}
 
