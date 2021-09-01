@@ -127,65 +127,6 @@ GER_internal_factions = {
 		}
 	}
 
-move_waffenss_east = {
-
-		icon = decision_generic_police_action
-
-		allowed = {
-			tag = GER
-		}
-
-		available = {
-
-		}
-
-		cost = 25
-
-		days_remove = 1
-
-		complete_effect = {
-			custom_effect_tooltip = GER_assassinate_ss_tt
-			   LSS = {
-				transfer_state = 203
-				transfer_state = 259
-				transfer_state = 197
-				transfer_state = 226
-				transfer_state = 221
-				transfer_state = 227
-				transfer_state = 200
-				transfer_state = 196
-				transfer_state = 228
-			}
-		}
-	}
-
-
-move_leibstandarte_east = {
-
-		icon = decision_ger_reichskommissariats
-
-		allowed = {
-			tag = GER
-		}
-
-		available = {
-
-		}
-
-		cost = 25
-
-		days_remove = 30
-
-		complete_effect = {
-			custom_effect_tooltip = GER_assassinate_ss_tt
-
-			
-
-	
-		}
-	}
-
-
 
 	GER_student_protests_decision = {
 
@@ -217,6 +158,69 @@ move_leibstandarte_east = {
 			GER_faction_cleanup = yes
 		}
 	}
+
+
+move_waffenss_east = {
+
+		icon = 
+
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+
+		}
+
+		cost = 50
+
+		days_remove = 5
+
+		complete_effect = {
+		custom_effect_tooltip = move_waffenss_east_tooltip
+		DAR = {set_state_owner = 220
+                   set_state_controller = 220}
+
+             TKF = {set_state_owner = 209
+                   set_state_controller = 209}
+
+		PLI = {set_state_owner = 243
+                   set_state_controller = 243}
+			
+		}
+	}
+
+
+
+	move_leibstandarte_east = {
+
+		icon = 
+
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+
+		}
+
+		cost = 50
+
+		days_remove = 6
+
+		complete_effect = {
+		custom_effect_tooltip = move_leibstandarte_east_tooltip
+
+			LAH = {set_state_owner = 195
+                   set_state_controller = 195
+			       set_state_owner = 244
+			       set_state_controller = 244}
+			
+		}
+	}
+
 	
 	GER_weaken_waffen_str_wehr_decision = {
 

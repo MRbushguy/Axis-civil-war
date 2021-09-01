@@ -33,8 +33,8 @@ state={
 		#add_claim_by = ITA #added by focus
 		add_core_of = CRO
 		1947.1.1 = {
-			owner = CRO
-			controller = CRO
+			owner = ITA
+			controller = ITA
 		}
 	}
 

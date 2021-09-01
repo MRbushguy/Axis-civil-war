@@ -99,7 +99,7 @@
  GER_nsdap_takeover:0 "Ein Reich"
  GER_nsdap_takeover_tt:0 "The§Y NSDAP§! £decision_faction_ger_nsdap_small  has gained overwhelming influence in society. §RThe party's iron grip over society has tightened.§!"
 
- ### Italian Resistance
+ ### swiss Resistance
  GER_increase_swiss_resistance:0 "Increasing resistance"
  GER_increase_swiss_resistance_desc:0 "Despite our thorough conquest of the Swiss, there exists a strong independence movement that is growing larger by the day."
 
@@ -111,6 +111,12 @@
  high_resistance:0 "Open Revolt"
 
 
+#waffen SS stuff
+move_waffenss_east:0 "Move some Waffen-SS divisions East"
+move_waffenss_east_tooltip:0 "The Waffen-SS is becoming way too powerful then we expected, and it is getting Increasingly hard to control them. Although a controversial decision, we will send a couple of Waffen-SS divisions to the East to "Help with crushing dissent" \n§RIf things go bad in Germania, this decision may come to bite us§!"
+
+move_leibstandarte_east:0 "Move the Leibstandarte East"
+move_leibstandarte_east_tooltip:0 "The Influence of the Waffen-SS is getting out of control, in a desperate and extreme act, we will transfer east the most powerful and influential Waffen-SS Divison \n§RThe Waffen-SS now has a power base in the East§!"
 
  ### The state of Germany Decisions
 

@@ -17,10 +17,10 @@ ABL = "countries/Azerbaijani Legion.txt"
 GOL = "countries/Georgian Legion.txt"
 OKM = "countries/Oberkommando Moskowien.txt"
 JPC = "countries/Japanese China.txt"
-LSS = "countries/Leibstandarte.txt"
-2SS = "countries/2st SS divison.txt"
-3SS = "countries/3st SS divison.txt"
-4SS = "countries/4st SS divison.txt"
+LAH = "countries/Leibstandarte.txt"
+DAR = "countries/Das Reich.txt"
+TKF = "countries/Totenkopf.txt"
+PLI = "countries/Polizei.txt"
 
 
 
