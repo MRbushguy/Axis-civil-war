@@ -1,0 +1,40 @@
+state={
+	id=831
+	name="STATE_831"
+
+	history={
+		owner = SOV
+		victory_points = {
+			6380 50 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 2
+			
+
+		}
+		add_core_of = SOV
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+				arms_factory = 3
+
+			}
+
+		}
+		1947.1.1 = {
+			owner = RKM
+			controller = RKM
+			add_core_of = RKM
+
+		}
+
+	}
+	provinces={
+		6380 
+	}
+	manpower=2657097
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}
