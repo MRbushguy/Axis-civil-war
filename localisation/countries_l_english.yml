@@ -1470,7 +1470,7 @@ PLI_national_socialism_DEF:0 "Das "Gebiet der 4. Waffen-SS-Division "Polizei"
 
  SER_fascism:0 "Illyrian Empire"
  SER_fascism_DEF:0 "the Illyrian Empire"
- SER_authoritarianism:0 "Illyrian state of Serbia "
+ SER_authoritarianism:0 "Illyrian state of Serbia" #Illyrian state of Serbia 
  SER_authoritarianism_DEF:0 "The Illyrian stafe of Serbia"
  SER_democratic:0 "Serbia"
  SER_democratic_DEF:0 "Serbia"
