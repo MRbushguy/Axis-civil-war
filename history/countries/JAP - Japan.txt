@@ -1575,4 +1575,5 @@ if = {
 	puppet = MAL
 	puppet = BRM
 	add_to_faction = SIA
+	add_to_faction = JPC
 }
