@@ -81,9 +81,9 @@ set_popularities = {
 	}
 
 	create_country_leader = {
-	name = "Bronislaw Kaminski"
+	name = "Konstantin Voskoboynik"
 	desc = "POLITICS_BRONISLAW_KAMINSKI_DESC"
-	picture = "gfx/leaders/LOA/Bronislaw Kaminski.dds"
+	picture = "gfx/leaders/LOA/Konstantin Voskoboynik.dds"
 	expire = "1965.1.1"
 	ideology = final_nazism
 	traits = {
