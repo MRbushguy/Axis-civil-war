@@ -1,0 +1,19 @@
+state={
+	id=830
+	name="STATE_830"
+	provinces={
+		596 665 3654 6672 9596 
+	}
+	manpower= 700000
+	buildings_max_level_factor=1.000
+}
+
+
+    	1947.1.1 = {
+		owner = SLV
+		controller = SLV
+
+
+		}
+
+}
