@@ -35,14 +35,17 @@ set_cosmetic_tag = CZE_reichskommissariat
 		national_socialism = 95
 	}
 
+###name = "Kurt Daluege"###
+
 	create_country_leader = {
-	name = "Kurt Daluege"
-	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	name = "Konrad Henlein"
+	desc = "POLITICS_KONRAD_HENLEIN_DESC"
+	picture = "gfx/leaders/CZE/Konrad Henlein.dds"
 	expire = "1965.1.1"
 	ideology = lebensraum_colonization
 	traits = {
 		#
 	}
 }
+
 }

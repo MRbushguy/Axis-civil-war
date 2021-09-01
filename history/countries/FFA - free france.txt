@@ -63,7 +63,7 @@ if = {
 create_country_leader = {
 	name = "Charles de Gaulle"
 	desc = ""
-	picture = "gfx/leaders/FRA/Portrait_France_Charles_De_Gaulle.dds"
+	picture = "gfx/leaders/FFA/Portrait_France_Charles_De_Gaulle.dds"
 	expire = "1970.11.9"
 	ideology = social_conservatism
 	traits = {
@@ -87,7 +87,7 @@ create_country_leader = {
 
 	create_corps_commander = {
 		name = "Jean de Lattre de Tassigny"
-		portrait_path = "gfx/leaders/FRA/Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
+		portrait_path = "gfx/leaders/FFA/Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
 		desc = "FFA_JEAN_DETASSIGNY_ARMY_DESC"
 		traits = {
 			infantry_officer

@@ -36,8 +36,8 @@ if = {
 
 	create_country_leader = {
 	name = "Ferdinand Schörner"
-	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	desc = "POLITICS_FERDINAND_SCHORNER_DESC"
+	picture = "gfx/leaders/OKM/Ferdinand Schorner.dds"
 	expire = "1965.1.1"
 	ideology = lebensraum_colonization
 	traits = {

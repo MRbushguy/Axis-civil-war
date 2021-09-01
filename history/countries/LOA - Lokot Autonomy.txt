@@ -69,7 +69,7 @@ set_popularities = {
 
 1947.1.1 = {
 	set_politics = {
-		ruling_party = fascism
+		ruling_party = final_nazism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -81,11 +81,11 @@ set_popularities = {
 	}
 
 	create_country_leader = {
-	name = "Konstantin Voskoboynik"
-	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	name = "Bronislaw Kaminski"
+	desc = "POLITICS_BRONISLAW_KAMINSKI_DESC"
+	picture = "gfx/leaders/LOA/Bronislaw Kaminski.dds"
 	expire = "1965.1.1"
-	ideology = order_fascism
+	ideology = final_nazism
 	traits = {
 		#
 	}

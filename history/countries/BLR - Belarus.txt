@@ -72,9 +72,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-    name = "Hinrich Lohse"
+    name = "Heinrich Lohse"
     desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+    picture = "gfx/leaders/BLR/Heinrich Lohse.dds"
     expire = "1965.1.1"
     ideology = lebensraum_colonization
     traits = {
