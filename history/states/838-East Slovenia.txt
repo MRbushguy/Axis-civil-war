@@ -7,6 +7,10 @@ state={
 
 	history={
 
+	victory_points = {
+		596 3
+	}
+
 	
     	1947.1.1 = {
 		owner = SLV
