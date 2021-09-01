@@ -1,6 +1,6 @@
 ﻿l_english:
 
- #ACW countries
+ #ACW added countries
 
  LOA_Ger_subject:0 "Lokotskaya avtonomiya"
  LOA_Ger_subject_DEF:0 "the Lokotskaya avtonomiya"
@@ -183,8 +183,8 @@
  RKM_fascism:0 "Reichskommissariat Moskau"
  RKM_fascism_DEF:0 "Reichskommissariat Moskau"
  
- RKT_national_socialism:0 "Reichskommissariat Turkestan"
- RKT_national_socialism_DEF:0 "Reichskommissariat Turkestan"
+ RKT_national_socialism:0 "Turkistanische Legion"
+ RKT_national_socialism_DEF:0 "Die Turkistanische Legion"
 
  ABL_national_socialism:0 "Aserbaidschanische Legion"
  ABL_national_socialism_DEF:0 "The Aserbaidschanische Legion"
