@@ -1,22 +1,18 @@
-
 state={
-	id=41
-	name="STATE_41"
-	resources={
-		aluminium=1.000
-	}
+	id=834
+	name="STATE_834"
 
 	history={
 		owner = SPR
-		
 		victory_points = {
-			858 1 
+			3938 30 
 		}
+		
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 1
-			air_base = 6
+			
 
 		}
 		add_core_of = SPR
@@ -24,9 +20,9 @@ state={
 	}
 
 	provinces={
-		858 896 939 977 3794 3845 3986 6914 9767 9800 11820 13224 
+		3938 
 	}
-	manpower=516164
+	manpower=1548494
 	buildings_max_level_factor=1.000
 	state_category=city
 }
