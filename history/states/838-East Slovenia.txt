@@ -1,29 +1,24 @@
+
 state={
 	id=838
 	name="STATE_838"
-	manpower= 700000
-	buildings_max_level_factor=1.000
-
 
 	history={
-
-	victory_points = {
-		665 5
-	}
-
-	
-    	1947.1.1 = {
-		owner = SLV
-		controller = SLV
-		add_core_of = SLV
-
+		victory_points = {
+			665 5 
+		}
+		1947.1.1 = {
+			owner = SLV
+			controller = SLV
+			add_core_of = SLV
 
 		}
 
-
-}
-
-provinces={
-		596 665 3654 6672 9596 
 	}
+
+	provinces={
+		596 665 3654 9596 
+	}
+	manpower=700000
+	buildings_max_level_factor=1.000
 }

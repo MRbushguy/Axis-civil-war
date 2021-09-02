@@ -838,3 +838,7 @@
  STATE_837:0 "Sarajevo"
  STATE_838:0 "East Slovenia" 
  STATE_839:0 "Srem"
+ STATE_840:0 "Central Transdanubia"
+ STATE_841:0 "Southern Transdanubia"
+ STATE_842:1 "Budapest"
+ 

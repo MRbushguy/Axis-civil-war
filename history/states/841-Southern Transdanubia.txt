@@ -1,10 +1,6 @@
-
 state={
-	id=155
-	name="STATE_155"
-	resources={
-		oil=1.000
-	}
+	id=841
+	name="STATE_841"
 
 	history={
 		owner = HUN
@@ -14,8 +10,6 @@ state={
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
-			arms_factory = 1
-			air_base = 3
 
 		}
 		add_core_of = HUN
@@ -23,9 +17,9 @@ state={
 	}
 
 	provinces={
-		682 686 701 3670 3680 3683 6672 6685 6703 6720 9624 9643 9676 11610 11627 11663 13125 
+		682 3680 6685 9624 9643 11610 
 	}
-	manpower=1197605
+	manpower=555432
 	buildings_max_level_factor=1.000
 	state_category=city
 }
