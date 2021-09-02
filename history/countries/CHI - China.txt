@@ -450,8 +450,6 @@ if = {
 1947.1.1 = {
 
 	oob = CHI_1947
-	remove_ideas = CHI_army_corruption_2
-	add_ideas = CHI_army_corruption_3
 	add_to_faction = SIK
 	add_to_faction = XSM
 
@@ -468,9 +466,9 @@ set_politics = {
 		democratic_right = 16
 		fascism = 8
 		national_socialism = 2
-		socialism = 3
-		communism = 7
-		authoritarianism = 60
+		socialism = 8
+		communism = 17
+		authoritarianism = 45
 	}
 
 }

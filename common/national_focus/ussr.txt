@@ -60,6 +60,9 @@ focus_tree = {
 		cost = 2.9
 
 		completion_reward = { SOV = { country_event = { id = soviet.2 days = 1 } }	}
+
+		ai_will_do = { factor = 0 }
+
 	}
 
 }

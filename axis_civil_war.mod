@@ -4,8 +4,8 @@ tags={
 }
 name="Axis civil war"
 replace_path="gfx/loadingscreens"
-replace_path = "common/ideas" 
 replace_path = "common/decisions" 
 replace_path = "common/national_focus"
 replace_path = "events"
 supported_version="1.10.*"
+path="mod/Axis-civil-war"
