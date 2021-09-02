@@ -450,10 +450,6 @@ if = {
 	
 	remove_ideas = CHI_army_corruption_2
 	add_ideas = CHI_army_corruption_3
-	
-		declare_war_on = {
-		target = CHI
-		type = puppet_wargoal_focus
-	}
+
 
 }
