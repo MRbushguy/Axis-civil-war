@@ -339,5 +339,9 @@ spriteTypes = {
 		name = "GFX_focus_use_resources_from_the_colonies"
 		texturefile = "gfx/interface/goals/use_resources_from_the_colonies.dds"
 	}
-
+	##SER
+	SpriteType = {
+		name = "GFX_focus_real_illyria"
+		texturefile = "gfx/interface/goals/GFX_focus_real_illyria.dds"
+	}
 
