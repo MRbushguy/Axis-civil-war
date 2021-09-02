@@ -68,9 +68,7 @@ focus_tree = {
 			complete_tooltip = {
 
 }
-			block_name = {
-
-}
+			
 
 	}
 	
@@ -258,9 +256,7 @@ focus_tree = {
 			}
 
 }
-			block_name = {
-
-}
+			
 
 	}
 	focus = {
@@ -357,9 +353,7 @@ focus_tree = {
 			}
 
 }
-			block_name = {
-
-}
+			
 
 	}
 	focus = {
@@ -452,9 +446,7 @@ focus_tree = {
 			cancel = {
 
 }
-			block_name = {
-
-}
+			
 			complete_tooltip = {
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
@@ -571,9 +563,6 @@ focus_tree = {
 			}
 
 }
-			block_name = {
-
-}
 
 	}
 	focus = {
@@ -674,9 +663,7 @@ focus_tree = {
 			}
 
 }
-			block_name = {
-
-}
+			
 
 	}
 	focus = {
@@ -778,9 +765,7 @@ focus_tree = {
 			}
 
 }
-			block_name = {
-
-}
+			
 
 	}
 	focus = {
@@ -877,10 +862,7 @@ focus_tree = {
 			}
 
 }
-			block_name = {
-
-}
-
+			
 	}
 	focus = {
 		id = SER_armament_effort_III
@@ -975,10 +957,7 @@ focus_tree = {
 			}
 
 }
-			block_name = {
-
-}
-
+			
 	}
 	focus = {
 		id = SER_Illyiran_academy_of_science
@@ -1011,9 +990,7 @@ focus_tree = {
 			complete_tooltip = {
 
 }
-			block_name = {
-
-}
+			
 
 	}
 
