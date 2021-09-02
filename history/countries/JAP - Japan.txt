@@ -1,4 +1,4 @@
-capital = 836
+#capital = 836
 
 oob = "JAP_1936"
 
@@ -194,10 +194,7 @@ create_import = {
 		closed_economy
 	}
 
-	declare_war_on = {
-		target = CHI
-		type = puppet_wargoal_focus
-	}
+	
 	#declare_war_on = {
 	#	target = GXC
 	#	type = puppet_focus
@@ -210,7 +207,7 @@ create_import = {
 	#	target = PRC
 	#	type = annex_everything
 	#}
-	oob = "JAP_1939"
+	#oob = "JAP_1939"
 	set_technology = {
 
 		#PLACEHOLDERS for vehicles
