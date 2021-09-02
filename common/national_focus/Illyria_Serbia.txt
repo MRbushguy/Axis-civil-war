@@ -1,0 +1,31 @@
+focus_tree = {
+	id = SER
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SER
+		}
+	}
+	
+	
+	focus = { 
+		id = SER_true_Illyria
+		icon = GFX_focus_real_illyria
+		cost = 10.00
+		x = 5
+		y = 0
+		
+		
+			ai_will_do = {
+				factor = 100
+				}
+				
+			
+		}
+
+
+
+
+}
+	
