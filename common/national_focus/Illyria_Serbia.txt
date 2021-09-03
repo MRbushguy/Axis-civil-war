@@ -996,6 +996,68 @@ focus_tree = {
 
 
 
+	focus = {
+		id = SER_royalty_to_Italy
+		icon = GXF_unknonw
+		cost = 10.00
+		prerequisite = {
+			focus = SER_true_Illyria
+			}
+		x = 15
+		y = 2
+		
+		
+
+
+	}
+	
+	focus = { 
+		id = SER_push_the_Illyrian_propaganda
+		icon = GFX_unknow
+		cost = 05.00
+		prerequisite = {
+			focus = SER_royalty_to_Italy
+			}
+		x = 16 
+		y = 4 
+	}
+	
+	focus = {
+		id = SER_crush_the_democrats
+		icon = GFX_unknow
+		cost = 01.00
+		prerequisite = {
+			focus = SER_push_the_Illyrian_propaganda
+			}
+		x = 16
+		y = 6
+		}
+		
+		
+	focus = {
+		id = SER_crush_the_socialist
+		icon = GFX_unknow
+		cost = 01.00
+		prerequisite = {
+			focus = SER_crush_the_democrats 
+			}
+		x = 16 
+		y = 7
+		}
+		
+	focus = {
+		id = SER_put_socialist_in_the_govorment
+		icon = GFX_unknow
+		cost = 02.00
+		prerequisite = {
+			focus = SER_crush_the_democrats
+			}
+		x = 18
+		y = 7
+		mutually_exclusive = {
+			focus = SER_crush_the_socialist
+			}
+		}
 
 }
 	
