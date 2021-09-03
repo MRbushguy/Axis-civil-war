@@ -53,8 +53,8 @@ OKM = {
 	color_ui = rgb { 40 40 40 }
 }
 RKT = {
-	color = rgb { 115 115 115 } 
-	color_ui = rgb { 115 115 115 }
+	color = rgb { 115 57 47 } 
+	color_ui = rgb { 115 57 47 }
 }
 
 ABL = {
