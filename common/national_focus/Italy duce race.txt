@@ -1,0 +1,1135 @@
+focus_tree = {
+	id = ita_duce_race
+
+country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 1 y = 300 }
+
+
+	focus = {
+		id = inform_prominent_members
+
+		x = 25
+		y = 2
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = government_overhul }
+		prerequisite = { focus = return_civilian_life }
+		prerequisite = { focus = become_god_of_death }
+		prerequisite = { focus = learning_how_to_empire }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip =
+		}
+	}
+
+
+	focus = {
+		id = prepare_pnf_elections
+
+		x = 25
+		y = 3
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = inform_prominent_members }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip =
+		}
+	}
+
+	focus = {
+		id = fascism_order #order fascism
+
+		x = 10
+		y = 4
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = prepare_pnf_elections }
+mutually_exclusive = { focus = fascism_pragmatic }
+mutually_exclusive = { focus = italy_before_fascism }
+mutually_exclusive = { focus = fascism_stays_same }
+mutually_exclusive = { focus = back_to_roots_fascism }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip =
+		}
+	}
+
+
+
+focus = {
+		id = pavolini_in_goverment  
+
+		x = 10
+		y = 6
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = fascism_order }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = galbiati_in_ranks  
+
+		x = 8
+		y = 8
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = pavolini_in_goverment }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = barracu_in_citizens  
+
+		x = 12
+		y = 8
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = pavolini_in_goverment }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = smoke_out_germans   
+
+		x = 13
+		y = 10
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = galbiati_in_ranks }
+		prerequisite = { focus = barracu_in_citizens }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = empower_mvsn   
+
+		x = 10
+		y = 10
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = galbiati_in_ranks }
+		prerequisite = { focus = barracu_in_citizens }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = liquidate_communists 
+
+		x = 7
+		y = 10
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = galbiati_in_ranks }
+		prerequisite = { focus = barracu_in_citizens }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = per_l'onore_d'italia
+
+		x = 10
+		y = 12
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = liquidate_communists }
+		prerequisite = { focus = empower_mvsn }
+		prerequisite = { focus = smoke_out_germans }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+		}
+
+
+
+
+
+
+
+	focus = {
+		id = fascism_pragmatic  #pragmatic fascism 
+
+		x = 20
+		y = 4
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = prepare_pnf_elections }
+mutually_exclusive = { focus = fascism_order }
+mutually_exclusive = { focus = italy_before_fascism }
+mutually_exclusive = { focus = fascism_stays_same }
+mutually_exclusive = { focus = back_to_roots_fascism }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip =
+		}
+	}
+
+
+focus = {
+		id = balbo_forward_thinking 
+
+		x = 21
+		y = 6
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = fascism_pragmatic }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ciano_blindness
+
+		x = 19
+		y = 6
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = fascism_pragmatic }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = only_person_to_speak_up
+
+		x = 20
+		y = 8
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = ciano_blindness }
+		prerequisite = { focus = balbo_forward_thinking }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = promise_change
+
+		x = 18
+		y = 10
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = only_person_to_speak_up }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = promise_order
+
+		x = 22
+		y = 10
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = only_person_to_speak_up }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = but_always_loyal_fascism
+
+		x = 20
+		y = 11
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = promise_order }
+		prerequisite = { focus = promise_change }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = credere_obbedire_combattere
+
+		x = 20
+		y = 12
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = but_always_loyal_fascism }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	focus = {
+		id = fascism_stays_same #italian fascism
+
+		x = 28
+		y = 4
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = prepare_pnf_elections }
+mutually_exclusive = { focus = fascism_order }
+mutually_exclusive = { focus = fascism_pragmatic }
+mutually_exclusive = { focus = italy_before_fascism }
+mutually_exclusive = { focus = back_to_roots_fascism }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip =
+		}
+	}
+
+
+
+	focus = {
+		id = why_change
+
+		x = 28
+		y = 6
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = fascism_stays_same }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = we_restored_national_glory
+
+		x = 28
+		y = 7
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = why_change }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = by_coquring_an_empire
+
+		x = 28
+		y = 8
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = we_restored_national_glory }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = with_our_brave_armed_forces
+
+		x = 28
+		y = 9
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = by_coquring_an_empire }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	
+focus = {
+		id = all_because_of_fascism
+
+		x = 28
+		y = 10
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = with_our_brave_armed_forces }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+
+
+
+
+	focus = {
+		id = so_why_change
+
+		x = 28
+		y = 11
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = all_because_of_fascism }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = Eja_eja_alalà
+
+		x = 28
+		y = 12
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = so_why_change }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	focus = {
+		id = back_to_roots_fascism #fiumian fascism
+
+		x = 34
+		y = 4
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = prepare_pnf_elections }
+mutually_exclusive = { focus = fascism_order }
+mutually_exclusive = { focus = fascism_pragmatic }
+mutually_exclusive = { focus = italy_before_fascism }
+mutually_exclusive = { focus = fascism_stays_same }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip =
+		}
+	}
+
+
+focus = {
+		id = d'annunzio_worthy_succesor
+
+		x = 34
+		y = 6
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = back_to_roots_fascism }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	focus = {
+		id = syndicalist_values
+
+		x = 36
+		y = 8
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = d'annunzio_worthy_succesor }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+
+focus = {
+		id = worrior_of_workers
+
+		x = 36
+		y = 10
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = syndicalist_values }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+
+
+
+	focus = {
+		id = flamboyant_person 
+
+		x = 32
+		y = 8
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = d'annunzio_worthy_succesor }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = people's_duce
+
+		x = 32
+		y = 10
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = flamboyant_person }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = rebirth_of_italian_populism
+
+		x = 34
+		y = 11
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = people's_duce }
+		prerequisite = { focus = worrior_of_workers }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = avanti_italia_avanti_fiume
+
+		x = 34
+		y = 12
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = rebirth_of_italian_populism }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	focus = {
+		id = italy_before_fascism #reformist fascism
+
+		x = 40
+		y = 4
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = prepare_pnf_elections }
+mutually_exclusive = { focus = fascism_order }
+mutually_exclusive = { focus = fascism_pragmatic }
+mutually_exclusive = { focus = fascism_stays_same }
+mutually_exclusive = { focus = back_to_roots_fascism }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+
+		completion_reward = {
+			custom_effect_tooltip =
+		}
+	}
+
+focus = {
+		id = fight_conservative_fascists
+
+		x = 38
+		y = 6
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = italy_before_fascism }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = fight_conservative_fascists
+
+		x = 38
+		y = 6
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = italy_before_fascism }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	} 
+
+	focus = {
+		id = fighting_for_common_cause
+
+		x = 38
+		y = 8
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = fight_conservative_fascists }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = expand_welfare_and_education
+
+		x = 40
+		y = 6
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = italy_before_fascism }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = reasons_to_be_proud
+
+		x = 40
+		y = 8
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = expand_welfare_and_education }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = talking_with_natives
+
+		x = 42
+		y = 6
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = italy_before_fascism }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = handshake_over_bloodshed
+
+		x = 42
+		y = 8
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = talking_with_natives }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = giovinezza_di_un_fascismo_rinato
+
+		x = 40 
+		y = 12
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = handshake_over_bloodshed }
+		prerequisite = { focus = fighting_for_common_cause }
+		prerequisite = { focus = reasons_to_be_proud }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+	

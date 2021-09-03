@@ -67,6 +67,7 @@ country_event = {
 
 	option = {
 		name = italystart.4.a
+		load_focus_tree = ita_duce_race
 	}
 }
 
