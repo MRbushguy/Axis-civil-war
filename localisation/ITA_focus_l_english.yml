@@ -11,47 +11,70 @@ ita_duce_race:0 "The Duce race focus tree"
  
  avanti_italia:0 "Avanti Italia !"
  avanti_italia_desc:0 "The sound of people cheering "Avanti Italia!" can be heard throughout the empire. In just 5 years we have conquered an empire from ocean to ocean. Avenged the Vittoria mutilata, and showed the world that Italy is a power to be reckoned of "
+
  adapt_new_era:0 "Adapting to the new era"
- adapt_new_era_desc:0 ""
+ adapt_new_era_desc:0 "With the war won and a new empire established, adaptations are needed to ensure the continued glory of our Nuovo Impero Romano. Internal reconstructions must be completed in order to successfully transition from a wartime economy into a successful imperial system. Il Duce has ordered that these adaptations be done swiftly to ensure no internal strife."
+ 
  consolidate_empire:0 "Consolidating the new territories"
- consolidate_empire_desc:0 "."
+ consolidate_empire_desc:0 "Not everyone in our newly acquired territories is celebrating our new rule, and this fact may be an issue for us going forward if not dealt with succinctly. From Bordeaux to Athens, many resistance movements against our rule that sprung up during the war have continued until today, leading to difficulties in governance and pacification. They must be put down."
+
+
  reinforce_colonies:0 "Reinforce the colonies"
- reinforce_colonies_desc:0 "."
+ reinforce_colonies_desc:0 "A strong colonial presence is one of the main hallmarks of a strong empire, so money and effort must be expended to reinforce our colonies and ensure their stability. A loyal colony is a happy colony."
+ 
  give_arms:0 "Give the colonies arms"
- give_arms_desc:0 ""
+ give_arms_desc:0 "Resistance and nativist movements have sprung up in many of our newly acquired colonies, and the colonial administrations are not equipped to sufficiently deal with them. We must ship arms to the colonies and give the administrative forces proper arms training to ensure that they are well equipped to handle any native resistance that they may encounter."
+ 
  encourage_migration:0 "Encourage migration to the colonies"
- encourage_migration_desc:0 "."
+ encourage_migration_desc:0 "In a large portion of our colonies, Italians are an incredibly small minority. This is a problem. In order to ensure stability and eliminate the desire for independence in our colonies, we must encourage Italian citizens to move to the colonies, promising them a prosperous new life in exchange for their loyalty to the empire."
+
  learning_how_to_empire:0 "Learning how to empire"
- learning_how_to_empire_desc:0 "."
+ learning_how_to_empire_desc:0 "It’s been nearly two millennia since an empire centered around Italy was considered a major global hegemon, and during that period, many Italians have forgotten what it means to truly manage an empire. Now that hegemony has returned, the people of Italy must learn once again what it means to control a global empire, and the very fabric of Italian society may change because of it."
+ 
  homefront:0 "The homefront"
- homefront_desc:0 ""
+ homefront_desc:0 "With Italy’s new found glory in the wake of victory in the war along with her newly expanded colonial empire, many who are caught up in patriotic fervor forget that action still must be taken to secure the peninsula that makes up the heart of the empire. Society must transition out of a wartime economy and focus on rebuilding that which had been damaged during the war."
+ 
  demobalize:0 "Starting to demobalize"
- demobalize_desc:0 "."
+ demobalize_desc:0 "The war saw large amounts of Italian society drawn into mobilization, from a far reaching draft to the use of civilian factories for military purposes, every aspect of Italian society has been touched by the war effort. If we are to ensure the stability of our nation, demobilization must be swiftly completed, and Italians must see a return to normalcy in their everyday lives."
+ 
  keep_war_promise:0 "Encouraging civilian construction"
- keep_war_promise_desc:0 "."
+ keep_war_promise_desc:0 "A large amount of civilian property was damaged during the war due to bombing raids. Now that the war is finished, this property can be rebuilt not only to pre-war standards, but to an even higher standard than before. With our newfound wealth and resources from our territorial expansion, this can be completed in a rather timely manner."
+
  use_colonies_resources:0 "Use resources from the colonies"
- use_colonies_resources_desc:0 "."
+ use_colonies_resources_desc:0 "One of the most lucrative rewards that stems from our conquest of our new colonies is the sheer amount of raw resources that now lie within our jurisdiction. We can use these resources to boost our economy, rebuild after the war, and ensure the wealth of the Italian nation for generations to come."
+
  return_civilian_life:0 "Returning to civilian life"
  return_civilian_life_desc:0 ""
+
  reorg_army:0 "Reorganize the Forze Armate Italiane"
  reorg_army_desc:0 "."
+ 
  lessons_ww2:0 "Lessons from the seconda guerra mondiale"
  lessons_ww2_desc:0 "."
+ 
  more_branches_coop:0 "Increase cooperation between branches"
  more_branches_coop_desc:0 ""
+ 
  new_army_tech:0 "Develop new army technology"
  new_army_tech_desc:0 "."
+
  become_god_of_death:0 "Becoming the god of death"
  become_god_of_death_desc:0 "."
+ 
  reform_gov:0 "Reforming the government"
  reform_gov_desc:0 ""
+
  peacetime_beauro:0 "Returning to peacetime bureaucracy"
  peacetime_beauro_desc:0 "."
+
  crackdown_factions:0 "Crackdown on factionalism"
  crackdown_factions_desc:0 "."
+ 
  listen_factions:0 "listening to the factions"
  listen_factions_desc:0 ""
+ 
  government_overhul:0 "A complete government overhaul ?"
  government_overhul_desc:0 "."
+ 
  fascism_27_birthday:0 "Fascism's 26th birthday"
  fascism_27_birthday_desc:0 "."
