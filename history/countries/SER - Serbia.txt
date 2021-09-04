@@ -181,5 +181,6 @@ create_country_leader = {
 		election_frequency = 36
 		elections_allowed = yes
 	}
+	add_ideas = Part_of_the_Illyria
 }
 
