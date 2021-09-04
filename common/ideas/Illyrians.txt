@@ -1,0 +1,32 @@
+ideas = {
+
+	country = {
+
+
+		Part_of_Illyria = {
+
+
+			allowed = {
+				tag = SER
+				tag = MNT
+				tag = CRO
+				tag = ALB
+				tag = SLV
+			}
+			picture = FRA_scw_intervention_republicans_focus
+			modifier = {
+
+				
+				
+				weekly_manpower = -250
+				
+				
+
+		}
+		}
+ 	
+ 	
+
+
+	}
+}

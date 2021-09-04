@@ -60,4 +60,5 @@ create_field_marshal = {
 
 
 1947.1.1 = {
+ add_ideas = Part_of_the_Illyria
 }
