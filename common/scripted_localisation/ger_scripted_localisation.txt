@@ -204,6 +204,113 @@ defined_text = {
 	}
 }
 
+### gridlocked government
+
+defined_text = {
+
+	name = gerGridlockedGovernmentDisabledIdeas
+	text = {
+		trigger = {
+			check_variable = {GER_gridlocked_government_disabled_ideas = 0}
+		}
+
+		localization_key = ger_depleted_wehrmacht_empty_tt
+	}
+	text = {
+		localization_key = ger_gridlocked_government_disabled_ideas_tt
+	}
+}
+
+defined_text = {
+
+	name = gerGridlockedGovernmentAdvisorCost
+	text = {
+		trigger = {
+			check_variable = {GER_gridlocked_government_advisor_cost = 0}
+		}
+
+		localization_key = ger_depleted_wehrmacht_empty_tt
+	}
+	text = {
+		localization_key = ger_gridlocked_government_advisor_cost_tt
+	}
+}
+
+defined_text = {
+
+	name = gerGridlockedGovernmentPoliticalPower
+	text = {
+		trigger = {
+			check_variable = {GER_gridlocked_government_political_power = 0}
+		}
+
+		localization_key = ger_depleted_wehrmacht_empty_tt
+	}
+	text = {
+		localization_key = ger_gridlocked_government_political_power_tt
+	}
+}
+
+defined_text = {
+
+	name = gerGridlockedGovernmentSurrenderLimit
+	text = {
+		trigger = {
+			check_variable = {GER_gridlocked_government_surrender_limit = 0}
+		}
+
+		localization_key = ger_depleted_wehrmacht_empty_tt
+	}
+	text = {
+		localization_key = ger_gridlocked_government_surrender_limit_tt
+	}
+}
+
+defined_text = {
+
+	name = gerGridlockedGovernmentStabilityOffset
+	text = {
+		trigger = {
+			check_variable = {GER_gridlocked_government_stability_offset = 0}
+		}
+
+		localization_key = ger_depleted_wehrmacht_empty_tt
+	}
+	text = {
+		localization_key = ger_gridlocked_government_stability_offset_tt
+	}
+}
+
+defined_text = {
+
+	name = gerGridlockedGovernmentResistance
+	text = {
+		trigger = {
+			check_variable = {GER_gridlocked_government_resistance = 0}
+		}
+
+		localization_key = ger_depleted_wehrmacht_empty_tt
+	}
+	text = {
+		localization_key = ger_gridlocked_government_resistance_tt
+	}
+}
+
+defined_text = {
+
+	name = gerGridlockedGovernmentCompliance
+	text = {
+		trigger = {
+			check_variable = {GER_gridlocked_government_compliance = 0}
+		}
+
+		localization_key = ger_depleted_wehrmacht_empty_tt
+	}
+	text = {
+		localization_key = ger_gridlocked_government_compliance_tt
+	}
+}
+
 
 ### germany factions stuff ###
 

@@ -1,7 +1,7 @@
 ﻿l_english:
  
  ##start## 
- start.1.t:0 "Welcome to the Axis Civil War mod !"
+ start.1.t:0 "Welcome to the Axis Civil War mod!"
  start.1.d:0 "Welcome\n\nthe team has prepared a special event for you to catch up with the lore and the mechanics of the game"
  start.1.a:0 "Explain to me the lore"
  start.1.b:0 "Tell me about the current situations"
@@ -71,6 +71,10 @@ IOC.3.d:0 "TBA"
 
 
 #Germany
+germany.1.t:0 "Hitler's speech"
+germany.1.d:0 "The crowd waited expectantly as Adolf Hitler shuffled to the stand to give his speech. There were whispers and murmurs among the crowd as the Fuhrer moved slower, less purposefully than he had used to, but these whispers were soon quelled as he began to speak. As he spoke of a new, free Germany, his voice had all the hallmarks of his famous energy and vigor. But there were those in the crowd that saw different. Saw the occasional mistakes, the slip-ups, the physical toll that just a speech was taking on the man. These watchers knew, as the Fuhrer said, that a new Germany was arising. But as to who would lead this new empire - only time would tell."
+germany.1.a:0 "Twilight on the old world."
+GER_hitlers_speech_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §R-25§! Influence"
 
 germany_flavor.1.t:0 "The Leibstandarte"
 germany_flavor.1.d:0 "The ultimate representation of the massive empowerment the Waffen-SS received in the final days of fighting in operation Barbarossa. The 1st SS Panzer Division, nicknamed "Leibstandarte SS Adolf Hitler" is a true force to be reckoned with. \n\nManned with over 50 thousand soldiers, all of which are hardened veterans from the most eastern offensives of operation Barbarossa. Fighting in hellish conditions 2.8 thousand Kilometers away from berlin, fighting in Arkhangelsk, Gorky, Penza, and even reaching Kazan before the undeclared truce went into effect. \n\nAnd not only the men are of exceptionally high quality, all the divisions of the Waffen-SS, and especially the 1st SS Panzer Division, have received some of the highest tech and quality equipment available. As the Waffen-SS steadily became a higher priority than the Wehrmacht. And currently the soldiers of the LSSAH are marching with cleaned and well inspected StG 44 Assault rifles. And with modern E-50 Tanks and Sd.Kfz. 251 type APCs with them. All in the hands of some of the most skilled and battle-hardened soldiers of the entire großgermanisches Reich. \n\nBut what was certainly a surprise for many officials is how much this sudden ascension of relevance has also affected the political scene. Because while the Waffen-SS was de-fact part of the larger Schutzstaffel, the string of empowerments has made the Waffen-SS pretty much independent from the Schutzstaffel. And many politicians are trying to sway the loyalty of the Waffen-SS to their side. And the Waffen-SS suddenly became a sort of a "trump card" \nBut the one person who benefited the most from this situation is Josef "Sepp" Dietrich, the commander of the division. An already experienced politician, a black sheep in the eyes of many NSDAP members, Sepp Dietrich was able to play with alliances and promises to rapidly rise in prominence and be a real contender in the future."

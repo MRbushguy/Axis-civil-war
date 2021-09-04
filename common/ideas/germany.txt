@@ -430,6 +430,20 @@ ideas = {
 			}
 		}
 
+		GER_gridlocked_government = {
+			#picture = blitz_dep
+
+			allowed = {
+				original_tag = GER
+			}
+
+			modifier = {
+				#dummy
+
+			}
+
+		}
+
 
 		GER_construction_project = {
 			picture = generic_fortify_the_borders

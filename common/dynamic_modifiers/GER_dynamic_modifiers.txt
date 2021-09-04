@@ -113,3 +113,14 @@ GER_blitzkrieg_dependence_dynamic_modifier = {
 	army_defence_factor = GER_blitzkrieg_dependence_defense
 	experience_loss_factor = GER_blitzkrieg_dependence_experience
 }
+
+GER_gridlocked_government_dynamic_modifier = {
+	disabled_ideas = GER_gridlocked_government_disabled_ideas
+	political_advisor_cost_factor = GER_gridlocked_government_advisor_cost
+	political_power_factor = GER_gridlocked_government_political_power
+	max_surrender_limit_offset = GER_gridlocked_government_surrender_limit
+	party_popularity_stability_factor =  GER_gridlocked_government_stability_offset
+	resistance_growth = GER_gridlocked_government_resistance
+	compliance_growth = GER_gridlocked_government_compliance
+
+}
