@@ -9,8 +9,7 @@ add_ideas = {
 	victor_emmanuel
 	smol_victory
 	Modern_roman_army
-	sea_domination
-	strong_air_force
+	sea_and_air_domination
 	limited_exports
 	limited_conscription
 	war_economy
