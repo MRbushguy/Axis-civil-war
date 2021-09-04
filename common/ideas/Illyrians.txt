@@ -3,198 +3,30 @@ ideas = {
 	country = {
 
 
-		BUL_macidonian_opposition = {
+		Part_of_Illyria = {
 
 
 			allowed = {
-				original_tag = BUL
+				tag = SER
+				tag = MNT
+				tag = CRO
+				tag = ALB
+				tag = SLV
 			}
 			picture = FRA_scw_intervention_republicans_focus
 			modifier = {
 
 				
-				stability_factor = -0.15
+				
 				weekly_manpower = -250
-				no_compliance_gain = 1
+				
 				
 
 		}
 		}
  	
- 	BUL_italian_military_cooperations = {
+ 	
 
 
-			allowed = {
-				original_tag = BUL
-			}
-			picture = FRA_scw_intervention_republicans_focus
-			modifier = {
-
-				
-					
-army_attack_factor = 0.05
-army_defence_factor = 0.05
-				
-
-		}
-		}
- 
- BUL_german_influence = {
-
-
-			picture = german_advisors
-			modifier = {
-
-				
-				
-				political_power_gain = -0.1
-				national_socialism_acceptance = 200
-
-		}
-
-}
-	BUL_over_militrized_industry = {
-
-
-			picture = bul_military
-			modifier = {
-
-				
-				repair_speed_industrial_complex_factor = .05
-				
-
-		}
-
-}
-BUL_tsar_executed = {
-
-
-			allowed = {
-				original_tag = BUL
-			}
-			picture = FRA_scw_intervention_republicans_focus
-			modifier = {
-
-				
-				stability_factor = -0.15
-				war_support_factor = -0.15
-				
-
-		}
-		}
-
-	BUL_tsar_puppeted = {
-
-
-			allowed = {
-				original_tag = BUL
-			}
-			picture = FRA_scw_intervention_republicans_focus
-			modifier = {
-
-				
-				stability_factor = 0.15
-				war_support_factor = -0.15
-				
-				
-
-		}
-		}
-
-	BUL_foregin_investments = {
-
-
-			allowed = {
-				original_tag = BUL
-			}
-			picture = ger_mefo_bills
-			modifier = {
-
-				
-					
-				consumer_goods_factor = -0.1
-				industrial_capacity_factory = 0.10
-				
-				
-
-		}
-		}	
-		BUL_Corporatism = {
-
-
-			allowed = {
-				original_tag = BUL
-			}
-			picture = bul_national_industry
-			modifier = {
-
-				
-				consumer_goods_factor = -0.1
-				
-				
-
-		}
-		}
-
-			
-			BUL_women_in_factories = {
-
-
-			allowed = {
-				original_tag = BUL
-			}
-			picture = generic_production_bonus
-			modifier = {
-
-				
-				industrial_capacity_factory = 0.15
-				
-				
-
-		}
-		}
-
-BUL_industrial_utopia = {
-
-
-			allowed = {
-				original_tag = BUL
-			}
-			picture = idea_man_five_year_plan_industry
-			modifier = {
-
-				
-				industrial_capacity_factory = 0.15
-				consumer_goods_factor = -0.15
-				production_speed_buildings_factor = 0.15 
-				line_change_production_efficiency_factor = 0.15
-				industrial_capacity_dockyard = 0.15	
-
-		}
-		}
-
-		BUL_anti_fascist_revolution = {
-
-
-			allowed = {
-				original_tag = BUL
-			}
-			picture = spr_anti_fascist_crusade
-			modifier = {
-
-				
-				justify_war_goal_time = -0.45
-				
-				
-				
-				offence = 0.5
-
-
-
-		}
-		}
-}
-
-
-
+	}
 }
