@@ -1058,6 +1058,104 @@ focus_tree = {
 			focus = SER_crush_the_socialist
 			}
 		}
+	focus = {
+		id = SER_open_the_Torlak
+		icon = GFX_unknow
+		cost = 05.00
+		prerequisite = {
+			focus = SER_put_socialist_in_the_govorment
+			focus = SER_crush_the_socialist
+			}
+		x = 12
+		y = 7
+		}
+	
+	focus = {
+		id = SER_clean_the_Banat
+		icon = GFX_unknow
+		cost = 05.00
+		prerequisite = {
+			focus = SER_open_the_Torlak
+			}
+		x = 12
+		y = 8
+		}
+	focus = { 
+		id = SER_mobilise_panters
+		icon = GFX_unknow
+		cost = 05.00
+		prerequisite = {
+			focus = SER_open_the_Torlak
+			}
+		x = 14
+		y = 8 
+		}
+	focus = {
+		id = SER_purpose_split_of_albania
+		icon = GFX_unknow
+		cost = 05.00
+		prerequisite = {
+			focus = SER_clean_the_Banat
+			}
+		prerequisite = {
+			focus = SER_mobilise_panters
+			}
+			
+		x = 13
+		y = 9
+		}
+	focus = {
+		id = SER_make_connections_with_ITA_stronger
+		icon = GFX_unknow
+		cost = 05.00
+		prerequisite = {
+			focus = SER_purpose_split_of_albania
+			}
+		x = 14
+		y = 10
+		}
+	focus = {
+		id = SER_take_Banat_peceaufully
+		icon = GFX_unknow
+		cost = 05.00
+		prerequisite = {
+			focus = SER_make_connections_with_ITA_stronger
+			}
+		x = 12 
+		y = 11
+		mutually_exclusive = {
+			focus = SER_ask_ITA_for_Banat
+			focus = SER_take_Banat_by_force
+			}
+		}
+	focus = {
+		id = SER_ask_ITA_for_Banat
+		icon = GFX_unknow
+		cost = 05.00
+		prerequisite = {
+			focus = SER_make_connections_with_ITA_stronger
+			}
+		x = 14
+		y = 11
+		mutually_exclusive = {
+			focus = SER_take_Banat_peceaufully
+			focus = SER_take_Banat_by_force
+			}
+			}
+	focus = {
+		id = SER_take_Banat_by_force
+		icon = GFX_unknow
+		cost = 05.00
+		prerequisite = {
+			focus = SER_make_connections_with_ITA_stronger
+			}
+		x = 16
+		y = 11
+		mutually_exclusive = {
+			focus = SER_take_Banat_peceaufully
+			focus = SER_ask_ITA_for_Banat 
+			}
+		
 
 }
 	
