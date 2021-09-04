@@ -27,10 +27,6 @@ country = {
 		}
 
 		cost = 5
-		prerequisite = { focus = government_overhul }
-		prerequisite = { focus = return_civilian_life }
-		prerequisite = { focus = become_god_of_death }
-		prerequisite = { focus = learning_how_to_empire }
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
