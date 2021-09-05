@@ -1041,6 +1041,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SER_crush_the_democrats 
 			}
+		mutually_exclusive = {
+			focus = SER_put_socialist_in_the_govorment
+			}
 		x = 16 
 		y = 7
 		}
@@ -1052,7 +1055,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SER_crush_the_democrats
 			}
-		x = 18
+		x = 12
 		y = 7
 		mutually_exclusive = {
 			focus = SER_crush_the_socialist
@@ -1155,7 +1158,70 @@ focus_tree = {
 			focus = SER_take_Banat_peceaufully
 			focus = SER_ask_ITA_for_Banat 
 			}
-		
+	
+	focus = {
+		id = SER_Montenegrin_question
+		icon = GFX_unknow
+		cost = 07.00
+		prerequisite = {
+			focus = SER_true_Illyria
+			}
+		x = 18
+		y = 2
+		}
+	focus = {
+		id = SER_idea_of_Illyrian_unification
+		icon = GFX_unknow
+		cost = 07.00
+		prerequisite = {
+			focus = SER_Montenegrin_question
+			}
+		x = 18
+		y = 3
+		}
+	focus = { 
+		id = SER_zmaj_glory
+		icon = GFX_unknow 
+		cost = 05.00
+		prerequisite = {
+			focus = SER_idea_of_Illyrian_unification
+			}
+		x = 20
+		y = 4
+		}
+	focus = {
+		id = SER_speak_about_Illyrian_idea
+		icon = GFX_unknow
+		cost = 05.00
+		prerequisite = {
+			focus = SER_idea_of_Illyrian_unification
+			}
+		x = 18
+		y = 4 
+		}
+	focus = {
+		id = SER_leader_of_all_Illyrians
+		icon = GFX_unknow
+		cost = 05.00
+		prerequisite = {
+			focus = SER_speak_about_Illyrian_idea
+			}
+		prerequisite = {
+			focus = SER_zmaj_glory
+			}
+		x = 18
+		y = 5
+		}
+	focus = {
+		id = SER_Illyrian_unification
+		icon = GFX_unknow
+		cost = 15.00
+		prerequisite = {
+			focus = SER_leader_of_all_Illyrians
+			}
+		x = 18
+		y = 5
+		}
 
 }
 	
