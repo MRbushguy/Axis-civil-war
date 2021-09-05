@@ -23,19 +23,6 @@ bookmarks = {
 				USA_selective_training_act
 			}
 		}
-		"SPR"={
-			history = "SPAIN_BLITZKRIEG_DESC"
-			ideology = fascism
-			ideas = {
-				SPA_carlism_4
-				SPA_recovering_from_civil_war
-			}
-			focuses = {
-				SPA_expand_the_axis_gold_trade
-				SPA_the_spanish_miracle
-				SPA_retake_gibraltar
-			}
-		}
 		JAP = {
 			history = JAP_BLITZKRIEG_DESC
 			ideology = fascism
@@ -145,6 +132,10 @@ bookmarks = {
 			focuses = {
 				
 			}
+		}
+
+		"---" = {
+			
 		}
 
 		effect = {
