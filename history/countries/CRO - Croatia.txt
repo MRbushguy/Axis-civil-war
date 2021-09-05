@@ -127,5 +127,8 @@ create_country_leader = {
 }
 
 1947.1.1 = {
-add_ideas = Part_of_the_Illyria
+
+	add_ideas = {
+		Part_of_Illyria
+	}
 }
