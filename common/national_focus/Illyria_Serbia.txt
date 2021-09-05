@@ -22,6 +22,7 @@ focus_tree = {
 				}
 					completion_reward = {
 			add_political_power = 250
+			country_event = illyria.1
 
 }
 				
