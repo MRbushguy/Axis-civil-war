@@ -37,18 +37,16 @@ bookmarks = {
 				JAP_strike_on_the_southern_resource_area
 			}
 		}
-		GER = {
-			history = GER_BLITZKRIEG_DESC
-			ideology = national_socialism
+		SOV = {
+			history = SOV_BLITZKRIEG_DESC
+			ideology = communism
 			ideas = {
-				GER_german_depression_1
-				GER_plunder_economy_1
-				GER_jewish_science
+				shat_army
+				no_economy
+				collapsed_soc
 			}
 			focuses = {
-				GER_cancel_tripartite
-				GER_the_final_showdown
-				GER_the_unspoken_war
+				SOV_shattered_union
 			}
 		}
 		ITA = {
@@ -64,16 +62,18 @@ bookmarks = {
 				ITA_italy_first
 			}
 		}
-		SOV = {
-			history = SOV_BLITZKRIEG_DESC
-			ideology = communism
+		GER = {
+			history = GER_BLITZKRIEG_DESC
+			ideology = national_socialism
 			ideas = {
-				shat_army
-				no_economy
-				collapsed_soc
+				GER_german_depression_1
+				GER_plunder_economy_1
+				GER_jewish_science
 			}
 			focuses = {
-				SOV_shattered_union
+				GER_cancel_tripartite
+				GER_the_final_showdown
+				GER_the_unspoken_war
 			}
 		}
 		"CHI"={
