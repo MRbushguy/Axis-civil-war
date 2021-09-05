@@ -98,7 +98,7 @@ country_event = {
 		}
 		
 country_event = {
-	id = illyia.2
+	id = illyia.2	
 	title = illyria.2.t 
 	desc = illyria.1.d 
 	
@@ -113,6 +113,7 @@ country_event = {
 		}
 		tag = BOS {
 			set_state_owner = 837
+		}
 		}
 		}
 		
@@ -140,4 +141,4 @@ country_event = {
 		factor = 10
 		}
 		}
-		
+		}
