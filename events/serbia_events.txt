@@ -74,6 +74,7 @@ country_event = {
 		add_stability = 0.5
 		}
 		}
+		
 add_namespace = illyria
 		
 country_event = {
