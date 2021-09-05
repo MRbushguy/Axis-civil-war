@@ -40,6 +40,8 @@ set_popularities = {
 		election_frequency = 36
 		elections_allowed = no
 	}
-	add_ideas = Part_of_the_Illyria
+	add_ideas = {
+		Part_of_Illyria
+	}
 }
 
