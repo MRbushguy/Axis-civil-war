@@ -1158,6 +1158,7 @@ focus_tree = {
 			focus = SER_take_Banat_peceaufully
 			focus = SER_ask_ITA_for_Banat 
 			}
+		}
 	
 	focus = {
 		id = SER_Montenegrin_question
