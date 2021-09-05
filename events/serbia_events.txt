@@ -74,4 +74,70 @@ country_event = {
 		add_stability = 0.5
 		}
 		}
+add_namespace = illyria
+		
+country_event = {
+	id = illyria.1
+	title = illyria.1.t
+	desc = illyria.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = illyria.1.a
+		ai_chance = {
+		factor = 100}
+		add_war_support = 0.5
+			country_event = {
+		id = illyria.2
+		days = 10
+		
+		
+	}
+		}
+		}
+		
+country_event = {
+	id = illyia.2
+	title = illyria.2.t 
+	desc = illyria.1.d 
+	
+	is_triggered_only = yes 
+	
+	option = {
+		name = illyira.2.a 
+		ai_chance = {
+		factor = 100 }
+			country_event = {
+		id = illyria.3
+		}
+		tag = BOS {
+			set_state_owner = 837
+		}
+		}
+		
+country_event = {
+	id = illyria.3
+	title = illyria.3.t 
+	desc = illyria.3.d 
+	
+	is_triggered_only = yes 
+	
+	option = {
+		name = illyria.3.a 
+		ai_chance = {
+		factor = 90 
+		}
+			declare_war_on = {
+		target = BOS
+		type = annex_everything
+	}
+	}
+	
+	 option = {
+		name = illyria.3.b 
+		ai_chance = {
+		factor = 10
+		}
+		}
 		
