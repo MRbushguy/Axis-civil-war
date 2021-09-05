@@ -17,10 +17,7 @@ country_event = {	#ww2
 	hidden = yes
 
 	trigger = {
-		OR = {
-			GER = { has_offensive_war_with = ENG }
-			GER = { has_offensive_war_with = FRA }
-		}
+			GER = { has_offensive_war_with = ITA }
 	}
 
 	option = {

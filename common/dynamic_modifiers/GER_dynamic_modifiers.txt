@@ -1,3 +1,4 @@
+@@ -1,126 +0,0 @@
 #	Example:
 # 
 #	example_dynamic_modifier = {

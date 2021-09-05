@@ -1,3 +1,4 @@
+@@ -1,269 +0,0 @@
 #	Example:
 # 
 #	example_dynamic_modifier = {
@@ -265,5 +266,3 @@ BUL_our_duty_in_the_balkans_dynamic_modifier = { #Used as National Spirit
 	stability_factor = BUL_our_duty_in_the_balkans_stability_modifier
 	weekly_manpower = 1000
 }
-
-

@@ -54,7 +54,7 @@ guiTypes = {
 		buttonType = {
 			name = "sp_event_close_button"
 			spriteType = "GFX_sp_event_close_button"
-			position = { x = 125 y = 475 }
+			position = { x = 127 y = 469 }
 			clicksound = click_close
 			buttonText = "[get_superevent_remark]"
 			buttonFont = "hoi_20b"
