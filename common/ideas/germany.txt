@@ -430,7 +430,22 @@ ideas = {
 			}
 		}
 
-		GER_gridlocked_government = {
+		GER_gridlocked_government_0 = {
+			#picture = blitz_dep
+
+			allowed = {
+				original_tag = GER
+			}
+
+			modifier = {
+				disabled_ideas = 1
+				#dummy
+
+			}
+
+		}
+
+		GER_gridlocked_government_1 = {
 			#picture = blitz_dep
 
 			allowed = {

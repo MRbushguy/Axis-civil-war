@@ -1426,7 +1426,17 @@ focus_tree = {
 		relative_position_id = GER_nazi_annual_congress
 
 		completion_reward = {
-			#attempts to address the rampant "despair" in germany
+
+			custom_effect_tooltip = GER_social_situation_completion_tt
+
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = GER_gridlocked_government_0
+					add_idea = GER_gridlocked_government_1
+				}
+			}
+
+			
 
 		}
 

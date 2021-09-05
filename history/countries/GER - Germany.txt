@@ -1103,7 +1103,7 @@ create_equipment_variant = {
 		GER_ongoing_holocaust
 		GER_plunder_economy_1
 		GER_blitzkrieg_dependence
-		GER_gridlocked_government
+		GER_gridlocked_government_0
 		GER_german_depression_1
 		GER_jewish_science
 		GER_faction_negative_influence
