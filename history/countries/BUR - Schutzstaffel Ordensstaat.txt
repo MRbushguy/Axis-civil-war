@@ -20,11 +20,11 @@ set_convoys = 20
 		fascism = 5
 	}
 	create_country_leader = {
-		name = "Heinrich Himmler"
+		name = "Reinhard Heydrich"
 		desc = ""
-		picture = ""
+		picture = "Reinhard Heydrich.dds"
 		expire = "1965.1.1"
-		ideology = esoteric_nazism
+		ideology = final_nazism
 		traits = {
 			dictator
 		}

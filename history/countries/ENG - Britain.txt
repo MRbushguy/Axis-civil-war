@@ -1593,20 +1593,23 @@ if = {
 	}
 }
 
-set_politics = {
-	ruling_party = democratic_right
-	last_election = "1945.06.05"
-	election_frequency = 60
-	elections_allowed = yes ##suspended through duration of war, which is handled via event
-}
-set_popularities = {
-	democratic_right = 55
-	democratic_left = 20
-	fascism = 25
-}
+
 
 1947.1.1 = {
 	oob = ENG_1947
+
+	set_politics = {
+		ruling_party = democratic_right
+		last_election = "1945.06.05"
+		election_frequency = 60
+		elections_allowed = yes ##suspended through duration of war, which is handled via event
+	}
+
+	set_popularities = {
+		democratic_right = 55
+		democratic_left = 20
+		fascism = 25
+	}
 
 	add_ideas = {
 		ENG_broken_nation
@@ -1615,5 +1618,34 @@ set_popularities = {
 
 		#laws
 		civilian_economy
+	}
+
+	create_country_leader = {
+		name = "Edward Wood, 1st Earl of Halifax"
+		desc = ""
+		picture = "Edward Wood.dds"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = {
+		}
+	}
+
+		create_country_leader = {
+		name = "Clement Attlee"
+		desc = ""
+		picture = "Clement Attlee.dds"
+		expire = "1965.1.1"
+		ideology = democratic_left
+		traits = {
+		}
+	}
+		create_country_leader = {
+		name = "Enoch Powell"
+		desc = ""
+		picture = "Enoch Powell.dds"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = {
+		}
 	}
 }

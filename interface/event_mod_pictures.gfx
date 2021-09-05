@@ -63,6 +63,9 @@ spriteTypes = {
 
 	}
 
-
+	spriteType = {
+		name = "GFX_report_event_polar_bear_hunting"
+		texturefile = "gfx/event_pictures/polar_bear_hunting.dds"
+	}
 
 }
