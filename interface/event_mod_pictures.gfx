@@ -6,6 +6,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_report_event_empty"
+		texturefile = "gfx/event_pictures/empty"
+	}
+
+	spriteType = {
 		name = "GFX_report_event_VF_tilted"
 		texturefile = "gfx/event_pictures/VF_tilted.dds"
 	}
