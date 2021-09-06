@@ -6,7 +6,9 @@ GER_nazi_annual_congress:0 "The German Annual Congress"
 GER_nazi_annual_congress_desc:0 "In this year of the German Reich's ascendency, 1947, Germany stands at the peak of its power. An annual congress has been planned to address the final flaws in our great nation. Adolf Hitler himself will give a speech decrying the last vestiges of the old order to be swept away."
 GER_address_the_military:0 "Address the Military"
 GER_address_the_military_desc:0 "The German military is in a strange position. First and foremost, the running of the country's defense forces is now divided up, as the originial Wehrmacht and the rising Waffen-SS compete for dominance. In addition, many in the military are unsure of what path to take, be it conquest, or a simple defensive strategy. Regardless, the development of Italian weapons technology shows that the Army has to compromise on values that it once held so dear if it hopes to survive."
-GER_social_situation_completion_tt:0 "Modify §YGridlocked Government§! by \n Cannot assign ministers and laws: §G Yes §!"
+GER_social_situation:0 "Internal Affairs"
+GER_social_situation_desc:0 "Beneath a veneer of unity, high-ranking german officials are engaged in brutal wars of influence, paralyzing our ability to govern. This practice must come to an end, for the good of the nation."
+GER_social_situation_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §R-10§! Influence \n£decision_faction_ger_ss_small §YS.S. §!: §R-10§! Influence \n\nModify §YGridlocked Government§! by \n Cannot assign ministers and laws: §G Yes §! "
   #left branch
 GER_exploit_the_east:0 "Exploit the colonies"
   #wehrmacht branch
@@ -62,7 +64,6 @@ GER_famine_tt:0 "The famine has begun"
 GER_ukraine_general_completion_tt:0 "Unlocks decisions: £decision_icon_small §YRetool food supply lines§!"
 
 
-GER_refnaz_and_wehrmacht_completion_tt:0 "£decision_faction_ger_reform_small §YNSDAP §!: §G+10§! Influence \n£decision_faction_ger_wehr_small §YWehrmacht §!: §R-10§! Influence"
 
 #refnaz branch
 GER_refnaz_reforms:0 "Economic Reforms"
@@ -75,11 +76,17 @@ GER_refnaz_involvement_desc:0 "The situation in Ukraine was what Reformists in t
 GER_ukraine_reform_completion_tt:0 "Unlocks decisions: £decision_icon_small §YAddress the Ukranian Economy§!"
 GER_refnaz_and_wehrmacht:0 "Reformists and the Wehrmacht"
 GER_refnaz_and_wehrmacht_desc:0 "Work on it"
-GER_refnaz_and_wehrmacht_completion_tt:0 "£decision_faction_ger_reform_small §YNSDAP §!: §G+10§! Influence \n£decision_faction_ger_wehr_small §YWehrmacht §!: §R-10§! Influence"
+GER_refnaz_and_wehrmacht_completion_tt:0 "£decision_faction_ger_reform_small §YReformists §!: §G+10§! Influence \n£decision_faction_ger_wehr_small §YWehrmacht §!: §R-10§! Influence"
 
 GER_dismantle_mils_tt:0 "§YRemoves ten military factories in German core territory.§!"
 
-GER_rebuild_NSDAP_desc:0 "£decision_icon_small big pp £decision_faction_ger_nsdap_small"
+
+
+###NSDAP Brach
+GER_rebuild_NSDAP:0 "Rebuild the NSDAP"
+GER_rebuild_NSDAP_desc:0 "With the decline of Hitler's involvement in German affairs, party officials have been sidelined by military officers, and worse, agents of Himmler and the SS. We must reverse this trend by involving the party more in government."
+GER_rebuild_NSDAP_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §G+5§! Influence \n\nModify §YGridlocked Government§! by: \nPolitical Advisor Cost Factor: §G-5%§!\nPolitical Power Gain: §G+5%§!"
+
 
 
 

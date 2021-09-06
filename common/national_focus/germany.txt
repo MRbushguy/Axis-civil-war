@@ -1423,11 +1423,17 @@ focus_tree = {
 
 		x = 0
 		y = 1
+
+		cost = 4
+
 		relative_position_id = GER_nazi_annual_congress
 
 		completion_reward = {
 
 			custom_effect_tooltip = GER_social_situation_completion_tt
+
+			add_to_variable = {GER_NSDAP_influence = -10}
+			add_to_variable = {GER_SS_influence = -10}
 
 			hidden_effect = {
 				swap_ideas = {
@@ -1457,10 +1463,17 @@ focus_tree = {
 
 		x = -5
 		y = 1
+
+		cost = 3
 		relative_position_id = GER_social_situation
 
 		completion_reward = {
-			#hitlers fucking dead, get better leaders lmao
+			
+			custom_effect_tooltip = GER_rebuild_NSDAP_completion_tt
+
+			add_to_variable = {GER_NSDAP_influence = -5}
+			add_to_variable = {GER_gridlocked_government_advisor_cost = -0.05}
+			add_to_variable = {GER_gridlocked_government_political_power = 0.05}
 
 		}
 

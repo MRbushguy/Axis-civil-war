@@ -214,7 +214,7 @@ set_variable = {GER_gridlocked_government_disabled_ideas = 1}
 set_variable = {GER_gridlocked_government_advisor_cost = 0.5}	
 set_variable = {GER_gridlocked_government_political_power = -0.5}
 set_variable = {GER_gridlocked_government_surrender_limit = -0.5}
-set_variable = {GER_gridlocked_government_sability_offset = -0.3}
+set_variable = {GER_gridlocked_government_stability_offset = -0.3}
 set_variable = {GER_gridlocked_government_resistance = 0.05}
 set_variable = {GER_gridlocked_government_compliance = -0.05}
 
@@ -1106,7 +1106,6 @@ create_equipment_variant = {
 		GER_gridlocked_government_0
 		GER_german_depression_1
 		GER_jewish_science
-		GER_faction_negative_influence
 
 		#laws
 		war_economy
