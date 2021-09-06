@@ -38,6 +38,13 @@ add_ideas = {
 }
 
 
+
+####VARIABLES######
+
+set_variable = {ITA_industry_value = 90}
+
+
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

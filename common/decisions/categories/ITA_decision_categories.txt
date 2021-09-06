@@ -19,6 +19,7 @@ ITA_debug = {
 	}
 }
 
+<<<<<<< HEAD
 
 ITA_home_development = {
 
@@ -26,6 +27,18 @@ ITA_home_development = {
 
 	icon = generic_fascism
 
+=======
+ITA_industry_agriculture = {
+
+	priority = 9
+
+	icon = generic_fascism
+
+	scripted_gui = ita_industry_agriculture_decision_ui
+
+	visible_when_empty = yes
+
+>>>>>>> cad2838e18509784ba5db096d459489ae65cf3b6
 	visible = {
 		original_tag = ITA
 	}
@@ -34,4 +47,8 @@ ITA_home_development = {
 		original_tag = ITA
 
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> cad2838e18509784ba5db096d459489ae65cf3b6
 }
