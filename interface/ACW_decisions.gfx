@@ -1,4 +1,24 @@
 spriteTypes = {
+	
+
+
+	#### italy progress bar
+
+	progressbartype = {
+		name = "GFX_industry_progressbar_long"
+		color = { 2 235 2}
+		colortwo = { 2 235 2}
+		textureFile1 = "gfx/interface/decisions/interior_bar.dds"
+		textureFile2 = "gfx/interface/decisions/exterior_bar.dds"
+		size = { x = 186 y = 32}
+		#effectFile = "gfx/FX/progress.lua"
+	}
+
+	spriteType = {
+		name = "GFX_industry_test"
+		texturefile = "gfx/interface/decisions/interior_bar.dds"
+	}
+
 
 	### categories
 

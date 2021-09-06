@@ -18,7 +18,13 @@ guiTypes = {
 				frame = 50
 				scale = 1
 				
-			}
+		}
+
+		iconType = {
+			name = "test_industry_bar"
+			spriteType = "GFX_industry_test"
+			position = { x = 10 y = 60 }
+		}
 
 		
 
