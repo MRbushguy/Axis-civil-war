@@ -245,9 +245,30 @@ ITA_industry_agriculture = {
 			add_to_variable = {ITA_industry_value = 5}
 		}
 	}
+
+	ITA_decrease_industry = {
+
+		allowed = {
+			tag = ITA
+		}
+
+		available = {
+
+		}
+
+		cost = 1
+
+		days_remove = 0
+
+		complete_effect = {
+			add_to_variable = {ITA_industry_value = -5}
+		}
+
 	}
 
 	ITA_home_development = {
+
+	}
 
 	ITA_start_hunting_mafia = {
 
@@ -270,37 +291,9 @@ ITA_industry_agriculture = {
 		add_stability = 0.05
 
 		}
-
-
-		ITA_start_finishing_mafia = {
-
-		icon = generic_civil_support
-
-
 	}
 
-	ITA_decrease_industry = {
-
-		allowed = {
-			tag = ITA
-		}
-
-		available = {
-
-		}
-
-		cost = 1
-
-		days_remove = 0
-
-		complete_effect = {
-
-
-		add_stability = 0.05
-
-		}
-
-		ITA_start_finishing_mafia = {
+	ITA_start_finishing_mafia = {
 
 		icon = generic_civil_support
 
@@ -318,24 +311,9 @@ ITA_industry_agriculture = {
 
 		complete_effect = {
 
-		add_stability = 0.05
+			add_stability = 0.05
 
 		}
-
-
-
-
-
-
-
-
-
-
-	
 	}
-			add_to_variable = {ITA_industry_value = -5}
-		}
 
-
-	}
 }

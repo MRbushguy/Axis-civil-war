@@ -1,5 +1,1 @@
-ai_historical_focus_list_GER = {
-	ai_national_focuses = {
-
-	}
-}
+#for later and to clear error log
