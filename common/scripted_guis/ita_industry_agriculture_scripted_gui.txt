@@ -3,6 +3,12 @@ scripted_gui = {
 	ita_industry_agriculture_decision_ui = {
 		context_type = decision_category
 		window_name = "ita_industry_agriculture_decision_ui_window"
+
+		properties = {
+			ITA_industry_progress = {
+				frame = ITA_industry_value
+			}
+		}
 	}
 
 }
