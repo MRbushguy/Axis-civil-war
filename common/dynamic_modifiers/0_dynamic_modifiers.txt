@@ -372,13 +372,14 @@ GER_gridlocked_government_dynamic_modifier = {
 
 
 ITA_mafia = {
+
 	enable = { always = yes }
 
-	icon = modifiers_conscription_exemptions_granted
-
+	icon = GFX_modifiers_tur_kurdish_separatism
 
 	production_speed_buildings_factor = -0.2
 	local_building_slots_factor = -0.5
 
+	}
 
-}
+
