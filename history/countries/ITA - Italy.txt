@@ -33,7 +33,7 @@ add_ideas = {
 115 = {
 	add_dynamic_modifier = { modifier = ITA_mafia }
 
-	set_state_flag = ITA_has_low_resistance
+	#set_state_flag = ITA_has_low_resistance
 }
 
 1947.1.1 = {

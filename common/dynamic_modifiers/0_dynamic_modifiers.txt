@@ -370,6 +370,7 @@ GER_gridlocked_government_dynamic_modifier = {
 	resistance_growth = GER_gridlocked_government_resistance
 	compliance_growth = GER_gridlocked_government_compliance
 
+}
 
 ITA_mafia = {
 
@@ -377,9 +378,11 @@ ITA_mafia = {
 
 	icon = GFX_modifiers_tur_kurdish_separatism
 
-	production_speed_buildings_factor = -0.2
+	state_production_speed_buildings_factor = -0.2
 	local_building_slots_factor = -0.5
 
-	}
+}
+
+
 
 
