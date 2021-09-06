@@ -18,3 +18,24 @@ ITA_debug = {
 
 	}
 }
+
+ITA_industry_agriculture = {
+
+	priority = 9
+
+	icon = generic_fascism
+
+	scripted_gui = ita_industry_agriculture_decision_ui
+
+	visible_when_empty = yes
+
+	visible = {
+		original_tag = ITA
+	}
+
+	allowed = {
+		original_tag = ITA
+
+	}
+
+}
