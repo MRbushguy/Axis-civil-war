@@ -333,11 +333,9 @@ ITA_industry_agriculture = {
 
 	
 	}
-=======
 			add_to_variable = {ITA_industry_value = -5}
 		}
 
 
 	}
 }
->>>>>>> cad2838e18509784ba5db096d459489ae65cf3b6
