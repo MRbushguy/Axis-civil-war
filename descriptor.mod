@@ -4,9 +4,9 @@ tags={
 }
 name="Axis civil war"
 replace_path="gfx/loadingscreens"
-replace_path = "common/ideas" 
-replace_path = "common/decisions" 
-replace_path = "common/national_focus"
-replace_path = "events"
+replace_path="common/decisions"
+replace_path="common/national_focus"
+replace_path="events"
 replace_path="common/ai_strategy"
+replace_path="common/ai_focuses"
 supported_version="1.10.*"
