@@ -19,6 +19,27 @@ ITA_debug = {
 	}
 }
 
+
+
+ITA_home_development = {
+
+	priority = 100
+
+	icon = generic_fascism
+
+	visible = {
+		original_tag = ITA
+	}
+
+	allowed = {
+		original_tag = ITA
+
+	}
+
+	visible_when_empty = yes
+
+}
+
 ITA_industry_agriculture = {
 
 	priority = 9
