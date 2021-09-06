@@ -112,22 +112,143 @@ country_event = { #revolt
 	}
 }
 
+add_namespace = ahnenerbe
+
 country_event = { #bear hunt
 
-	id = germany.4
-	title = germany.4.t
-	desc = germany.4.d
+	id = ahnenerbe.6
+	title = ahnenerbe.6.t
+	desc = ahnenerbe.6.d
 	picture = GFX_report_event_polar_bear_hunting
 
 	is_triggered_only = yes
 
 	option = {
-		name = germany.4.a
+		name = ahnenerbe.6.a
 
 		GER = {
 				add_manpower = -1
 				add_political_power = -5
 		}
 
+	}
+}
+
+country_event = { #bolivia-peru expedition part 1
+
+	id = ahnenerbe.1
+	title = ahnenerbe.1.t
+	desc = ahnenerbe.1.d
+	picture = GFX_report_event_sun_gate
+
+	is_triggered_only = yes
+
+	option = {
+		name = ahnenerbe.1.a
+
+		GER = { country_event = { id = ahnenerbe.2 }
+				add_political_power = 5
+		}
+	}
+	option = {
+		name = ahnenerbe.1.b
+
+		GER = { 
+				add_political_power = -10
+		}
+	}
+}
+
+country_event = { #bolivia-peru expedition part 2
+
+	id = ahnenerbe.2
+	title = ahnenerbe.2.t
+	desc = ahnenerbe.2.d
+	picture = GFX_report_event_sun_gate
+
+	is_triggered_only = yes
+
+	option = {
+		name = ahnenerbe.2.a
+
+		GER = { country_event = { id = ahnenerbe.3 }
+				add_political_power = -25
+		}
+	}
+	option = {
+		name = ahnenerbe.2.b
+
+		GER = {
+				add_political_power = -10
+		}
+	}
+}
+
+country_event = { #bolivia-peru expedition part 3
+
+	id = ahnenerbe.3
+	title = ahnenerbe.3.t
+	desc = ahnenerbe.3.d
+	picture = GFX_report_event_moon_gate
+
+	is_triggered_only = yes
+
+	option = {
+		name = ahnenerbe.3.a
+
+		GER = {
+				add_political_power = -10
+		}
+	}
+		option = {
+		name = ahnenerbe.3.b
+
+		GER = { country_event = { id = ahnenerbe.4 }
+				add_political_power = 10
+		}
+	}
+		option = {
+		name = ahnenerbe.3.c
+
+		GER = { country_event = { id = ahnenerbe.5 }
+				add_political_power = 10
+		}
+	}
+}
+
+country_event = { #bolivia-peru expedition part 4 option b
+
+	id = ahnenerbe.4
+	title = ahnenerbe.4.t
+	desc = ahnenerbe.4.d
+	picture = GFX_report_event_lake_titicaca
+
+	is_triggered_only = yes
+
+	option = {
+		name = ahnenerbe.4.a
+
+		GER = { 
+				add_political_power = 20
+		}
+	}
+}
+
+country_event = { #bolivia-peru expedition part 4 option c
+
+	id = ahnenerbe.5
+	title = ahnenerbe.5.t
+	desc = ahnenerbe.5.d
+	picture = GFX_report_event_incan_mummy_girl
+
+	is_triggered_only = yes
+
+	option = {
+		name = ahnenerbe.5.a
+
+		GER = { 
+				add_manpower = -1
+				add_political_power = 10
+		}
 	}
 }

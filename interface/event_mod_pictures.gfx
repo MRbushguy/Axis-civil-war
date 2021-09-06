@@ -63,9 +63,25 @@ spriteTypes = {
 
 	}
 
+### Ahnenerbe Expeditions
 	spriteType = {
 		name = "GFX_report_event_polar_bear_hunting"
 		texturefile = "gfx/event_pictures/polar_bear_hunting.dds"
 	}
-
+	spriteType = {
+		name = "GFX_report_event_sun_gate"
+		texturefile = "gfx/event_pictures/sun_gate.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_moon_gate"
+		texturefile = "gfx/event_pictures/moon_gate.dds"
+	}
+		spriteType = {
+		name = "GFX_report_event_lake_titicaca"
+		texturefile = "gfx/event_pictures/lake_titicaca.dds"
+	}
+		spriteType = {
+		name = "GFX_report_event_incan_mummy_girl"
+		texturefile = "gfx/event_pictures/incan_mummy_girl.dds"
+	}
 }
