@@ -18,3 +18,20 @@ ITA_debug = {
 
 	}
 }
+
+
+ITA_home_development = {
+
+	priority = 100
+
+	icon = generic_fascism
+
+	visible = {
+		original_tag = ITA
+	}
+
+	allowed = {
+		original_tag = ITA
+
+	}
+}

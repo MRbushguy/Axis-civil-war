@@ -6,10 +6,11 @@ set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.7
 add_ideas = {
-	victor_emmanuel
 	smol_victory
 	Modern_roman_army
 	sea_and_air_domination
+	mafia_remnats_1
+	extreme_overstretch_empire_1
 	limited_exports
 	limited_conscription
 	war_economy
