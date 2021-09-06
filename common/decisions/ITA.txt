@@ -179,16 +179,17 @@ ITA_debug = {
 			custom_effect_tooltip = 
 			retire_country_leader = yes
 			create_country_leader = {
-	name = "Alessandro Pavolini"
-	desc = "Pavolini_desc"
-	picture = "pavolini_leader.dds"
-	expire = "1965.1.1"
-	ideology = order_fascism
-	traits = {
-		blackshirt_trium
+				name = "Alessandro Pavolini"
+				desc = "Pavolini_desc"
+				picture = "pavolini_leader.dds"
+				expire = "1965.1.1"
+				ideology = order_fascism
+				traits = {
+					blackshirt_trium
+				}
+			}
+		}								
 	}
-}
-	}								
 }
 
 ITA_Balbo = {
@@ -210,15 +211,38 @@ ITA_Balbo = {
 		complete_effect = {
 			retire_country_leader = yes
 			create_country_leader = {
-	name = "Italo Balbo"
-	desc = "Balbo_desc"
-	picture = "balbo_leader.dds"
-	expire = "1965.1.1"
-	ideology = pragmatic_fascism
-	traits = {
-		prophet_general
+				name = "Italo Balbo"
+				desc = "Balbo_desc"
+				picture = "balbo_leader.dds"
+				expire = "1965.1.1"
+				ideology = pragmatic_fascism
+				traits = {
+					prophet_general
+				}
+			}
+		}
 	}
+
 }
+
+ITA_industry_agriculture = {
+	
+	ITA_increase_industry = {
+
+		allowed = {
+			tag = ITA
+		}
+
+		available = {
+
+		}
+
+		cost = 1
+
+		days_remove = 0
+
+		complete_effect = {
+			add_to_variable = {ITA_industry_value = 5}
 		}
 	}
 	}
@@ -252,6 +276,11 @@ ITA_Balbo = {
 
 		icon = generic_civil_support
 
+
+	}
+
+	ITA_decrease_industry = {
+
 		allowed = {
 			tag = ITA
 		}
@@ -265,6 +294,7 @@ ITA_Balbo = {
 		days_remove = 0
 
 		complete_effect = {
+
 
 		add_stability = 0.05
 
@@ -303,3 +333,11 @@ ITA_Balbo = {
 
 	
 	}
+=======
+			add_to_variable = {ITA_industry_value = -5}
+		}
+
+
+	}
+}
+>>>>>>> cad2838e18509784ba5db096d459489ae65cf3b6
