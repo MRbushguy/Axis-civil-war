@@ -1,4 +1,3 @@
-@@ -1,269 +0,0 @@
 #	Example:
 # 
 #	example_dynamic_modifier = {
@@ -26,12 +25,12 @@
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 
 sabotaged_resources = {
-	remove_trigger = {
+	remove_trigger = { 
 		has_resistance = no
 	}
-
+	
 	icon = GFX_modifiers_sabotaged_resource
-
+	
 	temporary_state_resource_oil = sabotaged_oil
 	temporary_state_resource_aluminium = sabotaged_aluminium
 	temporary_state_resource_rubber = sabotaged_rubber
@@ -44,7 +43,7 @@ autonomous_state = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_sabotaged_resource
-
+	
 	recruitable_population_factor = -0.5
 	local_building_slots_factor = -0.25
 	state_resources_factor = -0.25
@@ -55,7 +54,7 @@ semi_autonomous_state = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_sabotaged_resource
-
+	
 	local_building_slots_factor = -0.25
 	state_resources_factor = -0.25
 	state_production_speed_buildings_factor = -0.25
@@ -65,7 +64,7 @@ kurdish_agitation = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_tur_kurdish_agitation
-
+	
 	resistance_growth = 0.03
 	resistance_target = 0.1
 	resistance_decay = -0.1
@@ -76,7 +75,7 @@ kurdish_separatism = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_tur_kurdish_separatism
-
+	
 	compliance_growth = -0.05
 	resistance_growth = 0.05
 	resistance_target = 0.20
@@ -89,7 +88,7 @@ kurdish_rebellion = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_tur_kurdish_rebellion
-
+	
 	compliance_growth = -0.1
 	resistance_growth = 0.07
 	resistance_target = 0.35
@@ -102,7 +101,7 @@ separatist_fatigue = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_tur_kurdish_fatigue
-
+	
 	compliance_growth = 0.05
 	resistance_decay = 0.15
 	state_resources_factor = -0.33
@@ -112,7 +111,7 @@ turanist_assimilation = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_tur_pan_turkic_propaganda
-
+	
 	non_core_manpower = 0.25
 	compliance_growth = 0.05
 	resistance_growth = -0.1
@@ -122,7 +121,7 @@ conscription_exemptions_granted = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_conscription_exemptions_granted
-
+	
 	recruitable_population_factor = -0.85
 }
 
@@ -130,7 +129,7 @@ islamist_opposition = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_tur_traditionalist_unrest
-
+	
 	recruitable_population_factor = -0.05
 	local_building_slots_factor = -0.1
 	state_resources_factor = -0.1
@@ -141,7 +140,7 @@ islamist_sedition = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_tur_traditionalist_sedition
-
+	
 	recruitable_population_factor = -0.25
 	local_building_slots_factor = -0.25
 	state_resources_factor = -0.25
@@ -153,7 +152,7 @@ islamist_insurgency = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_tur_traditionalist_insurgency
-
+	
 	recruitable_population_factor = -0.5
 	local_building_slots_factor = -0.33
 	state_resources_factor = -0.5
@@ -165,7 +164,7 @@ islamists_placated = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_tur_traditionalist_placated
-
+	
 	state_production_speed_buildings_factor = 0.05
 }
 
@@ -173,7 +172,7 @@ devout_islamists = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_tur_traditionalist_placated
-
+	
 	recruitable_population_factor = 0.15
 	state_production_speed_buildings_factor = 0.1
 }
@@ -182,7 +181,7 @@ kemalist_loyalties = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_tur_kemalist_loyalties
-
+	
 	recruitable_population_factor = 0.15
 	state_production_speed_buildings_factor = 0.1
 }
@@ -191,7 +190,7 @@ kemalist_schemers = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_tur_kemalist_unrest
-
+	
 	recruitable_population_factor = -0.33
 	state_production_speed_buildings_factor = -0.25
 	army_speed_factor_for_controller = -0.5
@@ -214,7 +213,7 @@ skirmishes_against_imro = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_bul_macedonian_revolutionaries
-
+	
 	state_resources_factor = -0.75
 	state_production_speed_buildings_factor = -0.75
 	army_speed_factor_for_controller = -0.25
@@ -227,7 +226,7 @@ widespread_bulgarian_sentiment_01 = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_bul_arranged_bulgarian_occupation
-
+	
 	compliance_growth = -0.1
 	resistance_growth = 0.1
 	resistance_target = 0.1
@@ -240,7 +239,7 @@ widespread_bulgarian_sentiment_02 = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_bul_arranged_bulgarian_occupation
-
+	
 	compliance_growth = 0.1
 	resistance_growth = -0.1
 	resistance_target = -0.1
@@ -253,7 +252,7 @@ bulgarian_territorial_expansion_arranged = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_bul_arranged_territorial_expansion
-
+	
 	custom_modifier_tooltip = BUL_bulgarian_territorial_expansion_arranged_tt
 }
 
@@ -265,4 +264,110 @@ BUL_our_duty_in_the_balkans_dynamic_modifier = { #Used as National Spirit
 	consumer_goods_factor = BUL_our_duty_in_the_balkans_consumer_goods_modifier
 	stability_factor = BUL_our_duty_in_the_balkans_stability_modifier
 	weekly_manpower = 1000
+}
+
+
+GER_alpine_tunnels = {
+
+	enable = { always = yes }
+
+	icon = GFX_modifiers_bul_arranged_territorial_expansion
+
+	army_speed_factor_for_controller = 0.1
+	attrition_for_controller = -0.4
+
+
+}
+
+
+low_resistance = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_tur_kurdish_agitation
+
+	resistance_growth = 0.03
+	resistance_target = 0.1
+	resistance_decay = -0.1
+	state_resources_factor = -0.15
+}
+
+medium_resistance = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_tur_kurdish_separatism
+
+	compliance_growth = -0.05
+	resistance_growth = 0.05
+	resistance_target = 0.20
+	resistance_decay = -0.20
+	state_resources_factor = -0.15
+}
+
+high_resistance = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_tur_kurdish_rebellion
+
+	compliance_growth = -0.1
+	resistance_growth = 0.07
+	resistance_target = 0.35
+	resistance_decay = -0.25
+	state_resources_factor = -0.33
+	disable_strategic_redeployment = 1
+}
+
+GER_factionalism_dynamic_modifier = {
+
+	enable = { always = yes }
+	#remove_trigger = 
+
+	political_power_factor = GER_factionalism_NSDAP_modifer
+	experience_gain_army = GER_factionalism_wehrmacht_modifer
+	production_speed_arms_factory_factor = GER_factionalism_militarist_modifer
+	production_speed_industrial_complex_factor = GER_factionalism_reform_modifer
+	weekly_manpower = GER_factionalism_waffenSS_modifer
+	stability_factor = GER_factionalism_SS_modifer
+
+
+
+}
+
+GER_depleted_wehrmacht_dynamic_modifier = {
+
+	enable = {always = yes}
+
+	conscription = GER_depleted_wehrmacht_conscription
+	conscription_factor = GER_depleted_wehrmacht_conscription_factor
+	army_org_Factor = GER_depleted_wehrmacht_army_org
+	training_time_factor = GER_depleted_wehrmacht_training_time
+	industrial_capacity_factory = GER_depleted_wehrmacht_production
+	industrial_capacity_dockyard = GER_depleted_wehrmacht_dockyard
+
+}
+
+GER_blitzkrieg_dependence_dynamic_modifier = {
+
+	enable = {always = yes}
+
+	breakthrough_factor = GER_blitzkrieg_dependence_breakthrough
+	army_org_factor = GER_blitzkrieg_dependence_org
+	army_speed_factor = GER_blitzkrieg_dependence_speed
+	army_fuel_consumption_factor = GER_blitzkrieg_dependence_fuel
+	attrition = GER_blitzkrieg_dependence_attrition
+	army_defence_factor = GER_blitzkrieg_dependence_defense
+	experience_loss_factor = GER_blitzkrieg_dependence_experience
+}
+
+GER_gridlocked_government_dynamic_modifier = {
+
+	enable = {always = yes}
+	
+	disabled_ideas = GER_gridlocked_government_disabled_ideas
+	political_advisor_cost_factor = GER_gridlocked_government_advisor_cost
+	political_power_factor = GER_gridlocked_government_political_power
+	max_surrender_limit_offset = GER_gridlocked_government_surrender_limit
+	party_popularity_stability_factor =  GER_gridlocked_government_stability_offset
+	resistance_growth = GER_gridlocked_government_resistance
+	compliance_growth = GER_gridlocked_government_compliance
+
 }
