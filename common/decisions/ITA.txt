@@ -294,6 +294,38 @@ ITA_kickstart_industrialization = {
 
 ITA_empire_decisions = {
 
+
+ITA_next_empire_phase = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+		
+		 visible = {
+               has_completed_focus = learning_how_to_empire
+          }
+
+		cost = 1
+
+		days_remove = 30
+
+		fire_only_once = yes
+
+		complete_effect = {
+
+		custom_effect_tooltip = "ITA_empire_next_phase"
+
+
+		}
+	}
+
+
+
+
+
+
 	ITA_start_finishing_crime = {
 
 		icon = generic_civil_support
@@ -346,28 +378,6 @@ ITA_crime_campania = {
 	}
 
 
-	ITA_next_empire_phase = {
 
-		icon = generic_civil_support
-
-		allowed = {
-			tag = ITA
-		}
-		
-		 visible = {
-               has_completed_focus = learning_how_to_empire
-          }
-
-		cost = 1
-
-		days_remove = 30
-
-		fire_only_once = yes
-
-		complete_effect = {
-
-
-		}
-	}
 
 }
