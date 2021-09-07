@@ -25,7 +25,6 @@ state={
 		}
 		1947.1.1 = {
 			owner = IOC
-			controller = IOC
 		}
 	}
 
