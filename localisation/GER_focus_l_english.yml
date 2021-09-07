@@ -90,7 +90,7 @@ GER_rebuild_NSDAP_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP �
 
 GER_SS_business_ventures:0 "SS Business Ventures"
 GER_SS_business_ventures_desc:0 "The SS has risen far from its lowly start as a guard division, and has since World War 2 expanded into a variety of fields, most notably industry. We can leverage these contacts to aid the government and our position."
-GER_SS_business_ventures_completion_tt:0 "£decision_faction_ger_nsdap_small §YSS §!: §G+5§! Influence \n\nModify §YGridlocked Government§! by: \nPolitical Advisor Cost Factor: §G-5%§!\nPolitical Power Gain: §G+5%§!"
+GER_SS_business_ventures_completion_tt:0 "£decision_faction_ger_ss_small §YSS §!: §G+5§! Influence \n\nModify §YGridlocked Government§! by: \nPolitical Advisor Cost Factor: §G-5%§!\nPolitical Power Gain: §G+5%§!"
 
 
 GER_limit_general_plan_ost:0 "Limit Generalplan Ost"
