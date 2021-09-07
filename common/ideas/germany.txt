@@ -430,22 +430,7 @@ ideas = {
 			}
 		}
 
-		GER_gridlocked_government_0 = {
-			#picture = blitz_dep
-
-			allowed = {
-				original_tag = GER
-			}
-
-			modifier = {
-				disabled_ideas = 1
-				#dummy
-
-			}
-
-		}
-
-		GER_gridlocked_government_1 = {
+		GER_gridlocked_government = {
 			#picture = blitz_dep
 
 			allowed = {
@@ -458,6 +443,9 @@ ideas = {
 			}
 
 		}
+
+		
+
 
 
 		GER_construction_project = {
@@ -1861,6 +1849,12 @@ ideas = {
 	}
 
 	hidden_ideas = {
+
+		GER_gridlocked_government_hidden = {
+           	modifier = {
+                disabled_ideas = 1
+           	}
+      	}
 
 		fascism_drift_ARG = {
 

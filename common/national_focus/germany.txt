@@ -1414,7 +1414,7 @@ focus_tree = {
 
 	focus = {
 
-		id = GER_social_situation
+		id = GER_internal_affairs
 		#icon
 
 		prerequisite = {
@@ -1430,7 +1430,7 @@ focus_tree = {
 
 		completion_reward = {
 
-			custom_effect_tooltip = GER_social_situation_completion_tt
+			custom_effect_tooltip = GER_internal_affairs_completion_tt
 
 			add_to_variable = {GER_NSDAP_influence = -10}
 			add_to_variable = {GER_SS_influence = -10}
@@ -1458,14 +1458,14 @@ focus_tree = {
 		icon = GFX_goal_GER_NSDAP_lozange
 
 		prerequisite = {
-			focus = GER_social_situation
+			focus = GER_internal_affairs
 		}
 
 		x = -5
 		y = 1
 
 		cost = 3
-		relative_position_id = GER_social_situation
+		relative_position_id = GER_internal_affairs
 
 		completion_reward = {
 			
@@ -1834,15 +1834,19 @@ focus_tree = {
 		icon = GFX_goal_GER_SS_lozange
 
 		prerequisite = {
-			focus = GER_social_situation
+			focus = GER_internal_affairs
 		}
 
 		x = 4
 		y = 1
-		relative_position_id = GER_social_situation
+		relative_position_id = GER_internal_affairs
 
 		completion_reward = {
-			#SS has a chance to expand and move up
+			custom_effect_tooltip = GER_SS_business_ventures_completion_tt
+
+			add_to_variable = {GER_SS_influence = -5}
+			add_to_variable = {GER_gridlocked_government_advisor_cost = -0.05}
+			add_to_variable = {GER_gridlocked_government_political_power = 0.05}
 
 		}
 
