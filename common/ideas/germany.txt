@@ -103,7 +103,7 @@ ideas = {
 
 
 
-		GER_jewish_science = {
+		GER_jewish_science_0 = {
 
 			picture = jewish_science
 
@@ -121,6 +121,29 @@ ideas = {
 				production_speed_nuclear_reactor_factor = -10
 				research_speed_factor = -0.25
 				political_power_gain = 0.2
+
+			}
+
+		}
+
+		GER_jewish_science_1 = {
+
+			picture = jewish_science
+
+			allowed = {
+				always = no
+			}
+
+			research_bonus = {
+				nuclear = -0.50
+			}
+
+
+			modifier = {
+
+				production_speed_nuclear_reactor_factor = -5
+				research_speed_factor = -0.15
+				political_power_gain = 0.1
 
 			}
 

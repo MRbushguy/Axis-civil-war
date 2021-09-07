@@ -9,8 +9,11 @@
 
 
  #Germany
- GER_jewish_science:0 "Deutsche Physik"
+ GER_jewish_science_0:0 "Deutsche Physik"
  GER_jewish_science_desc:0 "Despite a usual affinity for Germany and new military technology, the racial policies of the Third Reich have forced the academia to declare much advanced science as “Jewish Science.” Atomic research, the Theory of Relativity, the Quantum theory - all have been branded as Judeo-Bolshevik propaganda meant to corrupt the pure aryan mind. Whilst it is a propaganda win and makes us able to exert more control over the general populace, this puts Germany at a major disadvantage in research, especially in the field of theoretical nuclear physics. \n\n§YOnly by removing this spirit will it be possible to invest in nuclear research.§!"
+ 
+ GER_jewish_science_1:0 "Deutsche Physik"
+ GER_jewish_science_desc:0 "As expected, there is a lingering distaste of the theories being incorporated into German research. More propaganda will likely be required to flush the politics out of our science."
  
  GER_depleted_army_0:0 "Severely Depleted Army\n[gerDepletedWehrmachtConscription][gerDepletedWehrmachtConscriptionFactor][gerDepletedWehrmachtArmyOrg][gerDepletedWehrmachtTrainingTime][gerDepletedWehrmachtProduction][gerDepletedWehrmachtDockyard]"
  GER_depleted_army_0_desc:0 "The endless years of war in the hostile lands of eastern Europe, against an enemy with unlimited men and unlimited will, took its toll on the Wehrmacht. Near the end of the war, offensives were undertaken by the increasingly empowered Waffen-SS, and the battered Wehrmacht was left behind. The situation didn’t improve when Germany reached the A-A line and the undeclared truce was created. Fierce power struggles within Nazi leadership resulted in government support for the army being limited, while the private resources of the SS furnished the Waffen-SS with the best. The Wehrmacht was once again left on the sidelines to rot. \n\nDespite years of neglect, the Wehrmacht retains its reputation as the best army in the world, and its commanders and soldiers do their best to live up to that name. But without proper conscription and support, the Wehrmacht will §Rfail to protect Germany against the red menace.§!"

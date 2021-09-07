@@ -2304,8 +2304,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = -0.05
-			remove_ideas = GER_jewish_science
-			#attempts to address military problems
+			swap_ideas = {
+				remove_idea = GER_jewish_science_0
+				add_idea = GER_jewish_science_1
+			}
+			
 
 		}
 
@@ -2806,7 +2809,11 @@ focus_tree = {
 		relative_position_id = GER_address_the_military
 
 		completion_reward = {
-			#warmonger against italy
+
+			custom_effect_tooltip = GER_propaganda_warmongering_completion_tt
+			add_war_support = 0.05
+			add_to_variable = {GER_militarist_influence = 10}
+
 
 		}
 
@@ -2828,7 +2835,12 @@ focus_tree = {
 		relative_position_id = GER_propaganda_warmongering
 
 		completion_reward = {
-			#talks about increasing R&D spending
+
+			custom_effect_tooltip = GER_methods_of_victory_completion_tt
+
+			add_to_variable = {GER_militarist_influence = -5}
+
+			remove_ideas = GER_jewish_science_1
 
 		}
 

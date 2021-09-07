@@ -77,30 +77,54 @@ GER_ukraine_reform_completion_tt:0 "Unlocks decisions: £decision_icon_small §Y
 GER_refnaz_and_wehrmacht:0 "Reformists and the Wehrmacht"
 GER_refnaz_and_wehrmacht_desc:0 "Work on it"
 GER_refnaz_and_wehrmacht_completion_tt:0 "£decision_faction_ger_reform_small §YReformists §!: §G+10§! Influence \n£decision_faction_ger_wehr_small §YWehrmacht §!: §R-10§! Influence"
-
 GER_dismantle_mils_tt:0 "§YRemoves ten military factories in German core territory.§!"
+GER_limit_general_plan_ost:0 "Limit Generalplan Ost"
+GER_limit_general_plan_ost_desc:0 "For many years, the sole goal of German aggression and conquest has been to tame the East and incorporate it into the Aryan Realm, but the reality of that dream has been one of toil and failure. The final stages of Generalplan Ost have proved costly in both money and lives, and it is in Germany's best interest to halt integration of the eastern territories until a better solution has presented itself."
+GER_limit_generalplan_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §G+5§! Influence \n£decision_faction_ger_reform_small §YReformists §!: §G+5§! Influence\n\n§GDelays the decline of the plunder economy by 40 days.§!\n\n"
 
 
 
-###NSDAP Brach
+
+###NSDAP Branch
 GER_rebuild_NSDAP:0 "Rebuild the NSDAP"
 GER_rebuild_NSDAP_desc:0 "With the decline of Hitler's involvement in German affairs, party officials have been sidelined by military officers, and worse, agents of Himmler and the SS. We must reverse this trend by involving the party more in government."
 GER_rebuild_NSDAP_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §G+5§! Influence \n\nModify §YGridlocked Government§! by: \nPolitical Advisor Cost Factor: §G-5%§!\nPolitical Power Gain: §G+5%§!"
 
 
+
+
+
+###SS Branch
 GER_SS_business_ventures:0 "SS Business Ventures"
 GER_SS_business_ventures_desc:0 "The SS has risen far from its lowly start as a guard division, and has since World War 2 expanded into a variety of fields, most notably industry. We can leverage these contacts to aid the government and our position."
 GER_SS_business_ventures_completion_tt:0 "£decision_faction_ger_ss_small §YSS §!: §G+5§! Influence \n\nModify §YGridlocked Government§! by: \nPolitical Advisor Cost Factor: §G-5%§!\nPolitical Power Gain: §G+5%§!"
 
 
-GER_limit_general_plan_ost:0 "Limit Generalplan Ost"
-GER_limit_general_plan_ost_desc:0 "For many years, the sole goal of German aggression and conquest has been to tame the East and incorporate it into the Aryan Realm, but the reality of that dream has been one of toil and failure. The final stages of Generalplan Ost have proved costly in both money and lives, and it is in Germany's best interest to halt integration of the eastern territories until a better solution has presented itself."
-GER_limit_generalplan_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §G+5§! Influence \n£decision_faction_ger_reform_small §YReformists §!: §G+5§! Influence\n\n§GDelays the decline of the plunder economy by 40 days.§!\n\n"
 GER_increase_general_plan_ost:0 "Increase Generalplan Ost"
 GER_increase_general_plan_ost_desc:0 "Despite the failures of Generalplan Ost, Germany's final solution is within reach. A soft-hearted bureaucrat would claim the entire endeavor as too costly, but there is only one response to failure in this field - more pressure. The repopulation of the East will be accelerated as much as our means will allow."
 GER_increase_generalplan_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §G+5§! Influence \n£decision_faction_ger_ss_small §YS.S.§!: §G+5§! Influence\n\n§RHastens the decline of the plunder economy by 40 days.§!\n\n"
 
 
+
+
+
+####Militarist Tree
+
+GER_propaganga_warmongering:0 "Propaganda Warmongering"
+GER_propaganga_warmongering_desc:0 "Like it or not, the next war is on the horizon, and the German people must be made aware of this salient fact."
+GER_propaganda_warmongering_completion_tt:0 "£decision_faction_ger_mil_small §YMilitarists§!: §G+10§! Influence"  
+
+GER_methods_of_victory:0 "Methods of Victory"
+GER_methods_of_victory_desc:0 "If we want to defeat the forces arrayed against us, we will require the best the german people have to offer. Enough Germans are willing to give their lives for the cause, but we need more. Only the best Wunderwaffe will ensure our success, and that requires, in secret, removing the politics entirely from our research process."
+GER_methods_of_victory_completion_tt:0 "£decision_faction_ger_mil_small §YMilitarists§!: §R-5§! Influence"
+
+
+
+
+
+
+
+###Foreign Policy Tree
 GER_cancel_tripartite:0 "A brand new enemy"
 GER_cancel_tripartite_desc:0 "The old alliances have been torn away by the fires of war. The dreaded USSR has been vanquished, and the capitalist imperials have been humbled. Meanwhile, Italy has stabbed us in the back and Japan was never more than a tool. We must destroy the last vestiges of the old world to step into the new."
 GER_the_true_enemy:0 "The True Enemy"

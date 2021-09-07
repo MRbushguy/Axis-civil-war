@@ -1106,7 +1106,7 @@ create_equipment_variant = {
 		GER_gridlocked_government
 		GER_gridlocked_government_hidden
 		GER_german_depression_1
-		GER_jewish_science
+		GER_jewish_science_0
 
 		#laws
 		war_economy
