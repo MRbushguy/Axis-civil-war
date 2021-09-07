@@ -21,24 +21,7 @@ ITA_debug = {
 
 
 
-ITA_home_development = {
 
-	priority = 100
-
-	icon = generic_fascism
-
-	visible = {
-		original_tag = ITA
-	}
-
-	allowed = {
-		original_tag = ITA
-
-	}
-
-	visible_when_empty = yes
-
-}
 
 ITA_industry_agriculture = {
 
@@ -52,6 +35,26 @@ ITA_industry_agriculture = {
 
 	visible = {
 		original_tag = ITA
+	}
+
+	allowed = {
+		original_tag = ITA
+
+	}
+
+}
+
+ITA_empire_decisions ={
+
+priority = 9
+
+	icon = generic_fascism
+
+	visible_when_empty = yes
+
+	visible = {
+		original_tag = ITA
+		has_completed_focus = learning_how_to_empire
 	}
 
 	allowed = {

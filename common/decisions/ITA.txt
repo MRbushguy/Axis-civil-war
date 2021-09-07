@@ -222,10 +222,30 @@ ITA_Balbo = {
 			}
 		}
 	}
-
 }
 
+
 ITA_industry_agriculture = {
+
+ITA_kickstart_industrialization = {
+
+		allowed = {
+			tag = ITA
+		}
+
+		available = {
+
+		}
+
+		cost = 1
+
+		days_remove = 0
+
+		complete_effect = {
+			add_to_variable = {ITA_industry_value = 5}
+		}
+	}
+
 	
 	ITA_increase_industry = {
 
@@ -270,30 +290,11 @@ ITA_industry_agriculture = {
 
 	}
 
-	ITA_start_hunting_mafia = {
+}
 
-		icon = generic_civil_support
+ITA_empire_decisions = {
 
-		allowed = {
-			tag = ITA
-		}
-
-		available = {
-
-		}
-
-		cost = 1
-
-		days_remove = 0
-
-		complete_effect = {
-
-		add_stability = 0.05
-
-		}
-	}
-
-	ITA_start_finishing_mafia = {
+	ITA_start_finishing_crime = {
 
 		icon = generic_civil_support
 
@@ -301,13 +302,41 @@ ITA_industry_agriculture = {
 			tag = ITA
 		}
 		
-		available = {
-
-		}
+		visible  = {
+		has_completed_focus = learning_how_to_empire
+	}
 
 		cost = 1
 
-		days_remove = 0
+		days_remove = 30
+
+		fire_only_once = yes
+
+		complete_effect = {
+
+			add_stability = 0.05
+
+		}
+	}
+
+
+ITA_crime_campania = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+		
+		 visible = {
+               has_completed_focus = learning_how_to_empire
+          }
+
+		cost = 1
+
+		days_remove = 30
+
+		fire_only_once = yes
 
 		complete_effect = {
 

@@ -36,6 +36,18 @@ add_ideas = {
 	#set_state_flag = ITA_has_low_resistance
 }
 
+156 = {
+	add_dynamic_modifier = { modifier = ITA_mafia }
+
+	#set_state_flag = ITA_has_low_resistance
+}
+
+117 = {
+	add_dynamic_modifier = { modifier = ITA_mafia }
+
+	#set_state_flag = ITA_has_low_resistance
+}
+
 1947.1.1 = {
 	puppet = OCC
 	puppet = EGY
