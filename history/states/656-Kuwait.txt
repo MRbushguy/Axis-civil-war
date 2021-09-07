@@ -7,7 +7,6 @@ state={
 
 	history={
 		add_core_of = KUW
-		add_core_of = IGL
 		owner = IGL
 		victory_points = {
 			8085 1

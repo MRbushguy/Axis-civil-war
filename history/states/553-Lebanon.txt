@@ -21,7 +21,6 @@ state={
 		}
 
 		add_core_of = LEB
-		add_core_of = IME
 		1947.1.1 = {
 			owner = IME
 			controller = IME

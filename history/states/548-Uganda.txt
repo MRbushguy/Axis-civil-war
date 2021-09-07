@@ -13,7 +13,6 @@ state={
 
 		}
 		add_core_of = UGA
-		add_core_of = IEA
 		victory_points = {
 			12989 1
 		}
