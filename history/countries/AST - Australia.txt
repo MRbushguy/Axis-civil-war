@@ -472,3 +472,31 @@ if = {
 		}
 	}
 }
+
+1947.1.1 = {
+
+	oob = CHI_1947
+	add_to_faction = SIK
+	add_to_faction = XSM
+
+	set_politics = {
+		ruling_party = authoritarianism
+		last_election = "1937.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		democratic_left = 10
+		democratic_center = 50
+		democratic_right = 10
+		fascism = 10
+		national_socialism = 0
+		socialism = 10
+		communism = 5
+		authoritarianism = 5
+	}
+
+	
+
+}

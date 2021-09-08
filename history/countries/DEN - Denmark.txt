@@ -125,22 +125,20 @@ if = {
 	}
 }
 
-
-set_politics = {
-	ruling_party = democratic
-	last_election = "1935.10.22"
-	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	communism = 12
-	socialism =
-	democratic_left = 15
-	democratic_center = 13
-	democratic_right = 8
-	authoritarianism =
-	fascism =
-	national_socialism = 52
+1947.1.1= {
+	set_politics = {
+		ruling_party = democratic_center
+		last_election = "1935.10.22"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		
+		democratic_left = 25
+		democratic_center = 50
+		democratic_right = 25
+		
+	}
 }
 
 
