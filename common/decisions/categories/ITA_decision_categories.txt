@@ -44,17 +44,57 @@ ITA_industry_agriculture = {
 
 }
 
-ITA_empire_decisions ={
+ITA_empire_stage_1 ={
 
 priority = 9
 
 	icon = generic_fascism
 
-	visible_when_empty = yes
+	visible_when_empty = no
 
 	visible = {
 		original_tag = ITA
 		has_completed_focus = learning_how_to_empire
+	}
+
+	allowed = {
+		original_tag = ITA
+
+	}
+
+}
+
+ITA_empire_stage_2 ={
+
+priority = 9
+
+	icon = generic_fascism
+
+	visible_when_empty = no
+
+	visible = {
+		original_tag = ITA
+		has_decision = ITA_next_empire_phase_1
+	}
+
+	allowed = {
+		original_tag = ITA
+
+	}
+
+}
+
+ITA_empire_stage_3 ={
+
+priority = 9
+
+	icon = generic_fascism
+
+	visible_when_empty = no
+
+	visible = {
+		original_tag = ITA
+		has_decision = ITA_next_empire_phase_2
 	}
 
 	allowed = {

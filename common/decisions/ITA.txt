@@ -292,7 +292,7 @@ ITA_kickstart_industrialization = {
 
 }
 
-ITA_empire_decisions = {
+ITA_empire_stage_1 = {
 
 
 ITA_next_empire_phase = {
@@ -309,9 +309,15 @@ ITA_next_empire_phase = {
 
           available = {
 
-          has_decision  = ITA_crime_campania
+          has_decision = ITA_stabalize_garrison_IOC
 
-          has_decision  = ITA_start_finishing_crime
+          has_decision = ITA_stabalize_IEA
+
+          has_decision = ITA_stabalize_ICA
+
+          has_decision = ITA_stabalize_IME
+
+          has_decision = ITA_stabalize_IGL
 
           }
 
@@ -323,7 +329,7 @@ ITA_next_empire_phase = {
 
 		complete_effect = {
 
-		custom_effect_tooltip = "ITA_empire_next_phase"
+		custom_effect_tooltip = "ITA_empire_colonies_phase"
 
 		swap_ideas = { remove_idea = extreme_overstretch_empire_1  add_idea = extreme_overstretch_empire_2  }
 
@@ -333,7 +339,7 @@ ITA_next_empire_phase = {
 
 
 
-	ITA_start_finishing_crime = {
+	ITA_stabalize_IEA = {
 
 		icon = generic_civil_support
 
@@ -353,13 +359,12 @@ ITA_next_empire_phase = {
 
 		complete_effect = {
 
-			add_stability = 0.05
 
 		}
 	}
 
 
-ITA_crime_campania = {
+ITA_stabalize_IME = {
 
 		icon = generic_civil_support
 
@@ -379,10 +384,116 @@ ITA_crime_campania = {
 
 		complete_effect = {
 
-			add_stability = 0.05
 
 		}
 	}
+
+ITA_stabalize_ICA = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+		
+		visible  = {
+		has_completed_focus = learning_how_to_empire
+	}
+
+		cost = 1
+
+		days_remove = 30
+
+		fire_only_once = yes
+
+		complete_effect = {
+
+
+		}
+	}
+
+
+ITA_stabalize_IGL = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+		
+		visible  = {
+		has_completed_focus = learning_how_to_empire
+	}
+
+		cost = 1
+
+		days_remove = 30
+
+		fire_only_once = yes
+
+		complete_effect = {
+
+
+		}
+	}
+
+
+ITA_stabalize_garrison_IOC = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+		
+		visible  = {
+		has_completed_focus = learning_how_to_empire
+	}
+
+		cost = 1
+
+		days_remove = 30
+
+		fire_only_once = yes
+
+		complete_effect = {
+
+
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
