@@ -90,90 +90,7 @@ ideas = {
 			}
 		}
 
-		mafia_remnats_1 = {
-			picture = vittoria_mutilata
-
-
-			allowed = {
-				original_tag = "ITA"
-			}
-
-
-			modifier = {
-				political_power_factor = -0.1
-				stability_factor = -0.1
-
-
-			}
-		}
-
-		mafia_remnats_2 = {
-			picture = vittoria_mutilata
-
-
-			allowed = {
-				original_tag = "ITA"
-			}
-
-
-			modifier = {
-				political_power_factor = -0.08
-				stability_factor = -0.08
-
-
-			}
-		}
-
-		mafia_remnats_3 = {
-			picture = vittoria_mutilata
-
-
-			allowed = {
-				original_tag = "ITA"
-			}
-
-
-			modifier = {
-				political_power_factor = -0.06
-				stability_factor = -0.06
-
-
-			}
-		}
-
-		mafia_remnats_4 = {
-			picture = vittoria_mutilata
-
-
-			allowed = {
-				original_tag = "ITA"
-			}
-
-
-			modifier = {
-				political_power_factor = -0.04
-				stability_factor = -0.04
-
-
-			}
-		}
-
-		mafia_remnats_5 = {
-			picture = vittoria_mutilata
-
-
-			allowed = {
-				original_tag = "ITA"
-			}
-
-
-			modifier = {
-				political_power_factor = -0.02
-				stability_factor = -0.02
-
-
-			}
-		}
+	
 
 		extreme_overstretch_empire_1 = {
 			picture = vittoria_mutilata
@@ -190,11 +107,6 @@ ideas = {
 				non_core_manpower = -0.2
 				weekly_manpower = -1500 
 				consumer_goods_factor = 0.3
-
-
-
-
-
 				
 					
 

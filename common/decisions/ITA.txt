@@ -307,6 +307,14 @@ ITA_next_empire_phase = {
                has_completed_focus = learning_how_to_empire
           }
 
+          available = {
+
+          has_decision  = ITA_crime_campania
+
+          has_decision  = ITA_start_finishing_crime
+
+          }
+
 		cost = 1
 
 		days_remove = 30
@@ -317,12 +325,11 @@ ITA_next_empire_phase = {
 
 		custom_effect_tooltip = "ITA_empire_next_phase"
 
+		swap_ideas = { remove_idea = extreme_overstretch_empire_1  add_idea = extreme_overstretch_empire_2  }
+
 
 		}
 	}
-
-
-
 
 
 
