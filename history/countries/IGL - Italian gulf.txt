@@ -8,6 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
+
 658 = {
 	start_resistance = yes
 	set_compliance = 25
@@ -115,4 +116,9 @@ create_country_leader = {
 		#
 		}
 	}
+
+add_ideas = {
+	little_colonial_enforcment
+}
+
 }

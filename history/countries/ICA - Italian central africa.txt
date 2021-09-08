@@ -8,6 +8,7 @@ set_technology = {
 set_convoys = 20
 
 
+
 660 = {
 	start_resistance = yes
 	set_compliance = 25
@@ -117,3 +118,9 @@ set_popularities = {
 		traits = {
 		}
 	}
+
+	add_ideas = {
+	little_colonial_enforcment
+}
+
+}

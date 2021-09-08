@@ -6,6 +6,7 @@ set_technology = {
 }
 
 
+
 271 = {
 	start_resistance = yes
 	set_compliance = 25
@@ -129,3 +130,9 @@ set_convoys = 20
 		traits = {
 		}
 	}
+
+	add_ideas = {
+	little_colonial_enforcment
+}
+
+}
