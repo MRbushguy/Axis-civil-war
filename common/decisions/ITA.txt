@@ -325,13 +325,16 @@ ITA_next_empire_phase = {
 
 		days_remove = 30
 
+		 remove_effect = {
+            swap_ideas = { remove_idea = extreme_overstretch_empire_1  add_idea = extreme_overstretch_empire_2  }
+          }
+
 		fire_only_once = yes
 
 		complete_effect = {
 
 		custom_effect_tooltip = "ITA_empire_colonies_phase"
 
-		swap_ideas = { remove_idea = extreme_overstretch_empire_1  add_idea = extreme_overstretch_empire_2  }
 
 
 		}
