@@ -1590,10 +1590,10 @@ focus_tree = {
 		relative_position_id = GER_rebuild_NSDAP
 
 		completion_reward = {
-			custom_effect_tooltip = GER_glorify_the_feuhrer_completion_tt
+			custom_effect_tooltip = GER_glorify_the_fuhrer_completion_tt
 
 			add_to_variable = {GER_NSDAP_influence = 5}
-			add_to_variable = {GER_gridlocked_government_advisor_cost = 0.05}
+			add_to_variable = {GER_gridlocked_government_advisor_cost = 0.1}
 
 		}
 
