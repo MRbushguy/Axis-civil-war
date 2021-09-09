@@ -1096,7 +1096,7 @@ focus_tree = {
 		}
 	focus = {
 		id = SER_purpose_split_of_albania
-		icon = GFX_unknow
+		icon = GFX_split_of_alb
 		cost = 05.00
 		prerequisite = {
 			focus = SER_clean_the_Banat
