@@ -62,12 +62,11 @@ GER_limited_holocaust:0 "Reduction of Generalplan Ost"
  ger_blitzkrieg_dependence_experience_tt:0 "§WExperienced Soldier Losses: §![?GER_blitzkrieg_dependence_experience|%-1=]"
 
 
- GER_gridlocked_government:0 "Gridlocked Government\n[gerGridlockedGovernmentAdvisorCost][gerGridlockedGovernmentPoliticalPower][gerGridlockedGovernmentSurrenderLimit][gerGridlockedGovernmentStabilityOffset][gerGridlockedGovernmentResistance][gerGridlockedGovernmentCompliance]"
+ GER_gridlocked_government:0 "Gridlocked Government\n[gerGridlockedGovernmentDisabledIdeas][gerGridlockedGovernmentAdvisorCost][gerGridlockedGovernmentPoliticalPower][gerGridlockedGovernmentResistance][gerGridlockedGovernmentCompliance]"
  GER_gridlocked_government_desc:0 "The struggle for power in the highest levels of the german government has proliferated to the lowest. With no guarantee of leadership, the german bureaucracy is crumbling at home and in the colonies. Corruption, graft, and nepotism grow by the day and local governments are powerless to do anything about it.\n\n§RWarning: This spirit is shared by all the German Reichskommissariats!"
+ ger_gridlocked_government_disabled_ideas_tt:0 "§WCan't Assign Ideas:§!§R Yes§!\n"
  ger_gridlocked_government_advisor_cost_tt:0 "§WPolitical Advisor Cost Factor: §![?GER_gridlocked_government_advisor_cost|%-0=]\n"
  ger_gridlocked_government_political_power_tt:0 "§WPolitical Power Gain: §![?GER_gridlocked_government_political_power|%+0=]\n"
- ger_gridlocked_government_surrender_limit_tt:0 "§WSurrender Limit: §![?GER_gridlocked_government_surrender_limit|%+=]\n"
- ger_gridlocked_government_stability_offset_tt:0 "§WRuling Party Stability Offset: §![?GER_gridlocked_government_stability_offset|%-1=]\n"
  ger_gridlocked_government_resistance_tt:0 "§WResistance Gain: §![?GER_gridlocked_government_resistance|%-0=]\n"
  ger_gridlocked_government_compliance_tt:0 "§WCompliance Gain: §![?GER_gridlocked_government_compliance|%+0=]"
 

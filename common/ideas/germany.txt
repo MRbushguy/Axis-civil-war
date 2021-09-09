@@ -1874,6 +1874,10 @@ ideas = {
 	hidden_ideas = {
 
 		GER_gridlocked_government_hidden = {
+
+			allowed = {
+				always = no
+			}
            	modifier = {
                 disabled_ideas = 1
            	}

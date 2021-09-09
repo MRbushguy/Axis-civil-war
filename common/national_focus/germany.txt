@@ -1436,10 +1436,7 @@ focus_tree = {
 			add_to_variable = {GER_SS_influence = -10}
 
 			hidden_effect = {
-				swap_ideas = {
-					remove_idea = GER_gridlocked_government_0
-					add_idea = GER_gridlocked_government_1
-				}
+				remove_ideas = GER_gridlocked_government_hidden
 			}
 
 			
@@ -1593,7 +1590,10 @@ focus_tree = {
 		relative_position_id = GER_rebuild_NSDAP
 
 		completion_reward = {
-			#put hitler on a podium for his successes to strengthen nsdap
+			custom_effect_tooltip = GER_glorify_the_feuhrer_completion_tt
+
+			add_to_variable = {GER_NSDAP_influence = 5}
+			add_to_variable = {GER_gridlocked_government_advisor_cost = 0.05}
 
 		}
 

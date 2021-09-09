@@ -364,8 +364,6 @@ GER_gridlocked_government_dynamic_modifier = {
 	
 	political_advisor_cost_factor = GER_gridlocked_government_advisor_cost
 	political_power_factor = GER_gridlocked_government_political_power
-	max_surrender_limit_offset = GER_gridlocked_government_surrender_limit
-	party_popularity_stability_factor =  GER_gridlocked_government_stability_offset
 	resistance_growth = GER_gridlocked_government_resistance
 	compliance_growth = GER_gridlocked_government_compliance
 
