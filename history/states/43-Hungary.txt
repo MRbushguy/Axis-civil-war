@@ -16,7 +16,9 @@ state={
 			air_base = 4
 
 		}
-		
+		victory_points = {
+			9660 20 
+		}
 		add_core_of = HUN
 
 	}
@@ -24,7 +26,7 @@ state={
 	provinces={
 		684 716 3713 3731 6716 6751 9690 11520 
 	}
-	manpower=1750752
+	manpower=3750752
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_city
 }

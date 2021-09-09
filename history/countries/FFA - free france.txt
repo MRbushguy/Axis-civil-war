@@ -1,4 +1,4 @@
-﻿capital = 556
+﻿capital = 844
 
 oob = "FFA_1947"
 
@@ -99,4 +99,13 @@ create_country_leader = {
 		defense_skill = 3
 		planning_skill = 3
 		logistics_skill = 4
+	}
+
+	add_ideas = {
+
+		FFA_widespread_defeatism
+		FFA_nonexistent_economy
+		FFA_colonial_government
+		FFA_foreign_aid
+
 	}

@@ -1,0 +1,92 @@
+ideas = {
+
+	country = {
+
+
+		FFA_widespread_defeatism = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.9
+				war_support_weekly = -0.1
+			}
+			
+		}
+
+		FFA_nonexistent_economy = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				production_speed_buildings_factor = -1.0
+				industrial_capacity_factory = -0.75
+
+			}
+			
+		}
+
+		FFA_colonial_government = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				conscription_factor = -0.65
+
+			}
+		}
+
+		FFA_foreign_aid = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.05
+
+			}
+
+		}
+
+
+		FRA_foreign_worker_program = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FRA
+			}
+
+			modifier = {
+				#represents workers that are still in germany working in factories
+				political_power_gain = -0.05
+				conscription_factor = -0.15
+				production_factory_max_efficiency_factor  = -0.15
+				production_speed_buildings_factor = -0.1
+
+			}
+
+
+		}
+
+		
+
+		
+
+
+
+	}
+}

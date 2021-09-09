@@ -1,17 +1,18 @@
 state={
-	id=777
-	name="STATE_777"
+	id=844
+	name="STATE_844"
 
-	history={
+		history={
 		owner = FRA
-		add_core_of = TOG
+		add_core_of = SEN
 		victory_points = {
-			1951 1
+			4948 5 
 		}
 		buildings = {
 			infrastructure = 3
-			1951 = {
-				naval_base = 1
+			air_base = 4
+			4948 = {
+				naval_base = 3
 
 			}
 
@@ -19,14 +20,16 @@ state={
 		1947.1.1 = {
 			owner = FFA
 			controller = FFA
-			add_core_of = FFA
+			add_core_of = FRA
+
 		}
+
 	}
 
 	provinces={
-		1951 12843 13212
+		4948 
 	}
-	manpower=1101346
+	manpower=638000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=city
 }
