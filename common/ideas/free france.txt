@@ -11,9 +11,9 @@ ideas = {
 				original_tag = FFA
 			}
 			modifier = {
-				stability_factor = -0.2
+				stability_factor = -0.45
 				war_support_factor = -0.9
-				war_support_weekly = -0.1
+				war_support_weekly = -0.01
 			}
 			
 		}
@@ -26,9 +26,24 @@ ideas = {
 				original_tag = FFA
 			}
 			modifier = {
-				stability_factor = -0.2
+				stability_factor = -0.40
 				war_support_factor = -0.8
-				war_support_weekly = -0.1
+				war_support_weekly = -0.005
+			}
+			
+		}
+
+		FFA_widespread_defeatism_2 = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				stability_factor = -0.35
+				war_support_factor = -0.7
+				war_support_weekly = -0.05
 			}
 			
 		}
@@ -99,6 +114,21 @@ ideas = {
 			modifier = {
 				production_speed_buildings_factor = 0.1
 				industrial_capacity_factory = 0.05
+
+			}
+
+		}
+
+		FFA_foreign_aid_1 = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.1
 
 			}
 

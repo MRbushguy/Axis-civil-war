@@ -88,10 +88,7 @@
 			add_political_power = -25
 			add_stability = -0.05
 
-			swap_ideas = {
-				remove_idea = FFA_widespread_defeatism_0
-				add_idea = FFA_widespread_defeatism_1
-			}
+			FFA_decrease_widespread_defeatism = yes
 			
 
 			
@@ -164,7 +161,7 @@
 
 	focus = {
 
-		id = FFA_who_we_must_avenge
+		id = FFA_those_who_turned_away
 		#icon
 
 		prerequisite = {focus = FFA_what_was_taken}
@@ -181,12 +178,44 @@
 		relative_position_id = FFA_what_was_taken
 
 		completion_reward = {
-			add_political_power = -50
+			add_political_power = -60
 			
 			swap_ideas = {
-				remove_idea = FFA_colonial_government_0
-				add_idea = FFA_colonial_government_1
+				remove_idea = FFA_foreign_aid_0
+				add_idea = FFA_foreign_aid_1
 			}
+			
+			
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_who_we_must_avenge
+		#icon
+
+		prerequisite = {focus = FFA_what_we_must_replace}
+		prerequisite = {focus = FFA_what_we_left_behind}
+		prerequisite = {focus = FFA_those_who_turned_away}
+
+		allowed = {}
+
+
+
+		x = 0
+		y = 2
+
+		cost = 4
+
+		relative_position_id = FFA_what_was_taken
+
+		completion_reward = {
+			add_political_power = -60
+			
+			FFA_decrease_widespread_defeatism = yes
 			
 			
 

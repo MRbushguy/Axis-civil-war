@@ -1,4 +1,26 @@
 
+
+FFA_decrease_widespread_defeatism = {
+	
+	if = {
+		limit = { has_idea = FFA_widespread_defeatism_0 }
+		swap_ideas = {
+			remove_idea = FFA_widespread_defeatism_0
+			add_idea = FFA_widespread_defeatism_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = FFA_widespread_defeatism_1 }
+		swap_ideas = {
+			remove_idea = FFA_widespread_defeatism_1
+			add_idea = FFA_widespread_defeatism_2
+		}
+	}
+
+
+
+}
+
 GER_increase_plunder_economy = {
 
 	if = {
