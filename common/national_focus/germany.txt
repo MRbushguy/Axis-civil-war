@@ -198,6 +198,8 @@ focus_tree = {
 			add_to_variable = {GER_NSDAP_influence = 5}
 			add_to_variable = {GER_militarist_influence = 5}
 
+			GER_faction_cleanup = yes
+
 			add_to_variable = {GER_depleted_wehrmacht_conscription_factor = 0.10}
 			add_to_variable = {GER_depleted_wehrmacht_army_org = 0.05}
 			add_to_variable = {GER_depleted_wehrmacht_production = 0.02}
@@ -285,6 +287,8 @@ focus_tree = {
 
 			add_to_variable = {GER_ss_influence = -5}
 			add_to_variable = {GER_waffen_ss_influence = -5}
+
+			GER_faction_cleanup = yes
 
 			add_to_variable = {GER_blitzkrieg_dependence_speed = -0.05}
 			add_to_variable = {GER_blitzkrieg_dependence_attrition = -0.1}
@@ -690,6 +694,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = {GER_wehrmacht_influence = 5}
+			GER_faction_cleanup = yes
 
 			add_to_variable = {GER_depleted_wehrmacht_conscription = 0.005}
 			add_to_variable = {GER_depleted_wehrmacht_production = 0.02}
@@ -1248,6 +1253,9 @@ focus_tree = {
 			custom_effect_tooltip = GER_limit_generalplan_completion_tt
 			add_to_variable = {GER_NSDAP_influence = 5}
 			add_to_variable = {GER_refnaz_influence = 5}
+
+			GER_faction_cleanup = yes
+
 			hidden_effect = {
 				add_days_mission_timeout = {
 					mission = GER_ticking_plunder_economy
@@ -1435,6 +1443,8 @@ focus_tree = {
 			add_to_variable = {GER_NSDAP_influence = -10}
 			add_to_variable = {GER_SS_influence = -10}
 
+			GER_faction_cleanup = yes
+
 			hidden_effect = {
 				remove_ideas = GER_gridlocked_government_hidden
 			}
@@ -1469,6 +1479,9 @@ focus_tree = {
 			custom_effect_tooltip = GER_rebuild_NSDAP_completion_tt
 
 			add_to_variable = {GER_NSDAP_influence = -5}
+
+			GER_faction_cleanup = yes
+
 			add_to_variable = {GER_gridlocked_government_advisor_cost = -0.05}
 			add_to_variable = {GER_gridlocked_government_political_power = 0.05}
 
@@ -1593,6 +1606,9 @@ focus_tree = {
 			custom_effect_tooltip = GER_glorify_the_fuhrer_completion_tt
 
 			add_to_variable = {GER_NSDAP_influence = 5}
+
+			GER_faction_cleanup = yes
+
 			add_to_variable = {GER_gridlocked_government_advisor_cost = 0.1}
 
 		}
@@ -1845,6 +1861,9 @@ focus_tree = {
 			custom_effect_tooltip = GER_SS_business_ventures_completion_tt
 
 			add_to_variable = {GER_SS_influence = -5}
+
+			GER_faction_cleanup = yes
+
 			add_to_variable = {GER_gridlocked_government_advisor_cost = -0.05}
 			add_to_variable = {GER_gridlocked_government_political_power = 0.05}
 
@@ -1953,6 +1972,9 @@ focus_tree = {
 
 			add_to_variable = {GER_NSDAP_influence = 5}
 			add_to_variable = {GER_SS_influence = 5}
+
+			GER_faction_cleanup = yes
+
 			swap_ideas = {
 				remove_idea = GER_ongoing_holocaust
 				add_idea = GER_increased_holocaust
@@ -2814,6 +2836,8 @@ focus_tree = {
 			add_war_support = 0.05
 			add_to_variable = {GER_militarist_influence = 10}
 
+			GER_faction_cleanup = yes
+
 
 		}
 
@@ -2839,6 +2863,8 @@ focus_tree = {
 			custom_effect_tooltip = GER_methods_of_victory_completion_tt
 
 			add_to_variable = {GER_militarist_influence = -5}
+
+			GER_faction_cleanup = yes
 
 			remove_ideas = GER_jewish_science_1
 
