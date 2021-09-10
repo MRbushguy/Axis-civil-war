@@ -103,9 +103,9 @@ create_country_leader = {
 
 	add_ideas = {
 
-		FFA_widespread_defeatism
-		FFA_nonexistent_economy
-		FFA_colonial_government
-		FFA_foreign_aid
+		FFA_widespread_defeatism_0
+		FFA_nonexistent_economy_0
+		FFA_colonial_government_0
+		FFA_foreign_aid_0
 
 	}

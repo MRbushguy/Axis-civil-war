@@ -1,0 +1,394 @@
+﻿focus_tree = {
+	id = free_france
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 11
+			tag = FFA
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	
+	focus = {
+
+		id = FFA_end_of_the_line
+		#icon
+
+		prerequisite = {}
+
+		allowed = {}
+
+
+
+		x = 20
+		y = 1
+
+		cost = 4
+
+
+		completion_reward = {
+			add_political_power = -50
+
+			844 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 3
+					instant_build = yes
+				}
+
+			}
+
+			779 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+				}
+
+			}
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_what_was_taken
+		#icon
+
+		prerequisite = {focus = FFA_end_of_the_line}
+
+		allowed = {}
+
+
+
+		x = -6
+		y = 1
+
+		cost = 4
+
+		relative_position_id = FFA_end_of_the_line
+
+		completion_reward = {
+			add_political_power = -25
+			add_stability = -0.05
+
+			swap_ideas = {
+				remove_idea = FFA_widespread_defeatism_0
+				add_idea = FFA_widespread_defeatism_1
+			}
+			
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_what_we_must_replace
+		#icon
+
+		prerequisite = {focus = FFA_what_was_taken}
+
+		allowed = {}
+
+
+
+		x = -3
+		y = 1
+
+		cost = 4
+
+		relative_position_id = FFA_what_was_taken
+
+		completion_reward = {
+			add_political_power = -25
+			
+
+			add_ideas = FFA_unreliable_rifles
+			
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_what_we_left_behind
+		#icon
+
+		prerequisite = {focus = FFA_what_was_taken}
+
+		allowed = {}
+
+
+
+		x = 0
+		y = 1
+
+		cost = 4
+
+		relative_position_id = FFA_what_was_taken
+
+		completion_reward = {
+			add_political_power = -50
+			
+			swap_ideas = {
+				remove_idea = FFA_nonexistent_economy_0
+				add_idea = FFA_nonexistent_economy_1
+			}
+			
+			
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_who_we_must_avenge
+		#icon
+
+		prerequisite = {focus = FFA_what_was_taken}
+
+		allowed = {}
+
+
+
+		x = 3
+		y = 1
+
+		cost = 4
+
+		relative_position_id = FFA_what_was_taken
+
+		completion_reward = {
+			add_political_power = -50
+			
+			swap_ideas = {
+				remove_idea = FFA_colonial_government_0
+				add_idea = FFA_colonial_government_1
+			}
+			
+			
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_what_we_have_left
+		#icon
+
+		prerequisite = {focus = FFA_end_of_the_line}
+
+		allowed = {}
+
+
+
+		x = 6
+		y = 1
+
+		cost = 4
+
+		relative_position_id = FFA_end_of_the_line
+
+		completion_reward = {
+			add_political_power = -75
+			844 = {
+				add_extra_state_shared_building_slots = 5
+			}
+			779 = {
+				add_extra_state_shared_building_slots = 3
+			}
+			776 = {
+				add_extra_state_shared_building_slots = 2
+			}
+			777 = {
+				add_extra_state_shared_building_slots = 2
+			}				
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_those_who_came_with_us
+		#icon
+
+		prerequisite = {focus = FFA_what_we_have_left}
+
+		allowed = {}
+
+
+
+		x = -3
+		y = 1
+
+		cost = 4
+
+		relative_position_id = FFA_what_we_have_left
+
+		completion_reward = {
+			add_political_power = -50
+
+			add_ideas = FFA_french_legion_remnants_0
+
+							
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_who_was_here_before
+		#icon
+
+		prerequisite = {focus = FFA_what_we_have_left}
+
+		allowed = {}
+
+
+
+		x = 0
+		y = 1
+
+		cost = 4
+
+		relative_position_id = FFA_what_we_have_left
+
+		completion_reward = {
+			add_political_power = -50
+			add_stability = -0.1
+			swap_ideas = {
+				remove_idea = FFA_colonial_government_0
+				add_idea = FFA_colonial_government_1
+			}
+			
+
+							
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_what_we_found_here
+		#icon
+
+		prerequisite = {focus = FFA_what_we_have_left}
+
+		allowed = {}
+
+
+
+		x = 3
+		y = 1
+
+		cost = 4
+
+		relative_position_id = FFA_what_we_have_left
+
+		completion_reward = {
+			add_political_power = -75
+
+			844 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			780 = {
+				add_resource = {
+					type = aluminium
+					amount = 6
+				}
+
+			}
+
+			779 = {
+				add_resource = {
+					type = steel
+					amount = 3
+				}
+
+			}
+			
+		}
+
+	}
+
+	
+
+	focus = {
+
+		id = FFA_what_the_future_holds
+		#icon
+
+		prerequisite = {focus = FFA_end_of_the_line}
+
+		allowed = {}
+
+
+
+		x = 0
+		y = 3
+
+		cost = 4
+
+		relative_position_id = FFA_end_of_the_line
+
+		completion_reward = {
+			add_political_power = 100
+			
+			
+
+							
+
+			
+		}
+
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+}
