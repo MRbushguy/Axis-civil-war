@@ -375,6 +375,36 @@
 
 	}
 
+	focus = {
+
+		id = FFA_what_we_have_to_build
+		#icon
+
+		prerequisite = {focus = FFA_those_who_came_with_us}
+		prerequisite = {focus = FFA_who_was_here_before}
+		prerequisite = {focus = FFA_what_we_found_here}
+
+		allowed = {}
+
+
+
+		x = 0
+		y = 2
+
+		cost = 4
+
+		relative_position_id = FFA_what_we_have_left
+
+		completion_reward = {
+			add_political_power = -75
+
+			
+			
+		}
+
+	}
+
+
 	
 
 	focus = {

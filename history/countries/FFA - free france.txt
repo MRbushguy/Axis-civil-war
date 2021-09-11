@@ -79,9 +79,9 @@ create_country_leader = {
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic_center = 28
-		communism = 15
-		socialism = 11
+		fascism = 4
+		democratic_center = 10
+		authoritarianism = 40
 		democratic_right = 46
 	}
 
