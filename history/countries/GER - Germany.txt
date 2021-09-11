@@ -213,8 +213,6 @@ set_variable = {GER_blitzkrieg_dependence_experience = 0.35}
 set_variable = {GER_gridlocked_government_disabled_ideas = 1}	
 set_variable = {GER_gridlocked_government_advisor_cost = 0.5}	
 set_variable = {GER_gridlocked_government_political_power = -0.5}
-set_variable = {GER_gridlocked_government_surrender_limit = -0.5}
-set_variable = {GER_gridlocked_government_stability_offset = -0.3}
 set_variable = {GER_gridlocked_government_resistance = 0.05}
 set_variable = {GER_gridlocked_government_compliance = -0.05}
 
@@ -1100,12 +1098,13 @@ create_equipment_variant = {
 		mauser
 
 		GER_depleted_army_0
+		GER_blitzkrieg_dependence
+		GER_gridlocked_government
+		GER_gridlocked_government_hidden
+		GER_german_depression_1
+		GER_jewish_science_0
 		GER_ongoing_holocaust
 		GER_plunder_economy_1
-		GER_blitzkrieg_dependence
-		GER_gridlocked_government_0
-		GER_german_depression_1
-		GER_jewish_science
 
 		#laws
 		war_economy

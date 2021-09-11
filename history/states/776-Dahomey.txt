@@ -20,6 +20,7 @@ state={
 		1947.1.1 = {
 			owner = FFA
 			controller = FFA
+			add_core_of = FFA
 		}
 	}
 

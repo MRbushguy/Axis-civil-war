@@ -344,4 +344,10 @@ spriteTypes = {
 		name = "GFX_focus_real_illyria"
 		texturefile = "gfx/interface/goals/GFX_focus_real_illyria.dds"
 	}
+	SpriteType = {
+		name = "GFX_split_of_alb"
+		texturefile = "gfx/interface/goals/GFX_split_of_alb.dds"
+	}
+	
+
 

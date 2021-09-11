@@ -67,4 +67,31 @@ create_country_leader = {
 	traits = {
 		dictator
 	}
+
+
+1947.1.1 = {
+
+	oob = CHI_1947
+	add_to_faction = SIK
+	add_to_faction = XSM
+
+	set_politics = {
+		ruling_party = authoritarianism
+		last_election = "1937.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		democratic_left = 0
+		democratic_center = 0
+		democratic_right = 0
+		fascism = 0
+		national_socialism = 80
+		socialism = 0
+		communism = 0
+		authoritarianism = 20
+	}
+
+}
 }

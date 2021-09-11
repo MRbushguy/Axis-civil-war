@@ -550,15 +550,30 @@ if = {
 	}
 }
 1947.1.1 = {
-	set_cosmetic_tag = HOL_reichskommissariat
-	oob = HOL_1947
+
+	oob = CHI_1947
+	add_to_faction = SIK
+	add_to_faction = XSM
 
 	set_politics = {
-		ruling_party = national_socialism
-		last_election = "1933.3.5"
+		ruling_party = authoritarianism
+		last_election = "1937.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
+
+	set_popularities = { #Not Final
+		democratic_left = 2
+		democratic_center = 2
+		democratic_right = 16
+		fascism = 0
+		national_socialism = 60
+		socialism = 0
+		communism = 10
+		authoritarianism = 10
+	}
+
+
 
 	add_ideas = {
 		resistance_0

@@ -222,10 +222,30 @@ ITA_Balbo = {
 			}
 		}
 	}
-
 }
 
+
 ITA_industry_agriculture = {
+
+ITA_kickstart_industrialization = {
+
+		allowed = {
+			tag = ITA
+		}
+
+		available = {
+
+		}
+
+		cost = 1
+
+		days_remove = 0
+
+		complete_effect = {
+			add_to_variable = {ITA_industry_value = 5}
+		}
+	}
+
 	
 	ITA_increase_industry = {
 
@@ -270,30 +290,12 @@ ITA_industry_agriculture = {
 
 	}
 
-	ITA_start_hunting_mafia = {
+}
 
-		icon = generic_civil_support
+ITA_empire_stage_1 = {
 
-		allowed = {
-			tag = ITA
-		}
 
-		available = {
-
-		}
-
-		cost = 1
-
-		days_remove = 0
-
-		complete_effect = {
-
-		add_stability = 0.05
-
-		}
-	}
-
-	ITA_start_finishing_mafia = {
+ITA_next_empire_phase = {
 
 		icon = generic_civil_support
 
@@ -301,19 +303,202 @@ ITA_industry_agriculture = {
 			tag = ITA
 		}
 		
-		available = {
+		 visible = {
+               has_completed_focus = learning_how_to_empire
+          }
 
-		}
+          available = {
+
+          has_decision = ITA_stabalize_garrison_IOC
+
+          has_decision = ITA_stabalize_IEA
+
+          has_decision = ITA_stabalize_ICA
+
+          has_decision = ITA_stabalize_IME
+
+          has_decision = ITA_stabalize_IGL
+
+          }
 
 		cost = 1
 
-		days_remove = 0
+		days_remove = 30
+
+		 remove_effect = {
+            swap_ideas = { remove_idea = extreme_overstretch_empire_1  add_idea = extreme_overstretch_empire_2  }
+          }
+
+		fire_only_once = yes
 
 		complete_effect = {
 
-			add_stability = 0.05
+		custom_effect_tooltip = "ITA_empire_colonies_phase"
+
+
 
 		}
 	}
+
+
+
+	ITA_stabalize_IEA = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+		
+		visible  = {
+		has_completed_focus = learning_how_to_empire
+	}
+
+		cost = 1
+
+		days_remove = 30
+
+		fire_only_once = yes
+
+		complete_effect = {
+
+
+		}
+	}
+
+
+ITA_stabalize_IME = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+		
+		 visible = {
+               has_completed_focus = learning_how_to_empire
+          }
+
+		cost = 1
+
+		days_remove = 30
+
+		fire_only_once = yes
+
+		complete_effect = {
+
+
+		}
+	}
+
+ITA_stabalize_ICA = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+		
+		visible  = {
+		has_completed_focus = learning_how_to_empire
+	}
+
+		cost = 1
+
+		days_remove = 30
+
+		fire_only_once = yes
+
+		complete_effect = {
+
+
+		}
+	}
+
+
+ITA_stabalize_IGL = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+		
+		visible  = {
+		has_completed_focus = learning_how_to_empire
+	}
+
+		cost = 1
+
+		days_remove = 30
+
+		fire_only_once = yes
+
+		complete_effect = {
+
+
+		}
+	}
+
+
+ITA_stabalize_garrison_IOC = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			tag = ITA
+		}
+		
+		visible  = {
+		has_completed_focus = learning_how_to_empire
+	}
+
+		cost = 1
+
+		days_remove = 30
+
+		fire_only_once = yes
+
+		complete_effect = {
+
+
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

@@ -20,13 +20,11 @@ state={
 			}
 
 		}
-		add_core_of = IOC
 		1939.1.1 = {
 
 		}
 		1947.1.1 = {
 			owner = IOC
-			controller = IOC
 		}
 	}
 

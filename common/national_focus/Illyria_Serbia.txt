@@ -1096,7 +1096,7 @@ focus_tree = {
 		}
 	focus = {
 		id = SER_purpose_split_of_albania
-		icon = GFX_unknow
+		icon = GFX_split_of_alb
 		cost = 05.00
 		prerequisite = {
 			focus = SER_clean_the_Banat
@@ -1223,6 +1223,134 @@ focus_tree = {
 			}
 		x = 18
 		y = 5
+		}
+	
+	focus = {
+		id = SER_army_modernisation
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10.00
+		prerequisite = {
+			focus = SER_true_Illyria
+		}
+		x =  12 
+		y =  2 
+		
+		completion_reward = {
+			army_experience = 25
+		}
+		}
+		
+	focus = {
+		id = SER_small_arms
+		icon = GFX_goal_generic_small_arms
+		cost = 08.00
+		prerequisite = {
+			focus = SER_army_modernisation
+			}
+		x = 12 
+		y = 3 
+		completion_reward = {
+			add_tech_bonus = {
+				name = YUG_small_arms
+				bonus = 1.00
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+		}
+	
+	focus = {
+		id = SER_domestic_artillery_production
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = SER_small_arms
+			}
+		x = 12 
+		y = 4 
+		completion_reward = {
+			add_tech_bonus = {
+				name = YUG_domestic_artillery_production
+				bonus = 1.00
+				uses = 1
+				category = artillery
+			}
+		}
+		}
+		
+	focus = {
+		id = SER_anti_tank_defenses
+		icon = GFX_goal_generic_army_artillery2
+		cost = 10.00
+		prerequisite = {
+			focus = SER_anti_air_defenses
+			}
+		x = 12
+		4 = 5 
+		completion_reward = {
+			add_tech_bonus = {
+				name = YUG_anti_tank_defenses
+				bonus = 3.0
+				uses = 1
+				category = cat_anti_tank
+			}
+		}
+		}
+	
+	focus = {
+		id = SER_motorise_cavarly
+		icon = GFX_goal_generic_cavalry
+		cost = 10.00
+		prerequisite = {
+			focus = SER_army_modernisation
+			}
+		x = 11
+		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				name = YUG_motorize_the_cavalry
+				bonus = 3.0
+				technology = motorised_infantry
+			}
+		}
+		}
+	
+	focus = {
+		id = SER_armored_cavarly
+		icon = GFX_goal_generic_build_tank
+		cost = 10.00
+		prerequisite = {
+			focus = SER_motorise_the_cavarly
+			}
+		x = 11 
+		y = 4
+		completion_reward = {
+			add_tech_bonus = {
+				name = YUG_armored_cavalry
+				bonus = 1.0
+				uses = 1
+				category = cat_mechanized_equipment
+			}
+		}
+		}
+	
+	focus = {
+		id = SER_modern_tanks
+		icon = GFX_goal_generic_army_tanks
+		cost = 10.00
+		prerequisite = {
+			focus = SER_armored_cavarly
+			}
+		x = 11 
+		y = 5
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = YUG_modern_tanks
+				bonus = 1.0
+				uses = 1
+				category = armor
+			}
 		}
 
 }

@@ -1,4 +1,4 @@
-﻿capital = 556
+﻿capital = 844
 
 oob = "FFA_1947"
 
@@ -79,9 +79,9 @@ create_country_leader = {
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic_center = 28
-		communism = 15
-		socialism = 11
+		fascism = 4
+		democratic_center = 10
+		authoritarianism = 40
 		democratic_right = 46
 	}
 
@@ -99,4 +99,13 @@ create_country_leader = {
 		defense_skill = 3
 		planning_skill = 3
 		logistics_skill = 4
+	}
+
+	add_ideas = {
+
+		FFA_widespread_defeatism_0
+		FFA_nonexistent_economy_0
+		FFA_colonial_government_0
+		FFA_foreign_aid_0
+
 	}

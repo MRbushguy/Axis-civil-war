@@ -7,6 +7,37 @@ set_technology = {
 
 set_convoys = 20
 
+
+809 = {
+	start_resistance = yes
+	set_compliance = 25
+	set_resistance = 10
+	set_garrison_strength = 1.0
+}
+
+
+808 = {
+	start_resistance = yes
+	set_compliance = 25
+	set_resistance = 10
+	set_garrison_strength = 1.0
+}
+
+
+137 = {
+	start_resistance = yes
+	set_compliance = 25
+	set_resistance = 10
+	set_garrison_strength = 1.0
+}
+
+
+
+
+
+
+
+
 1939.1.1 = {
 
 	#generic focuses

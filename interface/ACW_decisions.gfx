@@ -6,12 +6,12 @@ spriteTypes = {
 
 	progressbartype = {
 		name = "GFX_industry_progressbar_long"
-		color = { 2 235 2}
-		colortwo = { 2 235 2}
-		textureFile1 = "gfx/interface/decisions/interior_bar.dds"
-		textureFile2 = "gfx/interface/decisions/exterior_bar.dds"
-		size = { x = 186 y = 32}
-		#effectFile = "gfx/FX/progress.lua"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/decisions/subject_progress_bar_long.dds"
+		textureFile2 = "gfx/interface/decisions/subject_progress_bar_long_bg.dds"
+		size = { x = 181 y = 32 }
+		effectFile = "gfx/FX/progress.lua"
 	}
 
 	spriteType = {

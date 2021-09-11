@@ -23,6 +23,8 @@ ideas = {
 				army_attack_factor = 0.05
 				army_defence_factor = 0.10
 				army_org_factor = 0.10
+				resistance_damage_to_garrison = -0.2
+				resistance_garrison_penetration_chance = -0.25
 
 			}
 		}
@@ -103,7 +105,7 @@ ideas = {
 
 
 
-		GER_jewish_science = {
+		GER_jewish_science_0 = {
 
 			picture = jewish_science
 
@@ -121,6 +123,29 @@ ideas = {
 				production_speed_nuclear_reactor_factor = -10
 				research_speed_factor = -0.25
 				political_power_gain = 0.2
+
+			}
+
+		}
+
+		GER_jewish_science_1 = {
+
+			picture = jewish_science
+
+			allowed = {
+				always = no
+			}
+
+			research_bonus = {
+				nuclear = -0.50
+			}
+
+
+			modifier = {
+
+				production_speed_nuclear_reactor_factor = -5
+				research_speed_factor = -0.15
+				political_power_gain = 0.1
 
 			}
 
@@ -430,22 +455,7 @@ ideas = {
 			}
 		}
 
-		GER_gridlocked_government_0 = {
-			#picture = blitz_dep
-
-			allowed = {
-				original_tag = GER
-			}
-
-			modifier = {
-				disabled_ideas = 1
-				#dummy
-
-			}
-
-		}
-
-		GER_gridlocked_government_1 = {
+		GER_gridlocked_government = {
 			#picture = blitz_dep
 
 			allowed = {
@@ -458,6 +468,9 @@ ideas = {
 			}
 
 		}
+
+		
+
 
 
 		GER_construction_project = {
@@ -1861,6 +1874,16 @@ ideas = {
 	}
 
 	hidden_ideas = {
+
+		GER_gridlocked_government_hidden = {
+
+			allowed = {
+				always = no
+			}
+           	modifier = {
+                disabled_ideas = 1
+           	}
+      	}
 
 		fascism_drift_ARG = {
 

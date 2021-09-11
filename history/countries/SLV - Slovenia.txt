@@ -40,8 +40,23 @@ set_popularities = {
 		election_frequency = 36
 		elections_allowed = no
 	}
+
+	set_popularities = {
+		democratic_left = 2
+		democratic_center = 2
+		democratic_right = 16
+		fascism = 8
+		national_socialism = 2
+		socialism = 8
+		communism = 17
+		authoritarianism = 45
+	}
+
+	
 	add_ideas = {
 		Part_of_Illyria
 	}
 }
+
+
 

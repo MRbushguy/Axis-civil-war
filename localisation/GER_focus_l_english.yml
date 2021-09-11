@@ -6,9 +6,9 @@ GER_nazi_annual_congress:0 "The German Annual Congress"
 GER_nazi_annual_congress_desc:0 "In this year of the German Reich's ascendency, 1947, Germany stands at the peak of its power. An annual congress has been planned to address the final flaws in our great nation. Adolf Hitler himself will give a speech decrying the last vestiges of the old order to be swept away."
 GER_address_the_military:0 "Address the Military"
 GER_address_the_military_desc:0 "The German military is in a strange position. First and foremost, the running of the country's defense forces is now divided up, as the originial Wehrmacht and the rising Waffen-SS compete for dominance. In addition, many in the military are unsure of what path to take, be it conquest, or a simple defensive strategy. Regardless, the development of Italian weapons technology shows that the Army has to compromise on values that it once held so dear if it hopes to survive."
-GER_social_situation:0 "Internal Affairs"
-GER_social_situation_desc:0 "Beneath a veneer of unity, high-ranking german officials are engaged in brutal wars of influence, paralyzing our ability to govern. This practice must come to an end, for the good of the nation."
-GER_social_situation_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §R-10§! Influence \n£decision_faction_ger_ss_small §YS.S. §!: §R-10§! Influence \n\nModify §YGridlocked Government§! by \n Cannot assign ministers and laws: §G Yes §! "
+GER_internal_affairs:0 "Internal Affairs"
+GER_internal_affairs_desc:0 "Beneath a veneer of unity, high-ranking German officials are engaged in brutal wars of influence, paralyzing our ability to govern. This practice must come to an end, for the good of the nation."
+GER_internal_affairs_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §R-10§! Influence \n£decision_faction_ger_ss_small §YS.S. §!: §R-10§! Influence \n\nModify §YGridlocked Government§! by \n Cannot assign ministers and laws: §G Yes §! "
   #left branch
 GER_exploit_the_east:0 "Exploit the colonies"
   #wehrmacht branch
@@ -16,9 +16,9 @@ GER_exploit_the_east_desc:0 "Despite the war coming to an end, our economy is st
 GER_plunder_tt:1 "Unlocks decisions: £decision_icon_small §YExploit the Colonies§!\n§RFailing to keep the economy running could result in serious social consequences!§!"
 GER_integrate_denmark:0 "Integrate Denmark"
 GER_integrate_denmark_completion_tt:0 "\nModify §YSeverely Depleted Army§! by: \nRecruitable Population Factor: §G+5%§!\nFactory Output: §G+2.00%§!\nDockyard Output: §G+2.00%§!"
-GER_integrate_denmark_desc:0 "Ever since we invaded the country, denmark has been slowly integrated into the german social and political system. All that remains is for us to integrate them into our conscription routines."
-GER_wehrmacht_conquests:0 "Wehrmacht Conquests"
-GER_wehrmacht_conquests_desc:0 "Eastern territories, most notably Ukraine, are beginning to slip from our grasp. Germany depends on these territories for vital resources - but perhaps a successful military intervention in the region would help our cause?"
+GER_integrate_denmark_desc:0 "Through the course of the war, The Danish people have become as Germans as Bavarians are. And Denmark has been slowly integrated into the German social and political system. All that remains is for us to integrate them into our conscription routines."
+GER_wehrmacht_conquests:0 "Peacekeeping in the East"
+GER_wehrmacht_conquests_desc:0 "Amidst all the Chaos following the consolidation of The Eastern territories, some of them, most notably Ukraine, are beginning to slip from our grasp. Germany depends on these territories for vital resources and most notably, grain - but perhaps a successful military intervention in the region would help calming things down"
 GER_wehrmacht_conquests_support_requirement_tt:0 "More than §O5§! influence from the £decision_faction_ger_wehr_small §YWehemacht§!"
 GER_wehrmacht_recruitment:0 "Wehrmacht Recruitment"
 GER_wehrmacht_recruitment_desc:0 "Ever since the blistering string of defeats of the Wehrmacht in the soviet campaign, new recruits have been flowing to the side of the SS. By reminding Germans of the victorious campaigns in the west, we will encourage some new recruitment to our ranks."
@@ -37,8 +37,8 @@ GER_prepare_for_urban_combat:0 "Prepare for Urban Combat"
 GER_prepare_for_urban_combat_desc:0 "We don't know everything about the coming struggle, but we know it will be fought in the heart of Germany. We will use our knowledge of the terrain to, if we must fight, fight a battle for survival in the very streets."
 GER_urban_combat_support_requirement_tt:0 "More than §O75§! influence from the £decision_faction_ger_wehr_small §YWehemacht§!"
 GER_state_of_the_art:0 "State of the Art"
-GER_state_of_the_art_desc:0 "For too long, the technology of Germany has been bled to the soul-sucking monsters which run the Waffen-SS. No more! German research will once again be directed to the true German army."
-GER_state_of_the_art_completion_tt:0 "Adds §Y200 points§! to arms and equipment research. \nAdds §Y50 points§! to tank research."
+GER_state_of_the_art_desc:0 "For too long, the greatest technological minds of Germany have been wasted feeding the soul-sucking monsters that is the Waffen-SS. No more! German Military research will once again be directed to the true German army. \n\nThe Wehrmacht!"
+GER_state_of_the_art_completion_tt:0 "Adds §Y200 points§! to arms and equipment research. \nAdds §Y50 points§! to tank research.\n\n§YThe points can be used to invest in Wunderwaffe weapons§!"
 GER_wehrmacht_involvement:0 "Wehrmacht Involvement"
 GER_wehrmacht_involvement_desc:0 "The situation in Ukraine has escalated far beyond what was projected by our analysts, and could escalate enough to threaten German dominance in the east. We must intervene, and consider the possibility of cooperating with our rivals."
 GER_ukraine_wehrmacht_completion_tt:0 "Unlocks decisions: £decision_icon_small §YMilitary Involvement in Ukraine§!"
@@ -62,6 +62,8 @@ GER_deal_with_the_grain_harvest:0 "Deal with the Grain Harvest"
 GER_deal_with_the_grain_harvest_desc:0 "As we transitioned our food sources to come from the grain-rich lands of Ukraine, our supply systems were stretched thin. The unrest in Ukraine has pushed them to their limits, and threatens to collapse the German food economy entirely. We must take steps to ensure this does not happen."
 GER_famine_tt:0 "The famine has begun"
 GER_ukraine_general_completion_tt:0 "Unlocks decisions: £decision_icon_small §YRetool food supply lines§!"
+GER_manage_the_west:0 "Oversee the Western Military complex"
+GER_manage_the_east:0 "Rebuild the Eastern Military complex"
 
 
 
@@ -77,27 +79,55 @@ GER_ukraine_reform_completion_tt:0 "Unlocks decisions: £decision_icon_small §Y
 GER_refnaz_and_wehrmacht:0 "Reformists and the Wehrmacht"
 GER_refnaz_and_wehrmacht_desc:0 "Work on it"
 GER_refnaz_and_wehrmacht_completion_tt:0 "£decision_faction_ger_reform_small §YReformists §!: §G+10§! Influence \n£decision_faction_ger_wehr_small §YWehrmacht §!: §R-10§! Influence"
-
 GER_dismantle_mils_tt:0 "§YRemoves ten military factories in German core territory.§!"
-
-
-
-###NSDAP Brach
-GER_rebuild_NSDAP:0 "Rebuild the NSDAP"
-GER_rebuild_NSDAP_desc:0 "With the decline of Hitler's involvement in German affairs, party officials have been sidelined by military officers, and worse, agents of Himmler and the SS. We must reverse this trend by involving the party more in government."
-GER_rebuild_NSDAP_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §G+5§! Influence \n\nModify §YGridlocked Government§! by: \nPolitical Advisor Cost Factor: §G-5%§!\nPolitical Power Gain: §G+5%§!"
-
-
-
-
 GER_limit_general_plan_ost:0 "Limit Generalplan Ost"
 GER_limit_general_plan_ost_desc:0 "For many years, the sole goal of German aggression and conquest has been to tame the East and incorporate it into the Aryan Realm, but the reality of that dream has been one of toil and failure. The final stages of Generalplan Ost have proved costly in both money and lives, and it is in Germany's best interest to halt integration of the eastern territories until a better solution has presented itself."
 GER_limit_generalplan_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §G+5§! Influence \n£decision_faction_ger_reform_small §YReformists §!: §G+5§! Influence\n\n§GDelays the decline of the plunder economy by 40 days.§!\n\n"
+
+
+
+
+###NSDAP Branch
+GER_rebuild_NSDAP:0 "Rebuild the NSDAP"
+GER_rebuild_NSDAP_desc:0 "With the decline of Hitler's involvement in German affairs, party officials have been sidelined by military officers, and worse, agents of Himmler and the SS. We must reverse this trend by involving the party more in government."
+GER_rebuild_NSDAP_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §G+5§! Influence \n\nModify §YGridlocked Government§! by: \nPolitical Advisor Cost Factor: §G-5%§!\nPolitical Power Gain: §G+5%§!"
+GER_glorify_the_feuhrer:0 "Glorify the Fuhrer"
+GER_glorify_the_feuhrer_desc:0 "Adolf hitler is the past and present of the National Socialist movement in Germany, and he will certaintly be part of its future. We must connect our rise with his, so as to gain some legitimacy in the new Germany."
+GER_glorify_the_fuhrer_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §G+5§! Influence \n\nModify §YGridlocked Government§! by: \nPolitical Power Gain: §G+10%§!"
+
+
+
+###SS Branch
+GER_SS_business_ventures:0 "SS Business Ventures"
+GER_SS_business_ventures_desc:0 "The SS has risen far from its lowly start as a guard division, and has since World War 2 expanded into a variety of fields, most notably industry. We can leverage these contacts to aid the government and our position."
+GER_SS_business_ventures_completion_tt:0 "£decision_faction_ger_ss_small §YSS §!: §G+5§! Influence \n\nModify §YGridlocked Government§! by: \nPolitical Advisor Cost Factor: §G-5%§!\nPolitical Power Gain: §G+5%§!"
+
+
 GER_increase_general_plan_ost:0 "Increase Generalplan Ost"
 GER_increase_general_plan_ost_desc:0 "Despite the failures of Generalplan Ost, Germany's final solution is within reach. A soft-hearted bureaucrat would claim the entire endeavor as too costly, but there is only one response to failure in this field - more pressure. The repopulation of the East will be accelerated as much as our means will allow."
 GER_increase_generalplan_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §G+5§! Influence \n£decision_faction_ger_ss_small §YS.S.§!: §G+5§! Influence\n\n§RHastens the decline of the plunder economy by 40 days.§!\n\n"
 
 
+
+
+
+####Militarist Tree
+
+GER_propaganga_warmongering:0 "Propaganda Warmongering"
+GER_propaganga_warmongering_desc:0 "Like it or not, the next war is on the horizon, and the German people must be made aware of this salient fact."
+GER_propaganda_warmongering_completion_tt:0 "£decision_faction_ger_mil_small §YMilitarists§!: §G+10§! Influence"  
+
+GER_methods_of_victory:0 "Methods of Victory"
+GER_methods_of_victory_desc:0 "If we want to defeat the forces arrayed against us, we will require the best the German people have to offer. Enough Germans are willing to give their lives for the cause, but we need more. Only the best Wunderwaffe will ensure our success, and that requires, in secret, removing the politics entirely from our research process."
+GER_methods_of_victory_completion_tt:0 "£decision_faction_ger_mil_small §YMilitarists§!: §R-5§! Influence"
+
+
+
+
+
+
+
+###Foreign Policy Tree
 GER_cancel_tripartite:0 "A brand new enemy"
 GER_cancel_tripartite_desc:0 "The old alliances have been torn away by the fires of war. The dreaded USSR has been vanquished, and the capitalist imperials have been humbled. Meanwhile, Italy has stabbed us in the back and Japan was never more than a tool. We must destroy the last vestiges of the old world to step into the new."
 GER_the_true_enemy:0 "The True Enemy"
@@ -117,7 +147,7 @@ GER_complete_italian_fortline_tt:0 "Finish the wall with §Y52 Land Forts§! on 
 GER_the_swiss_resistance:0 "The Swiss Resistance"
 GER_the_swiss_resistance_desc:0 "The Swiss have proven to be fiercer fighters than we expected, mounting a stubborn resistance against our occupation. We will get them to recognize their aryan heritage - through the carrot or the stick."
 GER_slovenian_claims:0 "Slovenian Claims"
-GER_slovenian_claims_desc:0 "There still remains an ethnic german population in Slovenia which we lay claim to. Perhaps tips to the right people could prove...problematic to the occupying italian forces."
+GER_slovenian_claims_desc:0 "There still remains an ethnic German population in Slovenia which we lay claim to. Perhaps tips to the right people could prove...problematic to the occupying italian forces."
 GER_contacts_in_yugoslavia:0 "Contacts in Yugoslavia"
 GER_contacts_in_yugoslavia_desc:0 "There is no love lost between the italian garrisons and the partisans of Yugoslavia, who hamper italian occupation to this day. If we promise them a measure of independence, they might be swayed to prefer new management."
 GER_use_swiss_banks:0 "Swiss Finances"
@@ -171,7 +201,7 @@ GER_friends_in_the_east_desc:0 "Our relationship with Japan has been rocky at be
 GER_control_of_the_balkans:0 "Control of the balkans"
 GER_control_of_the_balkans_desc:0 "Italy's control of southern europe grows stronger by the hour. We must secure these strategic strongholds or risk losing everything."
 GER_prepare_against_hungary:0 "Prepare against Hungary"
-GER_prepare_against_hungary_desc:0 "Hungary's betrayal over yugoslavian territories still burns. There are elements within the country that would welcome a german presence. Perhaps we could accomnodate them."
+GER_prepare_against_hungary_desc:0 "Hungary's betrayal over yugoslavian territories still burns. There are elements within the country that would welcome a German presence. Perhaps we could accomnodate them."
 GER_bargain_with_slovakia:0 "Bargain with slovakia"
 GER_bargain_with_slovakia_desc:"Hungarian claims on slovakia are quite apparent. If we grant Hungary this relatively minor concession, it could change the balkan formula."
 GER_the_romanian_question:0 "The Romanian question"
@@ -196,11 +226,11 @@ GER_the_soviet_rot_desc:0 "The remains of the soviet union have been banished to
 GER_cross_border_raids:0 "Cross-Border Raids"
 GER_cross_border_raids_desc:0 "We have heard worrying news that the Soviet Union has held firm against the blows we inflicted upon it, and is beginning to rebuild. We must investigate"
 GER_caucasus_oil:0 "The Caucasus Oil"
-GER_caucasus_oil_desc:0 "The oil from the caucasus is the lifeblood of the german machine. If something were to happen to it the results could be...severe." 
+GER_caucasus_oil_desc:0 "The oil from the caucasus is the lifeblood of the German machine. If something were to happen to it the results could be...severe." 
 GER_buffer_state_solution:0 "The Buffer State solution"
 GER_buffer_state_solution_desc:0 "There is a time and place for war, and the caucasus is no place to die for. We will endeavor to find a diplomatic solution - for the moment."
 GER_nationalize_oil:0 "Nationalize the Oil"
-GER_nationalize_oil_desc:0 "The oil in this region is for the german people only. We will disregard our shared system and divert all of our oil to the fatherland."
+GER_nationalize_oil_desc:0 "The oil in this region is for the German people only. We will disregard our shared system and divert all of our oil to the fatherland."
 GER_the_oil_incident:0 "The Oil Incident"
 GER_the_oil_incident_desc:0 "The oilfields in the caucasus have been victimized by an attack that could take years to recover from. Finding the perpetrators is of the utmost importance."
 

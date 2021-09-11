@@ -1,0 +1,190 @@
+ideas = {
+
+	country = {
+
+
+		FFA_widespread_defeatism_0 = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				stability_factor = -0.45
+				war_support_factor = -0.9
+				war_support_weekly = -0.01
+			}
+			
+		}
+
+		FFA_widespread_defeatism_1 = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				stability_factor = -0.40
+				war_support_factor = -0.8
+				war_support_weekly = -0.005
+			}
+			
+		}
+
+		FFA_widespread_defeatism_2 = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				stability_factor = -0.35
+				war_support_factor = -0.7
+				war_support_weekly = -0.05
+			}
+			
+		}
+
+		FFA_nonexistent_economy_0 = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				production_speed_buildings_factor = -1.0
+				industrial_capacity_factory = -0.75
+
+			}
+			
+		}
+
+		FFA_nonexistent_economy_1 = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				production_speed_buildings_factor = -1.0
+				industrial_capacity_factory = -0.65
+
+			}
+			
+		}
+
+		FFA_colonial_government_0 = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				conscription_factor = -0.65
+
+			}
+		}
+
+		FFA_colonial_government_1 = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				conscription_factor = -0.55
+
+			}
+		}
+
+		FFA_foreign_aid_0 = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.05
+
+			}
+
+		}
+
+		FFA_foreign_aid_1 = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.1
+
+			}
+
+		}
+
+		FFA_unreliable_rifles = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = MAN
+			}
+			
+			removal_cost = -1
+
+			picture = generic_central_management
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.25
+					reliability = -0.4
+					instant = yes
+				}
+			}
+		}
+
+		FFA_french_legion_remnants_0 = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				conscription = 0.025
+				army_org_factor = -0.05
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+				
+
+			}
+
+		}
+
+
+
+
+		
+
+		
+
+		
+
+
+
+	}
+}
