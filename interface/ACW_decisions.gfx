@@ -10,7 +10,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/decisions/subject_progress_bar_long.dds"
 		textureFile2 = "gfx/interface/decisions/subject_progress_bar_long_bg.dds"
-		size = { x = 181 y = 32 }
+		size = { x = 362 y = 32 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
