@@ -147,10 +147,7 @@
 		completion_reward = {
 			add_political_power = -50
 			
-			swap_ideas = {
-				remove_idea = FFA_nonexistent_economy_0
-				add_idea = FFA_nonexistent_economy_1
-			}
+			FFA_decrease_nonexistent_economy = yes
 			
 			
 
@@ -216,6 +213,36 @@
 			add_political_power = -60
 			
 			FFA_decrease_widespread_defeatism = yes
+			
+			
+
+			
+		}
+
+	}
+
+		focus = {
+
+		id = FFA_who_we_must_avenge
+		#icon
+
+		prerequisite = {focus = FFA_who_we_must_avenge}
+
+		allowed = {}
+
+
+
+		x = -2
+		y = 1
+
+		cost = 4
+
+		relative_position_id = FFA_who_we_must_avenge
+
+		completion_reward = {
+			add_political_power = -60
+			add_stability = -0.05
+			custom_effect_tooltip = "UNFINISHED: make this focus spawn camel/cavalry divisions that represent bandits"
 			
 			
 
@@ -313,10 +340,8 @@
 		completion_reward = {
 			add_political_power = -50
 			add_stability = -0.1
-			swap_ideas = {
-				remove_idea = FFA_colonial_government_0
-				add_idea = FFA_colonial_government_1
-			}
+
+			FFA_decrease_colonial_government = yes
 			
 
 							
@@ -397,6 +422,45 @@
 
 		completion_reward = {
 			add_political_power = -75
+
+			FFA_decrease_nonexistent_economy = yes
+
+			
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_invest_in_local_economy
+		#icon
+
+		prerequisite = {focus = FFA_what_we_have_to_build}
+		allowed = {}
+
+
+
+		x = 2
+		y = 1
+
+		cost = 4
+
+		relative_position_id = FFA_what_we_have_to_build
+
+		completion_reward = {
+			add_political_power = -30
+			272 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+
+			FFA_decrease_colonial_government = yes
 
 			
 			
