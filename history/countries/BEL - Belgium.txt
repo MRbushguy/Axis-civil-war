@@ -167,9 +167,9 @@ create_navy_leader = {
 		elections_allowed = no
 	}
 	create_country_leader = {
-		name = "Arthur Seyss Inquart"
+		name = "Josef Grohe"
 		desc = ""
-		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+		picture = "gfx/leaders/RKB/Portrait_josef grohe.dds"
 		expire = "1965.1.1"
 		ideology = final_nazism
 		traits = {
