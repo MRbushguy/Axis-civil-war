@@ -47,16 +47,11 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 3
-			modifier = {
-				factor = 0
-				date < 1939.1.1	
-			}
+			
 		}
 
 
-			ai_will_do = {
 
-}
 			available = {
 
 }
@@ -175,6 +170,7 @@ focus_tree = {
 		x = 2
 		y = 2
 			ai_will_do = {
+			factor = 2 
 
 }
 			completion_reward = {
@@ -779,6 +775,7 @@ focus_tree = {
 		x = 8
 		y = 2
 			ai_will_do = {
+			factor = 1 
 
 }
 			completion_reward = {
@@ -875,6 +872,7 @@ focus_tree = {
 		x = 8
 		y = 3
 			ai_will_do = {
+			factor = 2 
 
 }
 			completion_reward = {
@@ -1006,6 +1004,9 @@ focus_tree = {
 			}
 		x = 15
 		y = 2
+		ai_will_do = {
+				factor = 12
+				}
 		
 		
 
@@ -1021,6 +1022,9 @@ focus_tree = {
 			}
 		x = 16 
 		y = 4 
+		ai_will_do = {
+				factor = 12
+				}
 	}
 	
 	focus = {
@@ -1032,6 +1036,9 @@ focus_tree = {
 			}
 		x = 16
 		y = 6
+		ai_will_do = {
+				factor = 12
+				}
 		}
 		
 		
@@ -1047,6 +1054,9 @@ focus_tree = {
 			}
 		x = 16 
 		y = 7
+		ai_will_do = {
+				factor = 12
+				}
 		}
 		
 	focus = {
@@ -1058,6 +1068,9 @@ focus_tree = {
 			}
 		x = 12
 		y = 7
+		ai_will_do = {
+				factor = 12
+				}
 		mutually_exclusive = {
 			focus = SER_crush_the_socialist
 			}
@@ -1072,6 +1085,9 @@ focus_tree = {
 			}
 		x = 12
 		y = 7
+		ai_will_do = {
+				factor = 12
+				}
 		}
 	
 	focus = {
@@ -1083,6 +1099,9 @@ focus_tree = {
 			}
 		x = 12
 		y = 8
+		ai_will_do = {
+				factor = 12
+				}
 		}
 	focus = { 
 		id = SER_mobilise_panters
@@ -1093,6 +1112,9 @@ focus_tree = {
 			}
 		x = 14
 		y = 8 
+		ai_will_do = {
+				factor = 12
+				}
 		}
 	focus = {
 		id = SER_purpose_split_of_albania
@@ -1107,6 +1129,9 @@ focus_tree = {
 			
 		x = 13
 		y = 9
+		ai_will_do = {
+				factor = 12
+				}
 		}
 	focus = {
 		id = SER_make_connections_with_ITA_stronger
@@ -1117,6 +1142,9 @@ focus_tree = {
 			}
 		x = 14
 		y = 10
+		ai_will_do = {
+				factor = 12
+				}
 		}
 	focus = {
 		id = SER_take_Banat_peceaufully
@@ -1132,6 +1160,9 @@ focus_tree = {
 			focus = SER_take_Banat_by_force
 			}
 		}
+		ai_will_do = {
+				factor = 12
+				}
 	focus = {
 		id = SER_ask_ITA_for_Banat
 		icon = GFX_unknow
@@ -1141,6 +1172,9 @@ focus_tree = {
 			}
 		x = 14
 		y = 11
+		ai_will_do = {
+				factor = 12
+				}
 		mutually_exclusive = {
 			focus = SER_take_Banat_peceaufully
 			focus = SER_take_Banat_by_force
@@ -1155,6 +1189,9 @@ focus_tree = {
 			}
 		x = 16
 		y = 11
+		ai_will_do = {
+				factor = 12
+				}
 		mutually_exclusive = {
 			focus = SER_take_Banat_peceaufully
 			focus = SER_ask_ITA_for_Banat 
@@ -1170,6 +1207,9 @@ focus_tree = {
 			}
 		x = 18
 		y = 2
+		ai_will_do = {
+				factor = 12
+				}
 		}
 	focus = {
 		id = SER_idea_of_Illyrian_unification
@@ -1180,6 +1220,9 @@ focus_tree = {
 			}
 		x = 18
 		y = 3
+		ai_will_do = {
+				factor = 12
+				}
 		}
 	focus = { 
 		id = SER_zmaj_glory
@@ -1190,6 +1233,9 @@ focus_tree = {
 			}
 		x = 20
 		y = 4
+		ai_will_do = {
+				factor = 12
+				}
 		}
 	focus = {
 		id = SER_speak_about_Illyrian_idea
@@ -1200,6 +1246,9 @@ focus_tree = {
 			}
 		x = 18
 		y = 4 
+		ai_will_do = {
+				factor = 12
+				}
 		}
 	focus = {
 		id = SER_leader_of_all_Illyrians
@@ -1213,6 +1262,9 @@ focus_tree = {
 			}
 		x = 18
 		y = 5
+		ai_will_do = {
+				factor = 12
+				}
 		}
 	focus = {
 		id = SER_Illyrian_unification
@@ -1223,6 +1275,9 @@ focus_tree = {
 			}
 		x = 18
 		y = 5
+		ai_will_do = {
+				factor = 12
+				}
 		}
 	
 	focus = {
@@ -1234,6 +1289,9 @@ focus_tree = {
 		}
 		x =  12 
 		y =  2 
+		ai_will_do = {
+				factor = 12
+				}
 		
 		completion_reward = {
 			army_experience = 25
@@ -1249,6 +1307,9 @@ focus_tree = {
 			}
 		x = 12 
 		y = 3 
+		ai_will_do = {
+				factor = 12
+				}
 		completion_reward = {
 			add_tech_bonus = {
 				name = YUG_small_arms
@@ -1268,6 +1329,9 @@ focus_tree = {
 			}
 		x = 12 
 		y = 4 
+		ai_will_do = {
+				factor = 12
+				}
 		completion_reward = {
 			add_tech_bonus = {
 				name = YUG_domestic_artillery_production
@@ -1287,6 +1351,9 @@ focus_tree = {
 			}
 		x = 12
 		4 = 5 
+		ai_will_do = {
+				factor = 12
+				}
 		completion_reward = {
 			add_tech_bonus = {
 				name = YUG_anti_tank_defenses
@@ -1306,6 +1373,9 @@ focus_tree = {
 			}
 		x = 11
 		y = 3
+		ai_will_do = {
+				factor = 12
+				}
 		completion_reward = {
 			add_tech_bonus = {
 				name = YUG_motorize_the_cavalry
@@ -1324,6 +1394,9 @@ focus_tree = {
 			}
 		x = 11 
 		y = 4
+		ai_will_do = {
+				factor = 12
+				}
 		completion_reward = {
 			add_tech_bonus = {
 				name = YUG_armored_cavalry
@@ -1343,6 +1416,9 @@ focus_tree = {
 			}
 		x = 11 
 		y = 5
+		ai_will_do = {
+				factor = 12
+				}
 		}
 		completion_reward = {
 			add_tech_bonus = {
