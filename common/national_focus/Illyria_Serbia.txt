@@ -997,7 +997,7 @@ focus_tree = {
 
 	focus = {
 		id = SER_royalty_to_Italy
-		icon = GXF_unknonw
+		icon = GXF_focus_generic_italy_first
 		cost = 10.00
 		prerequisite = {
 			focus = SER_true_Illyria
@@ -1007,6 +1007,12 @@ focus_tree = {
 		ai_will_do = {
 				factor = 12
 				}
+			completion_reward = {
+				diplomatic_relation = {
+		country = ITA
+		relation = guarantee
+		active = yes
+	}
 		
 		
 
@@ -1015,7 +1021,7 @@ focus_tree = {
 	
 	focus = { 
 		id = SER_push_the_Illyrian_propaganda
-		icon = GFX_unknow
+		icon = GFX_focus_YUG_autonomous_transylvania
 		cost = 05.00
 		prerequisite = {
 			focus = SER_royalty_to_Italy
@@ -1025,11 +1031,15 @@ focus_tree = {
 		ai_will_do = {
 				factor = 12
 				}
+				
+		completion_reward = {
+		set_stability = 00.40
+			}
 	}
 	
 	focus = {
 		id = SER_crush_the_democrats
-		icon = GFX_unknow
+		icon = GFX_goal_generic_political_pressure
 		cost = 01.00
 		prerequisite = {
 			focus = SER_push_the_Illyrian_propaganda
@@ -1039,6 +1049,20 @@ focus_tree = {
 		ai_will_do = {
 				factor = 12
 				}
+				
+					completion_reward = {
+			start_civil_war = {
+    ruling_party = fascism
+    ideology = democratic_left
+    size = 0.2
+    capital = 108
+    states = { 
+	state = 108 
+ 
+    }
+			}
+			
+		}
 		}
 		
 		
@@ -1105,7 +1129,7 @@ focus_tree = {
 		}
 	focus = { 
 		id = SER_mobilise_panters
-		icon = GFX_unknow
+		icon = GFX_goal_generic_demand_territory
 		cost = 05.00
 		prerequisite = {
 			focus = SER_open_the_Torlak
@@ -1115,6 +1139,11 @@ focus_tree = {
 		ai_will_do = {
 				factor = 12
 				}
+				
+				
+		completion_reward = {
+			add_manpower = 100000
+			}
 		}
 	focus = {
 		id = SER_purpose_split_of_albania
