@@ -13,6 +13,9 @@ ideologies = {
 			lebensraum_colonization = {
 			}
 
+			lebensraum_germanization = {
+			}
+
 			exploitative_colonization = {
 			}
 
@@ -120,6 +123,60 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 
+nationalism = {
+
+		types = {
+
+
+			
+			pan_african_nationalism = {
+			}
+
+			hyper_millitarism = {
+			}
+
+			ethnic_revanchism = {
+			}
+
+			ultra_ukranian_nationalism = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCIST_1"
+			"FACTION_NAME_FASCIST_2"
+			"FACTION_NAME_FASCIST_3"
+			"FACTION_NAME_FASCIST_4"
+			"FACTION_NAME_FASCIST_5"
+		}
+
+		color = { 166 86 55 }
+
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		can_collaborate = yes
+
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.80
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+			hidden_modifier = { join_faction_tension = -0.1 }
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+	}
+
+
+
 	authoritarianism = {
 
 		types = {
@@ -142,7 +199,19 @@ ideologies = {
 			military_rule = {
 			}
 
-			monarchism = {
+			absolute_monarchy = {
+			}
+
+			longist_democracy = {
+			}
+
+			political_united_front_cuf = {
+			}
+
+			interim_goverment = {
+			}
+
+			civilian_dictatorship  = {
 			}
 
 		}
@@ -193,8 +262,16 @@ ideologies = {
 
 			social_conservatism = {
 			}
-		}
+			
+			liberal_conservatism = {
+			}
 
+			right_wing_populism = {
+			}
+
+			arab_democracy = {
+			}
+		}
 		dynamic_faction_names = {
 			"FACTION_NAME_DEMOCRATIC_1"
 			"FACTION_NAME_DEMOCRATIC_2"
@@ -248,7 +325,7 @@ ideologies = {
 			market_liberalism = {
 			}
 
-			liberalism = {
+			radical_centrism = {
 			}
 		}
 
@@ -304,6 +381,13 @@ ideologies = {
 
 			social_democracy = {
 			}
+
+		multiculture_democracy = {
+		}
+
+		labour_zionism = {
+		}
+
 		}
 
 		dynamic_faction_names = {
@@ -361,6 +445,12 @@ ideologies = {
 
 			anarchism = {
 			}
+
+			pan_african_socialism = {
+			}
+
+			pan_arabism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -415,6 +505,9 @@ ideologies = {
 			}
 
 			collapsed_communism = {
+			}
+
+			mao_zedong_thought = {
 			}
 
 		}

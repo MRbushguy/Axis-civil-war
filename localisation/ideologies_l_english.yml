@@ -83,23 +83,23 @@
  
  
  #democratic leftists
- democratic_left:0 "Social Democracy"
- democratic_left_noun:0 "Social Democrat"
- democratic_left_desc:0 "Social Democracy"
+ democratic_left:0 "Democratic Left"
+ democratic_left_noun:0 "Democratic Leftists"
+ democratic_left_desc:0 "Democratic Left"
  
  democratic_left_acceptance:0 "Acceptance of Social Democracy"
  
  
  #democratic center
- democratic_center:0 "Liberalism"
- democratic_center_noun:0 "Liberal"
- democratic_center_desc:0 "Liberal Democracy"
+ democratic_center:0 "Democratic Center"
+ democratic_center_noun:0 "Democratic Centrist"
+ democratic_center_desc:0 "Democratic Center"
  
  democratic_center_acceptance:0 "Acceptance of Liberal Democracy"
  
- democratic_right:0 "Conservatism"
- democratic_right_noun:0 "Conservative"
- democratic_right_desc:0 "Conservative Democracy"
+ democratic_right:0 "Democratic Right"
+ democratic_right_noun:0 "Democratic Rightist"
+ democratic_right_desc:0 "Democratic Right"
  
  democratic_right_acceptance:0 "Acceptance of Right leaning Democracy"
  
@@ -112,7 +112,7 @@
  authoritarianism_noun:0 "Authoritarian"
  authoritarianism_desc:0 "Authoritarian Regime"
  
- despotism:0 "Despotic"
+ despotism:0 "Despotic Rule"
  despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
  
  oligarchism:0 "Oligarchy"
