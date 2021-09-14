@@ -1288,7 +1288,7 @@ focus_tree = {
 			focus = SER_true_Illyria
 		}
 		x =  12 
-		y =  2 
+		y =  1 
 		ai_will_do = {
 				factor = 12
 				}
@@ -1305,8 +1305,8 @@ focus_tree = {
 		prerequisite = {
 			focus = SER_army_modernisation
 			}
-		x = 12 
-		y = 3 
+		x = 13 
+		y = 2 
 		ai_will_do = {
 				factor = 12
 				}
@@ -1327,8 +1327,8 @@ focus_tree = {
 		prerequisite = {
 			focus = SER_small_arms
 			}
-		x = 12 
-		y = 4 
+		x = 13 
+		y = 3 
 		ai_will_do = {
 				factor = 12
 				}
@@ -1347,10 +1347,10 @@ focus_tree = {
 		icon = GFX_goal_generic_army_artillery2
 		cost = 10.00
 		prerequisite = {
-			focus = SER_anti_air_defenses
+			focus = SER_domestic_artillery_production
 			}
-		x = 12
-		4 = 5 
+		x = 13
+		y = 4 
 		ai_will_do = {
 				factor = 12
 				}
@@ -1372,7 +1372,7 @@ focus_tree = {
 			focus = SER_army_modernisation
 			}
 		x = 11
-		y = 3
+		y = 2
 		ai_will_do = {
 				factor = 12
 				}
@@ -1390,10 +1390,10 @@ focus_tree = {
 		icon = GFX_goal_generic_build_tank
 		cost = 10.00
 		prerequisite = {
-			focus = SER_motorise_the_cavarly
+			focus = SER_motorise_cavarly
 			}
 		x = 11 
-		y = 4
+		y = 3
 		ai_will_do = {
 				factor = 12
 				}
@@ -1415,7 +1415,7 @@ focus_tree = {
 			focus = SER_armored_cavarly
 			}
 		x = 11 
-		y = 5
+		y = 4
 		ai_will_do = {
 				factor = 12
 				}
