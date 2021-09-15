@@ -160,91 +160,7 @@ set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
 			basic_light_battery = 1
 			basic_medium_battery = 1
 		}
-	}
-	create_country_leader = {
-		name = "Dirk Jan de Geer"
-		desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
-		picture = "Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
-		expire = "1965.1.1"
-		ideology = conservatism
-		traits = {
-			defeatist
-		}
-	}
-}
 
-set_politics = {
-	ruling_party = democratic
-	last_election = "1933.4.26"
-	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	communism = 10
-	democratic_left = 4
-	democratic_center = 4
-	democratic_right = 10
-	authoritarianism = 12
-	national_socialism = 60
-}
-
-set_convoys = 150
-set_stability = 0.75
-
-#create_country_leader = {
-#	name = "Dirk Jan de Geer"
-#	desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
-#	picture = "Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
-#	expire = "1965.1.1"
-#	ideology = conservatism
-#	traits = {
-#		#
-#	}
-#}
-
-create_country_leader = {
-	name = "Hendrikus Colijn"
-	desc = "POLITICS_HENDRIKUS_COLJIN_DESC"
-	picture = "GFX_portrait_holland_hendrikus_colijn"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		strict_austerity_adherent
-	}
-}
-
-create_country_leader = {
-	name = "Anton Mussert"
-	desc = "POLITICS_ANTON_MUSSERT_DESC"
-	picture = "GFX_portrait_hol_anton_mussert"
-	expire = "1965.1.1"
-	ideology = final_nazism
-	traits = {
-		leider
-	}
-}
-
-create_country_leader = {
-	name = "Lou de Visser"
-	desc = "POLITICS_LOU_DE_VISSER_DESC"
-	picture = "GFX_portrait_HOL_lou_de_visser"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		veteran_communist
-	}
-}
-
-create_country_leader = {
-	name = "Willem Schermerhorn"
-	desc = "POLITICS_WIM_SCHERMERHORN_DESC"
-	picture = "GFX_portrait_hol_wim_schermerhorn"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
 
 create_field_marshal = {
 	name = "Izaak Reijnders"
@@ -551,16 +467,27 @@ if = {
 }
 1947.1.1 = {
 
-	oob = CHI_1947
-	add_to_faction = SIK
-	add_to_faction = XSM
+set_cosmetic_tag = RPC_reichskommissariat
 
 	set_politics = {
-		ruling_party = authoritarianism
+		ruling_party = national_socialism
 		last_election = "1937.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
+
+	create_country_leader = {
+		name = "Arthur Seyss-Inquart"
+		desc = ""
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+		expire = "1965.1.1"
+		ideology = lebensraum_germanization
+		traits = {
+		#
+		}
+	}
+
+
 
 	set_popularities = { #Not Final
 		democratic_left = 2
@@ -580,14 +507,8 @@ if = {
 		devastation_2
 	}
 
-	create_country_leader = {
-		name = "Josef Grohé"
-		desc = ""
-		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-		expire = "1965.1.1"
-		ideology = final_nazism
-		traits = {
-		#
-		}
 	}
-}
+
+
+
+	
