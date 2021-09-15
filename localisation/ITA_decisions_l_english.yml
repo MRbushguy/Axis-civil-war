@@ -2,3 +2,10 @@
 
 
 ITA_empire_colonies_phase:0 "\n§YAfter a long list of Grueling pacification missions and stratigic investments in specific  fields, we have managed to stabalize and develop enough of our Colonies and subjects to start bearing fruit from it. And although we still have a long way to go, it is still progress§!\n\n"
+
+
+ITA_industry_agriculture:0 "Industry and Agriculture"
+ITA_industry_agriculture_desc:0 "Blah Blah Blah fill this in /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"
+
+ITA_industry_name_text:0 "Industrial Progress: [?ITA_industry_value]%"
+ITA_agriculture_name_text:0 "Agricultural Progress: [?ITA_agriculture_value]%"

@@ -42,9 +42,9 @@ add_ideas = {
 
 ####VARIABLES######
 
-set_variable = {ITA_industry_value = 90}
+set_variable = {ITA_industry_value = 10.1}
 
-
+set_variable = {ITA_agriculture_value = 40.1}
 
 # Starting tech
 set_technology = {
