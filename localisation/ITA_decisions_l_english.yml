@@ -5,6 +5,6 @@ ITA_empire_colonies_phase:0 "\n§YAfter a long list of Grueling pacification mis
 
 
 ITA_industry_agriculture:0 "Industry and Agriculture"
-ITA_industry_agriculture_desc:0 "As we enter the postwar world a Global superpower, we still have one major unfinished reform from the pre-war world. The complete industrialization of Italy, as is expected from a powerful country like us. \n\nBut this does not mean complete neglet of the Agricultural sector, for we need to make sure Agriculture and Industrialization are as efficent as they possibly can be" 
+ITA_industry_agriculture_desc:0 "\n \n \n \n \n \n \n As we enter the postwar world a Global superpower, we still have one major unfinished reform from the pre-war world. The complete industrialization of Italy, as is expected from a powerful country like us. \n\nBut this does not mean complete neglet of the Agricultural sector, for we need to make sure Agriculture and Industrialization are as efficent as they possibly can be" 
 ITA_industry_name_text:0 "Industrial Progress: [?ITA_industry_value]%"
 ITA_agriculture_name_text:0 "Agricultural Progress: [?ITA_agriculture_value]%"
