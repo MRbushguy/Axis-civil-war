@@ -380,6 +380,26 @@ ITA_mafia = {
 
 }
 
+ITA_industrial_values_dynamic_modifier = {
+
+	enable = { always = yes }
+
+	industrial_capacity_factory = ITA_industry_var_factory
+	industrial_capacity_dockyard = ITA_industry_var_dockyard
+	local_resources_factor = ITA_industry_var_resources
+	production_speed_buildings_factor = ITA_industry_var_construction
+}
+
+ITA_agricultural_values_dynamic_modifier = {
+
+	enable = { always = yes }
+
+	monthly_population = ITA_agriculture_var_population
+	production_factory_efficiency_gain_factor = ITA_agriculture_var_efficiency_gain
+	production_factory_max_efficiency_factor = ITA_agriculture_var_efficiency_max
+
+}
+
 
 
 
