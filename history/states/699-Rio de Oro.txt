@@ -18,6 +18,10 @@ state={
 			8038 1
 		}
 
+		1947.1.1 = {
+			owner = MOR
+		}
+
 	}
 
 	provinces={
