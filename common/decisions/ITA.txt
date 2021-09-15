@@ -338,8 +338,8 @@ ITA_next_empire_phase = {
 
 
 		}
-	}
 
+}
 
 
 	ITA_stabalize_IEA = {
