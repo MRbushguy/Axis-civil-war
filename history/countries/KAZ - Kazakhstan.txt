@@ -25,6 +25,15 @@ if = {
 
 	set_cosmetic_tag = SSR_color
 
+create_country_leader = {
+	name = "Gabdulla Tsulanov"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = collapsed_communism
+	traits = {
+	}
+
 
 	set_politics = {
 		ruling_party = communism

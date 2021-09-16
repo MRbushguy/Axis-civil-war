@@ -183,6 +183,17 @@ set_popularities = {
 	national_socialism = 5
 }
 
+create_country_leader = {
+	name = "Philippe Pétain"
+	desc = "POLITICS_FERDINAND_SCHORNER_DESC"
+	picture = "gfx/leaders/OKM/Ferdinand Schorner.dds"
+	expire = "1965.1.1"
+	ideology = civilian_dictatorship
+	traits = {
+		#
+	}
+}
+
 1947.1.1 = {
 	set_cosmetic_tag = OCC_ITA
 }

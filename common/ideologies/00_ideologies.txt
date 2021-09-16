@@ -69,7 +69,7 @@ ideologies = {
 			}
 
 			rexism = {
-			}
+			}	
 
 			italian_fascism = {
 			}
@@ -87,6 +87,9 @@ ideologies = {
 			}
 
 			japanese_fascism = {
+			}
+
+			pan_asian_fascism = {
 			}
 		}
 
@@ -127,8 +130,6 @@ nationalism = {
 
 		types = {
 
-
-			
 			pan_african_nationalism = {
 			}
 

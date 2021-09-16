@@ -232,16 +232,7 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Wang Jingwei"
-	desc = "POLITICS_WANG_JINGWEI_DESC"
-	picture = "GFX_portrait_chi_wang_jingwei"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
+
 
 create_country_leader = {
 	name = "Weng Wenhao"
@@ -450,6 +441,17 @@ if = {
 	
 	remove_ideas = CHI_army_corruption_2
 	add_ideas = CHI_army_corruption_3
+
+create_country_leader = {
+	name = "Wang Jingwei"
+	desc = "POLITICS_WANG_JINGWEI_DESC"
+	picture = "GFX_portrait_chi_wang_jingwei"
+	expire = "1965.1.1"
+	ideology = pan_asian_fascism
+	traits = {
+		#
+	}
+}
 
 
 }
