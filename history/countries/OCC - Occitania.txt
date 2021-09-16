@@ -169,8 +169,9 @@ set_convoys = 20
 		}
 	}
 }
+
 set_politics = {
-	ruling_party = democratic
+	ruling_party = authoritarian
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -196,4 +197,30 @@ create_country_leader = {
 
 1947.1.1 = {
 	set_cosmetic_tag = OCC_ITA
+
+et_politics = {
+	ruling_party = authoritarian 
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	communism = 5
+	democratic_right = 5
+	authoritarianism = 15
+	fascism = 70
+	national_socialism = 5
+}
+
+create_country_leader = {
+	name = "Philippe Pétain"
+	desc = "POLITICS_FERDINAND_SCHORNER_DESC"
+	picture = "gfx/leaders/OKM/Ferdinand Schorner.dds"
+	expire = "1965.1.1"
+	ideology = civilian_dictatorship
+	traits = {
+		#
+	}
+}
+	
 }
