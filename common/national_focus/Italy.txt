@@ -61,8 +61,8 @@ focus_tree = {
 
 	focus = { #left tree
 		id = consolidate_empire
-		icon = GFX_ITA_cons
-		x = 13
+		icon = GFX_focus_consolidate_empire
+		x = 14
 		y = 4
 
 		available = {
@@ -84,7 +84,7 @@ focus_tree = {
 
 	focus = { #left tree
 		id = reinforce_colonies
-
+		icon = GFX_focus_reinforce_colonies
 		x = 16
 		y = 5
 
@@ -113,7 +113,7 @@ focus_tree = {
 
 	focus = { #left tree
 		id = give_arms
-
+		icon = GFX_focus_give_arms
 		x = 14
 		y = 5
 
@@ -153,7 +153,7 @@ focus_tree = {
 
 	focus = { #left tree
 		id = encourage_migration
-
+		icon = GFX_focus_encourage_migration
 		x = 12
 		y = 5
 
@@ -182,7 +182,7 @@ focus_tree = {
 
 	focus = { #left tree
 		id = learning_how_to_empire
-
+		icon = GFX_focus_learning_how_to_empire
 		x = 14
 		y = 7
 
@@ -232,7 +232,8 @@ focus_tree = {
 	}
 
 	focus = { #left-middle tree
-		id = demobalize
+		id = demobilize
+		icon = GFX_focus_starting_to_demobilize
 
 		x = 18
 		y = 5
@@ -261,7 +262,7 @@ focus_tree = {
 
 	focus = { #left-middle tree
 		id = keep_war_promise
-
+		icon = GFX_focus_encouraging_civilian_construction
 		x = 20
 		y = 5
 
@@ -321,7 +322,7 @@ focus_tree = {
 		}
 
 		cost = 5
-		prerequisite = { focus = demobalize }
+		prerequisite = { focus = demobilize }
 		prerequisite = { focus = keep_war_promise }
 		prerequisite = { focus = use_colonies_resources }
 
@@ -336,7 +337,7 @@ focus_tree = {
 
 	focus = { #right-middle tree
 		id = reorg_army
-
+		icon = GFX_focus_reorg_army
 		x = 27
 		y = 4
 
@@ -359,7 +360,7 @@ focus_tree = {
 
 	focus = { #right-middle tree
 		id = lessons_ww2
-
+		icon = GFX_focus_lessons_ww2
 		x = 25
 		y = 5
 
@@ -384,7 +385,7 @@ focus_tree = {
 
 	focus = { #right-middle tree
 		id = more_branches_coop
-
+		icon = GFX_focus_more_branches_coop
 		x = 27
 		y = 5
 
@@ -410,7 +411,7 @@ focus_tree = {
 
 	focus = { #right-middle tree
 		id = new_army_tech
-
+		icon = GFX_focus_new_army_tech
 		x = 29
 		y = 5
 
@@ -442,7 +443,7 @@ add_tech_bonus = {
 
 	focus = { #right-middle tree
 		id = become_god_of_death
-
+		icon = GFX_focus_become_god_of_death
 		x = 27
 		y = 7
 
@@ -471,8 +472,8 @@ add_tech_bonus = {
 
 	focus = { #right tree
 		id = reform_gov
-
-		x = 34
+		icon = GFX_focus_reform_gov
+		x = 33
 		y = 4
 
 		available = {
@@ -494,6 +495,7 @@ add_tech_bonus = {
 
 	focus = { #right tree
 		id = peacetime_beauro
+		icon = GFX_focus_peacetime_beauro
 
 		x = 31
 		y = 5
@@ -517,7 +519,7 @@ add_tech_bonus = {
 
 	focus = { #right tree
 		id = crackdown_factions
-
+		icon = GFX_focus_crackdown_factions
 		x = 33
 		y = 5
 
@@ -541,6 +543,7 @@ add_tech_bonus = {
 
 	focus = { #right tree
 		id = listen_factions
+		icon = GFX_focus_listen_factions
 
 		x = 35
 		y = 5
@@ -566,6 +569,7 @@ add_tech_bonus = {
 
 	focus = { #right tree
 		id = government_overhul
+		icon = GFX_focus_government_overhul
 
 		x = 33
 		y = 7
@@ -593,6 +597,7 @@ add_tech_bonus = {
 
 	focus = {
 		id = fascism_27_birthday
+		icon = GFX_focus_fascism_27_birthday
 
 		x = 23
 		y = 9

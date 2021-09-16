@@ -34,8 +34,8 @@ ita_duce_race:0 "The Duce race focus tree"
  homefront:0 "The homefront"
  homefront_desc:0 "With Italy’s new found glory in the wake of victory in the war along with her newly expanded colonial empire, many who are caught up in patriotic fervor forget that action still must be taken to secure the peninsula that makes up the heart of the empire. Society must transition out of a wartime economy and focus on rebuilding that which had been damaged during the war."
  
- demobalize:0 "Starting to demobalize"
- demobalize_desc:0 "The war saw large amounts of Italian society drawn into mobilization, from a far reaching draft to the use of civilian factories for military purposes, every aspect of Italian society has been touched by the war effort. If we are to ensure the stability of our nation, demobilization must be swiftly completed, and Italians must see a return to normalcy in their everyday lives."
+ demobilize:0 "Starting to demobilize"
+ demobilize_desc:0 "The war saw large amounts of Italian society drawn into mobilization, from a far reaching draft to the use of civilian factories for military purposes, every aspect of Italian society has been touched by the war effort. If we are to ensure the stability of our nation, demobilization must be swiftly completed, and Italians must see a return to normalcy in their everyday lives."
  
  keep_war_promise:0 "Encouraging civilian construction"
  keep_war_promise_desc:0 "A large amount of civilian property was damaged during the war due to bombing raids. Now that the war is finished, this property can be rebuilt not only to pre-war standards, but to an even higher standard than before. With our newfound wealth and resources from our territorial expansion, this can be completed in a rather timely manner."

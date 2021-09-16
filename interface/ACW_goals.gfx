@@ -317,28 +317,124 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_focus_Avanti_Italia"
-		texturefile = "gfx/interface/goals/Avanti_Italia.dds"
+		texturefile = "gfx/interface/goals/ITA/Avanti_Italia.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_focus_new_age"
-		texturefile = "gfx/interface/goals/new_age.dds"
+		texturefile = "gfx/interface/goals/ITA/new_age.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_focus_returning_to_civilian_life"
-		texturefile = "gfx/interface/goals/returning_to_civilian_life.dds"
+		texturefile = "gfx/interface/goals/ITA/returning_to_civilian_life.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_focus_the_homefront"
-		texturefile = "gfx/interface/goals/the_homefront.dds"
+		texturefile = "gfx/interface/goals/ITA/the_homefront.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_focus_use_resources_from_the_colonies"
-		texturefile = "gfx/interface/goals/use_resources_from_the_colonies.dds"
+		texturefile = "gfx/interface/goals/ITA/use_resources_from_the_colonies.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_focus_encouraging_civilian_construction"
+		texturefile = "gfx/interface/goals/ITA/encouraging_civilian_construction.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_starting_to_demobilize"
+		texturefile = "gfx/interface/goals/ITA/starting_to_demobilize.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_consolidate_empire"
+		texturefile = "gfx/interface/goals/ITA/consolidate_empire.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_encourage_migration"
+		texturefile = "gfx/interface/goals/ITA/encourage_migration.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_give_arms"
+		texturefile = "gfx/interface/goals/ITA/give_arms.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_reinforce_colonies"
+		texturefile = "gfx/interface/goals/ITA/reinforce_colonies.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_learning_how_to_empire"
+		texturefile = "gfx/interface/goals/ITA/learning_how_to_empire.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_reorg_army"
+		texturefile = "gfx/interface/goals/ITA/reorg_army.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_lessons_ww2"
+		texturefile = "gfx/interface/goals/ITA/lessons_ww2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_more_branches_coop"
+		texturefile = "gfx/interface/goals/ITA/more_branches_coop.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_new_army_tech"
+		texturefile = "gfx/interface/goals/ITA/new_army_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_become_god_of_death"
+		texturefile = "gfx/interface/goals/ITA/become_god_of_death.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_become_god_of_death"
+		texturefile = "gfx/interface/goals/ITA/become_god_of_death.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_reform_gov"
+		texturefile = "gfx/interface/goals/ITA/reform_gov.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_peacetime_beauro"
+		texturefile = "gfx/interface/goals/ITA/peacetime_beauro.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_crackdown_factions"
+		texturefile = "gfx/interface/goals/ITA/crackdown_factions.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_listen_factions"
+		texturefile = "gfx/interface/goals/ITA/listen_factions.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_government_overhul"
+		texturefile = "gfx/interface/goals/ITA/government_overhul.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_fascism_27_birthday"
+		texturefile = "gfx/interface/goals/ITA/fascism_27_birthday.dds"
+	}
+					
 	##SER
 	SpriteType = {
 		name = "GFX_focus_real_illyria"
