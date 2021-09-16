@@ -37,6 +37,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_category_Wunderwaffe.dds"
 	}
 
+	spriteType = {
+		name = "GFX_decision_category_wide"
+		texturefile = "gfx/interface/decisions/test.dds"
+	}
+
 	### faction icons
 
 	spriteType = {

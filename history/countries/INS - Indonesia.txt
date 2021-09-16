@@ -1,0 +1,7 @@
+﻿capital = 335 #Jakarta
+
+oob = "INS_1936"
+
+1947.1.1 = {
+	set_cosmetic_tag = JAP_puppet
+}

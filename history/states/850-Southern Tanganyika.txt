@@ -1,0 +1,28 @@
+state={
+	id=850
+	name="STATE_850"
+
+	history={
+		owner = ENG
+		
+		buildings = {
+			infrastructure = 3
+			
+
+		}
+		add_core_of = TZN
+		1947.1.1 = {
+			owner = POR
+			controller = POR
+
+		}
+
+	}
+
+	provinces={
+		8182 8201 10845 12944 12967 
+	}
+	manpower=1766333
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

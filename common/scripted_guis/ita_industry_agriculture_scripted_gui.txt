@@ -8,6 +8,10 @@ scripted_gui = {
 			ITA_industry_progress = {
 				frame = ITA_industry_value
 			}
+
+			ITA_agriculture_progress = {
+				frame = ITA_agriculture_value
+			}
 		}
 	}
 

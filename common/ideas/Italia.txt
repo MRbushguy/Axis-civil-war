@@ -55,7 +55,7 @@ ideas = {
 
 			modifier = {
 				army_attack_factor = 0.1
-				army_defense_factor = 0.1
+				army_defence_factor = 0.1
 				army_speed_factor = 0.05
 				army_morale_factor = 0.15
 				army_org_factor = 0.1
@@ -100,14 +100,11 @@ ideas = {
 				original_tag = "ITA"
 			}
 
-			custom_effect_tooltip = ita_colonies_too
-
 			modifier = {
 				political_power_factor = -0.4
 				non_core_manpower = -0.2
 				weekly_manpower = -1500 
-				consumer_goods_factor = 0.3
-				
+				consumer_goods_factor = 0.3			
 					
 
 			}
@@ -121,14 +118,12 @@ ideas = {
 				original_tag = "ITA"
 			}
 
-			custom_effect_tooltip = ita_colonies_too
-
 			modifier = {
 				political_power_factor = -0.35
 				non_core_manpower = -0.18
 				weekly_manpower = -1300 
 				consumer_goods_factor = 0.25
-				
+			custom_modifier_tooltip = ita_colonies_too				
 					
 
 			}
@@ -144,14 +139,12 @@ ideas = {
 				original_tag = "ITA"
 			}
 
-			custom_effect_tooltip = ita_colonies_too
-
 			modifier = {
 				political_power_factor = -0.3
 				non_core_manpower = -0.15
 				weekly_manpower = -1000
 				consumer_goods_factor = 0.2
-				
+			custom_modifier_tooltip = ita_colonies_too				
 					
 
 			}
@@ -165,14 +158,12 @@ ideas = {
 				original_tag = "ITA"
 			}
 
-			custom_effect_tooltip = ita_colonies_too
-
 			modifier = {
 				political_power_factor = -0.25
 				non_core_manpower = -0.12
 				weekly_manpower = -800
 				consumer_goods_factor = 0.15
-				
+			custom_modifier_tooltip = ita_colonies_too				
 					
 
 			}
@@ -186,14 +177,12 @@ ideas = {
 				original_tag = "ITA"
 			}
 
-			custom_effect_tooltip = ita_colonies_too
-
 			modifier = {
 				political_power_factor = -0.2
 				non_core_manpower = -0.1
 				weekly_manpower = -600
 				consumer_goods_factor = 0.1
-					
+			custom_modifier_tooltip = ita_colonies_too					
 
 			}
 		}
@@ -206,14 +195,12 @@ ideas = {
 				original_tag = "ITA"
 			}
 
-			custom_effect_tooltip = ita_colonies_too
-
 			modifier = {
 				political_power_factor = -0.15
 				non_core_manpower = -0.05
 				weekly_manpower = -400
 				consumer_goods_factor = 0.05
-					
+			custom_modifier_tooltip = ita_colonies_too					
 
 			}
 		}
@@ -226,13 +213,11 @@ ideas = {
 				original_tag = "ITA"
 			}
 
-			custom_effect_tooltip = ita_colonies_too
-
 			modifier = {
 				political_power_factor = -0.1
 				non_core_manpower = -0.02
 				weekly_manpower = -200
-				
+			custom_modifier_tooltip = ita_colonies_too				
 					
 
 			}
@@ -246,12 +231,10 @@ ideas = {
 				original_tag = "ITA"
 			}
 
-			custom_effect_tooltip = ita_colonies_too
-
 			modifier = {
 				political_power_factor = -0.5
 				non_core_manpower = 0.05
-					
+			custom_modifier_tooltip = ita_colonies_too							
 
 			}
 		}
@@ -264,13 +247,11 @@ ideas = {
 				original_tag = "ITA"
 			}
 
-			custom_effect_tooltip = ita_colonies_too
-
 			modifier = {
 				political_power_factor = 0.5
 				non_core_manpower = 0.05
 				local_resources_factor = 0.2
-
+			custom_modifier_tooltip = ita_colonies_too
 					
 
 			}
@@ -284,13 +265,11 @@ ideas = {
 				original_tag = "ITA"
 			}
 
-			custom_effect_tooltip = ita_colonies_too
-
 			modifier = {
 				political_power_factor = 0.1
 				non_core_manpower = 0.1
 				local_resources_factor = 0.5
-					
+			custom_modifier_tooltip = ita_colonies_too					
 
 			}
 		}
@@ -303,14 +282,12 @@ ideas = {
 				original_tag = "ITA"
 			}
 
-			custom_effect_tooltip = ita_colonies_too
-
 			modifier = {
 				political_power_factor = 0.15
 				non_core_manpower = 0.1
 				local_resources_factor = 0.1
 				consumer_goods_factor = -0.05
-
+			custom_modifier_tooltip = ita_colonies_too
 
 					
 

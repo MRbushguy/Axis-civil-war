@@ -426,6 +426,16 @@ if = {
 		elections_allowed = no
 	}
 
+	create_country_leader = {
+	name = "United front council"
+	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
+	picture = "Portrait_China_Chiang_Kai_Shek.dds"
+	expire = "1965.1.1"
+	ideology = political_united_front_cuf
+	traits = {
+	}
+}
+
 	set_popularities = {
 		democratic_left = 2
 		democratic_center = 2

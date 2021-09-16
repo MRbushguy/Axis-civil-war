@@ -16,6 +16,8 @@ add_ideas = {
 	war_economy
 }
 
+
+
 550 = {
 	start_resistance = yes
 	set_compliance = 10
@@ -30,38 +32,27 @@ add_ideas = {
 	set_garrison_strength = 1.0
 }
 
-115 = {
-	add_dynamic_modifier = { modifier = ITA_mafia }
 
-	#set_state_flag = ITA_has_low_resistance
-}
 
-156 = {
-	add_dynamic_modifier = { modifier = ITA_mafia }
-
-	#set_state_flag = ITA_has_low_resistance
-}
-
-117 = {
-	add_dynamic_modifier = { modifier = ITA_mafia }
-
-	#set_state_flag = ITA_has_low_resistance
-}
-
-1947.1.1 = {
-	puppet = OCC
-	puppet = EGY
-	puppet = GRE
-	puppet = IOC
-}
 
 
 
 ####VARIABLES######
 
-set_variable = {ITA_industry_value = 90}
+set_variable = {ITA_industry_value = 10.1}
 
 
+set_variable = {ITA_industry_var_factory = .101}
+set_variable = {ITA_industry_var_dockyard = .101}
+set_variable = {ITA_industry_var_resources = .101}
+set_variable = {ITA_industry_var_construction = .101}
+
+
+set_variable = {ITA_agriculture_value = 40.1}
+
+set_variable = {ITA_agriculture_var_population = 40.1}
+set_variable = {ITA_agriculture_var_efficiency_gain = .401}
+set_variable = {ITA_agriculture_var_efficiency_cap = .401}
 
 # Starting tech
 set_technology = {
@@ -1067,16 +1058,24 @@ if = {
 
 1947.1.1 = {
 
-	create_country_leader = {
-	name = "Benito Mussolini"
-	desc = "muslini_desc"
-	picture = "benito mussolini.dds"
-	expire = "1965.1.1"
-	ideology = italian_fascism
-	traits = {
-		duce_ceaser
+		create_country_leader = {
+		name = "Benito Mussolini"
+		desc = "muslini_desc"
+		picture = "benito mussolini.dds"
+		expire = "1965.1.1"
+		ideology = italian_fascism
+		traits = {
+			duce_ceaser
+		}
 	}
-}
+
+	add_dynamic_modifier = {
+		modifier = ITA_agricultural_values_dynamic_modifier
+	}
+
+	add_dynamic_modifier = {
+		modifier = ITA_industrial_values_dynamic_modifier
+	}
 
 	create_faction = ita_sphere
 	puppet = OCC

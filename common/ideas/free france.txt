@@ -78,6 +78,21 @@ ideas = {
 			
 		}
 
+		FFA_nonexistent_economy_2 = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.9
+				industrial_capacity_factory = -0.6
+
+			}
+			
+		}
+
 		FFA_colonial_government_0 = {
 
 			#picture = IOC_garrison
@@ -100,6 +115,19 @@ ideas = {
 			}
 			modifier = {
 				conscription_factor = -0.55
+
+			}
+		}
+
+		FFA_colonial_government_2 = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = FFA
+			}
+			modifier = {
+				conscription_factor = -0.45
 
 			}
 		}

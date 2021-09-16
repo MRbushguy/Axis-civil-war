@@ -25,6 +25,8 @@ ITA_debug = {
 
 ITA_industry_agriculture = {
 
+    picture = GFX_decision_category_wide
+
 	priority = 9
 
 	icon = generic_fascism

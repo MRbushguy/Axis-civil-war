@@ -15,16 +15,39 @@ guiTypes = {
 				name = "ITA_industry_progress"
 				spriteType = "GFX_industry_progressbar_long"
 				position = { x = 20 y = 29 }
-				frame = 50
+				frame = 90
 				scale = 1
 				
 		}
 
 		iconType = {
-			name = "test_industry_bar"
-			spriteType = "GFX_industry_test"
-			position = { x = 10 y = 60 }
+				name = "ITA_agriculture_progress"
+				spriteType = "GFX_industry_progressbar_long"
+				position = { x = 20 y = 129 }
+				frame = 10
+				scale = 1
+				
 		}
+
+		instantTextBoxType = {
+			name ="industry_name_text"
+			position = { x = 20 y = 69 }
+			font = "hoi_18mbs"
+			text = "ITA_industry_name_text"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="agriculture_name_text"
+			position = { x = 20 y = 169 }
+			font = "hoi_18mbs"
+			text = "ITA_agriculture_name_text"
+			format = left
+			maxHeight = 24
+		}
+
+		
 
 		
 

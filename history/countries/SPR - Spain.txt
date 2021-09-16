@@ -25,12 +25,17 @@ if = {
 	}
 }
 
+1947.1.1 = {
+	puppet = MOR
+}
+
 if = {
 	limit = {
 		has_dlc = "Battle for the Bosporus"
 	}
 	set_technology = { camelry = 1 }
 }
+
 
 if = {
 	limit = {
@@ -941,15 +946,22 @@ if = {
 
 1947.1.1 = {
 
-	oob = CHI_1947
-	add_to_faction = SIK
-	add_to_faction = XSM
-
 	set_politics = {
 		ruling_party = authoritarianism
 		last_election = "1937.1.1"
 		election_frequency = 48
 		elections_allowed = no
+	}
+
+	create_country_leader = {
+		name = "Francisco Franco"
+		desc = "POLITICS_FRANCISCO_FRANCO_DESC"
+		picture = "GFX_portrait_spain_francisco_franco"
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {
+
+		}
 	}
 
 	set_popularities = {

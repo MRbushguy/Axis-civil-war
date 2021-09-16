@@ -1,5 +1,9 @@
 #ACW
 
+SPR_puppet = {
+	color = rgb { 200 100 31 }
+	color_ui = rgb { 245 123 38 }
+}
 
 RPM_reichskommissariat = {
 	color = rgb { 115 115 115 }
@@ -12,8 +16,13 @@ RPC_reichskommissariat = {
 }
 
 JAP_sibiera = {
-	color = rgb { 237 237 237 }
-	color_ui = rgb { 237 237 237 }
+	color = hsv { 0.05 0.3 1 }
+	color_ui = hsv { 0.05 0.25 1.2 }
+}
+
+JAP_puppet = {
+	color = hsv { 0.05 0.3 1 }
+	color_ui = hsv { 0.05 0.25 1.2 }
 }
 
 SSR_color = {
