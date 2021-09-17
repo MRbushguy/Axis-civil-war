@@ -227,7 +227,7 @@ ITA_Balbo = {
 
 ITA_industry_agriculture = {
 
-ITA_kickstart_industrialization = {
+ITA_continue_industrialization = {
 
 		allowed = {
 			tag = ITA
@@ -239,97 +239,44 @@ ITA_kickstart_industrialization = {
 
 		cost = 1
 
-		days_remove = 0
+		days_remove = 30
 
-		complete_effect = {
+		 remove_effect = {
 			add_to_variable = {ITA_industry_value = 5}
 		}
 	}
 
+	ITA_continue_agriculture_reforms = {
+
+		allowed = {
+			tag = ITA
+		}
+
+		available = {
+
+		}
+
+		cost = 1
+
+		days_remove = 30
+
+
+		 remove_effect = {
+			add_to_variable = {ITA_agriculture_value = 5}
+		}
+	}
+
 	
-	ITA_increase_industry = {
-
-		allowed = {
-			tag = ITA
-		}
-
-		available = {
-
-		}
-
-		cost = 1
-
-		days_remove = 0
-
-		complete_effect = {
-			ITA_increase_industry = yes
-		}
-	}
-
-	ITA_decrease_industry = {
-
-		allowed = {
-			tag = ITA
-		}
-
-		available = {
-
-		}
-
-		cost = 1
-
-		days_remove = 0
-
-		complete_effect = {
-			ITA_decrease_industry = yes
-		}
-
-	}
-
-	ITA_increase_agriculture = {
-
-		allowed = {
-			tag = ITA
-		}
-
-		available = {
-
-		}
-
-		cost = 1
-
-		days_remove = 0
-
-		complete_effect = {
-			ITA_increase_agriculture = yes
-		}
-	}
-
-	ITA_decrease_agriculture = {
-
-		allowed = {
-			tag = ITA
-		}
-
-		available = {
-
-		}
-
-		cost = 1
-
-		days_remove = 0
-
-		complete_effect = {
-			ITA_decrease_agriculture = yes
-		}
-
-	}
-
-	ITA_home_development = {
-
-	}
-
 }
+
+
+
+
+
+
+
+
+
 
 ITA_empire_stage_1 = {
 
