@@ -40,7 +40,8 @@ add_ideas = {
 ####VARIABLES######
 
 set_variable = {ITA_industry_value = 10.1}
-
+set_variable = {ITA_industry_progressbar_value = 10} #used for visual
+set_variable = {ITA_industry_text_value = 101} #used for text
 
 set_variable = {ITA_industry_var_factory = .101}
 set_variable = {ITA_industry_var_dockyard = .101}
@@ -49,6 +50,8 @@ set_variable = {ITA_industry_var_construction = .101}
 
 
 set_variable = {ITA_agriculture_value = 40.1}
+set_variable = {ITA_agriculture_progressbar_value = 40}
+set_variable = {ITA_agriculture_text_value = 401}
 
 set_variable = {ITA_agriculture_var_population = 40.1}
 set_variable = {ITA_agriculture_var_efficiency_gain = .401}

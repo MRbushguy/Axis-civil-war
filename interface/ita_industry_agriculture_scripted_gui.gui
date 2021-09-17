@@ -15,7 +15,7 @@ guiTypes = {
 				name = "ITA_industry_progress"
 				spriteType = "GFX_industry_progressbar_long"
 				position = { x = 20 y = 29 }
-				frame = 90
+				frame = 0
 				scale = 1
 				
 		}

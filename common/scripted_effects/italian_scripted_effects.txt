@@ -1,0 +1,91 @@
+
+ITA_increase_industry = {
+
+	if = {
+		limit = { check_variable = {ITA_industry_value = 100.0} }
+		
+	} 
+	else = {
+
+		add_to_variable = {ITA_industry_value = 0.1}
+	}
+}
+
+ITA_decrease_industry = {
+	
+	if = {
+		limit = { check_variable = {ITA_industry_value = 0.0} }
+		
+	} else = {
+
+		add_to_variable = {ITA_industry_value = -0.1}
+	}
+}
+
+ITA_increase_agriculture = {
+	
+	if = {
+		limit = { check_variable = {ITA_agriculture_value = 100.0} }
+		
+	} else = {
+
+		add_to_variable = {ITA_agriculture_value = 0.1}
+	}
+}
+
+ITA_decrease_agriculture = {
+	
+	if = {
+		limit = { check_variable = {ITA_agriculture_value = 0.0} }
+		
+	} else = {
+
+		add_to_variable = {ITA_agriculture_value = -0.1}
+	}
+}
+
+
+
+
+GER_increase_plunder_economy = {
+
+	if = {
+		limit = { has_idea = GER_plunder_economy_5 }
+		swap_ideas = {
+			remove_idea = GER_plunder_economy_5
+			add_idea = GER_plunder_economy_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = GER_plunder_economy_4 }
+		swap_ideas = {
+			remove_idea = GER_plunder_economy_4
+			add_idea = GER_plunder_economy_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = GER_plunder_economy_3 }
+		swap_ideas = {
+			remove_idea = GER_plunder_economy_3
+			add_idea = GER_plunder_economy_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = GER_plunder_economy_2 }
+		swap_ideas = {
+			remove_idea = GER_plunder_economy_2
+			add_idea = GER_plunder_economy_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = GER_plunder_economy_1 }
+		swap_ideas = {
+			remove_idea = GER_plunder_economy_1
+			add_idea = GER_plunder_economy_0
+		}
+	}
+
+
+
+
+}

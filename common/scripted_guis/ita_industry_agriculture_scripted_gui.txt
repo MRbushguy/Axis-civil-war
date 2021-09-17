@@ -10,7 +10,7 @@ scripted_gui = {
 			}
 
 			ITA_agriculture_progress = {
-				frame = ITA_agriculture_value
+				frame = ITA_agriculture_progressbar_value
 			}
 		}
 	}

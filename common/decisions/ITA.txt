@@ -262,7 +262,7 @@ ITA_kickstart_industrialization = {
 		days_remove = 0
 
 		complete_effect = {
-			add_to_variable = {ITA_industry_value = 5}
+			ITA_increase_industry = yes
 		}
 	}
 
@@ -281,7 +281,46 @@ ITA_kickstart_industrialization = {
 		days_remove = 0
 
 		complete_effect = {
-			add_to_variable = {ITA_industry_value = -5}
+			ITA_decrease_industry = yes
+		}
+
+	}
+
+	ITA_increase_agriculture = {
+
+		allowed = {
+			tag = ITA
+		}
+
+		available = {
+
+		}
+
+		cost = 1
+
+		days_remove = 0
+
+		complete_effect = {
+			ITA_increase_agriculture = yes
+		}
+	}
+
+	ITA_decrease_agriculture = {
+
+		allowed = {
+			tag = ITA
+		}
+
+		available = {
+
+		}
+
+		cost = 1
+
+		days_remove = 0
+
+		complete_effect = {
+			ITA_decrease_agriculture = yes
 		}
 
 	}
