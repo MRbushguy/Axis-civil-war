@@ -22,8 +22,9 @@ state={
 			}
 		}
 		1947.1.1 = {
-			owner = ALG
-			controller = ALG
+			owner = OCC
+			controller = OCC
+			add_core_of = OCC
 		}
 	}
 
