@@ -5,7 +5,7 @@ ITA_debug = {
 
 	ITA_Barracu = {
 
-		icon = generic_civil_support
+		icon = generic_prepare_civil_war
 
 		allowed = {
 			tag = ITA
@@ -37,7 +37,7 @@ ITA_debug = {
 	}
 	ITA_Ciano = {
 
-		icon = generic_civil_support
+		icon = generic_prepare_civil_war
 
 		allowed = {
 			tag = ITA
@@ -68,7 +68,7 @@ ITA_debug = {
 	}
 	ITA_Galbiati = {
 
-		icon = generic_civil_support
+		icon = generic_prepare_civil_war
 
 		allowed = {
 			tag = ITA
@@ -100,7 +100,7 @@ ITA_debug = {
 	}		
 	ITA_Grandi = {
 
-		icon = generic_civil_support
+		icon = generic_prepare_civil_war
 
 		allowed = {
 			tag = ITA
@@ -130,7 +130,7 @@ ITA_debug = {
 	}
 	ITA_Muti = {
 
-		icon = generic_civil_support
+		icon = generic_prepare_civil_war
 
 		allowed = {
 			tag = ITA
@@ -161,7 +161,7 @@ ITA_debug = {
 	}
 	ITA_Pavolini = {
 
-		icon = generic_civil_support
+		icon = generic_prepare_civil_war
 
 		allowed = {
 			tag = ITA
@@ -194,7 +194,7 @@ ITA_debug = {
 
 ITA_Balbo = {
 
-		icon = generic_civil_support
+		icon = generic_prepare_civil_war
 
 		allowed = {
 			tag = ITA
@@ -229,6 +229,8 @@ ITA_industry_agriculture = {
 
 ITA_continue_industrialization = {
 
+ icon = gre_paying_ifc_debt
+
 		allowed = {
 			tag = ITA
 		}
@@ -251,6 +253,8 @@ ITA_continue_industrialization = {
 	}
 
 	ITA_continue_agriculture_reforms = {
+
+	icon = gre_investment_decisions
 
 		allowed = {
 			tag = ITA
@@ -291,7 +295,7 @@ ITA_empire_stage_1 = {
 
 ITA_next_empire_phase = {
 
-		icon = generic_civil_support
+		icon = eng_puppet_usa
 
 		allowed = {
 			tag = ITA
@@ -338,7 +342,7 @@ ITA_next_empire_phase = {
 
 	ITA_stabalize_IEA = {
 
-		icon = generic_civil_support
+		icon = generic_prepare_civil_war
 
 		allowed = {
 			tag = ITA
@@ -363,7 +367,7 @@ ITA_next_empire_phase = {
 
 ITA_stabalize_IME = {
 
-		icon = generic_civil_support
+		icon = generic_prepare_civil_war
 
 		allowed = {
 			tag = ITA
@@ -387,7 +391,7 @@ ITA_stabalize_IME = {
 
 ITA_stabalize_ICA = {
 
-		icon = generic_civil_support
+		icon = generic_prepare_civil_war
 
 		allowed = {
 			tag = ITA
@@ -412,7 +416,7 @@ ITA_stabalize_ICA = {
 
 ITA_stabalize_IGL = {
 
-		icon = generic_civil_support
+		icon = generic_prepare_civil_war
 
 		allowed = {
 			tag = ITA
@@ -437,7 +441,7 @@ ITA_stabalize_IGL = {
 
 ITA_stabalize_garrison_IOC = {
 
-		icon = generic_civil_support
+		icon = generic_prepare_civil_war
 
 		allowed = {
 			tag = ITA

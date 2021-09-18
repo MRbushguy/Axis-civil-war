@@ -29,7 +29,7 @@ ITA_industry_agriculture = {
 
 	priority = 9
 
-	icon = generic_fascism
+	icon = gre_investment_decisions
 
 	scripted_gui = ita_industry_agriculture_decision_ui
 
@@ -50,7 +50,7 @@ ITA_empire_stage_1 ={
 
 priority = 9
 
-	icon = generic_fascism
+	icon = generic_arms_trade
 
 	visible_when_empty = no
 
