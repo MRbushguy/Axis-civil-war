@@ -6,7 +6,7 @@ scripted_gui = {
 
 		properties = {
 			ITA_industry_progress = {
-				frame = ITA_industry_value
+				frame = ITA_industry_progressbar_value
 			}
 
 			ITA_agriculture_progress = {

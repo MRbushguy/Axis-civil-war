@@ -242,7 +242,11 @@ ITA_continue_industrialization = {
 		days_remove = 30
 
 		 remove_effect = {
-			add_to_variable = {ITA_industry_value = 5}
+			ITA_increase_industry = yes
+			ITA_increase_industry = yes
+			ITA_increase_industry = yes
+			ITA_increase_industry = yes
+			ITA_increase_industry = yes
 		}
 	}
 
@@ -262,7 +266,11 @@ ITA_continue_industrialization = {
 
 
 		 remove_effect = {
-			add_to_variable = {ITA_agriculture_value = 5}
+			ITA_increase_agriculture = yes
+			ITA_increase_agriculture = yes
+			ITA_increase_agriculture = yes
+			ITA_increase_agriculture = yes
+			ITA_increase_agriculture = yes
 		}
 	}
 
