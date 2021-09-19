@@ -15,7 +15,7 @@
 	create_country_leader = {
 		name = "Arthur Seyss-Inquart"
 		desc = ""
-		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+		picture = "gfx/leaders/HOL/Arthur Seyss-Inquart.dds"
 		expire = "1965.1.1"
 		ideology = lebensraum_germanization
 		traits = {

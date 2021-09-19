@@ -6,7 +6,9 @@
  GER_authoritarianism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reform"
  GER_fascism_party:0 "NSDAP - Militarists"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Militaristen"
- 
+ GER_nationalism_party:0 "NSDAP - Conservative"
+ GER_nationalism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Konservativ"
+
  GER_communism_party:0 "KPD - S"
  GER_communism_party_long:0 "Kommunistische Partei Deutschlands - Stalinismus"
  GER_socialism_party:0 "KPD - ML"
@@ -20,21 +22,23 @@
  GER_democratic_center_party_long:0 "Free Democratic Party"
 
  FFA_national_socialism_party:0 "PPF"
- FFA_national_socialism_party_long:0 "Parti Populaire FFAnçais"
+ FFA_national_socialism_party_long:0 "Parti Populaire Français"
  FFA_authoritarianism_party:0 "PRL"
  FFA_authoritarianism_party_long:0 " Parti Républicain de la Liberté"
  FFA_fascism_party:0 "PPF"
- FFA_fascism_party_long:0 "Parti Populaire FFAnçais"
+ FFA_fascism_party_long:0 "Parti Populaire Français"
+ FFA_fascism_party:0 "PPF - M"
+ FFA_fascism_party_long:0 "Parti Populaire Français - Modéré"
  
  FFA_communism_party:0 "PCF"
- FFA_communism_party_long:0 "Parti Communiste FFAnçais"
+ FFA_communism_party_long:0 "Parti Communiste Français"
  FFA_socialism_party:0 "SFIO"
- FFA_socialism_party_long:0 "Section FFAnçaise de l'Internationale Ouvrière"
+ FFA_socialism_party_long:0 "Section Française de l'Internationale Ouvrière"
  FFA_democratic_left_party:0 "PR"
  FFA_democratic_left_party_long:0 "Parti Radical" 
 
  FFA_democratic_right_party:0 "RPF"
- FFA_democratic_right_party_long:0 "Rassemblement du Peuple FFAnçais"
+ FFA_democratic_right_party_long:0 "Rassemblement du Peuple Français"
  FFA_democratic_center_party:0 "MRP"
  FFA_democratic_center_party_long:0 "Mouvement Républicain Populaire"
 
@@ -43,6 +47,8 @@
  COG_national_socialism_party_long:0 "Deutsch-Kongo-Freikorps"
  COG_authoritarianism_party:0 "ACB"
  COG_authoritarianism_party_long:0 "Autorité Coloniale Belge"
+ COG_authoritarianism_party:0 "ACB - M"
+ COG_authoritarianism_party_long:0 "Autorité Coloniale Belge - Militaristes"
  COG_fascism_party:0 "ACB - SN"
  COG_fascism_party_long:0 "Autorité Coloniale Belge - Salut National"
  
@@ -62,7 +68,10 @@
  USA_national_socialism_party_long:0 "National Preservation Alliance - Amerikadeutscher Volksbund"
  USA_fascism_party:0 "NPA - AF"
  USA_fascism_party_long:0 "National Preservation Alliance - America First Caucus"
- 
+
+ USA_nationalism_party:0 "CPA"
+ USA_nationalism_party_long:0 "Christian Party of America"
+
  USA_communism_party:0 "CPUSA"
  USA_communism_party_long:0 "Communist Party of the United States of America"
  USA_socialism_party:0 "CPUSA - WFC"
@@ -101,9 +110,9 @@
  JAP_fascism_party:0 "Taisei Yokusankai"
  JAP_authoritarianism_party_kodoha_long:0 "Kodoha Faction"
  JAP_authoritarianism_party_kodoha:0 "Kodoha Faction"
- FFA_communism_party:0 "Parti Communiste FFAncais"
+ FFA_communism_party:0 "Parti Communiste Francais"
  FFA_democratic_party:0 "Parti Radical"
- FFA_fascism_party:0 "Mouvement FFAnciste"
+ FFA_fascism_party:0 "Mouvement Franciste"
 
  SOV_national_socialism_party:0 "RFP - NU"
  SOV_national_socialism_party_long:0 "Vserossiyskaya fashistskaya partiya - Natsional'noye yedinstvo"
@@ -149,8 +158,8 @@
  SPR_authoritarianism_party_long:1 "Comunión Tradicionalista"
  SPR_fascism_falange_party:0 "FE de las JONS"
  SPR_fascism_falange_party_long:0 "Falange Española de las Juntas de Ofensiva Nacional Sindicalista"
- SPR_fascism_FFAncoist_party:0 "FET de las JONS"
- SPR_fascism_FFAncoist_party_long:0 "Falange Española Tradicionalista de las Juntas de Ofensiva Nacional Sindicalista"
+ SPR_fascism_Francoist_party:0 "FET de las JONS"
+ SPR_fascism_Francoist_party_long:0 "Falange Española Tradicionalista de las Juntas de Ofensiva Nacional Sindicalista"
  SPR_communism_independent_party:0 "POUM"
  SPR_communism_independent_party_long:0 "Partido Obrero de Unificación Marxista"
  SPR_authoritarianism_anarchism_party:0 "CNT/FAI"
@@ -517,7 +526,7 @@
  KOR_authoritarianism_party:0 "Yi Dynasty"
  KOR_fascism_party:0 "NDPC"
  KOR_fascism_party_long:0 "National Defense Policy Committee"
- ICE_democratic_party:1 "FFAmsóknarflokkurinn"
+ ICE_democratic_party:1 "Framsóknarflokkurinn"
  ICE_communism_party:1 "Kommúnistaflokkur"
  ICE_communism_party_long:0 "Kommúnistaflokkur Íslands"
  ICE_fascism_party:1 "Þjóðernissinna"
@@ -536,10 +545,13 @@
  JOR_authoritarianism_party:0 "Hashemite"
  JOR_democratic_party:0 "National Liberal Party"
  JOR_communism_party:0 "Jordanian Workers Society"
+
  EGY_communism_party:0 "Egyptian Communist Party"
+ EGY_nationalism_party:0 "El-ekhwan Al-muslimīn"
  EGY_fascism_party:0 "Misr El-Fatah"
  EGY_democratic_party:0 "Liberation Rally"
  EGY_authoritarianism_party:0 "Royalists"
+
  PAL_fascism_party:0 "Al-Muqaddas"
  PAL_communism_party:0 "NLL"
  PAL_communism_party_long:0 "National Liberation League"

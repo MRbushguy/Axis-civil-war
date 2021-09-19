@@ -115,6 +115,15 @@ create_country_leader = {
 		elections_allowed = no
 	}
 
+	create_country_leader = {
+	name = "Farouk Muhammad Ali"
+	desc = ""
+	picture = "gfx/leaders/EGY/Portrait_Farouk_Muhammad_Ali.dds"
+	ideology = monarchism
+	traits = {
+		}
+	}
+
 	set_popularities = {
 		democratic_right = 10
 		authoritarianism = 60

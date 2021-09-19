@@ -640,6 +640,67 @@ create_corps_commander = {
 	id = 8
 }
 
+create_corps_commander = {
+	name = "Erwin Rommel"
+	picture = "Erwin Rommel.dds"
+	traits = { armor_officer brilliant_strategist }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 4
+	id = 9
+}
+
+create_corps_commander = {
+	name = "Georg Bochmann"
+	picture = "Georg Bochmann.dds"
+	traits = { GER_ss_general armor_officer  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	id = 10
+}
+
+create_corps_commander = {
+	name = "Heinz Guderian"
+	picture = "Heinz Guderian.dds"
+	traits = { armor_officer  }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+	id = 11
+}
+
+create_corps_commander = {
+	name = "Kurt Student"
+	picture = "Kurt Student.dds"
+	traits = { paratrooper  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+	id = 12
+}
+
+### OKM Generals
+
+create_corps_commander = {
+	name = "Theodor Tolsdorff"
+	picture = "Theodor Tolsdorff.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	id = 13
+}
 if = {
 	limit = {
 		has_dlc = "La Resistance"
