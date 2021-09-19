@@ -1018,6 +1018,7 @@ focus_tree = {
 
 
 	}
+	}
 	
 	focus = { 
 		id = SER_push_the_Illyrian_propaganda
