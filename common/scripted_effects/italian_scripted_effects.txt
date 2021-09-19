@@ -9,6 +9,12 @@ ITA_increase_industry = {
 
 		add_to_variable = {ITA_industry_value = 0.1}
 		add_to_variable = {ITA_industry_text_value = 1}
+
+		#actual values
+		add_to_variable = {ITA_industry_var_factory = 0.001}
+		add_to_variable = {ITA_industry_var_dockyard = 0.001}
+		add_to_variable = {ITA_industry_var_resources = 0.001}
+		add_to_variable = {ITA_industry_var_construction = 0.001}
 	}
 }
 
@@ -21,6 +27,11 @@ ITA_decrease_industry = {
 
 		add_to_variable = {ITA_industry_value = -0.1}
 		add_to_variable = {ITA_industry_text_value = -0.1}
+
+		add_to_variable = {ITA_industry_var_factory = -0.001}
+		add_to_variable = {ITA_industry_var_dockyard = -0.001}
+		add_to_variable = {ITA_industry_var_resources = -0.001}
+		add_to_variable = {ITA_industry_var_construction = -0.001}
 	}
 }
 
@@ -33,6 +44,11 @@ ITA_increase_agriculture = {
 
 		add_to_variable = {ITA_agriculture_value = 0.1}
 		add_to_variable = {ITA_agriculture_text_value = 0.1}
+
+		#actual values
+		add_to_variable = {ITA_agriculture_var_population = 1}
+		add_to_variable = {ITA_agriculture_var_efficiency_gain = 0.001}
+		add_to_variable = {ITA_agriculture_var_efficiency_cap = 0.001}
 	}
 }
 
@@ -45,6 +61,11 @@ ITA_decrease_agriculture = {
 
 		add_to_variable = {ITA_agriculture_value = -0.1}
 		add_to_variable = {ITA_agriculture_text_value = -0.1}
+
+		#actual values
+		add_to_variable = {ITA_agriculture_var_population = -1}
+		add_to_variable = {ITA_agriculture_var_efficiency_gain = -0.001}
+		add_to_variable = {ITA_agriculture_var_efficiency_cap = -0.001}
 	}
 }
 

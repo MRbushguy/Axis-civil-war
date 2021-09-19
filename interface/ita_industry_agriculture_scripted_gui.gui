@@ -38,6 +38,15 @@ guiTypes = {
 			maxHeight = 24
 		}
 
+		#Tooltip
+		instantTextBoxType = {
+			name ="industry_tooltip_fake"
+			position = { x = 20 y = 29 }
+			maxwidth = 362
+			maxHeight = 32
+			pdx_tooltip = ITA_INDUSTRY_TOOLTIP
+		}
+
 		instantTextBoxType = {
 			name ="agriculture_name_text"
 			position = { x = 20 y = 169 }
@@ -45,6 +54,15 @@ guiTypes = {
 			text = "ITA_agriculture_name_text"
 			format = left
 			maxHeight = 24
+		}
+
+		#Tooltip
+		instantTextBoxType = {
+			name ="agriculture_tooltip_fake"
+			position = { x = 20 y = 129 }
+			maxwidth = 362
+			maxHeight = 32
+			pdx_tooltip = ITA_AGRICULTURE_TOOLTIP
 		}
 
 		
