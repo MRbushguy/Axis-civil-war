@@ -1,0 +1,49 @@
+﻿focus_tree = {
+	id = nationalist_spain
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 11
+			tag = SPR
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	
+
+
+
+	focus = {
+
+		id = SPR_take_stock
+		#icon
+
+		prerequisite = {}
+
+		allowed = {}
+
+
+
+		x = 20
+		y = 1
+
+		cost = 4
+
+
+		completion_reward = {
+			
+
+		}
+
+	}
+
+
+
+
+
+}

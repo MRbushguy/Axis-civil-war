@@ -501,6 +501,385 @@
 
 	}
 
+	focus = {
+
+		id = FFA_DeGaulle_Speech
+		#icon
+
+		prerequisite = {focus = FFA_what_the_future_holds}
+
+		allowed = {}
+
+
+
+		x = 0
+		y = 1
+
+		cost = 4
+
+		relative_position_id = FFA_what_the_future_holds
+
+		completion_reward = {
+			##gives event
+			
+			
+
+							
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_empower_local_governments
+		#icon
+
+		prerequisite = {focus = FFA_DeGaulle_Speech}
+		prerequisite = {focus = FFA_what_we_have_to_build}
+		mutually_exclusive = {focus = FFA_crush_nationalist_movements}
+
+		allowed = {}
+
+
+
+		x = 5
+		y = 1
+
+		cost = 4
+
+		relative_position_id = FFA_DeGaulle_Speech
+
+		completion_reward = {
+			##gives event
+			
+			
+
+							
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_crush_nationalist_movements
+		#icon
+
+		prerequisite = {focus = FFA_DeGaulle_Speech}
+		prerequisite = {focus = FFA_who_we_must_avenge}
+		mutually_exclusive = {focus = FFA_empower_local_governments}
+
+		allowed = {}
+
+
+
+		x = -5
+		y = 1
+
+		cost = 4
+
+		relative_position_id = FFA_DeGaulle_Speech
+
+		completion_reward = {
+			##gives event
+			
+			
+
+							
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_centralize_african_economy
+		#icon
+
+		prerequisite = {focus = FFA_crush_nationalist_movements
+						focus = FFA_empower_local_governments}
+		mutually_exclusive = {focus = FFA_pursue_spread_development}
+
+		allowed = {}
+
+
+
+		x = -4
+		y = 2
+
+		cost = 4
+
+		relative_position_id = FFA_DeGaulle_Speech
+
+		completion_reward = {
+			##gives event
+			
+			
+
+							
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_pursue_spread_development
+		#icon
+
+		prerequisite = {focus = FFA_crush_nationalist_movements
+						focus = FFA_empower_local_governments}
+		mutually_exclusive = {focus = FFA_centralize_african_economy}
+
+		allowed = {}
+
+
+
+		x = 4
+		y = 2
+
+		cost = 4
+
+		relative_position_id = FFA_DeGaulle_Speech
+
+		completion_reward = {
+			##gives event
+			
+			
+
+							
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_consolidate_power
+		#icon
+
+		prerequisite = {focus = FFA_centralize_african_economy
+						focus =  FFA_pursue_spread_development}
+		mutually_exclusive = {focus = FFA_create_a_parliament}
+
+		allowed = {}
+
+
+
+		x = -3
+		y = 3
+
+		cost = 4
+
+		relative_position_id = FFA_DeGaulle_Speech
+
+		completion_reward = {
+			##gives event
+			
+			
+
+							
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_create_a_parliament
+		#icon
+
+		prerequisite = {focus = FFA_centralize_african_economy
+						focus =  FFA_pursue_spread_development}
+		mutually_exclusive = {focus = FFA_consolidate_power}
+
+		allowed = {}
+
+
+
+		x = 3
+		y = 3
+
+		cost = 4
+
+		relative_position_id = FFA_DeGaulle_Speech
+
+		completion_reward = {
+			##gives event
+			
+			
+
+							
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_enforce_caste_system
+		#icon
+
+		prerequisite = {focus = FFA_create_a_parliament
+						focus =  FFA_consolidate_power }
+		mutually_exclusive = {focus = FFA_loosen_racial_restrictions}
+
+		allowed = {}
+
+
+
+		x = -2
+		y = 4
+
+		cost = 4
+
+		relative_position_id = FFA_DeGaulle_Speech
+
+		completion_reward = {
+			##gives event
+			
+			
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_loosen_racial_restrictions
+		#icon
+
+		prerequisite = {focus = FFA_create_a_parliament
+						focus =  FFA_consolidate_power }
+		mutually_exclusive = {focus = FFA_enforce_caste_system}
+
+		allowed = {}
+
+
+
+		x = 2
+		y = 4
+
+		cost = 4
+
+		relative_position_id = FFA_DeGaulle_Speech
+
+		completion_reward = {
+			##gives event
+			
+			
+
+							
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_our_heart
+		#icon
+
+		prerequisite = {focus = FFA_loosen_racial_restrictions
+						focus =  FFA_enforce_caste_system }
+		mutually_exclusive = {focus = FFA_our_soul}
+
+		allowed = {}
+
+
+
+		x = -1
+		y = 5
+
+		cost = 4
+
+		relative_position_id = FFA_DeGaulle_Speech
+
+		completion_reward = {
+			## heart meaning the physical heart (the homeland)
+			
+			
+
+							
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_our_soul
+		#icon
+
+		prerequisite = {focus = FFA_loosen_racial_restrictions
+						focus =  FFA_enforce_caste_system }
+		mutually_exclusive = {focus = FFA_our_heart}
+
+		allowed = {}
+
+
+
+		x = 1
+		y = 5
+
+		cost = 4
+
+		relative_position_id = FFA_DeGaulle_Speech
+
+		completion_reward = {
+			## soul meaning metaphysical heart (the people of france, not the land)
+			
+			
+
+							
+
+			
+		}
+
+	}
+
+	focus = {
+
+		id = FFA_the_new_way_forwards
+		#icon
+
+		prerequisite = {focus = FFA_our_heart
+						focus =  FFA_our_soul }
+
+		allowed = {}
+
+
+
+		x = 0
+		y = 6
+
+		cost = 4
+
+		relative_position_id = FFA_DeGaulle_Speech
+
+		completion_reward = {
+			## will cause focus tree to change depending on support for particular ideology
+			
+			
+
+							
+
+			
+		}
+
+	}
+
+
 
 
 
