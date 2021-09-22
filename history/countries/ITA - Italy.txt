@@ -39,23 +39,23 @@ add_ideas = {
 
 ####VARIABLES######
 
-set_variable = {ITA_industry_value = 10.1}
-set_variable = {ITA_industry_progressbar_value = 10} #used for visual
-set_variable = {ITA_industry_text_value = 101} #used for text
+set_variable = {ITA_industry_value = 0}
+set_variable = {ITA_industry_progressbar_value = 0} #used for visual
+set_variable = {ITA_industry_text_value = 0} #used for text
 
-set_variable = {ITA_industry_var_factory = -.399} #-.50 to +.50
-set_variable = {ITA_industry_var_dockyard = -.399} #-.50 to +.50
-set_variable = {ITA_industry_var_resources = -.149} #-.25 to +.75
-set_variable = {ITA_industry_var_construction = -.399} #-.50 to +.50
+set_variable = {ITA_industry_var_factory = 0} #-.50 to +.50
+set_variable = {ITA_industry_var_dockyard = 0} #-.50 to +.50
+set_variable = {ITA_industry_var_resources = 0} #-.25 to +.75
+set_variable = {ITA_industry_var_construction = 0} #-.50 to +.50
 
 
-set_variable = {ITA_agriculture_value = 40.1}
-set_variable = {ITA_agriculture_progressbar_value = 40}
-set_variable = {ITA_agriculture_text_value = 401}
+set_variable = {ITA_agriculture_value = 0}
+set_variable = {ITA_agriculture_progressbar_value = 0}
+set_variable = {ITA_agriculture_text_value = 0}
 
-set_variable = {ITA_agriculture_var_population = 401} # 0 to 1000
-set_variable = {ITA_agriculture_var_efficiency_gain = -.099} #-0.50 to 0.50
-set_variable = {ITA_agriculture_var_efficiency_cap = -.099} #-0.5 to +0.5
+set_variable = {ITA_agriculture_var_population = 0} # 0 to 1000
+set_variable = {ITA_agriculture_var_efficiency_gain = 0} #-0.50 to 0.50
+set_variable = {ITA_agriculture_var_efficiency_cap = 0} #-0.5 to +0.5
 
 # Starting tech
 set_technology = {

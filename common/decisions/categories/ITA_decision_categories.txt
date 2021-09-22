@@ -11,6 +11,7 @@ ITA_debug = {
 
 	visible = {
 		original_tag = ITA
+		is_debug = yes
 	}
 
 	allowed = {

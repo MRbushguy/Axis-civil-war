@@ -9,11 +9,11 @@ ITA_industry_agriculture_desc:0 "§G\n \n \n \n \n \n \n \n \n\n\n\n As we enter
 
 ITA_industrial_values_dynamic_modifier:0 "Industrial Reforms"
 ITA_industry_name_text:0 "Industrial Progress: [?ITA_industry_text_value]%"
-ITA_INDUSTRY_TOOLTIP:0 "§YFrom Our current level of §!§GIndustrial Reforms§!§Y we get the following bonuses :§!\n Factory Output: [?ITA_industry_var_factory|%+=] \nDockyard Output: [?ITA_industry_var_dockyard|%+=] \nResource Gain Efficiency: [?ITA_industry_var_resources|%+=] \nConstruction Speed: [?ITA_industry_var_construction|%+=] \n\n§gAn Industrious italy is a prosperous Italy.§!"
+ITA_INDUSTRY_TOOLTIP:0 "§YFrom Our current level of §!§GIndustrial Reforms§!§Y we get the following bonuses :§!\n\n Factory Output: [?ITA_industry_var_factory|%+=] \nDockyard Output: [?ITA_industry_var_dockyard|%+=] \nResource Gain Efficiency: [?ITA_industry_var_resources|%+=] \nConstruction Speed: [?ITA_industry_var_construction|%+=] \n\n§GAn Industrious italy is a prosperous Italy.§!"
 
 ITA_agriculture_values_dynamic_modifier:0 "Agricultural Reforms"
 ITA_agriculture_name_text:0 "Agricultural Progress: [?ITA_agriculture_text_value]%"
-ITA_AGRICULTURE_TOOLTIP:0 "§YFrom Our current level of §!§GAgricultural Reforms§!§Y we get the following bonuses :§! \nMonthly Population Gain: [?ITA_agriculture_var_population|+=] \nProduction Efficiency Gain: [?ITA_agriculture_var_efficiency_gain|%+=] \nProduction Efficiency Cap: [?ITA_agriculture_var_efficiency_cap|%+=] \n\n§gA fed population is a productive population.§!"
+ITA_AGRICULTURE_TOOLTIP:0 "§YFrom Our current level of §!§GAgricultural Reforms§!§Y we get the following bonuses :§! \n\nMonthly Population Gain: [?ITA_agriculture_var_population|+=] \nProduction Efficiency Gain: [?ITA_agriculture_var_efficiency_gain|%+=] \nProduction Efficiency Cap: [?ITA_agriculture_var_efficiency_cap|%+=] \n\n§GA fed population is a productive population.§!"
 
 ITA_continue_industrialization:0 "Continue Industrialization of the country"
 ITA_continue_industrialization_desc:0 "From Mussolini's rise to power in 1922, the Industrialization of Italy has always been a major goal for government. And while the success of the project from 1922-1939 is debatable, the outbreak of WW2 halted the project. \n\nHowever as we return from the war as Total victors, we can once again Continue the project, this time much more efficently, and with the usage of our newly gained knowlage from the war \n\n\n§GClicking this decision will unlock further refomrs and will give a 5% increase to industrial progress§!"
