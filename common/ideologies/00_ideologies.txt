@@ -130,7 +130,7 @@ nationalism = {
 
 		types = {
 
-			pan_african_nationalism = {
+			black_nationalism = {
 			}
 
 			hyper_millitarism = {
