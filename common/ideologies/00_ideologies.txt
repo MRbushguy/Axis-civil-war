@@ -16,7 +16,7 @@ ideologies = {
 			lebensraum_germanization = {
 			}
 
-			exploitative_colonization = {
+			ss_legion = {
 			}
 
 			russian_nazism = {
@@ -66,6 +66,9 @@ ideologies = {
 			}
 
 			falangism = {
+			}
+
+			zealous_anti_communism = {
 			}
 
 			rexism = {
