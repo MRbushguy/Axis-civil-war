@@ -49,8 +49,10 @@ ITA_industry_agriculture = {
 
 ITA_empire_stage_1 ={
 
-priority = 9
+	priority = 9
 
+	picture = GFX_decision_category_italian_empire
+	
 	icon = generic_arms_trade
 
 	visible_when_empty = no

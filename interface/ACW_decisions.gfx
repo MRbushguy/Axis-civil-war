@@ -1,8 +1,11 @@
 spriteTypes = {
-	
+	### ITA Category Images
+	spriteType = {
+		name = "GFX_decision_category_italian_empire"
+		texturefile = "gfx/interface/decisions/decision_category_italian_empire.dds"
+	}
 
-
-	#### italy progress bar
+	#### ITA progress bar
 
 	progressbartype = {
 		name = "GFX_industry_progressbar_long"
@@ -20,7 +23,7 @@ spriteTypes = {
 	}
 
 
-	### categories
+	### GER categories
 
 	spriteType = {
 		name = "GFX_decision_category_Volkshalle"
@@ -42,7 +45,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/test.dds"
 	}
 
-	### faction icons
+	### GER faction icons
 
 	spriteType = {
 		name = "GFX_decision_faction_ger_ndsap"

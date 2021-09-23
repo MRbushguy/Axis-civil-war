@@ -45,7 +45,7 @@ ideas = {
 
 
 		Modern_roman_army = {
-			picture = vittoria_mutilata
+			picture = Modern_Roman_Army
 
 
 			allowed = {
@@ -68,7 +68,7 @@ ideas = {
 		}
 
 		sea_and_air_domination = {
-			picture = vittoria_mutilata
+			picture = Air_Land_Domination
 
 
 			allowed = {
@@ -93,7 +93,7 @@ ideas = {
 	
 
 		extreme_overstretch_empire_1 = {
-			picture = vittoria_mutilata
+			picture = extreme_overstretch_empire_1
 
 
 			allowed = {

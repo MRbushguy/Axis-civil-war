@@ -163,3 +163,18 @@ spriteTypes = {
 		name = "GFX_idea_SPQR_Eagle"
 		texturefile = "gfx/interface/ideas/ITA/SPQR_Eagle.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_idea_Modern_Roman_Army"
+		texturefile = "gfx/interface/ideas/ITA/Modern_Roman_Army.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_Air_Land_Domination"
+		texturefile = "gfx/interface/ideas/ITA/Air_Land.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_extreme_overstretch_empire_1"
+		texturefile = "gfx/interface/ideas/ITA/extreme_overstretch_empire_1.dds"
+	}			
