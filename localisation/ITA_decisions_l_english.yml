@@ -1,7 +1,31 @@
 ﻿l_english:
 
 
-ITA_empire_colonies_phase:0 "\n§YAfter a long list of Grueling pacification missions and stratigic investments in specific  fields, we have managed to stabalize and develop enough of our Colonies and subjects to start bearing fruit from it. And although we still have a long way to go, it is still progress§!\n\n"
+ITA_empire_stage_1:0 "building our Colonial Sphere"
+
+
+ITA_stabalize_garrison_IOC:0 "stabalize the Crimean Garrison"
+
+
+ITA_stabalize_IEA:0 "stabalize the East African colony"
+
+
+ITA_stabalize_ICA:0 "stabalize the Central African colony"
+
+
+ITA_stabalize_IME:0 "stabalize the Middle Eastern colony"
+
+
+ITA_stabalize_IGL:0 "stabalize the Gulf colony"
+
+ITA_next_empire_phase:0 "Next phase of Colonial reforms"
+
+
+
+ITA_empire_colonies_phase:0 "\n§YAfter a long list of Grueling pacification missions, we have managed to stabalize our Colonies enough of To the point where they can efficently Garrison the Colonies without the fear of a Major reballion. although we still have a long way to go, it is progress§!\n\n"
+
+
+
 
 
 ITA_industry_agriculture:0 "Industry and Agriculture Reforms"
@@ -9,15 +33,15 @@ ITA_industry_agriculture_desc:0 "§G\n \n \n \n \n \n \n \n \n\n\n\n As we enter
 
 ITA_industrial_values_dynamic_modifier:0 "Industrial Reforms"
 ITA_industry_name_text:0 "Industrial Progress: [?ITA_industry_text_value]%"
-ITA_INDUSTRY_TOOLTIP:0 "§YFrom Our current level of §!§GIndustrial Reforms§!§Y we get the following bonuses :§!\n\n Factory Output: [?ITA_industry_var_factory|%+=] \nDockyard Output: [?ITA_industry_var_dockyard|%+=] \nResource Gain Efficiency: [?ITA_industry_var_resources|%+=] \nConstruction Speed: [?ITA_industry_var_construction|%+=] \n\n§GAn Industrious italy is a prosperous Italy.§!"
+ITA_INDUSTRY_TOOLTIP:0 "§YIndustrial Reforms:§!\n Factory Output: [?ITA_industry_var_factory|%+=] \nDockyard Output: [?ITA_industry_var_dockyard|%+=] \nResource Gain Efficiency: [?ITA_industry_var_resources|%+=] \nConstruction Speed: [?ITA_industry_var_construction|%+=] \n\n§GAn Industrious italy is a prosperous Italy.§!"
 
 ITA_agriculture_values_dynamic_modifier:0 "Agricultural Reforms"
 ITA_agriculture_name_text:0 "Agricultural Progress: [?ITA_agriculture_text_value]%"
-ITA_AGRICULTURE_TOOLTIP:0 "§YFrom Our current level of §!§GAgricultural Reforms§!§Y we get the following bonuses :§! \n\nStability Factor: [?ITA_agriculture_var_stability|%+=] \nMonthly Population Gain: [?ITA_agriculture_var_population|+=] \nProduction Efficiency Gain: [?ITA_agriculture_var_efficiency_gain|%+=] \nProduction Efficiency Cap: [?ITA_agriculture_var_efficiency_cap|%+=] \n\n§GA fed population is a productive population.§!"
+ITA_AGRICULTURE_TOOLTIP:0 "§YAgricultural Reforms:§! \nMonthly Population Gain: [?ITA_agriculture_var_population|+=] \nProduction Efficiency Gain: [?ITA_agriculture_var_efficiency_gain|%+=] \nProduction Efficiency Cap: [?ITA_agriculture_var_efficiency_cap|%+=] \n\n§GA fed population is a productive population.§!"
 
 ITA_continue_industrialization:0 "Continue Industrialization of the country"
-ITA_continue_industrialization_desc:0 "From Mussolini's rise to power in 1922, the Industrialization of Italy has always been a major goal for government. And while the success of the project from 1922-1939 is debatable, the outbreak of WW2 halted the project. \n\nHowever as we return from the war as Total victors, we can once again Continue the project, this time much more efficently, and with the usage of our newly gained knowlage from the war \n\n\n§GClicking this decision will unlock further refomrs and will give a 5% increase to industrial progress§!"
+ITA_continue_industrialization_desc:0 "From Mussolini's rise to power in 1922, the Industrialization of Italy has always been a major goal for the government. And while the success of the Industrialization project from 1922-1939 is debatable, the outbreak of WW2 quickly halted the project. \n\nHowever as we return from the war as Total victors, we can once again Continue the project, this time much more efficently, and with the usage of our newly gained knowlage from the war \n\n\n§GClicking this decision will unlock further refomrs and will give a 5% increase to industrial progress§!"
 
 
 ITA_continue_agriculture_reforms:0 "Continue the Agricultural reforms"
-ITA_continue_agriculture_reforms_desc:0 "Italy always had a strong Agricultural base, especially in the more rural south. And while Industrialization is very important in this day and age, it would be foolish to ignore our strong Agriculture. \n\nAnd especially now as the german sphere is starting to enact it's autarkic policies and closing trade. With it locking the fertile lands of the east and northern france out of international trade, making Italy even more important as a supplier of Agriculture for europe \n\n\n§GClicking this decision will unlock further refomrs and will give a 5% increase to Agricultural progress§!"
+ITA_continue_agriculture_reforms_desc:0 "Italy always had a strong Agricultural base, especially in the more rural south. And while Industrialization is very important in this day and age, it would be foolish to ignore our strong Agriculture. \n\nAnd especially now as the german sphere is starting to enact it's autarkic policies and closing trade. With it locking the fertile lands of eastern Europe and northern france out of international trade, making Italy even more important as a supplier of Agriculture for europe \n\n\n§GClicking this decision will unlock further refomrs and will give a 5% increase to Agricultural progress§!"
