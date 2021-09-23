@@ -418,6 +418,8 @@ if = {
 	oob = CHI_1947
 	add_to_faction = SIK
 	add_to_faction = XSM
+    puppet = SIK
+    puppet = XSM
 
 	set_politics = {
 		ruling_party = authoritarianism
