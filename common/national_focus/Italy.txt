@@ -62,7 +62,7 @@ focus_tree = {
 	focus = { #left tree
 		id = consolidate_empire
 		icon = GFX_focus_consolidate_empire
-		x = 14
+		x = 13
 		y = 4
 
 		available = {
@@ -85,7 +85,7 @@ focus_tree = {
 	focus = { #left tree
 		id = reinforce_colonies
 		icon = GFX_focus_reinforce_colonies
-		x = 16
+		x = 15
 		y = 5
 
 		available = {
@@ -114,7 +114,7 @@ focus_tree = {
 	focus = { #left tree
 		id = give_arms
 		icon = GFX_focus_give_arms
-		x = 14
+		x = 13
 		y = 5
 
 		available = {
@@ -154,7 +154,7 @@ focus_tree = {
 	focus = { #left tree
 		id = encourage_migration
 		icon = GFX_focus_encourage_migration
-		x = 12
+		x = 11
 		y = 5
 
 		available = {
@@ -183,7 +183,7 @@ focus_tree = {
 	focus = { #left tree
 		id = learning_how_to_empire
 		icon = GFX_focus_learning_how_to_empire
-		x = 14
+		x = 13
 		y = 7
 
 		available = {
@@ -211,7 +211,7 @@ focus_tree = {
 		
 
 
-		x = 20
+		x = 19
 		y = 4
 
 		available = {
@@ -235,7 +235,7 @@ focus_tree = {
 		id = demobilize
 		icon = GFX_focus_starting_to_demobilize
 
-		x = 18
+		x = 17
 		y = 5
 
 		available = {
@@ -263,7 +263,7 @@ focus_tree = {
 	focus = { #left-middle tree
 		id = keep_war_promise
 		icon = GFX_focus_encouraging_civilian_construction
-		x = 20
+		x = 19
 		y = 5
 
 		available = {
@@ -290,7 +290,7 @@ focus_tree = {
 		id = use_colonies_resources
 		icon = GFX_focus_use_resources_from_the_colonies
 
-		x = 22
+		x = 21
 		y = 5
 
 		available = {
@@ -313,7 +313,7 @@ focus_tree = {
 		id = return_civilian_life
 		icon = GFX_focus_returning_to_civilian_life
 
-		x = 20
+		x = 19
 		y = 7
 
 		available = {
@@ -621,6 +621,4 @@ add_tech_bonus = {
 			country_event = italystart.3
 		}
 	}
-
-
-
+}
