@@ -393,7 +393,7 @@ ITA_industrial_values_dynamic_modifier = {
 ITA_agricultural_values_dynamic_modifier = {
 
 	enable = { always = yes }
-
+	stability_factor = ITA_agriculture_var_stability
 	monthly_population = ITA_agriculture_var_population
 	production_factory_efficiency_gain_factor = ITA_agriculture_var_efficiency_gain
 	production_factory_max_efficiency_factor = ITA_agriculture_var_efficiency_max

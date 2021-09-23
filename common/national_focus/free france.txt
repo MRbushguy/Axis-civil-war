@@ -223,7 +223,7 @@
 
 		focus = {
 
-		id = FFA_who_we_must_avenge
+		id = FFA_a_new_fighting_force
 		#icon
 
 		prerequisite = {focus = FFA_who_we_must_avenge}
@@ -242,7 +242,11 @@
 		completion_reward = {
 			add_political_power = -60
 			add_stability = -0.05
-			custom_effect_tooltip = "UNFINISHED: make this focus spawn camel/cavalry divisions that represent bandits"
+			custom_effect_tooltip = FFA_a_new_fighting_force_completion_tt
+
+			hidden_effect = {
+				load_oob = FFA_cav_support
+			}
 			
 			
 

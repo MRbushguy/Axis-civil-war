@@ -18,20 +18,20 @@ country_event = {
 		ai_chance = { factor = 90 }
 		add_political_power = 100
 		set_politics = {
-		ruling_party = authoritarianism
-        elections_allowed = no
+			ruling_party = authoritarianism
+        	elections_allowed = no
 		}
 		set_popularities = {
-		authoritarianism = 50
-		national_socialism = 15
-		fascism = 4
-		democratic_right = 5
-		democratic_center = 1
-		democratic_left = 5
-		socialism = 15
-		communism = 5
+			authoritarianism = 50
+			national_socialism = 15
+			fascism = 4
+			democratic_right = 5
+			democratic_center = 1
+			democratic_left = 5
+			socialism = 15
+			communism = 5
 		}
-		load_focus_tree = serbia2
+		#load_focus_tree = serbia2
 	
 		
 		
@@ -42,18 +42,18 @@ country_event = {
 		ai_chance = {factor = 10}
 		add_political_power = 100
 		set_politics = {
-		ruling_party = socialism
-        elections_allowed = no
-	}
+			ruling_party = socialism
+        	elections_allowed = no
+		}
 		set_popularities = {
-		authoritarianism = 15
-		national_socialism = 15
-		fascism = 4
-		democratic_right = 5
-		democratic_center = 1
-		democratic_left = 5
-		socialism = 50
-		communism = 5
+			authoritarianism = 15
+			national_socialism = 15
+			fascism = 4
+			democratic_right = 5
+			democratic_center = 1
+			democratic_left = 5
+			socialism = 50
+			communism = 5
 		}
 	}
 }
@@ -68,12 +68,11 @@ country_event = {
 	
 	option = {
 		name = serbiaprewar.2.a
-		ai_chance = {
-		factor = 100}
+		ai_chance = { factor = 100}
 		add_war_support = 0.5
 		add_stability = 0.5
 		}
-		}
+}
 		
 add_namespace = illyria
 		
@@ -86,37 +85,31 @@ country_event = {
 	
 	option = {
 		name = illyria.1.a
-		ai_chance = {
-		factor = 100}
+		ai_chance = {factor = 100}
 		add_war_support = 0.5
-			country_event = {
-		id = illyria.2
-		days = 10
-		
-		
+		country_event = {
+			id = illyria.2
+			days = 10
+		}
 	}
-		}
-		}
+}
 		
 country_event = {
-	id = illyia.2	
+	id = illyria.2	
 	title = illyria.2.t 
 	desc = illyria.1.d 
 	
 	is_triggered_only = yes 
 	
 	option = {
-		name = illyira.2.a 
-		ai_chance = {
-		factor = 100 }
-			country_event = {
-		id = illyria.3
+		name = illyria.2.a 
+		ai_chance = {factor = 100 }
+		country_event = {
+			id = illyria.3
 		}
-		tag = BOS {
-			set_state_owner = 837
-		}
-		}
-		}
+		release = BOS
+	}
+}
 		
 country_event = {
 	id = illyria.3
@@ -127,19 +120,15 @@ country_event = {
 	
 	option = {
 		name = illyria.3.a 
-		ai_chance = {
-		factor = 90 
+		ai_chance = { factor = 90 }
+		declare_war_on = {
+			target = BOS
+			type = annex_everything
 		}
-			declare_war_on = {
-		target = BOS
-		type = annex_everything
-	}
 	}
 	
-	 option = {
+	option = {
 		name = illyria.3.b 
-		ai_chance = {
-		factor = 10
-		}
-		}
-		}
+		ai_chance = {factor = 10}
+	}
+}

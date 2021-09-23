@@ -996,7 +996,7 @@ focus_tree = {
 
 
 	focus = {
-		id = SER_royalty_to_Italy
+		id = SER_loyalty_to_Italy
 		icon = GXF_focus_generic_italy_first
 		cost = 10.00
 		prerequisite = {
@@ -1008,11 +1008,14 @@ focus_tree = {
 				factor = 12
 				}
 			completion_reward = {
-				diplomatic_relation = {
-		country = ITA
-		relation = guarantee
-		active = yes
-	}
+				ITA = {
+					diplomatic_relation = {
+						country = SER
+						relation = guarantee
+						active = yes
+					}	
+				}
+				
 		
 		
 
@@ -1025,7 +1028,7 @@ focus_tree = {
 		icon = GFX_focus_YUG_autonomous_transylvania
 		cost = 05.00
 		prerequisite = {
-			focus = SER_royalty_to_Italy
+			focus = SER_loyalty_to_Italy
 			}
 		x = 16 
 		y = 4 
@@ -1145,7 +1148,7 @@ focus_tree = {
 		completion_reward = {
 			add_manpower = 100000
 			}
-		}
+	}
 	focus = {
 		id = SER_purpose_split_of_albania
 		icon = GFX_split_of_alb
@@ -1210,6 +1213,8 @@ focus_tree = {
 			focus = SER_take_Banat_by_force
 			}
 			}
+
+
 	focus = {
 		id = SER_take_Banat_by_force
 		icon = GFX_unknow
@@ -1226,6 +1231,9 @@ focus_tree = {
 			focus = SER_take_Banat_peceaufully
 			focus = SER_ask_ITA_for_Banat 
 			}
+
+
+
 		}
 	
 	focus = {
