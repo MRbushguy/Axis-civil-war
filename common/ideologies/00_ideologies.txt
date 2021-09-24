@@ -16,7 +16,7 @@ ideologies = {
 			lebensraum_germanization = {
 			}
 
-			ss_legion = {
+			ss_collaborationism = {
 			}
 
 			russian_nazism = {
