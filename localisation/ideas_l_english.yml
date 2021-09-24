@@ -311,7 +311,7 @@ extreme_overstretch_empire_benefit_3_desc:0 "Profits from the Empire"
 
 
 #Serbia
-Part_of_Illyira:0 "Illyrian heart"
+Part_of_Illyria:0 "Illyrian Heart"
 
 
 
@@ -1194,6 +1194,21 @@ Part_of_Illyira:0 "Illyrian heart"
  #ROM_generic_democratic_reformer:0 "Iuliu Maniu"
  ROM_iuliu_maniu:0 "Iuliu Maniu"
  #ROM_generic_communist_revolutionary:0 "Gheorghe Gheorghiu-Dej"
+ ROM_paying_others:0 "Giving Compensations"
+ ROM_romanian_compensation:0 "Recieving Compensations"
+ ROM_german_compensation:0 "German Compensation"
+ ROM_michael_monarchy:0 "King Michael"
+ ROM_legion_control:0 "Legion Control"
+ ROM_civil_clashes:0 "Civil Clashes"
+ ROM_iron_guard_terror:0 "Iron Guard Terror"
+ ROM_surpress_dissent:0 "Surpress Dissent"
+ ROM_latin_identity:0 "Latin Identity"
+ ROM_increased_government_spendingI:0 "Large Increase in Government Spending"
+ ROM_increased_government_spendingII:0 "Small Increase in Government Spending"
+ ROM_well_fed_population:0 "Well Fed Population"
+ ROM_mining_industry:0 "Romanian Mining Industry"
+ ROM_transnistrian_dissent:0 "Unrest in Transnistria"
+ ROM_courage:0 "Curaj, Flacai!"
  ROM_gheorghe_gheorghiu_dej:0 "Gheorghe Gheorghiu-Dej"
  ROM_armand_calinescu:0 "Armand Calinescu"
  ROM_gheorghe_argeseanu:0 "Gheorghe Argeseanu"

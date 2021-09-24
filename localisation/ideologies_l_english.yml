@@ -16,13 +16,20 @@
  lebensraum_colonization_noun:0 "Lebensraum Colonization"
  lebensraum_colonization_desc:0 "Known for its extreme brutality and very heavy exploitation of the subjugated population, §RLebensraum Colonization§! Is the form of occupation Nazi Germany is using in its eastern Reichskommissariat. \nUnder Lebensraum Colonization, extreme brutality is the norm, and the occupational forces there had the orders to shoot any civilian who resists in any way. No matter small or big. Along with that, almost every valuable item, food, and even homes are confiscated to benefit the Reich and the Reich only \n\nHowever Lebensraum Colonization is much more then just brutal exploitation. Under the Reich's policy of "Lebensraum" or "Living space" ethnic Slavs are systematically massacred to make room for German settlers. And even those that survive live in absolute poverty. \n\n§RUnder Lebensraum Colonization, hell seems like a nicer place§!"
 
+#Nationalism
+ nationalism:0 "Nationalism"
+ nationalism_noun:0 "Nationalism"
+ nationalism_desc:1 "Totalitarian Regime"
  
-
+ ethnic_revanchism:0 "Ethnic Revanchism"
+ ethnic_revanchism_noun:0 "Ethnic Revanchism"
+ ethnic_revanchism_desc:0 "Ethnic Revanchism, as a form of nationalism, focuses on uniting all people of a certain ethnicity under one state, after a percieved injunstice."
 #fascist bois
  fascism:0 "Fascist"
  fascism_noun:0 "Fascism"
  fascism_desc:0 "Totalitarian Regime"
-
+ 
+ 
  italian_fascism:0 "Italian Fascism"
  italian_fascism_noun:0 "Italian Fascism"
  italian_fascism_desc:0 "Born from the betrayal of italy after the first guerra mondiale, §YItalian Fascism§! is a hardline nationalist far right ideology that believes in the priority of the country and the leader first and formost. \n\nMillitaristic in nature, Italian Fascism also belives in glories of the past, and is often very expansionist. For Italian Fascist, the best way for the citizens to live a comfortable and high quality life is to serve the country above all else and protect it at all cost"
@@ -89,6 +96,16 @@
  
  democratic_left_acceptance:0 "Acceptance of Social Democracy"
  
+ #dem right 
+ democratic_right:0 "Democratic Right"
+ democratic_right_noun:0 "Democratic Rightist"
+ democratic_right_desc:0 "Democratic Right"
+ 
+ democratic_right_acceptance:0 "Acceptance of Right leaning Democracy"
+ 
+ constitutional_monarchy:0" Constitutional Monarchy"
+ constitutional_monarchy_noun:0 "Constitutional Monarchy"
+ constitutional_monarchy_desc:0 "Democratic Right"
  
  #democratic center
  democratic_center:0 "Democratic Center"
@@ -96,12 +113,6 @@
  democratic_center_desc:0 "Democratic Center"
  
  democratic_center_acceptance:0 "Acceptance of Liberal Democracy"
- 
- democratic_right:0 "Democratic Right"
- democratic_right_noun:0 "Democratic Rightist"
- democratic_right_desc:0 "Democratic Right"
- 
- democratic_right_acceptance:0 "Acceptance of Right leaning Democracy"
  
  conservatism:0 "Conservatism"
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
@@ -351,6 +362,8 @@
  ROM_Fascism_party_long:1 "Partidul National Crestin"
  ROM_Fascism_party2:0 "Garda de Fier"
  ROM_Fascism_party2_long:0 "Garda de Fier"
+ ROM_partidul_regelui:0 "PR"
+ ROM_partidul_regelui_long:0 "Partidul Regelui"
  YUG_communism_party:0 "KPJ"
  YUG_communism_party_long:0 "Komunisticna partija Jugoslavije"
  YUG_democratic_party:0 "Demokratska stranka"

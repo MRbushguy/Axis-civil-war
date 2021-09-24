@@ -152,3 +152,9 @@ serbiaprewar.1.b:0 "Choose the Socialist"
 serbiaprewar.2.t.:0 "Time to return what is our !"
 serbiaprewar.2.d:0  "The time has come , after new govorment came and stabilised the country time has come to work on our national interests"
 serbiaprewar.2.a:0  "It is time to return what it our !"
+
+#Romanian Events
+## the first one should happen on the 15th of June 1949
+ca_romania.1.t:0 "Antonescu Assasinated"
+ca_romania.1.d:0 "On his Birthday today,the 67 year old Ion Antonescu, our beloved leader, has been killed while taking a walk in the park with his closest entourage. The culprit was quickly found and executed, but this heinous act sparked civil clashes between Royalists and Iron Guard Supporters, it is believed that the criminal wasn't supportive of the king, but this fact does not seem to matter."
+ca_romania.1.a:0 "Horrible!"

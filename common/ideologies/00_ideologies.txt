@@ -267,6 +267,9 @@ nationalism = {
 			social_conservatism = {
 			}
 			
+			constitutional_monarchy = {
+			}
+			
 			liberal_conservatism = {
 			}
 
