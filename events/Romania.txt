@@ -1,0 +1,28 @@
+add_namespace = ca_romania
+
+country_event = {
+	id = ca_romania.1
+	title = ca_romania.1.t
+	desc = ca_romania.1.d
+	picture = GFX_news_event_olympics_1940
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	trigger = {
+	tag = ROM
+	NOT = { has_country_flag = LAntonescu }
+	date < 1947.1.5
+	date > 1947.1.1
+	}
+	
+	mean_time_to_happen = {days = 2}
+	immediate = {
+		set_country_flag = LAntonescu 
+	}
+
+	option = {
+		name = ca_romania.1.a
+		kill_country_leader = yes
+		complete_national_focus = ROM_one_night_in_bucharest
+		}
+	}

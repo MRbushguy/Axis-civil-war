@@ -304,6 +304,8 @@
  HUN_legitimists_party_long:0 "Legitimists"
  ROM_authoritarianism_party:0 "FRN"
  ROM_authoritarianism_party_long:0 "Frontul Renasterii Nationale"
+ ROM_nationalism_party:0 "GF"
+ ROM_nationalism_party_long:0 "Garda de Fier"
  ROM_communism_party:0 "PCR"
  ROM_communism_party_long:0 "Partidul Comunist Roman"
  ROM_democratic_party:0 "PNL"

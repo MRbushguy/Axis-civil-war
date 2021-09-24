@@ -16,7 +16,7 @@ ideologies = {
 			lebensraum_germanization = {
 			}
 
-			ss_legion = {
+			ss_collaborationism = {
 			}
 
 			russian_nazism = {
@@ -265,6 +265,9 @@ nationalism = {
 		types = {
 
 			social_conservatism = {
+			}
+			
+			constitutional_monarchy = {
 			}
 			
 			liberal_conservatism = {

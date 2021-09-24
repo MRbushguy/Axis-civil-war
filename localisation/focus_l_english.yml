@@ -2283,3 +2283,11 @@
  sirte_oil_developed:0 "Sirte Oil Fields Developed"
  benghazi_oil_developed:0 "Benghazi Oil Fields Developed"
  TREE_FILTER_TOGGLE:0 "§GClick§! to toggle showing of more filters"
+ #Romania
+ ROM_one_night_in_bucharest:0 "Death of the Dictator"
+ ROM_one_night_in_bucharest_desc:0 "One Night in Bucharest"
+ ROM_michael_restores_the_monarchy:0 "Michael Restores the Monarchy"
+ ROM_michael_restores_the_monarchy_desc:0 "Michael Restores the Monarchy"
+ ROM_the_legion_maintains_control:0 "The Legion Maintains Control"
+ ROM_the_legion_maintains_control_desc:0 "The Legion crushes the monarchists."
+ 

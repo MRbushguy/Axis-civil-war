@@ -1,0 +1,133 @@
+focus_tree = {
+	id = romanian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ROM
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1500 }
+	focus = {
+		id = ROM_one_night_in_bucharest
+		icon = 
+	    x = 21
+	    y = 0
+		cost = 10
+      
+		available_if_capitulated = no
+		 available = {
+	     has_country_flag = impossible
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+		
+			}
+			
+		
+	}
+	focus = {
+		id = ROM_michael_restores_the_monarchy
+		icon = GFX_focus_generic_monarchy_1
+		relative_position_id = ROM_one_night_in_bucharest
+	    x = 3
+	    y = 1
+		mutually_exclusive = { focus = ROM_the_legion_maintains_control }
+		cost = 10
+        prerequisite = { focus = ROM_one_night_in_bucharest}
+       
+
+		available_if_capitulated = no
+		 available = {
+	     
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+		add_popularity = {
+		popularity = 0.4
+		ideology = democratic_right
+		}
+			 set_politics = {
+	      ruling_party = democratic_right
+         }
+		 
+			hidden_effect = {
+				kill_country_leader = yes
+				}
+				create_country_leader = {
+				name = "Michael I"
+				desc = "POLITICS_MICHAEL_I_DESC"
+				picture = GFX_Portrait_romania_michael_i				
+				expire = "2018.1.1"
+				ideology = constitutional_monarchy
+				traits = {
+				}
+			}
+				set_party_name = { ideology = democratic_right long_name = ROM_partidul_regelui_long name = ROM_partidul_regelui }
+				remove_ideas = { ROM_civil_clashes ROM_figurehead_king_michael}   
+				add_ideas = ROM_michael_monarchy
+			}
+			
+		
+	}
+	focus = {
+		id = ROM_the_legion_maintains_control
+		icon = GFX_focus_rom_abdicate
+		relative_position_id = ROM_one_night_in_bucharest
+	    x = -3
+	    y = 1
+		mutually_exclusive = { focus = ROM_michael_restores_the_monarchy }
+		cost = 10
+        prerequisite = { focus = ROM_one_night_in_bucharest}
+       
+
+		available_if_capitulated = no
+		 available = {
+		}
+
+		bypass = {
+			
+		}
+
+		completion_reward = {
+		add_popularity = {
+		popularity = 0.1
+		ideology = nationalism
+		}
+		 
+			hidden_effect = {
+				kill_country_leader = yes
+				}
+				create_country_leader = {
+				name = "Mihai Antonescu"
+				desc = "POLITICS_MIHAI_ANTONESCU_DESC"
+				picture = GFX_Portrait_mihai_antonescu				
+				expire = "1965.1.1"
+				ideology = ethnic_revanchism
+				traits = {
+				}
+			}
+			remove_ideas = { ROM_civil_clashes }   
+			add_ideas = ROM_legion_control
+			}
+			
+		
+	}
+	
+		
+		
+		
+	
+	
+}
