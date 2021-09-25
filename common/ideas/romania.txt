@@ -423,6 +423,29 @@ ideas = {
 				 consumer_goods_factor = -0.1
 			}
 		}
+		ROM_bulgarian_integration = {
+		picture = 
+			
+			removal_cost = -1
+
+			allowed = {
+			
+			controls_state = 77 
+			controls_state = 211
+			controls_state = 212
+			controls_state = 106
+			controls_state = 48 
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				 war_support_weekly = 0.05
+				 
+				 army_core_defence_factor = 0.1
+			}
+		}
 		ROM_constantinople = {
 
 			picture = 
@@ -430,7 +453,7 @@ ideas = {
 			removal_cost = -1
 
 			allowed = {
-			owns_state = 797	
+			controls_state = 797	
 			}
 
 			allowed_civil_war = {
