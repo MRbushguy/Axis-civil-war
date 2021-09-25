@@ -16,7 +16,8 @@ country_event = {
 	
 	mean_time_to_happen = {days = 2}
 	immediate = {
-		set_country_flag = LAntonescu 
+		set_country_flag = LAntonescu
+		remove_unit_leader = 9999
 	}
 
 	option = {
@@ -115,7 +116,13 @@ country_event = {
                    value<50
                      }
            }
+		  modifier = {
+		   factor = 70
+          has_completed_focus = ROM_reverse_vienna
+           }
+
 		   }
+		   
 		ROM={add_opinion_modifier={target=ITA modifier=large_decrease}}
 		ROM={country_event=ca_romania.7}
 		}
@@ -346,6 +353,11 @@ country_event = {
                    value<50
                      }
            }
+		   modifier = {
+		   factor = 70
+          has_completed_focus = ROM_ultimatum_to_hungary
+           }
+
 		   }
 		ROM={add_opinion_modifier={target=GER modifier=large_decrease}}
 		ROM={country_event=ca_romania.14}
