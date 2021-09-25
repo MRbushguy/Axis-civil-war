@@ -147,6 +147,9 @@ nationalism = {
 
 			ultra_ukranian_nationalism = {
 			}
+
+			legionarism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -268,6 +271,9 @@ nationalism = {
 		types = {
 
 			social_conservatism = {
+			}
+
+			democratic_nationalism = {
 			}
 			
 			constitutional_monarchy = {
