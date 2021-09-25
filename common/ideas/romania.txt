@@ -80,7 +80,7 @@ ideas = {
 			}
 			
 			modifier = {
-				nationalism_drift=0.2
+				fascism_drift=0.2
 			}
 		}
 	ROM_romania_against_the_world = {
@@ -128,7 +128,27 @@ ideas = {
 				stability_weekly = -0.20
 			}
 		}
-	
+		ROM_masses_pardoned = {
+
+			picture = 
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			modifier = {
+				conscription = 0.020
+			}
+		}
+		
 		ROM_iron_guard_terror = {
 
 			picture = 
@@ -190,7 +210,7 @@ ideas = {
 			modifier = {
 			fascism_drift = -0.5
 			nationalism_drift = -0.5
-			national_socisalism_drift = -0.5
+			national_socialism_drift = -0.5
 			}
 		}
 		ROM_reform_education = {
@@ -569,7 +589,7 @@ ideas = {
 			}
 			
 			modifier = {
-				nationalism_drift = 0.1
+				fascism_drift = 0.1
 				nationalism_acceptance = 100
 			}
 		}

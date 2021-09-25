@@ -103,7 +103,7 @@ focus_tree = {
 		completion_reward = {
 		add_popularity = {
 		popularity = 0.1
-		ideology = nationalism
+		ideology = fascism
 		}
 		 
 			hidden_effect = {
@@ -114,7 +114,7 @@ focus_tree = {
 				desc = "POLITICS_MIHAI_ANTONESCU_DESC"
 				picture = GFX_Portrait_Mihai_Antonescu				
 				expire = "1965.1.1"
-				ideology = ethnic_revanchism
+				ideology = legionarism
 				traits = {
 				}
 			}
@@ -168,7 +168,7 @@ focus_tree = {
 			
 		}
 	completion_reward={
-		 add_popularity={popularity=0.1 ideology=nationalism}
+		 add_popularity={popularity=0.1 ideology=fascism}
 			}
 			
 			
@@ -829,6 +829,11 @@ focus = {
 		}
 
 		}
+
+
+#################
+#EDUCATION INNIT#
+#################
 focus = {
 		id = ROM_universities
 		icon = GFX_focus_research
@@ -836,7 +841,7 @@ focus = {
 		x = 10
 		y = 0
 		cost = 10
-		allowed={
+		available={
 		NOT={has_idea=ROM_increased_government_spendingI}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -1001,7 +1006,7 @@ focus = {
 	completion_reward={
 	add_popularity={
 	popularity = -0.05
-	ideology = nationalism
+	ideology = fascism
 	
 	}
 		}		
@@ -1094,6 +1099,7 @@ focus = {
 		available_if_capitulated = no
 		 available = {
 		 NOT={has_idea=ROM_hunting_legionnaires}
+		 NOT={has_idea=ROM_increased_government_spendingI}
 		}
 
 		bypass = {
@@ -1124,6 +1130,27 @@ focus = {
 			amount = 12
 			state = 81
 				}
+
+		}
+
+		}
+	focus = {
+		id = ROM_western_business_model
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		relative_position_id = ROM_invest_oltenia
+	    x = 0
+	    y = 1
+		cost = 10
+		prerequisite = { focus = ROM_invest_oltenia}
+		available_if_capitulated = no
+		 available = {
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+	add_ideas=ROM_western_business_model
 
 		}
 
