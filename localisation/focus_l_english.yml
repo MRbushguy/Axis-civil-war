@@ -2290,4 +2290,8 @@
  ROM_michael_restores_the_monarchy_desc:0 "Michael Restores the Monarchy"
  ROM_the_legion_maintains_control:0 "The Legion Maintains Control"
  ROM_the_legion_maintains_control_desc:0 "The Legion crushes the monarchists."
+ ROM_approach_italy:0 "Approach Italy"
+ ROM_approach_italy_desc:0 "If we approach Italy to support our claims on Northern Transylvania, they would be more willing to accept if we have good relations with them."
+ ROM_reproach_germany:0 "Reproach Germany"
+ ROM_reproach_germany_desc:0 "If we approach Germany to support our claims on Northern Transylvania, they would be more willing to accept if we have good relations with them."
  

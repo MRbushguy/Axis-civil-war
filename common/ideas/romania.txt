@@ -79,7 +79,7 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = -0.8
+				stability_weekly = -0.20
 			}
 		}
 	
@@ -102,7 +102,7 @@ ideas = {
 			modifier = {
 				communism_drift = -0.1
 				socialism_drift = -0.1
-				conscription_factor = 0.25
+				conscription = 0.025
 			}
 		}
 		ROM_surpress_dissent = {
@@ -123,7 +123,131 @@ ideas = {
 			
 			modifier = {
 					
-			stability_weekly = 0.01
+			stability_weekly = 0.008
+			}
+		}
+		ROM_hunting_legionnaires = {
+		picture = 
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			
+			modifier = {
+			nationalism_drift = -0.5
+			fascism_drift = -0.5
+			national_socisalism_drift = -0.5
+			}
+		}
+		ROM_reform_education = {
+		picture = generic_army_war_college
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			modifier = {
+			research_speed_factor = 0.06
+			}
+		}
+		ROM_western_business_model = {
+		picture = 
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			modifier = {
+			industrial_capacity_factory = 0.15
+			production_factory_max_efficiency_factor = 0.5 
+			}
+		}
+		ROM_us_advisers = {
+		picture = 
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = ROM
+				NOT={has_war_with = USA}
+			}
+
+			allowed_civil_war = {
+				
+			has_government = democratic_right
+				
+			}
+			modifier = {
+			command_power_gain = 0.1
+			max_command_power = 50
+			army_speed_factor = 0.05
+			defence_factor = 0.05
+			offence = 0.05
+			}
+		}
+		ROM_sustained_growth = {
+		picture = 
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			modifier = {
+			production_factory_max_efficiency_factor = 0.15
+			production_factory_efficiency_gain_factor = 0.05 
+			}
+		}
+		
+		ROM_construction_boom = {
+
+			picture = generic_central_management
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			modifier = {
+			production_speed_buildings_factor = 0.5 
 			}
 		}
 		ROM_transnistrian_dissent = {
@@ -149,6 +273,24 @@ ideas = {
 			no_compliance_gain = 1
 			occupation_cost = 0.5
 			stability_weekly = -0.01
+			}
+		}
+		ROM_condemn_riots = {
+
+			picture = 
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+			war_support_factor = 0.5
+			stability_weekly = 0.005
 			}
 		}
 		ROM_latin_identity = {
@@ -188,7 +330,7 @@ ideas = {
 				 consumer_goods_factor = 0.05	
 			}
 		}
-		ROM_increased_government_spendingI = {
+		ROM_increased_government_spendingII = {
 
 			picture = generic_foreign_capital
 			
@@ -271,7 +413,7 @@ ideas = {
 			}
 			
 			modifier = {
-				 war_support_factor = 0.2
+				 war_support_factor = 0.6
 				 army_core_defence_factor = 0.1
 			}
 		}

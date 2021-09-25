@@ -11,8 +11,7 @@ country_event = {
 	trigger = {
 	tag = ROM
 	NOT = { has_country_flag = LAntonescu }
-	date < 1947.1.5
-	date > 1947.1.1
+
 	}
 	
 	mean_time_to_happen = {days = 2}
@@ -24,5 +23,431 @@ country_event = {
 		name = ca_romania.1.a
 		kill_country_leader = yes
 		complete_national_focus = ROM_one_night_in_bucharest
+		add_ideas={ROM_civil_clashes}
 		}
+	}
+country_event = {
+	id = ca_romania.2
+	title = ca_romania.2.t
+	desc = ca_romania.2.d
+	picture = 
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	trigger = {
+	tag = ROM
+	NOT={has_country_flag=riddleMeThis}
+	}
+	immediate={set_country_flag=riddleMeThis}
+
+	option = {
+		name = ca_romania.2.a
+		add_stability=-0.05
+		remove_ideas = {ROM_figurehead_king_michael}  
+		complete_national_focus=ROM_michael_in_exile
+		hidden_effect={set_country_flag = LKing }
+	}
+	option = {
+		name = ca_romania.2.b  
+		
+		complete_national_focus=ROM_royal_puppet
+		hidden_effect={set_country_flag = PuppetKing }
+		}
+	}
+country_event = {
+	id = ca_romania.3
+	title = ca_romania.3.t
+	desc = ca_romania.3.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#yes
+	option = {
+		name = ca_romania.3.a
+	ROM={complete_national_focus=ROM_ultimatum_to_hungary}	
+	HUN={country_event=ca_romania.4}
+	ROM={country_event=ca_romania.5}
+	ROM={add_opinion_modifier={target=ITA modifier=huge_increase}}
+	ITA = { add_to_faction = ROM }
+	ITA = { remove_from_faction = HUN }
+	ai_chance={
+	 modifier = {
+		   factor = 50
+           has_opinion = {
+                   target = ROM
+                     value > 80
+                     }
+           }
+	}
+	}
+	#yes, but pay up
+	option = {
+		name = ca_romania.3.b  
+	ROM={complete_national_focus=ROM_ultimatum_to_hungary}	
+	HUN={country_event=ca_romania.4}
+	ROM={country_event=ca_romania.6}
+	ITA = { add_to_faction = ROM }
+	ITA = { remove_from_faction = HUN }
+	ai_chance={
+	 modifier = {
+		   factor = 60
+           has_opinion = {
+                   target = ROM
+                    AND={ value < 80
+						  value > 50}
+                     }
+           }
+	}
+		}
+	#no
+	option = {
+		name = ca_romania.3.c  
+		ai_chance={
+		 modifier = {
+		   factor = 70
+           has_opinion = {
+                   target = ROM
+                   value<50
+                     }
+           }
+		   }
+		ROM={add_opinion_modifier={target=ITA modifier=large_decrease}}
+		ROM={country_event=ca_romania.7}
+		}
+	}
+	#italian-romanian ultimatum
+country_event = {
+	id = ca_romania.4
+	title = ca_romania.4.t
+	desc = ca_romania.4.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#yes
+	option = {
+		name = ca_romania.4.a
+		ai_chance = {
+			factor = 1
+			modifier = {
+            factor = 20
+           strength_ratio = { tag = ROM ratio > 1.5 }
+           }
+		   modifier = {
+		   factor = 30
+           has_opinion = {
+                   target = ITA
+                     value > 40
+                     }
+           }
+           }
+	    ROM={set_state_owner = 76}
+	}
+	#no
+	option = {
+		name = ca_romania.4.b  
+		ROM={country_event=ca_romania.8}
+		ai_chance = {
+			factor= 49
+           }
+		}
+	}
+	#italy accepts
+country_event = {
+	id = ca_romania.5
+	title = ca_romania.5.t
+	desc = ca_romania.5.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#yes
+	option = {
+		name = ca_romania.5.a
+	}
+	}
+	#italy demands payment
+country_event = {
+	id = ca_romania.6
+	title = ca_romania.6.t
+	desc = ca_romania.6.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#ok
+	option = {
+		name = ca_romania.6.a
+		ROM={add_timed_idea = { idea = ROM_paying_others  days = 180 }}
+		ITA={add_timed_idea = { idea = ROM_romanian_compensation days = 180}}
+		
+	}
+	}
+	#italy refuses
+country_event = {
+	id = ca_romania.7
+	title = ca_romania.7.t
+	desc = ca_romania.7.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#bruh
+	option = {
+		name = ca_romania.7.a
+		
+	}
+	}
+	#hungary refuses
+country_event = {
+	id = ca_romania.8
+	title = ca_romania.8.t
+	desc = ca_romania.8.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#then war it is!
+	option = {
+		name = ca_romania.8.a
+		create_wargoal = {
+    type = puppet_wargoal_focus
+    target = HUN
+		}
+	}
+	}
+	#solo romanian ultimatum
+country_event = {
+	id = ca_romania.9
+	title = ca_romania.9.t
+	desc = ca_romania.9.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#yes
+	option = {
+		name = ca_romania.9.a
+		ai_chance = {
+			factor = 1
+			modifier = {
+            factor = 50
+           strength_ratio = { tag = ROM ratio > 2 }
+           }
+		   modifier = {
+            factor = 50
+			OR={
+			ROM={is_in_faction_with = ENG}
+			ROM={is_in_faction_with = GER}
+			ROM={is_in_faction_with = USA}
+			ROM={is_in_faction_with = ITA}
+			}
+           }
+           }
+	    ROM={set_state_owner = 76}
+	}
+	#no
+	option = {
+		name = ca_romania.9.b  
+		ROM={country_event=ca_romania.8}
+		ai_chance = {
+			factor= 49
+           }
+		}
+	}
+	#GERM ULTIMATUM EVENT CHAIN
+	country_event = {
+	id = ca_romania.10
+	title = ca_romania.10.t
+	desc = ca_romania.10.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#yes
+	option = {
+		name = ca_romania.10.a
+	ROM={complete_national_focus=ROM_reverse_vienna}	
+	HUN={country_event=ca_romania.11}
+	ROM={country_event=ca_romania.12}
+	ROM={add_opinion_modifier={target=ITA modifier=huge_increase}}
+	GER = { add_to_faction = ROM }
+	GER = { remove_from_faction = HUN }
+	ai_chance={
+	 modifier = {
+		   factor = 50
+           has_opinion = {
+                   target = ROM
+                     value > 80
+                     }
+           }
+	}
+	}
+	#yes, but pay up
+	option = {
+		name = ca_romania.10.b  
+	ROM={complete_national_focus=ROM_reverse_vienna}	
+	HUN={country_event=ca_romania.11}
+	ROM={country_event=ca_romania.13}
+	GER = { add_to_faction = ROM }
+	GER = { remove_from_faction = HUN }
+	ai_chance={
+	 modifier = {
+		   factor = 60
+           has_opinion = {
+                   target = ROM
+                    AND={ value < 80
+						  value > 50}
+                     }
+           }
+	}
+		}
+	#no
+	option = {
+		name = ca_romania.10.c  
+		ai_chance={
+		 modifier = {
+		   factor = 70
+           has_opinion = {
+                   target = ROM
+                   value<50
+                     }
+           }
+		   }
+		ROM={add_opinion_modifier={target=GER modifier=large_decrease}}
+		ROM={country_event=ca_romania.14}
+		}
+	}
+	
+		#german-romanian ultimatum
+country_event = {
+	id = ca_romania.11
+	title = ca_romania.11.t
+	desc = ca_romania.11.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#yes
+	option = {
+		name = ca_romania.11.a
+		ai_chance = {
+			factor = 1
+			modifier = {
+            factor = 20
+           strength_ratio = { tag = ROM ratio > 1.5 }
+           }
+		   modifier = {
+		   factor = 30
+           has_opinion = {
+                   target = GER
+                     value > 40
+                     }
+           }
+           }
+	    ROM={set_state_owner = 76}
+	}
+	#no
+	option = {
+		name = ca_romania.11.b  
+		ROM={country_event=ca_romania.8}
+		ai_chance = {
+			factor= 49
+           }
+		}
+	}
+	#germany accepts
+country_event = {
+	id = ca_romania.12
+	title = ca_romania.12.t
+	desc = ca_romania.12.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#yes
+	option = {
+		name = ca_romania.12.a
+	}
+	}
+	#germany demands payment
+country_event = {
+	id = ca_romania.13
+	title = ca_romania.13.t
+	desc = ca_romania.13.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#ok
+	option = {
+		name = ca_romania.13.a
+		ROM={add_timed_idea = { idea = ROM_paying_others  days = 180 }}
+		GER={add_timed_idea = { idea = ROM_romanian_compensation days = 180}}
+		
+	}
+	}
+	#germany refuses
+country_event = {
+	id = ca_romania.14
+	title = ca_romania.14.t
+	desc = ca_romania.14.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#bruh
+	option = {
+		name = ca_romania.14.a
+		
+	}
 	}

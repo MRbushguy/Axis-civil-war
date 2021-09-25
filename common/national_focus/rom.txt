@@ -28,19 +28,19 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		
+		add_stability = -0.5
 			}
 			
 		
 	}
 	focus = {
 		id = ROM_michael_restores_the_monarchy
-		icon = GFX_focus_generic_monarchy_1
+		icon = GFX_focus_rom_coup
 		relative_position_id = ROM_one_night_in_bucharest
 	    x = 3
 	    y = 1
 		mutually_exclusive = { focus = ROM_the_legion_maintains_control }
-		cost = 10
+		cost = 8
         prerequisite = { focus = ROM_one_night_in_bucharest}
        
 
@@ -88,7 +88,7 @@ focus_tree = {
 	    x = -3
 	    y = 1
 		mutually_exclusive = { focus = ROM_michael_restores_the_monarchy }
-		cost = 10
+		cost = 8
         prerequisite = { focus = ROM_one_night_in_bucharest}
        
 
@@ -124,10 +124,337 @@ focus_tree = {
 			
 		
 	}
-	
+	focus = {
+		id = ROM_fate_of_the_king
+		icon = GFX_goal_generic_forceful_treaty
+		relative_position_id = ROM_the_legion_maintains_control
+	    x = -1
+	    y = 1
+		cost = 5
+        prerequisite = { focus = ROM_the_legion_maintains_control}
+       
+
+		available_if_capitulated = no
+		 available = {
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+		country_event=ca_romania.2
+		 
+			}
+			
+			
 		
+	}
+	focus = {
+		id = ROM_royal_puppet
+		icon = GFX_focus_rom_handle_king
+		relative_position_id = ROM_fate_of_the_king
+	    x = -2
+	    y = 1
+		cost = 1
+        prerequisite = { focus = ROM_fate_of_the_king}
+       mutually_exclusive= { focus = ROM_michael_in_exile }
+
+		available_if_capitulated = no
+		 available = {
+		 has_country_flag=impossible
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+		 add_popularity={popularity=0.1 ideology=nationalism}
+			}
+			
+			
 		
+	}
+	focus = {
+		id = ROM_michael_in_exile
+		icon = GFX_focus_renounce_the_treaty_of_triannon
+		relative_position_id = ROM_fate_of_the_king
+	    x = 2
+	    y = 1
+		cost = 1
+        prerequisite = { focus = ROM_fate_of_the_king}
+       mutually_exclusive= { focus = ROM_royal_puppet }
+
+		available_if_capitulated = no
+		 available = {
+		 has_country_flag=impossible
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+		 add_popularity = {
+		popularity = 0.2
+		ideology = socialism
+		}
+		add_popularity = {
+		popularity = 0.1
+		ideology = communism
+		}
+			}
+			
+			
 		
+	}
 	
+	focus = {
+		id = ROM_surpress_dissent
+		icon = GFX_focus_spr_crush_the_revolution
+		relative_position_id = ROM_michael_in_exile
+	    x = -2
+	    y = 1
+		cost = 10
+        prerequisite = { focus = ROM_royal_puppet focus = ROM_michael_in_exile}
+		
+
+		available_if_capitulated = no
+		 available = {
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+		 add_timed_idea = { idea = ROM_surpress_dissent  days = 180 }
+			}
+			
+			
+		
+	}
+	focus = {
+		id = ROM_condemn_riots
+		icon = GFX_goal_generic_national_unity
+		relative_position_id = ROM_royal_puppet
+	    x = -1
+	    y = 1
+		cost = 10
+        prerequisite = { focus = ROM_royal_puppet}
 	
+		available_if_capitulated = no
+		 available = {
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+		 add_ideas={ROM_condemn_riots}
+			}			
+			
+	}
+	focus = {
+		id = ROM_track_down_socialists
+		icon = GFX_goal_anti_comintern_pact
+		relative_position_id = ROM_michael_in_exile
+	    x = 1
+	    y = 1
+		cost = 10
+        prerequisite = { focus = ROM_michael_in_exile}
+	
+		available_if_capitulated = no
+		 available = {
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+		 add_ideas={ROM_iron_guard_terror}
+			}			
+			
+	}
+	focus = {
+		id = ROM_ardeal
+		icon = GFX_goal_generic_demand_territory
+		relative_position_id = ROM_surpress_dissent
+	    x = 0
+	    y = 1
+		cost = 10
+        prerequisite = { focus = ROM_surpress_dissent}
+	
+		available_if_capitulated = no
+		 available = {
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+		 add_war_support=0.2
+		 add_opinion_modifier = {
+		target = HUN
+		modifier = large_decrease
+		}	
+			}			
+			
+	}	
+	focus = {
+		id = ROM_approach_italy
+		icon = GFX_focus_befriend_italy
+		relative_position_id = ROM_ardeal
+	    x = -2
+	    y = 1
+		cost = 10
+        prerequisite = { focus = ROM_ardeal}
+	
+		available_if_capitulated = no
+		 available = {
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+		 add_opinion_modifier = {
+		target = ITA
+		modifier = medium_increase
+		}	
+		ITA={country_event=ca_romania.3}
+			}			
+			
+	}
+######################
+####Italian Branch####
+######################
+focus = {
+		id = ROM_approach_italy
+		icon = GFX_focus_befriend_italy
+		relative_position_id = ROM_ardeal
+	    x = -2
+	    y = 1
+		cost = 10
+        prerequisite = { focus = ROM_ardeal}
+	
+		available_if_capitulated = no
+		 available = {
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+		 add_opinion_modifier = {
+		target = ITA
+		modifier = medium_increase
+		}	
+		ITA={country_event=ca_romania.3}
+			}
+		
+			
+	}	
+focus = {
+		id = ROM_ultimatum_to_hungary
+		icon = GFX_focus_generic_strike_at_democracy1
+		relative_position_id = ROM_approach_italy
+	    x = 0
+	    y = 1
+		cost = 1
+        prerequisite = { focus = ROM_approach_italy}
+		mutually_exclusive = {focus = ROM_reverse_vienna focus = ROM_on_our_own}
+		available_if_capitulated = no
+		 available = {
+		 has_country_flag=impossible
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+		}		
+	
+}
+######################
+####German  Branch####
+######################
+focus = {
+		id = ROM_reproach_germany
+		icon = GFX_focus_chi_mission_to_germany
+		relative_position_id = ROM_ardeal
+	    x = 2
+	    y = 1
+		cost = 10
+        prerequisite = { focus = ROM_ardeal}
+	
+		available_if_capitulated = no
+		 available = {
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+		 add_opinion_modifier = {
+		target = GER
+		modifier = medium_increase
+		}	
+		GER={country_event=ca_romania.10}
+			}
+		
+			
+	}	
+focus = {
+		id = ROM_reverse_vienna
+		icon = GFX_goal_generic_dangerous_deal
+		relative_position_id = ROM_reproach_germany
+	    x = 0
+	    y = 1
+		cost = 1
+        prerequisite = { focus = ROM_reproach_germany}
+		mutually_exclusive = {focus = ROM_ultimatum_to_hungary focus = ROM_on_our_own}
+		available_if_capitulated = no
+		 available = {
+		 has_country_flag=impossible
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+		}		
+	
+}
+######################
+####Solo    Branch####
+######################
+focus = {
+		id = ROM_on_our_own
+		icon = GFX_goal_generic_occypy_states_ongoing_war
+		relative_position_id = ROM_ardeal
+	    x = 0
+	    y = 2
+		cost = 1
+        prerequisite = { focus = ROM_ardeal}
+		mutually_exclusive = {focus = ROM_ultimatum_to_hungary focus = ROM_reverse_vienna}
+		available_if_capitulated = no
+		 available = {
+		 strength_ratio = { tag = HUN ratio > 1.5 }
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+	country_event = ca_event.9
+		}		
+	
+}
+
+###              ###
+   ###		  ###
+      #      #
+	  #      #
+	   #    #
+	    ####
+	King's Path
+####################
 }

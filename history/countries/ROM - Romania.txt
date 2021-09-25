@@ -10,7 +10,7 @@ if = {
 }
 
 set_research_slots = 3
-set_stability = 0.6
+set_stability = 0.5
 set_war_support = 0.6
 
 # Starting tech
@@ -55,7 +55,7 @@ if = {
 	ROM_figurehead_king_michael
 	ROM_transnistrian_dissent
 	}
-
+country_event = { id =  ca_romania.1 days = 3 random_days = 2}
 
 set_convoys = 10
 
