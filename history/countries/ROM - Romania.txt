@@ -51,6 +51,7 @@ if = {
 
 
 	add_ideas = {
+	ROM_legionary_isolation
 	limited_conscription
 	ROM_figurehead_king_michael
 	ROM_transnistrian_dissent

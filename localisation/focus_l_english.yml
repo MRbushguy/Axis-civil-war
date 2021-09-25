@@ -2284,6 +2284,10 @@
  benghazi_oil_developed:0 "Benghazi Oil Fields Developed"
  TREE_FILTER_TOGGLE:0 "§GClick§! to toggle showing of more filters"
  #Romania
+ ROM_us_advisers:0 "British Advisers"
+ ROM_us_advisers_desc:0 ""
+ ROM_request_usa_alliance:0 "Request An Alliance with Britain"
+ ROM_request_usa_alliance_desc:0 "Their answer may depend on their opinion of us."
  ROM_one_night_in_bucharest:0 "Death of the Dictator"
  ROM_one_night_in_bucharest_desc:0 "One Night in Bucharest"
  ROM_michael_restores_the_monarchy:0 "Michael Restores the Monarchy"

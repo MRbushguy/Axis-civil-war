@@ -23,6 +23,16 @@ leader_traits = {
 			}
 		}
 	}
+	right_wing_advocate = {
+		random = no
+		# Boosts Democracy
+		sprite = 13
+		democratic_right_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
 	nationalist_hardliner = {
 		random = no
 		sprite = 13
@@ -2184,6 +2194,7 @@ leader_traits = {
 			factor = 0
 		}
 	}
+	
 	
 	fascist_demagogue = {
 		random = no

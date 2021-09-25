@@ -54,6 +54,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+		remove_ideas={ROM_legionary_isolation}
 		add_popularity = {
 		popularity = 0.4
 		ideology = democratic_right
@@ -345,6 +346,7 @@ focus = {
 			
 		}
 	completion_reward={
+		remove_ideas={ROM_legionary_isolation}
 		}		
 	
 }
@@ -626,6 +628,7 @@ focus = {
 			
 		}
 	completion_reward={
+	remove_ideas={ROM_legionary_isolation}
 		}		
 	
 }
@@ -812,10 +815,10 @@ focus = {
 		id = ROM_romanian_construction_boom
 		icon = GFX_goal_generic_production2
 		relative_position_id = ROM_german_industrial_ties
-	    x = 1s
-	    y = 1
+	    x = 1
+	    y = 2
 		cost = 10
-		prerequisite = { focus = ROM_german_industrial_ties}
+		prerequisite = { focus = ROM_german_industrial_ties focus = ROM_british_investors}
 		available_if_capitulated = no
 		 available = {
 		}
@@ -1155,4 +1158,222 @@ focus = {
 		}
 
 		}
+	focus = {
+		id = ROM_pardon_masses
+		icon = GFX_focus_generic_treaty
+		relative_position_id = ROM_hunt_legionaires
+	    x = 0
+	    y = 2
+		cost = 10
+		prerequisite = { focus = ROM_hunt_legionaires}
+		available_if_capitulated = no
+		 available = {
+		 NOT={has_idea=ROM_hunting_legionnaires}
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+	add_ideas=ROM_masses_pardoned
+
+		}
+
+		}
+		
+	focus = {
+		id = ROM_request_usa_alliance
+		icon = GFX_goal_generic_major_alliance
+		relative_position_id = ROM_pardon_masses
+	    x = 0
+	    y = 2
+		cost = 10
+		prerequisite = { focus = ROM_pardon_masses}
+		prerequisite = { focus = ROM_western_business_model}
+		available_if_capitulated = no
+		 available = {
+		 
+		}
+
+		bypass = {
+			OR={
+			NOT={country_exists = ENG}
+			ENG={has_government = fascism}
+			ENG={has_government = communism}
+			}
+		}
+	completion_reward={
+	ENG={country_event=ca_romania.19}
+
+		}
+
+		}
+		#############
+		#ALLIES PATH#
+		#############
+		focus = {
+		id = ROM_the_usa_accepts
+		icon = GFX_goal_generic_intelligence_exchange
+		relative_position_id = ROM_request_usa_alliance
+		mutually_exclusive={focus=ROM_continued_neutrality}
+	    x = 0
+	    y = 1
+		cost = 1
+		prerequisite = { focus = ROM_request_usa_alliance}
+		available_if_capitulated = no
+		 available = {
+		 has_country_flag=impossible
+		}
+
+		bypass = {
+		}
+	completion_reward={
+
+		}
+
+		}
+		focus = {
+		id = ROM_us_advisers
+		icon = GFX_focus_generic_little_entente
+		relative_position_id = ROM_the_usa_accepts
+	    x = 0
+	    y = 1
+		cost = 10
+		prerequisite = { focus = ROM_the_usa_accepts}
+		available_if_capitulated = no
+		 available = {
+
+		}
+
+		bypass = {
+		}
+	completion_reward={
+		add_ideas=ROM_us_advisers
+		}
+
+		}
+		
+		
+		focus = {
+		id = ROM_british_investors
+		icon = GFX_goal_generic_construct_civ_factory
+		relative_position_id = ROM_us_advisers
+	    x = 2
+	    y = 1
+		cost = 10
+		prerequisite = { focus = ROM_us_advisers}
+		available_if_capitulated = no
+		 available = {
+		 ENG={NOT={has_idea=ENG_broken_nation}}
+		}
+
+		bypass = {
+		}
+	completion_reward={
+		79 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+	82 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+	add_resource = {
+    type = steel
+    amount = 8
+    state = 79
+		}
+	add_resource = {
+    type = aluminium
+    amount = 8
+    state = 82
+		}
+	add_opinion_modifier={
+	target=ENG
+	modifier=large_increase
+	}
+	ENG={add_opinion_modifier={
+	target=ROM
+	modifier=large_increase
+	}
+		}
+
+		}
+		}
+		focus = {
+		id = ROM_mediate_transylvania
+		icon = GFX_focus_generic_self_management
+		relative_position_id = ROM_the_usa_accepts
+	    x = 2
+	    y = 1
+		cost = 10
+		prerequisite = { focus = ROM_the_usa_accepts}
+		available_if_capitulated = no
+		 available = {
+		 has_country_flag=impossible
+		}
+
+		bypass = {
+		}
+	completion_reward={
+		ENG={country_event=ca_romania.22}
+		}
+
+		}
+		############
+		#Neutrality#
+		###########
+		focus = {
+		id = ROM_continued_neutrality
+		icon = GFX_goal_generic_fortify_city
+		relative_position_id = ROM_request_usa_alliance
+		mutually_exclusive={focus=ROM_the_usa_accepts}
+	    x = 4
+	    y = 1
+		cost = 1
+		prerequisite = { focus = ROM_request_usa_alliance}
+		available_if_capitulated = no
+		 available = {
+		 has_country_flag=impossible
+		}
+
+		bypass = {
+		}
+	completion_reward={
+		add_ideas={ROM_continued_neutrality}
+		}
+
+		}
+		focus = {
+		id = ROM_give_up_north_transylvania
+		icon = GFX_focus_CZE_german_puppet
+		relative_position_id = ROM_continued_neutrality
+	    x = 0
+	    y = 1
+		cost = 1
+		prerequisite = { focus = ROM_continued_neutrality}
+		available_if_capitulated = no
+		 available = {
+		 has_country_flag=impossible
+		}
+
+		bypass = {
+		}
+	completion_reward={
+		76={remove_core_of = ROM}
+		add_stability=-0.2
+		add_war_support=-0.5
+		
+		}
+
+		}
+		
 }

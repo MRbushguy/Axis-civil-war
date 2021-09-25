@@ -310,7 +310,7 @@ country_event = {
 	ROM={complete_national_focus=ROM_reverse_vienna}	
 	HUN={country_event=ca_romania.11}
 	ROM={country_event=ca_romania.12}
-	ROM={add_opinion_modifier={target=ITA modifier=huge_increase}}
+	ROM={add_opinion_modifier={target=GER modifier=huge_increase}}
 	GER = { add_to_faction = ROM }
 	GER = { remove_from_faction = HUN }
 	ai_chance={
@@ -605,5 +605,186 @@ country_event = {
 	}
 	
 	}
+	country_event = {
+	id = ca_romania.19
+	title = ca_romania.19.t
+	desc = ca_romania.19.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
 	
+	trigger = {
+
+	}
+	
+	#yes
+	option = {
+		name = ca_romania.19.a
+	ROM={complete_national_focus=ROM_the_usa_accepts}	
+	ROM={country_event=ca_romania.21}
+	ROM={add_opinion_modifier={target=ENG modifier=huge_increase}}
+	ENG = { add_to_faction = ROM }
+	ai_chance={
+	 modifier = {
+		   factor = 50
+           has_opinion = {
+                   target = ROM
+                     value > 80
+                     }
+           }
+	}
+	}
+	#no
+	option = {
+		name = ca_romania.19.b  
+		ai_chance={
+		 modifier = {
+		   factor = 70
+           has_opinion = {
+                   target = ROM
+                   value<50
+                     }
+           }
+		  modifier = {
+		   factor = 70
+          has_completed_focus = ROM_reverse_vienna
+           }
+
+		   }
+		   
+		
+		ROM={complete_national_focus=ROM_continued_neutrality}	
+		ROM={country_event=ca_romania.20}
+		}
+	}
+	country_event = {
+	id = ca_romania.20
+	title = ca_romania.20.t
+	desc = ca_romania.20.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#bruh
+	option = {
+		name = ca_romania.20.a
+	}
+	
+	}
+	country_event = {
+	id = ca_romania.21
+	title = ca_romania.21.t
+	desc = ca_romania.21.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#bruh
+	option = {
+		name = ca_romania.21.a
+	}
+	
+	}
+	
+	country_event = {
+	id = ca_romania.22
+	title = ca_romania.22.t
+	desc = ca_romania.22.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#yes
+	option = {
+		name = ca_romania.22.a	
+	HUN={country_event=ca_romania.23}
+	ROM={country_event=ca_romania.21}
+	ROM={add_opinion_modifier={target=ENG modifier=huge_increase}}
+	GER = { add_to_faction = ROM }
+	GER = { remove_from_faction = HUN }
+	ai_chance={
+	 modifier = {
+		   factor = 50
+           has_opinion = {
+                   target = ROM
+                     value > 80
+                     }
+           }
+	  modifier = {
+		   factor = 100
+           is_in_faction_with=ROM
+           }
+	}
+	}
+	#no
+	option = {
+		name = ca_romania.22.b  
+		ai_chance={
+		 modifier = {
+		   factor = 70
+           has_opinion = {
+                   target = ROM
+                   value<50
+                     }
+           }
+
+		   }
+		ROM={add_opinion_modifier={target=ENG modifier=large_decrease}}
+		ROM={country_event=ca_romania.20}
+		}
+	}
+	#british-romanian ultimatum
+country_event = {
+	id = ca_romania.23
+	title = ca_romania.23.t
+	desc = ca_romania.23.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#yes
+	option = {
+		name = ca_romania.23.a
+		ai_chance = {
+			factor = 1
+			modifier = {
+            factor = 20
+           ROM={strength_ratio = { tag = HUN ratio > 1.5 }}
+           }
+		   modifier = {
+		   factor = 30
+           has_opinion = {
+                   target = ENG
+                     value > 40
+                     }
+           }
+           }
+	    ROM={set_state_owner = 76}
+	}
+	#no
+	option = {
+		name = ca_romania.23.b  
+		ROM={country_event=ca_romania.8}
+		ENG={country_event=ca_romania.8}
+		ai_chance = {
+			factor= 49
+           }
+		}
+	}
 		
