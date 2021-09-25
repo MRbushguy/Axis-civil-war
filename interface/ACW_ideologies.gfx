@@ -132,5 +132,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ideology_resource_exploitation"
 		texturefile = "gfx/interface/ideologies/resource_exploitation.dds"
-	}	
+	}
+	SpriteType = {
+		name = "GFX_ideology_ethnic_revanchism"
+		texturefile = "gfx/interface/ideologies/ethnic_revanchism.dds"
+	}
+
 }

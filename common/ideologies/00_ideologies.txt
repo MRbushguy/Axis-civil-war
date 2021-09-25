@@ -21,6 +21,7 @@ ideologies = {
 
 			russian_nazism = {
 			}
+			
 
 		}
 

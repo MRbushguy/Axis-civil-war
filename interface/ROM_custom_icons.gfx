@@ -1,0 +1,7 @@
+spriteTypes = {
+	### ROM
+	spriteType = {
+		name = "GFX_idea_transnistrian_unrest"
+		texturefile = "gfx/interface/ideas/ROM/transnistrian_unrest.dds"
+	}
+				

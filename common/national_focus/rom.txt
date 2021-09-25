@@ -103,7 +103,7 @@ focus_tree = {
 		completion_reward = {
 		add_popularity = {
 		popularity = 0.1
-		ideology = nationalism
+		ideology = fascism
 		}
 		 
 			hidden_effect = {
@@ -168,7 +168,7 @@ focus_tree = {
 			
 		}
 	completion_reward={
-		 add_popularity={popularity=0.1 ideology=nationalism}
+		 add_popularity={popularity=0.1 ideology=fascism}
 			}
 			
 			
@@ -469,7 +469,7 @@ focus = {
 		icon = GFX_goal_generic_demand_territory
 		relative_position_id = ROM_latin_bonds
 	    x = 2
-	    y = 1
+	    y = 2
 		cost = 10
         prerequisite = { focus = ROM_latin_bonds}
 	
@@ -485,8 +485,99 @@ focus = {
 		ITA={country_event=ca_romania.15}
 			}			
 			
-	}	
+	}
+	focus = {
+		id = ROM_turkish_land_greece
+		icon = GFX_focus_generic_befriend_greece
+		relative_position_id = ROM_secure_bosporus
+	    x = -3
+	    y = 1
+		cost = 10
+		mutually_exclusive={focus=ROM_hagia_sophia}
+        prerequisite = {focus = ROM_relatin_balkans}
+		available_if_capitulated = no
+		 available = {
+		 owns_state = 797
+		owns_state=341
+		owns_state=184
+		owns_state=347
+		owns_state=340
+		owns_state=187
+		owns_state=339
+		owns_state=342
+		owns_state=164
+		owns_state=343
+		owns_state=731
+		owns_state=106
+		 NOT={has_war_with=GRE}
+		 NOT={has_war_with=ITA}
+		}
 
+		bypass = {
+			
+		}
+	completion_reward={
+	GRE={country_event=ca_romania.17}
+	
+	}		
+	
+}	
+    focus = {
+		id = ROM_begin_integrating_bulgaria
+		icon = GFX_focus_hol_the_foundations_of_defense
+		relative_position_id = ROM_secure_bosporus
+	    x = -5
+	    y = 1
+		cost = 10
+        prerequisite = {focus = ROM_relatin_balkans}
+		available_if_capitulated = no
+		 available = {
+		 owns_state = 48
+		owns_state=212
+		owns_state=801
+		owns_state=211
+		owns_state=77
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+	add_timed_idea = {idea=ROM_bulgarian_integration days=365}
+	
+	}		
+	
+}
+	focus = {
+		id = ROM_integrate_bulgaria
+		icon = GFX_goal_generic_improve_relations
+		relative_position_id = ROM_begin_integrating_bulgaria
+	    x = 0
+	    y = 1
+		cost = 10
+        prerequisite = {focus = ROM_begin_integrating_bulgaria}
+		available_if_capitulated = no
+		 available = {
+		 owns_state = 48
+		owns_state=212
+		owns_state=801
+		owns_state=211
+		owns_state=77
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+		48={add_core_of=ROM}
+		212={add_core_of=ROM}
+		801={add_core_of=ROM}
+		211={add_core_of=ROM}
+		77={add_core_of=ROM}
+	
+	}		
+	
+}
 ######################
 ####German  Branch####
 ######################
@@ -642,7 +733,8 @@ focus = {
 	    x = 0
 	    y = 1
 		cost = 10
-        prerequisite = { focus = ROM_secure_bosporus}
+        prerequisite = { focus = ROM_secure_bosporus focus = ROM_relatin_balkans}
+		mutually_exclusive={focus=ROM_turkish_land_greece}
 		available_if_capitulated = no
 		 available = {
 		 controls_state = 797

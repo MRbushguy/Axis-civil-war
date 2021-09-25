@@ -543,3 +543,67 @@ country_event = {
 	}
 	
 	}
+	country_event = {
+	id = ca_romania.17
+	title = ca_romania.17.t
+	desc = ca_romania.17.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#yes
+	option = {
+		name = ca_romania.17.a
+		ai_chance = {
+			factor = 100
+           }
+		GRE={set_state_owner=797}
+	GRE={set_state_owner=341}
+	GRE={set_state_owner=184}
+	GRE={set_state_owner=347}
+	GRE={set_state_owner=340}
+	GRE={set_state_owner=187}
+	GRE={set_state_owner=339}
+	GRE={set_state_owner=342}
+	GRE={set_state_owner=164}
+	GRE={set_state_owner=343}
+	GRE={set_state_owner=731}
+	GRE={set_state_owner=106}
+	ROM={add_ideas=ROM_greek_romanian}
+	GRE={add_ideas=ROM_greek_romanian}
+	set_province_name = {
+    id = 9833
+    name = ROM_CST
+	 }
+	}
+	
+	#no
+	option = {
+		name = ca_romania.17.b
+		ROM={country_event=ca_romania.18}
+	}
+	}
+	country_event = {
+	id = ca_romania.18
+	title = ca_romania.18.t
+	desc = ca_romania.18.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#bruh
+	option = {
+		name = ca_romania.18.a
+	}
+	
+	}
+	
+		
