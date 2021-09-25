@@ -1,0 +1,66 @@
+
+	ideas = {
+	country = {
+		recovering_civil_war = {
+
+
+			modifier = {
+				war_support_factor = -0.2
+				weekly_manpower = -50
+				army_attack_factor = -0.1
+				army_defence_factor =-0.1
+			}
+
+			}
+
+battleground_europe = {
+
+			#picture here
+
+			modifier = {
+				war_support_factor = -0.2
+				weekly_manpower = -50
+				army_attack_factor = -0.1
+				army_defence_factor =-0.1
+			}
+
+			}
+
+			broken_union = {
+
+			#picture here
+
+			modifier = {
+				war_support_factor = -0.2
+				weekly_manpower = -50
+				army_attack_factor = -0.1
+				army_defence_factor =-0.1
+			}
+
+			}
+
+			nationalist_trio = {
+
+			#picture here
+
+			modifier = {
+				war_support_factor = -0.2
+				weekly_manpower = -50
+				army_attack_factor = -0.1
+				army_defence_factor =-0.1
+			}
+
+			}
+
+
+
+
+
+
+
+
+
+
+		}
+
+	}
