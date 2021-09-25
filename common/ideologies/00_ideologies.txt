@@ -97,6 +97,9 @@ ideologies = {
 
 			pan_asian_fascism = {
 			}
+
+			legionarism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -148,8 +151,6 @@ nationalism = {
 			ultra_ukranian_nationalism = {
 			}
 
-			legionarism = {
-			}
 		}
 
 		dynamic_faction_names = {
