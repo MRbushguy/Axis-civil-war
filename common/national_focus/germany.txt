@@ -1213,14 +1213,63 @@ focus_tree = {
 			focus = GER_refnaz_reforms
 		}
 
+		available = {
+
+			custom_trigger_tooltip = {
+				tooltip = GER_evaluate_plunder_economy_support_requirement_tt
+				check_variable = { var = GER_refnaz_influence value = 15 compare = greater_than }
+			}
+		}
+
 		x = 2
 		y = 1
 		relative_position_id = GER_refnaz_reforms
 
 		completion_reward = {
 
+			custom_effect_tooltip = GER_evaluate_plunder_economy_completion_tt
+			add_to_variable = {GER_refnaz_influence = 5}
+
+			GER_faction_cleanup = yes
 
 			#might give buffs to the colonies, lower resistance growth
+
+			
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = GER_ticking_plunder_economy
+					days = 40
+				}
+
+				GER_decrease_plunder_economy = yes
+
+				POL = {
+					decrease_devastation = yes
+					decrease_resistance = yes
+				}
+				UKR = {
+					decrease_devastation = yes
+					decrease_resistance = yes
+				}
+				BLR = {
+					decrease_devastation = yes
+					decrease_resistance = yes
+				}
+				RKM = {
+					decrease_devastation = yes
+					decrease_resistance = yes
+				}
+				RKD = {
+					decrease_devastation = yes
+					decrease_resistance = yes
+				}
+				RKC = {
+					decrease_devastation = yes
+					decrease_resistance = yes
+				}
+
+
+			}
 
 		}
 

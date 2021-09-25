@@ -156,7 +156,7 @@ ideas = {
 
 
 		##german depression##
-		GER_german_depression_5 = {
+		GER_german_depression_9 = {
 			picture = GermanSickness5
 
 			allowed = {
@@ -169,11 +169,10 @@ ideas = {
 				war_support_factor = -0.20
 				war_support_weekly = -0.001
 				political_power_gain = -0.3
-				conscription_factor = -0.25
 			}
 		}
 
-		GER_german_depression_4 = {
+		GER_german_depression_8 = {
 			picture = GermanSickness4
 
 			allowed = {
@@ -185,11 +184,10 @@ ideas = {
 				stability_factor = -0.15
 				war_support_factor = -0.15
 				political_power_gain = -0.25
-				conscription_factor = -0.20
 			}
 		}
 
-		GER_german_depression_3 = {
+		GER_german_depression_7 = {
 			picture = GermanSickness3
 
 			allowed = {
@@ -201,7 +199,85 @@ ideas = {
 				stability_factor = -0.10
 				war_support_factor = -0.10
 				political_power_gain = -0.15
-				conscription_factor = -0.10
+			}
+		}
+
+		GER_german_depression_6 = {
+			picture = GermanSickness1
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				political_power_gain = 0.1
+			}
+		}
+
+		GER_german_depression_5 = {
+			picture = GermanSickness1
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.10
+				war_support_factor = 0.15
+				political_power_gain = 0.2
+				drift_defence_factor = 0.15
+			}
+		}
+
+		GER_german_depression_4 = {
+			picture = GermanSickness1
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = 0.2
+				political_power_gain = 0.2
+				drift_defence_factor = 0.40
+			}
+		}
+
+		GER_german_depression_3 = {
+			picture = GermanSickness1
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.25
+				war_support_factor = 0.2
+				political_power_gain = 0.4
+				drift_defence_factor = 0.40
+			}
+		}
+
+		GER_german_depression_2 = {
+			picture = GermanSickness1
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.3
+				war_support_factor = 0.4
+				political_power_gain = 0.35
+				drift_defence_factor = 0.60
 			}
 		}
 
@@ -302,7 +378,7 @@ ideas = {
 
 			modifier =  {
 
-				consumer_goods_factor = 0.5
+				consumer_goods_factor = 0.1
 				production_speed_buildings_factor = -0.15
 				monthly_population	= -0.06
 				weekly_manpower = -100

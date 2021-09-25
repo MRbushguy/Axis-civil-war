@@ -83,8 +83,10 @@ GER_dismantle_mils_tt:0 "§YRemoves ten military factories in German core territ
 GER_limit_general_plan_ost:0 "Limit Generalplan Ost"
 GER_limit_general_plan_ost_desc:0 "For many years, the sole goal of German aggression and conquest has been to tame the East and incorporate it into the Aryan Realm, but the reality of that dream has been one of toil and failure. The final stages of Generalplan Ost have proved costly in both money and lives, and it is in Germany's best interest to halt integration of the eastern territories until a better solution has presented itself."
 GER_limit_generalplan_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §G+5§! Influence \n£decision_faction_ger_reform_small §YReformists §!: §G+5§! Influence\n\n§GDelays the decline of the plunder economy by 40 days.§!\n\n"
-
-
+GER_evaluate_plunder_economy:0 "Evaluate Plunder Economy"
+GER_evaluate_plunder_economy_desc:0 "Evaluate Plunder Economy"
+GER_refnaz_reforms_support_requirement_tt:0 "More than 15 influence from the £decision_faction_ger_reform_small §YReformists§!"
+GER_evaluate_plunder_economy_completion_tt:0 "£decision_faction_ger_reform_small §YReformists §!: §G+5§! \n\n§GAt a temporary cost to our production, this will significantly delay the collapse of Germany's economy and strengthen the Reichkomisserats.§!\n\nReplace §YStable Plunder of Territories§! with §YUnstable Plunder Economy§! \n\nAll Eastern Reichkomisserats:\n§YDecrease Resistance§!\n§YImprove Economy§!"
 
 
 ###NSDAP Branch
