@@ -1,0 +1,30 @@
+
+state={
+	id=853
+	name="STATE_853" # Bucharest
+	manpower = 1301400
+	resources={
+		oil=80 # was: 44 but we're assuming romania did expand ploiesti oil production so I added +36
+	}
+
+	state_category = large_city
+
+	history={
+		owner = ROM
+		victory_points = { 9617 20 }
+		buildings = {
+			infrastructure = 7
+			9617={
+			bunker=2
+			}
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 3
+		}
+		add_core_of = ROM
+	}
+
+	provinces={
+		9617
+	}
+}

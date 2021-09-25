@@ -1,0 +1,35 @@
+
+state={
+	id=852
+	name="STATE_852" # Dobrogea
+	manpower = 819000
+	resources={
+	}
+
+	state_category = rural
+
+	history={
+		owner = ROM
+		victory_points = { 657 3 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 3
+			657 = {
+				naval_base = 8
+			}
+			657 = {
+				coastal_bunker = 2
+			}
+			687 = {
+				naval_base = 1
+			}
+			dockyard = 1
+		}
+		add_core_of = ROM
+	}
+
+	provinces={
+		3076 687 9635 657
+	}
+}

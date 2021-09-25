@@ -62,6 +62,30 @@ ideas = {
 				nationalism_drift=0.2
 			}
 		}
+	ROM_romania_against_the_world = {
+
+			picture = 
+			
+			removal_cost = -1
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			modifier = {
+				fortification_damage = 0.1
+				mobilization_speed = 0.3
+				air_intercept_efficiency = 0.1
+				production_speed_bunker_factor = 0.4
+				production_speed_coastal_bunker_factor = 0.4
+			}
+		}
 	ROM_civil_clashes = {
 
 			picture = 
@@ -413,7 +437,8 @@ ideas = {
 			}
 			
 			modifier = {
-				 war_support_factor = 0.6
+				 war_support_weekly = 0.05
+				 
 				 army_core_defence_factor = 0.1
 			}
 		}
