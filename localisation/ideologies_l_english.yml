@@ -66,6 +66,7 @@
  socialism:0 "Socialism"
  socialism_noun:0 "socialism"
  socialism_desc:0 "Totalitarian Regime"
+ socialism_drift:0 "Daily Socialist Support"
  
  anarchism:0 "Anarchism"
  anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
@@ -358,8 +359,8 @@
  ROM_communism_party_long:0 "Partidul Comunist Roman"
  ROM_democratic_party:0 "PNL"
  ROM_democratic_party_long:0 "Partidul National Liberal"
- ROM_Fascism_party:1 "PNC"
- ROM_Fascism_party_long:1 "Partidul National Crestin"
+ ROM_Fascism_party:1 "GF"
+ ROM_Fascism_party_long:1 "Garda de Fier"
  ROM_Fascism_party2:0 "Garda de Fier"
  ROM_Fascism_party2_long:0 "Garda de Fier"
  ROM_partidul_regelui:0 "PR"
