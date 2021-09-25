@@ -109,14 +109,49 @@ country_event = { #revolt
 	}
 }
 
+country_event = { #corporations in the colonies
+
+	id = germany.4
+	title = germany.4.t
+	desc = germany.4.d
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = { #fight corporations
+		name = germany.4.a
+
+		GER = {
+			swap_ideas = {
+				add_idea = GER_extreme_famine
+				remove_idea = GER_moderate_famine
+			}
+
+		}
+
+	}
+	option = {
+		name = germany.4.b
+
+		GER = { #cave to corporations
+			swap_ideas = {
+				add_idea = GER_extreme_famine
+				remove_idea = GER_moderate_famine
+			}
+
+		}
+
+	}
+}
+
 add_namespace = germany_decay
 
-country_event = { #bear hunt
+country_event = { 
 
 	id = germany_decay.1
 	title = germany_decay.1.t
 	desc = germany_decay.1.d
-	picture = GFX_report_event_polar_bear_hunting
+	#picture = GFX_report_event_polar_bear_hunting
 
 	is_triggered_only = yes
 
