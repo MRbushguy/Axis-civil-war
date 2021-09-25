@@ -44,7 +44,7 @@ set_variable = {ITA_industry_text_value = 15} #used for text
 
 set_variable = {ITA_industry_var_factory = 0.075} #-.50 to +.50
 set_variable = {ITA_industry_var_dockyard = 0.075} #-.50 to +.50
-set_variable = {ITA_industry_var_resources = 0.0375} #-.25 to +.75
+set_variable = {ITA_industry_var_resources = 0.075} #-.25 to +.75 0.0375
 set_variable = {ITA_industry_var_construction = 0.03} #-.50 to +.50
 
 

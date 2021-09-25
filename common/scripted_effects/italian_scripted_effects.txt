@@ -30,7 +30,7 @@ ITA_decrease_industry = {
 
 		add_to_variable = {ITA_industry_var_factory = -0.0005}
 		add_to_variable = {ITA_industry_var_dockyard = -0.0005}
-		add_to_variable = {ITA_industry_var_resources = -0.00025}
+		add_to_variable = {ITA_industry_var_resources = -0.0005}
 		add_to_variable = {ITA_industry_var_construction = -0.0002}
 	}
 }

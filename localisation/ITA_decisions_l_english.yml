@@ -37,7 +37,7 @@ ITA_INDUSTRY_TOOLTIP:0 "§YIndustrial Reforms:§!\n Factory Output: [?ITA_indust
 
 ITA_agriculture_values_dynamic_modifier:0 "Agricultural Reforms"
 ITA_agriculture_name_text:0 "Agricultural Progress: [?ITA_agriculture_text_value]%"
-ITA_AGRICULTURE_TOOLTIP:0 "§YAgricultural Reforms:§! \nMonthly Population Gain: [?ITA_agriculture_var_population|+=] \nProduction Efficiency Gain: [?ITA_agriculture_var_efficiency_gain|%+=] \nProduction Efficiency Cap: [?ITA_agriculture_var_efficiency_cap|%+=] \n\n§GA fed population is a productive population.§!"
+ITA_AGRICULTURE_TOOLTIP:0 "§YAgricultural Reforms:§! \nStability: [?ITA_agriculture_var_stability|%+=] \nMonthly Population Gain: [?ITA_agriculture_var_population|+=] \nProduction Efficiency Gain: [?ITA_agriculture_var_efficiency_gain|%+=] \nProduction Efficiency Cap: [?ITA_agriculture_var_efficiency_cap|%+=] \n\n§GA fed population is a productive population.§!"
 
 ITA_continue_industrialization:0 "Continue Industrialization of the country"
 ITA_continue_industrialization_desc:0 "From Mussolini's rise to power in 1922, the Industrialization of Italy has always been a major goal for the government. And while the success of the Industrialization project from 1922-1939 is debatable, the outbreak of WW2 quickly halted the project. \n\nHowever as we return from the war as Total victors, we can once again Continue the project, this time much more efficently, and with the usage of our newly gained knowlage from the war \n\n\n§GClicking this decision will unlock further refomrs and will give a 5% increase to industrial progress§!"
