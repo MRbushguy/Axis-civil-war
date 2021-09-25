@@ -1,2 +1,5 @@
 ﻿l_english:
   ROM_marines_and_landing_craft:0 "Marines and Landing Craft"
+  romanian_german_tactics:0 "Studying German Tactics"
+  ROMGER_armor_bonus:0 "German Armor Studies"
+  ROMGER_industry_bonus:0 "Industrial Studies"

@@ -103,7 +103,7 @@ focus_tree = {
 		completion_reward = {
 		add_popularity = {
 		popularity = 0.1
-		ideology = fascism
+		ideology = nationalism
 		}
 		 
 			hidden_effect = {
@@ -112,7 +112,7 @@ focus_tree = {
 				create_country_leader = {
 				name = "Mihai Antonescu"
 				desc = "POLITICS_MIHAI_ANTONESCU_DESC"
-				picture = GFX_Portrait_mihai_antonescu				
+				picture = GFX_Portrait_Mihai_Antonescu				
 				expire = "1965.1.1"
 				ideology = ethnic_revanchism
 				traits = {
@@ -168,7 +168,7 @@ focus_tree = {
 			
 		}
 	completion_reward={
-		 add_popularity={popularity=0.1 ideology=fascism}
+		 add_popularity={popularity=0.1 ideology=nationalism}
 			}
 			
 			
@@ -412,7 +412,7 @@ focus = {
 		}
 	completion_reward={
 	852 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = dockyard
 					level = 3
@@ -563,6 +563,7 @@ focus = {
 		owns_state=801
 		owns_state=211
 		owns_state=77
+		NOT={has_idea=ROM_bulgarian_integration}
 		}
 
 		bypass = {
@@ -628,6 +629,226 @@ focus = {
 		}		
 	
 }
+focus = {
+		id = ROM_german_romanian_steel
+		icon = GFX_goal_generic_construct_civ_factory
+		relative_position_id = ROM_reverse_vienna
+	    x = 2
+	    y = 1
+		cost = 10
+        prerequisite = { focus = ROM_reverse_vienna}
+		available_if_capitulated = no
+		 available = {
+		 owns_state=84
+		 owns_state=79
+		 is_in_faction_with = GER
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+	79 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+	84 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+	add_resource = {
+    type = steel
+    amount = 8
+    state = 79
+		}
+	add_resource = {
+    type = steel
+    amount = 8
+    state = 84
+		}
+	add_opinion_modifier={
+	target=GER
+	modifier=large_increase
+	}
+	GER={add_opinion_modifier={
+	target=ROM
+	modifier=large_increase
+	}
+	}
+
+		}		
+	
+}
+focus = {
+		id = ROM_militray_buildup
+		icon = GFX_goal_generic_construct_mil_factory
+		relative_position_id = ROM_german_romanian_steel
+	    x = -1
+	    y = 1
+		cost = 10
+        prerequisite = { focus = ROM_german_romanian_steel focus=ROM_balkans_under_our_boot}
+		available_if_capitulated = no
+		 available = {
+		 owns_state=853
+		 
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+	853 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+
+		}		
+	
+}
+
+focus = {
+		id = ROM_study_german_tactics
+		icon = GFX_goal_generic_army_doctrines
+		relative_position_id = ROM_militray_buildup
+	    x = -1
+	    y = 1
+		cost = 10
+        prerequisite = { focus = ROM_militray_buildup}
+		available_if_capitulated = no
+		 available = {
+		 is_in_faction_with = GER
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+	add_tech_bonus = {
+				name = romanian_german_tactics
+				bonus = 3.0
+				uses = 2
+				category = land_doctrine
+			}
+
+		}		
+	
+}
+focus = {
+		id = ROM_study_german_tanks
+		icon = GFX_focus_generic_army_tanks2
+		relative_position_id = ROM_militray_buildup
+	    x = 1
+	    y = 1
+		cost = 10
+        prerequisite = { focus = ROM_militray_buildup}
+		prerequisite = { focus = ROM_german_romanian_steel}
+		available_if_capitulated = no
+		 available = {
+		 is_in_faction_with = GER
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+	add_tech_bonus = {
+				name = ROMGER_armor_bonus
+				bonus = 2.0
+				uses = 3
+				category = armor
+			}
+
+		}		
+	
+}
+focus = {
+		id = ROM_german_industrial_ties
+		icon = GFX_goal_GER_manage_the_east
+		relative_position_id = ROM_german_romanian_steel
+	    x = 3
+	    y = 1
+		cost = 10
+		prerequisite = { focus = ROM_german_romanian_steel}
+		available_if_capitulated = no
+		 available = {
+		 is_in_faction_with = GER
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+	add_tech_bonus = {
+				name = ROMGER_industry_bonus
+				bonus = 2.0
+				uses = 3
+				category = industry
+			}
+			853 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+
+		}
+
+		}		
+focus = {
+		id = ROM_romanian_construction_boom
+		icon = GFX_goal_generic_production2
+		relative_position_id = ROM_german_industrial_ties
+	    x = 1s
+	    y = 1
+		cost = 10
+		prerequisite = { focus = ROM_german_industrial_ties}
+		available_if_capitulated = no
+		 available = {
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+	add_timed_idea={idea=ROM_construction_boom days=365 }
+
+		}
+
+		}
+focus = {
+		id = ROM_universities
+		icon = GFX_focus_research
+		
+		x = 10
+		y = 0
+		cost = 10
+		allowed={
+		NOT={has_idea=ROM_increased_government_spendingI}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_research_slot = 1
+			add_timed_idea={idea=ROM_increased_government_spendingI days = 340}
+		}
+	}
+
 ######################
 ####Solo    Branch####
 ######################
@@ -761,4 +982,150 @@ focus = {
 	    ####
 	King's Path
 ####################
+focus = {
+		id = ROM_suspend_guard
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		relative_position_id = ROM_michael_restores_the_monarchy
+	    x = 1
+	    y = 1
+		cost = 8
+        prerequisite = { focus = ROM_michael_restores_the_monarchy}
+		available_if_capitulated = no
+		 available = {
+		 
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+	add_popularity={
+	popularity = -0.05
+	ideology = nationalism
+	
+	}
+		}		
+	
+}
+focus = {
+		id = ROM_hunt_legionaires
+		icon = GFX_focus_prc_infiltration
+		relative_position_id = ROM_suspend_guard
+	    x = 1
+	    y = 1
+		cost = 8
+        prerequisite = { focus = ROM_suspend_guard}
+		available_if_capitulated = no
+		 available = {
+		 
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+	
+	add_timed_idea={idea=ROM_hunting_legionnaires days=365}
+	}
+				
+	
+}
+focus = {
+		id = ROM_restore_parliament
+		icon = GFX_goal_support_democracy
+		relative_position_id = ROM_michael_restores_the_monarchy
+	    x = -1
+	    y = 2
+		cost = 8
+        prerequisite = { focus = ROM_michael_restores_the_monarchy}
+		available_if_capitulated = no
+		 available = {
+		 
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+	add_stability=0.1
+	add_country_leader_trait = supported_by_parliament
+		}		
+	
+}
+focus = {
+		id = ROM_use_legion_wealth
+		icon = GFX_focus_generic_industry_3
+		relative_position_id = ROM_restore_parliament
+	    x = 1
+	    y = 1
+		cost = 10
+		prerequisite = { focus = ROM_restore_parliament}
+		prerequisite = { focus = ROM_hunt_legionaires}
+		available_if_capitulated = no
+		 available = {
+		 NOT={has_idea=ROM_hunting_legionnaires}
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+	
+			46 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+
+		}
+
+		}
+focus = {
+		id = ROM_invest_oltenia
+		icon = GFX_goal_generic_construct_infrastructure
+		relative_position_id = ROM_use_legion_wealth
+	    x = 0
+	    y = 1
+		cost = 10
+		prerequisite = { focus = ROM_use_legion_wealth}
+		available_if_capitulated = no
+		 available = {
+		 NOT={has_idea=ROM_hunting_legionnaires}
+		}
+
+		bypass = {
+			
+		}
+	completion_reward={
+	add_timed_idea={idea=ROM_increased_government_spendingI days=740}
+			81 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			}
+			add_resource = {
+			type = steel
+			amount = 12
+			state = 81
+				}
+			add_resource = {
+			type = tungsten
+			amount = 12
+			state = 81
+				}
+
+		}
+
+		}
 }

@@ -21,6 +21,10 @@
  nationalism_noun:0 "Nationalism"
  nationalism_desc:1 "Totalitarian Regime"
  
+ legionarism:0 "Legionarism"
+ legionarism_noun:0 "Legionarism"
+ legionarism_desc:0 "Historian Stanley G. Payne writes in his study of Fascism, "The Legion was arguably the most unusual mass movement of interwar Europe." It was distinguished among other contemporaneous European fascist movements with respect to its understanding of nationalism, which was indelibly tied to religion. According to Ioanid, the Legion "willingly inserted strong elements of Orthodox Christianity into its political ideology to the point of becoming one of the rare modern European political movements with a religious ideological structure."The movement's leader, Corneliu Zelea Codreanu, was a religious nationalist who aimed at a spiritual resurrection for the nation, writing the movement was a "spiritual school...[which] strikes to transform and revolutionise the Romanian soul.  According to Codreanu's philosophy, human life was a sinful, violent political war, which would ultimately be transcended by the spiritual nation. In this schema, the Legionnaire might have to perform actions beyond the simple will to fight, suppressing the preserving instinct for the sake of the country.Like many other fascist movements, the Legion called for a revolutionary "new man", though this was not defined in physical terms, as with the Nazis, but was aimed at recreating and purifying oneself to bring the whole nation closer to God.One of the qualities of this new man was selflessness; Codreanu wrote "When a politician enters a party the first question that he puts is 'what can I gain from this?...when a legionary enters the Legion he says 'For myself I want nothing'".The Legion lacked a well-developed and consistent economic policy, though it generally promoted the idea of a communal or national economy, rejecting capitalism as overly materialistic.The movement considered its main enemies to be the present political leadership and the Jews."
+
  ethnic_revanchism:0 "Ethnic Revanchism"
  ethnic_revanchism_noun:0 "Ethnic Revanchism"
  ethnic_revanchism_desc:0 "Ethnic Revanchism, as a form of nationalism, focuses on uniting all people of a certain ethnicity under one state, after a percieved injunstice."
@@ -359,8 +363,8 @@
  ROM_communism_party_long:0 "Partidul Comunist Roman"
  ROM_democratic_party:0 "PNL"
  ROM_democratic_party_long:0 "Partidul National Liberal"
- ROM_Fascism_party:1 "GF"
- ROM_Fascism_party_long:1 "Garda de Fier"
+ ROM_Fascism_party:1 "PNC"
+ ROM_Fascism_party_long:1 "Partidul National Crestin"
  ROM_Fascism_party2:0 "Garda de Fier"
  ROM_Fascism_party2_long:0 "Garda de Fier"
  ROM_partidul_regelui:0 "PR"

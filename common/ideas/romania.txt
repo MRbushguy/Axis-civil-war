@@ -80,7 +80,7 @@ ideas = {
 			}
 			
 			modifier = {
-				fascism_drift=0.2
+				nationalism_drift=0.2
 			}
 		}
 	ROM_romania_against_the_world = {
@@ -91,6 +91,7 @@ ideas = {
 
 			allowed = {
 				original_tag = ROM
+				is_in_faction = no
 			}
 
 			allowed_civil_war = {
@@ -188,7 +189,7 @@ ideas = {
 			
 			modifier = {
 			fascism_drift = -0.5
-			nationalism = -0.5
+			nationalism_drift = -0.5
 			national_socisalism_drift = -0.5
 			}
 		}
@@ -568,8 +569,8 @@ ideas = {
 			}
 			
 			modifier = {
-				fascism_drift = 0.1
-				fascism_acceptance = 100
+				nationalism_drift = 0.1
+				nationalism_acceptance = 100
 			}
 		}
 	

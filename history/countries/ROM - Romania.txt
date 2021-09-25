@@ -63,14 +63,14 @@ set_convoys = 10
 
 1947.1.1 = {
 	set_politics = {
-		ruling_party = fascism
+		ruling_party = nationalism
 		last_election = "1939.7.15"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
 		democratic_center = 20
-		fascism = 41
+		nationalism = 41
 		communism = 2
 		authoritarianism = 37
 	}
