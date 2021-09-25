@@ -147,7 +147,7 @@ country_event = {
 			factor = 1
 			modifier = {
             factor = 20
-           strength_ratio = { tag = ROM ratio > 1.5 }
+           ROM={strength_ratio = { tag = HUN ratio > 1.5 }}
            }
 		   modifier = {
 		   factor = 30
@@ -384,7 +384,7 @@ country_event = {
 			factor = 1
 			modifier = {
             factor = 20
-           strength_ratio = { tag = ROM ratio > 1.5 }
+           ROM={strength_ratio = { tag = HUN ratio > 1.5 }}
            }
 		   modifier = {
 		   factor = 30
@@ -463,3 +463,147 @@ country_event = {
 		
 	}
 	}
+	#Romania demands rights to bulgaria and turkey
+country_event = {
+	id = ca_romania.15
+	title = ca_romania.15.t
+	desc = ca_romania.15.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#yes
+	option = {
+		name = ca_romania.15.a
+		ai_chance = {
+			factor = 1
+			modifier = {
+            factor = 20
+           ROM={strength_ratio = { tag = BUL ratio > 1.5 }}
+           }
+		   modifier = {
+		   factor = 30
+           has_opinion = {
+                   target = GER
+                     value > 40
+                     }
+           }
+           }
+		77 = {add_claim_by = ROM}
+		211= {add_claim_by = ROM}
+		212= {add_claim_by = ROM}
+		106= {add_claim_by = ROM}
+		48 = {add_claim_by = ROM}
+		797 = {add_claim_by = ROM}
+		ITA={remove_from_faction=BUL}
+		ITA={remove_from_faction=TUR}
+		ROM={country_event=ca_romania.16}
+	}
+	
+	#no
+	option = {
+		name = ca_romania.15.a
+		ROM={
+		add_opinion_modifier={
+		modifier=medium_decrease
+		target=ITA
+		}
+		}
+		ROM={country_event=ca_romania.7}
+	}
+	}
+	country_event = {
+	id = ca_romania.16
+	title = ca_romania.16.t
+	desc = ca_romania.16.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#yes
+	option = {
+		name = ca_romania.16.a
+		declare_war_on = {
+			target = BUL
+			type = annex_everything
+		}
+		declare_war_on = {
+					target = TUR
+					type = take_state_focus
+					generator = { 797 }
+				}
+	}
+	
+	}
+	country_event = {
+	id = ca_romania.17
+	title = ca_romania.17.t
+	desc = ca_romania.17.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#yes
+	option = {
+		name = ca_romania.17.a
+		ai_chance = {
+			factor = 100
+           }
+		GRE={set_state_owner=797}
+	GRE={set_state_owner=341}
+	GRE={set_state_owner=184}
+	GRE={set_state_owner=347}
+	GRE={set_state_owner=340}
+	GRE={set_state_owner=187}
+	GRE={set_state_owner=339}
+	GRE={set_state_owner=342}
+	GRE={set_state_owner=164}
+	GRE={set_state_owner=343}
+	GRE={set_state_owner=731}
+	GRE={set_state_owner=106}
+	ROM={add_ideas=ROM_greek_romanian}
+	GRE={add_ideas=ROM_greek_romanian}
+	set_province_name = {
+    id = 9833
+    name = ROM_CST
+	 }
+	}
+	
+	#no
+	option = {
+		name = ca_romania.17.b
+		ROM={country_event=ca_romania.18}
+	}
+	}
+	country_event = {
+	id = ca_romania.18
+	title = ca_romania.18.t
+	desc = ca_romania.18.d
+	picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#bruh
+	option = {
+		name = ca_romania.18.a
+	}
+	
+	}
+	
+		

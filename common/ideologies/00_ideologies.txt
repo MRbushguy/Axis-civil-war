@@ -10,6 +10,9 @@ ideologies = {
 			esoteric_nazism = {
 			}
 
+			ordensstaat_rule = {
+			}
+
 			lebensraum_colonization = {
 			}
 
@@ -21,6 +24,7 @@ ideologies = {
 
 			russian_nazism = {
 			}
+			
 
 		}
 
@@ -94,6 +98,9 @@ ideologies = {
 
 			pan_asian_fascism = {
 			}
+
+			legionarism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -144,6 +151,7 @@ nationalism = {
 
 			ultra_ukranian_nationalism = {
 			}
+
 		}
 
 		dynamic_faction_names = {
@@ -265,6 +273,9 @@ nationalism = {
 		types = {
 
 			social_conservatism = {
+			}
+
+			democratic_nationalism = {
 			}
 			
 			constitutional_monarchy = {

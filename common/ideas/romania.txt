@@ -1,6 +1,27 @@
 ideas = {
 
 	country = {
+	ROM_greek_romanian = {
+			
+			picture = 
+			
+			removal_cost = -1
+			
+			allowed = {
+				OR={original_tag = ROM
+				original_tag = GRE
+				}
+			}
+
+			allowed_civil_war = {
+
+			}
+			
+			modifier = {				
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.15
+			}
+		}
 	ROM_courage = {
 
 			picture = 
@@ -70,6 +91,7 @@ ideas = {
 
 			allowed = {
 				original_tag = ROM
+				is_in_faction = no
 			}
 
 			allowed_civil_war = {
@@ -166,8 +188,8 @@ ideas = {
 			}
 			
 			modifier = {
-			nationalism_drift = -0.5
 			fascism_drift = -0.5
+			nationalism_drift = -0.5
 			national_socisalism_drift = -0.5
 			}
 		}
@@ -276,7 +298,7 @@ ideas = {
 		}
 		ROM_transnistrian_dissent = {
 
-			picture = 
+			picture = transnistrian_unrest
 			
 			removal_cost = -1
 
@@ -423,6 +445,40 @@ ideas = {
 				 consumer_goods_factor = -0.1
 			}
 		}
+		ROM_bulgarian_integration = {
+		picture = 
+			
+			removal_cost = -1
+
+			allowed = {
+			OR={controls_state = 77 
+			owns_state=77
+			}
+			OR={
+			controls_state = 211
+			owns_state=211
+			}
+			OR={
+			controls_state = 212
+			owns_state=212
+			}
+			OR={
+			controls_state = 106
+			owns_state=106
+			}
+			OR={
+			controls_state = 48
+			owns_state=48
+			}
+			}
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				 war_support_weekly = -0.005
+				 stability_weekly = -0.005
+			}
+		}
 		ROM_constantinople = {
 
 			picture = 
@@ -430,7 +486,9 @@ ideas = {
 			removal_cost = -1
 
 			allowed = {
-			owns_state = 797	
+			OR={owns_state=797
+			controls_state = 797
+			}			
 			}
 
 			allowed_civil_war = {
@@ -511,8 +569,8 @@ ideas = {
 			}
 			
 			modifier = {
-				fascism_drift = 0.1
-				fascism_acceptance = 100
+				nationalism_drift = 0.1
+				nationalism_acceptance = 100
 			}
 		}
 	

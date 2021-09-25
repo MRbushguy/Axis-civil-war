@@ -249,6 +249,7 @@ ITA_continue_industrialization = {
 			ITA_increase_industry = yes
 			ITA_increase_industry = yes
 			ITA_increase_industry = yes
+
 		}
 	}
 
@@ -275,6 +276,7 @@ ITA_continue_industrialization = {
 			ITA_increase_agriculture = yes
 			ITA_increase_agriculture = yes
 			ITA_increase_agriculture = yes
+			
 		}
 	}
 

@@ -1,0 +1,12 @@
+spriteTypes = {
+	### ROM
+	spriteType = {
+		name = "GFX_idea_transnistrian_unrest"
+		texturefile = "gfx/interface/ideas/ROM/transnistrian_unrest.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Mihai_Antonescu"
+		texturefile = "gfx/leaders/ROM/Portrait_Romania_Mihai_Antonescu.dds"
+	}
+	
+				
