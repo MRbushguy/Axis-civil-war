@@ -43,10 +43,7 @@ country_event = { #nazi congress
 
 		GER_faction_cleanup = yes
 
-		swap_ideas = {
-			remove_idea = GER_german_depression_1
-			add_idea = GER_german_depression_2
-		}
+		GER_increase_decay = yes
 
 	}
 }
@@ -111,6 +108,29 @@ country_event = { #revolt
 
 	}
 }
+
+add_namespace = germany_decay
+
+country_event = { #bear hunt
+
+	id = germany_decay.1
+	title = germany_decay.1.t
+	desc = germany_decay.1.d
+	picture = GFX_report_event_polar_bear_hunting
+
+	is_triggered_only = yes
+
+	option = {
+		name = germany_decay.1.a
+
+		GER = {
+				
+		}
+
+	}
+}
+
+
 
 add_namespace = ahnenerbe
 
