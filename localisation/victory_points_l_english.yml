@@ -983,6 +983,8 @@
 
  ###ACW Victory Points###
  VICTORY_POINTS_665:0 "Maribor"
-
+ VICTORY_POINTS_687:0 "Tulcea"
+ VICTORY_POINTS_6679:0 "Sibiu"
+ VICTORY_POINTS_11672:0 "Piatra Neamt"
  ROM_CST:0 "Constantinople"
 

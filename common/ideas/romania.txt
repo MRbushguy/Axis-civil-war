@@ -1,6 +1,48 @@
 ideas = {
 
 	country = {
+	ROM_general_staff_reform = {
+			
+			picture = 
+			
+			removal_cost = -1
+			
+			allowed = {
+				original_tag = ROM
+
+				
+			}
+
+			allowed_civil_war = {
+
+			}
+			
+			modifier = {				
+				max_planning_factor = 0.1
+				planning_speed = 0.1
+			}
+		}
+	ROM_artilerie_grea = {
+			
+			picture = 
+			
+			removal_cost = -1
+			
+			allowed = {
+				original_tag = ROM
+	
+				
+			}
+
+			allowed_civil_war = {
+
+			}
+			
+			modifier = {				
+				army_artillery_defence_factor = 0.1
+			}
+		}
+	
 	ROM_greek_romanian = {
 			
 			picture = 
@@ -39,7 +81,7 @@ ideas = {
 			}
 			
 			modifier = {
-				democratic_right_drift=0.2
+				army_core_defence_factor = 0.1
 			}
 		}
 	ROM_michael_monarchy = {
@@ -287,7 +329,26 @@ ideas = {
 			
 			modifier = {
 			industrial_capacity_factory = 0.15
-			production_factory_max_efficiency_factor = 0.5 
+			production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		ROM_western_business_modelII = {
+
+			picture = 
+			
+			removal_cost = -1
+
+			allowed = {
+			owns_state =46
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				 monthly_population = 0.07
+				 industrial_capacity_factory = 0.2
+				 production_factory_max_efficiency_factor = 0.1
 			}
 		}
 		ROM_us_advisers = {
@@ -414,7 +475,7 @@ ideas = {
 			}
 			
 			modifier = {
-				research_speed_factor = 0.05	
+				research_speed_factor = 0.03	
 			}
 		}
 		ROM_increased_government_spendingI = {
@@ -451,6 +512,8 @@ ideas = {
 				 consumer_goods_factor = 0.03
 			}
 		}
+			
+
 		ROM_domestic_tank_production = {
 		picture = generic_armor
 			
@@ -463,10 +526,8 @@ ideas = {
 			allowed_civil_war = {
 			}
 			
-			modifier = {
-				 infantry_equipment = {
-					build_cost_ic = -0.1 instant = yes
-				}
+			research_bonus = {
+				armor = 0.07
 			}
 		}
 		ROM_paying_others = {

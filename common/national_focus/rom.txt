@@ -14,7 +14,7 @@ focus_tree = {
 	focus = {
 		id = ROM_one_night_in_bucharest
 		icon = 
-	    x = 21
+	    x = 50
 	    y = 0
 		cost = 10
       
@@ -29,6 +29,15 @@ focus_tree = {
 
 		completion_reward = {
 		add_stability = -0.5
+		create_country_leader = {
+				name = "Disjointed Government"
+				desc = "POLITICS_DISJOINTED_GOVERNMENT_DESC"
+				picture = GFX_Portrait_Romania_Disjointed				
+				expire = "1965.1.1"
+				ideology = legionarism
+				traits = {
+				}
+			}
 			}
 			
 		
@@ -114,7 +123,7 @@ focus_tree = {
 				name = "Mihai Antonescu"
 				desc = "POLITICS_MIHAI_ANTONESCU_DESC"
 				picture = GFX_Portrait_Mihai_Antonescu				
-				expire = "1965.1.1"
+				expire = "1980.1.1"
 				ideology = legionarism
 				traits = {
 				}
@@ -362,11 +371,13 @@ focus = {
 		 available = {
 		 is_in_faction_with = ITA
 		}
-
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		bypass = {
 			
 		}
 	completion_reward={
+	add_ideas=ROM_latin_identity
 	46 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -408,7 +419,7 @@ focus = {
 		 available = {
 		 is_in_faction_with = ITA
 		}
-
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		bypass = {
 			
 		}
@@ -818,7 +829,7 @@ focus = {
 	    x = 1
 	    y = 2
 		cost = 10
-		prerequisite = { focus = ROM_german_industrial_ties focus = ROM_british_investors}
+		prerequisite = { focus = ROM_german_industrial_ties focus = ROM_british_investors focus = ROM_self_sustaining_economy}
 		available_if_capitulated = no
 		 available = {
 		}
@@ -841,8 +852,28 @@ focus = {
 		id = ROM_universities
 		icon = GFX_focus_research
 		
-		x = 10
-		y = 0
+		x = -12
+		y = 3
+		cost = 10
+		available={
+		NOT={has_idea=ROM_increased_government_spendingI}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_research_slot = 1
+			add_timed_idea={idea=ROM_increased_government_spendingI days = 340}
+		}
+	}
+focus = {
+		id = ROM_politehnica_bucuresti
+		icon = GFX_focus_research
+		prerequisite={focus=ROM_universities}
+		relative_position_id=ROM_universities
+		x = 0
+		y = 2
 		cost = 10
 		available={
 		NOT={has_idea=ROM_increased_government_spendingI}
@@ -1375,5 +1406,742 @@ focus = {
 		}
 
 		}
+		focus = {
+		id = ROM_self_sustaining_economy
+		icon = GFX_goal_generic_construction
+		relative_position_id = ROM_give_up_north_transylvania
+	    x = 0
+	    y = 1
+		cost = 10
+		prerequisite = { focus = ROM_give_up_north_transylvania}
+		available_if_capitulated = no
+		 available = {
+		 has_country_flag=impossible
+		}
+
+		bypass = {
+		}
+	completion_reward={
+		swap_ideas = {
+			remove_idea = ROM_western_business_model
+			add_idea = ROM_western_business_modelII
+			}
 		
-}
+		}
+
+		}
+#################
+#INDUSTRY  INNIT#
+#################
+focus = {
+		id = ROM_demand_german_repayment
+		icon = GFX_goal_generic_neutrality_focus
+		
+		x = -20
+		y = 0
+		cost = 10
+		available={
+		
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			GER={country_event=ca_romania.24}
+		}
+	}
+focus = {
+		id = ROM_connecting_the_nation
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite={ focus = ROM_demand_german_repayment}
+		relative_position_id=ROM_demand_german_repayment
+		x = -1
+		y = 1
+		cost = 10
+		
+		available={
+		NOT={has_idea=ROM_increased_government_spendingII}
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_timed_idea={idea=ROM_increased_government_spendingII days=140}
+			every_state={
+			limit={is_core_of=ROM
+				is_owned_by = ROM
+			}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			}
+		}
+	}
+	focus = {
+		id = ROM_further_oil_production
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite={ focus = ROM_connecting_the_nation}
+		relative_position_id=ROM_connecting_the_nation
+		x = -1
+		y = 1
+		cost = 10
+		
+		available={
+		owns_state=46
+		owns_state=79
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+		46 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_resource = {
+			type = oil
+			amount = 10
+			state = 46
+				}
+			add_resource = {
+			type = oil
+			amount = 30
+			state = 79
+				}
+			add_tech_bonus = {
+				name = ROM_oil_bonus
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = ROM_encourage_grain_production
+		icon = GFX_goal_generic_trade
+		prerequisite={ focus = ROM_connecting_the_nation}
+		relative_position_id=ROM_connecting_the_nation
+		x = -3
+		y = 1
+		cost = 10
+		
+		available={
+		owns_state=46
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+		46 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_ideas=ROM_well_fed_population
+		}
+	}
+	focus = {
+		id = ROM_liquor_industry
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite={ focus = ROM_encourage_grain_production}
+		relative_position_id=ROM_encourage_grain_production
+		x = 0
+		y = 1
+		cost = 10
+		
+		available={
+		owns_state=82
+		owns_state=79
+		owns_state=78
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+		82 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		79 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		78 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+		}
+	}
+	focus = {
+		id = ROM_steel_mills
+		icon = GFX_focus_generic_steel
+		prerequisite={ focus = ROM_demand_german_repayment}
+		relative_position_id=ROM_demand_german_repayment
+		x = 2
+		y = 1
+		cost = 10
+		
+		available={
+		NOT={has_idea=ROM_increased_government_spendingI}
+		owns_state=84
+		owns_state=79
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_timed_idea={idea=ROM_increased_government_spendingI days=140}
+			79 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			84 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			add_resource = {
+			type = steel
+			amount = 16
+			state = 79
+				}
+			add_resource = {
+			type = steel
+			amount = 16
+			state = 84
+				}
+		}
+	}
+	focus = {
+		id = ROM_heavy_industry_investments
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite={ focus = ROM_steel_mills}
+		relative_position_id=ROM_steel_mills
+		x = 1
+		y = 1
+		cost = 10
+		
+		available={
+		NOT={has_idea=ROM_increased_government_spendingI}
+		owns_state=84
+		owns_state=79
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_timed_idea={idea=ROM_increased_government_spendingI days=140}
+			79 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			84 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ROM_air_effort
+		icon = GFX_goal_generic_air_production
+		prerequisite={ focus = ROM_heavy_industry_investments}
+		relative_position_id=ROM_heavy_industry_investments
+		x = 0
+		y = 1
+		cost = 10
+		
+		available={
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+		add_tech_bonus = {
+			
+				name = air_sup_bonus
+				bonus = 1.0
+				uses = 3
+				category = air_doctrine
+			}
+		add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 1.0
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+	focus = {
+		id = ROM_private_mining_enterprises
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite={ focus = ROM_steel_mills}
+		relative_position_id=ROM_steel_mills
+		x = -1
+		y = 1
+		cost = 10
+		
+		available={
+		owns_state=84
+		owns_state=79
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_ideas=ROM_mining_industry
+			
+			add_resource = {
+			type = steel
+			amount = 8
+			state = 79
+				}
+			add_resource = {
+			type = steel
+			amount = 8
+			state = 84
+				}
+		}
+	}
+	focus = {
+		id = ROM_mine_uranium
+		icon = GFX_goal_generic_construction2
+		prerequisite={ focus = ROM_private_mining_enterprises}
+		relative_position_id=ROM_private_mining_enterprises
+		x = 0
+		y = 1
+		cost = 15
+		
+		available={
+		owns_state=83
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+		add_tech_bonus = {
+				name = ROM_nuclear_bonus
+				bonus = 2.0
+				uses = 1
+				category = nuclear
+			}
+		add_tech_bonus = {
+				name = ROM_nuclear_bonus
+				bonus = 1.5
+				uses = 1
+				category = industry
+			}
+		}
+	}
+	###########################################################################################
+	#LEGIUNE ROMANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA#
+	###########################################################################################
+	focus = {
+		id = ROM_armata_patriei
+		icon = GFX_focus_chi_army_reform
+		x = -14
+		y = 0
+		cost = 10
+		
+		available={
+		}
+		search_filters = { FOCUS_FILTER_ARMY } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+		army_experience=25
+		add_tech_bonus = {
+			
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
+		
+		}
+	}
+	focus = {
+		id = ROM_courage
+		icon = GFX_goal_generic_political_pressure
+		prerequisite={focus=ROM_armata_patriei}
+		relative_position_id=ROM_armata_patriei
+		x = 0
+		y = 1
+		cost = 7
+		
+		available={
+		}
+		search_filters = { FOCUS_FILTER_ARMY } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+		add_ideas=ROM_courage
+		
+		}
+	}
+	focus = {
+		id = ROM_domestic_tanks
+		icon = GFX_goal_generic_army_tanks
+		prerequisite={focus=ROM_armata_patriei}
+		relative_position_id=ROM_armata_patriei
+		x = -1
+		y = 3
+		cost = 7
+		
+		available={
+		owns_state=853
+		NOT={has_idea=ROM_increased_government_spendingI}
+		}
+		search_filters = { FOCUS_FILTER_ARMY } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+		853 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		add_ideas=ROM_domestic_tank_production
+		add_timed_idea={idea=ROM_increased_government_spendingI days=140}
+		}
+	}
+	focus = {
+		id = ROM_small_arms
+		icon = GFX_goal_generic_small_arms
+		prerequisite={focus=ROM_armata_patriei}
+		relative_position_id=ROM_armata_patriei
+		x = 2
+		y = 1
+		cost = 10
+		
+		available={
+		owns_state=853
+		NOT={has_idea=ROM_increased_government_spendingI}
+		}
+		search_filters = { FOCUS_FILTER_ARMY } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+		add_tech_bonus = {
+				name = infantry_weapons_boost
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+			}
+		add_tech_bonus = {
+			
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = ROM_artilerie_grea
+		icon = GFX_goal_generic_army_artillery
+		prerequisite={focus=ROM_small_arms}
+		relative_position_id=ROM_small_arms
+		x = -1
+		y = 1
+		cost = 10
+		
+		available={
+		owns_state=853
+		NOT={has_idea=ROM_increased_government_spendingI}
+		}
+		search_filters = { FOCUS_FILTER_ARMY } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+		add_ideas=ROM_artilerie_grea
+		add_tech_bonus = {
+				name = artillery_boost
+				bonus = 1.0
+				uses = 1
+				category = artillery
+			}
+		add_tech_bonus = {
+			
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = ROM_general_staff_reform
+		icon = GFX_focus_generic_military_mission
+		prerequisite={focus=ROM_artilerie_grea}
+		prerequisite={focus=ROM_domestic_tanks}
+		prerequisite={focus=ROM_universities}
+		relative_position_id=ROM_artilerie_grea
+		x = -1
+		y = 2
+		cost = 11
+		
+		available={
+		owns_state=853
+		NOT={has_idea=ROM_increased_government_spendingI}
+		}
+		search_filters = { FOCUS_FILTER_ARMY } 
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+		add_ideas=ROM_general_staff_reform
+		}
+	}
+	##############
+	#TRANSNISTRIA#
+	##############
+	focus = {
+		id = ROM_quell_unrest_in_transnistria
+		icon = GFX_goal_generic_propaganda
+		x = -10
+		y = 0
+		cost = 10
+		
+		available={
+		owns_state=192
+		owns_state=198
+		}
+
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+		remove_ideas=ROM_transnistrian_dissent
+		
+		}
+	}
+	focus = {
+		id = ROM_invite_settlers_to_odessa
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite={focus=ROM_quell_unrest_in_transnistria}
+		relative_position_id=ROM_quell_unrest_in_transnistria
+		x = 0
+		y = 1
+		cost = 10
+		
+		available={
+		OR={
+		AND={
+		owns_state=192
+		owns_state=198
+		NOT={has_war_with=UKR}
+		}
+		AND={
+		owns_state=192
+		owns_state=198
+		owns_state=197
+		owns_state=196
+		owns_state=226
+		}
+		}
+		}
+
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+		192={add_core_of=ROM}
+		192={add_manpower = 10000}
+		226={add_manpower = -5000}
+		197={add_manpower = -2500}
+		200={add_manpower = -2500}
+		}
+	}
+	focus = {
+		id = ROM_odessa_homing_act
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite={focus=ROM_invite_settlers_to_odessa}
+		relative_position_id=ROM_invite_settlers_to_odessa
+		x = 0
+		y = 1
+		cost = 10
+		
+		available={
+		NOT={has_idea=ROM_increased_government_spendingII}
+		owns_state=192
+		}
+
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+		add_timed_idea={idea=ROM_increased_government_spendingII days=140}
+		192={
+		add_extra_state_shared_building_slots=4
+		add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+		}
+		}
+	}
+	focus = {
+		id = ROM_shoreline_buildup
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite={focus=ROM_odessa_homing_act}
+		relative_position_id=ROM_odessa_homing_act
+		x = 0
+		y = 1
+		cost = 10
+		
+		available={
+		owns_state=192
+		owns_state=766
+		owns_state=852
+		}
+
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+		192={
+		add_extra_state_shared_building_slots=2
+		add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+		add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+		}
+		766={
+		add_extra_state_shared_building_slots=1
+		add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+		}
+		852={
+		add_extra_state_shared_building_slots=1
+		add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+		}
+		}
+	}
+	focus = {
+		id = ROM_destroyer_effort
+		icon = GFX_goal_generic_wolf_pack
+		prerequisite={focus=ROM_shoreline_buildup}
+		relative_position_id=ROM_shoreline_buildup
+		x = -1
+		y = 1
+		cost = 10
+		
+		available={
+		
+		}
+
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+		
+		add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1.5
+				uses = 2
+				category = dd_tech
+			}
+		
+		
+		}
+	}
+	focus = {
+		id = ROM_submarine_initiative
+		icon = GFX_goal_generic_navy_submarine
+		prerequisite={focus=ROM_shoreline_buildup}
+		relative_position_id=ROM_shoreline_buildup
+		x = 1
+		y = 1
+		cost = 10
+		
+		available={
+		
+		}
+
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+		
+		add_tech_bonus = {
+				name = ss_bonus
+				bonus = 2.0
+				uses = 2
+				category = ss_tech
+			}
+		
+		
+		}
+	}
+}    

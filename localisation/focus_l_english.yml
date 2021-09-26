@@ -2284,6 +2284,11 @@
  benghazi_oil_developed:0 "Benghazi Oil Fields Developed"
  TREE_FILTER_TOGGLE:0 "§GClick§! to toggle showing of more filters"
  #Romania
+ 
+ ROM_invite_settlers_to_odessa:0 "Invite Settlers to Odessa"
+ ROM_invite_settlers_to_odessa_desc:0 "Small Minorities of Romanians, scattered around Southern Ukraine, might want to return to their homelands, in one way or another, after all this time."
+ ROM_general_staff_reform:0 "General Staff Reform"
+ ROM_general_staff_reform_desc:0 "By reforming and expanind our General Staff our army quality will increase significantly."
  ROM_us_advisers:0 "British Advisers"
  ROM_us_advisers_desc:0 ""
  ROM_request_usa_alliance:0 "Request An Alliance with Britain"
@@ -2298,4 +2303,4 @@
  ROM_approach_italy_desc:0 "If we approach Italy to support our claims on Northern Transylvania, they would be more willing to accept if we have good relations with them."
  ROM_reproach_germany:0 "Reproach Germany"
  ROM_reproach_germany_desc:0 "If we approach Germany to support our claims on Northern Transylvania, they would be more willing to accept if we have good relations with them."
- 
+ ROM_domestic_tanks:0 "Domestic Tank Production"

@@ -56,7 +56,7 @@ if = {
 	ROM_figurehead_king_michael
 	ROM_transnistrian_dissent
 	}
-country_event = { id =  ca_romania.1 days = 3 random_days = 2}
+country_event = { id =  ca_romania.1 days = 940 random_days = 1}
 
 set_convoys = 10
 
