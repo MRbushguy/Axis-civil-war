@@ -25,9 +25,7 @@ if = {
 	}
 }
 
-1947.1.1 = {
-	puppet = MOR
-}
+
 
 if = {
 	limit = {
@@ -878,6 +876,8 @@ if = {
 
 1947.1.1 = {
 
+puppet = MOR
+
 	set_politics = {
 		ruling_party = authoritarianism
 		last_election = "1937.1.1"
@@ -907,5 +907,13 @@ if = {
 		authoritarianism = 45
 	}
 
+	add_ideas = {
+		recovering_civil_war
+battleground_europe
+broken_union
+nationalist_trio
+	}
 }
+
+
 

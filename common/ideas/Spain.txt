@@ -1,0 +1,70 @@
+
+	ideas = {
+	country = {
+		recovering_civil_war = {
+
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				war_support_factor = -0.5
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.1
+				production_speed_buildings_factor = -0.2
+				industry_repair_factor = 0.2
+
+
+			}
+
+			}
+
+battleground_europe = {
+
+			#picture here
+
+			modifier = {
+				opinion_gain_monthly = 1
+				trade_opinion_factor = 0.05
+				political_power_factor  = -0.1
+
+			}
+
+			}
+
+			broken_union = {
+
+			#picture here
+
+			modifier = {
+				political_power_factor  = -0.2
+				stability_factor = -0.3
+			}
+
+			}
+
+			nationalist_trio = {
+
+			#picture here
+
+			modifier = {
+				compliance_gain = -0.05
+				compliance_growth = -0.1
+				resistance_damage_to_garrison = 0.2
+				resistance_decay = -0.1
+				resistance_growth = 0.05
+
+			}
+
+			}
+
+
+
+
+
+
+
+
+
+
+		}
+
+	}

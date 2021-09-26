@@ -22,6 +22,9 @@ ideologies = {
 			ss_collaborationism = {
 			}
 
+			nazi_collaborationism = {
+			}
+
 			russian_nazism = {
 			}
 			
