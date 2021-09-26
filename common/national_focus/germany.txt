@@ -963,7 +963,7 @@ focus_tree = {
 
 	focus = {
 
-		id = GER_corporations_in_the_colonies
+		id = GER_combat_corporate_dominance
 		#icon
 
 		prerequisite = { focus = GER_refnaz_involvement }
@@ -974,7 +974,7 @@ focus_tree = {
 		relative_position_id = GER_weaken_military_sector
 
 		completion_reward = {
-			#discovers rampant corruption in the colonies
+			country_event = { id = germany.4 hours = 24 }
 
 		}
 
@@ -988,11 +988,11 @@ focus_tree = {
 		icon = GFX_goal_GER_dissolve_the_feudal_state
 
 		prerequisite = { focus = GER_refnaz_and_wehrmacht }
-		prerequisite = { focus = GER_corporations_in_the_colonies}
+		prerequisite = { focus = GER_combat_corporate_dominance}
 
 		x = -1
 		y = 1
-		relative_position_id = GER_corporations_in_the_colonies
+		relative_position_id = GER_combat_corporate_dominance
 
 		completion_reward = {
 			#takes the next step to remove high level people

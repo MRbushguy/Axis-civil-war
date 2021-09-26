@@ -121,25 +121,13 @@ country_event = { #corporations in the colonies
 	option = { #fight corporations
 		name = germany.4.a
 
-		GER = {
-			swap_ideas = {
-				add_idea = GER_extreme_famine
-				remove_idea = GER_moderate_famine
-			}
-
-		}
+		
 
 	}
 	option = {
 		name = germany.4.b
 
-		GER = { #cave to corporations
-			swap_ideas = {
-				add_idea = GER_extreme_famine
-				remove_idea = GER_moderate_famine
-			}
-
-		}
+		
 
 	}
 }
