@@ -186,7 +186,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROM_michael_in_exile
-		icon = GFX_focus_renounce_the_treaty_of_triannon
+		icon = GFX_focus_ROM_michael_in_exile
 		relative_position_id = ROM_fate_of_the_king
 	    x = 2
 	    y = 1
@@ -893,7 +893,7 @@ focus = {
 ######################
 focus = {
 		id = ROM_on_our_own
-		icon = GFX_goal_generic_occypy_states_ongoing_war
+		icon = GFX_focus_ROM_on_our_own
 		relative_position_id = ROM_ardeal
 	    x = 0
 	    y = 2

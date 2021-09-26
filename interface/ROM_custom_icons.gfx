@@ -5,6 +5,128 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ROM/transnistrian_unrest.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_general_staff_reform"
+		texturefile = "gfx/interface/ideas/ROM/rom_military_staff.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_artilerie_grea"
+		texturefile = "gfx/interface/ideas/ROM/rom_artilerie_grea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_greek_romanian"
+		texturefile = "gfx/interface/ideas/ROM/rom_greek_romanian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_michael_monarchy"
+		texturefile = "gfx/interface/ideas/ROM/rom_michael_monarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_legion_control"
+		texturefile = "gfx/interface/ideas/ROM/ROM_legion_control.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_romania_against_the_world"
+		texturefile = "gfx/interface/ideas/ROM/rom_diplomatic_isolation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_civil_clashes"
+		texturefile = "gfx/interface/ideas/ROM/rom_civil_clashes.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_continued_neutrality"
+		texturefile = "gfx/interface/ideas/ROM/rom_continued_neutrality.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_legionary_isolation"
+		texturefile = "gfx/interface/ideas/ROM/rom_legionary_isolation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_masses_pardoned"
+		texturefile = "gfx/interface/ideas/ROM/rom_masses_pardoned.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_iron_guard_terror"
+		texturefile = "gfx/interface/ideas/ROM/ROM_iron_guard_terror.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_surpress_dissent"
+		texturefile = "gfx/interface/ideas/ROM/ROM_surpress_dissent.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hunting_legionnaires"
+		texturefile = "gfx/interface/ideas/ROM/rom_hunting_legionnaires.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_western_business_model"
+		texturefile = "gfx/interface/ideas/ROM/rom_western_business_model.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_western_business_modelII"
+		texturefile = "gfx/interface/ideas/ROM/rom_western_business_modelII.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_us_advisers"
+		texturefile = "gfx/interface/ideas/ROM/ROM_us_advisers.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_construction_boom "
+		texturefile = "gfx/interface/ideas/ROM/ROM_construction_boom.dds"
+	}
+	spriteType = {
+		name = "GFX_condemn_riots"
+		texturefile = "gfx/interface/ideas/ROM/ROM_condemn_riots.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_latin_identity"
+		texturefile = "gfx/interface/ideas/ROM/rom_latin_identity.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_increased_government_spendingI"
+		texturefile = "gfx/interface/ideas/ROM/rom_increased_government_spendingI.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ROM_increased_government_spendingII"
+		texturefile = "gfx/interface/ideas/ROM/rom_increased_government_spendingII.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_domestic_tank_production"
+		texturefile = "gfx/interface/ideas/ROM/ROM_domestic_tank_production.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_romanian_compensation"
+		texturefile = "gfx/interface/ideas/ROM/ROM_romanian_compensation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bulgarian_integration"
+		texturefile = "gfx/interface/ideas/ROM/ROM_bulgarian_integration.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_constantinople"
+		texturefile = "gfx/interface/ideas/ROM/ROM_constantinople.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_german_compensation"
+		texturefile = "gfx/interface/ideas/ROM/ROM_romanian_compensation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mining_industry"
+		texturefile = "gfx/interface/ideas/ROM/ROM_mining_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_well_fed_population"
+		texturefile = "gfx/interface/ideas/ROM/ROM_well_fed_population.dds"
+	}
+	#FOCUSES
+	spriteType = {
+		name = "GFX_focus_ROM_on_our_own"
+		texturefile = "gfx/interface/goals/ROM/ROM_on_our_own.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_ROM_michael_in_exile"
+		texturefile = "gfx/interface/goals/ROM/ROM_michael_in_exile.dds"
+	}
+	#LEADERS
+	spriteType = {
 		name = "GFX_Portrait_Mihai_Antonescu"
 		texturefile = "gfx/leaders/ROM/Portrait_Romania_Mihai_Antonescu.dds"
 	}

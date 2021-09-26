@@ -3,10 +3,10 @@
  ##start## 
  start.1.t:0 "Welcome to the Axis Civil War mod!"
  start.1.d:0 "Welcome\n\nthe team has prepared a special event for you to catch up with the lore and the mechanics of the game"
- start.1.a:0 "Explain to me the lore"
- start.1.b:0 "Tell me about the current situations"
- start.1.c:0 "explain the new mechanics"
- start.1.e:0 "BEGONE ! i want to play"
+ start.1.a:0 "Explain me the lore."
+ start.1.b:0 "Tell me about the current situations."
+ start.1.c:0 "Explain the new mechanics."
+ start.1.e:0 "BEGONE ! I want to play."
 
  start.2.t:0 "The lore: 1922-1947"
  start.2.d:0 ""

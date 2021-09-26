@@ -3,7 +3,7 @@ ideas = {
 	country = {
 	ROM_general_staff_reform = {
 			
-			picture = 
+			picture = general_staff_reform
 			
 			removal_cost = -1
 			
@@ -24,7 +24,7 @@ ideas = {
 		}
 	ROM_artilerie_grea = {
 			
-			picture = 
+			picture = artilerie_grea
 			
 			removal_cost = -1
 			
@@ -45,7 +45,7 @@ ideas = {
 	
 	ROM_greek_romanian = {
 			
-			picture = 
+			picture = greek_romanian
 			
 			removal_cost = -1
 			
@@ -66,7 +66,7 @@ ideas = {
 		}
 	ROM_courage = {
 
-			picture = 
+			picture = courage
 			
 			removal_cost = -1
 
@@ -86,7 +86,7 @@ ideas = {
 		}
 	ROM_michael_monarchy = {
 
-			picture = 
+			picture = michael_monarchy
 			
 			removal_cost = -1
 
@@ -107,7 +107,7 @@ ideas = {
 		}
 	ROM_legion_control = {
 
-			picture = 
+			picture = legion_control
 			
 			removal_cost = -1
 
@@ -127,7 +127,7 @@ ideas = {
 		}
 	ROM_romania_against_the_world = {
 
-			picture = 
+			picture = romania_against_the_world
 			
 			removal_cost = -1
 
@@ -152,7 +152,7 @@ ideas = {
 		}
 	ROM_civil_clashes = {
 
-			picture = 
+			picture = civil_clashes
 			
 			removal_cost = -1
 
@@ -171,7 +171,7 @@ ideas = {
 			}
 		}
 		ROM_continued_neutrality = {
-		picture = generic_pp_unity_bonus
+		picture = continued_neutrality
 			
 			removal_cost = -1
 
@@ -190,7 +190,7 @@ ideas = {
 			}
 		}
 		ROM_legionary_isolation = {
-		picture = 
+		picture = legionary_isolation
 			
 			removal_cost = -1
 
@@ -210,7 +210,7 @@ ideas = {
 		}
 		ROM_masses_pardoned = {
 
-			picture = 
+			picture = masses_pardoned 
 			
 			removal_cost = -1
 
@@ -231,7 +231,7 @@ ideas = {
 		
 		ROM_iron_guard_terror = {
 
-			picture = 
+			picture = iron_guard_terror
 			
 			removal_cost = -1
 
@@ -253,7 +253,7 @@ ideas = {
 		}
 		ROM_surpress_dissent = {
 
-			picture = 
+			picture = surpress_dissent
 			
 			removal_cost = -1
 
@@ -273,7 +273,7 @@ ideas = {
 			}
 		}
 		ROM_hunting_legionnaires = {
-		picture = 
+		picture = hunting_legionnaires 
 			
 			removal_cost = -1
 
@@ -313,7 +313,7 @@ ideas = {
 			}
 		}
 		ROM_western_business_model = {
-		picture = 
+		picture = western_business_model
 			
 			removal_cost = -1
 
@@ -334,7 +334,7 @@ ideas = {
 		}
 		ROM_western_business_modelII = {
 
-			picture = 
+			picture = western_business_modelII
 			
 			removal_cost = -1
 
@@ -352,7 +352,7 @@ ideas = {
 			}
 		}
 		ROM_us_advisers = {
-		picture = 
+		picture = ROM_us_advisers
 			
 			removal_cost = -1
 
@@ -397,7 +397,7 @@ ideas = {
 		
 		ROM_construction_boom = {
 
-			picture = generic_central_management
+			picture = construction_boom
 			
 			removal_cost = -1
 
@@ -442,7 +442,7 @@ ideas = {
 		}
 		ROM_condemn_riots = {
 
-			picture = 
+			picture = condemn_riots
 			
 			removal_cost = -1
 
@@ -460,7 +460,7 @@ ideas = {
 		}
 		ROM_latin_identity = {
 
-			picture = 
+			picture = latin_identity
 			
 			removal_cost = -1
 
@@ -480,7 +480,7 @@ ideas = {
 		}
 		ROM_increased_government_spendingI = {
 
-			picture = generic_foreign_capital
+			picture = ROM_increased_government_spendingI
 			
 			removal_cost = -1
 
@@ -497,7 +497,7 @@ ideas = {
 		}
 		ROM_increased_government_spendingII = {
 
-			picture = generic_foreign_capital
+			picture = ROM_increased_government_spendingII
 			
 			removal_cost = -1
 
@@ -515,7 +515,7 @@ ideas = {
 			
 
 		ROM_domestic_tank_production = {
-		picture = generic_armor
+		picture = domestic_tank_production
 			
 			removal_cost = -1
 
@@ -532,7 +532,7 @@ ideas = {
 		}
 		ROM_paying_others = {
 
-			picture = generic_foreign_capital
+			picture = rom_increased_government_spendingI
 			
 			removal_cost = -1
 
@@ -549,7 +549,7 @@ ideas = {
 		}
 		ROM_romanian_compensation = {
 
-			picture = generic_foreign_capital
+			picture = romanian_compensation
 			
 			removal_cost = -1
 
@@ -565,7 +565,7 @@ ideas = {
 			}
 		}
 		ROM_bulgarian_integration = {
-		picture = 
+		picture = bulgarian_integration
 			
 			removal_cost = -1
 
@@ -600,7 +600,7 @@ ideas = {
 		}
 		ROM_constantinople = {
 
-			picture = 
+			picture = constantinople
 			
 			removal_cost = -1
 
@@ -621,7 +621,7 @@ ideas = {
 		}
 		ROM_german_compensation = {
 
-			picture = generic_goods_red_bonus
+			picture = ROM_romanian_compensation
 			
 			removal_cost = -1
 
@@ -638,7 +638,7 @@ ideas = {
 		}
 		ROM_mining_industry = {
 
-			picture = 
+			picture = mining_industry
 			
 			removal_cost = -1
 
@@ -655,7 +655,7 @@ ideas = {
 		}
 		ROM_well_fed_population = {
 
-			picture = 
+			picture = well_fed_population
 			
 			removal_cost = -1
 
