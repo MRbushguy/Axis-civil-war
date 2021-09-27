@@ -480,7 +480,7 @@ ideas = {
 		}
 		ROM_increased_government_spendingI = {
 
-			picture = ROM_increased_government_spendingI
+			picture = increased_government_spendingI
 			
 			removal_cost = -1
 
@@ -497,7 +497,7 @@ ideas = {
 		}
 		ROM_increased_government_spendingII = {
 
-			picture = ROM_increased_government_spendingII
+			picture = increased_government_spendingII
 			
 			removal_cost = -1
 
@@ -532,7 +532,7 @@ ideas = {
 		}
 		ROM_paying_others = {
 
-			picture = rom_increased_government_spendingI
+			picture = increased_government_spendingI
 			
 			removal_cost = -1
 
