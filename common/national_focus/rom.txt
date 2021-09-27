@@ -323,6 +323,7 @@ focus = {
 	
 		available_if_capitulated = no
 		 available = {
+		 HUN={owns_state=76}
 		}
 
 		bypass = {
@@ -348,6 +349,7 @@ focus = {
 		mutually_exclusive = {focus = ROM_reverse_vienna focus = ROM_on_our_own}
 		available_if_capitulated = no
 		 available = {
+		 
 		 has_country_flag=impossible
 		}
 
@@ -606,6 +608,7 @@ focus = {
 	
 		available_if_capitulated = no
 		 available = {
+		 HUN={owns_state=76}
 		}
 
 		bypass = {
@@ -902,6 +905,7 @@ focus = {
 		mutually_exclusive = {focus = ROM_ultimatum_to_hungary focus = ROM_reverse_vienna}
 		available_if_capitulated = no
 		 available = {
+		 HUN={owns_state=76}
 		 strength_ratio = { tag = HUN ratio > 1.5 }
 		}
 
