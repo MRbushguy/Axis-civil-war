@@ -429,7 +429,7 @@ if = {
 	}
 
 	create_country_leader = {
-	name = "United front council"
+	name = "United Front Council"
 	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
 	picture = "Portrait_China_Chiang_Kai_Shek.dds"
 	expire = "1965.1.1"
