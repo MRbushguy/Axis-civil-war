@@ -1555,6 +1555,17 @@ focus_tree = {
 
 		completion_reward = {
 			#b/c of feudalism in colonies, NSDAP is losing a lot of money, work with refnaz on this
+			add_to_variable = {GER_NSDAP_influence = 5}
+			add_to_variable = {GER_refnaz_influence = 5}
+
+			GER_faction_cleanup = yes
+ 
+            every_controlled_state = { 
+				add_compliance = 15
+				add_resistance = 10
+			}
+
+			custom_effect_tooltip = GER_reform_colony_code_tt
 
 		}
 
@@ -1611,7 +1622,13 @@ focus_tree = {
 
 		completion_reward = {
 			#NSDAP uses complex laws to limit refnaz power as much as possible
+			add_to_variable = {GER_NSDAP_influence = 5}
+			add_to_variable = {GER_refnaz_influence = -10}
 
+			GER_faction_cleanup = yes
+
+			custom_effect_tooltip = GER_limit_refnaz_tt
+			add_stability = -0.05
 		}
 
 
@@ -1632,7 +1649,16 @@ focus_tree = {
 		relative_position_id = GER_rebuild_NSDAP
 
 		completion_reward = {
-			#makes despair worse, but empowers SS and NSDAP
+			add_to_variable = {GER_NSDAP_influence = 5}
+			add_to_variable = {GER_refnaz_influence = 5}
+
+			GER_faction_cleanup = yes
+
+			add_to_variable = {GER_gridlocked_government_resistance = -0.03}
+			add_to_variable = {GER_gridlocked_government_compliance = 0.01}
+
+			custom_effect_tooltip = GER_race_laws_tt
+
 		}
 	}
 
@@ -1680,7 +1706,13 @@ focus_tree = {
 		relative_position_id = GER_glorify_the_feuhrer
 
 		completion_reward = {
-			#use germany's labyrinthine beurecratic system to obtain power
+			add_to_variable = {GER_NSDAP_influence = -10}
+
+			GER_faction_cleanup = yes
+
+			add_to_variable = {GER_gridlocked_government_advisor_cost = 0.10}
+
+			custom_effect_tooltip = GER_use_bueracracy_tt
 
 		}
 
@@ -1701,7 +1733,13 @@ focus_tree = {
 
 		completion_reward = {
 			#legal action is NSDAP's only recourse in these times of trouble. We must use it
+			add_to_variable = {GER_NSDAP_influence = -5}
 
+			GER_faction_cleanup = yes
+
+			add_to_variable = {GER_gridlocked_government_political_power = 0.05}
+
+			custom_effect_tooltip = GER_power_of_pen_tt
 		}
 
 	}
@@ -1724,11 +1762,8 @@ focus_tree = {
 		relative_position_id =  GER_increase_general_plan_ost
 
 		completion_reward = {
-			#NSDAP forges its own path
 
 		}
-
-
 
 	}
 
@@ -1755,7 +1790,13 @@ focus_tree = {
 
 		completion_reward = {
 			#NSDAP focuses on weakening SS 
+			add_to_variable = {GER_NSDAP_influence = 5}
+			add_to_variable = {GER_ss_influence = -10}
 
+			GER_faction_cleanup = yes
+
+			custom_effect_tooltip = GER_weaken_ss_tt
+			add_stability = -0.05
 		}
 
 
