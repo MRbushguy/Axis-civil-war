@@ -125,8 +125,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/colonial_government.dds"
 	}
 	SpriteType = {
-		name = "GFX_ideology_monarchism"
-		texturefile = "gfx/interface/ideologies/monarchism.dds"
+		name = "GFX_ideology_absolute_monarchy"
+		texturefile = "gfx/interface/ideologies/absolute_monarchy.dds"
 	}
 
 	SpriteType = {

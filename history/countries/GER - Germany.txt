@@ -501,6 +501,18 @@ add_namespace = {
 }
 
 create_field_marshal = {
+	name = "Wilhelm Keitel"
+	picture = "Wilhelm Keitel.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+	id = 1
+}
+
+create_field_marshal = {
 	name = "Hans Speidel"
 	picture = "Hans Speidel.dds"
 	traits = { }
