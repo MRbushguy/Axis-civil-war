@@ -96,7 +96,7 @@ GER_rebuild_NSDAP_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP �
 GER_glorify_the_feuhrer:0 "Glorify the Fuhrer"
 GER_glorify_the_feuhrer_desc:0 "Adolf hitler is the past and present of the National Socialist movement in Germany, and he will certaintly be part of its future. We must connect our rise with his, so as to gain some legitimacy in the new Germany."
 GER_glorify_the_fuhrer_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §G+5§! Influence \n\nModify §YGridlocked Government§! by: \nPolitical Power Gain: §G+10%§!"
-
+GER_reform_colony_code_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP§!: §G+5§! Influence \n£decision_faction_ger_reform_small §YReformists§!: §G+5§! Influence"
 
 
 ###SS Branch
@@ -243,3 +243,12 @@ GER_the_oil_incident_desc:0 "The oilfields in the caucasus have been victimized 
 
 GER_the_final_showdown:0 "The Final Showdown"
 GER_the_final_showdown_desc:0 "The time has come to claim our rightful supremacy over the European continent. Our armies rein undefeated in combat, with a last glorious conquest to cement the new world order. And the Italians...what can they do but burn?"
+
+
+#stuff
+
+GER_race_laws_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP§!: §G+5§! Influence \n£decision_faction_ger_reform_small §YReformists§!: §G+5§! Influence\n\nModify §YGridlocked Government§! by: \nResistance Gain: §G-3%§!\nCompliance Gain: §R-1%§!"
+GER_use_bueracracy_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP§!: §R-10§! Influence \n\nModify §YGridlocked Government§! by: \nPolitical Advisor Cost Factor: §G+10%§!"
+GER_power_of_pen_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP§!: §R-5§! Influence \n\nModify §YGridlocked Government§! by: \nPolitical Power Gain: §G+5%§!"
+GER_limit_refnaz_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP§!: §G5§! Influence \n£decision_faction_ger_reform_small §YReformists§!: §R-10§! Influence"
+GER_weaken_ss_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP§!: §G5§! Influence \n£decision_faction_ger_ss_small §YSS§!: §R-10§! Influence"
