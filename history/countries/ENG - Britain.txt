@@ -176,7 +176,7 @@ if = {
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	#add_political_power = 1198
 
 	#adding ministers
 	add_ideas = {
@@ -1615,6 +1615,7 @@ if = {
 		#laws
 		civilian_economy
 	}
+	
 	if = {
 	limit = {
 		OR = {

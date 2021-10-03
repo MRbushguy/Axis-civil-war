@@ -1,0 +1,52 @@
+scripted_gui={
+eng_open_commonwealth_gui ={
+	window_name= "eng_open_commonwealth_gui_window"
+	context_type= player_context
+	
+	visible={
+	AND={NOT={has_country_flag=opened_commonwealth_gui}
+	OR={
+	tag=ENG
+	has_autonomy_state = autonomy_british_dominion
+	}
+	}
+	}
+	effects={
+	eng_comm_open_button_click={
+	set_country_flag=opened_commonwealth_gui
+	clear_array = global.british_commonwealth_dominion
+	every_country ={
+		limit={has_autonomy_state = autonomy_british_dominion}
+		add_to_array={
+		array=global.british_commonwealth_dominion
+		value=THIS.id
+				}
+			}
+		}
+	}
+	triggers={
+	
+	}
+	dynamic_lists = {
+	
+	}
+	properties={
+	
+	}
+	ai_enabled={
+	always=yes
+	}
+	ai_test_interval=290
+	ai_test_variance=0.5
+	ai_check={
+	
+	}
+	
+	ai_check_scope={
+	
+	}
+	ai_weights={
+	
+	}
+	}
+}
