@@ -3,6 +3,7 @@
 oob = "RKM_1947"
 
 set_research_slots = 3
+set_stability = 0.2
 
 # Starting tech
 set_technology = {
@@ -85,7 +86,7 @@ create_country_leader = {
 		authoritarianism = 10
 		national_socialism = 60
 	}
-
+set_convoys = 100
 	add_ideas = {
 		resistance_3
 		devastation_3

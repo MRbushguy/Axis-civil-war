@@ -133,6 +133,16 @@ bookmarks = {
 				
 			}
 		}
+		
+		RKM = {
+			history = RKM_BLITZKRIEG_DESC
+			ideology = national_socialism
+			ideas = {
+			}
+			focuses = {
+				
+			}
+		}
 
 		"---" = {
 			

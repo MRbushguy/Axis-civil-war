@@ -1,0 +1,29 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_eng_comm_window"
+		textureFile = "/gfx/eng_comm_window.dds"
+	}
+	spriteType = {
+		name = "GFX_eng_open_comm"
+		textureFile = "/gfx/open_comm.dds"
+	}
+	spriteType = {
+		name = "GFX_diplo_countrylist_flag_frame_medium"
+		textureFile = "/gfx/diplo_countrylist_flag_frame_medium.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_event_close_button"
+		textureFile = "/gfx/Super_Event_Close_Button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_event_underlay"
+		textureFile = "/gfx/Super_Event_Underlay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_event_Second_World_War"
+		textureFile = "/gfx/sp_events/Super_Event_World_War2.dds"
+	}
+}

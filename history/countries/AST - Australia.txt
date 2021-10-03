@@ -475,13 +475,11 @@ if = {
 
 1947.1.1 = {
 
-	oob = CHI_1947
-	add_to_faction = SIK
-	add_to_faction = XSM
+	oob="AST_1947"
 
 	set_politics = {
-		ruling_party = authoritarianism
-		last_election = "1937.1.1"
+		ruling_party = democratic_center
+		last_election = "1945.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}

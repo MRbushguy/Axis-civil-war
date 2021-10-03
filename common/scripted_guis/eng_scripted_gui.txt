@@ -1,0 +1,71 @@
+scripted_gui={
+eng_commonwealth_gui ={
+	window_name= "eng_commonwealth_gui_window"
+	context_type= player_context
+	#OR={
+	#tag=ENG
+	#has_autonomy_state = autonomy_british_dominion
+	#}
+	
+	visible={
+	#always=yes
+	has_country_flag=opened_commonwealth_gui
+	}
+	effects={
+	eng_comm_close_button_click={
+	clr_country_flag=opened_commonwealth_gui
+	}
+	eng_leave_comm_button_click={
+	ENG={set_autonomy = {
+    target = THIS
+    autonomy_state = autonomy_free
+    }
+	ENG={country_event=britain.1}
+	}
+	}
+	}
+	triggers={
+	eng_comm_close_button={
+	AND={
+	NOT={tag=ENG}
+	THIS={
+	loyalty_to_britain < 40
+	effective_authority <35
+	}
+	}
+	}
+	}
+	dynamic_lists = {
+	members_of_commonwealth_gridbox={
+		array=global.british_commonwealth_dominion
+		entry_container = british_commonwealth_dominion_list_entry
+		change_scope=yes
+		ai_weights={
+		}
+	}
+	}
+	properties={
+	member_country_flag={
+	image=[THIS.GetFlag]
+	}
+	large_flag = {
+	image=[ENG.Getflag]
+	}
+	}
+	ai_enabled={
+	always=yes
+	}
+	ai_test_interval=290
+	ai_test_variance=0.5
+	ai_check={
+	
+	}
+	
+	ai_check_scope={
+	
+	}
+	ai_weights={
+	
+	}
+	}
+}

@@ -110,6 +110,202 @@ units = {
 		division_template = "Reich Soldiers"
 		start_experience_factor = 0.4
 	}
+	
+	
+	
+		
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 578 
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
+	
+		
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3426 
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
+		
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11449 
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
+		
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9326 
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
+	
+		
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11335 
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
+	
+		
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9409 
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
+		
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9258 
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
+		
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9286 
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
+		
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6391 
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
+	
+	
+		
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11324 
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
+		
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 297 
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
+		
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11277 
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
+		
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6327 
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
+		
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9368 
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
+	
+	
+		
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3151
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
+	
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9190
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 18
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6088
+		division_template = "Reich Soldiers"
+		start_experience_factor = 0.4
+	}
 
 }
 	

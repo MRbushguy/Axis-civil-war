@@ -1,0 +1,100 @@
+on_actions = {
+	on_startup = {
+	effect={
+	
+	ENG={set_variable = {power_bcd = 0}}
+	every_country={
+		   limit={has_autonomy_state = autonomy_british_dominion}
+			 set_variable= { loyalty_to_britain = 10 }
+			 set_variable = {relative_power_bri = 0 }
+			 set_variable = {power_bcd = 0}
+
+			 set_variable = {effective_authority = 0}
+		    }
+	}
+	}
+	on_daily = {
+	effect={
+	
+	ENG={
+		set_variable={num_subjects_eng=num_subjects}
+		set_variable={total_manpower_bcd=manpower_k}
+		divide_variable = {total_manpower_bcd=10}
+		round_variable = total_manpower_bcd
+		set_variable={civ_factories_bcd=num_of_civilian_factories}
+		set_variable={mil_factories_bcd=num_of_military_factories}
+		set_variable={nav_factories_bcd=num_of_naval_factories}
+		 divide_variable={mil_factories_bcd=4}
+		  multiply_variable={mil_factories_bcd=3}
+		  divide_variable={nav_factories_bcd=5}
+		  multiply_variable={nav_factories_bcd=3}
+		  round_variable= mil_factories_bcd
+		  round_variable = nav_factories_bcd
+		set_variable = {power_bcd = 0}
+		add_to_variable = { power_bcd=civ_factories_bcd }
+		add_to_variable = { power_bcd=mil_factories_bcd }
+		add_to_variable = { power_bcd=nav_factories_bcd }
+		add_to_variable = { power_bcd=total_manpower_bcd }
+		}
+	every_country={
+	set_variable={num_subjects_eng=ENG.num_subjects}
+	set_variable={power_bri=ENG.power_bcd}
+		   limit={has_autonomy_state = autonomy_british_dominion}
+		
+		   set_variable={total_manpower_bcd=manpower_k}
+		   divide_variable = {total_manpower_bcd=10}
+		   round_variable = total_manpower_bcd
+		   set_variable={civ_factories_bcd=num_of_civilian_factories}
+		   set_variable={mil_factories_bcd=num_of_military_factories}
+		   divide_variable={mil_factories_bcd=4}
+		   multiply_variable={mil_factories_bcd=3}
+		   divide_variable={nav_factories_bcd=5}
+		   multiply_variable={nav_factories_bcd=3}
+		   round_variable= mil_factories_bcd
+		   round_variable = nav_factories_bcd
+		   set_variable={nav_factories_bcd=num_of_naval_factories}
+			set_variable = {relative_power_bri = 0 }
+			set_variable = {power_bcd = 0}
+			add_to_variable = { power_bcd=civ_factories_bcd }
+			add_to_variable = { power_bcd=mil_factories_bcd }
+			add_to_variable = { power_bcd=nav_factories_bcd }
+			add_to_variable = { power_bcd=total_manpower_bcd }
+			 
+			
+			
+			set_variable= { loyalty_to_britain = 30 }
+			set_variable={relations_with_britain=THIS.opinion@ENG}
+			divide_variable={relations_with_britain=4}
+			divide_variable={power_bri=num_subjects_eng}
+			subtract_from_variable={relations_with_britain=power_bcd}
+			add_to_variable={relations_with_britain=power_bri}
+			round_variable=relations_with_britain
+			add_to_variable={loyalty_to_britain=relations_with_britain}
+			
+			
+			
+			
+			set_variable = {effective_authority = 0}
+			add_to_variable={effective_authority=power_bri}
+			add_to_variable={effective_authority=loyalty_to_britain}
+			subtract_from_variable={effective_authority=power_bcd}
+			round_variable=effective_authority
+			if={
+			limit={loyalty_to_britain < 40}
+			
+			set_country_flag=disloyal_to_britain
+			}
+			
+			
+			if={
+			limit={loyalty_to_britain > 39}
+			
+			clr_country_flag=disloyal_to_britain
+			}
+		    }
+	
+
+	}
+	
+	}
+}

@@ -12,6 +12,7 @@ if = {
 
 
 set_research_slots = 3
+set_cosmetic_tag = CAN_UK
 set_country_flag = monroe_doctrine
 set_stability = 0.8
 set_war_support = 0.1
@@ -61,16 +62,11 @@ if = {
 }
 if = {
 	limit = { has_dlc = "Together for Victory" }
-	add_ideas = CAN_great_depression_1
-	add_ideas = CAN_conscription_crisis
-	set_cosmetic_tag = CAN_UK
 
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-1939.1.1 = {
-	add_political_power = 1198
-	}
+
 
 	add_ideas = {
 		#laws
@@ -153,12 +149,12 @@ set_politics = {
 }
 
 set_popularities = {
-	socialism = 15
-	democratic_left = 40
-	democratic_center = 5
-	democratic_right = 28
-	authoritarianism = 5
-	national_socialism = 7
+	socialism = 5
+	democratic_left = 60
+	democratic_center = 20
+	democratic_right = 10
+	authoritarianism = 0
+	national_socialism = 5
 }
 
 create_country_leader = {
@@ -166,7 +162,7 @@ create_country_leader = {
 	desc = "POLITICS_MACKENZIE_KING_DESC"
 	picture = "Portrait_Canada_Mackenzie_King.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = social_democracy
 	traits = {
 		#
 	}
@@ -398,8 +394,8 @@ if = {
 	}
 
 	set_popularities = {
-		democratic_right = 55
-		democratic_left = 20
+		democratic_right = 20
+		democratic_left = 55
 		fascism = 25
 	}
 }
