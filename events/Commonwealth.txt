@@ -1,0 +1,97 @@
+
+add_namespace=commonwealth
+country_event = {
+	id = commonwealth.1
+	title = commonwealth.1.t
+	desc = commonwealth.1.d
+	picture = 
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#then war it is!
+	option = {
+		name = commonwealth.1.a
+		create_wargoal = {
+    type = puppet_wargoal_focus
+    target = FROM
+		}
+	set_autonomy = {
+    target = FROM
+    autonomy_state = autonomy_free
+	
+    }
+	add_opinion_modifier = { target = FROM modifier = large_decrease }
+	}
+	option = {
+		name = commonwealth.1.b
+	add_opinion_modifier = { target = FROM modifier = huge_increase }
+	set_autonomy = {
+    target = FROM
+    autonomy_state = autonomy_free
+	
+    }
+		}
+	}
+#Appoints new Governor
+country_event = {
+	id = commonwealth.2
+	title = commonwealth.2.t
+	desc = commonwealth.2.d
+	picture = 
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#ripp
+	option = {
+		name = commonwealth.2.a
+		THIS={add_to_variable={flatModifierControl=20}}
+	add_opinion_modifier = { target = FROM modifier = medium_decrease }
+	country_event = { id =  commonwealth.3 days = 160 random_days = 20}
+	}
+	}
+
+#Mending Relations
+country_event = {
+	id = commonwealth.3
+	title = commonwealth.3.t
+	desc = commonwealth.3.d
+	picture = 
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#ripp
+	option = {
+		#add_opinion_modifier = { target = ENG modifier = medium_increase }
+		set_variable={flatModifierControl=0}
+		#THIS={set_variable={govcooldown=365}}
+	}
+	}
+country_event = {
+	id = commonwealth.4
+	title = commonwealth.4.t
+	desc = commonwealth.4.d
+	picture = 
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#can appoint new governor
+	option = {
+		set_variable={govcooldown=0}
+	}
+	}

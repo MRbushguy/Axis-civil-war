@@ -13,10 +13,13 @@ on_actions = {
 		    }
 	}
 	}
+	
 	on_daily = {
+	
 	effect={
 	
 	ENG={
+	
 		set_variable={num_subjects_eng=num_subjects}
 		set_variable={total_manpower_bcd=manpower_k}
 		divide_variable = {total_manpower_bcd=10}
@@ -78,13 +81,13 @@ on_actions = {
 			add_to_variable={effective_authority=power_bri}
 			add_to_variable={effective_authority=loyalty_to_britain}
 			subtract_from_variable={effective_authority=power_bcd}
+			add_to_variable={effective_authority=flatModifierControl}
 			round_variable=effective_authority
 			if={
 			limit={loyalty_to_britain < 40}
 			
 			set_country_flag=disloyal_to_britain
 			}
-			
 			
 			if={
 			limit={loyalty_to_britain > 39}
@@ -97,4 +100,5 @@ on_actions = {
 	}
 	
 	}
+	
 }

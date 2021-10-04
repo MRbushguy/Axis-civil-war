@@ -11,37 +11,63 @@ eng_commonwealth_gui ={
 	#always=yes
 	has_country_flag=opened_commonwealth_gui
 	}
-	effects={
-	eng_comm_close_button_click={
-	clr_country_flag=opened_commonwealth_gui
-	}
-	eng_leave_comm_button_click={
-	ENG={set_autonomy = {
-    target = THIS
-    autonomy_state = autonomy_free
-    }
-	ENG={country_event=britain.1}
-	}
-	}
-	}
-	triggers={
-	eng_comm_close_button={
-	AND={
-	NOT={tag=ENG}
-	THIS={
-	loyalty_to_britain < 40
-	effective_authority <35
-	}
-	}
-	}
-	}
 	dynamic_lists = {
 	members_of_commonwealth_gridbox={
 		array=global.british_commonwealth_dominion
 		entry_container = british_commonwealth_dominion_list_entry
 		change_scope=yes
+	
 		ai_weights={
 		}
+	}
+	}
+	effects={
+	appoint_gov_button_click={
+	ENG={set_variable={govcooldown=182}}
+	THIS={country_event=commonwealth.2}
+	ENG={country_event = { id =  commonwealth.4 days = 260 random_days = 5}}
+	}
+	eng_comm_close_button_click={
+	clr_country_flag=opened_commonwealth_gui
+	}
+	
+	eng_leave_comm_button_click={
+	ENG={set_autonomy = {
+    target = THIS
+    autonomy_state = autonomy_free
+    }
+	THIS={ENG={country_event=commonwealth.1}}
+	}
+	}
+	
+	}
+	triggers={
+	appoint_gov_button_visible={
+	ENG={check_variable={govcooldown < 1}}
+	
+	}
+	appoint_gov_button_available={
+	check_variable={govcooldown < 1}
+	
+	}
+	eng_leave_comm_button_available={
+	AND={
+	NOT={tag=ENG}
+	THIS={
+	check_variable={loyalty_to_britain < 40}
+	check_variable={effective_authority <35}
+			}
+		}
+	}
+	
+	eng_leave_comm_button_visible={
+	AND={
+	NOT={tag=ENG}
+	THIS={
+	check_variable ={loyalty_to_britain < 40}
+	check_variable= {effective_authority <35}
+	}
+	}
 	}
 	}
 	properties={
@@ -68,4 +94,7 @@ eng_commonwealth_gui ={
 	
 	}
 	}
+	
+	
+
 }
