@@ -319,7 +319,7 @@ category = radar_tech
 			factor = 1
 		}
 		completion_reward = {
-			remove_ideas= RKM_devastation_3
+			remove_ideas= devastation_3
 		}
 	}
 
@@ -337,7 +337,7 @@ category = radar_tech
 			factor = 1
 		}
 		completion_reward = {
-			remove_ideas= RKM_unable_to_garrison
+			remove_ideas= unable_to_garrison
 		}
 	}
 
