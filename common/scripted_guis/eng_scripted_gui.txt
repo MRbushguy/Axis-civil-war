@@ -18,6 +18,14 @@ eng_commonwealth_gui ={
 		change_scope=yes
 	
 		ai_weights={
+		appoint_gov_button_click={
+		ai_will_do = {
+	    modifier = {
+		   factor = 20
+          THIS={check_variable={effective_authority < 40}}
+           }
+       }
+		}
 		}
 	}
 	}
@@ -36,6 +44,10 @@ eng_commonwealth_gui ={
     target = THIS
     autonomy_state = autonomy_free
     }
+	if={
+	limit={OR={tag=CAN tag=RAJ}}
+	drop_cosmetic_tag = yes
+	}
 	THIS={ENG={country_event=commonwealth.1}}
 	}
 	}
@@ -90,10 +102,19 @@ eng_commonwealth_gui ={
 	ai_check_scope={
 	
 	}
-	ai_weights={
 	
-	}
-	}
+ai_weights = {
+	
+   eng_leave_comm_button_click = {
+   
+       ai_will_do = {
+	    modifier = {
+		   factor = 50
+          check_variable={loyalty_to_britain < 40}
+           }
+       }
+   }
+}
 	
 	
 

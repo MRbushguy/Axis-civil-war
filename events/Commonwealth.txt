@@ -55,6 +55,7 @@ country_event = {
 		THIS={add_to_variable={flatModifierControl=20}}
 	add_opinion_modifier = { target = FROM modifier = medium_decrease }
 	country_event = { id =  commonwealth.3 days = 160 random_days = 20}
+	country_event = { id =  commonwealth.4 days = 260 random_days = 20}
 	}
 	}
 
