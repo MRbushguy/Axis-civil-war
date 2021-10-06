@@ -1,0 +1,8 @@
+spriteTypes = {
+	### RAJ
+	spriteType = {
+		name = "GFX_idea_agrarian_society"
+		texturefile = "gfx/interface/ideas/RAJ/agrarian_society.dds"
+	}
+	
+	}			

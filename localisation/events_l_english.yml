@@ -270,3 +270,35 @@ ca_romania.24.t:0 "Romania Demands Debt Repayment"
 ca_romania.24.d:0 "We have purchased large amounts of raw petrolium from Romania in the last war, such a large amount, that we haven't been able to fully pay them on the agreed on rate."
 ca_romania.24.a:0 "Very well, pay them off."
 ca_romania.24.b:0 "Ignore them!"
+
+#Commonwealth
+
+commonwealth.1.t:0 "[From.GetName] Declares Independence!"
+commonwealth.1.d:0 ""
+commonwealth.1.a:0 "Outrageous!"
+commonwealth.1.b:0 "Let's not overstep."
+
+commonwealth.2.t:0 "[From.GetName] Appoints a New Colonial Governor"
+commonwealth.2.d:0 ""
+commonwealth.2.a:0 "Damn."
+
+commonwealth.3.t:0 "Governor Loses Control"
+commonwealth.3.d:0 ""
+commonwealth.3.a:0 "Yay"
+
+commonwealth.4.t:0 "Can Appoint a New Governor!"
+commonwealth.4.d:0 ""
+commonwealth.4.a:0 "Yay"
+
+commonwealth.5.t:0 "Britain Develops [This.GetAdjective] Resources!"
+commonwealth.5.d:0 ""
+commonwealth.5.a:0 "Hurray!"
+
+commonwealth.6.t:0 "Britain Demands Kiwi Integration into Australia"
+commonwealth.6.d:0 ""
+commonwealth.6.a:0 "To peace and prosperity in Oceania!"
+commonwealth.6.b:0 "Outrageous!"
+
+commonwealth.7.t:0 "Oceanian Union"
+commonwealth.7.d:0 "Our good friends in London have given us sovreignty over New Zealand."
+commonwealth.7.a:0 "Hurrah!"

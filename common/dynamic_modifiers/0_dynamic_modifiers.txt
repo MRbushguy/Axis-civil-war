@@ -358,14 +358,15 @@ GER_blitzkrieg_dependence_dynamic_modifier = {
 	experience_loss_factor = GER_blitzkrieg_dependence_experience
 }
 
+
 GER_gridlocked_government_dynamic_modifier = {
 
 	enable = {always = yes}
 	
-	political_advisor_cost_factor = GER_gridlocked_government_advisor_cost
-	political_power_factor = GER_gridlocked_government_political_power
-	resistance_growth = GER_gridlocked_government_resistance
-	compliance_growth = GER_gridlocked_government_compliance
+	political_advisor_cost_factor = global.GER_gridlocked_government_advisor_cost
+	political_power_factor = global.GER_gridlocked_government_political_power
+	resistance_growth = global.GER_gridlocked_government_resistance
+	compliance_growth = global.GER_gridlocked_government_compliance
 
 }
 

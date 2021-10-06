@@ -1,4 +1,10 @@
 leader_traits = {
+
+
+	#ACW countries
+
+
+
 	#For Michael I
 	supported_by_parliament = {
 		random = no
@@ -46,7 +52,53 @@ leader_traits = {
 			}
 		}
 	}
-	#ACW countries
+
+butcher_brest = {
+		random = no
+		stability_factor = -0.1
+        monthly_population = -0.05
+        command_power_gain_mult = 0.08
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	light_in_times_of_darkness = {
+		random = no
+		stability_factor = 0.05
+        war_support_factor = 0.2
+        army_core_defence_factor = 0.1
+
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	major_national_figure = {
+		random = no
+		stability_factor = 0.2
+		political_power_factor = 0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	puppet_and_traitor = {
+		random = no
+        stability_factor = -0.1
+        war_support_factor = -0.15
+		political_power_factor = -0.1
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	garrison_commander = {
 		random = no
 		max_command_power = 20

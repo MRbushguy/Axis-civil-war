@@ -167,6 +167,11 @@ create_country_leader = {
 		devastation_3
 		UKR_agrarian_discontent_0
 	}
+
+	add_dynamic_modifier = {
+
+		modifier = GER_gridlocked_government_dynamic_modifier
+	}
 }
 
 

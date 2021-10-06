@@ -1,0 +1,187 @@
+
+add_namespace=commonwealth
+country_event = {
+	id = commonwealth.1
+	title = commonwealth.1.t
+	desc = commonwealth.1.d
+	picture = 
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#then war it is!
+	option = {
+		name = commonwealth.1.a
+		create_wargoal = {
+    type = puppet_wargoal_focus
+    target = FROM
+		}
+	set_autonomy = {
+    target = FROM
+    autonomy_state = autonomy_free
+	
+    }
+	add_opinion_modifier = { target = FROM modifier = large_decrease }
+	}
+	option = {
+		name = commonwealth.1.b
+	add_opinion_modifier = { target = FROM modifier = huge_increase }
+	set_autonomy = {
+    target = FROM
+    autonomy_state = autonomy_free
+	
+    }
+		}
+	}
+#Appoints new Governor
+country_event = {
+	id = commonwealth.2
+	title = commonwealth.2.t
+	desc = commonwealth.2.d
+	picture = 
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#ripp
+	option = {
+		name = commonwealth.2.a
+		THIS={add_to_variable={flatModifierControl=20}}
+	add_opinion_modifier = { target = FROM modifier = medium_decrease }
+	country_event = { id =  commonwealth.3 days = 160 random_days = 20}
+	country_event = { id =  commonwealth.4 days = 260 random_days = 20}
+	}
+	}
+
+#Mending Relations
+country_event = {
+	id = commonwealth.3
+	title = commonwealth.3.t
+	desc = commonwealth.3.d
+	picture = 
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#ripp
+	option = {
+	name = commonwealth.3.a
+		#add_opinion_modifier = { target = ENG modifier = medium_increase }
+		set_variable={flatModifierControl=0}
+		#THIS={set_variable={govcooldown=365}}
+	}
+	}
+country_event = {
+	id = commonwealth.4
+	title = commonwealth.4.t
+	desc = commonwealth.4.d
+	picture = 
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#can appoint new governor
+	option = {
+	name = commonwealth.4.a
+		set_variable={govcooldown=0}
+	}
+	}
+country_event = {
+	id = commonwealth.5
+	title = commonwealth.5.t
+	desc = commonwealth.5.d
+	picture = 
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#britain just dev'd some resources for us,nice
+	option = {
+	name = commonwealth.5.a
+		set_variable={flatModifierLoyalty=20}
+	}
+	}
+country_event = {
+	id = commonwealth.6
+	title = commonwealth.6.t
+	desc = commonwealth.6.d
+	picture = 
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#britain will give australia to new zealand, zealand side of event
+	#accept
+	option = {
+	name = commonwealth.6.a
+		
+		AST={annex_country = {
+		target = NZL
+		transfer_troops = yes
+			}
+		}
+		
+	}
+	#deny (chad)
+	option = {
+	name = commonwealth.6.b
+	ENG={
+	set_autonomy = {
+    target = NZL
+    autonomy_state = autonomy_free
+		}
+	}
+		leave_faction = yes
+		AST={
+		declare_war_on = {
+		target = NZL
+		type = annex_everything
+		}
+		}
+	}
+	}
+country_event = {
+	id = commonwealth.7
+	title = commonwealth.7.t
+	desc = commonwealth.7.d
+	picture = 
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	#britain will give australia to new zealand, australian side of event
+	#very cool
+	option = {
+	name = commonwealth.7.a
+		
+		every_state={
+		limit={is_core_of = NZL}
+		add_core_of = AST
+		
+		}
+		add_to_variable={flatModifierLoyalty=30}
+		
+	}
+	
+	}

@@ -90,6 +90,11 @@ create_country_leader = {
 		devastation_3
 		desperate_to_make_profit
 	}
+
+	add_dynamic_modifier = {
+
+		modifier = GER_gridlocked_government_dynamic_modifier
+	}
 }
 
 

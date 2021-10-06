@@ -209,12 +209,7 @@ set_variable = {GER_blitzkrieg_dependence_attrition = 0.25}
 set_variable = {GER_blitzkrieg_dependence_defense = -0.22}
 set_variable = {GER_blitzkrieg_dependence_experience = 0.35}
 
-	#Gridlocked Government variables
-set_variable = {GER_gridlocked_government_disabled_ideas = 1}	
-set_variable = {GER_gridlocked_government_advisor_cost = 0.5}	
-set_variable = {GER_gridlocked_government_political_power = -0.5}
-set_variable = {GER_gridlocked_government_resistance = 0.05}
-set_variable = {GER_gridlocked_government_compliance = -0.05}
+
 
 if = {
 	limit = {

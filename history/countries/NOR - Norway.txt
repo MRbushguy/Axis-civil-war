@@ -365,6 +365,14 @@ if = {
 	ideology = final_nazism
 	traits = {
 		#
+		}
 	}
-}
+
+	add_dynamic_modifier = {
+
+		modifier = GER_gridlocked_government_dynamic_modifier
+	}
+
+
+
 }

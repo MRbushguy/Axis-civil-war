@@ -46,7 +46,16 @@ eng_open_commonwealth_gui ={
 	
 	}
 	ai_weights={
-	
+	eng_comm_open_button_click={
+	 ai_will_do = {
+	 
+	    modifier = {
+		   factor = 50
+          check_variable={loyalty_to_britain < 40}
+           }
+       }
+	}
+	}
 	}
 	}
 }

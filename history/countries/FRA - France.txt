@@ -270,8 +270,8 @@ create_country_leader = {
 	desc = "POLITICS_JACQUES_DORIOT_DESC"
 	picture = "Jaqcues Doriot.dds"
 	expire = "1965.1.1"
-	ideology = final_nazism
-	traits = {
+	ideology = nazi_collaborationism
+	traits = { puppet_and_traitor
 
 	}
 }
@@ -1017,5 +1017,10 @@ if = {
 		FRA_national_regeneration
 		FRA_recovering_from_famine
 		FRA_french_irridentism
+	}
+
+	add_dynamic_modifier = {
+
+		modifier = GER_gridlocked_government_dynamic_modifier
 	}
 }
