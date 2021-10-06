@@ -79,7 +79,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "eng_leave_comm_icon_text"
-			position = { x = 260 y = 367 }
+			position = { x = 260 y = 370 }
 			font = "hoi_20b"
 			format = center
 			borderSize = {x = 0 y = 0}
@@ -96,6 +96,70 @@ guiTypes = {
 			buttonText = "Leave the Commonwealth"
 			buttonFont = "hoi_20b"
 		}
+		###########
+		#resources#
+		###########
+			iconType = {
+			name = "develop_australian_steel_icon"
+			spriteType = "GFX_sp_event_close_button"
+			position = { x = 431 y = 400 }
+			
+		}
+		instantTextboxType = {
+			name = "develop_australian_steel_text"
+			position = { x = 260 y = 410 }
+			font = "hoi_20b"
+			format = center
+			borderSize = {x = 0 y = 0}
+			text = "Develop Australian Iron Deposits"
+			maxWidth = 700
+			maxHeight = 50
+			fixedsize = yes
+		}
+		buttonType = {
+			name = "develop_australian_steel_button"
+			spriteType = "GFX_sp_event_close_button"
+			position = { x = 431 y = 400 }
+			clicksound = click_close
+			buttonText = "Develop Australian Iron Deposits"
+			buttonFont = "hoi_20b"
+		}
+		
+		#################
+		#GIB NEW ZEALAND#
+		#################
+		iconType = {
+			name = "australia_nzl_icon"
+			spriteType = "GFX_sp_event_close_button"
+			position = { x = 431 y = 400 }
+			
+		}
+		instantTextboxType = {
+			name = "australia_nzl_text"
+			position = { x = 260 y = 410 }
+			font = "hoi_20b"
+			format = center
+			borderSize = {x = 0 y = 0}
+			text = "Unite Australia and New Zealand"
+			maxWidth = 700
+			maxHeight = 50
+			fixedsize = yes
+		}
+		buttonType = {
+			name = "australia_nzl_button"
+			spriteType = "GFX_sp_event_close_button"
+			position = { x = 431 y = 400 }
+			clicksound = click_close
+			buttonText = "Unite Australia and New Zealand"
+			buttonFont = "hoi_20b"
+		}
+		
+		
+		
+		
+		##########
+		##########
+		##########
 		buttonType = {
 			name = "eng_comm_close_button"
 			spriteType = "GFX_sp_event_close_button"
@@ -176,7 +240,7 @@ guiTypes = {
 		}
 		iconType = {
 			name = "appoint_gov_icon"
-			spriteType = "GFX_appoint_new_governor"
+			spriteType = "GFX_appoint_new_governor_bw"
 			position = { x = 14 y = 200 }
 		}
 		buttonType = {

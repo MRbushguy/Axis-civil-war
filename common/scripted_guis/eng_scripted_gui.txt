@@ -11,6 +11,7 @@ eng_commonwealth_gui ={
 	#always=yes
 	has_country_flag=opened_commonwealth_gui
 	}
+	
 	dynamic_lists = {
 	members_of_commonwealth_gridbox={
 		array=global.british_commonwealth_dominion
@@ -30,6 +31,40 @@ eng_commonwealth_gui ={
 	}
 	}
 	effects={
+	###############
+	###RESOURCES###
+	###############
+	develop_australian_steel_button_click={
+	ENG={add_timed_idea = {
+				idea = ROM_increased_government_spendingI
+				days = 365
+			}}
+	AST={country_event=commonwealth.5}
+	ENG={set_country_flag=eng_ast_steel_dev}
+	add_resource = {
+    type = steel
+    amount = 50
+    state = 674
+	}
+	add_resource = {
+    type = steel
+    amount = 50
+    state = 522
+	}
+	}
+	
+	#############
+	#gib zealand#
+	#############
+	australia_nzl_button_click={
+	NZL={country_event=commonwealth.6}
+	AST={country_event=commonwealth.7}
+	ENG={set_country_flag=oceanic_union}
+	}
+	###############
+	###############
+	###############
+	
 	appoint_gov_button_click={
 	ENG={set_variable={govcooldown=182}}
 	THIS={country_event=commonwealth.2}
@@ -53,7 +88,70 @@ eng_commonwealth_gui ={
 	}
 	
 	}
+	
+	
 	triggers={
+	###############
+	#RESOURCES#####
+	###############
+	develop_australian_steel_icon_visible={
+	NOT={ENG={has_country_flag=eng_ast_steel_dev}}
+	AST={has_autonomy_state=autonomy_british_dominion}
+	}
+	develop_australian_steel_text_visible={
+	NOT={ENG={has_country_flag=eng_ast_steel_dev}}
+	AST={has_autonomy_state=autonomy_british_dominion}
+	}
+	develop_australian_steel_button_click={
+	NOT={has_idea=ENG_shattered_empire}
+	tag=ENG
+	NOT={has_country_flag=eng_ast_steel_dev}
+	NOT={has_idea=ROM_increased_government_spendingI}
+	}
+	develop_australian_steel_button_visible={
+	NOT={has_idea=ENG_shattered_empire}
+	tag=ENG
+	AST={has_autonomy_state=autonomy_british_dominion}
+	OR={AST={owns_state=674 owns_state=522}
+	ENG={owns_state=674 owns_state=522}
+	}
+	NOT={has_country_flag=eng_ast_steel_dev}
+	}
+	#############
+	#gib zealand#
+	#############
+	australia_nzl_text_visible={
+	ENG={NOT={has_country_flag=oceanic_union}}
+	AST={has_autonomy_state=autonomy_british_dominion}
+	NZL={has_autonomy_state=autonomy_british_dominion}
+	has_country_flag=eng_ast_steel_dev
+	}
+	australia_nzl_icon_visible={
+	ENG={NOT={has_country_flag=oceanic_union}}
+	AST={has_autonomy_state=autonomy_british_dominion}
+	NZL={has_autonomy_state=autonomy_british_dominion}
+	has_country_flag=eng_ast_steel_dev
+	}
+	australia_nzl_button_click={
+	tag=ENG
+	has_country_flag=eng_ast_steel_dev
+	NOT={has_country_flag=oceanic_union}
+	NOT={has_idea=ROM_increased_government_spendingI}
+	}
+	australia_nzl_button_visible={
+	tag=ENG
+	has_country_flag=eng_ast_steel_dev
+	AST={has_autonomy_state=autonomy_british_dominion}
+	NZL={has_autonomy_state=autonomy_british_dominion}
+	NOT={has_country_flag=oceanic_union}
+	NOT={has_idea=ROM_increased_government_spendingI}
+	}
+	
+	##############
+	##############
+	##############
+	
+	
 	appoint_gov_button_visible={
 	ENG={check_variable={govcooldown < 1}}
 	

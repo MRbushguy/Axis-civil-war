@@ -17,6 +17,10 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_appoint_new_governor_bw"
+		textureFile = "/gfx/interface/appoint_new_governor_done.dds"
+	}
+	spriteType = {
 		name = "GFX_sp_event_close_button"
 		textureFile = "/gfx/Super_Event_Close_Button.dds"
 	}

@@ -73,6 +73,7 @@ on_actions = {
 			add_to_variable={relations_with_britain=power_bri}
 			round_variable=relations_with_britain
 			add_to_variable={loyalty_to_britain=relations_with_britain}
+			add_to_variable={loyalty_to_britain=flatModifierLoyalty}
 			
 			
 			
