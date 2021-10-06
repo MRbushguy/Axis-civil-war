@@ -1,0 +1,6 @@
+	#Gridlocked Government variables
+set_variable = {GER_gridlocked_government_disabled_ideas = 1}	
+set_variable = {GER_gridlocked_government_advisor_cost = 0.5}	
+set_variable = {GER_gridlocked_government_political_power = -0.5}
+set_variable = {GER_gridlocked_government_resistance = 0.2}
+set_variable = {GER_gridlocked_government_compliance = -0.2}

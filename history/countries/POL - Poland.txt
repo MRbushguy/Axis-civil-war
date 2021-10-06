@@ -408,6 +408,13 @@ if = {
 	}
 }
 
+	#Gridlocked Government variables
+set_variable = {global.GER_gridlocked_government_disabled_ideas = 1}	
+set_variable = {global.GER_gridlocked_government_advisor_cost = 0.5}	
+set_variable = {global.GER_gridlocked_government_political_power = -0.5}
+set_variable = {global.GER_gridlocked_government_resistance = 0.2}
+set_variable = {global.GER_gridlocked_government_compliance = -0.2}
+
 1947.1.1 = {
 	set_cosmetic_tag = POL_reichskommissariat
 	oob = POL_1947
@@ -426,20 +433,21 @@ if = {
 
 	}
 
-create_country_leader = {
-	name = "Hans Frank"
-	desc = ""
-	picture = "gfx/leaders/POL/Hans Frank.dds"
-	expire = "1965.1.1"
-	ideology = lebensraum_colonization
-	traits = {
-        #
+	create_country_leader = {
+		name = "Hans Frank"
+		desc = ""
+		picture = "gfx/leaders/POL/Hans Frank.dds"
+		expire = "1965.1.1"
+		ideology = lebensraum_colonization
+		traits = {
+    	    #
+		}
 	}
-}
 
 	add_ideas = {
 		resistance_1
 		devastation_3
+		GER_gridlocked_government
 	}
 
 	add_dynamic_modifier = {
