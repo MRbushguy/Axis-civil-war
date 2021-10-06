@@ -441,4 +441,9 @@ create_country_leader = {
 		resistance_1
 		devastation_3
 	}
+
+	add_dynamic_modifier = {
+
+		modifier = GER_gridlocked_government_dynamic_modifier
+	}
 }

@@ -93,6 +93,11 @@ set_convoys = 100
 		stuck_in_1944
 		unable_to_garrison
 	}
+
+	add_dynamic_modifier = {
+
+		modifier = GER_gridlocked_government_dynamic_modifier
+	}
 }
 
 

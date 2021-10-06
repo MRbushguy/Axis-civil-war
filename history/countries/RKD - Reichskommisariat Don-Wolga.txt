@@ -111,4 +111,9 @@ create_country_leader = {
 		devastation_3
 		kazakstan_expeditions
 	}
+
+	add_dynamic_modifier = {
+
+		modifier = GER_gridlocked_government_dynamic_modifier
+	}
 }

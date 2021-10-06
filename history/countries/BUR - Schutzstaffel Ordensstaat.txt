@@ -29,4 +29,9 @@ set_convoys = 20
 			butcher_brest
 		}
 	}
+
+	add_dynamic_modifier = {
+
+		modifier = GER_gridlocked_government_dynamic_modifier
+	}
 }

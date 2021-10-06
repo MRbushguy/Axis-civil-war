@@ -1018,4 +1018,9 @@ if = {
 		FRA_recovering_from_famine
 		FRA_french_irridentism
 	}
+
+	add_dynamic_modifier = {
+
+		modifier = GER_gridlocked_government_dynamic_modifier
+	}
 }
