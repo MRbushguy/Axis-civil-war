@@ -35,6 +35,7 @@ eng_commonwealth_gui ={
 	###RESOURCES###
 	###############
 	develop_australian_steel_button_click={
+	AST={set_country_flag=eng_ast_steel_dev}
 	ENG={add_timed_idea = {
 				idea = ROM_increased_government_spendingI
 				days = 365
@@ -52,7 +53,25 @@ eng_commonwealth_gui ={
     state = 522
 	}
 	}
-	
+	develop_canadian_oil_button_click={
+	ENG={add_timed_idea = {
+				idea = ROM_increased_government_spendingI
+				days = 365
+			}}
+	CAN={country_event=commonwealth.5}
+	ENG={set_country_flag=eng_can_oil_dev}
+	CAN={set_country_flag=eng_can_oil_dev}
+	add_resource = {
+    type = oil
+    amount = 50
+    state = 470
+	}
+	add_resource = {
+    type = oil
+    amount = 30
+    state = 473
+	}
+	}
 	#############
 	#gib zealand#
 	#############
@@ -115,7 +134,34 @@ eng_commonwealth_gui ={
 	OR={AST={owns_state=674 owns_state=522}
 	ENG={owns_state=674 owns_state=522}
 	}
+	NOT={has_idea=ROM_increased_government_spendingI}
 	NOT={has_country_flag=eng_ast_steel_dev}
+	}
+	
+	#canada
+	develop_canadian_oil_icon_visible={
+	NOT={ENG={has_country_flag=eng_can_oil_dev}}
+	CAN={has_autonomy_state=autonomy_british_dominion}
+	}
+	develop_canadian_oil_text_visible={
+	NOT={ENG={has_country_flag=eng_can_oil_dev}}
+	CAN={has_autonomy_state=autonomy_british_dominion}
+	}
+	develop_canadian_oil_button_click={
+	NOT={has_idea=ENG_shattered_empire}
+	tag=ENG
+	NOT={has_country_flag=eng_can_oil_dev}
+	NOT={has_idea=ROM_increased_government_spendingI}
+	}
+	develop_canadian_oil_button_visible={
+	NOT={has_idea=ROM_increased_government_spendingI}
+	NOT={has_idea=ENG_shattered_empire}
+	tag=ENG
+	CAN={has_autonomy_state=autonomy_british_dominion}
+	OR={CAN={owns_state=470 owns_state=473}
+	ENG={owns_state=470 owns_state=473}
+	}
+	NOT={has_country_flag=eng_can_oil_dev}
 	}
 	#############
 	#gib zealand#
@@ -133,12 +179,14 @@ eng_commonwealth_gui ={
 	has_country_flag=eng_ast_steel_dev
 	}
 	australia_nzl_button_click={
+	NZL={check_variable={effective_authority>70}}
 	tag=ENG
 	has_country_flag=eng_ast_steel_dev
 	NOT={has_country_flag=oceanic_union}
 	NOT={has_idea=ROM_increased_government_spendingI}
 	}
 	australia_nzl_button_visible={
+	NZL={check_variable={effective_authority>70}}
 	tag=ENG
 	has_country_flag=eng_ast_steel_dev
 	AST={has_autonomy_state=autonomy_british_dominion}
