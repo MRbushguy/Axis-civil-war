@@ -138,6 +138,10 @@ if = {
 }
 
 # DIPLOMACY / WAR 36
+############
+diplomatic_relation = { country = GER relation = non_aggression_pact }
+##Feel free to remove it, but i think it should stay there a bit until the mod becomes more stable.
+############
 if = {
 	limit = {
 		has_start_date < 1936.01.02
