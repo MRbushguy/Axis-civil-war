@@ -72,6 +72,29 @@ eng_commonwealth_gui ={
     state = 473
 	}
 	}
+	
+	#saf
+	
+	develop_canadian_oil_button_click={
+	ENG={add_timed_idea = {
+				idea = ROM_increased_government_spendingI
+				days = 365
+			}}
+	SAF={country_event=commonwealth.5}
+	ENG={set_country_flag=eng_saf_chromium}
+	SAF={set_country_flag=eng_saf_chromium}
+	add_resource = {
+    type = chromium
+    amount = 50
+    state = 275
+	}
+	add_resource = {
+    type = chromium
+    amount = 30
+    state = 542
+	}
+	}
+	
 	#############
 	#gib zealand#
 	#############
@@ -136,6 +159,32 @@ eng_commonwealth_gui ={
 	}
 	NOT={has_idea=ROM_increased_government_spendingI}
 	NOT={has_country_flag=eng_ast_steel_dev}
+	}
+	#south africa
+	
+	develop_saf_chromium_icon_visible={
+	NOT={ENG={has_country_flag=eng_saf_chromium}}
+	SAF={has_autonomy_state=autonomy_british_dominion}
+	}
+	develop_saf_chromium_text_visible={
+	NOT={ENG={has_country_flag=eng_saf_chromium}}
+	SAF={has_autonomy_state=autonomy_british_dominion}
+	}
+	develop_saf_chromium_button_click={
+	NOT={has_idea=ENG_shattered_empire}
+	tag=ENG
+	NOT={has_country_flag=eng_saf_chromium}
+	NOT={has_idea=ROM_increased_government_spendingI}
+	}
+	develop_saf_chromium_button_visible={
+	NOT={has_idea=ROM_increased_government_spendingI}
+	NOT={has_idea=ENG_shattered_empire}
+	tag=ENG
+	SAF={has_autonomy_state=autonomy_british_dominion}
+	OR={CAN={owns_state=275 owns_state=542}
+	ENG={owns_state=275 owns_state=542}
+	}
+	NOT={has_country_flag=eng_saf_chromium}
 	}
 	
 	#canada
