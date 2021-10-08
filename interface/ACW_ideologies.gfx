@@ -111,7 +111,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/utopian_socialism.dds"
 	}	
 
-	### Neutrality
+	### Authoritarianism
 	SpriteType = {
 		name = "GFX_ideology_authoritarianism_group"
 		texturefile = "gfx/interface/ideologies/authoritarianism.dds"
@@ -138,4 +138,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/ethnic_revanchism.dds"
 	}
 
+	### Vichy Authoritarianism
+	SpriteType = {
+		name = "GFX_ideology_petainism"
+		texturefile = "gfx/interface/ideologies/vichy_national_rejuvenation_auth_petain.dds"
+	}
 }

@@ -229,6 +229,10 @@ nationalism = {
 			civilian_dictatorship  = {
 			}
 
+			### Vichy Subideologies
+			petainism  = {
+			}
+
 		}
 
 		dynamic_faction_names = {
