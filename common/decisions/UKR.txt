@@ -134,36 +134,37 @@ UKR_agrarian_revolt = {
 		}
 	}
 
-	UKR_increasing_discontent_3 = {
-
-		priority = 9
-
-		icon = generic_ignite_civil_war
-
-		available = {
-			always = no
-		}
-
-		activation = {
-
-			has_country_flag = discontent_2
-		}
-
-		fire_only_once = yes
-
-		days_mission_timeout = 35
-
-		visible = {
-			has_country_flag = discontent_2
-
-		}
-
-		timeout_effect = {
-
-
-			country_event = { id = ukraine.2 }
-
-
-		}
-	}
+	#UKR_increasing_discontent_3 = {
+	#
+	#	priority = 9
+	#
+	#	icon = generic_ignite_civil_war
+	#
+	#	available = {
+	#		always = no
+	#	}
+	#
+	#	activation = {
+	#
+	#		has_country_flag = discontent_2
+	#	}
+	#
+	#	fire_only_once = yes
+	#
+	#	days_mission_timeout = 35
+	#
+	#	visible = {
+	#		has_country_flag = discontent_2
+	#
+	#	}
+	#
+	#	timeout_effect = {
+	#
+	#
+	#		country_event = { id = ukraine.2 }
+	#
+	#
+	#	}
+	#}
+	#Possible crashing, commented it out, pls fix xox
 }

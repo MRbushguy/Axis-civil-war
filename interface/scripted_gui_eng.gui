@@ -124,7 +124,59 @@ guiTypes = {
 			buttonText = "Develop Australian Iron Deposits"
 			buttonFont = "hoi_20b"
 		}
+		#south africa
+		iconType = {
+			name = "develop_saf_chromium_icon"
+			spriteType = "GFX_sp_event_close_button"
+			position = { x = 431 y = 480 }
+			
+		}
+		instantTextboxType = {
+			name = "develop_saf_chromium_text"
+			position = { x = 260 y = 490 }
+			font = "hoi_20b"
+			format = center
+			borderSize = {x = 0 y = 0}
+			text = "Develop South African Chromium"
+			maxWidth = 700
+			maxHeight = 50
+			fixedsize = yes
+		}
+		buttonType = {
+			name = "develop_saf_chromium_button"
+			spriteType = "GFX_sp_event_close_button"
+			position = { x = 431 y = 480 }
+			clicksound = click_close
+			buttonText = "Develop South African Chromium"
+			buttonFont = "hoi_20b"
+		}
 		
+		# ca nada #
+		iconType = {
+			name = "develop_canadian_oil_icon"
+			spriteType = "GFX_sp_event_close_button"
+			position = { x = 431 y = 440 }
+			
+		}
+		instantTextboxType = {
+			name = "develop_canadian_oil_text"
+			position = { x = 260 y = 450 }
+			font = "hoi_20b"
+			format = center
+			borderSize = {x = 0 y = 0}
+			text = "Develop Canadian Oil Fields"
+			maxWidth = 700
+			maxHeight = 50
+			fixedsize = yes
+		}
+		buttonType = {
+			name = "develop_canadian_oil_button"
+			spriteType = "GFX_sp_event_close_button"
+			position = { x = 431 y = 440 }
+			clicksound = click_close
+			buttonText = "Develop Canadian Oil Fields"
+			buttonFont = "hoi_20b"
+		}
 		#################
 		#GIB NEW ZEALAND#
 		#################

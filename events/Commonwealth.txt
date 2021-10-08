@@ -113,7 +113,7 @@ country_event = {
 	#britain just dev'd some resources for us,nice
 	option = {
 	name = commonwealth.5.a
-		set_variable={flatModifierLoyalty=20}
+		THIS={set_variable={flatModifierLoyalty=20}}
 	}
 	}
 country_event = {
