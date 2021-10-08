@@ -4,30 +4,13 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = RKM
+			tag = Moskau
 		}
 	}
 	
 	continius_focus_position = { x = 80 y = 1000 }
 	
-	#Focus for RKM_claim_everything_to_urals
-	focus = {
-		id = Moskau_rkm_claim_everything_to_urals
-		icon = GFX_goal_support_fascism
-		x = 11
-		y = 12
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = Moskau_rkm_strike_the_slavs }
-		search_filters = { FOCUS_FILTER_ANNEXATION } 
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_state_claim= 262  add_state_claim= 397  add_state_claim= 400  add_state_claim= 398  add_state_claim= 256  add_state_claim= 399  add_state_claim= 250  add_state_claim= 249  add_state_claim= 651  add_state_claim= 401  add_state_claim= 251  add_state_claim= 652
-		}
-	}
-
+	
 	#Focus for RKM_loyalty_of_the_imigrants
 	focus = {
 		id = Moskau_rkm_loyalty_of_the_imigrants
@@ -84,7 +67,7 @@ focus_tree = {
 	focus = {
 		id = Moskau_rkm_guide_the_party
 		icon = GFX_focus_prc_infiltration
-		x = 2
+		x = 12
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
@@ -98,21 +81,94 @@ focus_tree = {
 		}
 	}
 
-	#Focus for RKM_prepare_for_second_anti_slavic_war
+	#Focus for RKM_invenstments_from_germany
 	focus = {
-		id = Moskau_rkm_prepare_for_second_anti_slavic_war
-		icon = GFX_goal_generic_attack_allies
-		x = 11
-		y = 9
+		id = Moskau_rkm_invenstments_from_germany
+		icon = GFX_goal_generic_scientific_exchange
+		x = 15
+		y = 10
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = Moskau_rkm_confirm_loyalty_to_fatherland }
-		search_filters = { FOCUS_FILTER_MANPOWER } 
+		prerequisite = { focus = Moskau_rkm_open_new_military_factories }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_war_support= 5  add_manpower= 40000
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = arms_factory
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = arms_factory
+ level = 1
+ instant_build = yes
+ }
+
+
+ }
+  random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = arms_factory
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = arms_factory
+ level = 1
+ instant_build = yes
+ }
+
+
+ }
+		}
+	}
+
+	#Focus for RKM_repair_military_factories
+	focus = {
+		id = Moskau_rkm_repair_military_factories
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 15
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Moskau_rkm_open_new_military_factories }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = arms_factory
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = arms_factory
+ level = 1
+ instant_build = yes
+ }
+
+
+ }
 		}
 	}
 
@@ -120,7 +176,7 @@ focus_tree = {
 	focus = {
 		id = Moskau_rkm_unity_of_the_germans
 		icon = GFX_goal_molotov_ribbentrop_pact
-		x = 1
+		x = 7
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -131,32 +187,16 @@ focus_tree = {
 		}
 	}
 
-	#Focus for RKM_secret_deal_with_ussr
-	focus = {
-		id = Moskau_rkm_secret_deal_with_ussr
-		icon = GFX_goal_generic_dangerous_deal
-		x = 6
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = Moskau_rkm_moskaus_destiny }
-		mutually_exclusive = { focus = Moskau_rkm_loyalty_to_germany }
-		search_filters = { FOCUS_FILTER_POLITICAL } 
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	#Focus for RKM_loyalty_to_Germany
 	focus = {
 		id = Moskau_rkm_loyalty_to_germany
 		icon = GFX_focus_ger_revive_kaiserreich
-		x = 1
+		x = 7
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = Moskau_rkm_moskaus_destiny }
-		mutually_exclusive = { focus = Moskau_rkm_secret_deal_with_ussr }
+		mutually_exclusive = { focus = Moskau_ }
 		search_filters = { FOCUS_FILTER_STABILITY } 
 		ai_will_do = {
 			factor = 1
@@ -196,11 +236,216 @@ focus_tree = {
 		}
 	}
 
+	#Focus for RKM_infratsturcture_effort
+	focus = {
+		id = Moskau_rkm_infratsturcture_effort
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 12
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Moskau_rkm_open_new_factories }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state= {
+add_building_construction = {type = infrastructurelevel = 10
+instant_build = yes}
+
+}
+  random_owned_controlled_state= {
+add_building_construction = {type = infrastructurelevel = 10
+instant_build = yes}
+
+}
+  random_owned_controlled_state= {
+add_building_construction = {type = infrastructurelevel = 10
+instant_build = yes}
+
+}
+  random_owned_controlled_state= {
+add_building_construction = {type = infrastructurelevel = 10
+instant_build = yes}
+
+}
+  random_owned_controlled_state= {
+add_building_construction = {type = infrastructurelevel = 10
+instant_build = yes}
+
+}
+		}
+	}
+
+	#Focus for RKM_civilian_invenstments_from_germany
+	focus = {
+		id = Moskau_rkm_civilian_invenstments_from_germany
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 9
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Moskau_rkm_repair_old_civilian_factories }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = industrial_complex
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = industrial_complex
+ level = 1
+ instant_build = yes
+ }
+
+
+ }
+  random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = industrial_complex
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = industrial_complex
+ level = 1
+ instant_build = yes
+ }
+
+
+ }
+		}
+	}
+
+	#Focus for RKM_repair_old_civilian_factories
+	focus = {
+		id = Moskau_rkm_repair_old_civilian_factories
+		icon = GFX_goal_generic_construct_civilian
+		x = 9
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Moskau_rkm_oepn_new_civilians_factories }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = industrial_complex
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = industrial_complex
+ level = 1
+ instant_build = yes
+ }
+
+
+ }
+		}
+	}
+
+	#Focus for RKM_oepn_new_civilians_factories
+	focus = {
+		id = Moskau_rkm_oepn_new_civilians_factories
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 9
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Moskau_rkm_open_new_factories }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = industrial_complex
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = industrial_complex
+ level = 1
+ instant_build = yes
+ }
+
+
+ }
+  add_stability= 0.05
+		}
+	}
+
+	#Focus for RKM_open_new_factories
+	focus = {
+		id = Moskau_rkm_open_new_factories
+		icon = GFX_goal_generic_construct_civilian
+		x = 12
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = Moskau_rkm_economic_deal_with_germany }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = industrial_complex
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = industrial_complex
+ level = 1
+ instant_build = yes
+ }
+
+ }
+		}
+	}
+
 	#Focus for RKM_Moskau's_destiny
 	focus = {
 		id = Moskau_rkm_moskaus_destiny
 		icon = GFX_goal_generic_demand_territory
-		x = 4
+		x = 7
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
@@ -291,7 +536,7 @@ category = radar_tech
 	focus = {
 		id = Moskau_rkm_stability_of_nation
 		icon = GFX_goal_molotov_ribbentrop_pact
-		x = 9
+		x = 16
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -309,7 +554,7 @@ category = radar_tech
 	focus = {
 		id = Moskau_rkm_economic_deal_with_germany
 		icon = GFX_goal_generic_scientific_exchange
-		x = 9
+		x = 12
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
@@ -327,7 +572,7 @@ category = radar_tech
 	focus = {
 		id = Moskau_rkm_political_deal_with_germany
 		icon = GFX_focus_generic_strike_at_democracy2
-		x = 12
+		x = 21
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
@@ -341,47 +586,39 @@ category = radar_tech
 		}
 	}
 
-	#Focus for RKM_confirm_loyalty_to_fatherland
+	#Focus for RKM_open_new_military_factories
 	focus = {
-		id = Moskau_rkm_confirm_loyalty_to_fatherland
-		icon = GFX_goal_tfv_strengthen_commonwealth_ties
-		x = 11
-		y = 7
+		id = Moskau_rkm_open_new_military_factories
+		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		x = 15
+		y = 8
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = Moskau_rkm_political_deal_with_germany 
-		}
-		prerequisite = { 
-			focus = Moskau_rkm_economic_deal_with_germany 
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL } 
+		prerequisite = { focus = Moskau_rkm_open_new_factories }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power= 120
-		}
-	}
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = arms_factory
+ size > 0
+ include_locked = yes
+ }
 
-	#Focus for RKM_strike_the_slavs
-	focus = {
-		id = Moskau_rkm_strike_the_slavs
-		icon = GFX_focus_ger_bulwark_against_bolshevism
-		x = 11
-		y = 10
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = Moskau_rkm_prepare_for_second_anti_slavic_war }
-		search_filters = { FOCUS_FILTER_POLITICAL } 
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			start_civil_war= {
- ideology = communism 
-size = 0.3 
-}
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = arms_factory
+ level = 1
+ instant_build = yes
+ }
+
+
+ }
 		}
 	}
 
