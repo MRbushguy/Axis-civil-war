@@ -1145,7 +1145,7 @@ create_equipment_variant = {
 	puppet = RKT
 	puppet = OKM
 	puppet = CZE
-
+	puppet = SLV
 
 
 
