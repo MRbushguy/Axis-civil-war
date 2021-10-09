@@ -8,7 +8,7 @@ focus_tree = {
 		}
 	}
 	
-	continius_focus_position = { x = 80 y = 1000 }
+	continuous_focus_position = { x = 50 y = 2000 }
 	
 	
 	#Focus for RKM_loyalty_of_the_imigrants

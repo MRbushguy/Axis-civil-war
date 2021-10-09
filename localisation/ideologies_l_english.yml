@@ -16,10 +16,31 @@
  lebensraum_colonization_noun:0 "Lebensraum Colonization"
  lebensraum_colonization_desc:0 "Known for its extreme brutality and very heavy exploitation of the subjugated population, §RLebensraum Colonization§! Is the form of occupation Nazi Germany is using in its eastern Reichskommissariat. \nUnder Lebensraum Colonization, extreme brutality is the norm, and the occupational forces there had the orders to shoot any civilian who resists in any way. No matter small or big. Along with that, almost every valuable item, food, and even homes are confiscated to benefit the Reich and the Reich only \n\nHowever Lebensraum Colonization is much more then just brutal exploitation. Under the Reich's policy of "Lebensraum" or "Living space" ethnic Slavs are systematically massacred to make room for German settlers. And even those that survive live in absolute poverty. \n\n§RUnder Lebensraum Colonization, hell seems like a nicer place§!"
 
+lebensraum_germanization:0 "Lebensraum Germanization"
+lebensraum_germanization_noun:0 "Lebensraum Germanization"
+lebensraum_germanization_desc:0 "§RLebensraum germanization§! is a form of occupation that ties directly to the Nazi ideology of "Germanic supremacy" and is the main form occupation used by the Großgermanisches Reich to occupy the western European states, mainly due to their less Slavic ties and much stronger Germanic connections. \n\nTerritories under Lebensraum germanization tend to have a much lighter occupation, and personal freedoms and safety are overall kept. This is mainly due to the Nazi idea of "Germanic brotherhood" and seeing western Europeans as overall sequel to them. However, these territories are still heavily exploited economically, and people living in these areas are surrounded by constant Nazi propaganda and indoctrination. And of course, any Jew, or a "racially inferior" person living in these territories is taken away violently by the occupying German forces, who watch and watch every corner and patrol every street in the occupied territories"
+
+ss_collaborationism:0 "SS Collaborationism"
+ss_collaborationism_noun:0 "SS Collaborationism"
+ss_collaborationism_desc:0 "many individuals in the territories that were conquered by the Nazi war machine have decided to Engage in collaboration with their occupiers. Either for ideological reasons, or simply for better future opportunities, these men who are not of German descent joined the Schutzstaffel's foreign volunteers' program, and became soldiers of an SS legion, becoming SS collaborationist \n\n§RSS collaborationism§! Is the brainchild of rabid anti-communism and some form of personal goal, either liberation of a county, or simply personal gain of opportunistic or action seeking individuals. As a result of this, weird mix, they are begin tightly kept and supervised by the SS in fear of becoming independent and seeking to complete their original goal the moment the leash is even slightly loosen"
+
+nazi_collaborationism:0 "Nazi collaborationism"
+nazi_collaborationism_noun:0 "Nazi collaborationism"
+nazi_collaborationism_desc:0 "Many people decided to take up arms and fight back when the Nazis occupied their homes, while others preferred to sit quietly and wait for the chaos to pass. But a small group of people, for a variety of different reasons, decided to approach their conquerors with nonviolent intentions, deciding to engage in §RNazi collaborationism§! rather than fighting their oppressors. \n\nNazi collaborationists often have a rich past of activities in far-right, anti-communist organizations, so they are often somewhat sympathetic to the Nazi cause. However, some collaborationists are pure opportunists looking to expand their power and influence, even if it means betraying and hurting their own people and lands. This means Collaborationist regimes are often plagued with corruption, as power hungry and blinded by ideology politicians are constantly fighting for control while resistance groups are begin strengthened by the day and receiving massive support from the frustrated civilians"
+
+ordensstaat_rule:0 "Ordensstaat rule"
+ordensstaat_rule_noun:0 "Ordensstaat rule"
+ordensstaat_rule_desc:0 "National socialism always had its fair share of totalitarianism, but §ROrdensstaat rule§! Reaches an entirely new level of totalitarianism and oppression. \n\nAn Ordensstaat is a country that is administered by the infamous Schutzstaffel. In an Ordensstaat, Germanization and control are of top priority, as such, ethnic cleansing of non-Germans, slavery, and total control over the lives of the civilians are apparent everywhere, As the main goal of an Ordensstaat is to eliminate dissent and resistance completely and prepare the region for annexation as fast as possible. No matter how much blood will need to be shed for that"
+
+
 #Nationalism
  nationalism:0 "Nationalism"
  nationalism_noun:0 "Nationalism"
  nationalism_desc:1 "Totalitarian Regime"
+
+zealous_anti-communism:0 "Zealous anti-communism"
+zealous_anti-communism_noun:0 "Zealous anti-communism"
+zealous_anti-communism_desc:0 "While many people support the far-left ideology of communism, others may distance themselves. But a small group of people despise that ideology with a burning passion and will do everything they can to wipe it out of existence. \n\n§RZealous anti-communism§! Is exactly what it claims to be, an ideology dedicated to the destruction of communism. But unlike far-right conservatives or even autocrats, who are very hostile to the ideas of Communism or any form of socialism in general, Zealous anti-communist are not afraid to go on the offensive and militarily invade and attack. Zealous anti-communist will do whatever they can to smother out any form of far-left socialism or communism. \nNo matter what it will cost"
  
  legionarism:0 "Legionarism"
  legionarism_noun:0 "Legionarism"
@@ -128,17 +149,29 @@
  authoritarianism_noun:0 "Authoritarian"
  authoritarianism_desc:0 "Authoritarian Regime"
  
+
+popular_rule:0 "Popular rule"
+ popular_rule_desc:0 "Countries under a §YPopular rule§! Dictatorship are characterized by a strongman leader who takes command of ruling the country personally, with a government and bureaucracy entirely revolving around him. However, Popular rule differs from other authoritarian forms of ruling in its unusually high amount of support from the public and common citizen. \n\nPopular rule Dictatorships usually come from times of great social upheaval. and in these times of uncertainty, a single person manages unite the government and the people of the country around him. This unity around an individual makes Popular rule countries reach new levels of prosperity and internal stability during times of internal peace, but also makes any form of major crisis much worse, as people lose their faith in the leader, making each crisis much worse than in other forms of dictatorship"
+
  despotism:0 "Despotic Rule"
  despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
  
  oligarchism:0 "Oligarchy"
  oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power."
+
+
+resource_exploitation:0 "Exploitative Colonialism"
+resource_exploitation_noun:0 "Exploitative Colonial Regime"
+resource_exploitation_desc:0 ""
+
+
+
+
  resource_exploitation:0 "Exploitative Colonialism"
  resource_exploitation_noun:0 "Exploitative Colonial Regime"
  resource_exploitation_desc:0 ""
- ### Vichy Authoritarianism
- petainism:0 "National Rejuvenation"
- petainism_desc:0 ""
+
+
  #parties
  FRA_authoritarianism_party:0 "Synarchist Influence"
  GER_national_socialism_party:0 "NSDAP - Hardliners"

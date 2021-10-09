@@ -20,13 +20,13 @@ set_convoys = 20
 		fascism = 5
 	}
 	create_country_leader = {
-		name = "klaus barbie "
-		desc = ""
-		picture = "klaus barbie.dds"
+		name = "Reinhard Heydrich"
+		desc = "Heydrich_desc"
+		picture = "Reinhard Heydrich.dds"
 		expire = "1965.1.1"
-		ideology = final_nazism
+		ideology = ordensstaat_rule
 		traits = {
-			butcher_brest
+			blonde_beast
 		}
 	}
 

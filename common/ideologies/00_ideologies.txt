@@ -199,6 +199,9 @@ nationalism = {
 			authoritarian_democracy  = {
 			}
 
+			popular_rule  = {
+			}
+
 			despotism  = {
 			}
 

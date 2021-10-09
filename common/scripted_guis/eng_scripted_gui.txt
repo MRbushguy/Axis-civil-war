@@ -106,7 +106,11 @@ eng_commonwealth_gui ={
 	###############
 	###############
 	###############
-	
+	unshatter_the_empire_button_click={
+	remove_ideas = ENG_shattered_empire
+	}
+	###############
+	###############
 	appoint_gov_button_click={
 	ENG={set_variable={govcooldown=182}}
 	THIS={country_event=commonwealth.2}
@@ -133,6 +137,17 @@ eng_commonwealth_gui ={
 	
 	
 	triggers={
+	unshatter_the_empire_button_visible={
+	tag=ENG
+	any_country={limit={has_autonomy_state = autonomy_british_dominion}  check_variable={loyalty_to_britain > 75}}
+	ENG={has_idea = ENG_shattered_empire}
+	ENG={has_government = democratic_right}
+	ENG={has_government = democratic_left}
+	ENG={has_government = democratic_center}
+	}
+	unshatter_the_empire_icon_visible={
+	ENG={has_idea = ENG_shattered_empire}
+	}
 	###############
 	#RESOURCES#####
 	###############
@@ -145,13 +160,13 @@ eng_commonwealth_gui ={
 	AST={has_autonomy_state=autonomy_british_dominion}
 	}
 	develop_australian_steel_button_click={
-	NOT={has_idea=ENG_shattered_empire}
+	NOT={has_idea=ENG_broken_nation}
 	tag=ENG
 	NOT={has_country_flag=eng_ast_steel_dev}
 	NOT={has_idea=ROM_increased_government_spendingI}
 	}
 	develop_australian_steel_button_visible={
-	NOT={has_idea=ENG_shattered_empire}
+	NOT={has_idea=ENG_broken_nation}
 	tag=ENG
 	AST={has_autonomy_state=autonomy_british_dominion}
 	OR={AST={owns_state=674 owns_state=522}
@@ -171,14 +186,14 @@ eng_commonwealth_gui ={
 	SAF={has_autonomy_state=autonomy_british_dominion}
 	}
 	develop_saf_chromium_button_click={
-	NOT={has_idea=ENG_shattered_empire}
+	NOT={has_idea=ENG_broken_nation}
 	tag=ENG
 	NOT={has_country_flag=eng_saf_chromium}
 	NOT={has_idea=ROM_increased_government_spendingI}
 	}
 	develop_saf_chromium_button_visible={
 	NOT={has_idea=ROM_increased_government_spendingI}
-	NOT={has_idea=ENG_shattered_empire}
+	NOT={has_idea=ENG_broken_nation}
 	tag=ENG
 	SAF={has_autonomy_state=autonomy_british_dominion}
 	OR={CAN={owns_state=275 owns_state=542}
@@ -197,14 +212,14 @@ eng_commonwealth_gui ={
 	CAN={has_autonomy_state=autonomy_british_dominion}
 	}
 	develop_canadian_oil_button_click={
-	NOT={has_idea=ENG_shattered_empire}
+	NOT={has_idea=ENG_broken_nation}
 	tag=ENG
 	NOT={has_country_flag=eng_can_oil_dev}
 	NOT={has_idea=ROM_increased_government_spendingI}
 	}
 	develop_canadian_oil_button_visible={
 	NOT={has_idea=ROM_increased_government_spendingI}
-	NOT={has_idea=ENG_shattered_empire}
+	NOT={has_idea=ENG_broken_nation}
 	tag=ENG
 	CAN={has_autonomy_state=autonomy_british_dominion}
 	OR={CAN={owns_state=470 owns_state=473}

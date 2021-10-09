@@ -322,7 +322,7 @@ create_import = {
 		add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
 	}
 	diplomatic_relation = { country = SOV relation = non_aggression_pact }
-	add_opinion_modifier = { target = SOV modifier = MR_pact }
+	diplomatic_relation = { country = ITA relation = non_aggression_pact }
 	#MR pact end
 
 	#Soviet treaty
@@ -338,26 +338,26 @@ create_import = {
 	}
 	#Soviet treaty end
 
-	unlock_national_focus = GER_rhineland
-	unlock_national_focus = GER_anschluss
-	unlock_national_focus = GER_demand_sudetenland
-	unlock_national_focus = GER_first_vienna_award
-	unlock_national_focus = GER_end_of_czechoslovakia
-	unlock_national_focus = GER_demand_memel
-	unlock_national_focus = GER_four_year_plan
-	unlock_national_focus = GER_autarky
-	unlock_national_focus = GER_synthetic_rubber
-
-	set_global_flag = end_of_czechoslovakia
-	set_global_flag = olympics_1936
-	set_variable = { var = GER_mefo_bill_counter value = 90 }
-	complete_national_focus = GER_autobahn
-	complete_national_focus = GER_west_wall
-	complete_national_focus = GER_army_innovation
-	complete_national_focus = GER_hermann_goring_werke
-	complete_national_focus = GER_kdf_wagen
-	complete_national_focus = GER_coal_liquidization
-	complete_national_focus = GER_extra_tech_slot
+	#unlock_national_focus = GER_rhineland
+	#unlock_national_focus = GER_anschluss
+	#unlock_national_focus = GER_demand_sudetenland
+	#unlock_national_focus = GER_first_vienna_award
+	#unlock_national_focus = GER_end_of_czechoslovakia
+	#unlock_national_focus = GER_demand_memel
+	#unlock_national_focus = GER_four_year_plan
+	#unlock_national_focus = GER_autarky
+	#unlock_national_focus = GER_synthetic_rubber
+	
+	#set_global_flag = end_of_czechoslovakia
+	#set_global_flag = olympics_1936
+	#set_variable = { var = GER_mefo_bill_counter value = 90 }
+	#complete_national_focus = GER_autobahn
+	#complete_national_focus = GER_west_wall
+	#complete_national_focus = GER_army_innovation
+	#complete_national_focus = GER_hermann_goring_werke
+	#complete_national_focus = GER_kdf_wagen
+	#complete_national_focus = GER_coal_liquidization
+	#complete_national_focus = GER_extra_tech_slot
 
 	#BUILDINGS
 

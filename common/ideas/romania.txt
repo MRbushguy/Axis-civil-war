@@ -621,7 +621,7 @@ ideas = {
 		}
 		ROM_german_compensation = {
 
-			picture = ROM_romanian_compensation
+			picture = german_compensation
 			
 			removal_cost = -1
 
@@ -2111,11 +2111,11 @@ ideas = {
 					limit = {
 						has_dlc = "Death or Dishonor"
 					}
-					has_completed_focus = ROM_invest_in_the_iar
+					
 				}
 			}
 
-			cost = 50
+			cost = 100
 
 			allowed = {
 				original_tag = ROM
