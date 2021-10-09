@@ -53,8 +53,15 @@ set_popularities = {
 	}
 
 	
-	add_ideas = {
-		Part_of_Illyria
+	
+	 add_ideas = {
+		resistance_2
+		devastation_3
+	}
+
+	add_dynamic_modifier = {
+
+		modifier = GER_gridlocked_government_dynamic_modifier
 	}
 }
 

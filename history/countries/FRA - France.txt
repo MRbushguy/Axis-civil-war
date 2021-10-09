@@ -267,7 +267,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Jaqcues Doriot"
-	desc = "POLITICS_JACQUES_DORIOT_DESC"
+	desc = "Doriot_desc"
 	picture = "Jaqcues Doriot.dds"
 	expire = "1965.1.1"
 	ideology = nazi_collaborationism

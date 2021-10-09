@@ -214,10 +214,10 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Philippe Pétain"
-	desc = ""
+	desc = "Petain_desc"
 	picture = "gfx/leaders/OCC/Phillipe Petain.dds"
 	expire = "1965.1.1"
-	ideology = civilian_dictatorship
+	ideology = popular_rule
 	traits = {
 		major_national_figure
 	}

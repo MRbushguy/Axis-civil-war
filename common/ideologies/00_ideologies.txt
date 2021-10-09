@@ -199,6 +199,9 @@ nationalism = {
 			authoritarian_democracy  = {
 			}
 
+			popular_rule  = {
+			}
+
 			despotism  = {
 			}
 
@@ -227,6 +230,10 @@ nationalism = {
 			}
 
 			civilian_dictatorship  = {
+			}
+
+			### Vichy Subideologies
+			petainism  = {
 			}
 
 		}

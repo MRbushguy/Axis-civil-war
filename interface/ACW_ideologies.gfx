@@ -72,8 +72,18 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_ideology_ordensstaat_rule"
+		texturefile = "gfx/interface/ideologies/ordensstaat_rule.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_ideology_russian_nazism"
 		texturefile = "gfx/interface/ideologies/russian_nazism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_nazi_collaborationism"
+		texturefile = "gfx/interface/ideologies/nazi_collaborationism.dds"
 	}
 	
 	### Communism
@@ -111,19 +121,27 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/utopian_socialism.dds"
 	}	
 
-	### Neutrality
+	### Authoritarianism
 	SpriteType = {
 		name = "GFX_ideology_authoritarianism_group"
 		texturefile = "gfx/interface/ideologies/authoritarianism.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_ideology_popular_rule"
+		texturefile = "gfx/interface/ideologies/popular_rule.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_ideology_oligarchy"
 		texturefile = "gfx/interface/ideologies/oligarchy.dds"
 	}
+
 	SpriteType = {
 		name = "GFX_ideology_colonial_government"
 		texturefile = "gfx/interface/ideologies/colonial_government.dds"
 	}
+
 	SpriteType = {
 		name = "GFX_ideology_absolute_monarchy"
 		texturefile = "gfx/interface/ideologies/absolute_monarchy.dds"
@@ -133,9 +151,15 @@ spriteTypes = {
 		name = "GFX_ideology_resource_exploitation"
 		texturefile = "gfx/interface/ideologies/resource_exploitation.dds"
 	}
+
 	SpriteType = {
 		name = "GFX_ideology_ethnic_revanchism"
 		texturefile = "gfx/interface/ideologies/ethnic_revanchism.dds"
 	}
 
+	### Vichy Authoritarianism
+	SpriteType = {
+		name = "GFX_ideology_petainism"
+		texturefile = "gfx/interface/ideologies/vichy_national_rejuvenation_auth_petain.dds"
+	}
 }
