@@ -167,7 +167,7 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_weekly = -0.20
+				stability_weekly = -0.02
 			}
 		}
 		ROM_continued_neutrality = {
@@ -1751,7 +1751,7 @@ ideas = {
 			cost = 50
 
 			available = {
-				has_completed_focus = ROM_mobile_tank_destroyers
+				has_completed_focus = ROM_domestic_tanks
 			}
 			
 			allowed = {
@@ -1850,7 +1850,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = ROM_coastal_defense_navy
+				has_completed_focus = ROM_shoreline_buildup
 			}
 			
 			research_bonus = {
@@ -1887,7 +1887,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = ROM_black_sea_dominance
+				has_completed_focus = ROM_shoreline_buildup
 			}
 			
 			research_bonus = {
@@ -1919,73 +1919,35 @@ ideas = {
 		designer = yes
 		
 		
-		ROM_vauxhall = {
-			
-			picture = vauxhall
+		#ROM_vauxhall = {
+		#	
+		#	picture = vauxhall
+		#
+		#	allowed = {
+		#		original_TAG = ROM
+		#	}
+		#	cost = 75
+		#
+		#	available = {
+		#	}
+		#	
+		#	research_bonus = {
+		#		motorized_equipment = 0.15
+		#	}
+		#	
+		#	traits = { motorized_equipment_manufacturer }
+		#
+		#	equipment_bonus = {
+		#		motorized_equipment = {
+		#			maximum_speed = 0.05
+		#		}
+		#		mechanized_equipment = {
+		#			maximum_speed = 0.05
+		#		}
+		#	}
+		#	
+		#}
 
-			allowed = {
-				original_TAG = ROM
-				has_dlc = "Death or Dishonor"
-			}
-			cost = 75
-
-			available = {
-				has_country_flag = ENG_mot_chosen
-			}
-			
-			research_bonus = {
-				motorized_equipment = 0.15
-			}
-			
-			traits = { motorized_equipment_manufacturer }
-
-			equipment_bonus = {
-				motorized_equipment = {
-					maximum_speed = 0.05
-				}
-				mechanized_equipment = {
-					maximum_speed = 0.05
-				}
-			}
-			
-		}
-
-		ROM_ford = {
-			
-			picture = ford_motor_company
-
-			cost = 75
-
-			allowed = {
-				original_TAG = ROM
-				has_dlc = "Death or Dishonor"
-			}
-			
-
-			available = {
-				has_country_flag = USA_mot_chosen
-			}
-			
-			research_bonus = {
-				motorized_equipment = 0.15
-			}
-			
-			traits = { motorized_equipment_manufacturer }
-
-			equipment_bonus = {
-				motorized_equipment = {
-					build_cost_ic = -0.05
-				}
-				mechanized_equipment = {
-					build_cost_ic = -0.05
-				}
-			}
-
-			modifier = {
-
-			}
-			
-		}
 
 		ROM_malaxa = {
 			
@@ -2038,69 +2000,43 @@ ideas = {
 			
 		}
 	
-		ROM_opel = {
-			
-			picture = opel
-
-			cost = 75
-
-			allowed = {
-				original_tag = ROM
-				has_dlc = "Death or Dishonor"
-			}
-
-			available = {
-				has_country_flag = GER_mot_chosen
-			}
-			
-			research_bonus = {
-				motorized_equipment = 0.15
-			}
-
-			equipment_bonus = {
-				motorized_equipment = {
-					reliability = 0.1
-				}
-				mechanized_equipment = {
-					reliability = 0.1
-				}
-			}
-			
-			traits = { motorized_equipment_manufacturer }
-		}
+		#ROM_opel = {
+		#	
+		#	picture = opel
+		#
+		#	cost = 75
+		#
+		#	allowed = {
+		#		original_tag = ROM
+		#		has_dlc = "Death or Dishonor"
+		#	}
+		#
+		#	available = {
+		#		has_country_flag = GER_mot_chosen
+		#	}
+		#	
+		#	research_bonus = {
+		#		motorized_equipment = 0.15
+		#	}
+		#
+		#	equipment_bonus = {
+		#		motorized_equipment = {
+		#			reliability = 0.1
+		#		}
+		#		mechanized_equipment = {
+		#			reliability = 0.1
+		#		}
+		#	}
+		#	
+		#	traits = { motorized_equipment_manufacturer }
+		#}
 	}
 	
 	aircraft_manufacturer = { 		
 			
 		designer = yes
 		
-		iar = {
-			
-			picture = generic_air_manufacturer_2
-
-			cost = 150
-
-			allowed = {
-				original_tag = ROM
-				NOT = {
-					has_dlc = "Death or Dishonor"
-				}
-			}
-			
-			research_bonus = {
-				air_equipment = 0.15
-			}
-			
-			traits = { light_aircraft_manufacturer }
-			
-			equipment_bonus = {
-				# produced the IAR-80 fighter/ground attack aircraft around 350 of them during 36-44
-			}
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
+		
 
 		ROM_iar = {
 			
@@ -2115,11 +2051,11 @@ ideas = {
 				}
 			}
 
-			cost = 100
+			cost = 50
 
 			allowed = {
 				original_tag = ROM
-				has_dlc = "Death or Dishonor"
+				has_completed_focus=ROM_air_effort
 			}
 			
 			research_bonus = {
