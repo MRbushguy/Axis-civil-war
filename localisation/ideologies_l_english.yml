@@ -150,8 +150,8 @@ zealous_anti-communism_desc:0 "While many people support the far-left ideology o
  authoritarianism_desc:0 "Authoritarian Regime"
  
 
-despotism:0 "Popular rule"
- despotism_desc:0 "Countries under a §YPopular rule§! Dictatorship are characterized by a strongman leader who takes command of ruling the country personally, with a government and bureaucracy entirely revolving around him. However, Popular rule differs from other authoritarian forms of ruling in its unusually high amount of support from the public and common citizen. \n\nPopular rule Dictatorships usually come from times of great social upheaval. and in these times of uncertainty, a single person manages unite the government and the people of the country around him. This unity around an individual makes Popular rule countries reach new levels of prosperity and internal stability during times of internal peace, but also makes any form of major crisis much worse, as people lose their faith in the leader, making each crisis much worse than in other forms of dictatorship"
+popular_rule:0 "Popular rule"
+ popular_rule_desc:0 "Countries under a §YPopular rule§! Dictatorship are characterized by a strongman leader who takes command of ruling the country personally, with a government and bureaucracy entirely revolving around him. However, Popular rule differs from other authoritarian forms of ruling in its unusually high amount of support from the public and common citizen. \n\nPopular rule Dictatorships usually come from times of great social upheaval. and in these times of uncertainty, a single person manages unite the government and the people of the country around him. This unity around an individual makes Popular rule countries reach new levels of prosperity and internal stability during times of internal peace, but also makes any form of major crisis much worse, as people lose their faith in the leader, making each crisis much worse than in other forms of dictatorship"
 
  despotism:0 "Despotic Rule"
  despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
