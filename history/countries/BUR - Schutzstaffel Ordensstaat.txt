@@ -21,7 +21,7 @@ set_convoys = 20
 	}
 	create_country_leader = {
 		name = "Reinhard Heydrich"
-		desc = ""
+		desc = "Heydrich_desc"
 		picture = "Reinhard Heydrich.dds"
 		expire = "1965.1.1"
 		ideology = ordensstaat_rule
