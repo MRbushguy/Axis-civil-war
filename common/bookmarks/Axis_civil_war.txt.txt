@@ -144,6 +144,17 @@ bookmarks = {
 				
 			}
 		}
+		
+		ROM = {
+			minor = yes
+			history = ROM_Axis_civil_war_DESC
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+				
+			}
+		}
 
 		"---" = {
 			
