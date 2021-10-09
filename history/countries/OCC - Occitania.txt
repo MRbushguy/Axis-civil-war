@@ -217,7 +217,7 @@ create_country_leader = {
 	desc = "Petain_desc"
 	picture = "gfx/leaders/OCC/Phillipe Petain.dds"
 	expire = "1965.1.1"
-	ideology = petainism
+	ideology = popular_rule
 	traits = {
 		major_national_figure
 	}
