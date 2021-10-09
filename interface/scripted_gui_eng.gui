@@ -96,6 +96,7 @@ guiTypes = {
 			buttonText = "Leave the Commonwealth"
 			buttonFont = "hoi_20b"
 		}
+		
 		###########
 		#resources#
 		###########
@@ -212,6 +213,27 @@ guiTypes = {
 		##########
 		##########
 		##########
+		
+		
+		###########
+		#unshatter#
+		###########
+		iconType = {
+			name = "unshatter_the_empire_icon"
+			spriteType = "GFX_unshatter_the_empire_bw"
+			position = { x = 573 y = 25 }
+			
+		}
+		buttonType = {
+			name = "unshatter_the_empire_button"
+			spriteType = "GFX_unshatter_the_empire"
+			position = { x = 573 y = 25 }
+			clicksound = click_close
+			buttonText = " "
+			buttonFont = "hoi_20b"
+		}
+		
+		###########
 		buttonType = {
 			name = "eng_comm_close_button"
 			spriteType = "GFX_sp_event_close_button"

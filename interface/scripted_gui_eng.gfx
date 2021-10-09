@@ -24,7 +24,17 @@ spriteTypes = {
 		name = "GFX_sp_event_close_button"
 		textureFile = "/gfx/Super_Event_Close_Button.dds"
 	}
-
+	
+	spriteType = {
+		name = "GFX_unshatter_the_empire"
+		textureFile = "/gfx/interface/unshatter_the_empire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_unshatter_the_empire_bw"
+		textureFile = "/gfx/interface/unshatter_the_empire_bw.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_sp_event_underlay"
 		textureFile = "/gfx/Super_Event_Underlay.dds"
