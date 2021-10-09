@@ -135,6 +135,7 @@ bookmarks = {
 		}
 		
 		RKM = {
+			minor = yes
 			history = RKM_BLITZKRIEG_DESC
 			ideology = national_socialism
 			ideas = {
