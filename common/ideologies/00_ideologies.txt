@@ -356,7 +356,7 @@ nationalism = {
 			radical_centrism = {
 			}
 
-			democratic_populism = {
+			centrist_populism = {
 			}
 		}
 
