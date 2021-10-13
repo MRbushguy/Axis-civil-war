@@ -1531,8 +1531,8 @@ focus_tree = {
 
 			GER_faction_cleanup = yes
 
-			add_to_variable = {GER_gridlocked_government_advisor_cost = -0.05}
-			add_to_variable = {GER_gridlocked_government_political_power = 0.05}
+			add_to_variable = {global.GER_gridlocked_government_advisor_cost = -0.05}
+			add_to_variable = {global.GER_gridlocked_government_political_power = 0.05}
 
 		}
 
@@ -1560,8 +1560,8 @@ focus_tree = {
 
 			GER_faction_cleanup = yes
  			
- 			add_to_variable = {GER_gridlocked_government_resistance = 0.05}
-			add_to_variable = {GER_gridlocked_government_compliance = 0.10}
+ 			add_to_variable = {global.GER_gridlocked_government_resistance = 0.05}
+			add_to_variable = {global.GER_gridlocked_government_compliance = 0.10}
             
 
 			custom_effect_tooltip = GER_reform_colony_code_tt
@@ -1653,8 +1653,8 @@ focus_tree = {
 
 			GER_faction_cleanup = yes
 
-			add_to_variable = {GER_gridlocked_government_resistance = -0.10}
-			add_to_variable = {GER_gridlocked_government_compliance = -0.05}
+			add_to_variable = {global.GER_gridlocked_government_resistance = -0.10}
+			add_to_variable = {global.GER_gridlocked_government_compliance = -0.05}
 
 			custom_effect_tooltip = GER_race_laws_completion_tt
 
@@ -1683,7 +1683,7 @@ focus_tree = {
 
 			GER_faction_cleanup = yes
 
-			add_to_variable = {GER_gridlocked_government_advisor_cost = 0.1}
+			add_to_variable = {global.GER_gridlocked_government_advisor_cost = 0.1}
 
 		}
 
@@ -1709,7 +1709,7 @@ focus_tree = {
 
 			GER_faction_cleanup = yes
 
-			add_to_variable = {GER_gridlocked_government_advisor_cost = 0.10}
+			add_to_variable = {global.GER_gridlocked_government_advisor_cost = 0.10}
 
 			custom_effect_tooltip = GER_use_bueracracy_completion_tt
 
@@ -1736,7 +1736,7 @@ focus_tree = {
 
 			GER_faction_cleanup = yes
 
-			add_to_variable = {GER_gridlocked_government_political_power = 0.05}
+			add_to_variable = {global.GER_gridlocked_government_political_power = 0.05}
 
 			custom_effect_tooltip = GER_power_of_pen_completion_tt
 		}
@@ -1953,8 +1953,8 @@ focus_tree = {
 
 			GER_faction_cleanup = yes
 
-			add_to_variable = {GER_gridlocked_government_advisor_cost = -0.05}
-			add_to_variable = {GER_gridlocked_government_political_power = 0.05}
+			add_to_variable = {global.GER_gridlocked_government_advisor_cost = -0.05}
+			add_to_variable = {global.GER_gridlocked_government_political_power = 0.05}
 
 		}
 

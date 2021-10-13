@@ -355,6 +355,8 @@ if = {
 	add_ideas = {
 		resistance_1
 		devastation_1
+		GER_gridlocked_government
+		GER_gridlocked_government_hidden
 	}
 
 	create_country_leader = {

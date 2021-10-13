@@ -216,9 +216,21 @@ defined_text = {
 					has_completed_focus = GER_internal_affairs
 				}
 			}
+
 		}
 
 		localization_key =  ger_gridlocked_government_disabled_ideas_tt
+	}
+	text = {
+		trigger = {
+			any_country = {
+				is_subject_of = GER
+
+			}
+			
+		}
+
+		localization_key = ger_depleted_wehrmacht_empty_tt
 	}
 	text = {
 		localization_key = ger_depleted_wehrmacht_empty_tt
@@ -230,7 +242,7 @@ defined_text = {
 	name = gerGridlockedGovernmentAdvisorCost
 	text = {
 		trigger = {
-			check_variable = {GER_gridlocked_government_advisor_cost = 0}
+			check_variable = {global.GER_gridlocked_government_advisor_cost = 0}
 		}
 
 		localization_key = ger_depleted_wehrmacht_empty_tt
@@ -245,7 +257,7 @@ defined_text = {
 	name = gerGridlockedGovernmentPoliticalPower
 	text = {
 		trigger = {
-			check_variable = {GER_gridlocked_government_political_power = 0}
+			check_variable = {global.GER_gridlocked_government_political_power = 0}
 		}
 
 		localization_key = ger_depleted_wehrmacht_empty_tt
@@ -260,7 +272,7 @@ defined_text = {
 	name = gerGridlockedGovernmentResistance
 	text = {
 		trigger = {
-			check_variable = {GER_gridlocked_government_resistance = 0}
+			check_variable = {global.GER_gridlocked_government_resistance = 0}
 		}
 
 		localization_key = ger_depleted_wehrmacht_empty_tt
@@ -275,7 +287,7 @@ defined_text = {
 	name = gerGridlockedGovernmentCompliance
 	text = {
 		trigger = {
-			check_variable = {GER_gridlocked_government_compliance = 0}
+			check_variable = {global.GER_gridlocked_government_compliance = 0}
 		}
 
 		localization_key = ger_depleted_wehrmacht_empty_tt

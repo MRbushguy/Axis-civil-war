@@ -1017,6 +1017,8 @@ if = {
 		FRA_national_regeneration
 		FRA_recovering_from_famine
 		FRA_french_irridentism
+		GER_gridlocked_government
+		GER_gridlocked_government_hidden
 	}
 
 	add_dynamic_modifier = {
