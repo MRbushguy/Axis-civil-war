@@ -165,6 +165,8 @@ create_country_leader = {
 	add_ideas = {
 		resistance_3
 		devastation_3
+		GER_gridlocked_government
+		GER_gridlocked_government_hidden
 		UKR_agrarian_discontent_0
 	}
 

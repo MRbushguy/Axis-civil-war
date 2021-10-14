@@ -23,7 +23,9 @@ country_event = {
 	option = {
 		name = ca_romania.1.a
 		kill_country_leader = yes
+		hidden_effect={load_focus_tree = romanian_focus2}
 		complete_national_focus = ROM_one_night_in_bucharest
+		
 		add_ideas={ROM_civil_clashes}
 		}
 	}

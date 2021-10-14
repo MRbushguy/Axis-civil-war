@@ -38,6 +38,8 @@
 	add_ideas = {	
 		resistance_0
 		devastation_2
+		GER_gridlocked_government
+		GER_gridlocked_government_hidden
 	}
 
 	add_dynamic_modifier = {

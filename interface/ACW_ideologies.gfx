@@ -1,4 +1,10 @@
 spriteTypes = {
+
+
+
+
+
+
 	### Fascism
 	SpriteType = {
 		name = "GFX_ideology_italian_fascism"
@@ -40,22 +46,46 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/falangism.dds"
 	}
 
-	### Democratic
+
+
+	### Democratic center
 	SpriteType = {
 		name = "GFX_ideology_democratic_center_group"
 		texturefile = "gfx/interface/ideologies/democratic_center_group.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_ideology_centrist_populism"
+		texturefile = "gfx/interface/ideologies/centrist_populism.dds"
+	}
+
+
+
+
+
+
+	### Democratic left
 	SpriteType = {
 		name = "GFX_ideology_democratic_left_group"
 		texturefile = "gfx/interface/ideologies/democratic_left_group.dds"
 	}
+
+
+
+
+
+	### Democratic right
 
 	SpriteType = {
 		name = "GFX_ideology_democratic_right_group"
 		texturefile = "gfx/interface/ideologies/democratic_right_group.dds"
 	}
 
+
+
+
 	### National Socialism
+
 	SpriteType = {
 		name = "GFX_ideology_national_socialism_group"
 		texturefile = "gfx/interface/ideologies/national_socialism_group.dds"
@@ -86,7 +116,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/nazi_collaborationism.dds"
 	}
 	
+
+
+
+
 	### Communism
+
 	SpriteType = {
 		name = "GFX_ideology_marxism"
 		texturefile = "gfx/interface/ideologies/marxism.dds"
@@ -111,7 +146,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/collapsed_communism.dds"
 	}
 
+
+
+
+
+
+
 	### Socialism
+
 	SpriteType = {
 		name = "GFX_ideology_anarchism"
 		texturefile = "gfx/interface/ideologies/anarchism.dds"
@@ -121,7 +163,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/utopian_socialism.dds"
 	}	
 
+
+
+
+
+
+
+
+
+
+
 	### Authoritarianism
+
 	SpriteType = {
 		name = "GFX_ideology_authoritarianism_group"
 		texturefile = "gfx/interface/ideologies/authoritarianism.dds"
@@ -157,9 +210,5 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/ethnic_revanchism.dds"
 	}
 
-	### Vichy Authoritarianism
-	SpriteType = {
-		name = "GFX_ideology_petainism"
-		texturefile = "gfx/interface/ideologies/vichy_national_rejuvenation_auth_petain.dds"
-	}
+
 }

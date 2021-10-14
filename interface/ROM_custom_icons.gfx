@@ -130,5 +130,9 @@ spriteTypes = {
 		name = "GFX_Portrait_Mihai_Antonescu"
 		texturefile = "gfx/leaders/ROM/Portrait_Romania_Mihai_Antonescu.dds"
 	}
+	spriteType = {
+		name="GFX_Portrait_Romania_Disjointed"
+		texturefil = "gfx/leaders/ROM/Portrait_Romania_Disjointed"
+	}
 	
 				

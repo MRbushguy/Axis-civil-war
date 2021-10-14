@@ -355,6 +355,9 @@ nationalism = {
 
 			radical_centrism = {
 			}
+
+			centrist_populism = {
+			}
 		}
 
 		dynamic_faction_names = {

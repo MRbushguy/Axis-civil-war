@@ -143,6 +143,10 @@ zealous_anti-communism_desc:0 "While many people support the far-left ideology o
  conservatism:0 "Conservatism"
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
  
+
+centrist_populism:0 "Democratic Populism"
+centrist_populism_desc:0 "Populism is a form of political stance that emphasizes "The People". and often, populist leaders are in power solely because of support from the common citizens. \n\nBut unlike the other branches of the more ideological forms of populism, §YCentrist Populism§! Prefers instead to mainly advocate for the simple defense of democracy and freedom and prefers to avoid the more Left/Right issues like Healthcare, religion, and family values"
+ 
  
  #authoritarian
  authoritarianism:0 "Authoritarian"

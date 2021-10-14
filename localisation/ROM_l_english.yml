@@ -1,9 +1,6 @@
 ﻿l_english: 
  
- ROM_odessa_railway:0 "Railway to Odessa"
- ROM_odessa_railway_desc:0 " "
- ROM_odessa_industrial_zone:0 "Odessa Industrial Zone"
- ROM_odessa_industrial_zone_desc:0 " "
+ 
  ROM_armata_patriei:0 "Armata Patriei"
  ROM_armata_patriei_desc:0 ""
  ROM_small_arms:0 "Small Arms Advancements"

@@ -169,14 +169,18 @@ set_convoys = 20
 		}
 	}
 }
+
+1947.1.1 = {
+
+
 set_politics = {
-	ruling_party = democratic_right
+	ruling_party = democratic_center
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic_right = 10
+	democratic_center = 10
 	fascism = 30
 	national_socialism = 30
 	communism = 
@@ -186,8 +190,9 @@ set_popularities = {
 create_country_leader = {
 	name = "Victor Le Gorgeu"
 	picture = "Victor Le Gorgeu.dds"
+	desc = "Victor_desc"
 	expire = "1965.1.1"
-	ideology = democratic_nationalism
+	ideology = centrist_populism
 
 	traits = {
 			light_in_times_of_darkness
@@ -213,4 +218,6 @@ create_country_leader = {
 	picture = "gfx//leaders//Europe//portrait_europe_generic_4.dds"
 	expire = "1965.1.1"
 	ideology = centrism
+}
+
 }
