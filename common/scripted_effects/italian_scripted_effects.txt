@@ -78,20 +78,13 @@ ITA_increase_agriculture = {
 		set_variable = {ITA_agriculture_var_stability = temp1}
 		set_variable = {ITA_agriculture_var_population = temp1}
 		set_variable = {ITA_agriculture_var_efficiency_cap = temp1}
+
 		set_temp_variable = {temp3 = ITA_industry_value}
 		set_temp_variable = {temp4 = 400.0}
 		divide_temp_variable = {temp3 = temp4}
 		set_variable = {ITA_agriculture_var_efficiency_gain = temp3}
 
-		set_temp_variable = {temp5 = ITA_industry_value}
-		set_temp_variable = {temp6 = 500.0}
-		divide_temp_variable = {temp5 = temp6}
-		set_variable = {ITA_industry_var_construction = temp5}
-
-		add_to_variable = {ITA_agriculture_var_stability = 0.0002}
-		add_to_variable = {ITA_agriculture_var_population = 0.0002}
-		add_to_variable = {ITA_agriculture_var_efficiency_gain = 0.0001}
-		add_to_variable = {ITA_agriculture_var_efficiency_cap = 0.0002}
+		
 	}
 }
 
@@ -106,10 +99,17 @@ ITA_decrease_agriculture = {
 		add_to_variable = {ITA_agriculture_text_value = -0.1}
 
 		#actual values
-		add_to_variable = {ITA_agriculture_var_stability = - 0.0002}
-		add_to_variable = {ITA_agriculture_var_population = -0.0002}
-		add_to_variable = {ITA_agriculture_var_efficiency_gain = -0.0001}
-		add_to_variable = {ITA_agriculture_var_efficiency_cap = -0.0002}
+		set_temp_variable = {temp1 = ITA_agriculture_value}
+		set_temp_variable = {temp2 = 500.0}
+		divide_temp_variable = {temp1 = temp2}
+		set_variable = {ITA_agriculture_var_stability = temp1}
+		set_variable = {ITA_agriculture_var_population = temp1}
+		set_variable = {ITA_agriculture_var_efficiency_cap = temp1}
+
+		set_temp_variable = {temp3 = ITA_industry_value}
+		set_temp_variable = {temp4 = 400.0}
+		divide_temp_variable = {temp3 = temp4}
+		set_variable = {ITA_agriculture_var_efficiency_gain = temp3}
 	}
 }
 

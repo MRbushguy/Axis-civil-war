@@ -1012,7 +1012,7 @@ focus_tree = {
 			}
 		}
 
-		cost = 14
+		cost = 1
 		x = -1
 		y = 1
 		relative_position_id = GER_weaken_military_sector
@@ -1041,12 +1041,10 @@ focus_tree = {
 
 		allow_branch = {
 			has_country_flag = GER_corporate_dominance_1_completed
-			NOT = {
-				has_country_flag = GER_corporate_dominance_2_completed
-			}
+			
 		}
 
-		cost = 14
+		cost = 1
 		x = -1
 		y = 1
 		relative_position_id = GER_weaken_military_sector
@@ -1068,12 +1066,18 @@ focus_tree = {
 		id = GER_dissolve_the_feudal_state
 		icon = GFX_goal_GER_dissolve_the_feudal_state
 
-		prerequisite = { focus = GER_refnaz_and_wehrmacht }
+		prerequisite = { focus = GER_combat_corporate_dominance_2}
+		prerequisite = { focus = GER_refnaz_and_wehrmacht}
 		
+		allow_branch = {
+			has_country_flag = GER_corporate_dominance_2_completed
+			
+		}
 
-		x = 2
+		cost = 7
+		x = -1
 		y = 1
-		relative_position_id = GER_refnaz_and_wehrmacht
+		relative_position_id = GER_combat_corporate_dominance_2
 
 		completion_reward = {
 			#takes the next step to remove high level people
