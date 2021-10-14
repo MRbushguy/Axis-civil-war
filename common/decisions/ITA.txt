@@ -241,7 +241,7 @@ ITA_continue_industrialization = {
 
 		cost = 1
 
-		days_remove = 30
+		days_remove = 1
 
 		 remove_effect = {
 			ITA_increase_industry = yes
@@ -267,7 +267,7 @@ ITA_continue_industrialization = {
 
 		cost = 1
 
-		days_remove = 30
+		days_remove = 1
 
 
 		 remove_effect = {
