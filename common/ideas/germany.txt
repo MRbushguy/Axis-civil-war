@@ -545,6 +545,20 @@ ideas = {
 
 		}
 
+		GER_gridlocked_government_puppet = {
+			#picture = blitz_dep
+
+			allowed = {
+				original_tag = GER
+			}
+
+			modifier = {
+				#dummy
+
+			}
+
+		}
+
 		
 
 

@@ -963,18 +963,99 @@ focus_tree = {
 
 	focus = {
 
-		id = GER_combat_corporate_dominance
+		id = GER_combat_corporate_dominance_0
 		#icon
 
 		prerequisite = { focus = GER_refnaz_involvement }
 		prerequisite = { focus = GER_weaken_military_sector }
 
+
+		allow_branch = {
+			NOT = {
+				has_country_flag = GER_corporate_dominance_0_completed
+			}
+		}
+
+		cost = 1
+		x = -1
+		y = 1
+		relative_position_id = GER_weaken_military_sector
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus BUL_curtail_military_league_0"
+			country_event = { id = germany.4 hours = 24 }
+
+			set_country_flag = GER_corporate_dominance_0_completed
+			mark_focus_tree_layout_dirty = yes
+
+		}
+
+
+
+
+
+	}
+
+	focus = {
+
+		id = GER_combat_corporate_dominance_1
+		#icon
+
+		prerequisite = { focus = GER_refnaz_involvement }
+		prerequisite = { focus = GER_weaken_military_sector }
+
+
+		allow_branch = {
+			has_country_flag = GER_corporate_dominance_0_completed
+			NOT = {
+				has_country_flag = GER_corporate_dominance_1_completed
+			}
+		}
+
+		cost = 14
+		x = -1
+		y = 1
+		relative_position_id = GER_weaken_military_sector
+
+		
+
+		completion_reward = {
+			country_event = { id = germany.4 hours = 24 }
+
+			set_country_flag = GER_corporate_dominance_1_completed
+			mark_focus_tree_layout_dirty = yes
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_combat_corporate_dominance_2
+		#icon
+
+		prerequisite = { focus = GER_refnaz_involvement }
+		prerequisite = { focus = GER_weaken_military_sector }
+
+		allow_branch = {
+			has_country_flag = GER_corporate_dominance_1_completed
+			NOT = {
+				has_country_flag = GER_corporate_dominance_2_completed
+			}
+		}
+
+		cost = 14
 		x = -1
 		y = 1
 		relative_position_id = GER_weaken_military_sector
 
 		completion_reward = {
 			country_event = { id = germany.4 hours = 24 }
+
+			set_country_flag = GER_corporate_dominance_2_completed
+			mark_focus_tree_layout_dirty = yes
 
 		}
 
@@ -988,11 +1069,11 @@ focus_tree = {
 		icon = GFX_goal_GER_dissolve_the_feudal_state
 
 		prerequisite = { focus = GER_refnaz_and_wehrmacht }
-		prerequisite = { focus = GER_combat_corporate_dominance}
+		
 
-		x = -1
+		x = 2
 		y = 1
-		relative_position_id = GER_combat_corporate_dominance
+		relative_position_id = GER_refnaz_and_wehrmacht
 
 		completion_reward = {
 			#takes the next step to remove high level people
@@ -1002,6 +1083,8 @@ focus_tree = {
 
 
 	}
+
+
 
 
 

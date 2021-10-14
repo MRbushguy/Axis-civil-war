@@ -70,6 +70,9 @@
  ger_gridlocked_government_resistance_tt:0 "§WResistance Gain: §![?global.GER_gridlocked_government_resistance|%-0=]\n"
  ger_gridlocked_government_compliance_tt:0 "§WCompliance Gain: §![?global.GER_gridlocked_government_compliance|%+0=]"
 
+ GER_gridlocked_government_puppet:0 "Gridlocked Government\n[gerGridlockedGovernmentAdvisorCost][gerGridlockedGovernmentPoliticalPower][gerGridlockedGovernmentResistance][gerGridlockedGovernmentCompliance]"
+ GER_gridlocked_government_puppet_desc:0 "The struggle for power in the highest levels of the german government has proliferated to the lowest. With no guarantee of leadership, the german bureaucracy is crumbling at home and in the colonies. Corruption, graft, and nepotism grow by the day and local governments are powerless to do anything about it.\n\n§RWarning: This spirit is shared by all the German Reichskommissariats!"
+
  GER_gridlocked_government_hidden:0 "Gridlocked Government"      
 
  

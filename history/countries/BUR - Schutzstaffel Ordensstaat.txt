@@ -31,8 +31,7 @@ set_convoys = 20
 	}
 
 	add_ideas = {
-		GER_gridlocked_government
-		GER_gridlocked_government_hidden
+		GER_gridlocked_government_puppet
 	}
 
 	add_dynamic_modifier = {
