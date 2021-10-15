@@ -70,7 +70,7 @@ GER_manage_the_east:0 "Rebuild the Eastern Military complex"
 #refnaz branch
 GER_refnaz_reforms:0 "Economic Reforms"
 GER_refnaz_reforms_desc:0 "The German economy appears to be humming along stronger than ever. But beneath the surface, cracks are showing. While the military industry remains strong, the goods necessary to support Germany's people still come largely from territories conquered in the last war. We must alleviate this problem, and quickly."
-GER_refnaz_reforms_support_requirement_tt:0 "More than 5 influence from the £decision_faction_ger_reform_small §YReformists§!"
+GER_refnaz_reforms_support_requirement_tt:0 "More than §O5§! influence from the £decision_faction_ger_reform_small §YReformists§!"
 GER_weaken_military_sector:0 "Weaken Military sector"
 GER_weaken_military_sector_desc:0 "With the end of the war in Russia, military spending should have been curtailed to establish a strong civilian industry. Instead, it has grown beyond all reasonable expectations. There is an alternative - many new military factories constructed can be dismantled, and their parts used to fuel a new re-investment in the civilian economy. We must alleviate this before our defense budget eats us alive."
 GER_refnaz_involvement:0 "Reformist Involvement"
@@ -85,9 +85,9 @@ GER_limit_general_plan_ost_desc:0 "For many years, the sole goal of German aggre
 GER_limit_generalplan_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §G+5§! Influence \n£decision_faction_ger_reform_small §YReformists §!: §G+5§! Influence\n\n§GDelays the decline of the plunder economy by 40 days.§!\n\n"
 GER_evaluate_plunder_economy:0 "Evaluate Plunder Economy"
 GER_evaluate_plunder_economy_desc:0 "Evaluate Plunder Economy"
-GER_evaluate_plunder_economy_support_requirement_tt:0 "More than 15 influence from the £decision_faction_ger_reform_small §YReformists§!"
-GER_evaluate_plunder_economy_completion_tt:0 "£decision_faction_ger_reform_small §YReformists §!: §G+5§! \n\n§GAt a temporary cost to our production, this will significantly delay the collapse of Germany's economy and strengthen the Reichkomisserats.§!\n\nReplace §YStable Plunder of Territories§! with §YUnstable Plunder Economy§! \n\nAll Eastern Reichkomisserats:\n§YDecrease Resistance§!\n§YImprove Economy§!"
-
+GER_evaluate_plunder_economy_support_requirement_tt:0 "More than §O15§! influence from the £decision_faction_ger_reform_small §YReformists§!"
+GER_evaluate_plunder_economy_completion_tt_1:0 "£decision_faction_ger_reform_small §YReformists §!: §G+5§!"
+GER_evaluate_plunder_economy_completion_tt_2:0 "\n§GDelays the collapse of the plunder economy by investing in the Reichkomisserats.§!\n\nAll Eastern Reichkomisserats:\n§YDecrease Resistance§!\n§YImprove Economy§!"
 
 ###NSDAP Branch
 GER_rebuild_NSDAP:0 "Rebuild the NSDAP"

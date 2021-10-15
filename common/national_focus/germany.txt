@@ -1314,21 +1314,21 @@ focus_tree = {
 
 		completion_reward = {
 
-			custom_effect_tooltip = GER_evaluate_plunder_economy_completion_tt
+			
 			add_to_variable = {GER_refnaz_influence = 5}
-
+			custom_effect_tooltip = GER_evaluate_plunder_economy_completion_tt_1
 			GER_faction_cleanup = yes
 
 			#might give buffs to the colonies, lower resistance growth
-
-			
+			GER_decrease_plunder_economy = yes
+			custom_effect_tooltip = GER_evaluate_plunder_economy_completion_tt_2
 			hidden_effect = {
 				add_days_mission_timeout = {
 					mission = GER_ticking_plunder_economy
 					days = 40
 				}
 
-				GER_decrease_plunder_economy = yes
+				
 
 				POL = {
 					decrease_devastation = yes
