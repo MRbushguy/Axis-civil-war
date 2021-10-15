@@ -1389,7 +1389,9 @@ ideas = {
 		ROM_iuliu_maniu = {
 
 			picture = generic_democratic_reformer_western_european_2d
-
+			visible = {
+			original_tag = ROM
+			}
 			
 			available = {
 			original_tag = ROM
