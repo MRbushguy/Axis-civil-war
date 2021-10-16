@@ -225,6 +225,8 @@ focus_tree = {
 			focus = GER_wehrmacht_involvement
 		}
 
+		mutually_exclusive = {focus = GER_refnaz_and_wehrmacht}
+
 		available = {
 			custom_trigger_tooltip = {
 
@@ -234,7 +236,6 @@ focus_tree = {
 			}
 		}
 
-		mutually_exclusive = {focus = GER_refnaz_and_wehrmacht}
 
 		x = 1
 		y = 1
@@ -857,6 +858,14 @@ focus_tree = {
 			has_completed_focus = GER_wehrmacht_alone
 		}
 
+		available = {
+
+			custom_trigger_tooltip = {
+				tooltip = GER_evaluate_plunder_economy_support_requirement_tt
+				check_variable = { var = GER_refnaz_influence value = 25 compare = greater_than }
+			}
+		}
+		cost = 4
 		x = 1
 		y = 2
 		relative_position_id = GER_refnaz_reforms
@@ -1187,8 +1196,27 @@ focus_tree = {
 			focus = GER_refnaz_involvement
 		}
 
+
 		mutually_exclusive = {focus = GER_wehrmacht_alone}
 
+		available = {
+			custom_trigger_tooltip = {
+
+				tooltip = GER_refnaz_and_wehrmacht_support_requirement_tt_0
+	
+				check_variable = { var = GER_refnaz_influence value = 50 compare = greater_than }
+			}
+			custom_trigger_tooltip = {
+
+				tooltip = GER_refnaz_and_wehrmacht_support_requirement_tt_1
+	
+				check_variable = { var = GER_wehrmacht_influence value = 30 compare = greater_than }
+			}
+		}
+
+		
+
+		cost = 3
 		x = -1
 		y = 1
 		relative_position_id =  GER_refnaz_involvement
@@ -1307,7 +1335,7 @@ focus_tree = {
 				check_variable = { var = GER_refnaz_influence value = 15 compare = greater_than }
 			}
 		}
-
+		cost = 3
 		x = 2
 		y = 1
 		relative_position_id = GER_refnaz_reforms
