@@ -80,7 +80,7 @@ GER_refnaz_and_wehrmacht:0 "Reformists and the Wehrmacht"
 GER_refnaz_and_wehrmacht_support_requirement_tt_0:0 "More than §O50§! influence from the £decision_faction_ger_reform_small §YReformists§!"
 GER_refnaz_and_wehrmacht_support_requirement_tt_1:0 "More than §O30§! influence from the £decision_faction_ger_wehr_small §YWehrmacht§!"
 GER_refnaz_and_wehrmacht_desc:0 "The Reformist Movement has an ace in their pocket - The German Wehrmacht. Many generals in the army harbor resentments towards high command because of the brutal slaughter in Russia, and their casual replacement by the Waffen-SS. For the time being, it would be advantageous to ally with them, although this may cause conflict in the future..."
-GER_refnaz_and_wehrmacht_completion_tt:0 "£decision_faction_ger_reform_small §YReformists §!: §G+10§! Influence \n£decision_faction_ger_wehr_small §YWehrmacht §!: §R-10§! Influence"
+GER_refnaz_and_wehrmacht_completion_tt:0 "£decision_faction_ger_reform_small §YReformists §!: §G+10§! Influence \n£decision_faction_ger_wehr_small §YWehrmacht §!: §R-10§! Influence \n\nUnlocks decisions to £decision_icon_small §YSupport the Reformists§!"
 GER_dismantle_mils_tt:0 "§YRemoves ten military factories in German core territory.§!"
 GER_limit_general_plan_ost:0 "Limit Generalplan Ost"
 GER_limit_general_plan_ost_desc:0 "For many years, the sole goal of German aggression and conquest has been to tame the East and incorporate it into the Aryan Realm, but the reality of that dream has been one of toil and failure. The final stages of Generalplan Ost have proved costly in both money and lives, and it is in Germany's best interest to halt integration of the eastern territories until a better solution has presented itself."
@@ -90,6 +90,10 @@ GER_evaluate_plunder_economy_desc:0 "Evaluate Plunder Economy"
 GER_evaluate_plunder_economy_support_requirement_tt:0 "More than §O15§! influence from the £decision_faction_ger_reform_small §YReformists§!"
 GER_evaluate_plunder_economy_completion_tt_1:0 "£decision_faction_ger_reform_small §YReformists §!: §G+5§!"
 GER_evaluate_plunder_economy_completion_tt_2:0 "\n§GDelays the collapse of the plunder economy by investing in the Reichkomisserats.§!\n\nAll Eastern Reichkomisserats:\n§YDecrease Resistance§!\n§YImprove Economy§!"
+
+GER_cooperate_with_nsdap:0 "Cooperate With NSDAP"
+GER_cooperate_with_nsdap_desc:0 "The reformist faction is still woefully underrepresented in German government, but that could change. A number of ranking NSDAP officials are willing to take our side for Germany, or to further their own power. We will accomodate those people...on our terms."
+
 
 ###NSDAP Branch
 GER_rebuild_NSDAP:0 "Rebuild the NSDAP"
