@@ -94,7 +94,7 @@ GER_rebuild_NSDAP:0 "Rebuild the NSDAP"
 GER_rebuild_NSDAP_desc:0 "With the decline of Hitler's involvement in German affairs, party officials have been sidelined by military officers, and worse, agents of Himmler and the SS. We must reverse this trend by involving the party more in government."
 GER_rebuild_NSDAP_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §G+5§! Influence \n\nModify §YGridlocked Government§! by: \nPolitical Advisor Cost Factor: §G-5%§!\nPolitical Power Gain: §G+5%§!"
 GER_glorify_the_feuhrer:0 "Glorify the Fuhrer"
-GER_glorify_the_feuhrer_desc:0 "Adolf hitler is the past and present of the National Socialist movement in Germany, and he will certaintly be part of its future. We must connect our rise with his, so as to gain some legitimacy in the new Germany."
+GER_glorify_the_feuhrer_desc:0 "Adolf Hitler is the past and present of the National Socialist movement in Germany, and he will certaintly be part of its future. We must connect our rise with his, so as to gain some legitimacy in the new Germany."
 GER_glorify_the_fuhrer_completion_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP §!: §G+5§! Influence \n\nModify §YGridlocked Government§! by: \nPolitical Power Gain: §G+10%§!"
 GER_reform_colony_code_tt:0 "£decision_faction_ger_nsdap_small §YNSDAP§!: §G+5§! Influence \n£decision_faction_ger_reform_small §YReformists§!: §G+5§! Influence\n\nModify §YGridlocked Government§! by: \nResistance Gain: §R5%§!\nCompliance Gain: §G10%§!"
 

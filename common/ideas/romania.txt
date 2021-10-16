@@ -1390,9 +1390,10 @@ ideas = {
 
 			picture = generic_democratic_reformer_western_european_2d
 
-			
+			allowed = {
+				original_tag = ROM
+			}
 			available = {
-			original_tag = ROM
 				has_completed_focus=ROM_michael_restores_the_monarchy
 			}
 			
@@ -1438,7 +1439,6 @@ ideas = {
 
 			allowed = {
 				original_tag = ROM
-				has_dlc = "Death or Dishonor"
 			}
 			
 			traits = { captain_of_industry }
