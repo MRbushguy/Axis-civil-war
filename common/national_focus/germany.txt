@@ -1451,7 +1451,7 @@ focus_tree = {
 		mutually_exclusive = {focus = GER_break_with_refnaz}
 
 
-
+		cost = 5
 		x = -1
 		y = 1
 		relative_position_id = GER_limit_general_plan_ost

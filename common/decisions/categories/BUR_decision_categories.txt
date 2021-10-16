@@ -1,0 +1,23 @@
+#######################
+##### Ordenstaat ######
+#######################
+
+BUR_expedition_decisions = {
+
+	priority = 10
+
+	icon = power_struggle
+
+	picture = GFX_decision_category_Volkshalle
+
+	
+
+	visible = {
+		original_tag = BUR
+	}
+
+	allowed = {
+		original_tag = BUR
+
+	}
+}
