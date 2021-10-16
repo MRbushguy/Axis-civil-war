@@ -24,7 +24,7 @@ BUR_expedition_decisions = {
 			country_event = { id = ahnenerbe.6 }
 		}
 	}
-		GER_bolivia_expedition = {
+	GER_bolivia_expedition = {
 
 		#icon = 
 
