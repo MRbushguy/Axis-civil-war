@@ -888,6 +888,19 @@ focus_tree = {
 
 
 			}
+			else_if = {
+
+				limit = {
+					GER = {
+						has_idea = GER_refnaz_idea_2
+					}
+				}
+
+				swap_ideas = {
+					remove_idea = GER_refnaz_idea_2
+					add_idea = GER_refnaz_idea_3
+				}
+			}
 			else = {
 				effect_tooltip = {
 
@@ -1204,7 +1217,7 @@ focus_tree = {
 
 				tooltip = GER_refnaz_and_wehrmacht_support_requirement_tt_0
 	
-				check_variable = { var = GER_refnaz_influence value = 50 compare = greater_than }
+				check_variable = { var = GER_refnaz_influence value = 30 compare = greater_than }
 			}
 			custom_trigger_tooltip = {
 
@@ -1450,6 +1463,21 @@ focus_tree = {
 
 		mutually_exclusive = {focus = GER_break_with_refnaz}
 
+		available = {
+			custom_trigger_tooltip = {
+
+				tooltip = GER_cooperate_with_nsdap_support_requirement_tt_0
+	
+				check_variable = { var = GER_refnaz_influence value = 30 compare = greater_than }
+			}
+			custom_trigger_tooltip = {
+
+				tooltip = GER_cooperate_with_nsdap_support_requirement_tt_1
+	
+				check_variable = { var = GER_nsdap_influence value = 30 compare = greater_than }
+			}
+		}
+
 
 		cost = 5
 		x = -1
@@ -1457,7 +1485,11 @@ focus_tree = {
 		relative_position_id = GER_limit_general_plan_ost
 
 		completion_reward = {
-			#shift NSDAP to be in refnaz corner
+			custom_effect_tooltip = GER_cooperate_with_nsdap_completion_tt
+			add_to_variable = {GER_refnaz_influence = 10}
+			add_to_variable = {GER_nsdap_influence = -10}
+
+			GER_faction_cleanup = yes
 
 		}
 
