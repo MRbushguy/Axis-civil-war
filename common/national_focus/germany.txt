@@ -1515,7 +1515,44 @@ focus_tree = {
 		relative_position_id = GER_cooperate_with_nsdap
 
 		completion_reward = {
-			#use rails/camps of the general_plan_ost to better local economies
+			if = {
+				limit = {
+					GER = {
+						has_idea = GER_refnaz_idea_0
+					}
+				}
+
+				swap_ideas = {
+					remove_idea = GER_refnaz_idea_0
+					add_idea = GER_refnaz_idea_2
+				}
+
+
+			}
+			else_if = {
+
+				limit = {
+					GER = {
+						has_idea = GER_refnaz_idea_1
+					}
+				}
+
+				swap_ideas = {
+					remove_idea = GER_refnaz_idea_1
+					add_idea = GER_refnaz_idea_3
+				}
+			}
+			else = {
+				effect_tooltip = {
+
+					swap_ideas = {
+						remove_idea = GER_refnaz_idea_0
+						add_idea = GER_refnaz_idea_2
+					}
+				}
+
+
+			}
 
 		}
 
