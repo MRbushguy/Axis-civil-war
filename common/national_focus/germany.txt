@@ -225,6 +225,8 @@ focus_tree = {
 			focus = GER_wehrmacht_involvement
 		}
 
+		mutually_exclusive = {focus = GER_refnaz_and_wehrmacht}
+
 		available = {
 			custom_trigger_tooltip = {
 
@@ -234,7 +236,6 @@ focus_tree = {
 			}
 		}
 
-		mutually_exclusive = {focus = GER_refnaz_and_wehrmacht}
 
 		x = 1
 		y = 1
@@ -857,6 +858,14 @@ focus_tree = {
 			has_completed_focus = GER_wehrmacht_alone
 		}
 
+		available = {
+
+			custom_trigger_tooltip = {
+				tooltip = GER_evaluate_plunder_economy_support_requirement_tt
+				check_variable = { var = GER_refnaz_influence value = 25 compare = greater_than }
+			}
+		}
+		cost = 4
 		x = 1
 		y = 2
 		relative_position_id = GER_refnaz_reforms
@@ -878,6 +887,19 @@ focus_tree = {
 				}
 
 
+			}
+			else_if = {
+
+				limit = {
+					GER = {
+						has_idea = GER_refnaz_idea_2
+					}
+				}
+
+				swap_ideas = {
+					remove_idea = GER_refnaz_idea_2
+					add_idea = GER_refnaz_idea_3
+				}
 			}
 			else = {
 				effect_tooltip = {
@@ -1187,8 +1209,27 @@ focus_tree = {
 			focus = GER_refnaz_involvement
 		}
 
+
 		mutually_exclusive = {focus = GER_wehrmacht_alone}
 
+		available = {
+			custom_trigger_tooltip = {
+
+				tooltip = GER_refnaz_and_wehrmacht_support_requirement_tt_0
+	
+				check_variable = { var = GER_refnaz_influence value = 30 compare = greater_than }
+			}
+			custom_trigger_tooltip = {
+
+				tooltip = GER_refnaz_and_wehrmacht_support_requirement_tt_1
+	
+				check_variable = { var = GER_wehrmacht_influence value = 30 compare = greater_than }
+			}
+		}
+
+		
+
+		cost = 3
 		x = -1
 		y = 1
 		relative_position_id =  GER_refnaz_involvement
@@ -1307,28 +1348,28 @@ focus_tree = {
 				check_variable = { var = GER_refnaz_influence value = 15 compare = greater_than }
 			}
 		}
-
+		cost = 3
 		x = 2
 		y = 1
 		relative_position_id = GER_refnaz_reforms
 
 		completion_reward = {
 
-			custom_effect_tooltip = GER_evaluate_plunder_economy_completion_tt
+			
 			add_to_variable = {GER_refnaz_influence = 5}
-
+			custom_effect_tooltip = GER_evaluate_plunder_economy_completion_tt_1
 			GER_faction_cleanup = yes
 
 			#might give buffs to the colonies, lower resistance growth
-
-			
+			GER_decrease_plunder_economy = yes
+			custom_effect_tooltip = GER_evaluate_plunder_economy_completion_tt_2
 			hidden_effect = {
 				add_days_mission_timeout = {
 					mission = GER_ticking_plunder_economy
 					days = 40
 				}
 
-				GER_decrease_plunder_economy = yes
+				
 
 				POL = {
 					decrease_devastation = yes
@@ -1422,14 +1463,33 @@ focus_tree = {
 
 		mutually_exclusive = {focus = GER_break_with_refnaz}
 
+		available = {
+			custom_trigger_tooltip = {
+
+				tooltip = GER_cooperate_with_nsdap_support_requirement_tt_0
+	
+				check_variable = { var = GER_refnaz_influence value = 30 compare = greater_than }
+			}
+			custom_trigger_tooltip = {
+
+				tooltip = GER_cooperate_with_nsdap_support_requirement_tt_1
+	
+				check_variable = { var = GER_nsdap_influence value = 30 compare = greater_than }
+			}
+		}
 
 
+		cost = 5
 		x = -1
 		y = 1
 		relative_position_id = GER_limit_general_plan_ost
 
 		completion_reward = {
-			#shift NSDAP to be in refnaz corner
+			custom_effect_tooltip = GER_cooperate_with_nsdap_completion_tt
+			add_to_variable = {GER_refnaz_influence = 10}
+			add_to_variable = {GER_nsdap_influence = -10}
+
+			GER_faction_cleanup = yes
 
 		}
 
@@ -1449,13 +1509,50 @@ focus_tree = {
 
 
 
-
+		cost = 4
 		x = -1
 		y = 1
 		relative_position_id = GER_cooperate_with_nsdap
 
 		completion_reward = {
-			#use rails/camps of the general_plan_ost to better local economies
+			if = {
+				limit = {
+					GER = {
+						has_idea = GER_refnaz_idea_0
+					}
+				}
+
+				swap_ideas = {
+					remove_idea = GER_refnaz_idea_0
+					add_idea = GER_refnaz_idea_2
+				}
+
+
+			}
+			else_if = {
+
+				limit = {
+					GER = {
+						has_idea = GER_refnaz_idea_1
+					}
+				}
+
+				swap_ideas = {
+					remove_idea = GER_refnaz_idea_1
+					add_idea = GER_refnaz_idea_3
+				}
+			}
+			else = {
+				effect_tooltip = {
+
+					swap_ideas = {
+						remove_idea = GER_refnaz_idea_0
+						add_idea = GER_refnaz_idea_2
+					}
+				}
+
+
+			}
 
 		}
 
@@ -1478,7 +1575,7 @@ focus_tree = {
 
 
 
-
+		cost = 4
 		x = -1
 		y = 1
 		relative_position_id = GER_repurpose_infrastructure
@@ -1505,7 +1602,7 @@ focus_tree = {
 
 
 
-
+		cost = 4
 		x = 0
 		y = 1
 		relative_position_id =  GER_revitalize_civilian_sector
@@ -1532,7 +1629,7 @@ focus_tree = {
 
 
 
-
+		cost = 4
 		x = 0
 		y = 3
 		relative_position_id =  GER_cooperate_with_nsdap
@@ -1635,7 +1732,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_rebuild_NSDAP
 		}
-
+		cost = 4
 		x = -2
 		y = 1
 		relative_position_id = GER_rebuild_NSDAP
@@ -1671,7 +1768,7 @@ focus_tree = {
 		mutually_exclusive = {focus = GER_cooperate_with_nsdap}
 
 
-
+		cost = 4
 		x = 1
 		y = 1
 		relative_position_id = GER_limit_general_plan_ost
@@ -1701,7 +1798,7 @@ focus_tree = {
 
 
 
-
+		cost = 4
 		x = 1
 		y = 1
 		relative_position_id = GER_break_with_refnaz
@@ -1730,6 +1827,7 @@ focus_tree = {
 			focus = GER_rebuild_NSDAP
 		}
 
+		cost = 4
 		x = 2
 		y = 1
 		relative_position_id = GER_rebuild_NSDAP
@@ -1758,7 +1856,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_rebuild_NSDAP
 		}
-
+		cost = 4
 		x = 0
 		y = 1
 		relative_position_id = GER_rebuild_NSDAP
@@ -1770,7 +1868,7 @@ focus_tree = {
 
 			GER_faction_cleanup = yes
 
-			add_to_variable = {global.GER_gridlocked_government_advisor_cost = 0.1}
+			add_to_variable = {global.GER_gridlocked_government_political_power = -0.1}
 
 		}
 
@@ -1786,7 +1884,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_glorify_the_feuhrer
 		}
-
+		cost = 4
 		x = -1
 		y = 2
 		relative_position_id = GER_glorify_the_feuhrer
@@ -1796,7 +1894,7 @@ focus_tree = {
 
 			GER_faction_cleanup = yes
 
-			add_to_variable = {global.GER_gridlocked_government_advisor_cost = 0.10}
+			add_to_variable = {global.GER_gridlocked_government_advisor_cost = -0.10}
 
 			custom_effect_tooltip = GER_use_bueracracy_completion_tt
 
@@ -1812,7 +1910,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_glorify_the_feuhrer
 		}
-
+		cost = 4
 		x = 1
 		y = 2
 		relative_position_id = GER_glorify_the_feuhrer
@@ -1823,7 +1921,7 @@ focus_tree = {
 
 			GER_faction_cleanup = yes
 
-			add_to_variable = {global.GER_gridlocked_government_political_power = 0.05}
+			add_to_variable = {global.GER_gridlocked_government_political_power = -0.05}
 
 			custom_effect_tooltip = GER_power_of_pen_completion_tt
 		}
@@ -1842,7 +1940,7 @@ focus_tree = {
 
 		mutually_exclusive = { focus = GER_trust_in_SS}
 
-
+		cost = 4
 		x = -1
 		y = 1
 		relative_position_id =  GER_increase_general_plan_ost
@@ -1869,7 +1967,7 @@ focus_tree = {
 
 
 
-
+		cost = 4
 		x = -1
 		y = 1
 		relative_position_id =  GER_our_own_path
@@ -1911,7 +2009,7 @@ focus_tree = {
 
 
 
-
+		cost = 4
 		x = 0
 		y = 4
 		relative_position_id =  GER_glorify_the_feuhrer
@@ -1930,7 +2028,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_a_successor
 		}
-
+		cost = 4
 		x = -2
 		y = 1
 		relative_position_id = GER_a_successor
@@ -1952,7 +2050,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_a_successor
 		}
-
+		cost = 4
 		x = 2
 		y = 1
 		relative_position_id = GER_a_successor
@@ -1974,7 +2072,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_a_successor
 		}
-
+		cost = 4
 		x = 0
 		y = 1
 		relative_position_id = GER_a_successor
@@ -1997,7 +2095,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_the_plot
 		}
-
+		cost = 4
 		x = 0
 		y = 1
 		relative_position_id = GER_the_plot
@@ -2028,7 +2126,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_internal_affairs
 		}
-
+		cost = 4
 		x = 4
 		y = 1
 		relative_position_id = GER_internal_affairs
@@ -2057,7 +2155,7 @@ focus_tree = {
 		prerequisite = {
 			focus =GER_SS_business_ventures
 		}
-
+		cost = 4
 		x = -1
 		y = 2
 		relative_position_id = GER_SS_business_ventures
@@ -2076,7 +2174,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_SS_increase_recruitment
 		}
-
+		cost = 4
 		x = 0
 		y = 2
 		relative_position_id = GER_SS_increase_recruitment
@@ -2100,7 +2198,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_SS_business_ventures
 		}
-
+		cost = 4
 		x = -3
 		y = 1
 		relative_position_id = GER_SS_business_ventures
@@ -2130,7 +2228,7 @@ focus_tree = {
 
 		mutually_exclusive = { focus = GER_limit_general_plan_ost}
 
-
+		cost = 4
 		x = -2
 		y = 1
 		relative_position_id =  GER_SS_political_lobbying
@@ -2176,7 +2274,7 @@ focus_tree = {
 
 		mutually_exclusive = { focus = GER_our_own_path}
 
-
+		cost = 4
 		x = 1
 		y = 1
 		relative_position_id =  GER_increase_general_plan_ost
@@ -2201,7 +2299,7 @@ focus_tree = {
 
 
 
-
+		cost = 4
 		x = 0
 		y = 1
 		relative_position_id =  GER_trust_in_SS
@@ -2230,7 +2328,7 @@ focus_tree = {
 
 
 
-
+		cost = 4
 		x = -1
 		y = 1
 		relative_position_id =  GER_hire_SS_informants
@@ -2257,7 +2355,7 @@ focus_tree = {
 
 
 
-
+		cost = 4
 		x = 0
 		y = 1
 		relative_position_id =  GER_the_surveillance_act
@@ -2285,7 +2383,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_SS_business_ventures
 		}
-
+		cost = 4
 		x = 1
 		y = 1
 		relative_position_id = GER_SS_business_ventures
@@ -2308,6 +2406,7 @@ focus_tree = {
 			focus = GER_SS_invest_in_burgundy
 		}
 
+		cost = 4
 		x = 0
 		y = 2
 		relative_position_id = GER_SS_invest_in_burgundy
@@ -2334,6 +2433,7 @@ focus_tree = {
 			focus = GER_subordinate_to_SS
 		}
 
+		cost = 4
 		x = 1
 		y = 1
 		relative_position_id = GER_SS_burgundy_model_state
@@ -2357,7 +2457,7 @@ focus_tree = {
 		}
 
 
-
+		cost = 4
 		x = -1
 		y = 1
 		relative_position_id = GER_SS_burgundy_base_of_operations
@@ -2381,7 +2481,7 @@ focus_tree = {
 		}
 
 
-
+		cost = 4
 		x = 1
 		y = 1
 		relative_position_id = GER_unite_disparate_factions
@@ -2409,7 +2509,7 @@ focus_tree = {
 		}
 
 
-
+		cost = 4
 		x = -2
 		y = 1
 		relative_position_id = GER_infiltrate_command
@@ -2434,7 +2534,7 @@ focus_tree = {
 		}
 
 
-
+		cost = 4
 		x = 1
 		y = 1
 		relative_position_id = GER_SS_burgundy_base_of_operations
@@ -2461,6 +2561,7 @@ focus_tree = {
 			focus = GER_SS_business_ventures
 		}
 
+		cost = 4
 		x = 3
 		y = 1
 		relative_position_id = GER_SS_business_ventures
@@ -2522,7 +2623,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_address_the_military
 		}
-
+		cost = 4
 		x = -4
 		y = 1
 		relative_position_id = GER_address_the_military
@@ -2543,7 +2644,9 @@ focus_tree = {
 
 		prerequisite = {
 			focus = GER_official_waffen_SS_budget
-		}
+		}	
+
+		cost = 4
 
 		x = 0
 		y = 2
@@ -2567,7 +2670,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_our_true_rival
 		}
-
+		cost = 4
 		x = -1
 		y = 1
 		relative_position_id = GER_our_true_rival
@@ -2589,7 +2692,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_our_true_rival
 		}
-
+		cost = 4
 		x = 1
 		y = 1
 		relative_position_id = GER_our_true_rival
@@ -2616,7 +2719,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_sabotage
 		}
-
+		cost = 4
 		x = 1
 		y = 1
 		relative_position_id = GER_public_perception
@@ -2640,7 +2743,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_seek_official_support
 		}
-
+		cost = 4
 		x = 0
 		y = 1
 		relative_position_id = GER_seek_official_support
@@ -2660,7 +2763,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_friends_in_airforce
 		}
-
+		cost = 4
 		x = -1
 		y = 1
 		relative_position_id = GER_friends_in_airforce
@@ -2682,7 +2785,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_friends_in_airforce
 		}
-
+		cost = 4
 		x = 1
 		y = 1
 		relative_position_id = GER_friends_in_airforce
@@ -2713,7 +2816,7 @@ focus_tree = {
 		}
 
 
-
+		cost = 4
 
 		x = 1
 		y = 1
@@ -2746,7 +2849,7 @@ focus_tree = {
 
 
 
-
+		cost = 4
 		x = -1
 		y = 1
 		relative_position_id = GER_a_common_cause
@@ -2774,6 +2877,7 @@ focus_tree = {
 			focus = GER_official_waffen_SS_budget
 		}
 
+		cost = 4
 		x = -2
 		y = 1
 		relative_position_id = GER_official_waffen_SS_budget
@@ -2795,7 +2899,7 @@ focus_tree = {
 		prerequisite = {focus = GER_waffen_ss_training}
 		prerequisite = {focus = GER_SS_burgundian_training_camps}
 
-
+		cost = 4
 
 		x = -2
 		y = 1
@@ -2819,7 +2923,7 @@ focus_tree = {
 
 		mutually_exclusive = {focus = GER_SS_split}
 
-
+		cost = 4
 
 		x = -1
 		y = 1
@@ -2844,7 +2948,7 @@ focus_tree = {
 		mutually_exclusive = {focus = GER_subordinate_to_SS}
 
 
-
+		cost = 4
 
 
 		x = 1
@@ -2868,7 +2972,7 @@ focus_tree = {
 		prerequisite = {focus = GER_SS_split}
 
 
-
+		cost = 4
 
 		x = 0
 		y = 1
@@ -2893,6 +2997,8 @@ focus_tree = {
 			focus = GER_official_waffen_SS_budget
 		}
 
+		cost = 4
+
 		x = 1
 		y = 1
 		relative_position_id = GER_official_waffen_SS_budget
@@ -2914,6 +3020,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_create_leadership
 		}
+		cost = 4
 
 		x = 1
 		y = 1
@@ -2940,6 +3047,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_proper_training
 		}
+
+		cost = 4
 
 		x = 1
 		y = 2
@@ -2968,6 +3077,7 @@ focus_tree = {
 		prerequisite = {focus = GER_control_radiowaves}
 
 
+		cost = 4
 
 		x = 0
 		y = 2
@@ -3002,6 +3112,8 @@ focus_tree = {
 			focus = GER_address_the_military
 		}
 
+		cost = 4
+
 		x = 4
 		y = 1
 		relative_position_id = GER_address_the_military
@@ -3029,6 +3141,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_propaganda_warmongering
 		}
+
+		cost = 4
 
 		x = -2
 		y = 1
@@ -3059,6 +3173,8 @@ focus_tree = {
 			focus = GER_methods_of_victory
 		}
 
+		cost = 4
+
 		x = 0
 		y = 1
 		relative_position_id = GER_methods_of_victory
@@ -3080,6 +3196,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_we_need_an_army
 		}
+
+		cost = 4
 
 		x = -1
 		y = 2
@@ -3109,6 +3227,8 @@ focus_tree = {
 
 		mutually_exclusive = { focus = GER_steal_from_militarist_stockpiles}
 
+		cost = 4
+
 		x = -1
 		y = 1
 		relative_position_id = GER_wehrmacht_connections
@@ -3132,7 +3252,7 @@ focus_tree = {
 		}
 
 
-
+		cost = 4
 
 		x = 1
 		y = 1
@@ -3159,6 +3279,8 @@ focus_tree = {
 			focus = GER_define_the_enemy
 		}
 
+		cost = 4
+
 		x = 2
 		y = 1
 		relative_position_id = GER_methods_of_victory
@@ -3180,6 +3302,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_the_technology
 		}
+
+		cost = 4
 
 		x = 0
 		y = 1
@@ -3203,6 +3327,8 @@ focus_tree = {
 			focus = GER_wunderwaffe
 		}
 
+		cost = 4
+
 		x = 0
 		y = 1
 		relative_position_id = GER_wunderwaffe
@@ -3224,6 +3350,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_methods_of_victory
 		}
+
+		cost = 4
 
 		x = -2
 		y = 1
@@ -3250,6 +3378,8 @@ focus_tree = {
 			focus = GER_propaganda_warmongering
 		}
 
+		cost = 4
+
 		x = 2
 		y = 1
 		relative_position_id = GER_propaganda_warmongering
@@ -3272,6 +3402,8 @@ focus_tree = {
 			focus = GER_define_the_enemy
 		}
 
+		cost = 4
+
 		x = 1
 		y = 1
 		relative_position_id = GER_define_the_enemy
@@ -3292,6 +3424,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_militarist_propaganda
 		}
+
+		cost = 4
 
 		x = 1
 		y = 2
@@ -3314,6 +3448,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_widen_circle_of_trust
 		}
+
+		cost = 4
 
 		x = 0
 		y = 1
@@ -3341,6 +3477,8 @@ focus_tree = {
 			focus = GER_wehrmacht_connections
 		}
 
+		cost = 4
+
 		x = -3
 		y = 1
 		relative_position_id = GER_corporate_support
@@ -3362,6 +3500,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_united_militarist_coalition
 		}
+
+		cost = 4
 
 
 		x = -1
@@ -3385,6 +3525,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_united_militarist_coalition
 		}
+
+		cost = 4
 
 
 		x = 1
@@ -3418,7 +3560,7 @@ focus_tree = {
 		}
 
 
-
+		cost = 4
 
 		x = 0
 		y = 1
@@ -4078,7 +4220,7 @@ focus_tree = {
 		prerequisite = {focus = GER_cancel_tripartite}
 		x = -7
 		y = 1
-
+		cost = 4
 		relative_position_id = GER_cancel_tripartite
 
 		completion_reward = {
@@ -4108,6 +4250,7 @@ focus_tree = {
 		prerequisite = {focus = GER_the_french_border}
 		x = -2
 		y = 1
+		cost = 4
 		relative_position_id = GER_the_french_border
 
 		completion_reward = {
@@ -4137,6 +4280,7 @@ focus_tree = {
 
 		x = 0
 		y = 2
+		cost = 4
 		relative_position_id = GER_strengthen_france
 
 		completion_reward= {
@@ -4156,6 +4300,7 @@ focus_tree = {
 
 		x = 0
 		y = 1
+		cost = 4
 		relative_position_id = GER_prioritize_france
 
 		completion_reward = {
@@ -4198,6 +4343,7 @@ focus_tree = {
 
 		x = 0
 		y = 2
+		cost = 4
 		relative_position_id = GER_strengthen_ordenstaat
 
 		completion_reward = {
@@ -4213,6 +4359,7 @@ focus_tree = {
 		prerequisite = {focus = GER_prioritize_ordenstaat}
 		x = 0
 		y = 1
+		cost = 4
 		relative_position_id = GER_prioritize_ordenstaat
 
 		completion_reward = {
@@ -4230,6 +4377,7 @@ focus_tree = {
 			focus = GER_strengthen_france}
 		x = 0
 		y = 2
+		cost = 4
 		relative_position_id = GER_the_french_border
 
 		completion_reward = {
@@ -4271,6 +4419,7 @@ focus_tree = {
 
 		x = 0
 		y = 3
+		cost = 4
 		relative_position_id = GER_buildup_french_infrastructure
 
 		completion_reward = {
@@ -4306,6 +4455,7 @@ focus_tree = {
 		prerequisite = {focus = GER_cancel_tripartite}
 		x = -14
 		y = 2
+		cost = 4
 
 		relative_position_id = GER_cancel_tripartite
 
@@ -4327,6 +4477,7 @@ focus_tree = {
 		prerequisite = {focus = GER_the_unspoken_war}
 		x = -2
 		y = 1
+		cost = 4
 
 		relative_position_id = GER_the_unspoken_war
 
@@ -4344,6 +4495,7 @@ focus_tree = {
 		prerequisite = {focus = GER_the_unspoken_war}
 		x = 2
 		y = 1
+		cost = 4
 
 		relative_position_id = GER_the_unspoken_war
 
@@ -4362,6 +4514,7 @@ focus_tree = {
 			focus = GER_marina_italia }
 		x = -1
 		y = 2
+		cost = 4
 		relative_position_id = GER_the_unspoken_war
 
 		completion_reward ={
@@ -4379,6 +4532,7 @@ focus_tree = {
 
 		x = 1
 		y = 2
+		cost = 4
 		relative_position_id = GER_the_unspoken_war
 
 		completion_reward ={
@@ -4395,6 +4549,7 @@ focus_tree = {
 
 		x = -3
 		y = 2
+		cost = 4
 		relative_position_id = GER_the_unspoken_war
 
 		completion_reward ={
@@ -4411,6 +4566,7 @@ focus_tree = {
 
 		x = 3
 		y = 2
+		cost = 4
 		relative_position_id = GER_the_unspoken_war
 
 		completion_reward ={
@@ -4431,6 +4587,7 @@ focus_tree = {
 
 		x = 0
 		y = 3
+		cost = 4
 		relative_position_id = GER_the_unspoken_war
 
 		completion_reward = {
@@ -4449,6 +4606,7 @@ focus_tree = {
 
 		x = 0
 		y = 1
+		cost = 4
 		relative_position_id = GER_formalize_raiding_strategy
 		completion_reward = {
 
@@ -4467,6 +4625,7 @@ focus_tree = {
 		prerequisite = {focus = GER_cancel_tripartite}
 		x = 6
 		y = 1
+
 
 		relative_position_id = GER_cancel_tripartite
 
@@ -4516,6 +4675,7 @@ focus_tree = {
 
 		x = -1
 		y = 1
+		cost = 4
 
 		relative_position_id = GER_control_of_the_balkans
 
@@ -4534,6 +4694,7 @@ focus_tree = {
 
 		x = 0
 		y = 1
+		cost = 4
 
 		relative_position_id = GER_prepare_against_hungary
 
@@ -4554,6 +4715,7 @@ focus_tree = {
 
 		x = 1
 		y = 1
+		cost = 4
 
 		relative_position_id = GER_control_of_the_balkans
 
@@ -4570,6 +4732,7 @@ focus_tree = {
 
 		x = 0
 		y = 1
+		cost = 4
 
 		relative_position_id = GER_the_romanian_question
 
@@ -4588,6 +4751,7 @@ focus_tree = {
 			focus = GER_bargain_with_slovakia}
 		x = 0
 		y = 3
+		cost = 4
 		relative_position_id = GER_control_of_the_balkans
 
 		completion_reward = {
@@ -4603,6 +4767,7 @@ focus_tree = {
 
 		x = 0
 		y = 4
+		cost = 4
 
 		relative_position_id = GER_control_of_the_balkans
 
@@ -4619,6 +4784,7 @@ focus_tree = {
 		prerequisite = {focus = GER_plan_new_balkan_partition}
 		x = 0
 		y = 5
+		cost = 4
 
 		relative_position_id = GER_control_of_the_balkans
 
@@ -4694,6 +4860,7 @@ focus_tree = {
 
 		x = 2
 		y = 1
+		cost = 4
 
 		relative_position_id = GER_the_asian_front
 
@@ -4741,6 +4908,7 @@ focus_tree = {
 
 		x = 0
 		y = 1
+		cost = 4
 
 		relative_position_id = GER_the_soviet_rot
 
@@ -4759,6 +4927,7 @@ focus_tree = {
 
 		x = 0
 		y = 2
+		cost = 4
 		relative_position_id = GER_the_asian_front
 
 		completion_reward = {
@@ -4774,6 +4943,7 @@ focus_tree = {
 
 		x = -2
 		y = 1
+		cost = 4
 		relative_position_id = GER_the_asian_front
 
 		completion_reward = {
@@ -4790,6 +4960,7 @@ focus_tree = {
 
 		x = 0
 		y = 1
+		cost = 4
 		relative_position_id = GER_turkish_question
 
 		completion_reward = {
@@ -4807,6 +4978,7 @@ focus_tree = {
 		mutually_exclusive = {focus = GER_nationalize_oil}
 		x = -1
 		y = 1
+		cost = 4
 		relative_position_id = GER_caucasus_oil
 
 		completion_reward = {
@@ -4825,6 +4997,7 @@ focus_tree = {
 		mutually_exclusive = {focus = GER_buffer_state_solution}
 		x = 1
 		y = 1
+		cost = 4
 		relative_position_id = GER_caucasus_oil
 
 		completion_reward = {
@@ -4842,6 +5015,7 @@ focus_tree = {
 
 		x = 0
 		y = 2
+		cost = 4
 		relative_position_id = GER_caucasus_oil
 
 		completion_reward = {
@@ -4869,6 +5043,7 @@ focus_tree = {
 
 		x = 0
 		y = 2
+		cost = 4
 		relative_position_id = GER_step_up_italian_border_controls
 
 		completion_reward = {
