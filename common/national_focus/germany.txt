@@ -1515,6 +1515,9 @@ focus_tree = {
 		relative_position_id = GER_cooperate_with_nsdap
 
 		completion_reward = {
+			add_to_variable = {GER_refnaz_influence = 10}
+			custom_effect_tooltip = GER_repurpose_infrastructure_completion_tt_0
+
 			if = {
 				limit = {
 					GER = {
@@ -1553,6 +1556,63 @@ focus_tree = {
 
 
 			}
+
+			custom_effect_tooltip = GER_repurpose_infrastructure_completion_tt_1
+
+			hidden_effect = {
+				85 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+				5 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+				763 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+				98 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+
+				97 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+			}	
 
 		}
 

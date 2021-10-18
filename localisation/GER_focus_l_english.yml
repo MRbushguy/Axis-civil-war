@@ -98,6 +98,8 @@ GER_cooperate_with_nsdap_completion_tt:0 "£decision_faction_ger_reform_small §
 
 GER_repurpose_infrastructure:0 "Repurpose Infrastructure"
 GER_repurpose_infrastructure_desc:0 "With the gradual decrease of Generalplan Ost, a large number of train and transport systems have become readily available. Himmler and the fanatics in Germany would have these used to accelerate the foolhardy German emigration to the eastern territories. Instead, we will return them to the civilian sector to improve the german industry in the east and strengthen local business."
+GER_repurpose_infrastructure_completion_tt_0:0 "£decision_faction_ger_reform_small §YReformists §!: §G+10§!\n\n"
+GER_repurpose_infrastructure_completion_tt_1:0 "Add maximum §YInfrastructure§! in §YDanzig§!, §YErmland-Masuren§!, §YKonigsberg§!, §YPlock§! and §YBialystok§!"
 ###NSDAP Branch
 GER_rebuild_NSDAP:0 "Rebuild the NSDAP"
 GER_rebuild_NSDAP_desc:0 "With the decline of Hitler's involvement in German affairs, party officials have been sidelined by military officers, and worse, agents of Himmler and the SS. We must reverse this trend by involving the party more in government."
