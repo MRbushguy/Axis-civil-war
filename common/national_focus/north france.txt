@@ -1,0 +1,508 @@
+﻿focus_tree = {
+	id = vichy_france
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 11
+			tag = FRA
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	
+	focus = {
+
+		id = FRA_state_of_vichy
+		#icon
+
+		prerequisite = {}
+
+		allowed = {}
+
+
+
+		x = 20
+		y = 1
+
+		cost = 4
+
+
+		completion_reward = {
+			#adds political power and stability to FRA_national_regeneration
+			add_political_power = 150
+			add_stability = 0.05
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_the_marshal
+		#icon
+
+		prerequisite = {focus = FRA_state_of_vichy}
+
+		allowed = {}
+
+
+
+		x = 0
+		y = 1
+
+		relative_position_id = FRA_state_of_vichy
+
+		cost = 4
+
+
+		completion_reward = {
+			#adds trait to Petain "council guidance" political advisor cost -15%
+
+			add_country_leader_trait = council_guidance
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_the_parliament
+		#icon
+
+		prerequisite = {focus = FRA_state_of_vichy}
+
+		allowed = {}
+
+
+
+		x = -3
+		y = 2
+
+		relative_position_id = FRA_state_of_vichy
+
+		cost = 4
+
+
+		completion_reward = {
+			#adds idea Vichy Parliament (-0.01 national socialism)
+			
+
+		}
+
+	}
+
+
+
+	focus = {
+
+		id = FRA_the_dissidents
+		#icon
+
+		prerequisite = {focus = FRA_state_of_vichy}
+
+		allowed = {}
+
+
+
+		x = 3
+		y = 2
+
+		relative_position_id = FRA_state_of_vichy
+
+		cost = 4
+
+
+		completion_reward = {
+			#adds idea Vichy Parliament (empty idea at start)
+			
+
+		}
+
+	}
+
+
+
+	focus = {
+
+		id = FRA_reconstruction_plan
+		#icon
+
+		prerequisite = {}
+
+		allowed = {}
+
+
+
+		x = 40
+		y = 1
+
+		cost = 4
+
+
+		completion_reward = {
+			#symbolize fixing the destruction germany caused them after leeching from their resources throughout ww2
+			#add an idea called "reconstruction program", has 15% consumer goods, +10% construction
+			#taking focus allows decisions to temporarily reduce civ cost + increase construction bonuses
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_humanitarian_aid
+		#icon
+
+		prerequisite = {focus = FRA_reconstruction_plan}
+
+		allowed = {}
+
+
+
+		x = -4
+		y = 1
+		relative_position_id = FRA_reconstruction_plan
+		cost = 4
+
+
+		completion_reward = {
+			#alleviates some of the famine effects
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_business_aid
+		#icon
+
+		prerequisite = {focus = FRA_reconstruction_plan}
+
+		allowed = {}
+
+
+
+		x = 4
+		y = 1
+		relative_position_id = FRA_reconstruction_plan
+		cost = 4
+
+
+		completion_reward = {
+			#alleviates some famine effects, adds 1% support to authoritarian
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_geopolitics
+		#icon
+
+		prerequisite = {}
+
+		allowed = {}
+
+
+
+		x = 8
+		y = 1
+		cost = 4
+
+
+		completion_reward = {
+			#France gains claims on french core land (currently they are already cores, fix this first)
+			#add 5% war support
+			
+
+		}
+
+	}
+
+	
+
+	focus = {
+
+		id = FRA_the_breton_situation
+		#icon
+
+		prerequisite = {focus = FRA_geopolitics}
+
+		allowed = {}
+
+	
+
+		relative_position_id = FRA_geopolitics
+		x = -5
+		y = 1
+		cost = 4
+
+
+		completion_reward = {
+			#France focuses on bringing brittney back into spears
+			# -100 political power, add spirit that gives some industry to France
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_integrate_brittany
+		#icon
+
+		prerequisite = {focus = FRA_the_breton_situation}
+
+		allowed = {}
+
+		relative_position_id = FRA_the_breton_situation
+		x = -1
+		y = 1
+		cost = 4
+
+
+		completion_reward = {
+			#unlocks set of decisions that integrate more and more
+			# when decisions reach 60% completion becomes a puppet, when 100% annex
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_colonial_dreams
+		#icon
+
+		prerequisite = {focus = FRA_geopolitics}
+
+		allowed = {}
+
+		
+
+		relative_position_id = FRA_geopolitics
+		x = 5
+		y = 1
+		cost = 4
+
+
+		completion_reward = {
+			#France talks about reclaiming colonies
+			#gets national spirit: 35% political power gain, -0.50% weekly stability
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_talks_with_allies
+		#icon
+
+		prerequisite = {focus = FRA_colonial_dreams}
+
+		allowed = {}
+
+		
+
+		relative_position_id = FRA_colonial_dreams
+		x = 1
+		y = 1
+		cost = 4
+
+
+		completion_reward = {
+			#France talks about reclaiming colonies
+			#gets national spirit: 35% political power gain, -0.50% weekly stability
+			
+
+		}
+
+	}
+
+
+
+	focus = {
+
+		id = FRA_the_narrow_path
+		#icon
+
+		prerequisite = {focus = FRA_geopolitics}
+
+		allowed = {}
+
+		mutually_exclusive = {focus = FRA_german_occupation}
+		mutually_exclusive = {focus = FRA_italian_occupation}
+
+		relative_position_id = FRA_geopolitics
+		x = 0
+		y = 2
+		cost = 4
+
+
+		completion_reward = {
+			#France focuses on reclaiming both german and italian land
+			#gets national spirit: 35% political power gain, -0.50% weekly stability
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_italian_occupation
+		#icon
+
+		prerequisite = {focus = FRA_geopolitics}
+
+		allowed = {}
+
+		mutually_exclusive = {focus = FRA_german_occupation}
+		mutually_exclusive = {focus = FRA_the_narrow_path}
+
+		relative_position_id = FRA_geopolitics
+		x = -3
+		y = 2
+		cost = 4
+
+
+		completion_reward = {
+			#France focuses on reclaiming italian land
+			#gets national spirit: 15% political power gain, -0.10% weekly stability
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_german_occupation
+		#icon
+
+		prerequisite = {focus = FRA_geopolitics}
+
+		allowed = {}
+
+		mutually_exclusive = {focus = FRA_italian_occupation}
+		mutually_exclusive = {focus = FRA_the_narrow_path}
+
+
+		relative_position_id = FRA_geopolitics
+		x = 3
+		y = 2
+		cost = 4
+
+
+		completion_reward = {
+			#France focuses on reclaiming german land
+			#gets national spirit: 15% political power gain, -0.10% weekly stability
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_the_narrow_path
+		#icon
+
+		prerequisite = {focus = FRA_geopolitics}
+
+		allowed = {}
+
+		mutually_exclusive = {focus = FRA_german_occupation}
+		mutually_exclusive = {focus = FRA_italian_occupation}
+
+		relative_position_id = FRA_geopolitics
+		x = 0
+		y = 2
+		cost = 4
+
+
+		completion_reward = {
+			#France focuses on reclaiming both german and italian land
+			#gets national spirit: 35% political power gain, -0.50% weekly stability
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_rebuild_france_army
+		#icon
+
+		prerequisite = {focus = FRA_italian_occupation
+						focus = FRA_the_narrow_path
+						focus = FRA_german_occupation}
+
+		allowed = {}
+
+		
+
+		relative_position_id = FRA_geopolitics
+		x = 0
+		y = 3
+		cost = 4
+
+
+		completion_reward = {
+			#France focuses on rebuilding the army that was destroyed
+			#gets national spirit: 2.50% recruitable pop, mobilization speed 100% (if this is a thing)
+			#unlocks decision that will pay germany reparations to return French POWs who are still working in Germany 
+			
+
+		}
+
+	}
+
+	focus = {
+
+		id = FRA_paris_frontline_city
+		#icon
+
+		prerequisite = {focus = FRA_german_occupation
+						focus = FRA_the_narrow_path}
+
+		allowed = {}
+
+		
+
+		relative_position_id = FRA_german_occupation
+		x = -1
+		y = 1
+		cost = 4
+
+
+		completion_reward = {
+			#France focuses on reclaiming both german and italian land
+			#adds 5 forts to paris, east and west, adds defensive dynamic modifier to the province
+			
+
+		}
+
+	}
+
+
+
+
+
+}
