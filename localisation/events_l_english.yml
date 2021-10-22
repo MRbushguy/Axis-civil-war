@@ -150,10 +150,13 @@ italystart.4.a:0 "after all, One is none, Two is one"
 
 #south france
 
-south_france_start.1.t:0 "Request back algeria"
+south_france_start.1.t:0 "Requesting back algeria"
 south_france_start.1.d:0 ""
 south_france_start.1.a:0 ""
 
+south_france_start.2.t:0 "Italy transfers us algeria"
+south_france_start.2.d:0 ""
+south_france_start.2.a:0 ""
 
 #Serbia events 
 

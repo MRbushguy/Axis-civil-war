@@ -1,8 +1,13 @@
-﻿focus_tree = {
-	id = south_france_algeria
+﻿
+
+
+
+
+focus_tree = {
+	id = south_france_start
 
 	country = {
-		factor = 2
+		factor = 0
 
 		modifier = {
 			add = 11
@@ -14,7 +19,8 @@
 
 	continuous_focus_position = { x = 50 y = 1000 }
 
-focus = { 
+
+	focus = { 
 
 		id = request_algeria
 		#icon
@@ -36,36 +42,12 @@ focus = {
 		}
 		}
 
-	}
-
-
-
-focus_tree = {
-	id = south_france_start
-
-	country = {
-		factor = 0
-
-		modifier = {
-			add = 11
-			tag = OCC
-		}
-	}
-
-	default = no
-
-	continuous_focus_position = { x = 50 y = 1000 }
-
-	
-
 	focus = { 
 
 		id = creating_civilian_goverment
 		#icon
 
-		prerequisite = {}
-
-		allowed = {}
+		allow_branch = { has_country_flag = has_algeria }
 
 
 
@@ -162,7 +144,7 @@ focus_tree = {
 		id = declaring_french_state
 		#icon
 
-		prerequisite = {focus = take_back_algeria}
+		prerequisite = {focus = petain's_influance}
 
 		allowed = {}
 
