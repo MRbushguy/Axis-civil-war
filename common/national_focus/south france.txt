@@ -32,7 +32,7 @@ focus_tree = {
 
 
 		x = 12
-		y = 1
+		y = 2
 
 		cost = 4
 
@@ -46,6 +46,10 @@ focus_tree = {
 
 		id = creating_civilian_goverment
 		#icon
+
+		prerequisite = {}
+
+		allowed = {}
 
 		allow_branch = { has_country_flag = has_algeria }
 
