@@ -4,8 +4,8 @@ state={
 	provinces={
 		11577 11580 
 	}
-	manpower=200000
-	buildings_max_level_factor=1.000
+	manpower= 199321
+	buildings_max_level_factor= 1.000
 
 	history = {
 		
@@ -16,8 +16,7 @@ state={
 
 
 
-	add_core_of = SER
-	add_core_of = CRO
+	
 
 	1947.1.1 = {
 		owner = SER
@@ -29,6 +28,8 @@ state={
 			infrastructure = 5
 			industrial_complex = 2
 			}
+			add_core_of = SER
+			add_core_of = CRO
 
 		}
 
