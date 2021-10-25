@@ -71,3 +71,24 @@ country_event = {
 	}
 }
 
+add_namespace = italy_south_france_stuff
+
+country_event = {
+	id = italy_south_france_stuff.1
+	title = italy_south_france_stuff.1.t
+	desc = italy_south_france_stuff.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = italystart.4.a
+		a
+		hidden_effect = {
+			country_event = { OCC = start.3 days = 2 }
+		}
+
+	}
+}
+
+
+

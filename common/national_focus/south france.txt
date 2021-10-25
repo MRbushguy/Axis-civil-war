@@ -1,0 +1,169 @@
+﻿
+
+
+
+
+focus_tree = {
+	id = south_france_start
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 11
+			tag = OCC
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+
+
+	focus = { 
+
+		id = request_algeria
+		#icon
+
+		prerequisite = {}
+
+		allowed = {}
+
+
+
+		x = 12
+		y = 2
+
+		cost = 4
+
+
+		completion_reward = {
+			country_event = south_france_start.1
+		}
+		}
+
+	focus = { 
+
+		id = creating_civilian_goverment
+		#icon
+
+		prerequisite = {}
+
+		allowed = {}
+
+		allow_branch = { has_country_flag = has_algeria }
+
+
+
+		x = 19
+		y = 1
+
+		cost = 4
+
+
+		completion_reward = {
+			
+
+		}
+
+	}
+
+	focus = { 
+
+		id = start_reconstruction
+		#icon
+
+		prerequisite = {focus = creating_civilian_goverment}
+
+		allowed = {}
+
+
+
+		x = 17
+		y = 2
+
+		cost = 4
+
+
+		completion_reward = {
+			
+
+		}
+
+	}
+
+	focus = { 
+
+		id = rebuild_army
+		#icon
+
+		prerequisite = {focus = creating_civilian_goverment}
+
+		allowed = {}
+
+
+
+		x = 21
+		y = 2
+
+		cost = 4
+
+
+		completion_reward = {
+			
+
+		}
+
+	}
+
+	focus = { 
+
+		id = petain's_influance
+		#icon
+
+		prerequisite = {focus = rebuild_army}
+		prerequisite = {focus = start_reconstruction }
+
+		allowed = {}
+
+
+
+		x = 19
+		y = 3
+
+		cost = 4
+
+
+		completion_reward = {
+			
+
+		}
+
+	}
+
+
+
+	focus = { 
+
+		id = declaring_french_state
+		#icon
+
+		prerequisite = {focus = petain's_influance}
+
+		allowed = {}
+
+
+
+		x = 19
+		y = 5
+
+		cost = 4
+
+
+		completion_reward = {
+			
+
+		}
+
+	}
+	}

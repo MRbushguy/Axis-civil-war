@@ -1,0 +1,44 @@
+ideas = {
+	country = {
+		chaos_goverment = {
+
+			modifier = {
+
+			stability_factor = -0.7
+			stability_weekly = -0.005
+			political_power_gain = -1
+			army_org_factor = -0.5
+
+
+
+				
+			}
+			}
+			
+
+			 petain_leading= {
+
+			modifier = {
+				
+			}
+
+			}
+
+			lesser_evil = {
+
+			modifier = {
+
+
+			monthly_population = 0.2
+			research_speed_factor = 0.02
+			production_speed_buildings_factor = 0.05
+			consumer_goods_factor = 0.06
+				
+			}
+
+			}
+
+
+			}
+			}
+

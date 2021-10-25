@@ -1,1 +1,10 @@
-#for later and to clear error log
+ai_historical_focus_list_GER = {
+	ai_national_focuses = {
+		# grab as fast as you can if available
+		GER_nazi_annual_congress
+		GER_exploit_the_east
+		GER_integrate_denmark
+		GER_address_the_military
+		GER_cancel_tripartite
+	}
+}

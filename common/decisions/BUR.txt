@@ -1,0 +1,50 @@
+BUR_expedition_decisions = {
+	
+
+	GER_ss_arctic_voyage = {
+
+		#icon = 
+
+		allowed = {
+			tag = BUR
+		}
+
+		available = {
+			tag = BUR
+		}
+
+		fire_only_once = yes
+
+
+		cost = 1
+
+		days_remove = 1
+
+		complete_effect = {
+			country_event = { id = ahnenerbe.6 }
+		}
+	}
+	GER_bolivia_expedition = {
+
+		#icon = 
+
+		allowed = {
+			tag = BUR
+		}
+
+		available = {
+			tag = BUR
+		}
+
+		fire_only_once = yes
+
+
+		cost = 1
+
+		days_remove = 1
+
+		complete_effect = {
+			country_event = { id = ahnenerbe.2 }
+		}
+	}
+}

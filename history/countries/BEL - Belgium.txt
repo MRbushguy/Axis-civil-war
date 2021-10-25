@@ -186,8 +186,7 @@ create_navy_leader = {
 	add_ideas = {
 		resistance_0
 		devastation_2
-		GER_gridlocked_government
-		GER_gridlocked_government_hidden
+		GER_gridlocked_government_puppet
 	}
 
 	add_dynamic_modifier = {

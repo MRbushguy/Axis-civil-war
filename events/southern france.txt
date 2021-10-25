@@ -1,0 +1,29 @@
+add_namespace = south_france_start
+
+country_event = {  #request algeria from italy
+
+	id = south_france_start.1
+	title = south_france_start.1.t
+	desc = south_france_start.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = south_france_start.1.a
+	}
+	}
+
+	country_event = {  #italy giving algeria 
+
+	id = south_france_start.2
+	title = south_france_start.2.t
+	desc = south_france_start.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = south_france_start.2.a
+		set_country_flag = has_algeria
+	}
+	}
+

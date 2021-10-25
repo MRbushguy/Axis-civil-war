@@ -121,8 +121,7 @@ set_popularities = {
 	 add_ideas = {
 		resistance_2
 		devastation_3
-		GER_gridlocked_government
-		GER_gridlocked_government_hidden
+		GER_gridlocked_government_puppet
 	}
 
 	add_dynamic_modifier = {

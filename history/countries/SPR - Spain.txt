@@ -108,7 +108,7 @@ set_stability = 0.5
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	#add_political_power = 1198
 
 	if = {
 		limit = {
