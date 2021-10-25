@@ -5,7 +5,7 @@ ideas = {
 			modifier = {
 
 			stability_factor = -0.7
-			stability_weekly = -0.05
+			stability_weekly = -0.005
 			political_power_gain = -1
 			army_org_factor = -0.5
 
