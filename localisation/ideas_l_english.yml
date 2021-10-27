@@ -256,24 +256,6 @@ sea_and_air_domination_desc:0 "Domination of the Sea and Air have become as impo
 Modern_roman_army:0 "Modern Roman Army"
 Modern_roman_army_desc:0 " The Roman army was famously known for its invincibility on the fields of battle, it's harsh but ultimately fruitful training, and most of all, how it hosted some of the most brilliant Generals in all of history. \n\nBut though Rome fell centuries ago, it looks as like the roman army was born again. In the same place it was established more than 2000 years ago. Taking the form known as the Italian armed forces. Who seems to possess all the traits that made the Roman army the legend that it is known for. \n\ninvincibility on the fields of battle, harsh but ultimately fruitful training, and it hosted some of the most brilliant Generals of the 20th centry"
 
-mafia_remnats_5:0 "Mafia Remnats"
-mafia_remnats_5_desc:0 "From 1924 to 1929 Mussolini along with the Prefect of Palermo, Cesare Mori. Lunched a sweeping reform that changed the south forever.\nThe complete annihilation of the Sicilian mafia. Not only by arresting its members. But by eliminating the Cultural influence the mafia had in the region. \n\nThis Reform was a complete success. But the task was never truly finished, and while the power the mafias had on the region is gone, crime is still common in southern Italy. And any mission to combat that was suspended in the outbreak of WW2.\n\nTo have complete authority over the south and make it the agriculture powerhouse we plan it to be. we need to make southern Italy completely crime free."
-
-mafia_remnats_4:0 "Mafia Remnats"
-mafia_remnats_4_desc:0 "From 1924 to 1929 Mussolini along with the Prefect of Palermo, Cesare Mori. Lunched a sweeping reform that changed the south forever.\nThe complete annihilation of the Sicilian mafia. Not only by arresting its members. But by eliminating the Cultural influence the mafia had in the region. \n\nThis Reform was a complete success. But the task was never truly finished, and while the power the mafias had on the region is gone, crime is still common in southern Italy. And any mission to combat that was suspended in the outbreak of WW2.\n\nTo have complete authority over the south and make it the agriculture powerhouse we plan it to be. we need to make southern Italy completely crime free."
-
-mafia_remnats_3:0 "Mafia Remnats"
-mafia_remnats_3_desc:0 "From 1924 to 1929 Mussolini along with the Prefect of Palermo, Cesare Mori. Lunched a sweeping reform that changed the south forever.\nThe complete annihilation of the Sicilian mafia. Not only by arresting its members. But by eliminating the Cultural influence the mafia had in the region. \n\nThis Reform was a complete success. But the task was never truly finished, and while the power the mafias had on the region is gone, crime is still common in southern Italy. And any mission to combat that was suspended in the outbreak of WW2.\n\nTo have complete authority over the south and make it the agriculture powerhouse we plan it to be. we need to make southern Italy completely crime free."
-
-mafia_remnats_2:0 "Mafia Remnats"
-mafia_remnats_2_desc:0 "From 1924 to 1929 Mussolini along with the Prefect of Palermo, Cesare Mori. Lunched a sweeping reform that changed the south forever.\nThe complete annihilation of the Sicilian mafia. Not only by arresting its members. But by eliminating the Cultural influence the mafia had in the region. \n\nThis Reform was a complete success. But the task was never truly finished, and while the power the mafias had on the region is gone, crime is still common in southern Italy. And any mission to combat that was suspended in the outbreak of WW2.\n\nTo have complete authority over the south and make it the agriculture powerhouse we plan it to be. we need to make southern Italy completely crime free."
-
-mafia_remnats_1:0 "Mafia Remnats"
-mafia_remnats_1_desc:0 "From 1924 to 1929 Mussolini along with the Prefect of Palermo, Cesare Mori. Lunched a sweeping reform that changed the south forever.\nThe complete annihilation of the Sicilian mafia. Not only by arresting its members. But by eliminating the Cultural influence the mafia had in the region. \n\nThis Reform was a complete success. But the task was never truly finished, and while the power the mafias had on the region is gone, crime is still common in southern Italy. And any mission to combat that was suspended in the outbreak of WW2.\n\nTo have complete authority over the south and make it the agriculture powerhouse we plan it to be. we need to make southern Italy completely crime free."
-
-ITA_mafia:0 "High crime rates"
-
-
 
 extreme_overstretch_empire_1:0 "Extremely overstretched Empire"
 extreme_overstretch_empire_1_desc:0 "Our empire controls vast resources of all types. But we have still yet to receive the benefits from our conquests. As the economies of the countries we invaded are in shambles, and the people of these countries aren’t collaborating with us, we are forced to increase the garrisons there, and our overall commitment to the empire, while getting little in return.\n\n§YCurrently, our Colonies are struggling to assert their control§!"
@@ -308,7 +290,16 @@ extreme_overstretch_empire_benefit_2_desc:0 "Profits from the Empire"
 extreme_overstretch_empire_benefit_3:0 "Profits from the Empire"
 extreme_overstretch_empire_benefit_3_desc:0 "Profits from the Empire"
 
+#Southern france 
 
+chaos_goverment:0 "Chaos Government"
+chaos_goverment_desc:0 "The government, if you can even call it a government, exists only on paper. There are no ministers, and any form of chain of command is nonexistent. Chaos rages through the government building in Bordeaux, and it has been proven to be impossible to unite enough Politicians to form a proper government. \n\nUnless something major happens soon, a functioning government is a very distant dream"
+
+petain_leading:0 "Under Pétain's guidance"
+petain_leading_desc:0 ""
+
+lesser_evil:0 "The lesser Evil "
+lesser_evil_desc:0 ""
 
 
 
