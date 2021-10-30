@@ -26,12 +26,19 @@ IOC = {
 }
 ICA = {
 	color = rgb { 0 78 0 }
-	color_ui = rgb { 0 78 0 }
+	color_ui = rgb { 0 78 0 } 
 }
 IME = {
 	color = rgb { 61 107 0 }
 	color_ui = rgb { 61 107 0 }
 }
+
+ISA = {
+	color = rgb { 53 64 21 }
+	color_ui = rgb { 53 64 21 }
+}
+
+
 IEA = {
 	color = rgb { 61 77 10 }
 	color_ui = rgb { 61 77 10 }
