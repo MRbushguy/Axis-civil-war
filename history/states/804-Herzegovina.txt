@@ -24,8 +24,8 @@ state={
 		add_core_of = HRZ
 		add_core_of = SER
 		1947.1.1 = {
-			owner = ITA
-			controller = ITA
+			owner = SER
+			controller = SER
 			add_claim_of = SER
 		}
 	}
