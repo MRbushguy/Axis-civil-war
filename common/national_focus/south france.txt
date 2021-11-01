@@ -29,6 +29,8 @@ focus_tree = {
 
 		allowed = {}
 
+		allow_branch = { NOT = { has_country_flag = has_algeria } }
+
 
 
 		x = 12

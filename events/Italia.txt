@@ -73,7 +73,8 @@ country_event = {
 
 add_namespace = italy_south_france_stuff
 
-country_event = {
+country_event = {  #italy gives algeria to southern france
+
 	id = italy_south_france_stuff.1
 	title = italy_south_france_stuff.1.t
 	desc = italy_south_france_stuff.1.d
@@ -81,13 +82,14 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = italystart.4.a
-		a
-		hidden_effect = {
-			country_event = { OCC = start.3 days = 2 }
-		}
+		name = italy_south_france_stuff.2.a
 
+		OCC = {
+			country_event = { id = south_france_start.2 hours = 24 }
+			
+		}
 	}
+	
 }
 
 

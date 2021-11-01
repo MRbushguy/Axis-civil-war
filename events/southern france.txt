@@ -11,14 +11,16 @@ country_event = {  #request algeria from italy
 	option = {
 		name = south_france_start.1.a
 		ITA = {
-			country_event = { id = south_france_start.2 hours = 24 }
+			country_event = { id = italy_south_france_stuff.1 hours = 24 }
 
 
 		}
 	}
 }
 
-country_event = {  #italy choice to give algeria or not
+
+
+country_event = {  #italy giving algeria 
 
 	id = south_france_start.2
 	title = south_france_start.2.t
@@ -28,46 +30,13 @@ country_event = {  #italy choice to give algeria or not
 
 	option = {
 		name = south_france_start.2.a
-		ai_chance = {
-			base = 90
-		}
+		custom_effect_tooltip = south_france_algeria_tt
 		OCC = {
-			country_event = { id = south_france_start.3 hours = 24 }
-			
-		}
-	}
-	option = {
-		name = south_france_start.2.b
+			OCC = {
+			country_event = { id = south_france_start.3 hours = 72 }
 
-		ai_chance = {
-			base = 10
 		}
 
-		OCC = {
-			country_event = { id = south_france_start.4 hours = 24 }
-			
-		}
-		
-	}
-}
-
-
-
-country_event = {  #italy giving algeria 
-
-	id = south_france_start.3
-	title = south_france_start.3.t
-	desc = south_france_start.3.d
-
-	is_triggered_only = yes
-
-	option = {
-		name = south_france_start.3.a
-		OCC = {
-			set_country_flag = has_algeria
-			mark_focus_tree_layout_dirty = yes
-
-			custom_effect_tooltip = south_france_algeria_tt
 
 			add_stability = 0.05
 			add_political_power = 100
@@ -82,19 +51,26 @@ country_event = {  #italy giving algeria
 	}
 }
 
-country_event = {  #italy refusing algeria 
 
-	id = south_france_start.4
-	title = south_france_start.4.t
-	desc = south_france_start.4.d
+
+
+country_event = {  #momentum in goverment 
+
+	id = south_france_start.3
+	title = south_france_start.3.t
+	desc = south_france_start.3.d
 
 	is_triggered_only = yes
 
 	option = {
-		name = south_france_start.4.a
+		name = south_france_start.3.a
+		OCC = {
+		set_country_flag = has_algeria
+			mark_focus_tree_layout_dirty = yes
+	
+		}
 		
 	}
 }
-
 
 
