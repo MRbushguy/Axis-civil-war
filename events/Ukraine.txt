@@ -79,6 +79,10 @@ country_event = { ##revolt event
 	option = {
 		name = ukraine.2.b
 
+		ai_chance = {
+			base = 0
+		}
+
 		add_popularity = {
 			ideology = communism
 			popularity = 0.1
