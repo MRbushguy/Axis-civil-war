@@ -40,7 +40,7 @@ country_event = {  #italy choice to give algeria or not
 		name = south_france_start.2.b
 
 		ai_chance = {
-			base = 0
+			base = 10
 		}
 
 		OCC = {
@@ -66,6 +66,17 @@ country_event = {  #italy giving algeria
 		OCC = {
 			set_country_flag = has_algeria
 			mark_focus_tree_layout_dirty = yes
+
+			custom_effect_tooltip = south_france_algeria_tt
+
+			add_stability = 0.05
+			add_political_power = 100
+
+			transfer_state = 460
+			transfer_state = 513
+			transfer_state = 459
+			transfer_state = 514
+
 		}
 		
 	}

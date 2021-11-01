@@ -161,6 +161,7 @@ south_france_start.2.a:0 ""
 south_france_start.3.t:0 "The Italians Agree!"
 south_france_start.3.d:0 ""
 south_france_start.3.a:0 ""
+south_france_algeria_tt:0 "§GUnlocks a focus tree to stabilize the government.§!\n\n"
 
 south_france_start.4.t:0 "The Italians Refuse!"
 south_france_start.4.d:0 ""
