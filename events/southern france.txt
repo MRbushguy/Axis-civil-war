@@ -10,10 +10,15 @@ country_event = {  #request algeria from italy
 
 	option = {
 		name = south_france_start.1.a
-	}
-	}
+		ITA = {
+			country_event = { id = south_france_start.2 hours = 24 }
 
-	country_event = {  #italy giving algeria 
+
+		}
+	}
+}
+
+country_event = {  #italy choice to give algeria or not
 
 	id = south_france_start.2
 	title = south_france_start.2.t
@@ -23,7 +28,62 @@ country_event = {  #request algeria from italy
 
 	option = {
 		name = south_france_start.2.a
-		set_country_flag = has_algeria
+		ai_chance = {
+			base = 90
+		}
+		OCC = {
+			country_event = { id = south_france_start.3 hours = 24 }
+			
+		}
 	}
+	option = {
+		name = south_france_start.2.b
+
+		ai_chance = {
+			base = 0
+		}
+
+		OCC = {
+			country_event = { id = south_france_start.4 hours = 24 }
+			
+		}
+		
 	}
+}
+
+
+
+country_event = {  #italy giving algeria 
+
+	id = south_france_start.3
+	title = south_france_start.3.t
+	desc = south_france_start.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = south_france_start.3.a
+		OCC = {
+			set_country_flag = has_algeria
+			mark_focus_tree_layout_dirty = yes
+		}
+		
+	}
+}
+
+country_event = {  #italy refusing algeria 
+
+	id = south_france_start.4
+	title = south_france_start.4.t
+	desc = south_france_start.4.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = south_france_start.4.a
+		
+	}
+}
+
+
 

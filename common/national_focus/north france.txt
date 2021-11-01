@@ -61,7 +61,7 @@
 
 
 		completion_reward = {
-			#adds trait to Petain "council guidance" political advisor cost -15%
+			#adds trait to leader "council guidance" political advisor cost -15%
 
 			add_country_leader_trait = council_guidance
 			
