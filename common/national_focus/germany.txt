@@ -1635,7 +1635,7 @@ focus_tree = {
 
 
 
-		cost = 4
+		cost = 8
 		x = -1
 		y = 1
 		relative_position_id = GER_repurpose_infrastructure

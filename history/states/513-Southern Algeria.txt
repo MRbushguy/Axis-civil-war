@@ -7,8 +7,8 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = OCC
-			controller = OCC
+		owner = ITA
+			controller = ITA
 			add_core_of = OCC
 		add_core_of = ALG
 		victory_points = {
