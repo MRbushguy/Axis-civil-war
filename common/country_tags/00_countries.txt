@@ -22,6 +22,10 @@ LAH = "countries/Leibstandarte.txt"
 DAR = "countries/Das Reich.txt"
 TKF = "countries/Totenkopf.txt"
 PLI = "countries/Polizei.txt"
+FAG = "countries/French Algeria.txt"
+AZD = "countries/Azad Hind.txt"
+HYD = "countries/Hyderabad.txt"
+KAS = "countries/Kashmir.txt"
 
 
 

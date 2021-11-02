@@ -137,11 +137,6 @@ if = {
 		}
 	}
 	set_autonomy = {
-		target = RAJ
-		autonomous_state = autonomy_british_dominion
-		freedom_level = 0.35
-	}
-	set_autonomy = {
 		target = CAN
 		autonomous_state = autonomy_british_dominion
 		freedom_level = 0.4
@@ -163,7 +158,6 @@ if = {
 	}
 	else = {
 		puppet = MAL
-		puppet = RAJ
 	}
 }
 
@@ -344,8 +338,7 @@ add_to_faction = AST
 add_to_faction = NZL
 add_to_faction = SAF
 
-give_military_access = RAJ
-add_to_faction = RAJ		# Must be after puppet
+		# Must be after puppet
 add_to_faction = MAL
 
 #give_guarantee = CZE
@@ -1623,11 +1616,7 @@ if = {
 			has_dlc = "Man the Guns"
 		}
 	}
-	set_autonomy = {
-		target = RAJ
-		autonomous_state = autonomy_british_dominion
-		freedom_level = 0.7
-	}
+	
 	set_autonomy = {
 		target = CAN
 		autonomous_state = autonomy_british_dominion

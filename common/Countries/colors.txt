@@ -8,8 +8,8 @@ JPC = {
 }
 
 CHI = {
-	color = rgb { 0 26 255}
-	color_ui = rgb { 0 26 255 }
+	color = rgb { 0 26 149}
+	color_ui = rgb { 0 26 149 }
 }
 
 LOA = {
