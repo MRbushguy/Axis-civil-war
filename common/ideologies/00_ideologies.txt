@@ -410,8 +410,8 @@ nationalism = {
 
 		types = {
 
-			social_democracy = {
-			}
+		social_democracy = {
+		}
 
 		multiculture_democracy = {
 		}

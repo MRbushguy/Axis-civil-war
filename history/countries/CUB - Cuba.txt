@@ -58,7 +58,7 @@ set_convoys = 20
 }
 
 set_politics = {
-	ruling_party = democratic_right
+	ruling_party = democratic_left
 	last_election = "1936.1.10"
 	election_frequency = 48
 	elections_allowed = yes
@@ -69,25 +69,12 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "José Agripino Barnet"
-	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
-	picture = "GFX_portrait_cuba_jose_barnet"
+	name = "Ramón Grau"
+	desc = ""
+	picture = "Ramón Grau.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = social_democracy
 	traits = {
 		#
-	}
-}
-
-1939.1.1 = {
-	create_country_leader = {
-		name = "Federico Laredo Brú"
-		desc = "POLITICS_FEDERICO_LAREDO_BRU_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = socialism
-		traits = {
-			#
-		}
 	}
 }
