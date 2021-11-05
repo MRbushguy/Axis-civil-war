@@ -71,6 +71,9 @@ country_event = {
 	}
 }
 
+
+#stuff abouth southern france
+
 add_namespace = italy_south_france_stuff
 
 country_event = {  #italy gives algeria to southern france

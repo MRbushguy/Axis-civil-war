@@ -64,6 +64,7 @@ country_event = {  #momentum in goverment
 
 	option = {
 		name = south_france_start.3.a
+		custom_effect_tooltip = south_france_algeria_tt_2
 		OCC = {
 		set_country_flag = has_algeria
 			mark_focus_tree_layout_dirty = yes
