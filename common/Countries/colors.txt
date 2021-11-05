@@ -2,8 +2,8 @@
 
 
 JPC = {
-	color = rgb { 252 132 3 }
-	color_ui = rgb { 252 132 3 }	
+	color = rgb { 240 120 3 }
+	color_ui = rgb { 240 120 3 }	
 
 }
 
@@ -73,6 +73,28 @@ GOL = {
 	color = rgb { 89 0 0 } 
 	color_ui = rgb { 89 0 0 }
 }
+
+KAS = {
+	color = rgb { 202 39 0 } 
+	color_ui = rgb {  202 39 0 }
+}
+
+FAG = {
+	color = rgb { 0 88 100 } 
+	color_ui = rgb { 0 88 100 }
+}
+
+AZD = {
+	color = rgb { 138 98 35 } 
+	color_ui = rgb { 138 98 35 }
+}
+
+HYD	 = {
+	color = rgb { 219 89 23 } 
+	color_ui = rgb { 219 89 23 }
+}
+
+
 
 
 
