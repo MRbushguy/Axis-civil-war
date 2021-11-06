@@ -45,6 +45,11 @@ OCC_ITA = {
 	color_ui = rgb { 0 107 103 }
 }
 
+OCC_FAG = {
+	color = rgb { 0 88 100 }
+	color_ui = rgb { 0 88 100 }
+}
+
 WAFFEN_SS = {
 color = rgb { 0 0 0 }
 color_ui = rgb { 0 0 0 }

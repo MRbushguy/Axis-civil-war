@@ -41,10 +41,14 @@ country_event = {  #italy giving algeria
 			add_stability = 0.05
 			add_political_power = 100
 
-			transfer_state = 460
-			transfer_state = 513
-			transfer_state = 459
-			transfer_state = 514
+			puppet = FAG
+
+			hidden_effect = {
+
+			FAG = { set_cosmetic_tag = OCC_FAG }
+			}
+
+
 
 		}
 		

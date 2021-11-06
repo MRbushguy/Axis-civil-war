@@ -1086,6 +1086,7 @@ if = {
 
 	create_faction = ita_sphere
 	puppet = OCC
+	puppet = FAG
 	puppet = CRO
 	puppet = SER
 	puppet = ALB

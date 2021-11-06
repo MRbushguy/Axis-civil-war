@@ -64,8 +64,6 @@ create_field_marshal = {
 1947.1.1 = {
 
 	oob = CHI_1947
-	add_to_faction = SIK
-	add_to_faction = XSM
 
 	set_politics = {
 		ruling_party = authoritarianism

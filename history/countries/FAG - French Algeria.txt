@@ -68,6 +68,10 @@ set_popularities = {
 }
 
 1947.1.1 = {
+
+set_cosmetic_tag = ITA_puppet
+ 
+
 	set_politics = {
 		ruling_party = authoritarianism
 		last_election = "1936.1.1"
