@@ -295,7 +295,7 @@ extreme_overstretch_empire_benefit_3_desc:0 "Profits from the Empire"
 chaos_goverment:0 "Chaos Government"
 chaos_goverment_desc:0 "The government, if you can even call it a government, exists only on paper. There are no ministers, and any form of chain of command is nonexistent. Chaos rages through the government building in Bordeaux, and it has been proven to be impossible to unite enough Politicians to form a proper government. \n\nUnless something major happens soon, a functioning government is a very distant dream"
 
-petain_leading:0 "Under Pétain's guidance"
+petain_leading:0 "Under Pétain's guidance \n\n§BThe effects of this national spirit are represented as petain's trait§!"
 petain_leading_desc:0 ""
 
 lesser_evil:0 "The lesser Evil "
