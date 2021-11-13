@@ -150,7 +150,7 @@ focus_tree = {
 		id = declaring_french_state
 		#icon
 
-		prerequisite = {focus = petain's_influance}
+		prerequisite = {focus = petain's_guidance_rivals_none}
 
 		allowed = {}
 
