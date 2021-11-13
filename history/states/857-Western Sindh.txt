@@ -1,10 +1,13 @@
-
 state={
-	id=443
-	name="STATE_443"
+	id=857
+	name="STATE_857"
 
 	history={
 		owner = RAJ
+
+		victory_points = {
+			3456 3 
+		}
 		
 		buildings = {
 			infrastructure = 5
@@ -25,7 +28,7 @@ state={
 	}
 
 	provinces={
-		1147 1971 1980 4003 4110 4382 7084 
+		3456 7049 10108 10735 
 	}
 	manpower=1987000
 	buildings_max_level_factor=1.000
