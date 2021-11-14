@@ -172,11 +172,15 @@ ENG_shattered_empire:0 "Shattered Empire"
  ENG_shattered_empire_desc:0 "Though much of Britain has been repaired, its dominions took the war as an opportunity to distance themselves from the crown. Vital necessities once supplied by the colonies now remain unreplaced."
 
 ### USA
- USA_ascendant_german_american_bund:0 "Ascendant German American Bund"
- USA_ascendant_german_american_bund_desc:0 "With the Third Reich's conquests stretching from Paris to Moscow a previously small threat to democracy has only grown. Their outreach to German-Americans has extended across the United States, even managing to elect local and state officials. If we allow their influence to expand the evil of the German tyranny may find new roots in fertile American soil."
+ USA_dead_am_dream:0"Dead American Dream"
+ USA_dead_am_dream_desc:0"America has sat on the sidelines of international affairs for more than two decades. Decaying industry, record unemployment, inflation, lack of social mobility, and wealth disparities plague the United States. Truman was unable to tackle the malaise, nor has Warren. The lack of accountability or efficacy in the nation's political class has left the door open to political radicals who circle the fetid carcass of Lady Liberty like starved vultures."
+ USA_segregation:0"Racial Segregation"
+ USA_segregation_desc:0"Separate but equal has been a farce of American politics for nearly six decades. Institutionalized economic, social, and educational disadvantages for African Americans have been either disregarded by Northerners or enforced by Southerners. Segregated public schools, restrooms, restaurants, and even drinking fountains are more common than not depending on what part of the country one might visit. Social division upon racial lines are rife in society and racism is commonplace. Does America have the political will to embrace a fledgling Civil Rights movement or will it be smothered in its infancy?"
+ USA_ascendant_german_american_bund:0 "Fascist Sympathies"
+ USA_ascendant_german_american_bund_desc:0 "With the Third Reich's conquests stretching from Paris to Moscow a previously small threat to democracy known as the German American Bund has only grown. Their outreach to German-Americans and others has extended across the United States, even managing to elect local and state officials. If we allow their influence to expand the evil of the German tyranny may find new roots in fertile American soil. Other fascist firebrands such as Pelley and his Silver Legion have also been holding massive rallies from coast to coast emboldening a growing class of unemployed, disenfranchised white men with a new sense of racial consciousness."
 
  USA_revived_klan:0 "Revived Klan"
- USA_revived_klan_desc:0 "What once were secretive gatherings around burning crosses have become acts of terror, lynchings, and violence to propagate segregation."
+ USA_revived_klan_desc:0 "The villainous Klan who until recent memory were dormant have now brought their burning crosses all across the Midwest and rural America. With their influence comes acts of terror, lynchings, and violence to propagate what they believe to be the "natual order" of society."
  
  #occupationLoc
  resistance_0:0 "Crushed Resistance"

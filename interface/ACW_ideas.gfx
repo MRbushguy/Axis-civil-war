@@ -138,6 +138,14 @@ spriteTypes = {
 	}
 
 	### USA
+		SpriteType = {
+		name = "GFX_idea_USA_dead_am_dream"
+		texturefile = "gfx/interface/ideas/USA/dead american dream.dds"
+	}
+		SpriteType = {
+		name = "GFX_idea_USA_segregation"
+		texturefile = "gfx/interface/ideas/USA/segregation.dds"
+	}
 	SpriteType = {
 		name = "GFX_idea_USA_ascendant_german_american_bund"
 		texturefile = "gfx/interface/ideas/USA/german_american_bund.dds"

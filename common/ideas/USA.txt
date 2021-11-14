@@ -1,7 +1,35 @@
 ideas = {
 
 	country = {
+		USA_dead_am_dream = {
+			picture = dead american dream
 
+			allowed = {
+				original_tag = USA
+			}
+
+			modifier = {
+				stability_factor = -0.010
+				political_power_cost = 0.5
+				consumer_goods_factor = 0.25
+				production_speed_industrial_complex_factor = -0.10
+				production_speed_arms_factory_factor = -0.10
+				industrial_capacity_factory = -0.10
+
+			}
+		}
+		USA_segregation = {
+			picture = segregation
+
+			allowed = {
+				original_tag = USA
+			}
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_cost = 0.25
+			}
+		}
 		USA_ascendant_german_american_bund = {
 			picture = ascendant_german_american_bund
 
@@ -11,8 +39,9 @@ ideas = {
 
 			modifier = {
 				war_support_factor = -0.05
-				political_power_cost = 0.1
+				political_power_cost = 0.25
 				national_socialism_drift = 0.01
+				fascism_drift = 0.01
 			}
 		}
 		USA_revived_klan = {
@@ -24,8 +53,8 @@ ideas = {
 
 			modifier = {
 				stability_factor = -0.05
-				political_power_cost = 0.1
-				fascism_drift = 0.01
+				political_power_cost = 0.25
+				authoritarianism_drift = 0.01
 			}
 		}
 	}
